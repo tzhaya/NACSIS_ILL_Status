@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015544.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015544#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015544.json"},"foaf:name":[{"@value":"西南女学院大学 図書館"},{"@value":"セイナンジョガクインダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"西南女院"},{"@value":"セイナンジョイン","@language":"ja-hrkt"}],"cinii:memberid":"FA015544","cinii:organizationid":"KI008336","cinii:prefcode":"40","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"西南女学院大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"803-0835","v:label":"福岡県北九州市小倉北区井堀1-3-5"},"v:tel":[{"@type":"v:Tel","@value":"093-583-5959"}],"v:fax":[{"@type":"v:Fax","@value":"093-592-1885"}],"dc:description":["Library of Seinan Jo Gakuin University","1-3-5, Ibori, Kokurakita-ku, Kitakyushu-city, Fukuoka, JAPAN","URL:http://www.seinan-jo.ac.jp/library/ (Website)","閲覧対象者 :教職員・大学院生・学生・その他(館長が許可した者)","閲覧事前連絡 :所属校の図書館を通して電話連絡してください。","閲覧持参書類 :図書館発行の利用願書および身分証明書","閲覧注記等 :できるだけ平日17時までに利用してください。","開館時間 :8:45-20:00 (土曜日 -16:30, 春・冬期休暇中 9:00-16:30, 夏期休暇中 9:00-16:30)","休館日 :日祝日, 創立記念日(4月18日), キリスト降誕日(12月25日), 年末年始, 8月中旬の1週間, その他","ILL-Org:Library of Seinan Jo Gakuin University","ILL-Address:1-3-5, Ibori, Kokurakita-ku, Kitakyushu-shi, Fukuoka, JAPAN","ILL-ZIP:803-0835","ILL-Commun1:Tel:+81-93-583-5959 /FAX:+81-93-592-1885","臨時閉館(コロナウイルス感染症対策のため ～6/20)期間中(予定6月20日まで)のILL受付は処理が遅れる場合がありますのでご了承ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015544.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015544#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015544.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "西南女学院大学 図書館"
+        },
+        {
+          "@value": "セイナンジョガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "西南女院"
+        },
+        {
+          "@value": "セイナンジョイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015544",
+      "cinii:organizationid": "KI008336",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "西南女学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "803-0835",
+        "v:label": "福岡県北九州市小倉北区井堀1-3-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "093-583-5959"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "093-592-1885"
+        }
+      ],
+      "dc:description": [
+        "Library of Seinan Jo Gakuin University",
+        "1-3-5, Ibori, Kokurakita-ku, Kitakyushu-city, Fukuoka, JAPAN",
+        "URL:http://www.seinan-jo.ac.jp/library/ (Website)",
+        "閲覧対象者 :教職員・大学院生・学生・その他(館長が許可した者)",
+        "閲覧事前連絡 :所属校の図書館を通して電話連絡してください。",
+        "閲覧持参書類 :図書館発行の利用願書および身分証明書",
+        "閲覧注記等 :できるだけ平日17時までに利用してください。",
+        "開館時間 :8:45-20:00 (土曜日 -16:30, 春・冬期休暇中 9:00-16:30, 夏期休暇中 9:00-16:30)",
+        "休館日 :日祝日, 創立記念日(4月18日), キリスト降誕日(12月25日), 年末年始, 8月中旬の1週間, その他",
+        "ILL-Org:Library of Seinan Jo Gakuin University",
+        "ILL-Address:1-3-5, Ibori, Kokurakita-ku, Kitakyushu-shi, Fukuoka, JAPAN",
+        "ILL-ZIP:803-0835",
+        "ILL-Commun1:Tel:+81-93-583-5959 /FAX:+81-93-592-1885",
+        "臨時閉館(コロナウイルス感染症対策のため ～6/20)期間中(予定6月20日まで)のILL受付は処理が遅れる場合がありますのでご了承ください。"
+      ]
+    }
+  ]
+}

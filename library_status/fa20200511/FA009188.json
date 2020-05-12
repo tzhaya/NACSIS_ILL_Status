@@ -1,1 +1,116 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009188.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009188#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009188.json"},"foaf:name":[{"@value":"人間文化研究機構 国文学研究資料館"},{"@value":"ニンゲンブンカケンキュウキコウ コクブンガクケンキュウシリョウカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"国文研"},{"@value":"コクブンケン","@language":"ja-hrkt"}],"dcterms:hasPart":["書庫","参考","全冊開架","開架","事務室","遡及1","遡及2","院生室","歴史"],"cinii:memberid":"FA009188","cinii:organizationid":"KI00462X","cinii:prefcode":"13","cinii:mextid":"990200","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"人間文化研究機構 国文学研究資料館","v:adr":{"@type":"v:Address","v:postal-code":"190-0014","v:label":"東京都立川市緑町10-3"},"v:tel":[{"@type":"v:Tel","@value":"050(5533)2927(複写,貸借)"},{"@type":"v:Tel","@value":"050(5533)2928(貸借,閲覧)"}],"v:fax":[{"@type":"v:Fax","@value":"042(526)8607"}],"dc:description":["The National Institute of Japanese Literature","10-3 Midori-cho, Tachikawa-shi, Tokyo 190-0014, Japan","URL:http://www.nijl.ac.jp (website)","URL:http://www.nijl.ac.jp/pages/access.html","来館利用担当:情報サービス係","電話番号:050-5533-2926","開室時間:9:30〜18:00(土曜は9:30～17:00)","閲覧請求受付時間:9:30〜17:00(土曜は16:00まで)","文献複写受付時間:9:30〜16:00","注意事項:資料の請求記号、配架場所等をWebページの所蔵資料検索(OPAC)で事前確認してください","閲覧事前連絡・持参書類:特に必要なし(土曜の史料・貴重書・特別コレクションの閲覧は事前予約制)","館外貸出:10点20冊(紙焼写真本のサービス区分【A】、【B】のものに限る)","貸出期間:1日(翌日正午までに返却)","休室日:日曜日,祝日,振替休日,第2第4水曜日,書庫環境整備期間(4月末から5月上旬),年末年始,蔵書点検期間(2月末1週間),その他館長が必要と認めた日(詳しくはWebページのカレンダーを確認のこと)","閲覧対象者:当館の資料を必要とする人","ILL-STAFF:MOTOKI,Yoshie/YAMADA,Shinobu","ILL-Dept:Information Services Section","ILL-Org:National Institute of Japanese Literature","ILL-Address:10-3,Midori-cho,Tachikawa-shi,Tokyo,Japan","ILL-Zip:190-0014","ILLCommun1:Tel:+81-50-5533-2926 / Fax:+81-42-526-8607 / E-mail:etsuran@nijl.ac.jp","ILL-Commun2:OPAC:http://opac.nijl.ac.jp ; MCRFLMDB:http://base1.nijl.ac.jp/~micro/about.html ; HOME-Page:http://www.nijl.ac.jp","ILL-Accept:KERIS","ILL-Bill:KERIS=NII Fee Management Service","ILL-Loan-Period:Loan:N/A","ILL-Loan-Renew:Loan:N/A","ILL-Loan-Charge:Loan:N/A","ILL-Loan-Circulation:Loan:N/A","ILL-Copy-Charge:PHOTOCOPY:35YEN per sheet / MCRFRM/PHOTOCOPY:40YEN per exposure","ILL-Copy-Charge:Postage required. / Delivery method:via airmail."]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009188.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009188#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009188.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "人間文化研究機構 国文学研究資料館"
+        },
+        {
+          "@value": "ニンゲンブンカケンキュウキコウ コクブンガクケンキュウシリョウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国文研"
+        },
+        {
+          "@value": "コクブンケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "書庫",
+        "参考",
+        "全冊開架",
+        "開架",
+        "事務室",
+        "遡及1",
+        "遡及2",
+        "院生室",
+        "歴史"
+      ],
+      "cinii:memberid": "FA009188",
+      "cinii:organizationid": "KI00462X",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "990200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "人間文化研究機構 国文学研究資料館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "190-0014",
+        "v:label": "東京都立川市緑町10-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "050(5533)2927(複写,貸借)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "050(5533)2928(貸借,閲覧)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042(526)8607"
+        }
+      ],
+      "dc:description": [
+        "The National Institute of Japanese Literature",
+        "10-3 Midori-cho, Tachikawa-shi, Tokyo 190-0014, Japan",
+        "URL:http://www.nijl.ac.jp (website)",
+        "URL:http://www.nijl.ac.jp/pages/access.html",
+        "来館利用担当:情報サービス係",
+        "電話番号:050-5533-2926",
+        "開室時間:9:30〜18:00(土曜は9:30～17:00)",
+        "閲覧請求受付時間:9:30〜17:00(土曜は16:00まで)",
+        "文献複写受付時間:9:30〜16:00",
+        "注意事項:資料の請求記号、配架場所等をWebページの所蔵資料検索(OPAC)で事前確認してください",
+        "閲覧事前連絡・持参書類:特に必要なし(土曜の史料・貴重書・特別コレクションの閲覧は事前予約制)",
+        "館外貸出:10点20冊(紙焼写真本のサービス区分【A】、【B】のものに限る)",
+        "貸出期間:1日(翌日正午までに返却)",
+        "休室日:日曜日,祝日,振替休日,第2第4水曜日,書庫環境整備期間(4月末から5月上旬),年末年始,蔵書点検期間(2月末1週間),その他館長が必要と認めた日(詳しくはWebページのカレンダーを確認のこと)",
+        "閲覧対象者:当館の資料を必要とする人",
+        "ILL-STAFF:MOTOKI,Yoshie/YAMADA,Shinobu",
+        "ILL-Dept:Information Services Section",
+        "ILL-Org:National Institute of Japanese Literature",
+        "ILL-Address:10-3,Midori-cho,Tachikawa-shi,Tokyo,Japan",
+        "ILL-Zip:190-0014",
+        "ILLCommun1:Tel:+81-50-5533-2926 / Fax:+81-42-526-8607 / E-mail:etsuran@nijl.ac.jp",
+        "ILL-Commun2:OPAC:http://opac.nijl.ac.jp ; MCRFLMDB:http://base1.nijl.ac.jp/~micro/about.html ; HOME-Page:http://www.nijl.ac.jp",
+        "ILL-Accept:KERIS",
+        "ILL-Bill:KERIS=NII Fee Management Service",
+        "ILL-Loan-Period:Loan:N/A",
+        "ILL-Loan-Renew:Loan:N/A",
+        "ILL-Loan-Charge:Loan:N/A",
+        "ILL-Loan-Circulation:Loan:N/A",
+        "ILL-Copy-Charge:PHOTOCOPY:35YEN per sheet / MCRFRM/PHOTOCOPY:40YEN per exposure",
+        "ILL-Copy-Charge:Postage required. / Delivery method:via airmail."
+      ]
+    }
+  ]
+}

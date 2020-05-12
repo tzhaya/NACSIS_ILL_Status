@@ -1,1 +1,91 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA01177X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA01177X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA01177X.json"},"foaf:name":[{"@value":"東京大学 大学院教育学研究科・教育学部 図書室"},{"@value":"トウキョウダイガク ダイガクインキョウイクガクケンキュウカ・キョウイクガクブ トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東大育"},{"@value":"トウダイイク","@language":"ja-hrkt"}],"dcterms:hasPart":["図書"],"cinii:memberid":"FA01177X","cinii:organizationid":"KI000221","cinii:prefcode":"13","cinii:mextid":"002110","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東京大学 大学院教育学研究科・教育学部 図書室","v:adr":{"@type":"v:Address","v:postal-code":"113-0033","v:label":"東京都文京区本郷7-3-1"},"v:tel":[{"@type":"v:Tel","@value":"03-5841-3910"}],"v:fax":[{"@type":"v:Fax","@value":"03-5841-3915"}],"dc:description":["○来館利用担当: 教育学部図書チーム(図書運用担当)","○事前連絡について","学外の方が当室資料をご利用になる際は、必ず【事前連絡】をお願いします。","事前連絡は電子メールやファクシミリなどの文書でお願いします。電話ではお受けできません。","事前連絡に対して、いただいた手段と同じ方法で返信を差し上げます。ご来室の際には、当室からの返信(利用可否回答)をご持参下さい。","大学など研究機関にご所属の方は、ご所属機関の図書館を通じての事前連絡をお願いします。","研究機関にご所属でない方は、ご自身で電子メールやFAXで事前にご連絡ください。","事前連絡記載事項: 氏名、返信の連絡先、利用希望日、利用希望資料名(正確に)、巻次(雑誌・シリーズ物の場合)、請求記号","資料の所在や状態は東大OPAC(https://opac.dl.itc.u-tokyo.ac.jp/)でご確認ください。","連絡先: 電子メール→ikuto★p.u-tokyo.ac.jp (★は@に置き換えて下さい)、FAX番号→03-5841-3915","○休館日: 毎月第1水曜日(休日の場合は第2水曜日)、土曜日、日曜日、国民の祝日、年末年始、その他臨時閉室することがあります。(当室ホームページの開館日カレンダーを参照して下さい)","○館外貸出: 不可。学外の方への貸出は行っていません。","○研究室備付資料は利用できません。","○本学OPACの検索結果で配架場所もしくはコメント欄に「育図・医1」「育図・医1(NCB04)」「育図・医1(NCB06)」で始まる記載がある資料は、医学部1号館書庫に配置されています。医学部1号館書庫開室日程は図書室ホームページを参照して下さい。 http://ikuto.p.u-tokyo.ac.jp/guide_iichishoko.html","Graduate School of Education / Faculty of Education Library, The University of Tokyo","7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-0033 Japan","○ホームページURL http://ikuto.p.u-tokyo.ac.jp/"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01177X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01177X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01177X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 大学院教育学研究科・教育学部 図書室"
+        },
+        {
+          "@value": "トウキョウダイガク ダイガクインキョウイクガクケンキュウカ・キョウイクガクブ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大育"
+        },
+        {
+          "@value": "トウダイイク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA01177X",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002110",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 大学院教育学研究科・教育学部 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-3910"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-3915"
+        }
+      ],
+      "dc:description": [
+        "○来館利用担当: 教育学部図書チーム(図書運用担当)",
+        "○事前連絡について",
+        "学外の方が当室資料をご利用になる際は、必ず【事前連絡】をお願いします。",
+        "事前連絡は電子メールやファクシミリなどの文書でお願いします。電話ではお受けできません。",
+        "事前連絡に対して、いただいた手段と同じ方法で返信を差し上げます。ご来室の際には、当室からの返信(利用可否回答)をご持参下さい。",
+        "大学など研究機関にご所属の方は、ご所属機関の図書館を通じての事前連絡をお願いします。",
+        "研究機関にご所属でない方は、ご自身で電子メールやFAXで事前にご連絡ください。",
+        "事前連絡記載事項: 氏名、返信の連絡先、利用希望日、利用希望資料名(正確に)、巻次(雑誌・シリーズ物の場合)、請求記号",
+        "資料の所在や状態は東大OPAC(https://opac.dl.itc.u-tokyo.ac.jp/)でご確認ください。",
+        "連絡先: 電子メール→ikuto★p.u-tokyo.ac.jp (★は@に置き換えて下さい)、FAX番号→03-5841-3915",
+        "○休館日: 毎月第1水曜日(休日の場合は第2水曜日)、土曜日、日曜日、国民の祝日、年末年始、その他臨時閉室することがあります。(当室ホームページの開館日カレンダーを参照して下さい)",
+        "○館外貸出: 不可。学外の方への貸出は行っていません。",
+        "○研究室備付資料は利用できません。",
+        "○本学OPACの検索結果で配架場所もしくはコメント欄に「育図・医1」「育図・医1(NCB04)」「育図・医1(NCB06)」で始まる記載がある資料は、医学部1号館書庫に配置されています。医学部1号館書庫開室日程は図書室ホームページを参照して下さい。 http://ikuto.p.u-tokyo.ac.jp/guide_iichishoko.html",
+        "Graduate School of Education / Faculty of Education Library, The University of Tokyo",
+        "7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-0033 Japan",
+        "○ホームページURL http://ikuto.p.u-tokyo.ac.jp/"
+      ]
+    }
+  ]
+}

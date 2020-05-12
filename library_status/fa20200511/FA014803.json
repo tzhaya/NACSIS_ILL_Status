@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014803.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014803#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014803.json"},"foaf:name":[{"@value":"高知学園短期大学 図書館"},{"@value":"コウチガクエンタンキダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"高知学短"},{"@value":"コウチガクタン","@language":"ja-hrkt"}],"cinii:memberid":"FA014803","cinii:organizationid":"KI007923","cinii:prefcode":"39","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"高知学園短期大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"780-0955","v:label":"高知県高知市旭天神町292-26"},"v:tel":[{"@type":"v:Tel","@value":"088-850-0033"}],"v:fax":[{"@type":"v:Fax","@value":"088-840-1124"}],"dc:description":["Koch iGakuen College Library","292, Asahitenjin-cho, Kochi-shi, 780-0955","URL:http://www.kochi-gc.ac.jp","対図書館複写サービス:受付可(FAXによる申込も可)","図書館間相互貸借:受付可","相互貸借による貸出期間:郵送期間を含め1ヶ月","URL:http://www.kochi-gc.ac.jp (website)","URL:http://www.kochi-gc.ac.jp/gakuen/access.html (map)","来館利用担当:閲覧係","電話番号:088-850-0033","受付時間:8:30〜18:00","持参書類:身分を証明するもの","複写時間:8:30〜18:00","館外貸出:可","休館日:土曜日,日曜日,国民の祝日,12月29日〜1月3日,1月23日,入学式,蔵書点検期間,入学試験日,卒業式"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014803.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014803#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014803.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高知学園短期大学 図書館"
+        },
+        {
+          "@value": "コウチガクエンタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高知学短"
+        },
+        {
+          "@value": "コウチガクタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014803",
+      "cinii:organizationid": "KI007923",
+      "cinii:prefcode": "39",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "高知学園短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "780-0955",
+        "v:label": "高知県高知市旭天神町292-26"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-850-0033"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-840-1124"
+        }
+      ],
+      "dc:description": [
+        "Koch iGakuen College Library",
+        "292, Asahitenjin-cho, Kochi-shi, 780-0955",
+        "URL:http://www.kochi-gc.ac.jp",
+        "対図書館複写サービス:受付可(FAXによる申込も可)",
+        "図書館間相互貸借:受付可",
+        "相互貸借による貸出期間:郵送期間を含め1ヶ月",
+        "URL:http://www.kochi-gc.ac.jp (website)",
+        "URL:http://www.kochi-gc.ac.jp/gakuen/access.html (map)",
+        "来館利用担当:閲覧係",
+        "電話番号:088-850-0033",
+        "受付時間:8:30〜18:00",
+        "持参書類:身分を証明するもの",
+        "複写時間:8:30〜18:00",
+        "館外貸出:可",
+        "休館日:土曜日,日曜日,国民の祝日,12月29日〜1月3日,1月23日,入学式,蔵書点検期間,入学試験日,卒業式"
+      ]
+    }
+  ]
+}

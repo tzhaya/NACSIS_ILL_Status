@@ -1,1 +1,79 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA022594.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA022594#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA022594.json"},"foaf:name":[{"@value":"東京都立中央図書館"},{"@value":"トウキョウトリツチュウオウトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"都立図"},{"@value":"トリツト","@language":"ja-hrkt"}],"dcterms:hasPart":["中央","多摩"],"cinii:memberid":"FA022594","cinii:organizationid":"KI01345X","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東京都立中央図書館","v:adr":{"@type":"v:Address","v:postal-code":"106-8575","v:label":"東京都港区南麻布5-7-13"},"v:tel":[{"@type":"v:Tel","@value":"03-3442-8451(代)"}],"v:fax":[{"@type":"v:Fax","@value":"03-3447-8924"}],"dc:description":["Tokyo Metropolitan Central Library","5-7-13 Minami-Azabu Minato-ku,Tokyo (Postal Code 106-8575)","URL:http://www.library.metro.tokyo.jp/","注意事項:「多摩」と表示されている資料は、都立多摩図書館で所蔵しています。資料に関するお問い合わせは、都立多摩図書館 児童青少年資料担当(東京都国分寺市泉町2-2-26 TEL 042-359-4109)にお願いします。","相互貸借申込:都外公立図書館は、協力支援担当 へお申し込みください(「多摩」と表示されている資料は、都立多摩図書館 協力貸出担当 )。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022594.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022594#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022594.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都立中央図書館"
+        },
+        {
+          "@value": "トウキョウトリツチュウオウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "都立図"
+        },
+        {
+          "@value": "トリツト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "中央",
+        "多摩"
+      ],
+      "cinii:memberid": "FA022594",
+      "cinii:organizationid": "KI01345X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京都立中央図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "106-8575",
+        "v:label": "東京都港区南麻布5-7-13"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3442-8451(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3447-8924"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Metropolitan Central Library",
+        "5-7-13 Minami-Azabu Minato-ku,Tokyo (Postal Code 106-8575)",
+        "URL:http://www.library.metro.tokyo.jp/",
+        "注意事項:「多摩」と表示されている資料は、都立多摩図書館で所蔵しています。資料に関するお問い合わせは、都立多摩図書館 児童青少年資料担当(東京都国分寺市泉町2-2-26 TEL 042-359-4109)にお願いします。",
+        "相互貸借申込:都外公立図書館は、協力支援担当 へお申し込みください(「多摩」と表示されている資料は、都立多摩図書館 協力貸出担当 )。"
+      ]
+    }
+  ]
+}

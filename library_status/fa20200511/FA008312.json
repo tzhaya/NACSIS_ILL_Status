@@ -1,1 +1,77 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008312.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008312#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008312.json"},"foaf:name":[{"@value":"神戸女学院大学 図書館"},{"@value":"コウベジョガクインダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"神女院大"},{"@value":"シンジョインダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA008312","cinii:organizationid":"KI003911","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"神戸女学院大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"662-8505","v:label":"兵庫県西宮市岡田山4-1"},"v:tel":[{"@type":"v:Tel","@value":"0798-51-8565"}],"v:fax":[{"@type":"v:Fax","@value":"0798-51-8567"}],"dc:description":["来館利用担当 : 相互利用係","受付時間 : 月-金 9:00-16:00","注意事項 : 来館希望者は所属機関の図書館(室)または近くの公共図書館を通して事前の問い合わせ(FAXが望ましい)が必要,詳細はその際確認のこと","持参書類 : 資料利用依頼書(身分を証明する物を携行のこと)","館外貸出 : 不可","開館情報 : ホームページのカレンダー参照(土曜特別開館を行う場合があるが学外者の利用は不可)","※※※※※メールによる問い合わせ・申し込みはご遠慮ください※※※※※"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008312.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008312#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008312.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸女学院大学 図書館"
+        },
+        {
+          "@value": "コウベジョガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神女院大"
+        },
+        {
+          "@value": "シンジョインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008312",
+      "cinii:organizationid": "KI003911",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "神戸女学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "662-8505",
+        "v:label": "兵庫県西宮市岡田山4-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0798-51-8565"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0798-51-8567"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当 : 相互利用係",
+        "受付時間 : 月-金 9:00-16:00",
+        "注意事項 : 来館希望者は所属機関の図書館(室)または近くの公共図書館を通して事前の問い合わせ(FAXが望ましい)が必要,詳細はその際確認のこと",
+        "持参書類 : 資料利用依頼書(身分を証明する物を携行のこと)",
+        "館外貸出 : 不可",
+        "開館情報 : ホームページのカレンダー参照(土曜特別開館を行う場合があるが学外者の利用は不可)",
+        "※※※※※メールによる問い合わせ・申し込みはご遠慮ください※※※※※"
+      ]
+    }
+  ]
+}

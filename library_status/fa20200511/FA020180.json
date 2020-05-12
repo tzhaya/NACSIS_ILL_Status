@@ -1,1 +1,88 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA020180.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA020180#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA020180.json"},"foaf:name":[{"@value":"独立行政法人 日本芸術文化振興会"},{"@value":"ドクリツギョウセイホウジン ニホンゲイジュツブンカシンコウカイ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"国立劇場"},{"@value":"コクリツゲキジヨウ","@language":"ja-hrkt"}],"dcterms:hasPart":["国劇図","能楽図","文楽図"],"cinii:memberid":"FA020180","cinii:organizationid":"KI01213X","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"独立行政法人 日本芸術文化振興会","v:adr":{"@type":"v:Address","v:postal-code":"102-8656","v:label":"東京都千代田区隼町4番1号"},"dc:description":["JAPAN ARTS COUNCIL","4-1, Hayabusa-cho, Chiyodaku-ku, Tokyo","URL:http://www.ntj.jac.go.jp/useguide/lib.html","◆各劇場図書閲覧室利用案内◆","◎国立劇場 伝統芸能情報館図書閲覧室","・所在地:〒102-8656 東京都千代田区隼町4-1","国立劇場伝統芸能情報館2階","・電話番号:03-3265-6300","・開室時間:月曜-金曜、第2日曜 10:00-17:00、第3水曜(ただし祝日のときは、翌日の木曜) 10:00-20:00","・休室日:土曜・日曜・祝日・月末整理日・創立記念日(7/1)・特別整理期間(夏季・冬季)・年末年始","◎国立能楽堂図書閲覧室","・所在地:〒151-0051 東京都渋谷区千駄ヶ谷4-18-1","国立能楽堂地下1階","・電話番号:03-3423-1331(代表)","・開室時間:月曜-金曜 10:00-17:00","土曜 10:00-13:00","・休室日:日曜・祝日・月末整理日・創立記念日(7/1)・特別整理期間・年末年始","◎国立文楽劇場図書閲覧室","・所在地:〒542-0073 大阪府大阪市中央区日本橋1-12-10","国立文楽劇場3階","・電話番号:06-6212-2531(代表)","・開室時間:月曜-金曜 10:00-17:00","・休室日:土曜・日曜・祝日・月末整理日・創立記念日(7/1)・特別整理期間・年末年始","※注意事項:資料の所在は必ずご確認下さい。","※資料の貸出はおこなっておりません。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020180.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020180#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020180.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 日本芸術文化振興会"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジン ニホンゲイジュツブンカシンコウカイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国立劇場"
+        },
+        {
+          "@value": "コクリツゲキジヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "国劇図",
+        "能楽図",
+        "文楽図"
+      ],
+      "cinii:memberid": "FA020180",
+      "cinii:organizationid": "KI01213X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "独立行政法人 日本芸術文化振興会",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "102-8656",
+        "v:label": "東京都千代田区隼町4番1号"
+      },
+      "dc:description": [
+        "JAPAN ARTS COUNCIL",
+        "4-1, Hayabusa-cho, Chiyodaku-ku, Tokyo",
+        "URL:http://www.ntj.jac.go.jp/useguide/lib.html",
+        "◆各劇場図書閲覧室利用案内◆",
+        "◎国立劇場 伝統芸能情報館図書閲覧室",
+        "・所在地:〒102-8656 東京都千代田区隼町4-1",
+        "国立劇場伝統芸能情報館2階",
+        "・電話番号:03-3265-6300",
+        "・開室時間:月曜-金曜、第2日曜 10:00-17:00、第3水曜(ただし祝日のときは、翌日の木曜) 10:00-20:00",
+        "・休室日:土曜・日曜・祝日・月末整理日・創立記念日(7/1)・特別整理期間(夏季・冬季)・年末年始",
+        "◎国立能楽堂図書閲覧室",
+        "・所在地:〒151-0051 東京都渋谷区千駄ヶ谷4-18-1",
+        "国立能楽堂地下1階",
+        "・電話番号:03-3423-1331(代表)",
+        "・開室時間:月曜-金曜 10:00-17:00",
+        "土曜 10:00-13:00",
+        "・休室日:日曜・祝日・月末整理日・創立記念日(7/1)・特別整理期間・年末年始",
+        "◎国立文楽劇場図書閲覧室",
+        "・所在地:〒542-0073 大阪府大阪市中央区日本橋1-12-10",
+        "国立文楽劇場3階",
+        "・電話番号:06-6212-2531(代表)",
+        "・開室時間:月曜-金曜 10:00-17:00",
+        "・休室日:土曜・日曜・祝日・月末整理日・創立記念日(7/1)・特別整理期間・年末年始",
+        "※注意事項:資料の所在は必ずご確認下さい。",
+        "※資料の貸出はおこなっておりません。"
+      ]
+    }
+  ]
+}

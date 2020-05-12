@@ -1,1 +1,87 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002269.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002269#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002269.json"},"foaf:name":[{"@value":"山梨大学 附属図書館 医学分館"},{"@value":"ヤマナシダイガク フゾクトショカン イガクブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"梨大医"},{"@value":"ナシダイイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA002269","cinii:organizationid":"KI000436","cinii:prefcode":"19","cinii:mextid":"010101","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"山梨大学 附属図書館 医学分館","v:adr":{"@type":"v:Address","v:postal-code":"409-3898","v:label":"山梨県中央市下河東1110"},"v:tel":[{"@type":"v:Tel","@value":"055-273-9357"}],"v:fax":[{"@type":"v:Fax","@value":"055-273-6164"}],"dc:description":["ILL-Org:University of Yamanashi Library, Medical Branch","ILL-Address:1110,Shimokato,Chuo-city,Yamanashi","ILL-ZIP:409-3898","ILL-Commun1:Tel:+81-55-273-9357  /FAX:+81-55-273-6164 / E-mail:servmed@yamanashi.ac.jp","URL:https://lib.yamanashi.ac.jp/igaku/","来館利用担当:医学情報グループ","電話番号:055-273-9357","受付時間:平日9:00〜19:30","注意事項:専用駐車場はありません。初めての方は平日9:00〜17:00の間にご来館ください。","持参書類:身分証明書(貸出カード作成希望者)","複写受付時間:9:00〜16:30","館外貸出:可","休館日:日曜日・国民の祝日および振替休日・年末年始(12月27日-1月4日)・開学記念日(10/1)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002269.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002269#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002269.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山梨大学 附属図書館 医学分館"
+        },
+        {
+          "@value": "ヤマナシダイガク フゾクトショカン イガクブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "梨大医"
+        },
+        {
+          "@value": "ナシダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA002269",
+      "cinii:organizationid": "KI000436",
+      "cinii:prefcode": "19",
+      "cinii:mextid": "010101",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "山梨大学 附属図書館 医学分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "409-3898",
+        "v:label": "山梨県中央市下河東1110"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "055-273-9357"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "055-273-6164"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:University of Yamanashi Library, Medical Branch",
+        "ILL-Address:1110,Shimokato,Chuo-city,Yamanashi",
+        "ILL-ZIP:409-3898",
+        "ILL-Commun1:Tel:+81-55-273-9357  /FAX:+81-55-273-6164 / E-mail:servmed@yamanashi.ac.jp",
+        "URL:https://lib.yamanashi.ac.jp/igaku/",
+        "来館利用担当:医学情報グループ",
+        "電話番号:055-273-9357",
+        "受付時間:平日9:00〜19:30",
+        "注意事項:専用駐車場はありません。初めての方は平日9:00〜17:00の間にご来館ください。",
+        "持参書類:身分証明書(貸出カード作成希望者)",
+        "複写受付時間:9:00〜16:30",
+        "館外貸出:可",
+        "休館日:日曜日・国民の祝日および振替休日・年末年始(12月27日-1月4日)・開学記念日(10/1)"
+      ]
+    }
+  ]
+}

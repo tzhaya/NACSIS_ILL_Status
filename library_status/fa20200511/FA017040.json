@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA017040.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA017040#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA017040.json"},"foaf:name":[{"@value":"有明工業高等専門学校 図書館"},{"@value":"アリアケコウギヨウコウトウセンモンガツコウ トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"有明高専"},{"@value":"アリアケコウセン","@language":"ja-hrkt"}],"cinii:memberid":"FA017040","cinii:organizationid":"KI009973","cinii:prefcode":"40","cinii:mextid":"604600","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"有明工業高等専門学校 図書館","v:adr":{"@type":"v:Address","v:postal-code":"836-8585","v:label":"福岡県大牟田市東萩尾町150"},"v:tel":[{"@type":"v:Tel","@value":"0944-53-8613"}],"v:fax":[{"@type":"v:Fax","@value":"0944-53-8613"}],"dc:description":["Ariake National College of Technology","150 Higashihagio-Machi, Omuta, Fukuoka 836-8585","URL:http://www.of.ariake-nct.ac.jp/lib/ (website)","来館利用担当:図書情報係","電話番号:0944-53-8613","受付時間:8:30〜20:00(月曜日〜金曜日),10:00〜16:00(土曜日)","持参書類:身分証明書(学生証、免許証等)","複写時間:8:30〜20:00(月曜日〜金曜日),10:00〜16:00(土曜日)","制限事項:研究室所蔵資料の閲覧等には応じられない場合がある。","休館日:日曜・祝日、春季・夏季休業中の土曜日、年末・年始(12月29日〜1月3日)、その他図書館長が指定する日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017040.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017040#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017040.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "有明工業高等専門学校 図書館"
+        },
+        {
+          "@value": "アリアケコウギヨウコウトウセンモンガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "有明高専"
+        },
+        {
+          "@value": "アリアケコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017040",
+      "cinii:organizationid": "KI009973",
+      "cinii:prefcode": "40",
+      "cinii:mextid": "604600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "有明工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "836-8585",
+        "v:label": "福岡県大牟田市東萩尾町150"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0944-53-8613"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0944-53-8613"
+        }
+      ],
+      "dc:description": [
+        "Ariake National College of Technology",
+        "150 Higashihagio-Machi, Omuta, Fukuoka 836-8585",
+        "URL:http://www.of.ariake-nct.ac.jp/lib/ (website)",
+        "来館利用担当:図書情報係",
+        "電話番号:0944-53-8613",
+        "受付時間:8:30〜20:00(月曜日〜金曜日),10:00〜16:00(土曜日)",
+        "持参書類:身分証明書(学生証、免許証等)",
+        "複写時間:8:30〜20:00(月曜日〜金曜日),10:00〜16:00(土曜日)",
+        "制限事項:研究室所蔵資料の閲覧等には応じられない場合がある。",
+        "休館日:日曜・祝日、春季・夏季休業中の土曜日、年末・年始(12月29日〜1月3日)、その他図書館長が指定する日"
+      ]
+    }
+  ]
+}

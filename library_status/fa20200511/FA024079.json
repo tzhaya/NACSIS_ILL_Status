@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA024079.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA024079#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA024079.json"},"foaf:name":[{"@value":"岡崎女子大学・岡崎女子短期大学 図書館"},{"@value":"オカザキジョシダイガク・オカザキジョシタンキダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"岡崎女子大短大"},{"@value":"オカザキジョシダイタンダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA024079","cinii:organizationid":"KI014452","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"C","cinii:illstatus":"A","v:fn":"岡崎女子大学・岡崎女子短期大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"444-0015","v:label":"愛知県岡崎市中町1-8-4"},"v:tel":[{"@type":"v:Tel","@value":"0564-28-3318(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"0564-28-3323"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024079.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024079#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024079.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岡崎女子大学・岡崎女子短期大学 図書館"
+        },
+        {
+          "@value": "オカザキジョシダイガク・オカザキジョシタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岡崎女子大短大"
+        },
+        {
+          "@value": "オカザキジョシダイタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024079",
+      "cinii:organizationid": "KI014452",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "岡崎女子大学・岡崎女子短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "444-0015",
+        "v:label": "愛知県岡崎市中町1-8-4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0564-28-3318(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0564-28-3323"
+        }
+      ]
+    }
+  ]
+}

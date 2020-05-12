@@ -1,1 +1,73 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004322.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004322#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004322.json"},"foaf:name":[{"@value":"北海道科学大学 図書館"},{"@value":"ホッカイドウカガクダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"北科大"},{"@value":"ホクカダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA004322","cinii:organizationid":"KI001406","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"北海道科学大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"006-8585","v:label":"北海道札幌市手稲区前田7条15丁目4番1号"},"v:tel":[{"@type":"v:Tel","@value":"011-688-2366"}],"v:fax":[{"@type":"v:Fax","@value":"011-685-1030"}],"dc:description":["Hokkaido University of Science Library","7jo 15-4-1 Maeda, Teine, Sapporo, Hokkaido, Japan 006-8585","URL:http://www.hus.ac.jp/lib_info/index.html (website)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004322.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004322#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004322.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道科学大学 図書館"
+        },
+        {
+          "@value": "ホッカイドウカガクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北科大"
+        },
+        {
+          "@value": "ホクカダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004322",
+      "cinii:organizationid": "KI001406",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北海道科学大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "006-8585",
+        "v:label": "北海道札幌市手稲区前田7条15丁目4番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-688-2366"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-685-1030"
+        }
+      ],
+      "dc:description": [
+        "Hokkaido University of Science Library",
+        "7jo 15-4-1 Maeda, Teine, Sapporo, Hokkaido, Japan 006-8585",
+        "URL:http://www.hus.ac.jp/lib_info/index.html (website)"
+      ]
+    }
+  ]
+}

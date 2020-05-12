@@ -1,1 +1,75 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA010620.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA010620#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA010620.json"},"foaf:name":[{"@value":"国土交通省 国土地理院 図書館"},{"@value":"コクドコウツウシヨウ コクドチリイン トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"地理院"},{"@value":"チリイン","@language":"ja-hrkt"}],"dcterms:hasPart":["図書"],"cinii:memberid":"FA010620","cinii:organizationid":"KI005826","cinii:prefcode":"08","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"国土交通省 国土地理院 図書館","v:adr":{"@type":"v:Address","v:postal-code":"305-0811","v:label":"茨城県つくば市北郷1番"},"v:tel":[{"@type":"v:Tel","@value":"029-864-4276"}],"v:fax":[{"@type":"v:Fax","@value":"029-864-1278"}],"dc:description":["Library of Geospatial Information Authority of Japan","Kitasato-1, Tsukuba-Shi Ibaraki-Ken, 305-0811 Japan"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010620.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010620#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010620.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国土交通省 国土地理院 図書館"
+        },
+        {
+          "@value": "コクドコウツウシヨウ コクドチリイン トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "地理院"
+        },
+        {
+          "@value": "チリイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA010620",
+      "cinii:organizationid": "KI005826",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国土交通省 国土地理院 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-0811",
+        "v:label": "茨城県つくば市北郷1番"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-864-4276"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-864-1278"
+        }
+      ],
+      "dc:description": [
+        "Library of Geospatial Information Authority of Japan",
+        "Kitasato-1, Tsukuba-Shi Ibaraki-Ken, 305-0811 Japan"
+      ]
+    }
+  ]
+}

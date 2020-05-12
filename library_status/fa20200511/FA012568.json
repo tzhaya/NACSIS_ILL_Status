@@ -1,1 +1,91 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012568.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012568#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012568.json"},"foaf:name":[{"@value":"医療創生大学 図書館"},{"@value":"イリョウソウセイダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"医療創生大"},{"@value":"イリョウソウセイダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","理院図","日院図","英院図","社院図","研究室"],"cinii:memberid":"FA012568","cinii:organizationid":"KI007140","cinii:prefcode":"07","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"医療創生大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"970-8551","v:label":"福島県いわき市中央台飯野5-5-1"},"v:tel":[{"@type":"v:Tel","@value":"0246-29-7121"}],"v:fax":[{"@type":"v:Fax","@value":"0246-29-5001"}],"dc:description":["Iryo Sosei University Library","5-5-1, Iino, Chuoudai, Iwaki-C', Fukushima 970-8551","URL:http://www.isu.ac.jp/ (website)","URL:http://www.isu.ac.jp/access/index.html","来館利用担当:図書館2階事務室","電話番号:0246-29-7121","受付時間:11:30〜17:00(月〜金)","注意事項:資料の所在等、事前に確認をしてください。","持参書類:資料利用依頼書・身分証明書","複写時間:11:30〜17:00(月〜金)","館外貸出:可","制限事項:稀こう書の閲覧は原則として不可。","日曜日、国民の祝休日、大学休業日(8月中旬、年末年始、他)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012568.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012568#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012568.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "医療創生大学 図書館"
+        },
+        {
+          "@value": "イリョウソウセイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "医療創生大"
+        },
+        {
+          "@value": "イリョウソウセイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "理院図",
+        "日院図",
+        "英院図",
+        "社院図",
+        "研究室"
+      ],
+      "cinii:memberid": "FA012568",
+      "cinii:organizationid": "KI007140",
+      "cinii:prefcode": "07",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "医療創生大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "970-8551",
+        "v:label": "福島県いわき市中央台飯野5-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0246-29-7121"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0246-29-5001"
+        }
+      ],
+      "dc:description": [
+        "Iryo Sosei University Library",
+        "5-5-1, Iino, Chuoudai, Iwaki-C', Fukushima 970-8551",
+        "URL:http://www.isu.ac.jp/ (website)",
+        "URL:http://www.isu.ac.jp/access/index.html",
+        "来館利用担当:図書館2階事務室",
+        "電話番号:0246-29-7121",
+        "受付時間:11:30〜17:00(月〜金)",
+        "注意事項:資料の所在等、事前に確認をしてください。",
+        "持参書類:資料利用依頼書・身分証明書",
+        "複写時間:11:30〜17:00(月〜金)",
+        "館外貸出:可",
+        "制限事項:稀こう書の閲覧は原則として不可。",
+        "日曜日、国民の祝休日、大学休業日(8月中旬、年末年始、他)"
+      ]
+    }
+  ]
+}

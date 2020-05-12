@@ -1,1 +1,88 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008323.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008323#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008323.json"},"foaf:name":[{"@value":"神戸女子大学 図書館"},{"@value":"コウベジョシダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"神女大"},{"@value":"シンジョダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","三宮分室","ポーアイキヤンパス"],"cinii:memberid":"FA008323","cinii:organizationid":"KI003922","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"神戸女子大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"654-8585","v:label":"兵庫県神戸市須磨区東須磨青山2-1"},"v:tel":[{"@type":"v:Tel","@value":"078-737-2326"}],"v:fax":[{"@type":"v:Fax","@value":"078-731-5569"}],"dc:description":["Kobe Women's University Library","2-1, Aoyama, Higashi-Suma, Suma-ku, Kobe 654-8585","URL:http://lib.yg.kobe-wu.ac.jp/ (website)","来館利用担当係:相互利用係","電話番号:078-737-2326/FAX番号:078-731-5569","注意事項:所属の大学図書館か公共図書館を通じ、FAXによる事前連絡をしてください。個人からのお問合せには応じられません。","持参書類:紹介状、閲覧依頼書 、学生証等の身分が証明できるもの","館外貸出:不可","制限事項:貴重書等については利用制限あり","開館時間:図書館ホームページ参照","受付時間:10:00〜16:30 (土曜は受け付けない)","利用時間:10:00〜17:00 (土曜は利用不可)","休館日:日曜日、国民の祝日、年末年始、盆休み、学内行事、図書館業務の都合による休館日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008323.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008323#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008323.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸女子大学 図書館"
+        },
+        {
+          "@value": "コウベジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神女大"
+        },
+        {
+          "@value": "シンジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "三宮分室",
+        "ポーアイキヤンパス"
+      ],
+      "cinii:memberid": "FA008323",
+      "cinii:organizationid": "KI003922",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神戸女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "654-8585",
+        "v:label": "兵庫県神戸市須磨区東須磨青山2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-737-2326"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-731-5569"
+        }
+      ],
+      "dc:description": [
+        "Kobe Women's University Library",
+        "2-1, Aoyama, Higashi-Suma, Suma-ku, Kobe 654-8585",
+        "URL:http://lib.yg.kobe-wu.ac.jp/ (website)",
+        "来館利用担当係:相互利用係",
+        "電話番号:078-737-2326/FAX番号:078-731-5569",
+        "注意事項:所属の大学図書館か公共図書館を通じ、FAXによる事前連絡をしてください。個人からのお問合せには応じられません。",
+        "持参書類:紹介状、閲覧依頼書 、学生証等の身分が証明できるもの",
+        "館外貸出:不可",
+        "制限事項:貴重書等については利用制限あり",
+        "開館時間:図書館ホームページ参照",
+        "受付時間:10:00〜16:30 (土曜は受け付けない)",
+        "利用時間:10:00〜17:00 (土曜は利用不可)",
+        "休館日:日曜日、国民の祝日、年末年始、盆休み、学内行事、図書館業務の都合による休館日"
+      ]
+    }
+  ]
+}

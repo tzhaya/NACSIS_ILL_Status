@@ -1,1 +1,76 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA028025.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA028025#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA028025.json"},"foaf:name":[{"@value":"湘南藤沢徳洲会病院 医学情報センター"},{"@value":"ショウナンフジサワトクシュウカイビョウイン イガクジョウホウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"藤沢徳"},{"@value":"フジサワトク","@language":"ja-hrkt"}],"cinii:memberid":"FA028025","cinii:organizationid":"KI025539","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"湘南藤沢徳洲会病院 医学情報センター","v:adr":{"@type":"v:Address","v:postal-code":"251-0041","v:label":"神奈川県藤沢市辻堂神台1-5-1"},"v:tel":[{"@type":"v:Tel","@value":"0466-35-1177(代表)"}],"v:fax":[{"@type":"v:Fax","@value":"0466-35-1410(直通)"}],"dc:description":["担当者在室時間:月～金曜日 8:30～17:00 ※土曜日は不定期","複写料金:モノクロ1枚50円 カラー1枚100円 FAX送信1枚50円+1件につき300円","申込方法:NACSIS-ILL非参加館の方は、JMLA相互利用申込書に準じる申込書をFAX送付してください(書誌内容がわかれば書式は問いません)","支払方法:ILL文献料金相殺サービス非参加機関は後納(郵便振替) ※公印を押した請求書や領収書の発行はできません","振込方法:郵便振替用紙を同封しますので、一か月以内にお支払ください","担当者1名のためお急ぎの際はご一報いただけると幸いです"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA028025.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA028025#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA028025.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "湘南藤沢徳洲会病院 医学情報センター"
+        },
+        {
+          "@value": "ショウナンフジサワトクシュウカイビョウイン イガクジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "藤沢徳"
+        },
+        {
+          "@value": "フジサワトク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA028025",
+      "cinii:organizationid": "KI025539",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "湘南藤沢徳洲会病院 医学情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "251-0041",
+        "v:label": "神奈川県藤沢市辻堂神台1-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0466-35-1177(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0466-35-1410(直通)"
+        }
+      ],
+      "dc:description": [
+        "担当者在室時間:月～金曜日 8:30～17:00 ※土曜日は不定期",
+        "複写料金:モノクロ1枚50円 カラー1枚100円 FAX送信1枚50円+1件につき300円",
+        "申込方法:NACSIS-ILL非参加館の方は、JMLA相互利用申込書に準じる申込書をFAX送付してください(書誌内容がわかれば書式は問いません)",
+        "支払方法:ILL文献料金相殺サービス非参加機関は後納(郵便振替) ※公印を押した請求書や領収書の発行はできません",
+        "振込方法:郵便振替用紙を同封しますので、一か月以内にお支払ください",
+        "担当者1名のためお急ぎの際はご一報いただけると幸いです"
+      ]
+    }
+  ]
+}

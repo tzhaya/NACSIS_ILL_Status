@@ -1,1 +1,117 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002633.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002633#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002633.json"},"foaf:name":[{"@value":"京都大学 文学研究科 図書館"},{"@value":"キョウトダイガク ブンガクケンキュウカ トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"京大文"},{"@value":"キョウダイブン","@language":"ja-hrkt"}],"dcterms:hasPart":["図","哲学","倫理","心理","印哲","宗教","仏教","社会","美学","地理","国史","東洋史","西洋史","考古","西南ア史","現代史","米文","中哲文","国文","梵文","英文","独文","仏文","言語","伊文","西洋古典","羽田記念館","南方文化","日本精神史","科哲史","日本哲学","スラブ","情報・史料","文化越境"],"cinii:memberid":"FA002633","cinii:organizationid":"KI000560","cinii:prefcode":"26","cinii:mextid":"004801","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"京都大学 文学研究科 図書館","v:adr":{"@type":"v:Address","v:postal-code":"606-8501","v:label":"京都市左京区吉田本町"},"v:tel":[{"@type":"v:Tel","@value":"075-753-2715"}],"v:fax":[{"@type":"v:Fax","@value":"075-753-2453"}],"dc:description":["開館時間:平日(月〜金) 9:00〜17:00","休館日:土日,祝日,毎月15日(但し,15日が土日,祝日に当たるときは次の平日),本学創立記念日(6月18日),8月12日〜8月18日,年末年始","閲覧受付時間:9:00〜12:00,13:00〜17:00","閲覧注記:事前にFAXまたは文書で所蔵を確認のうえ、身分証明書(写真付)を持参してください。","閲覧注記:雑誌の閲覧利用は文学研究科学術雑誌閲覧室へ直接FAXをお願いします。FAX:075-753-2813 TEL:075-753-2461","サービスの範囲:閲覧(複写のための一時持ち出し可)","担当:図書掛 FAX:075-753-2453,TEL:075-753-2715","http://www.bun.kyoto-u.ac.jp/lib/","Library of Graduate School of Letters and Faculty of Letters, Kyoto University","Yoshida Honmachi, Sakyo-ku Kyoto, 606-8501"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002633.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002633#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002633.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 文学研究科 図書館"
+        },
+        {
+          "@value": "キョウトダイガク ブンガクケンキュウカ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大文"
+        },
+        {
+          "@value": "キョウダイブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "哲学",
+        "倫理",
+        "心理",
+        "印哲",
+        "宗教",
+        "仏教",
+        "社会",
+        "美学",
+        "地理",
+        "国史",
+        "東洋史",
+        "西洋史",
+        "考古",
+        "西南ア史",
+        "現代史",
+        "米文",
+        "中哲文",
+        "国文",
+        "梵文",
+        "英文",
+        "独文",
+        "仏文",
+        "言語",
+        "伊文",
+        "西洋古典",
+        "羽田記念館",
+        "南方文化",
+        "日本精神史",
+        "科哲史",
+        "日本哲学",
+        "スラブ",
+        "情報・史料",
+        "文化越境"
+      ],
+      "cinii:memberid": "FA002633",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004801",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "京都大学 文学研究科 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8501",
+        "v:label": "京都市左京区吉田本町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-753-2715"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-753-2453"
+        }
+      ],
+      "dc:description": [
+        "開館時間:平日(月〜金) 9:00〜17:00",
+        "休館日:土日,祝日,毎月15日(但し,15日が土日,祝日に当たるときは次の平日),本学創立記念日(6月18日),8月12日〜8月18日,年末年始",
+        "閲覧受付時間:9:00〜12:00,13:00〜17:00",
+        "閲覧注記:事前にFAXまたは文書で所蔵を確認のうえ、身分証明書(写真付)を持参してください。",
+        "閲覧注記:雑誌の閲覧利用は文学研究科学術雑誌閲覧室へ直接FAXをお願いします。FAX:075-753-2813 TEL:075-753-2461",
+        "サービスの範囲:閲覧(複写のための一時持ち出し可)",
+        "担当:図書掛 FAX:075-753-2453,TEL:075-753-2715",
+        "http://www.bun.kyoto-u.ac.jp/lib/",
+        "Library of Graduate School of Letters and Faculty of Letters, Kyoto University",
+        "Yoshida Honmachi, Sakyo-ku Kyoto, 606-8501"
+      ]
+    }
+  ]
+}

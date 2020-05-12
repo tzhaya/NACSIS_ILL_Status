@@ -1,1 +1,60 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA020624.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA020624#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA020624.json"},"foaf:name":[{"@value":"天津図書館"},{"@value":"テンシントシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"天津図"},{"@value":"テンシント","@language":"ja-hrkt"}],"dcterms:hasPart":["日本文庫","日文新書"],"cinii:memberid":"FA020624","cinii:organizationid":"KI012479","cinii:prefcode":"152","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"天津図書館","v:adr":{"@type":"v:Address","v:postal-code":"300191","v:label":"中華人民共和国 天津市南开区复康路15号"}}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020624.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020624#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020624.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "天津図書館"
+        },
+        {
+          "@value": "テンシントシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "天津図"
+        },
+        {
+          "@value": "テンシント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "日本文庫",
+        "日文新書"
+      ],
+      "cinii:memberid": "FA020624",
+      "cinii:organizationid": "KI012479",
+      "cinii:prefcode": "152",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "天津図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "300191",
+        "v:label": "中華人民共和国 天津市南开区复康路15号"
+      }
+    }
+  ]
+}

@@ -1,1 +1,72 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016230.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016230#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016230.json"},"foaf:name":[{"@value":"岡山済生会総合病院 医学資料室"},{"@value":"オカヤマサイセイカイソウゴウビヨウイン イガクシリヨウシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"岡山済"},{"@value":"オカヤマサイ","@language":"ja-hrkt"}],"cinii:memberid":"FA016230","cinii:organizationid":"KI009033","cinii:prefcode":"33","cinii:catflag":"N","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"岡山済生会総合病院 医学資料室","v:adr":{"@type":"v:Address","v:postal-code":"700-8511","v:label":"岡山県岡山市伊福町1-17-18"},"v:tel":[{"@type":"v:Tel","@value":"086-252-2211"}],"v:fax":[{"@type":"v:Fax","@value":"086-255-2224(総務)"}],"dc:description":["OKAYAMA SAISEIKAI GENERAL HOSPITAL","1-17-18 IFUKU-CHO OKAYAMA-SHI 700-8511 JAPAN"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016230.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016230#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016230.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岡山済生会総合病院 医学資料室"
+        },
+        {
+          "@value": "オカヤマサイセイカイソウゴウビヨウイン イガクシリヨウシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岡山済"
+        },
+        {
+          "@value": "オカヤマサイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016230",
+      "cinii:organizationid": "KI009033",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "岡山済生会総合病院 医学資料室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "700-8511",
+        "v:label": "岡山県岡山市伊福町1-17-18"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-252-2211"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-255-2224(総務)"
+        }
+      ],
+      "dc:description": [
+        "OKAYAMA SAISEIKAI GENERAL HOSPITAL",
+        "1-17-18 IFUKU-CHO OKAYAMA-SHI 700-8511 JAPAN"
+      ]
+    }
+  ]
+}

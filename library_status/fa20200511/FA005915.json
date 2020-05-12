@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA005915.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA005915#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA005915.json"},"foaf:name":[{"@value":"東京医科大学 図書館"},{"@value":"トウキョウイカダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東医大"},{"@value":"トウイダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["本"],"cinii:memberid":"FA005915","cinii:organizationid":"KI00233X","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"東京医科大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"160-0023","v:label":"東京都新宿区西新宿6-7-1"},"v:tel":[{"@type":"v:Tel","@value":"03-5339-3747(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"03-3342-6168"}],"dc:description":["URL:http://library.tokyo-med.ac.jp/ (Website)","URL:https://opac.tokyo-med.ac.jp/opac/opac_search/ (OPAC)","開館時間:月曜日-金曜日 8:30-19:00         第1,3,5週土曜日 8:30-17:00","休館日:日曜、祝日、第2,4週土曜日、年末年始、創立記念日代替日(4月第3土曜日)","利用について:本学関係者・大学および学校、研究機関、公的機関の在籍者・医療従事者のみ利用可能です(要事前連絡)","来館受付時間:月曜日‐金曜日 9:00-18:30              土曜日 9:00-12:30","持参書類:所属機関の図書館(室)発行の紹介状(開業医や個人病院等、所属機関に図書室がない場合はご相談ください)、身分証明書(所属や身分を証明できるもの)","館外貸出:不可","図書館間相互利用による受付(複写・現物貸借)も可能です。所属する図書館や機関にご相談ください。なお、個人からの申込は受けつけておりません。","注意事項:東京医科大学図書館は4キャンパスに分かれています。必ず資料の所蔵場所および所在地をご確認ください。","所蔵図書館表示【東医大分】【東医大茨城】【東医大八王子】は、所在地が異なりますのでご注意ください。","一部の和洋図書、1944年以前の和雑誌、1959年以前の洋雑誌は学外倉庫保管中のため利用できません。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005915.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005915#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005915.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京医科大学 図書館"
+        },
+        {
+          "@value": "トウキョウイカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東医大"
+        },
+        {
+          "@value": "トウイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本"
+      ],
+      "cinii:memberid": "FA005915",
+      "cinii:organizationid": "KI00233X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東京医科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "160-0023",
+        "v:label": "東京都新宿区西新宿6-7-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5339-3747(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3342-6168"
+        }
+      ],
+      "dc:description": [
+        "URL:http://library.tokyo-med.ac.jp/ (Website)",
+        "URL:https://opac.tokyo-med.ac.jp/opac/opac_search/ (OPAC)",
+        "開館時間:月曜日-金曜日 8:30-19:00         第1,3,5週土曜日 8:30-17:00",
+        "休館日:日曜、祝日、第2,4週土曜日、年末年始、創立記念日代替日(4月第3土曜日)",
+        "利用について:本学関係者・大学および学校、研究機関、公的機関の在籍者・医療従事者のみ利用可能です(要事前連絡)",
+        "来館受付時間:月曜日‐金曜日 9:00-18:30              土曜日 9:00-12:30",
+        "持参書類:所属機関の図書館(室)発行の紹介状(開業医や個人病院等、所属機関に図書室がない場合はご相談ください)、身分証明書(所属や身分を証明できるもの)",
+        "館外貸出:不可",
+        "図書館間相互利用による受付(複写・現物貸借)も可能です。所属する図書館や機関にご相談ください。なお、個人からの申込は受けつけておりません。",
+        "注意事項:東京医科大学図書館は4キャンパスに分かれています。必ず資料の所蔵場所および所在地をご確認ください。",
+        "所蔵図書館表示【東医大分】【東医大茨城】【東医大八王子】は、所在地が異なりますのでご注意ください。",
+        "一部の和洋図書、1944年以前の和雑誌、1959年以前の洋雑誌は学外倉庫保管中のため利用できません。"
+      ]
+    }
+  ]
+}

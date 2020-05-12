@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019691.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019691#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019691.json"},"foaf:name":[{"@value":"人間総合科学大学 図書館"},{"@value":"ニンゲンソウゴウカガクダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"人総大"},{"@value":"ニンソウダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA019691","cinii:organizationid":"KI011829","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"N","v:fn":"人間総合科学大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"339-8539","v:label":"埼玉県さいたま市岩槻区馬込1288"},"v:tel":[{"@type":"v:Tel","@value":"048-749-6111(内線 402)"}],"v:fax":[{"@type":"v:Fax","@value":"048-749-6110"}],"dc:description":["■■■複写■■■","複写受付可否; 可(FAXでも申込可)、複写を申し込む場合は事前に要電話連絡","電子複写(1枚 50円) 白黒のみ","送付方法; 郵便","支払い方法;現金書留または場合により小額小切手 後納","岩槻キャンパス図書館(さいたま市岩槻区太田字新正寺曲輪354‐3)併設","電話番号 048‐749-6111 FAX番号 048‐749-6110(蓮田キャンパス図書館)","E-mailアドレス lib@human.ac.jp(蓮田キャンパス図書館)","岩槻キャンパス図書館所蔵のものについては(lib_i@human.ac.jp)へお問合せ下さい。","■■■貸借■■■","貸借受付可否; 可","貸出期間; 2週間 3冊以内 送料は依頼者負担","■■■学外者の利用・閲覧■■■","電話またはFAX,E-mailで利用したい各キャンパス図書館へ直接お問い合わせください。(紹介状、身分証明書必要)","開館時間等の詳細はHPカレンダーにてご確認下さい。","個人の方からのお問い合わせにはお答えできません。所属機関の図書館を通じてお問い合わせください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019691.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019691#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019691.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "人間総合科学大学 図書館"
+        },
+        {
+          "@value": "ニンゲンソウゴウカガクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "人総大"
+        },
+        {
+          "@value": "ニンソウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019691",
+      "cinii:organizationid": "KI011829",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "人間総合科学大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "339-8539",
+        "v:label": "埼玉県さいたま市岩槻区馬込1288"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-749-6111(内線 402)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-749-6110"
+        }
+      ],
+      "dc:description": [
+        "■■■複写■■■",
+        "複写受付可否; 可(FAXでも申込可)、複写を申し込む場合は事前に要電話連絡",
+        "電子複写(1枚 50円) 白黒のみ",
+        "送付方法; 郵便",
+        "支払い方法;現金書留または場合により小額小切手 後納",
+        "岩槻キャンパス図書館(さいたま市岩槻区太田字新正寺曲輪354‐3)併設",
+        "電話番号 048‐749-6111 FAX番号 048‐749-6110(蓮田キャンパス図書館)",
+        "E-mailアドレス lib@human.ac.jp(蓮田キャンパス図書館)",
+        "岩槻キャンパス図書館所蔵のものについては(lib_i@human.ac.jp)へお問合せ下さい。",
+        "■■■貸借■■■",
+        "貸借受付可否; 可",
+        "貸出期間; 2週間 3冊以内 送料は依頼者負担",
+        "■■■学外者の利用・閲覧■■■",
+        "電話またはFAX,E-mailで利用したい各キャンパス図書館へ直接お問い合わせください。(紹介状、身分証明書必要)",
+        "開館時間等の詳細はHPカレンダーにてご確認下さい。",
+        "個人の方からのお問い合わせにはお答えできません。所属機関の図書館を通じてお問い合わせください。"
+      ]
+    }
+  ]
+}

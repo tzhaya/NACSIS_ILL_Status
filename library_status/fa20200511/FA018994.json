@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018994.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018994#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018994.json"},"foaf:name":[{"@value":"埼玉女子短期大学 図書館"},{"@value":"サイタマジヨシタンキダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"埼女短"},{"@value":"サイジヨタン","@language":"ja-hrkt"}],"cinii:memberid":"FA018994","cinii:organizationid":"KI011217","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"埼玉女子短期大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"350-1227","v:label":"埼玉県日高市女影1616"},"v:tel":[{"@type":"v:Tel","@value":"042-986-1823"}],"v:fax":[{"@type":"v:Fax","@value":"042-986-1519"}],"dc:description":["Saitama Women's Junior College","1616, Onakage, Hidaka-shi, Saitama-ken 350-1227","URL:http://www.saijo.ac.jp","来館利用担当:受付けカウンター","電話番号:042-986-1823","受付時間:9:30-16:30","注意事項:資料の所在、開館日等は、事前に確認して下さい。","持参書類:紹介状 (利用資料記入の事) 身分を証明する物","複写時間:9:30-16:30","複写料金1枚30円。 支払い方法:料金相殺システムによる。 不参加の場合は切手。","館外貸出:不可","休館日:土、日、祝日 年末年始、 春・夏休み中の一定期間、入試日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018994.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018994#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018994.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "埼玉女子短期大学 図書館"
+        },
+        {
+          "@value": "サイタマジヨシタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "埼女短"
+        },
+        {
+          "@value": "サイジヨタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018994",
+      "cinii:organizationid": "KI011217",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "埼玉女子短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "350-1227",
+        "v:label": "埼玉県日高市女影1616"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-986-1823"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-986-1519"
+        }
+      ],
+      "dc:description": [
+        "Saitama Women's Junior College",
+        "1616, Onakage, Hidaka-shi, Saitama-ken 350-1227",
+        "URL:http://www.saijo.ac.jp",
+        "来館利用担当:受付けカウンター",
+        "電話番号:042-986-1823",
+        "受付時間:9:30-16:30",
+        "注意事項:資料の所在、開館日等は、事前に確認して下さい。",
+        "持参書類:紹介状 (利用資料記入の事) 身分を証明する物",
+        "複写時間:9:30-16:30",
+        "複写料金1枚30円。 支払い方法:料金相殺システムによる。 不参加の場合は切手。",
+        "館外貸出:不可",
+        "休館日:土、日、祝日 年末年始、 春・夏休み中の一定期間、入試日"
+      ]
+    }
+  ]
+}

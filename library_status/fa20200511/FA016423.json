@@ -1,1 +1,70 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016423.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016423#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016423.json"},"foaf:name":[{"@value":"名古屋大学 情報基盤センター 図書室"},{"@value":"ナゴヤダイガク ジョウホウキバンセンター トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"名大情基セ"},{"@value":"メイダイジョウキセ","@language":"ja-hrkt"}],"dcterms:hasPart":["情基セ"],"cinii:memberid":"FA016423","cinii:organizationid":"KI000491","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"名古屋大学 情報基盤センター 図書室","v:adr":{"@type":"v:Address","v:postal-code":"464-8601","v:label":"名古屋市千種区不老町"},"v:tel":[{"@type":"v:Tel","@value":"052-789-4360"}],"dc:description":["Information Technology Center, Nagoya University","Furo-cho, Chikusa-ku, Nagoya 464-8601","URL:http://www.icts.nagoya-u.ac.jp/ja/center/service/library.html"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016423.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016423#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016423.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 情報基盤センター 図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク ジョウホウキバンセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大情基セ"
+        },
+        {
+          "@value": "メイダイジョウキセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "情基セ"
+      ],
+      "cinii:memberid": "FA016423",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋大学 情報基盤センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8601",
+        "v:label": "名古屋市千種区不老町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-789-4360"
+        }
+      ],
+      "dc:description": [
+        "Information Technology Center, Nagoya University",
+        "Furo-cho, Chikusa-ku, Nagoya 464-8601",
+        "URL:http://www.icts.nagoya-u.ac.jp/ja/center/service/library.html"
+      ]
+    }
+  ]
+}

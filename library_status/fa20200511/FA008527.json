@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008527.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008527#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008527.json"},"foaf:name":[{"@value":"川崎医科大学 附属図書館"},{"@value":"カワサキイカダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"川崎医"},{"@value":"カワサキイ","@language":"ja-hrkt"}],"cinii:memberid":"FA008527","cinii:organizationid":"KI004084","cinii:prefcode":"33","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"川崎医科大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"701-0192","v:label":"岡山県倉敷市松島577"},"v:tel":[{"@type":"v:Tel","@value":"086-464-1158"}],"v:fax":[{"@type":"v:Fax","@value":"086-463-6578"}],"dc:description":["ILL-Org:Kawasaki Medical School Library","ILL-Address:577 Matsushima, Kurashiki-shi, Okayama, Japan","ILL-ZIP: 701-0192","ILL-Commun1:Tel:+81-86-464-1158 /FAX:+81-86-463-6578 / E-mail:medtosho@med.kawasaki-m.ac.jp","URL:https://m.kawasaki-m.ac.jp/library/","来館利用担当:閲覧係","電話番号:086-464-1158","受付時間:8:30〜17:00(月〜金), 8:30〜12:30(土)","注意事項:資料の所在、閉館日等事前に電話で確認してください。","持参書類:身分証明書(学生証・教職員証)、閲覧願、紹介状等","複写時間:8:30〜17:00(月〜金), 8:30〜12:30(土)","館外貸出:不可","制限事項:大学、研究機関に在籍する学生・研究者, 医療関係従事者のみ利用可 (一般の方は利用できません。)","休館日:日曜・祝日・年末年始・創立記念日(6月1日)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008527.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008527#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008527.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "川崎医科大学 附属図書館"
+        },
+        {
+          "@value": "カワサキイカダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "川崎医"
+        },
+        {
+          "@value": "カワサキイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008527",
+      "cinii:organizationid": "KI004084",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "川崎医科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "701-0192",
+        "v:label": "岡山県倉敷市松島577"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-464-1158"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-463-6578"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Kawasaki Medical School Library",
+        "ILL-Address:577 Matsushima, Kurashiki-shi, Okayama, Japan",
+        "ILL-ZIP: 701-0192",
+        "ILL-Commun1:Tel:+81-86-464-1158 /FAX:+81-86-463-6578 / E-mail:medtosho@med.kawasaki-m.ac.jp",
+        "URL:https://m.kawasaki-m.ac.jp/library/",
+        "来館利用担当:閲覧係",
+        "電話番号:086-464-1158",
+        "受付時間:8:30〜17:00(月〜金), 8:30〜12:30(土)",
+        "注意事項:資料の所在、閉館日等事前に電話で確認してください。",
+        "持参書類:身分証明書(学生証・教職員証)、閲覧願、紹介状等",
+        "複写時間:8:30〜17:00(月〜金), 8:30〜12:30(土)",
+        "館外貸出:不可",
+        "制限事項:大学、研究機関に在籍する学生・研究者, 医療関係従事者のみ利用可 (一般の方は利用できません。)",
+        "休館日:日曜・祝日・年末年始・創立記念日(6月1日)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015635.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015635#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015635.json"},"foaf:name":[{"@value":"兵庫県立大学 明石看護学術情報館"},{"@value":"ヒョウゴケンリツダイガク アカシカンゴガクジュツジョウホウカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"兵県大明石"},{"@value":"ヒョウケンダイアカシ","@language":"ja-hrkt"}],"cinii:memberid":"FA015635","cinii:organizationid":"KI001177","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"兵庫県立大学 明石看護学術情報館","v:adr":{"@type":"v:Address","v:postal-code":"673-8588","v:label":"兵庫県明石市北王子町13-71"},"v:tel":[{"@type":"v:Tel","@value":"078-925-0882"}],"v:fax":[{"@type":"v:Fax","@value":"078-925-0868"}],"dc:description":["College of Nursing Art and Science, University of Hyogo","13-71 Kitaojicho, Akashi City 673-8588, Japan","URL:http://lib.laic.u-hyogo.ac.jp/laic/5/ (website)","URL:http://www.u-hyogo.ac.jp/cnas/map/index.html (map)","受付時間 :9:00-19:00 (休業中受付時間:9:00-17:00)","注意事項 :大学・病院等所属機関の図書館(図書室)を通してご利用ください。","注意事項 :一般の方については、県内在住・在勤者に公開しています。","注意事項 :資料の所在等、事前に確認してください。","休館日 :土曜日・日曜日・国民の祝日・12月28日〜1月4日","館外貸出 :不可","休館日 :その他大学行事のため学内に入れない場合があります。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015635.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015635#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015635.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "兵庫県立大学 明石看護学術情報館"
+        },
+        {
+          "@value": "ヒョウゴケンリツダイガク アカシカンゴガクジュツジョウホウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "兵県大明石"
+        },
+        {
+          "@value": "ヒョウケンダイアカシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015635",
+      "cinii:organizationid": "KI001177",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "兵庫県立大学 明石看護学術情報館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "673-8588",
+        "v:label": "兵庫県明石市北王子町13-71"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-925-0882"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-925-0868"
+        }
+      ],
+      "dc:description": [
+        "College of Nursing Art and Science, University of Hyogo",
+        "13-71 Kitaojicho, Akashi City 673-8588, Japan",
+        "URL:http://lib.laic.u-hyogo.ac.jp/laic/5/ (website)",
+        "URL:http://www.u-hyogo.ac.jp/cnas/map/index.html (map)",
+        "受付時間 :9:00-19:00 (休業中受付時間:9:00-17:00)",
+        "注意事項 :大学・病院等所属機関の図書館(図書室)を通してご利用ください。",
+        "注意事項 :一般の方については、県内在住・在勤者に公開しています。",
+        "注意事項 :資料の所在等、事前に確認してください。",
+        "休館日 :土曜日・日曜日・国民の祝日・12月28日〜1月4日",
+        "館外貸出 :不可",
+        "休館日 :その他大学行事のため学内に入れない場合があります。"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,95 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA005890.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA005890#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA005890.json"},"foaf:name":[{"@value":"東海大学 付属図書館 清水図書館"},{"@value":"トウカイダイガク フゾクトショカン シミズトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東海大清"},{"@value":"トウカイダイセイ","@language":"ja-hrkt"}],"cinii:memberid":"FA005890","cinii:organizationid":"KI002329","cinii:prefcode":"22","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"東海大学 付属図書館 清水図書館","v:adr":{"@type":"v:Address","v:postal-code":"424-8610","v:label":"静岡県静岡市清水区折戸3-20-1"},"v:tel":[{"@type":"v:Tel","@value":"054-334-0414"}],"v:fax":[{"@type":"v:Fax","@value":"054-334-0862"}],"dc:description":["Shimizu Library, Tokai University Library","3-20-1 Orido Shimizu, Shizuoka, JAPAN 424-8610","URL:http://www.scc.u-tokai.ac.jp/library/index.htm (website)","来館利用担当:閲覧係","電話番号:054-334-0414","FAX番号:054-334-0862","閲覧事前連絡:電話・FAXでの問い合わせが望ましい","閲覧持参書類:資料利用依頼書(身分を証明する物を携行のこと)","閲覧受付時間:9:00〜19:00","複写受付時間:9:00〜19:00","館外貸出可否:否","通常開館時間:9:00〜21:00(土曜日は〜18:30)","休業中開館時間:9:00〜17:00(土曜日は〜16:00、夏期は土曜日休館)","休館日:日曜日・祝祭日・大学休業日(夏期一斉休暇・11/1〜3建学祭のため休館・冬期休暇中の一定期間)・年度末","ILL-Org:Shimizu Library, Tokai University Library","ILL-Address:3-20-1 Orido Shimizu, Shizuoka, JAPAN","ILL-ZIP:424-8610","ILL-Commun1:Tel:+81-54-334-0414 / FAX:+81-54-334-0862 / E-mail:library@ml.tokai-u.jp","ILL-Commun2:OPAC:http://www.scc.u-tokai.ac.jp/library/index.htm (website)","ILL-Accept:Foreign:OCLC(NII-OCLC ISO ILL Link only):JPSHI","ILL-Sched:Closed:early February, mid-August","ILL-OCLC-Symbol:JPSHI","ILL-Bill:Foreign:OCLC-IFM only","ILL-Copy-Charge:Photocopy:50 YEN per sheet / Postage required / Delivery method: via airmail","Delivery method: Photocopy: via airmail.only, Ariel not supported"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005890.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005890#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005890.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東海大学 付属図書館 清水図書館"
+        },
+        {
+          "@value": "トウカイダイガク フゾクトショカン シミズトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東海大清"
+        },
+        {
+          "@value": "トウカイダイセイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005890",
+      "cinii:organizationid": "KI002329",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東海大学 付属図書館 清水図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "424-8610",
+        "v:label": "静岡県静岡市清水区折戸3-20-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "054-334-0414"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "054-334-0862"
+        }
+      ],
+      "dc:description": [
+        "Shimizu Library, Tokai University Library",
+        "3-20-1 Orido Shimizu, Shizuoka, JAPAN 424-8610",
+        "URL:http://www.scc.u-tokai.ac.jp/library/index.htm (website)",
+        "来館利用担当:閲覧係",
+        "電話番号:054-334-0414",
+        "FAX番号:054-334-0862",
+        "閲覧事前連絡:電話・FAXでの問い合わせが望ましい",
+        "閲覧持参書類:資料利用依頼書(身分を証明する物を携行のこと)",
+        "閲覧受付時間:9:00〜19:00",
+        "複写受付時間:9:00〜19:00",
+        "館外貸出可否:否",
+        "通常開館時間:9:00〜21:00(土曜日は〜18:30)",
+        "休業中開館時間:9:00〜17:00(土曜日は〜16:00、夏期は土曜日休館)",
+        "休館日:日曜日・祝祭日・大学休業日(夏期一斉休暇・11/1〜3建学祭のため休館・冬期休暇中の一定期間)・年度末",
+        "ILL-Org:Shimizu Library, Tokai University Library",
+        "ILL-Address:3-20-1 Orido Shimizu, Shizuoka, JAPAN",
+        "ILL-ZIP:424-8610",
+        "ILL-Commun1:Tel:+81-54-334-0414 / FAX:+81-54-334-0862 / E-mail:library@ml.tokai-u.jp",
+        "ILL-Commun2:OPAC:http://www.scc.u-tokai.ac.jp/library/index.htm (website)",
+        "ILL-Accept:Foreign:OCLC(NII-OCLC ISO ILL Link only):JPSHI",
+        "ILL-Sched:Closed:early February, mid-August",
+        "ILL-OCLC-Symbol:JPSHI",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Copy-Charge:Photocopy:50 YEN per sheet / Postage required / Delivery method: via airmail",
+        "Delivery method: Photocopy: via airmail.only, Ariel not supported"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,76 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA027689.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA027689#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA027689.json"},"foaf:name":[{"@value":"西九州大学 附属図書館 小城キャンパス分館"},{"@value":"ニシキュウシュウダイガク フゾクトショカン オギキャンパスブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"西九大小城"},{"@value":"ニシキュウダイオギ","@language":"ja-hrkt"}],"dcterms:hasPart":["分館"],"cinii:memberid":"FA027689","cinii:organizationid":"KI004459","cinii:prefcode":"41","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"西九州大学 附属図書館 小城キャンパス分館","v:adr":{"@type":"v:Address","v:postal-code":"845-0001","v:label":"佐賀県小城市小城町176番地27"},"v:tel":[{"@type":"v:Tel","@value":"0952-37-0163"}],"v:fax":[{"@type":"v:Fax","@value":"0952-37-0263"}],"dc:description":["Nishikyushu University Library","176-27, Ogi-machi, Ogi-city, Saga, Japan","URL:http://www. nisikyu-u.ac.jp/"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027689.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027689#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027689.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "西九州大学 附属図書館 小城キャンパス分館"
+        },
+        {
+          "@value": "ニシキュウシュウダイガク フゾクトショカン オギキャンパスブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "西九大小城"
+        },
+        {
+          "@value": "ニシキュウダイオギ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "分館"
+      ],
+      "cinii:memberid": "FA027689",
+      "cinii:organizationid": "KI004459",
+      "cinii:prefcode": "41",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "西九州大学 附属図書館 小城キャンパス分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "845-0001",
+        "v:label": "佐賀県小城市小城町176番地27"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0952-37-0163"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0952-37-0263"
+        }
+      ],
+      "dc:description": [
+        "Nishikyushu University Library",
+        "176-27, Ogi-machi, Ogi-city, Saga, Japan",
+        "URL:http://www. nisikyu-u.ac.jp/"
+      ]
+    }
+  ]
+}

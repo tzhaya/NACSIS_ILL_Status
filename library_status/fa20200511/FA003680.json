@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003680.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003680#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003680.json"},"foaf:name":[{"@value":"鹿屋体育大学 附属図書館"},{"@value":"カノヤタイイクダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"鹿体大"},{"@value":"カタイダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","研"],"cinii:memberid":"FA003680","cinii:organizationid":"KI000946","cinii:prefcode":"46","cinii:mextid":"009600","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"鹿屋体育大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"891-2393","v:label":"鹿屋市白水町1"},"v:tel":[{"@type":"v:Tel","@value":"0994-46-4874"}],"v:fax":[{"@type":"v:Fax","@value":"0994-46-4157"}],"dc:description":["Library of National Institute of Fitness and Sports in Kanoya","Address: Shiromizu 1, Kanoya, Kagoshima 891-2393","URL:http://www.lib.nifs-k.ac.jp","来館受付:図書サービス係","電話番号:0994-46-4874,4877","開館時間:月-金曜 8:30-21:00 土曜 9:00-17:00, 日曜 13:00-17:00 但し休業期間中は、月-金曜 9:00-17:00 (HPの開館日程参照)","複写受付:月-金曜 9:00-16:30 白黒1枚35円, カラー1枚50円"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003680.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003680#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003680.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鹿屋体育大学 附属図書館"
+        },
+        {
+          "@value": "カノヤタイイクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鹿体大"
+        },
+        {
+          "@value": "カタイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA003680",
+      "cinii:organizationid": "KI000946",
+      "cinii:prefcode": "46",
+      "cinii:mextid": "009600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "鹿屋体育大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "891-2393",
+        "v:label": "鹿屋市白水町1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0994-46-4874"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0994-46-4157"
+        }
+      ],
+      "dc:description": [
+        "Library of National Institute of Fitness and Sports in Kanoya",
+        "Address: Shiromizu 1, Kanoya, Kagoshima 891-2393",
+        "URL:http://www.lib.nifs-k.ac.jp",
+        "来館受付:図書サービス係",
+        "電話番号:0994-46-4874,4877",
+        "開館時間:月-金曜 8:30-21:00 土曜 9:00-17:00, 日曜 13:00-17:00 但し休業期間中は、月-金曜 9:00-17:00 (HPの開館日程参照)",
+        "複写受付:月-金曜 9:00-16:30 白黒1枚35円, カラー1枚50円"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,94 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007637.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007637#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007637.json"},"foaf:name":[{"@value":"京都光華女子大学 図書館"},{"@value":"キョウトコウカジョシダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"光華女"},{"@value":"コウカジョ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA007637","cinii:organizationid":"KI003434","cinii:prefcode":"26","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"京都光華女子大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"615-0882","v:label":"京都府京都市右京区西京極葛野町38番地"},"v:tel":[{"@type":"v:Tel","@value":"075-325-5399"}],"v:fax":[{"@type":"v:Fax","@value":"075-325-5446"}],"dc:description":["Kyoto Koka Women's University","38, Kadono-cho, Nishikyogoku, Ukyo-ku, Kyoto 615-0882","URL:http://www.koka.ac.jp/toshokan/","来館利用担当:閲覧係","電話番号:075-325-5399","受付時間: 9:00〜17:00(土曜日〜14:30)","注意事項:事前に問い合わせて、日時の内諾を得ておくこと","持参書類:資料利用依頼書(身分を証明する物を携行のこと)","複写時間:9:00〜17:00(土曜日〜15:00)","館外貸出:不可","制限事項:試験中は遠慮のこと","休館日:日曜日、国民の祝日、学園の休業日、特別行事の日","Reference staffs in charge of the visitors","Telephone number:075-325-5399","Service hours:from 9:00 to 17:00(Monday to Friday), from 9:00 to 14:30(Saturday)","Note:make an appointment before visiting","Note:need a letter of recommendation and a personal indentification","Photocopying service hours:from 9:00 to 17:00(Monday to Friday),from 9:00 to 15:00(Saturday)","Note:borrowing is not available","Note:the service is not available during the examination period","Closed:Sunday, national holidays, the school's holidays, the special event days of the school"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007637.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007637#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007637.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都光華女子大学 図書館"
+        },
+        {
+          "@value": "キョウトコウカジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "光華女"
+        },
+        {
+          "@value": "コウカジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA007637",
+      "cinii:organizationid": "KI003434",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都光華女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "615-0882",
+        "v:label": "京都府京都市右京区西京極葛野町38番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-325-5399"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-325-5446"
+        }
+      ],
+      "dc:description": [
+        "Kyoto Koka Women's University",
+        "38, Kadono-cho, Nishikyogoku, Ukyo-ku, Kyoto 615-0882",
+        "URL:http://www.koka.ac.jp/toshokan/",
+        "来館利用担当:閲覧係",
+        "電話番号:075-325-5399",
+        "受付時間: 9:00〜17:00(土曜日〜14:30)",
+        "注意事項:事前に問い合わせて、日時の内諾を得ておくこと",
+        "持参書類:資料利用依頼書(身分を証明する物を携行のこと)",
+        "複写時間:9:00〜17:00(土曜日〜15:00)",
+        "館外貸出:不可",
+        "制限事項:試験中は遠慮のこと",
+        "休館日:日曜日、国民の祝日、学園の休業日、特別行事の日",
+        "Reference staffs in charge of the visitors",
+        "Telephone number:075-325-5399",
+        "Service hours:from 9:00 to 17:00(Monday to Friday), from 9:00 to 14:30(Saturday)",
+        "Note:make an appointment before visiting",
+        "Note:need a letter of recommendation and a personal indentification",
+        "Photocopying service hours:from 9:00 to 17:00(Monday to Friday),from 9:00 to 15:00(Saturday)",
+        "Note:borrowing is not available",
+        "Note:the service is not available during the examination period",
+        "Closed:Sunday, national holidays, the school's holidays, the special event days of the school"
+      ]
+    }
+  ]
+}

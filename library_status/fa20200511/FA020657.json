@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA020657.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA020657#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA020657.json"},"foaf:name":[{"@value":"関東学院大学 図書館 分館"},{"@value":"カントウガクインダイガク トショカン ブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"関東院大分"},{"@value":"カントウインダイブン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA020657","cinii:organizationid":"KI002839","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"関東学院大学 図書館 分館","v:adr":{"@type":"v:Address","v:postal-code":"236-8503","v:label":"横浜市金沢区六浦東1-50-1"},"v:tel":[{"@type":"v:Tel","@value":"045-786-7059"}],"v:fax":[{"@type":"v:Fax","@value":"045-786-7068"}],"dc:description":["Kanto Gakuin University Library,Branch","1-50-1 Mutsuura-higashi, Kanazawaku, Yokohama, Kanagawa, 236-8503","URL:https://kgulibrary.kanto-gakuin.ac.jp/ (website)","閲覧利用担当:運用担当","閲覧対象者 :紹介状持参者","閲覧事前連絡:事前にメール、またはFAXにて所蔵調査要","閲覧持参書類 :紹介状、身分証明書","電話番号: 045-786-7059","受付時間:閉館の1時間前","複写時間:閉館の1時間前","休館日:祝祭日・日曜日 ※詳しくは開館カレンダーをご確認下さい。","館外貸出可否 :否","閲覧注記:定期試験期間(7月～8月上旬、1月～2月上旬)はご遠慮ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020657.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020657#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020657.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関東学院大学 図書館 分館"
+        },
+        {
+          "@value": "カントウガクインダイガク トショカン ブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関東院大分"
+        },
+        {
+          "@value": "カントウインダイブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA020657",
+      "cinii:organizationid": "KI002839",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "関東学院大学 図書館 分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "236-8503",
+        "v:label": "横浜市金沢区六浦東1-50-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-786-7059"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-786-7068"
+        }
+      ],
+      "dc:description": [
+        "Kanto Gakuin University Library,Branch",
+        "1-50-1 Mutsuura-higashi, Kanazawaku, Yokohama, Kanagawa, 236-8503",
+        "URL:https://kgulibrary.kanto-gakuin.ac.jp/ (website)",
+        "閲覧利用担当:運用担当",
+        "閲覧対象者 :紹介状持参者",
+        "閲覧事前連絡:事前にメール、またはFAXにて所蔵調査要",
+        "閲覧持参書類 :紹介状、身分証明書",
+        "電話番号: 045-786-7059",
+        "受付時間:閉館の1時間前",
+        "複写時間:閉館の1時間前",
+        "休館日:祝祭日・日曜日 ※詳しくは開館カレンダーをご確認下さい。",
+        "館外貸出可否 :否",
+        "閲覧注記:定期試験期間(7月～8月上旬、1月～2月上旬)はご遠慮ください。"
+      ]
+    }
+  ]
+}

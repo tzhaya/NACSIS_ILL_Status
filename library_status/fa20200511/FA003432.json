@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003432.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003432#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003432.json"},"foaf:name":[{"@value":"高知大学 学術情報基盤図書館 医学部分館"},{"@value":"コウチダイガク ガクジュツジョウホウキバントショカン イガクブブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"高大医"},{"@value":"コウダイイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA003432","cinii:organizationid":"KI000797","cinii:prefcode":"39","cinii:mextid":"006702","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"N","v:fn":"高知大学 学術情報基盤図書館 医学部分館","v:adr":{"@type":"v:Address","v:postal-code":"783-8506","v:label":"高知県南国市岡豊町小蓮"},"v:tel":[{"@type":"v:Tel","@value":"088-880-2267"}],"v:fax":[{"@type":"v:Fax","@value":"088-880-2175"}],"dc:description":["Kochi University Integrated Information Center (Library)Medical School Branch","Kohashu,Oko-cho,Nankoku-shi,Kochi,Japan 783-8506","URL:http://www.kochi-ms.ac.jp/~of_lbrry/tosyokan.htm (website)","電話番号:088-880-2269","通常開館時間:9:00〜20:00(土曜日9:00〜16:30)","休館日:日曜日・国民の祝日・年末年始・館長が必要と認めた日","注意事項:事前に資料の所在、利用の可否を確認してください。研究室所蔵のものは利用できません。","持参書類:身分証明書","館外貸出:可","休館日:日曜日・国民の祝日・年末年始・館長が必要と認めた日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003432.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003432#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003432.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高知大学 学術情報基盤図書館 医学部分館"
+        },
+        {
+          "@value": "コウチダイガク ガクジュツジョウホウキバントショカン イガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高大医"
+        },
+        {
+          "@value": "コウダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA003432",
+      "cinii:organizationid": "KI000797",
+      "cinii:prefcode": "39",
+      "cinii:mextid": "006702",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "高知大学 学術情報基盤図書館 医学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "783-8506",
+        "v:label": "高知県南国市岡豊町小蓮"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-880-2267"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-880-2175"
+        }
+      ],
+      "dc:description": [
+        "Kochi University Integrated Information Center (Library)Medical School Branch",
+        "Kohashu,Oko-cho,Nankoku-shi,Kochi,Japan 783-8506",
+        "URL:http://www.kochi-ms.ac.jp/~of_lbrry/tosyokan.htm (website)",
+        "電話番号:088-880-2269",
+        "通常開館時間:9:00〜20:00(土曜日9:00〜16:30)",
+        "休館日:日曜日・国民の祝日・年末年始・館長が必要と認めた日",
+        "注意事項:事前に資料の所在、利用の可否を確認してください。研究室所蔵のものは利用できません。",
+        "持参書類:身分証明書",
+        "館外貸出:可",
+        "休館日:日曜日・国民の祝日・年末年始・館長が必要と認めた日"
+      ]
+    }
+  ]
+}

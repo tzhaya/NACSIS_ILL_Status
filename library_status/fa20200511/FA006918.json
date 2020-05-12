@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA006918.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA006918#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA006918.json"},"foaf:name":[{"@value":"産業能率大学 図書館"},{"@value":"サンギョウノウリツダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"産能大"},{"@value":"サンノウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA006918","cinii:organizationid":"KI002872","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"産業能率大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"259-1197","v:label":"神奈川県伊勢原市上粕屋1573"},"v:tel":[{"@type":"v:Tel","@value":"0463-92-2218"}],"v:fax":[{"@type":"v:Fax","@value":"0463-92-6671"}],"dc:description":["Sanno University Library","1573, Kamikasuya, Isehara-Shi, Kanagawa 259-1197","URL:http://www.mi.sanno.ac.jp/library/ (Website)","URL:http://www.sanno.ac.jp/exam/access/shounan.html (Map)","来館利用担当:参考係","閲覧持参書類:大学図書館等が発行する資料利用依頼書(身分を証明する物を携行のこと)","閲覧受付時間:9:00〜17:00(土曜日10:00〜16:00)","複写受付時間:9:00〜17:00(土曜日10:00〜16:00)","館外貸出:不可","休館日:創立記念日(10/15),日曜日,国民の祝日,入試実施日,休業中の土曜日,夏季・冬季の一定期間(詳細は当館のホームページをご覧ください。)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006918.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006918#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006918.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "産業能率大学 図書館"
+        },
+        {
+          "@value": "サンギョウノウリツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産能大"
+        },
+        {
+          "@value": "サンノウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA006918",
+      "cinii:organizationid": "KI002872",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "産業能率大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "259-1197",
+        "v:label": "神奈川県伊勢原市上粕屋1573"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0463-92-2218"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0463-92-6671"
+        }
+      ],
+      "dc:description": [
+        "Sanno University Library",
+        "1573, Kamikasuya, Isehara-Shi, Kanagawa 259-1197",
+        "URL:http://www.mi.sanno.ac.jp/library/ (Website)",
+        "URL:http://www.sanno.ac.jp/exam/access/shounan.html (Map)",
+        "来館利用担当:参考係",
+        "閲覧持参書類:大学図書館等が発行する資料利用依頼書(身分を証明する物を携行のこと)",
+        "閲覧受付時間:9:00〜17:00(土曜日10:00〜16:00)",
+        "複写受付時間:9:00〜17:00(土曜日10:00〜16:00)",
+        "館外貸出:不可",
+        "休館日:創立記念日(10/15),日曜日,国民の祝日,入試実施日,休業中の土曜日,夏季・冬季の一定期間(詳細は当館のホームページをご覧ください。)"
+      ]
+    }
+  ]
+}

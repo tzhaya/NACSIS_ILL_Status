@@ -1,1 +1,104 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA023666.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA023666#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA023666.json"},"foaf:name":[{"@value":"淑徳大学 附属図書館 看護栄養学部図書室"},{"@value":"シュクトクダイガク フゾクトショカン カンゴエイヨウガクブトショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"淑徳大看"},{"@value":"シュクトクダイカン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA023666","cinii:organizationid":"KI001825","cinii:prefcode":"12","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"淑徳大学 附属図書館 看護栄養学部図書室","v:adr":{"@type":"v:Address","v:postal-code":"260-8703","v:label":"千葉県千葉市中央区仁戸名町673"},"v:tel":[{"@type":"v:Tel","@value":"043-305-1884"}],"v:fax":[{"@type":"v:Fax","@value":"043-305-1817"}],"dc:description":["ILL-Org:Shukutoku University School of Nursing and Nutrition Library","ILL-Address: 673 Nitonacho, Chuo-ku, Chiba-shi, Chiba, Japan","ILL-ZIP: 260-8703","ILL-Commun1:Tel:+81-43-305-1884 /FAX:+81-43-305-1817","【図書室ホームページ URL】","URL:https://www.shukutoku.ac.jp/campuslife/library/chiba2/","【OPAC URL】","URL:http://mopac.library.shukutoku.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&ncid=<NCID>","【通常開室時間】 9:00〜16:30(土曜日〜12:30)","【来室利用担当】 閲覧係 (大学内へは事務部にて受付)","【受付電話番号】 043-305-1884","【受付時間】 9:00〜16:30 (土曜日〜12:00)","【複写時間】9:00〜16:30","閲覧注記: 初めて来室される方は事前連絡の上、平日16:00までにお越し下さい。","==================================================================","【休業中開室時間】 春期 9:00〜16:30(土曜日〜12:30) 夏期 9:00〜16:30","【休室日】 日曜日・祝日・年末年始・蔵書点検日・8月の土曜日・大学指定の日","【注意事項】 開室日・開室時間は図書室HPでご確認ください。","【注意事項】 OPACにて資料の所在等、事前確認をしてください。","==================================================================","【受付担当係】 相互協力係","【受付方法】 ILL、FAX、郵便で申込可","【複写受付】 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~","【複写方法・料金】 電子複写 モノクロ (1枚 50円) カラー (1枚 150円)","【送付方法】 普通郵便(送料実費) ※速達は希望により承ります","【現物貸借受付】 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~","【送付方法】 原則としてレターパックプラスにて送付(送料実費)","現物貸借注記: 貸出資料の利用は『館内限定』","現物貸借注記: 禁帯出資料(視聴覚資料含む)、新書・文庫、新着図書、課題等指定図書は貸出不可","==================================================================","2012年4月1日より、看護学部図書室は『看護栄養学部図書室』に名称変更いたしました。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023666.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023666#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023666.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "淑徳大学 附属図書館 看護栄養学部図書室"
+        },
+        {
+          "@value": "シュクトクダイガク フゾクトショカン カンゴエイヨウガクブトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "淑徳大看"
+        },
+        {
+          "@value": "シュクトクダイカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA023666",
+      "cinii:organizationid": "KI001825",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "淑徳大学 附属図書館 看護栄養学部図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "260-8703",
+        "v:label": "千葉県千葉市中央区仁戸名町673"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "043-305-1884"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "043-305-1817"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Shukutoku University School of Nursing and Nutrition Library",
+        "ILL-Address: 673 Nitonacho, Chuo-ku, Chiba-shi, Chiba, Japan",
+        "ILL-ZIP: 260-8703",
+        "ILL-Commun1:Tel:+81-43-305-1884 /FAX:+81-43-305-1817",
+        "【図書室ホームページ URL】",
+        "URL:https://www.shukutoku.ac.jp/campuslife/library/chiba2/",
+        "【OPAC URL】",
+        "URL:http://mopac.library.shukutoku.ac.jp/webopac/ufirdi.do?ufi_target=ctlsrh&ncid=<NCID>",
+        "【通常開室時間】 9:00〜16:30(土曜日〜12:30)",
+        "【来室利用担当】 閲覧係 (大学内へは事務部にて受付)",
+        "【受付電話番号】 043-305-1884",
+        "【受付時間】 9:00〜16:30 (土曜日〜12:00)",
+        "【複写時間】9:00〜16:30",
+        "閲覧注記: 初めて来室される方は事前連絡の上、平日16:00までにお越し下さい。",
+        "==================================================================",
+        "【休業中開室時間】 春期 9:00〜16:30(土曜日〜12:30) 夏期 9:00〜16:30",
+        "【休室日】 日曜日・祝日・年末年始・蔵書点検日・8月の土曜日・大学指定の日",
+        "【注意事項】 開室日・開室時間は図書室HPでご確認ください。",
+        "【注意事項】 OPACにて資料の所在等、事前確認をしてください。",
+        "==================================================================",
+        "【受付担当係】 相互協力係",
+        "【受付方法】 ILL、FAX、郵便で申込可",
+        "【複写受付】 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "【複写方法・料金】 電子複写 モノクロ (1枚 50円) カラー (1枚 150円)",
+        "【送付方法】 普通郵便(送料実費) ※速達は希望により承ります",
+        "【現物貸借受付】 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+        "【送付方法】 原則としてレターパックプラスにて送付(送料実費)",
+        "現物貸借注記: 貸出資料の利用は『館内限定』",
+        "現物貸借注記: 禁帯出資料(視聴覚資料含む)、新書・文庫、新着図書、課題等指定図書は貸出不可",
+        "==================================================================",
+        "2012年4月1日より、看護学部図書室は『看護栄養学部図書室』に名称変更いたしました。"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,96 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007819.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007819#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007819.json"},"foaf:name":[{"@value":"大阪経済法科大学 図書館"},{"@value":"オオサカケイザイホウカダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"大経法大"},{"@value":"ダイケイホウダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA007819","cinii:organizationid":"KI003580","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"大阪経済法科大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"581-8511","v:label":"大阪府八尾市楽音寺6-10"},"v:tel":[{"@type":"v:Tel","@value":"072-920-7081"}],"v:fax":[{"@type":"v:Fax","@value":"072-941-5280"}],"dc:description":["http://www.keiho-u.ac.jp/reserch/library/index.html","来館利用担当:閲覧係、相互利用係","受付時間:平日 9:00-17:00 土曜日 9:00-13:00","注意事項:貴重書については事前に閲覧の申込みをして下さい。","持参書類:学生証、身分証明書","館外貸出:不可","休館日:上記のwebsiteで開館日カレンダーを確認のこと。","Osaka University of Economics and Law","6-10 Gakuonji, Yao-city, Osaka 581-8521, Japan","URL:http://www.keiho-u.ac.jp/","ILL-Staff: Hironobu Yamashita","ILL-Dept: Library Service Section","ILL-Org: Osaka University of Economics & Law Library","ILL-Address: 6-10 Gakuonji, Yao-City, JAPAN","ILL-ZIP: 581-8511","ILL-Commun1: Tel: +81-072-920-7081 FAX: +81-072-941-5280  E-mail: library@keiho-u.ac.jp","ILL-Commun2: OPAC:http://babelkeihoopac.cloudapp.net/Main/Search                                                                 Home-Page: http://www.keiho-u.ac.jp/research/library/index.html","ILL-Accept: Foreign: KERIS","ILL-Sched: Closed: Aug15-Aug22 Dec27-Jan6","ILL-Bill: Foreign: KERIS=NII Fee Management Service only","ILL-Loan-Period: 2 weeks 14 days    Foreign:NA","ILL-Loan-Renew:  2 weeks 14 days    Foreign:NA","ILL-Loan-Charge: Loan:NA","ILL-Non-Circulation: Special collection, mcrfrm, mcrfch, ref, per, news","ILL-Copy-Charge: Foreign: Photocopy: 35 YEN per sheet [per exposure].  Postage required.  Delivery method: via airmail.","ILL-Note: Only the items held at the Main Library are available. Delivery method: Photocopy: via airmail"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007819.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007819#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007819.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪経済法科大学 図書館"
+        },
+        {
+          "@value": "オオサカケイザイホウカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大経法大"
+        },
+        {
+          "@value": "ダイケイホウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007819",
+      "cinii:organizationid": "KI003580",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪経済法科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "581-8511",
+        "v:label": "大阪府八尾市楽音寺6-10"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-920-7081"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-941-5280"
+        }
+      ],
+      "dc:description": [
+        "http://www.keiho-u.ac.jp/reserch/library/index.html",
+        "来館利用担当:閲覧係、相互利用係",
+        "受付時間:平日 9:00-17:00 土曜日 9:00-13:00",
+        "注意事項:貴重書については事前に閲覧の申込みをして下さい。",
+        "持参書類:学生証、身分証明書",
+        "館外貸出:不可",
+        "休館日:上記のwebsiteで開館日カレンダーを確認のこと。",
+        "Osaka University of Economics and Law",
+        "6-10 Gakuonji, Yao-city, Osaka 581-8521, Japan",
+        "URL:http://www.keiho-u.ac.jp/",
+        "ILL-Staff: Hironobu Yamashita",
+        "ILL-Dept: Library Service Section",
+        "ILL-Org: Osaka University of Economics & Law Library",
+        "ILL-Address: 6-10 Gakuonji, Yao-City, JAPAN",
+        "ILL-ZIP: 581-8511",
+        "ILL-Commun1: Tel: +81-072-920-7081 FAX: +81-072-941-5280  E-mail: library@keiho-u.ac.jp",
+        "ILL-Commun2: OPAC:http://babelkeihoopac.cloudapp.net/Main/Search                                                                 Home-Page: http://www.keiho-u.ac.jp/research/library/index.html",
+        "ILL-Accept: Foreign: KERIS",
+        "ILL-Sched: Closed: Aug15-Aug22 Dec27-Jan6",
+        "ILL-Bill: Foreign: KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period: 2 weeks 14 days    Foreign:NA",
+        "ILL-Loan-Renew:  2 weeks 14 days    Foreign:NA",
+        "ILL-Loan-Charge: Loan:NA",
+        "ILL-Non-Circulation: Special collection, mcrfrm, mcrfch, ref, per, news",
+        "ILL-Copy-Charge: Foreign: Photocopy: 35 YEN per sheet [per exposure].  Postage required.  Delivery method: via airmail.",
+        "ILL-Note: Only the items held at the Main Library are available. Delivery method: Photocopy: via airmail"
+      ]
+    }
+  ]
+}

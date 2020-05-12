@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA011485.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA011485#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA011485.json"},"foaf:name":[{"@value":"日本航空協会 航空図書館"},{"@value":"ニホンコウクウキヨウカイ コウクウトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"航空図"},{"@value":"コウクウト","@language":"ja-hrkt"}],"cinii:memberid":"FA011485","cinii:organizationid":"KI006625","cinii:prefcode":"13","cinii:catflag":"N","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"日本航空協会 航空図書館","v:adr":{"@type":"v:Address","v:postal-code":"105-0004","v:label":"東京都港区新橋1-18-1航空会館6F"},"v:tel":[{"@type":"v:Tel","@value":"03-3502-1205"}],"v:fax":[{"@type":"v:Fax","@value":"03-3503-1375"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011485.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011485#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011485.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本航空協会 航空図書館"
+        },
+        {
+          "@value": "ニホンコウクウキヨウカイ コウクウトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "航空図"
+        },
+        {
+          "@value": "コウクウト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011485",
+      "cinii:organizationid": "KI006625",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本航空協会 航空図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "105-0004",
+        "v:label": "東京都港区新橋1-18-1航空会館6F"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3502-1205"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3503-1375"
+        }
+      ]
+    }
+  ]
+}

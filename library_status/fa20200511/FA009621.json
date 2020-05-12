@@ -1,1 +1,79 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009621.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009621#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009621.json"},"foaf:name":[{"@value":"厚生労働省 国立感染症研究所"},{"@value":"コウセイロウドウショウ コクリツカンセンショウケンキュウジョ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"感染研"},{"@value":"カンセンケン","@language":"ja-hrkt"}],"dcterms:hasPart":["図書"],"cinii:memberid":"FA009621","cinii:organizationid":"KI004991","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"厚生労働省 国立感染症研究所","v:adr":{"@type":"v:Address","v:postal-code":"162-8640","v:label":"東京都新宿区戸山1-23-1"},"v:tel":[{"@type":"v:Tel","@value":"03-4582-2653"}],"v:fax":[{"@type":"v:Fax","@value":"03-5285-1192"}],"dc:description":["National Institute of Infectious Diseases","1-23-1 Toyama, Shinjuku-ku, Tokyo 162-8640, Japan","URL:http://www.nih.go.jp/niid/ja/library.html","担当:総務部総務課図書室図書係","相互利用:国内の所蔵が当図書室のみの文献(電子ジャーナルを含む)に限り受付ます","相互利用:受付時間は9:00-17:30です"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009621.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009621#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009621.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "厚生労働省 国立感染症研究所"
+        },
+        {
+          "@value": "コウセイロウドウショウ コクリツカンセンショウケンキュウジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "感染研"
+        },
+        {
+          "@value": "カンセンケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA009621",
+      "cinii:organizationid": "KI004991",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "厚生労働省 国立感染症研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "162-8640",
+        "v:label": "東京都新宿区戸山1-23-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-4582-2653"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5285-1192"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Infectious Diseases",
+        "1-23-1 Toyama, Shinjuku-ku, Tokyo 162-8640, Japan",
+        "URL:http://www.nih.go.jp/niid/ja/library.html",
+        "担当:総務部総務課図書室図書係",
+        "相互利用:国内の所蔵が当図書室のみの文献(電子ジャーナルを含む)に限り受付ます",
+        "相互利用:受付時間は9:00-17:30です"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019228.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019228#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019228.json"},"foaf:name":[{"@value":"中国学園 図書館"},{"@value":"チユウゴクガクエン トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"中国学園"},{"@value":"チユウゴクガクエン","@language":"ja-hrkt"}],"cinii:memberid":"FA019228","cinii:organizationid":"KI011443","cinii:prefcode":"33","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"中国学園 図書館","v:adr":{"@type":"v:Address","v:postal-code":"701-0197","v:label":"岡山県岡山市北区庭瀬83"},"v:tel":[{"@type":"v:Tel","@value":"086-293-1049"}],"v:fax":[{"@type":"v:Fax","@value":"086-293-1049"}],"dc:description":["Chugoku Gakuen Library","83, Niwase, Okayama-shi, Okayama 701-0197","来館利用担当:図書館カウンター","電話番号:086-293-1049","開館時間 授業のある期間(水曜日を除く):8:50〜19:00  授業のない期間・水曜日:8:50〜17:00","注意事項:学外の方は、年度最初の来館時に学外利用者手続きをして頂きます。 夏期・冬期休暇中は、開館日を電話等で開館日を確認してください。","持参書類:身分証明書","複写時間:8:50〜18:50","館外貸出(来館):1人3冊まで 2週間","参考図書は貸出不可","休館日:土曜日・日曜日・祝日・本学行事日・その他"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019228.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019228#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019228.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "中国学園 図書館"
+        },
+        {
+          "@value": "チユウゴクガクエン トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中国学園"
+        },
+        {
+          "@value": "チユウゴクガクエン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019228",
+      "cinii:organizationid": "KI011443",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "中国学園 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "701-0197",
+        "v:label": "岡山県岡山市北区庭瀬83"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-293-1049"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-293-1049"
+        }
+      ],
+      "dc:description": [
+        "Chugoku Gakuen Library",
+        "83, Niwase, Okayama-shi, Okayama 701-0197",
+        "来館利用担当:図書館カウンター",
+        "電話番号:086-293-1049",
+        "開館時間 授業のある期間(水曜日を除く):8:50〜19:00  授業のない期間・水曜日:8:50〜17:00",
+        "注意事項:学外の方は、年度最初の来館時に学外利用者手続きをして頂きます。 夏期・冬期休暇中は、開館日を電話等で開館日を確認してください。",
+        "持参書類:身分証明書",
+        "複写時間:8:50〜18:50",
+        "館外貸出(来館):1人3冊まで 2週間",
+        "参考図書は貸出不可",
+        "休館日:土曜日・日曜日・祝日・本学行事日・その他"
+      ]
+    }
+  ]
+}

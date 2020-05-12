@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA011849.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA011849#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA011849.json"},"foaf:name":[{"@value":"東京大学 社会科学研究所"},{"@value":"トウキョウダイガク シャカイカガクケンキュウショ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東大社研"},{"@value":"トウダイシャケン","@language":"ja-hrkt"}],"dcterms:hasPart":["図書"],"cinii:memberid":"FA011849","cinii:organizationid":"KI000221","cinii:prefcode":"13","cinii:mextid":"002116","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東京大学 社会科学研究所","v:adr":{"@type":"v:Address","v:postal-code":"113-0033","v:label":"東京都文京区本郷7-3-1"},"v:tel":[{"@type":"v:Tel","@value":"03-5841-4944"}],"v:fax":[{"@type":"v:Fax","@value":"03-5841-4958"}],"dc:description":["URL:https://library.iss.u-tokyo.ac.jp/ (Website)","URL:https://opac.dl.itc.u-tokyo.ac.jp/ (OPAC)","開室日程や利用方法の詳細は当室ホームページをご覧ください。 ※東大前期入試日(2月末): 学外の方は入構できません。","【閲覧時の事前連絡:不要】 ただし、貸出中等で利用できない場合や、文庫・コレクションなど利用許諾が必要な資料もあります。取り置きを希望される場合は、事前に資料を特定し、所属機関の図書館を通じて所蔵照会してください。(所属機関がない方は、メール・FAX等で直接お問い合わせください)","図書館間相互利用(ILL): 受付可 支払方法: NII文献複写等相殺サービス (相殺サービス非参加館は銀行振込)","ILL-Org : Institute of Social Science Library, the University of Tokyo","ILL-Address : 7-3-1 Hongo, Bunkyo-ku, Tokyo, JAPAN","ILL-ZIP : 113-0033","ILL-Commun1 : Tel:+81-3-5841-4944 /FAX:+81-3-5841-4958 /E-mail:counter@iss.u-tokyo.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011849.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011849#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011849.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 社会科学研究所"
+        },
+        {
+          "@value": "トウキョウダイガク シャカイカガクケンキュウショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大社研"
+        },
+        {
+          "@value": "トウダイシャケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA011849",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002116",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 社会科学研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-4944"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-4958"
+        }
+      ],
+      "dc:description": [
+        "URL:https://library.iss.u-tokyo.ac.jp/ (Website)",
+        "URL:https://opac.dl.itc.u-tokyo.ac.jp/ (OPAC)",
+        "開室日程や利用方法の詳細は当室ホームページをご覧ください。 ※東大前期入試日(2月末): 学外の方は入構できません。",
+        "【閲覧時の事前連絡:不要】 ただし、貸出中等で利用できない場合や、文庫・コレクションなど利用許諾が必要な資料もあります。取り置きを希望される場合は、事前に資料を特定し、所属機関の図書館を通じて所蔵照会してください。(所属機関がない方は、メール・FAX等で直接お問い合わせください)",
+        "図書館間相互利用(ILL): 受付可 支払方法: NII文献複写等相殺サービス (相殺サービス非参加館は銀行振込)",
+        "ILL-Org : Institute of Social Science Library, the University of Tokyo",
+        "ILL-Address : 7-3-1 Hongo, Bunkyo-ku, Tokyo, JAPAN",
+        "ILL-ZIP : 113-0033",
+        "ILL-Commun1 : Tel:+81-3-5841-4944 /FAX:+81-3-5841-4958 /E-mail:counter@iss.u-tokyo.ac.jp"
+      ]
+    }
+  ]
+}

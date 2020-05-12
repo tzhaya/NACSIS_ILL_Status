@@ -1,1 +1,65 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016252.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016252#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016252.json"},"foaf:name":[{"@value":"防衛省防衛研究所 図書館"},{"@value":"ボウエイシヨウボウエイケンキユウジヨ トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"防研"},{"@value":"ボウケン","@language":"ja-hrkt"}],"cinii:memberid":"FA016252","cinii:organizationid":"KI009055","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"防衛省防衛研究所 図書館","v:adr":{"@type":"v:Address","v:postal-code":"153-8648","v:label":"東京都目黒区中目黒2-2-1"},"v:tel":[{"@type":"v:Tel","@value":"03-5721-7005"}],"dc:description":["注意事項:一般公開は致しておりません"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016252.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016252#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016252.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "防衛省防衛研究所 図書館"
+        },
+        {
+          "@value": "ボウエイシヨウボウエイケンキユウジヨ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "防研"
+        },
+        {
+          "@value": "ボウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016252",
+      "cinii:organizationid": "KI009055",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "防衛省防衛研究所 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "153-8648",
+        "v:label": "東京都目黒区中目黒2-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5721-7005"
+        }
+      ],
+      "dc:description": [
+        "注意事項:一般公開は致しておりません"
+      ]
+    }
+  ]
+}

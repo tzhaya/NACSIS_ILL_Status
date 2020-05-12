@@ -1,1 +1,76 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA020566.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA020566#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA020566.json"},"foaf:name":[{"@value":"静岡市立清水病院 図書館"},{"@value":"シズオカシリツシミズビョウイン トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"清水病"},{"@value":"シミズビョウ","@language":"ja-hrkt"}],"cinii:memberid":"FA020566","cinii:organizationid":"KI012435","cinii:prefcode":"22","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"静岡市立清水病院 図書館","v:adr":{"@type":"v:Address","v:postal-code":"424-8636","v:label":"静岡市清水区宮加三1231"},"v:tel":[{"@type":"v:Tel","@value":"054-336-1111"}],"v:fax":[{"@type":"v:Fax","@value":"054-336-1315(直通)"}],"dc:description":["Shimizu Municipal Hospital Library","1231, Miyakami, Shimizu, Shizuoka 424-8636","来館利用担当:一般利用不可","館外貸出:不可","休館日:土曜日、日曜日、国民の祝日、年末年始","文献料の支払方法は銀行振込です。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020566.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020566#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020566.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "静岡市立清水病院 図書館"
+        },
+        {
+          "@value": "シズオカシリツシミズビョウイン トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "清水病"
+        },
+        {
+          "@value": "シミズビョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020566",
+      "cinii:organizationid": "KI012435",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "静岡市立清水病院 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "424-8636",
+        "v:label": "静岡市清水区宮加三1231"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "054-336-1111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "054-336-1315(直通)"
+        }
+      ],
+      "dc:description": [
+        "Shimizu Municipal Hospital Library",
+        "1231, Miyakami, Shimizu, Shizuoka 424-8636",
+        "来館利用担当:一般利用不可",
+        "館外貸出:不可",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始",
+        "文献料の支払方法は銀行振込です。"
+      ]
+    }
+  ]
+}

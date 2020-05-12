@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019159.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019159#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019159.json"},"foaf:name":[{"@value":"大阪キリスト教短期大学 図書館"},{"@value":"オオサカキリストキヨウタンキダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"大キ短"},{"@value":"オオキタン","@language":"ja-hrkt"}],"cinii:memberid":"FA019159","cinii:organizationid":"KI011374","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"大阪キリスト教短期大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"545-0042","v:label":"大阪府大阪市阿倍野区丸山通1-3-61"},"v:tel":[{"@type":"v:Tel","@value":"06-6652-2091"}],"v:fax":[{"@type":"v:Fax","@value":"06-6652-2068"}],"dc:description":["Osaka Christian College Library","1-3-61, Maruyama dori, Abeno-ku, Osaka 545-0042","URL:http://www.occ.ac.jp/","来館利用担当:閲覧","電話番号:06-6652-2091","受付時間:9:00〜18:30","注意事項:必ず事前にお電話にてお問い合わせ下さい。","持参書類:問い合わせ時にご案内します。","複写時間:9:00〜18:30","館外貸出:不可","休館日:日曜日、祝日、創立記念日、その他"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019159.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019159#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019159.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪キリスト教短期大学 図書館"
+        },
+        {
+          "@value": "オオサカキリストキヨウタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大キ短"
+        },
+        {
+          "@value": "オオキタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019159",
+      "cinii:organizationid": "KI011374",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪キリスト教短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "545-0042",
+        "v:label": "大阪府大阪市阿倍野区丸山通1-3-61"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6652-2091"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6652-2068"
+        }
+      ],
+      "dc:description": [
+        "Osaka Christian College Library",
+        "1-3-61, Maruyama dori, Abeno-ku, Osaka 545-0042",
+        "URL:http://www.occ.ac.jp/",
+        "来館利用担当:閲覧",
+        "電話番号:06-6652-2091",
+        "受付時間:9:00〜18:30",
+        "注意事項:必ず事前にお電話にてお問い合わせ下さい。",
+        "持参書類:問い合わせ時にご案内します。",
+        "複写時間:9:00〜18:30",
+        "館外貸出:不可",
+        "休館日:日曜日、祝日、創立記念日、その他"
+      ]
+    }
+  ]
+}

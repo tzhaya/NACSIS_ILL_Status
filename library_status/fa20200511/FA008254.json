@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008254.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008254#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008254.json"},"foaf:name":[{"@value":"甲南女子大学 図書館"},{"@value":"コウナンジョシダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"甲南女"},{"@value":"コウナンジョ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA008254","cinii:organizationid":"KI003886","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"甲南女子大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"658-0001","v:label":"兵庫県神戸市東灘区森北町6-2-23"},"v:tel":[{"@type":"v:Tel","@value":"078-431-0277"}],"v:fax":[{"@type":"v:Fax","@value":"078-431-9988"}],"dc:description":["Konan Women's University Library","6-2-23, Morikita-machi, Higashinada-ku, Kobe, Japan 658-0001","URL:http://www.konan-wu.ac.jp/","来館利用担当:相互利用係","電話番号:078-431-0277","受付時間:9:00～17:00","注意事項:文書あるいは電話で問合わせし、日時を連絡のこと。車での来館は、学内に駐車場がないので御遠慮ください。スクールバスをご利用ください。","持参書類:図書館資料利用依頼書と身分を証明するもの","複写時間:9:00～17:00","館外貸出:否","注意事項:貴重書の複写は原則として不可"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008254.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008254#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008254.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "甲南女子大学 図書館"
+        },
+        {
+          "@value": "コウナンジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "甲南女"
+        },
+        {
+          "@value": "コウナンジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008254",
+      "cinii:organizationid": "KI003886",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "甲南女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "658-0001",
+        "v:label": "兵庫県神戸市東灘区森北町6-2-23"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-431-0277"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-431-9988"
+        }
+      ],
+      "dc:description": [
+        "Konan Women's University Library",
+        "6-2-23, Morikita-machi, Higashinada-ku, Kobe, Japan 658-0001",
+        "URL:http://www.konan-wu.ac.jp/",
+        "来館利用担当:相互利用係",
+        "電話番号:078-431-0277",
+        "受付時間:9:00～17:00",
+        "注意事項:文書あるいは電話で問合わせし、日時を連絡のこと。車での来館は、学内に駐車場がないので御遠慮ください。スクールバスをご利用ください。",
+        "持参書類:図書館資料利用依頼書と身分を証明するもの",
+        "複写時間:9:00～17:00",
+        "館外貸出:否",
+        "注意事項:貴重書の複写は原則として不可"
+      ]
+    }
+  ]
+}

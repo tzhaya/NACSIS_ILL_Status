@@ -1,1 +1,105 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA006995.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA006995#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA006995.json"},"foaf:name":[{"@value":"横浜商科大学 図書館"},{"@value":"ヨコハマショウカダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"横商大"},{"@value":"ヨコショウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA006995","cinii:organizationid":"KI002941","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"横浜商科大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"230-8577","v:label":"横浜市鶴見区東寺尾4-11-1"},"v:tel":[{"@type":"v:Tel","@value":"045-583-9057"}],"v:fax":[{"@type":"v:Fax","@value":"045-584-4870"}],"dc:description":["4-11-1, Higashiterao, Tsurumi-ku, Yokohama 230-8577","Yokohama College of Commerce Library","URL:https://library.shodai.ac.jp (website)","複写担当係 :相互利用担当","複写受付可否 :可","FAX受付可否 :可","複写方法・料金:電子複写(40円均一)カラーコピー不可","決済方法 :公費・私費=後納、相殺","支払方法 :NII相殺サービス参加館=相殺 / その他の機関=郵便振替","振込先 :学校法人横浜商科大学(口座番号00240-8-79966)","複写注記 :原則として送付は郵送で行います。FAXでの送信を希望する場合は送信料として一枚につき50円が追加されます。","受付注記 :NII相殺サービス未参加館は、申し込みの際その旨明示してください。","貸借担当係 :相互利用担当","貸借受付可否 :可","貸出期間 :1ケ月","貸出冊数 :10冊","貸借備考: 簡易書留または書留のゆうメール、ゆうパック、宅配便のいずれかでご返却ください。","閲覧担当係 :相互利用担当","閲覧事前連絡 :資料の所在等、事前確認をしてください。","閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)","閲覧受付時間 :9:00〜18:50(土曜日〜16:20)","複写受付時間 :9:00〜16:50(土曜日〜12:50)","館外貸出可否 :否","通常開館時間 :9:00〜19:00(土曜日〜16:30)","休業中開館時間:9:00〜16:30(土曜日〜16:30)","電話番号:045-583-9057","注意事項:みどりキャンパス図書室は現在整備のため休館しており、利用できません。","ILL-Org:Yokohama College of Commerce Library","ILL-Address:4-11-1, Higashiterao, Tsurumi-ku, Yokohama-shi, Kanagawa-ken, Japan","ILL-Zip:230-8577","休館日 :日曜日・祝日・年末年始・入学試験日・その他臨時休館日","ILL-Commun1:Tel:+81-45-583-9057 /FAX:+81-45-584-4870 / E-mail:library@shodai.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006995.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006995#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006995.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "横浜商科大学 図書館"
+        },
+        {
+          "@value": "ヨコハマショウカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "横商大"
+        },
+        {
+          "@value": "ヨコショウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA006995",
+      "cinii:organizationid": "KI002941",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "横浜商科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "230-8577",
+        "v:label": "横浜市鶴見区東寺尾4-11-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-583-9057"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-584-4870"
+        }
+      ],
+      "dc:description": [
+        "4-11-1, Higashiterao, Tsurumi-ku, Yokohama 230-8577",
+        "Yokohama College of Commerce Library",
+        "URL:https://library.shodai.ac.jp (website)",
+        "複写担当係 :相互利用担当",
+        "複写受付可否 :可",
+        "FAX受付可否 :可",
+        "複写方法・料金:電子複写(40円均一)カラーコピー不可",
+        "決済方法 :公費・私費=後納、相殺",
+        "支払方法 :NII相殺サービス参加館=相殺 / その他の機関=郵便振替",
+        "振込先 :学校法人横浜商科大学(口座番号00240-8-79966)",
+        "複写注記 :原則として送付は郵送で行います。FAXでの送信を希望する場合は送信料として一枚につき50円が追加されます。",
+        "受付注記 :NII相殺サービス未参加館は、申し込みの際その旨明示してください。",
+        "貸借担当係 :相互利用担当",
+        "貸借受付可否 :可",
+        "貸出期間 :1ケ月",
+        "貸出冊数 :10冊",
+        "貸借備考: 簡易書留または書留のゆうメール、ゆうパック、宅配便のいずれかでご返却ください。",
+        "閲覧担当係 :相互利用担当",
+        "閲覧事前連絡 :資料の所在等、事前確認をしてください。",
+        "閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "閲覧受付時間 :9:00〜18:50(土曜日〜16:20)",
+        "複写受付時間 :9:00〜16:50(土曜日〜12:50)",
+        "館外貸出可否 :否",
+        "通常開館時間 :9:00〜19:00(土曜日〜16:30)",
+        "休業中開館時間:9:00〜16:30(土曜日〜16:30)",
+        "電話番号:045-583-9057",
+        "注意事項:みどりキャンパス図書室は現在整備のため休館しており、利用できません。",
+        "ILL-Org:Yokohama College of Commerce Library",
+        "ILL-Address:4-11-1, Higashiterao, Tsurumi-ku, Yokohama-shi, Kanagawa-ken, Japan",
+        "ILL-Zip:230-8577",
+        "休館日 :日曜日・祝日・年末年始・入学試験日・その他臨時休館日",
+        "ILL-Commun1:Tel:+81-45-583-9057 /FAX:+81-45-584-4870 / E-mail:library@shodai.ac.jp"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,75 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008017.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008017#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008017.json"},"foaf:name":[{"@value":"関西外国語大学 図書館 学術情報センター (御殿山)"},{"@value":"カンサイガイコクゴダイガク トショカン ガクジュツジョウホウセンター (ゴテンヤマ)","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"関外御殿山"},{"@value":"カンガイゴテンヤマ","@language":"ja-hrkt"}],"cinii:memberid":"FA008017","cinii:organizationid":"KI003729","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"関西外国語大学 図書館 学術情報センター (御殿山)","v:adr":{"@type":"v:Address","v:postal-code":"573-1008","v:label":"大阪府枚方市御殿山南町6番1号 LC棟1F"},"v:tel":[{"@type":"v:Tel","@value":"072-805-2707"}],"v:fax":[{"@type":"v:Fax","@value":"072-805-2765"}],"dc:description":["Kansai Gaidai University Library (Gotenyama)","6-1, Gotenyamaminami-machi, Hirakata-shi, Osaka 573-1008, Japan","URL:http://www.kansaigaidai.ac.jp/ (大学ホームページ)","URL:http://library.kansaigaidai.ac.jp/(OPAC)","URL:http://library.kansaigaidai.ac.jp/ (図書館ホームページ)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008017.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008017#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008017.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関西外国語大学 図書館 学術情報センター (御殿山)"
+        },
+        {
+          "@value": "カンサイガイコクゴダイガク トショカン ガクジュツジョウホウセンター (ゴテンヤマ)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関外御殿山"
+        },
+        {
+          "@value": "カンガイゴテンヤマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008017",
+      "cinii:organizationid": "KI003729",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "関西外国語大学 図書館 学術情報センター (御殿山)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "573-1008",
+        "v:label": "大阪府枚方市御殿山南町6番1号 LC棟1F"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-805-2707"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-805-2765"
+        }
+      ],
+      "dc:description": [
+        "Kansai Gaidai University Library (Gotenyama)",
+        "6-1, Gotenyamaminami-machi, Hirakata-shi, Osaka 573-1008, Japan",
+        "URL:http://www.kansaigaidai.ac.jp/ (大学ホームページ)",
+        "URL:http://library.kansaigaidai.ac.jp/(OPAC)",
+        "URL:http://library.kansaigaidai.ac.jp/ (図書館ホームページ)"
+      ]
+    }
+  ]
+}

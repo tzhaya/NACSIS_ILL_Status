@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA024691.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA024691#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA024691.json"},"foaf:name":[{"@value":"東京医療保健大学 附属東が丘図書館"},{"@value":"トウキョウイリョウホケンダイガク フゾクヒガシガオカトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東医保大東"},{"@value":"トウイホダイヒガシ","@language":"ja-hrkt"}],"cinii:memberid":"FA024691","cinii:organizationid":"KI013675","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東京医療保健大学 附属東が丘図書館","v:adr":{"@type":"v:Address","v:postal-code":"152-8558","v:label":"東京都目黒区東が丘2-5-1 (国立病院機構キャンパス)"},"v:tel":[{"@type":"v:Tel","@value":"03-5779-5032"}],"v:fax":[{"@type":"v:Fax","@value":"03-5431-1481(大学代表)"}],"dc:description":["URL:http://www.thcu.ac.jp/facilities/library/"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024691.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024691#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024691.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京医療保健大学 附属東が丘図書館"
+        },
+        {
+          "@value": "トウキョウイリョウホケンダイガク フゾクヒガシガオカトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東医保大東"
+        },
+        {
+          "@value": "トウイホダイヒガシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024691",
+      "cinii:organizationid": "KI013675",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京医療保健大学 附属東が丘図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "152-8558",
+        "v:label": "東京都目黒区東が丘2-5-1 (国立病院機構キャンパス)"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5779-5032"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5431-1481(大学代表)"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.thcu.ac.jp/facilities/library/"
+      ]
+    }
+  ]
+}

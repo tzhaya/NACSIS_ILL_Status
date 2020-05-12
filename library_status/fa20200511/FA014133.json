@@ -1,1 +1,80 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014133.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014133#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014133.json"},"foaf:name":[{"@value":"早稲田大学 政治経済学部教員図書室"},{"@value":"ワセダダイガク セイジケイザイガクブキヨウイントシヨシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"早大政経"},{"@value":"ソウダイセイケイ","@language":"ja-hrkt"}],"cinii:memberid":"FA014133","cinii:organizationid":"KI002781","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"早稲田大学 政治経済学部教員図書室","v:adr":{"@type":"v:Address","v:postal-code":"169-8050","v:label":"東京都新宿区西早稲田1-6-1"},"v:tel":[{"@type":"v:Tel","@value":"03-3207-5647"}],"v:fax":[{"@type":"v:Fax","@value":"03-5286-9882"}],"dc:description":["The Faculty Library, School of Political Sicence and Economics, Waseda University","1-6-1, Nishi-Waseda, Shinjuku-ku, Tokyo 169-8050","URL:http://www.waseda.ac.jp/index-j.html (website)","電話番号:03-3207-5647","受付時間:(月)-(金)9:00〜17:00、(土)9:00〜12:30、13:30〜14:00:ただし夏・冬季休業期間中は変更あり","注意事項:各季休業期間中の開室日程および時間については、早稲田大学図書館ホームページ等で確認してください。学外者は、事前に所属機関の図書館を通じて、中央図書館訪問利用担当宛てFAXで所蔵確認を行なってください。","持参書類:紹介状、身分証明書","複写時間:受付時間に準ずる","館外貸出:不可","休館日:日曜日、国民の祝日、本学創立記念日(10/21)、年末年始、夏季休業中の一定期間"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014133.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014133#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014133.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "早稲田大学 政治経済学部教員図書室"
+        },
+        {
+          "@value": "ワセダダイガク セイジケイザイガクブキヨウイントシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "早大政経"
+        },
+        {
+          "@value": "ソウダイセイケイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014133",
+      "cinii:organizationid": "KI002781",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "早稲田大学 政治経済学部教員図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "169-8050",
+        "v:label": "東京都新宿区西早稲田1-6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3207-5647"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5286-9882"
+        }
+      ],
+      "dc:description": [
+        "The Faculty Library, School of Political Sicence and Economics, Waseda University",
+        "1-6-1, Nishi-Waseda, Shinjuku-ku, Tokyo 169-8050",
+        "URL:http://www.waseda.ac.jp/index-j.html (website)",
+        "電話番号:03-3207-5647",
+        "受付時間:(月)-(金)9:00〜17:00、(土)9:00〜12:30、13:30〜14:00:ただし夏・冬季休業期間中は変更あり",
+        "注意事項:各季休業期間中の開室日程および時間については、早稲田大学図書館ホームページ等で確認してください。学外者は、事前に所属機関の図書館を通じて、中央図書館訪問利用担当宛てFAXで所蔵確認を行なってください。",
+        "持参書類:紹介状、身分証明書",
+        "複写時間:受付時間に準ずる",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、本学創立記念日(10/21)、年末年始、夏季休業中の一定期間"
+      ]
+    }
+  ]
+}

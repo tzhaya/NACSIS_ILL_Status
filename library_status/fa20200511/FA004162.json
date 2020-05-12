@@ -1,1 +1,102 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004162.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004162#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004162.json"},"foaf:name":[{"@value":"北九州市立大学 図書館"},{"@value":"キタキュウシュウシリツダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"北九大"},{"@value":"キタキュウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","研"],"cinii:memberid":"FA004162","cinii:organizationid":"KI001257","cinii:prefcode":"40","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"北九州市立大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"802-8577","v:label":"北九州市小倉南区北方四丁目2番1号"},"v:tel":[{"@type":"v:Tel","@value":"093-964-4403"}],"v:fax":[{"@type":"v:Fax","@value":"093-964-4437"}],"dc:description":["来館利用担当:カウンター","電話番号:093-964-4403","受付時間:9:15-21:30(日祝:10:00-18:00)","注意事項:館内閲覧は高校生以上の方。資料の所在、開館日を確認してください。","館外貸出:北九州市内に在住・勤務・通学する方のみ可(資料状態等により一部不可)。","持参書類:上記のことを証明できるもの。","休館日:年末年始・創立記念日(5月4日)・館内整理日・蔵書の点検に必要な日・その他館長が特に必要と認めて指定した日","ILL-Staff: Public Services Section","ILL-Dept: Public Services Section","ILL-Org: The University of Kitakyushu Library","ILL-Address: 4-2-1, Kitagata, Kokuraminami-ku, Kitakyushu-shi, Fukuoka, Japan","ILL-ZIP: 802-8577","ILL-Contact1: TEL: +81-93-964-4403,FAX: +81-93-964-4437/E-mail: lib-2@kitakyu-u.ac.jp","ILL-Contact2: Online catalogue: http://lib-web.kitakyu-u.ac.jp/opc/?advanced=1 , Website: http://www.kitakyu-u.ac.jp/lib/index.html","ILL-Calender: Closed: New Year's holiday, May4(Foundation Day), Collection inventory week, etc","ILL-Accept: International: LOAN: N/A","ILL-Accept: Foreign:KERIS(Copy only)","ILL-Accept-method: KERIS=NII ILL linkage(COPY only)","ILL-Payment-method: KERIS=NII Fee Management service","ILL-Loan-Period: International: LOAN: N/A","ILL-Loan-Item-Max: International: LOAN: N/A","ILL-Loan-Renewal: International: LOAN: N/A","ILL-Loan-Charge: International: LOAN: N/A","ILL-Loan-Delivery-method: International: LOAN: N/A","ILL-Non-Circulation-items: International: LOAN: N/A","ILL-Copy-Charge: 40 YEN per sheet and postage required.(Monochrome only)","ILL-Copy-Delivery-method: via airmail","ILL-Note: Photocopy:N/A"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004162.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004162#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004162.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北九州市立大学 図書館"
+        },
+        {
+          "@value": "キタキュウシュウシリツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北九大"
+        },
+        {
+          "@value": "キタキュウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA004162",
+      "cinii:organizationid": "KI001257",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北九州市立大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "802-8577",
+        "v:label": "北九州市小倉南区北方四丁目2番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "093-964-4403"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "093-964-4437"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当:カウンター",
+        "電話番号:093-964-4403",
+        "受付時間:9:15-21:30(日祝:10:00-18:00)",
+        "注意事項:館内閲覧は高校生以上の方。資料の所在、開館日を確認してください。",
+        "館外貸出:北九州市内に在住・勤務・通学する方のみ可(資料状態等により一部不可)。",
+        "持参書類:上記のことを証明できるもの。",
+        "休館日:年末年始・創立記念日(5月4日)・館内整理日・蔵書の点検に必要な日・その他館長が特に必要と認めて指定した日",
+        "ILL-Staff: Public Services Section",
+        "ILL-Dept: Public Services Section",
+        "ILL-Org: The University of Kitakyushu Library",
+        "ILL-Address: 4-2-1, Kitagata, Kokuraminami-ku, Kitakyushu-shi, Fukuoka, Japan",
+        "ILL-ZIP: 802-8577",
+        "ILL-Contact1: TEL: +81-93-964-4403,FAX: +81-93-964-4437/E-mail: lib-2@kitakyu-u.ac.jp",
+        "ILL-Contact2: Online catalogue: http://lib-web.kitakyu-u.ac.jp/opc/?advanced=1 , Website: http://www.kitakyu-u.ac.jp/lib/index.html",
+        "ILL-Calender: Closed: New Year's holiday, May4(Foundation Day), Collection inventory week, etc",
+        "ILL-Accept: International: LOAN: N/A",
+        "ILL-Accept: Foreign:KERIS(Copy only)",
+        "ILL-Accept-method: KERIS=NII ILL linkage(COPY only)",
+        "ILL-Payment-method: KERIS=NII Fee Management service",
+        "ILL-Loan-Period: International: LOAN: N/A",
+        "ILL-Loan-Item-Max: International: LOAN: N/A",
+        "ILL-Loan-Renewal: International: LOAN: N/A",
+        "ILL-Loan-Charge: International: LOAN: N/A",
+        "ILL-Loan-Delivery-method: International: LOAN: N/A",
+        "ILL-Non-Circulation-items: International: LOAN: N/A",
+        "ILL-Copy-Charge: 40 YEN per sheet and postage required.(Monochrome only)",
+        "ILL-Copy-Delivery-method: via airmail",
+        "ILL-Note: Photocopy:N/A"
+      ]
+    }
+  ]
+}

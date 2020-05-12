@@ -1,1 +1,57 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA024658.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA024658#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA024658.json"},"foaf:name":[{"@value":"西安交通大学 図書館"},{"@value":"セイアンコウツウダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"西交大"},{"@value":"セイコウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["XJT"],"cinii:memberid":"FA024658","cinii:organizationid":"KI024875","cinii:prefcode":"152","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"西安交通大学 図書館","v:adr":{"@type":"v:Address"}}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024658.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024658#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024658.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "西安交通大学 図書館"
+        },
+        {
+          "@value": "セイアンコウツウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "西交大"
+        },
+        {
+          "@value": "セイコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "XJT"
+      ],
+      "cinii:memberid": "FA024658",
+      "cinii:organizationid": "KI024875",
+      "cinii:prefcode": "152",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "西安交通大学 図書館",
+      "v:adr": {
+        "@type": "v:Address"
+      }
+    }
+  ]
+}

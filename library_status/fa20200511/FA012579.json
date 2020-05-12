@@ -1,1 +1,75 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012579.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012579#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012579.json"},"foaf:name":[{"@value":"宝塚大学 図書館"},{"@value":"タカラヅカダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"宝塚大学"},{"@value":"タカラヅカダイガク","@language":"ja-hrkt"}],"dcterms:hasPart":["図","サ"],"cinii:memberid":"FA012579","cinii:organizationid":"KI007151","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"宝塚大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"665-0803","v:label":"兵庫県宝塚市花屋敷つつじガ丘7-27"},"v:tel":[{"@type":"v:Tel","@value":"072-756-1231"}],"v:fax":[{"@type":"v:Fax","@value":"072-758-7869"}],"dc:description":["7-27 Hanayashiki Tsutsujigaoka, Takarazuka-shi, Hyogo MZ665-0803 Japan"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012579.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012579#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012579.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宝塚大学 図書館"
+        },
+        {
+          "@value": "タカラヅカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宝塚大学"
+        },
+        {
+          "@value": "タカラヅカダイガク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "サ"
+      ],
+      "cinii:memberid": "FA012579",
+      "cinii:organizationid": "KI007151",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "宝塚大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "665-0803",
+        "v:label": "兵庫県宝塚市花屋敷つつじガ丘7-27"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-756-1231"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-758-7869"
+        }
+      ],
+      "dc:description": [
+        "7-27 Hanayashiki Tsutsujigaoka, Takarazuka-shi, Hyogo MZ665-0803 Japan"
+      ]
+    }
+  ]
+}

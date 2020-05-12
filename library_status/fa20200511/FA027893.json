@@ -1,1 +1,59 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA027893.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA027893#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA027893.json"},"foaf:name":[{"@value":"碧南市民病院 図書室"},{"@value":"ヘキナンシミンビョウイン トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"碧南市民病院"},{"@value":"ヘキナンシミンビョウイン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA027893","cinii:organizationid":"KI02546X","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"碧南市民病院 図書室","v:adr":{"@type":"v:Address","v:postal-code":"447-8502","v:label":"碧南市平和町３丁目６番地"}}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027893.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027893#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027893.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "碧南市民病院 図書室"
+        },
+        {
+          "@value": "ヘキナンシミンビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "碧南市民病院"
+        },
+        {
+          "@value": "ヘキナンシミンビョウイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA027893",
+      "cinii:organizationid": "KI02546X",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "碧南市民病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "447-8502",
+        "v:label": "碧南市平和町３丁目６番地"
+      }
+    }
+  ]
+}

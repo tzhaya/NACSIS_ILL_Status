@@ -1,1 +1,78 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA02297X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA02297X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA02297X.json"},"foaf:name":[{"@value":"法政大学 イノベーション・マネジメント研究センター"},{"@value":"ホウセイダイガク イノベーション マネジメント ケンキュウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"法大IM研究センター"},{"@value":"ホウダイアイエムケンキュウセンター","@language":"ja-hrkt"}],"cinii:memberid":"FA02297X","cinii:organizationid":"KI002646","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"A","cinii:illstatus":"N","v:fn":"法政大学 イノベーション・マネジメント研究センター","v:adr":{"@type":"v:Address","v:postal-code":"102-8160","v:label":"東京都千代田区富士見2-17-1 ボアソナード・タワー18F"},"v:tel":[{"@type":"v:Tel","@value":"03-3264-9420"}],"v:fax":[{"@type":"v:Fax","@value":"03-3264-4690"}],"dc:description":["The Research Institute for Innovation Management, HOSEI UNIVERSITY","2-17-1, Fujimi, Chiyoda-ku, Tokyo 102-8160","URL:http://riim.ws.hosei.ac.jp","利用担当 :TEL03-3264-9420, FAX03-3264-4690","問合受付時間 : 9:00-16:30(月-金)","閲覧受付時間 : 9:00-16:30(月-金)","複写受付時間 : 9:00-16:30(月-金)","休館日 :夏冬季休業期間中の一定日, システム整備期間等, 詳しくはHPで確認してください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA02297X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA02297X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA02297X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "法政大学 イノベーション・マネジメント研究センター"
+        },
+        {
+          "@value": "ホウセイダイガク イノベーション マネジメント ケンキュウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "法大IM研究センター"
+        },
+        {
+          "@value": "ホウダイアイエムケンキュウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02297X",
+      "cinii:organizationid": "KI002646",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "法政大学 イノベーション・マネジメント研究センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "102-8160",
+        "v:label": "東京都千代田区富士見2-17-1 ボアソナード・タワー18F"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3264-9420"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3264-4690"
+        }
+      ],
+      "dc:description": [
+        "The Research Institute for Innovation Management, HOSEI UNIVERSITY",
+        "2-17-1, Fujimi, Chiyoda-ku, Tokyo 102-8160",
+        "URL:http://riim.ws.hosei.ac.jp",
+        "利用担当 :TEL03-3264-9420, FAX03-3264-4690",
+        "問合受付時間 : 9:00-16:30(月-金)",
+        "閲覧受付時間 : 9:00-16:30(月-金)",
+        "複写受付時間 : 9:00-16:30(月-金)",
+        "休館日 :夏冬季休業期間中の一定日, システム整備期間等, 詳しくはHPで確認してください。"
+      ]
+    }
+  ]
+}

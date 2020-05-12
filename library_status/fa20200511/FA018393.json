@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018393.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018393#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018393.json"},"foaf:name":[{"@value":"京都大学 生態学研究センター"},{"@value":"キヨウトダイガク セイタイガクケンキュウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"京大生態研"},{"@value":"キヨウダイセイタイケン","@language":"ja-hrkt"}],"cinii:memberid":"FA018393","cinii:organizationid":"KI000560","cinii:prefcode":"25","cinii:mextid":"004833","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"京都大学 生態学研究センター","v:adr":{"@type":"v:Address","v:postal-code":"520-2113","v:label":"大津市平野2丁目509-3"},"v:tel":[{"@type":"v:Tel","@value":"077-549-8230"}],"v:fax":[{"@type":"v:Fax","@value":"077-549-8231"}],"dc:description":["Center for Ecological Research, Kyoto University","2-509-3 Hirano, Otsu, Shiga 520-2113, Japan","URL:http://www.ecology.kyoto-u.ac.jp/index.html (website)","閲覧担当係:図書室","閲覧事前連絡:必ず電話,Email等で事前連絡のこと","受付時間:9:00-12:00 13:00-15:40","持参書類:身分証明書または紹介状","貸出:不可","休館日:土曜日・日曜日・国民の祝日・年末年始(12/28-1/4)・創立記念日(6/18),その他臨時に閉室または開室時間を変更することがある","ILL-Orga: Center for Ecological Research, Kyoto University","ILL-Address: 2-509-3 Hirano, Otsu, Shiga JAPAN","ILL-Zip: 520-2113","ILL-Commun1: Tel:+81-77-549-8230 / FAX: +81-77-549-8231 / E-mail: cerlib@ecology.kyoto-u.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018393.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018393#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018393.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 生態学研究センター"
+        },
+        {
+          "@value": "キヨウトダイガク セイタイガクケンキュウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大生態研"
+        },
+        {
+          "@value": "キヨウダイセイタイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018393",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "25",
+      "cinii:mextid": "004833",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都大学 生態学研究センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "520-2113",
+        "v:label": "大津市平野2丁目509-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "077-549-8230"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "077-549-8231"
+        }
+      ],
+      "dc:description": [
+        "Center for Ecological Research, Kyoto University",
+        "2-509-3 Hirano, Otsu, Shiga 520-2113, Japan",
+        "URL:http://www.ecology.kyoto-u.ac.jp/index.html (website)",
+        "閲覧担当係:図書室",
+        "閲覧事前連絡:必ず電話,Email等で事前連絡のこと",
+        "受付時間:9:00-12:00 13:00-15:40",
+        "持参書類:身分証明書または紹介状",
+        "貸出:不可",
+        "休館日:土曜日・日曜日・国民の祝日・年末年始(12/28-1/4)・創立記念日(6/18),その他臨時に閉室または開室時間を変更することがある",
+        "ILL-Orga: Center for Ecological Research, Kyoto University",
+        "ILL-Address: 2-509-3 Hirano, Otsu, Shiga JAPAN",
+        "ILL-Zip: 520-2113",
+        "ILL-Commun1: Tel:+81-77-549-8230 / FAX: +81-77-549-8231 / E-mail: cerlib@ecology.kyoto-u.ac.jp"
+      ]
+    }
+  ]
+}

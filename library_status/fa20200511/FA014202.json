@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014202.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014202#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014202.json"},"foaf:name":[{"@value":"早稲田大学 演劇博物館図書室"},{"@value":"ワセダダイガク エンゲキハクブツカントショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"早大演博"},{"@value":"ソウダイエンパク","@language":"ja-hrkt"}],"cinii:memberid":"FA014202","cinii:organizationid":"KI002781","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"早稲田大学 演劇博物館図書室","v:adr":{"@type":"v:Address","v:postal-code":"169-8050","v:label":"東京都新宿区西早稲田1-6-1"},"v:tel":[{"@type":"v:Tel","@value":"03-3204-3346"}],"v:fax":[{"@type":"v:Fax","@value":"03-5286-9730"}],"dc:description":["THEATRE MUSEUM","1-6-1, Nishiwaseda, Shinjuku-ku, Tokyo, 169-8050","URL:http://www.waseda.jp/enpaku/","URL:http://www.waseda.jp/enpaku/visitor/(ご利用案内)","電話番号:外国語図書・貴重書・AV:03-5286-1830","受付時間:和書:10:00〜17:00(火・金曜日は19:00)","受付時間:外国語図書・貴重書・AVブース:10:00〜17:00","注意事項:開館日・開館時間は変更することがありますので、事前にHP等でご確認願います。ILL複写は中央図書館経由で受付しています。","持参書類:身分証明書","館外貸出:不可","制限事項:貴重書には、閲覧を許可しないものもあり、当日閲覧が不可のものもある。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014202.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014202#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014202.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "早稲田大学 演劇博物館図書室"
+        },
+        {
+          "@value": "ワセダダイガク エンゲキハクブツカントショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "早大演博"
+        },
+        {
+          "@value": "ソウダイエンパク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014202",
+      "cinii:organizationid": "KI002781",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "早稲田大学 演劇博物館図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "169-8050",
+        "v:label": "東京都新宿区西早稲田1-6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3204-3346"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5286-9730"
+        }
+      ],
+      "dc:description": [
+        "THEATRE MUSEUM",
+        "1-6-1, Nishiwaseda, Shinjuku-ku, Tokyo, 169-8050",
+        "URL:http://www.waseda.jp/enpaku/",
+        "URL:http://www.waseda.jp/enpaku/visitor/(ご利用案内)",
+        "電話番号:外国語図書・貴重書・AV:03-5286-1830",
+        "受付時間:和書:10:00〜17:00(火・金曜日は19:00)",
+        "受付時間:外国語図書・貴重書・AVブース:10:00〜17:00",
+        "注意事項:開館日・開館時間は変更することがありますので、事前にHP等でご確認願います。ILL複写は中央図書館経由で受付しています。",
+        "持参書類:身分証明書",
+        "館外貸出:不可",
+        "制限事項:貴重書には、閲覧を許可しないものもあり、当日閲覧が不可のものもある。"
+      ]
+    }
+  ]
+}

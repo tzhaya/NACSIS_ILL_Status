@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004151.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004151#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004151.json"},"foaf:name":[{"@value":"高知県立大学 総合情報センター 永国寺 図書館"},{"@value":"コウチケンリツダイガク ソウゴウジョウホウセンター エイコクジ トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"高県大永"},{"@value":"コウケンダイエイ","@language":"ja-hrkt"}],"dcterms:hasPart":["永図","池図","研"],"cinii:memberid":"FA004151","cinii:organizationid":"KI001246","cinii:prefcode":"39","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"高知県立大学 総合情報センター 永国寺 図書館","v:adr":{"@type":"v:Address","v:postal-code":"780-8515","v:label":"高知県高知市永国寺町2-22"},"v:tel":[{"@type":"v:Tel","@value":"088-821-7129(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"088-821-7130"}],"dc:description":["University of Kochi Integrated Information Center Eikokuji library","2-22, Eikokuji-cho, Kochi-City, Kochi 780-8515","URL:","利用時間:永国寺図書館8:30〜20:40(土曜日10:00〜15:40)/池図書館8:30〜18:50(土曜日10:00〜15:40)","休館日:日曜日・国民の祝日・年末年始・毎月第一水曜日・長期休業中の土曜日・夏季,春季休業中の一定期間","文化学部は永国寺図書館、看護学部・社会福祉学部・健康栄養学部は池図書館が窓口となります。旧高知女子大学保育短期大学部所蔵資料及び、看護・福祉・健康栄養関係資料は池図書館<FA021343>TEL.088-847-8701,FAX088-847-8671をご利用ください。","注意事項:18歳未満の方は、特別な場合を除きご利用になれません。資料の所在等、事前確認をしてください。車での来館はご遠慮ください。","持参書類:身分証明書","館外貸出:県内在住者、もしくは通勤通学者は可","制限事項:館外貸出には利用者登録が必要です。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004151.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004151#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004151.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高知県立大学 総合情報センター 永国寺 図書館"
+        },
+        {
+          "@value": "コウチケンリツダイガク ソウゴウジョウホウセンター エイコクジ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高県大永"
+        },
+        {
+          "@value": "コウケンダイエイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "永図",
+        "池図",
+        "研"
+      ],
+      "cinii:memberid": "FA004151",
+      "cinii:organizationid": "KI001246",
+      "cinii:prefcode": "39",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "高知県立大学 総合情報センター 永国寺 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "780-8515",
+        "v:label": "高知県高知市永国寺町2-22"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-821-7129(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-821-7130"
+        }
+      ],
+      "dc:description": [
+        "University of Kochi Integrated Information Center Eikokuji library",
+        "2-22, Eikokuji-cho, Kochi-City, Kochi 780-8515",
+        "URL:",
+        "利用時間:永国寺図書館8:30〜20:40(土曜日10:00〜15:40)/池図書館8:30〜18:50(土曜日10:00〜15:40)",
+        "休館日:日曜日・国民の祝日・年末年始・毎月第一水曜日・長期休業中の土曜日・夏季,春季休業中の一定期間",
+        "文化学部は永国寺図書館、看護学部・社会福祉学部・健康栄養学部は池図書館が窓口となります。旧高知女子大学保育短期大学部所蔵資料及び、看護・福祉・健康栄養関係資料は池図書館<FA021343>TEL.088-847-8701,FAX088-847-8671をご利用ください。",
+        "注意事項:18歳未満の方は、特別な場合を除きご利用になれません。資料の所在等、事前確認をしてください。車での来館はご遠慮ください。",
+        "持参書類:身分証明書",
+        "館外貸出:県内在住者、もしくは通勤通学者は可",
+        "制限事項:館外貸出には利用者登録が必要です。"
+      ]
+    }
+  ]
+}

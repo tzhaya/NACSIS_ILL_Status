@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA011044.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA011044#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA011044.json"},"foaf:name":[{"@value":"大阪商工会議所 中小企業振興部経営相談室 資料閲覧コーナー"},{"@value":"オオサカショウコウカイギショ チュウショウキギョウシンコウブケイエイソウダンシツ シリョウエツランコーナー","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"大商"},{"@value":"ダイシヨウ","@language":"ja-hrkt"}],"dcterms:hasPart":["大商議図"],"cinii:memberid":"FA011044","cinii:organizationid":"KI006228","cinii:prefcode":"27","cinii:catflag":"N","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"大阪商工会議所 中小企業振興部経営相談室 資料閲覧コーナー","v:adr":{"@type":"v:Address","v:postal-code":"540-0029","v:label":"大阪府大阪市中央区本町橋2-8大阪商工会議所ビル"},"v:tel":[{"@type":"v:Tel","@value":"06-6944-6312"}],"v:fax":[{"@type":"v:Fax","@value":"06-4791-0444"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011044.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011044#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011044.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪商工会議所 中小企業振興部経営相談室 資料閲覧コーナー"
+        },
+        {
+          "@value": "オオサカショウコウカイギショ チュウショウキギョウシンコウブケイエイソウダンシツ シリョウエツランコーナー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大商"
+        },
+        {
+          "@value": "ダイシヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "大商議図"
+      ],
+      "cinii:memberid": "FA011044",
+      "cinii:organizationid": "KI006228",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪商工会議所 中小企業振興部経営相談室 資料閲覧コーナー",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "540-0029",
+        "v:label": "大阪府大阪市中央区本町橋2-8大阪商工会議所ビル"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6944-6312"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-4791-0444"
+        }
+      ]
+    }
+  ]
+}

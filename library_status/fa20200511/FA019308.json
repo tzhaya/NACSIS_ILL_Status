@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019308.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019308#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019308.json"},"foaf:name":[{"@value":"三育学院 深澤記念 図書館"},{"@value":"サンイクガクイン フカサワキネン トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"三育学院"},{"@value":"サンイクガクイン","@language":"ja-hrkt"}],"cinii:memberid":"FA019308","cinii:organizationid":"KI011523","cinii:prefcode":"12","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"三育学院 深澤記念 図書館","v:adr":{"@type":"v:Address","v:postal-code":"298-0297","v:label":"千葉県夷隅郡大多喜町久我原1500"},"v:tel":[{"@type":"v:Tel","@value":"0470-84-0111"}],"v:fax":[{"@type":"v:Fax","@value":"0470-84-0076"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019308.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019308#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019308.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "三育学院 深澤記念 図書館"
+        },
+        {
+          "@value": "サンイクガクイン フカサワキネン トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "三育学院"
+        },
+        {
+          "@value": "サンイクガクイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019308",
+      "cinii:organizationid": "KI011523",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "三育学院 深澤記念 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "298-0297",
+        "v:label": "千葉県夷隅郡大多喜町久我原1500"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0470-84-0111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0470-84-0076"
+        }
+      ]
+    }
+  ]
+}

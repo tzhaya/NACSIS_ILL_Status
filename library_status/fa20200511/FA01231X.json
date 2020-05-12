@@ -1,1 +1,78 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA01231X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA01231X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA01231X.json"},"foaf:name":[{"@value":"北里大学 看護学部図書館"},{"@value":"キタサトダイガク カンゴガクブトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"北里看"},{"@value":"キタサトカン","@language":"ja-hrkt"}],"cinii:memberid":"FA01231X","cinii:organizationid":"KI00195X","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"C","cinii:illstatus":"N","v:fn":"北里大学 看護学部図書館","v:adr":{"@type":"v:Address","v:postal-code":"252-0329","v:label":"神奈川県相模原市南区北里2-1-1"},"v:tel":[{"@type":"v:Tel","@value":"042-778-9286"}],"v:fax":[{"@type":"v:Fax","@value":"042-778-9421"}],"dc:description":["Kitasato University School of Nursing Library","2-1-1, Kitasato, Minamiku,Sagamihara, Kanagawa, 252-0329 Japan","URL:http://www.kitasato-u.ac.jp/nrs/gakubu/library/","電話番号:042-778-9286","受付時間:9:00〜16:30(第1・3・5土曜日10:00〜12:30)","注意事項:必ず事前連絡のこと","注意事項:駐車場はありません、公共交通機関をご利用ください","休館日:日曜日、祝祭日、第2・4土曜日、学園の記念日、夏期特別休暇期間、蔵書点検期間(8月上旬)、年末年始"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01231X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01231X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01231X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北里大学 看護学部図書館"
+        },
+        {
+          "@value": "キタサトダイガク カンゴガクブトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北里看"
+        },
+        {
+          "@value": "キタサトカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA01231X",
+      "cinii:organizationid": "KI00195X",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "N",
+      "v:fn": "北里大学 看護学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "252-0329",
+        "v:label": "神奈川県相模原市南区北里2-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-778-9286"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-778-9421"
+        }
+      ],
+      "dc:description": [
+        "Kitasato University School of Nursing Library",
+        "2-1-1, Kitasato, Minamiku,Sagamihara, Kanagawa, 252-0329 Japan",
+        "URL:http://www.kitasato-u.ac.jp/nrs/gakubu/library/",
+        "電話番号:042-778-9286",
+        "受付時間:9:00〜16:30(第1・3・5土曜日10:00〜12:30)",
+        "注意事項:必ず事前連絡のこと",
+        "注意事項:駐車場はありません、公共交通機関をご利用ください",
+        "休館日:日曜日、祝祭日、第2・4土曜日、学園の記念日、夏期特別休暇期間、蔵書点検期間(8月上旬)、年末年始"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,87 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012193.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012193#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012193.json"},"foaf:name":[{"@value":"国立天文台"},{"@value":"コクリツテンモンダイ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"天文台"},{"@value":"テンモンダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図書室","野辺山","岡山","水沢","三鷹"],"cinii:memberid":"FA012193","cinii:organizationid":"KI004878","cinii:prefcode":"13","cinii:mextid":"990800","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"国立天文台","v:adr":{"@type":"v:Address","v:postal-code":"181-8588","v:label":"東京都三鷹市大沢2丁目21番1号"},"v:tel":[{"@type":"v:Tel","@value":"0422-34-3953"}],"v:fax":[{"@type":"v:Fax","@value":"0422-34-3952"}],"dc:description":["National Astronomical Observatory of Japan Library","2-21-1 Osawa, Mitaka, Tokyo 181-8588","URL:https://library.nao.ac.jp/ (website)","来館利用担当:図書係","電話番号:0422-34-3953","開室時間:平日9:00-12:00,13:00-17:00(複写受付は16:30まで)","休室日:土曜日、日曜日、国民の祝日、年末年始、臨時休室日(臨時休室日がある場合は、Webサイトで告知します)","館外貸出:不可","複写料金:モノクロ35円/枚、カラー60円/枚"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012193.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012193#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012193.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立天文台"
+        },
+        {
+          "@value": "コクリツテンモンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "天文台"
+        },
+        {
+          "@value": "テンモンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書室",
+        "野辺山",
+        "岡山",
+        "水沢",
+        "三鷹"
+      ],
+      "cinii:memberid": "FA012193",
+      "cinii:organizationid": "KI004878",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "990800",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立天文台",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "181-8588",
+        "v:label": "東京都三鷹市大沢2丁目21番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0422-34-3953"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0422-34-3952"
+        }
+      ],
+      "dc:description": [
+        "National Astronomical Observatory of Japan Library",
+        "2-21-1 Osawa, Mitaka, Tokyo 181-8588",
+        "URL:https://library.nao.ac.jp/ (website)",
+        "来館利用担当:図書係",
+        "電話番号:0422-34-3953",
+        "開室時間:平日9:00-12:00,13:00-17:00(複写受付は16:30まで)",
+        "休室日:土曜日、日曜日、国民の祝日、年末年始、臨時休室日(臨時休室日がある場合は、Webサイトで告知します)",
+        "館外貸出:不可",
+        "複写料金:モノクロ35円/枚、カラー60円/枚"
+      ]
+    }
+  ]
+}

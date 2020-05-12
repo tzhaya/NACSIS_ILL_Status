@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015238.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015238#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015238.json"},"foaf:name":[{"@value":"尾道市立大学 附属図書館"},{"@value":"オノミチシリツダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"尾道大"},{"@value":"オノミチダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA015238","cinii:organizationid":"KI008110","cinii:prefcode":"34","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"尾道市立大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"722-8506","v:label":"広島県尾道市久山田町1600番地2"},"v:tel":[{"@type":"v:Tel","@value":"0848-22-8312"}],"v:fax":[{"@type":"v:Fax","@value":"0848-20-0100"}],"dc:description":["URL:http://www.lib.onomichi-u.ac.jp/index.html","●閲覧担当係:奉仕係","●電話番号:0848-22-8312(内線401)","●開館時間:9:00-20:00(授業期間中)、9:00-17:00(休業期間中)","●休館日:日曜日・土曜日(休業中のみ)・国民の祝日・年末年始・図書の整理および曝書等のために特に必要のある日","●受付時間:9:00-17:00","●閲覧注記:窓口で閲覧申請が必要のため、住所を証明する物を携帯のこと","●館外貸出可否:可(禁帯出・新着図書は除く)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015238.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015238#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015238.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "尾道市立大学 附属図書館"
+        },
+        {
+          "@value": "オノミチシリツダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "尾道大"
+        },
+        {
+          "@value": "オノミチダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA015238",
+      "cinii:organizationid": "KI008110",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "尾道市立大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "722-8506",
+        "v:label": "広島県尾道市久山田町1600番地2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0848-22-8312"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0848-20-0100"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.lib.onomichi-u.ac.jp/index.html",
+        "●閲覧担当係:奉仕係",
+        "●電話番号:0848-22-8312(内線401)",
+        "●開館時間:9:00-20:00(授業期間中)、9:00-17:00(休業期間中)",
+        "●休館日:日曜日・土曜日(休業中のみ)・国民の祝日・年末年始・図書の整理および曝書等のために特に必要のある日",
+        "●受付時間:9:00-17:00",
+        "●閲覧注記:窓口で閲覧申請が必要のため、住所を証明する物を携帯のこと",
+        "●館外貸出可否:可(禁帯出・新着図書は除く)"
+      ]
+    }
+  ]
+}

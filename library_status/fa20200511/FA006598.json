@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA006598.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA006598#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA006598.json"},"foaf:name":[{"@value":"法政大学 沖縄文化研究所"},{"@value":"ホウセイダイガク オキナワブンカケンキユウジヨ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"沖文研"},{"@value":"オキブンケン","@language":"ja-hrkt"}],"cinii:memberid":"FA006598","cinii:organizationid":"KI002646","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"法政大学 沖縄文化研究所","v:adr":{"@type":"v:Address","v:postal-code":"102-8160","v:label":"東京都千代田区富士見2-17-1"},"v:tel":[{"@type":"v:Tel","@value":"03-3264-9393"}],"v:fax":[{"@type":"v:Fax","@value":"03-3264-9335"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006598.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006598#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006598.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "法政大学 沖縄文化研究所"
+        },
+        {
+          "@value": "ホウセイダイガク オキナワブンカケンキユウジヨ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "沖文研"
+        },
+        {
+          "@value": "オキブンケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006598",
+      "cinii:organizationid": "KI002646",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "法政大学 沖縄文化研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "102-8160",
+        "v:label": "東京都千代田区富士見2-17-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3264-9393"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3264-9335"
+        }
+      ]
+    }
+  ]
+}

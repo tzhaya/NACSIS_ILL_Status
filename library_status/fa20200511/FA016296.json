@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016296.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016296#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016296.json"},"foaf:name":[{"@value":"大阪大学 大学院人間科学研究科 図書室"},{"@value":"オオサカダイガク ダイガクインニンゲンカガクケンキュウカ トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"阪大人"},{"@value":"ハンダイジン","@language":"ja-hrkt"}],"dcterms:hasPart":["社共"],"cinii:memberid":"FA016296","cinii:organizationid":"KI000593","cinii:prefcode":"27","cinii:mextid":"005104","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"大阪大学 大学院人間科学研究科 図書室","v:adr":{"@type":"v:Address","v:postal-code":"565-0871","v:label":"吹田市山田丘1-2"},"v:tel":[{"@type":"v:Tel","@value":"06-6879-8015"}],"v:fax":[{"@type":"v:Fax","@value":"06-6879-8017"}],"dc:description":["Library of Graduate School of Human Science of Osaka University","Yamadaoka 1-2, Suita-Shi, Osaka  565-0871","電話番号:06-6879-8015","FAX番号:06-6879-8017","受付時間:10:30〜16:30 (月曜日ー金曜日)","注意事項:利用希望の資料はあらかじめFAXにより所蔵調査をお願いします。","注意事項:車での来館はご遠慮下さい。","複写時間:10:30〜16:30 (月曜日ー金曜日)","館外貸出:不可 (複写のための一時持出は可)","休館日:土曜日・日曜日・国民の祝日・本学創立記念日(5月1日)・年末年始・定例整理日(毎月 月初)","制限事項:現物の保存状態に依り、複写・貸借が不可の場合があります。","講座備付資料は利用できない場合があります。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016296.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016296#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016296.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪大学 大学院人間科学研究科 図書室"
+        },
+        {
+          "@value": "オオサカダイガク ダイガクインニンゲンカガクケンキュウカ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪大人"
+        },
+        {
+          "@value": "ハンダイジン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "社共"
+      ],
+      "cinii:memberid": "FA016296",
+      "cinii:organizationid": "KI000593",
+      "cinii:prefcode": "27",
+      "cinii:mextid": "005104",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪大学 大学院人間科学研究科 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "565-0871",
+        "v:label": "吹田市山田丘1-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6879-8015"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6879-8017"
+        }
+      ],
+      "dc:description": [
+        "Library of Graduate School of Human Science of Osaka University",
+        "Yamadaoka 1-2, Suita-Shi, Osaka  565-0871",
+        "電話番号:06-6879-8015",
+        "FAX番号:06-6879-8017",
+        "受付時間:10:30〜16:30 (月曜日ー金曜日)",
+        "注意事項:利用希望の資料はあらかじめFAXにより所蔵調査をお願いします。",
+        "注意事項:車での来館はご遠慮下さい。",
+        "複写時間:10:30〜16:30 (月曜日ー金曜日)",
+        "館外貸出:不可 (複写のための一時持出は可)",
+        "休館日:土曜日・日曜日・国民の祝日・本学創立記念日(5月1日)・年末年始・定例整理日(毎月 月初)",
+        "制限事項:現物の保存状態に依り、複写・貸借が不可の場合があります。",
+        "講座備付資料は利用できない場合があります。"
+      ]
+    }
+  ]
+}

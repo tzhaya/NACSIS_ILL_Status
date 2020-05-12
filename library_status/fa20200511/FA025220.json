@@ -1,1 +1,77 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA025220.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA025220#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA025220.json"},"foaf:name":[{"@value":"札幌保健医療大学 図書館"},{"@value":"サッポロホケンイリョウダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"札保医療大"},{"@value":"サツホイリョウダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA025220","cinii:organizationid":"KI015138","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"札幌保健医療大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"007-0894","v:label":"北海道札幌市東区中沼西4条2丁目1-15"},"v:tel":[{"@type":"v:Tel","@value":"011-792-3350"}],"v:fax":[{"@type":"v:Fax","@value":"011-792-3358"}],"dc:description":["Sapporo University of Health Sciences Library","2-1-15, 4-Jo, Nakanuma-nishi, Higashi-ku, Sapporo 007-0894, JAPAN","URL: http://www.sapporo-hokeniryou-u.ac.jp/","URL: http://www.sapporo-hokeniryou-u.ac.jp/library/","通常開館時間: (平日)9:00-20:00  (土曜日)10:00-15:00","注意事項: 初回利用時は、平日9:00-17:30までに来館のこと","利用条件、開館スケジュールはホームページをご覧ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA025220.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA025220#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA025220.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "札幌保健医療大学 図書館"
+        },
+        {
+          "@value": "サッポロホケンイリョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "札保医療大"
+        },
+        {
+          "@value": "サツホイリョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA025220",
+      "cinii:organizationid": "KI015138",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "札幌保健医療大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "007-0894",
+        "v:label": "北海道札幌市東区中沼西4条2丁目1-15"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-792-3350"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-792-3358"
+        }
+      ],
+      "dc:description": [
+        "Sapporo University of Health Sciences Library",
+        "2-1-15, 4-Jo, Nakanuma-nishi, Higashi-ku, Sapporo 007-0894, JAPAN",
+        "URL: http://www.sapporo-hokeniryou-u.ac.jp/",
+        "URL: http://www.sapporo-hokeniryou-u.ac.jp/library/",
+        "通常開館時間: (平日)9:00-20:00  (土曜日)10:00-15:00",
+        "注意事項: 初回利用時は、平日9:00-17:30までに来館のこと",
+        "利用条件、開館スケジュールはホームページをご覧ください。"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018713.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018713#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018713.json"},"foaf:name":[{"@value":"熊本保健科学大学 附属図書館"},{"@value":"クマモトホケンカガクダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"熊保科大"},{"@value":"クマホカダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA018713","cinii:organizationid":"KI010972","cinii:prefcode":"43","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"熊本保健科学大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"861-5598","v:label":"熊本市北区和泉町325"},"v:tel":[{"@type":"v:Tel","@value":"096-275-2264"}],"v:fax":[{"@type":"v:Fax","@value":"096-275-2265"}],"dc:description":["熊本保健科学大学附属図書館","〒861-5598 熊本市北区和泉325","TEL:096-275-2264 FAX:096-275-2265","ILL-Dept:Inter-Library Service Section","ILL-Org:Kumamoto Health Science University Library","ILL-Adress:325 Izumi, Kita-ku, Kumamoto-shi, Kumamoto, Japan","ILL-Zip:861-5598","ILL-Commun1:fax: +81-96-275-2265 / e-mail: toshokan@kumamoto-hsu.ac.jp","ILL-Commun2:Home-page:http://www.kumamoto-hsu.ac.jp/library.html     OPAC:https://aquarius.kumamoto-hsu.ac.jp/mylimedio/search/search-input.do","ILL-Accept:OCLC:SYMBOL:JPKUM","ILL-Sched:Dec.27-Jan.4","ILL-Bill:Foreign:OCLC-IFM only","ILL-Copy-Charge:40Yen per sheet.","ILL-OCLC-Symbol:JPKUM"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018713.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018713#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018713.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "熊本保健科学大学 附属図書館"
+        },
+        {
+          "@value": "クマモトホケンカガクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "熊保科大"
+        },
+        {
+          "@value": "クマホカダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018713",
+      "cinii:organizationid": "KI010972",
+      "cinii:prefcode": "43",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "熊本保健科学大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "861-5598",
+        "v:label": "熊本市北区和泉町325"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "096-275-2264"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "096-275-2265"
+        }
+      ],
+      "dc:description": [
+        "熊本保健科学大学附属図書館",
+        "〒861-5598 熊本市北区和泉325",
+        "TEL:096-275-2264 FAX:096-275-2265",
+        "ILL-Dept:Inter-Library Service Section",
+        "ILL-Org:Kumamoto Health Science University Library",
+        "ILL-Adress:325 Izumi, Kita-ku, Kumamoto-shi, Kumamoto, Japan",
+        "ILL-Zip:861-5598",
+        "ILL-Commun1:fax: +81-96-275-2265 / e-mail: toshokan@kumamoto-hsu.ac.jp",
+        "ILL-Commun2:Home-page:http://www.kumamoto-hsu.ac.jp/library.html     OPAC:https://aquarius.kumamoto-hsu.ac.jp/mylimedio/search/search-input.do",
+        "ILL-Accept:OCLC:SYMBOL:JPKUM",
+        "ILL-Sched:Dec.27-Jan.4",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Copy-Charge:40Yen per sheet.",
+        "ILL-OCLC-Symbol:JPKUM"
+      ]
+    }
+  ]
+}

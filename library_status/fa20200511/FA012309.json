@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012309.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012309#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012309.json"},"foaf:name":[{"@value":"東北学院大学 泉キャンパス図書館"},{"@value":"トウホクガクインダイガク イズミキャンパストショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東院大泉"},{"@value":"トウインダイイズミ","@language":"ja-hrkt"}],"cinii:memberid":"FA012309","cinii:organizationid":"KI001530","cinii:prefcode":"04","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東北学院大学 泉キャンパス図書館","v:adr":{"@type":"v:Address","v:postal-code":"981-3193","v:label":"宮城県仙台市泉区天神沢2-1-1"},"v:tel":[{"@type":"v:Tel","@value":"022-375-1174"}],"v:fax":[{"@type":"v:Fax","@value":"022-375-2121"}],"dc:description":["ILL-Org:TOHOKU GAKUIN UNIVERSITY IZUMI CAMPUS LIBRARY","ILL-Adress:2-1-1,TENJINSAWA,IZUMI-KU,SENDAI 981-3193","ILL-ZIP:981-3105","URL:https://www.lib.tohoku-gakuin.ac.jp/(WEBSITE)","来館利用担当:閲覧係","受付時間: 開館時間から閉館の1時間前まで","注意事項:事前に所蔵確認および来館日時の連絡が必要","持参書類:身分証明書","複写時間:開館時間に同じ","館外貸出:可","制限事項:試験1週間前から終了日まで受付不可/礼拝時間(10:20-10:45)は受付不可","休館日:日曜・祝祭日,卒業式,入学式,創立記念日(5/15),大学全休期間,入学試験期間中,図書館が必要と認めた日 (ホームページの図書館カレンダー参照)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012309.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012309#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012309.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東北学院大学 泉キャンパス図書館"
+        },
+        {
+          "@value": "トウホクガクインダイガク イズミキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東院大泉"
+        },
+        {
+          "@value": "トウインダイイズミ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012309",
+      "cinii:organizationid": "KI001530",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東北学院大学 泉キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "981-3193",
+        "v:label": "宮城県仙台市泉区天神沢2-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-375-1174"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-375-2121"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:TOHOKU GAKUIN UNIVERSITY IZUMI CAMPUS LIBRARY",
+        "ILL-Adress:2-1-1,TENJINSAWA,IZUMI-KU,SENDAI 981-3193",
+        "ILL-ZIP:981-3105",
+        "URL:https://www.lib.tohoku-gakuin.ac.jp/(WEBSITE)",
+        "来館利用担当:閲覧係",
+        "受付時間: 開館時間から閉館の1時間前まで",
+        "注意事項:事前に所蔵確認および来館日時の連絡が必要",
+        "持参書類:身分証明書",
+        "複写時間:開館時間に同じ",
+        "館外貸出:可",
+        "制限事項:試験1週間前から終了日まで受付不可/礼拝時間(10:20-10:45)は受付不可",
+        "休館日:日曜・祝祭日,卒業式,入学式,創立記念日(5/15),大学全休期間,入学試験期間中,図書館が必要と認めた日 (ホームページの図書館カレンダー参照)"
+      ]
+    }
+  ]
+}

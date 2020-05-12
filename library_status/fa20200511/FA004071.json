@@ -1,1 +1,75 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004071.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004071#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004071.json"},"foaf:name":[{"@value":"兵庫県立大学 政策科学研究所"},{"@value":"ヒョウゴケンリツダイガク セイサクカガクケンキュウショ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"兵県大政研"},{"@value":"ヒョウケンダイセイケン","@language":"ja-hrkt"}],"cinii:memberid":"FA004071","cinii:organizationid":"KI001177","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"兵庫県立大学 政策科学研究所","v:adr":{"@type":"v:Address","v:postal-code":"651-2197","v:label":"神戸市西区学園西町8丁目2番地の1"},"v:tel":[{"@type":"v:Tel","@value":"078-794-5302"}],"v:fax":[{"@type":"v:Fax","@value":"078-794-6166(代)"}],"dc:description":[":開館日:月〜金 10:00〜16:00","注意事項:当センターは一般公開しておりません。(学術情報館と異なりますのでご注意下さい)","注意事項:当センター利用希望の方は、事前にご所属の大学図書館(機関)または最寄りの公共図書館を通してご利用下さい。事前予約なしのご利用及び館外貸出、複写サービスは行っておりません。","注意事項:事前に、ご所属の大学図書館(機関)または最寄りの公共図書館を通して所蔵の確認および利用の予約をしてください。","持参書類:資料利用依頼書(紹介状)および本人確認のための学生証または職員証などを携行のこと。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004071.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004071#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004071.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "兵庫県立大学 政策科学研究所"
+        },
+        {
+          "@value": "ヒョウゴケンリツダイガク セイサクカガクケンキュウショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "兵県大政研"
+        },
+        {
+          "@value": "ヒョウケンダイセイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004071",
+      "cinii:organizationid": "KI001177",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "兵庫県立大学 政策科学研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "651-2197",
+        "v:label": "神戸市西区学園西町8丁目2番地の1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-794-5302"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-794-6166(代)"
+        }
+      ],
+      "dc:description": [
+        ":開館日:月〜金 10:00〜16:00",
+        "注意事項:当センターは一般公開しておりません。(学術情報館と異なりますのでご注意下さい)",
+        "注意事項:当センター利用希望の方は、事前にご所属の大学図書館(機関)または最寄りの公共図書館を通してご利用下さい。事前予約なしのご利用及び館外貸出、複写サービスは行っておりません。",
+        "注意事項:事前に、ご所属の大学図書館(機関)または最寄りの公共図書館を通して所蔵の確認および利用の予約をしてください。",
+        "持参書類:資料利用依頼書(紹介状)および本人確認のための学生証または職員証などを携行のこと。"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,114 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007444.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007444#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007444.json"},"foaf:name":[{"@value":"日本福祉大学 付属図書館"},{"@value":"ニホンフクシダイガク フゾクトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日福大"},{"@value":"ニチフクダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["本館","半田"],"cinii:memberid":"FA007444","cinii:organizationid":"KI003310","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"日本福祉大学 付属図書館","v:adr":{"@type":"v:Address","v:postal-code":"470-3295","v:label":"愛知県知多郡美浜町奥田"},"v:tel":[{"@type":"v:Tel","@value":"0569-87-2325"}],"v:fax":[{"@type":"v:Fax","@value":"0569-87-2795"}],"dc:description":["来館利用担当:閲覧係","電話番号:0569-87-2325","FAX番号:0569-87-2795","受付時間:9:20〜22:00(土曜日 〜21:20) ※詳しくはホームページの開館カレンダーを参照してください。","複写時間:開館時間に同じです。","注意事項:事前連絡は特に必要としません。","注意事項:名古屋分館の利用は学内者限定です。一般利用者等はご利用いただけません。","持参書類:紹介状(身分を証明する物をお持ちください)","館外貸出:可(但し利用登録手続きが必要)です。","制限事項:貴重図書、統計書、参考図書、講義指定書、雑誌、特別文庫等は貸出不可です。","休館日:日曜日、国民の祝日(但し、一定期間日曜日の開館を行う)、夏季・冬季休暇中の所定の期間、月末館内整理日、蔵書点検期間、臨時の休館日","--------","複写担当係 :相互協力係","複写方法・料金:電子複写(白黒のみ:@40円×枚数+送料)","複写注記 :1回の申込受付件数は5件までです。","支払方法:NII相殺サービス参加機関=相殺、不参加機関=切手・郵便振替。","貸借担当係 :相互協力係","貸出冊数(期間) :1館につき5冊以内(和書 発送日を含め2週間/洋書 発送日を含め1ヶ月)です。","貸借注記 :館外貸出不可(貸借資料は借受館で館内利用)となります。","支払方法:NII相殺サービス参加機関=相殺、不参加機関=切手。","複写・貸借注記 :美浜本館以外の分館(半田分館、東海分館、名古屋分館)所蔵資料は取り寄せに時間がかかるため速達に対応しかねます。","複写・貸借注記:大学機関以外のNACSIS-ILL不参加館は、初回のみ通常の文献複写/相互貸借申込用紙とは別に「文献複写申込(願)」「相互貸借申込(願)」といった公印押印済の文書の提出が必要です。初回申込機関は、FAXにて文献複写申込書か相互貸借申込書、または所蔵調査の形式で問合せください。複写・貸借の可否回答とともに、折り返しFAXにて案内します。ILLにて申込の場合はこの手続きは不要です。","URL:http://library.n-fukushi.ac.jp/","ILL-Staff:Nobuko Kawano","Ill-Dept:Circulation Section","ILL-Org:Nihon Fukushi University Affiliated Library","ILL-Adress:Okuda, Mihama-cho, Chita-gun, Aichi, JAPAN","ILL-Zip:470-3295","ILL-OCLC-Symbol:NFUAL","ILL-Commun1:Tel:+81-569-87-2325 / Fax:+81-569-87-2795 / E-mail:nfuill@ml.n-fukushi.ac.jp","ILL-Accept:OCLC(OCLC-NII ILL ISO link only)","ILL-Sched:Closed Aug 10-20, Dec 20-Jan 10","ILL-Bill:Foreign:OCLC-IFM only","ILL-Accept:Foreign:KERIS","ILL-Loan-Period:N/A","ILL-Loan-Renew:Loan:N/A","ILL-Loan-Charge:Loan:N/A","ILL-Non-Circulation:Loan:N/A","ILL-Copy-Charge:PHOTOCOPY:40 YEN per sheet / Postage required / Delivery method: via airmail.","ILL-Note:will supply only photocopies"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007444.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007444#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007444.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本福祉大学 付属図書館"
+        },
+        {
+          "@value": "ニホンフクシダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日福大"
+        },
+        {
+          "@value": "ニチフクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館",
+        "半田"
+      ],
+      "cinii:memberid": "FA007444",
+      "cinii:organizationid": "KI003310",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本福祉大学 付属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "470-3295",
+        "v:label": "愛知県知多郡美浜町奥田"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0569-87-2325"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0569-87-2795"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当:閲覧係",
+        "電話番号:0569-87-2325",
+        "FAX番号:0569-87-2795",
+        "受付時間:9:20〜22:00(土曜日 〜21:20) ※詳しくはホームページの開館カレンダーを参照してください。",
+        "複写時間:開館時間に同じです。",
+        "注意事項:事前連絡は特に必要としません。",
+        "注意事項:名古屋分館の利用は学内者限定です。一般利用者等はご利用いただけません。",
+        "持参書類:紹介状(身分を証明する物をお持ちください)",
+        "館外貸出:可(但し利用登録手続きが必要)です。",
+        "制限事項:貴重図書、統計書、参考図書、講義指定書、雑誌、特別文庫等は貸出不可です。",
+        "休館日:日曜日、国民の祝日(但し、一定期間日曜日の開館を行う)、夏季・冬季休暇中の所定の期間、月末館内整理日、蔵書点検期間、臨時の休館日",
+        "--------",
+        "複写担当係 :相互協力係",
+        "複写方法・料金:電子複写(白黒のみ:@40円×枚数+送料)",
+        "複写注記 :1回の申込受付件数は5件までです。",
+        "支払方法:NII相殺サービス参加機関=相殺、不参加機関=切手・郵便振替。",
+        "貸借担当係 :相互協力係",
+        "貸出冊数(期間) :1館につき5冊以内(和書 発送日を含め2週間/洋書 発送日を含め1ヶ月)です。",
+        "貸借注記 :館外貸出不可(貸借資料は借受館で館内利用)となります。",
+        "支払方法:NII相殺サービス参加機関=相殺、不参加機関=切手。",
+        "複写・貸借注記 :美浜本館以外の分館(半田分館、東海分館、名古屋分館)所蔵資料は取り寄せに時間がかかるため速達に対応しかねます。",
+        "複写・貸借注記:大学機関以外のNACSIS-ILL不参加館は、初回のみ通常の文献複写/相互貸借申込用紙とは別に「文献複写申込(願)」「相互貸借申込(願)」といった公印押印済の文書の提出が必要です。初回申込機関は、FAXにて文献複写申込書か相互貸借申込書、または所蔵調査の形式で問合せください。複写・貸借の可否回答とともに、折り返しFAXにて案内します。ILLにて申込の場合はこの手続きは不要です。",
+        "URL:http://library.n-fukushi.ac.jp/",
+        "ILL-Staff:Nobuko Kawano",
+        "Ill-Dept:Circulation Section",
+        "ILL-Org:Nihon Fukushi University Affiliated Library",
+        "ILL-Adress:Okuda, Mihama-cho, Chita-gun, Aichi, JAPAN",
+        "ILL-Zip:470-3295",
+        "ILL-OCLC-Symbol:NFUAL",
+        "ILL-Commun1:Tel:+81-569-87-2325 / Fax:+81-569-87-2795 / E-mail:nfuill@ml.n-fukushi.ac.jp",
+        "ILL-Accept:OCLC(OCLC-NII ILL ISO link only)",
+        "ILL-Sched:Closed Aug 10-20, Dec 20-Jan 10",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Accept:Foreign:KERIS",
+        "ILL-Loan-Period:N/A",
+        "ILL-Loan-Renew:Loan:N/A",
+        "ILL-Loan-Charge:Loan:N/A",
+        "ILL-Non-Circulation:Loan:N/A",
+        "ILL-Copy-Charge:PHOTOCOPY:40 YEN per sheet / Postage required / Delivery method: via airmail.",
+        "ILL-Note:will supply only photocopies"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014621.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014621#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014621.json"},"foaf:name":[{"@value":"茨城工業高等専門学校 学術総合情報センター 図書館"},{"@value":"イバラキコウギョウコウトウセンモンガッコウ ガクジュツソウゴウジョウホウセンター トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"茨専"},{"@value":"イバセン","@language":"ja-hrkt"}],"dcterms:hasPart":["図","教"],"cinii:memberid":"FA014621","cinii:organizationid":"KI007802","cinii:prefcode":"08","cinii:mextid":"601200","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"茨城工業高等専門学校 学術総合情報センター 図書館","v:adr":{"@type":"v:Address","v:postal-code":"312-8508","v:label":"茨城県ひたちなか市中根866"},"v:tel":[{"@type":"v:Tel","@value":"029-271-2832"}],"v:fax":[{"@type":"v:Fax","@value":"029-271-2832"}],"dc:description":["IBARAKI NATIONAL COLLEGE OF TECHNOLOGY, LIBRARY","866 NAKANE, HITACHINAKA-SHI, IBARAKI-KEN, 312-8508","URL:http://www.ibaraki-ct.ac.jp/lib/","来館利用担当:図書・情報係","電話番号:029-271-2832 FAX:029-271-2832","受付時間:平日8:30〜20:00(休業期間中は8:30〜17:00), 土曜日10:00〜17:00","注意事項:資料の所在等、事前確認をしてください。","持参書類:身分証明書(等)","館外貸出:可","休館日:日曜日、祝日、年末年始、休業期間中の土曜日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014621.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014621#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014621.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "茨城工業高等専門学校 学術総合情報センター 図書館"
+        },
+        {
+          "@value": "イバラキコウギョウコウトウセンモンガッコウ ガクジュツソウゴウジョウホウセンター トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "茨専"
+        },
+        {
+          "@value": "イバセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "教"
+      ],
+      "cinii:memberid": "FA014621",
+      "cinii:organizationid": "KI007802",
+      "cinii:prefcode": "08",
+      "cinii:mextid": "601200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "茨城工業高等専門学校 学術総合情報センター 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "312-8508",
+        "v:label": "茨城県ひたちなか市中根866"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-271-2832"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-271-2832"
+        }
+      ],
+      "dc:description": [
+        "IBARAKI NATIONAL COLLEGE OF TECHNOLOGY, LIBRARY",
+        "866 NAKANE, HITACHINAKA-SHI, IBARAKI-KEN, 312-8508",
+        "URL:http://www.ibaraki-ct.ac.jp/lib/",
+        "来館利用担当:図書・情報係",
+        "電話番号:029-271-2832 FAX:029-271-2832",
+        "受付時間:平日8:30〜20:00(休業期間中は8:30〜17:00), 土曜日10:00〜17:00",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:身分証明書(等)",
+        "館外貸出:可",
+        "休館日:日曜日、祝日、年末年始、休業期間中の土曜日"
+      ]
+    }
+  ]
+}

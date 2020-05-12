@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA02181X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA02181X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA02181X.json"},"foaf:name":[{"@value":"公益財団法人 東洋文庫"},{"@value":"コウエキザイダンホウジン トウヨウブンコ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東洋文庫"},{"@value":"トウヨウブンコ","@language":"ja-hrkt"}],"cinii:memberid":"FA02181X","cinii:organizationid":"KI01310X","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"公益財団法人 東洋文庫","v:adr":{"@type":"v:Address","v:postal-code":"113-0021","v:label":"東京都文京区本駒込2-28-21"},"v:tel":[{"@type":"v:Tel","@value":"03-3942-0121"}],"v:fax":[{"@type":"v:Fax","@value":"03-3942-0258"}],"dc:description":["The Toyo Bunko (Oriental Library)","2-28-21, Honkomagome, Bunkyo-ku, Tokyo 113-0021","URL:http://www.toyo-bunko.or.jp/","来館利用担当:図書部閲覧係","電話番号:03-3942-0122 (図書部直通)","閲覧時間:9:30-16:30","資料請求時間:9:30-11:50, 13:00-16:00","注意事項:資料の所在等、事前確認をしてください。","注意事項:電子メールでのお問い合わせは、ホームページの「メールでのお問い合わせ先」のメールフォームをご利用ください。","持参書類:身分証明書","複写受付時間:9:30-16:15","館外貸出:不可","制限事項:貴重図書、破損図書には閲覧を許可しないものがあります。","休館日:毎週火曜日、日曜日、国民の祝日、年末年始(12月26日から翌年1月5日まで)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA02181X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA02181X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA02181X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公益財団法人 東洋文庫"
+        },
+        {
+          "@value": "コウエキザイダンホウジン トウヨウブンコ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東洋文庫"
+        },
+        {
+          "@value": "トウヨウブンコ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02181X",
+      "cinii:organizationid": "KI01310X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "公益財団法人 東洋文庫",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0021",
+        "v:label": "東京都文京区本駒込2-28-21"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3942-0121"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3942-0258"
+        }
+      ],
+      "dc:description": [
+        "The Toyo Bunko (Oriental Library)",
+        "2-28-21, Honkomagome, Bunkyo-ku, Tokyo 113-0021",
+        "URL:http://www.toyo-bunko.or.jp/",
+        "来館利用担当:図書部閲覧係",
+        "電話番号:03-3942-0122 (図書部直通)",
+        "閲覧時間:9:30-16:30",
+        "資料請求時間:9:30-11:50, 13:00-16:00",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "注意事項:電子メールでのお問い合わせは、ホームページの「メールでのお問い合わせ先」のメールフォームをご利用ください。",
+        "持参書類:身分証明書",
+        "複写受付時間:9:30-16:15",
+        "館外貸出:不可",
+        "制限事項:貴重図書、破損図書には閲覧を許可しないものがあります。",
+        "休館日:毎週火曜日、日曜日、国民の祝日、年末年始(12月26日から翌年1月5日まで)"
+      ]
+    }
+  ]
+}

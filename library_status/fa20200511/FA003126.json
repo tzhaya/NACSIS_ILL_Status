@@ -1,1 +1,96 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003126.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003126#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003126.json"},"foaf:name":[{"@value":"鳥取大学 附属図書館"},{"@value":"トットリダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"取大"},{"@value":"トリダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA003126","cinii:organizationid":"KI000684","cinii:prefcode":"31","cinii:mextid":"005900","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"鳥取大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"680-8554","v:label":"鳥取市湖山町南4-101"},"v:tel":[{"@type":"v:Tel","@value":"0857-31-5672"}],"v:fax":[{"@type":"v:Fax","@value":"0857-28-6346(G3)"}],"dc:description":["Tottori University Library","101,Minami 4-chome, koyama-cho, Tottori-shi","URL:http://www.lib.tottori-u.ac.jp (website)","来館利用担当:資料サービス係","受付時間:9:00-23:00","注意事項:資料の所在等、事前確認をして下さい。研究室所蔵資料は貸出できません。また、研究室所蔵資料の利用は時間が掛かることがあります。","持参書類:学生証・身分証明書","複写時間:9:00-17:00","館外貸出:可","休館日:年末年始・毎月末日の午前中(末日が休日の場合はその前日)・学生休業期の土日祝日・夏季一斉休業日等","本学創立記念日(6/1)は9:00-17:00開館","ILL-Staff:KANEKO, Naoto","ILL-Dept:Circulation Section","ILL-Org:Tottori University Library","ILL-Adress:101, Minami 4-chome, Koyama-cho, Tottori-shi","ILL-ZIP:680-8554","ILL-Contact1:Tel:+81-857-31-5672 / fax:+81-857-28-6346 / E-mail: ac-shiryousa@ml.adm.tottori-u.ac.jp","http//www.lib.tottori-u.ac.jp/ (website)","www.opac.lib.tottori-u.ac.jp/opc/en (OPAC)","ILL-Calender: Closed: Dec.28-Jan.4","ILL-Accept: International: LOAN N/A","ILL-Accept: International: COPY N/A"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003126.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003126#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003126.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鳥取大学 附属図書館"
+        },
+        {
+          "@value": "トットリダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "取大"
+        },
+        {
+          "@value": "トリダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA003126",
+      "cinii:organizationid": "KI000684",
+      "cinii:prefcode": "31",
+      "cinii:mextid": "005900",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "鳥取大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "680-8554",
+        "v:label": "鳥取市湖山町南4-101"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0857-31-5672"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0857-28-6346(G3)"
+        }
+      ],
+      "dc:description": [
+        "Tottori University Library",
+        "101,Minami 4-chome, koyama-cho, Tottori-shi",
+        "URL:http://www.lib.tottori-u.ac.jp (website)",
+        "来館利用担当:資料サービス係",
+        "受付時間:9:00-23:00",
+        "注意事項:資料の所在等、事前確認をして下さい。研究室所蔵資料は貸出できません。また、研究室所蔵資料の利用は時間が掛かることがあります。",
+        "持参書類:学生証・身分証明書",
+        "複写時間:9:00-17:00",
+        "館外貸出:可",
+        "休館日:年末年始・毎月末日の午前中(末日が休日の場合はその前日)・学生休業期の土日祝日・夏季一斉休業日等",
+        "本学創立記念日(6/1)は9:00-17:00開館",
+        "ILL-Staff:KANEKO, Naoto",
+        "ILL-Dept:Circulation Section",
+        "ILL-Org:Tottori University Library",
+        "ILL-Adress:101, Minami 4-chome, Koyama-cho, Tottori-shi",
+        "ILL-ZIP:680-8554",
+        "ILL-Contact1:Tel:+81-857-31-5672 / fax:+81-857-28-6346 / E-mail: ac-shiryousa@ml.adm.tottori-u.ac.jp",
+        "http//www.lib.tottori-u.ac.jp/ (website)",
+        "www.opac.lib.tottori-u.ac.jp/opc/en (OPAC)",
+        "ILL-Calender: Closed: Dec.28-Jan.4",
+        "ILL-Accept: International: LOAN N/A",
+        "ILL-Accept: International: COPY N/A"
+      ]
+    }
+  ]
+}

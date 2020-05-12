@@ -1,1 +1,76 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA022539.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA022539#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA022539.json"},"foaf:name":[{"@value":"星城大学 図書館"},{"@value":"セイジョウダイガクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"星城大"},{"@value":"セイジョウダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA022539","cinii:organizationid":"KI013405","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"星城大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"476-8588","v:label":"東海市富貴ノ台2-172"},"v:tel":[{"@type":"v:Tel","@value":"052-601-6000(代)"}],"v:fax":[{"@type":"v:Fax","@value":"052-601-6137"}],"dc:description":["Seijoh University","2-172 Fukinodai, Tokai City, JAPAN 476-8588","持参資料 : 身分証明書","館外貸出 : 不可(閲覧・複写のみ)","開館時間 : 平日 9:00-20:00  土曜日 9:00-15:00  日曜日 12:30-16:30  長期休暇期間中の平日 9:00-17:00","休館日 : 年末・年始及びお盆の休校日/長期休暇期間中の日曜日・祝日/蔵書点検期間"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022539.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022539#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022539.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "星城大学 図書館"
+        },
+        {
+          "@value": "セイジョウダイガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "星城大"
+        },
+        {
+          "@value": "セイジョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022539",
+      "cinii:organizationid": "KI013405",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "星城大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "476-8588",
+        "v:label": "東海市富貴ノ台2-172"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-601-6000(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-601-6137"
+        }
+      ],
+      "dc:description": [
+        "Seijoh University",
+        "2-172 Fukinodai, Tokai City, JAPAN 476-8588",
+        "持参資料 : 身分証明書",
+        "館外貸出 : 不可(閲覧・複写のみ)",
+        "開館時間 : 平日 9:00-20:00  土曜日 9:00-15:00  日曜日 12:30-16:30  長期休暇期間中の平日 9:00-17:00",
+        "休館日 : 年末・年始及びお盆の休校日/長期休暇期間中の日曜日・祝日/蔵書点検期間"
+      ]
+    }
+  ]
+}

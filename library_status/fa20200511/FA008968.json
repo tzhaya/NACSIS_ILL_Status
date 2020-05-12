@@ -1,1 +1,99 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008968.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008968#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008968.json"},"foaf:name":[{"@value":"西九州大学 附属図書館"},{"@value":"ニシキュウシュウダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"西九大"},{"@value":"ニシキュウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA008968","cinii:organizationid":"KI004459","cinii:prefcode":"41","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"西九州大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"842-8585","v:label":"佐賀県神埼市神埼町尾崎4490-9"},"v:tel":[{"@type":"v:Tel","@value":"0952-37-9299"}],"v:fax":[{"@type":"v:Fax","@value":"0952-53-7869"}],"dc:description":["来館利用担当:情報サービス係","●開館時間については、図書館HPや電話等でご確認ください。","●貸出を希望される場合は、身分を証明するものを持参し、お手続きをお願いします。","●貸出ができない資料があります。","休館日:第2・第4以外の土曜・日曜・祝祭日・年末年始(12/28〜1/4)・夏季休暇(8/13～8/22)・3月(第4木・金・土)・入学式・卒業式・入学試験日","Nishikyushu University Library","4490-9, Osaki, Kanzaki-machi, Kanzaki-city, Saga 842-8585, Japan","URL:http://www.nisikyu-u.ac.jp/","URL:http://library.nisikyu-u.ac.jp/opac4/opac/Top","ILL-Org:Nishikyushu Univ. Library","ILL-Dept:Reference Service Section","ILL-Staff:Akiko Nakahara","ILL-Adress:4490-9 Osaki Kanzaki-machi  Kanzaki-city Saga, JAPAN","ILL-ZIP:842-8585","ILL-Commun1:Tel:+81-952-37-9299 / FAX:+81-952-53-7869 / E-mail:toshokan@nisikyu-u.ac.jp","ILL-Commun2:OPAC:http://library.nisikyu-u.ac.jp /opac4/opac/Top Home-Page:http://www.nisikyu-u.ac.jp/nagahara/library/","ILL-Accept:OCLC","ILL-Sched:Closed:Aug13-22 Dec25-Jan5","ILL-Bill:Foreign:OCLC-IFM only","ILL-Loan-Period:6 weeks per item /  up to 5 items per library","ILL-Loan-Renew:2 weeks.","ILL-Loan-Chage:No charge till the end of March 2004 ; Postage required.","ILL-Non-Circulatio:mcrfrm, ref, per, news, a-v.","ILL-Copy-Charge:Photocopy:30 YEN per sheet / Postage required / Delivery mehod:via airmail.","ILL-Note:THESIS:Photocopy:need the author's permission. Delivery method:Photocopy:via airmail.","ILL-OCLC-Symbol:JANSU"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008968.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008968#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008968.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "西九州大学 附属図書館"
+        },
+        {
+          "@value": "ニシキュウシュウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "西九大"
+        },
+        {
+          "@value": "ニシキュウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008968",
+      "cinii:organizationid": "KI004459",
+      "cinii:prefcode": "41",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "西九州大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "842-8585",
+        "v:label": "佐賀県神埼市神埼町尾崎4490-9"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0952-37-9299"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0952-53-7869"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当:情報サービス係",
+        "●開館時間については、図書館HPや電話等でご確認ください。",
+        "●貸出を希望される場合は、身分を証明するものを持参し、お手続きをお願いします。",
+        "●貸出ができない資料があります。",
+        "休館日:第2・第4以外の土曜・日曜・祝祭日・年末年始(12/28〜1/4)・夏季休暇(8/13～8/22)・3月(第4木・金・土)・入学式・卒業式・入学試験日",
+        "Nishikyushu University Library",
+        "4490-9, Osaki, Kanzaki-machi, Kanzaki-city, Saga 842-8585, Japan",
+        "URL:http://www.nisikyu-u.ac.jp/",
+        "URL:http://library.nisikyu-u.ac.jp/opac4/opac/Top",
+        "ILL-Org:Nishikyushu Univ. Library",
+        "ILL-Dept:Reference Service Section",
+        "ILL-Staff:Akiko Nakahara",
+        "ILL-Adress:4490-9 Osaki Kanzaki-machi  Kanzaki-city Saga, JAPAN",
+        "ILL-ZIP:842-8585",
+        "ILL-Commun1:Tel:+81-952-37-9299 / FAX:+81-952-53-7869 / E-mail:toshokan@nisikyu-u.ac.jp",
+        "ILL-Commun2:OPAC:http://library.nisikyu-u.ac.jp /opac4/opac/Top Home-Page:http://www.nisikyu-u.ac.jp/nagahara/library/",
+        "ILL-Accept:OCLC",
+        "ILL-Sched:Closed:Aug13-22 Dec25-Jan5",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Loan-Period:6 weeks per item /  up to 5 items per library",
+        "ILL-Loan-Renew:2 weeks.",
+        "ILL-Loan-Chage:No charge till the end of March 2004 ; Postage required.",
+        "ILL-Non-Circulatio:mcrfrm, ref, per, news, a-v.",
+        "ILL-Copy-Charge:Photocopy:30 YEN per sheet / Postage required / Delivery mehod:via airmail.",
+        "ILL-Note:THESIS:Photocopy:need the author's permission. Delivery method:Photocopy:via airmail.",
+        "ILL-OCLC-Symbol:JANSU"
+      ]
+    }
+  ]
+}

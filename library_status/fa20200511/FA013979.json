@@ -1,1 +1,107 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA013979.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA013979#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA013979.json"},"foaf:name":[{"@value":"名古屋大学 附属図書館 医学部分館 保健学 図書室"},{"@value":"ナゴヤダイガク フゾクトショカン イガクブブンカン ホケンガク トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"名大医保健"},{"@value":"メイダイイホケン","@language":"ja-hrkt"}],"dcterms:hasPart":["医保健","医保健開架","医保健参考","医保健研究","医保健書庫","医保健AV","医保健事務"],"cinii:memberid":"FA013979","cinii:organizationid":"KI000491","cinii:prefcode":"23","cinii:mextid":"004312","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"名古屋大学 附属図書館 医学部分館 保健学 図書室","v:adr":{"@type":"v:Address","v:postal-code":"461-8673","v:label":"名古屋市東区大幸南一丁目1-20"},"v:tel":[{"@type":"v:Tel","@value":"052-719-1545"}],"v:fax":[{"@type":"v:Fax","@value":"052-719-1002"}],"dc:description":["Library of Health Sciences, Nagoya University","1-20, Daikominami 1-chome, Higashi-ku, Nagoya 461-8673","http://www.met.nagoya-u.ac.jp/LIB/index.html (website)","来室利用担当:保健学情報係","電話番号:052-719-1545","受付時間:通常の平日;9:00-20:00、通常の土曜日;11:10-18:50","受付時間:短縮期(休業中)の平日;9:00-16:45(土曜日は閉室)","注意事項:開室時間の詳細については、ホームページをご覧ください","注意事項:休室日: 日曜日、国民の祝日、12/28〜1/4、一斉休業日・蔵書点検日・入構規制日等=随時HP掲載","注意事項:ご来室の際は公共交通機関をご利用ください","注意事項:来館複写は大学生協連合会複写カード専用機使用のみ","館外貸出:学外者不可","ILL担当:保健学情報係","電話番号:052-719-1545","複写受付窓口(相殺サービス参加館):名大医保健 (FA013979)","複写受付窓口(相殺サービス不参加機関):名大 (FA002407) = 附属図書館調査支援係まで(Tel:052-789-3683)","複写方法・料金:電子複写 ; 35円/枚(モノクロ)、 105円/枚(カラー)","複写申込方法:NACSIS-ILL","複写決済方法:相殺(NII相殺サービス参加機関のみ受付)","貸借受付窓口:名大医保健 (FA013979)","貸借申込方法:NACSIS-ILL(ただしNACSIS-CAT/ILLシステム不参加機関はFAX)","貸借決済方法:NII相殺サービス機関=相殺、不参加機関=切手","貸借期間:4週間(雑誌等を除く)","ILL-Dept:Interlibrary Loan Services","ILL-Org:Nagoya University Library","ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp","ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA013979.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA013979#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA013979.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 附属図書館 医学部分館 保健学 図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク フゾクトショカン イガクブブンカン ホケンガク トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大医保健"
+        },
+        {
+          "@value": "メイダイイホケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "医保健",
+        "医保健開架",
+        "医保健参考",
+        "医保健研究",
+        "医保健書庫",
+        "医保健AV",
+        "医保健事務"
+      ],
+      "cinii:memberid": "FA013979",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004312",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "名古屋大学 附属図書館 医学部分館 保健学 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "461-8673",
+        "v:label": "名古屋市東区大幸南一丁目1-20"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-719-1545"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-719-1002"
+        }
+      ],
+      "dc:description": [
+        "Library of Health Sciences, Nagoya University",
+        "1-20, Daikominami 1-chome, Higashi-ku, Nagoya 461-8673",
+        "http://www.met.nagoya-u.ac.jp/LIB/index.html (website)",
+        "来室利用担当:保健学情報係",
+        "電話番号:052-719-1545",
+        "受付時間:通常の平日;9:00-20:00、通常の土曜日;11:10-18:50",
+        "受付時間:短縮期(休業中)の平日;9:00-16:45(土曜日は閉室)",
+        "注意事項:開室時間の詳細については、ホームページをご覧ください",
+        "注意事項:休室日: 日曜日、国民の祝日、12/28〜1/4、一斉休業日・蔵書点検日・入構規制日等=随時HP掲載",
+        "注意事項:ご来室の際は公共交通機関をご利用ください",
+        "注意事項:来館複写は大学生協連合会複写カード専用機使用のみ",
+        "館外貸出:学外者不可",
+        "ILL担当:保健学情報係",
+        "電話番号:052-719-1545",
+        "複写受付窓口(相殺サービス参加館):名大医保健 (FA013979)",
+        "複写受付窓口(相殺サービス不参加機関):名大 (FA002407) = 附属図書館調査支援係まで(Tel:052-789-3683)",
+        "複写方法・料金:電子複写 ; 35円/枚(モノクロ)、 105円/枚(カラー)",
+        "複写申込方法:NACSIS-ILL",
+        "複写決済方法:相殺(NII相殺サービス参加機関のみ受付)",
+        "貸借受付窓口:名大医保健 (FA013979)",
+        "貸借申込方法:NACSIS-ILL(ただしNACSIS-CAT/ILLシステム不参加機関はFAX)",
+        "貸借決済方法:NII相殺サービス機関=相殺、不参加機関=切手",
+        "貸借期間:4週間(雑誌等を除く)",
+        "ILL-Dept:Interlibrary Loan Services",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp",
+        "ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"
+      ]
+    }
+  ]
+}

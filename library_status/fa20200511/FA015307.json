@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015307.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015307#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015307.json"},"foaf:name":[{"@value":"富山大学 附属図書館 芸術文化 図書館"},{"@value":"トヤマダイガク フゾクトショカン ゲイジュツブンカ トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"富大芸文"},{"@value":"トミダイゲイブン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA015307","cinii:organizationid":"KI000389","cinii:prefcode":"16","cinii:mextid":"303900","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"C","cinii:loanservice":"C","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"富山大学 附属図書館 芸術文化 図書館","v:adr":{"@type":"v:Address","v:postal-code":"933-8588","v:label":"富山県高岡市二上町180番地"},"v:tel":[{"@type":"v:Tel","@value":"0766-25-9110"}],"v:fax":[{"@type":"v:Fax","@value":"0766-25-9149"}],"dc:description":["University of Toyama, Art and Design Library","180 Futagami-machi, Takaoka City, Toyama 933-8588","URL:http://www.lib.u-toyama.ac.jp/art/index.html (website)","URL:http://www.lib.u-toyama.ac.jp/art/contact.html(map)","来館利用担当:図書館利用支援課(高岡地区)","電話番号:0766-25-9110","受付時間:8:45-20:00(平日),10:00-16:00(土曜日),9:00-17:00(休業期間中)","持参書類:貸出の場合は住所を確認できるもの(運転免許証,学生証等)","複写時間:9:00-17:00(平日のみ)","館外貸出:可(参考図書等は不可)","休館日:日曜日,国民の祝日,休業期間中の土曜日,開学記念日(10/1),年末年始(12/28-1/4),書架整理日(8,2,3月各月末の平日),その他臨時休館日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015307.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015307#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015307.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "富山大学 附属図書館 芸術文化 図書館"
+        },
+        {
+          "@value": "トヤマダイガク フゾクトショカン ゲイジュツブンカ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "富大芸文"
+        },
+        {
+          "@value": "トミダイゲイブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA015307",
+      "cinii:organizationid": "KI000389",
+      "cinii:prefcode": "16",
+      "cinii:mextid": "303900",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "富山大学 附属図書館 芸術文化 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "933-8588",
+        "v:label": "富山県高岡市二上町180番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0766-25-9110"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0766-25-9149"
+        }
+      ],
+      "dc:description": [
+        "University of Toyama, Art and Design Library",
+        "180 Futagami-machi, Takaoka City, Toyama 933-8588",
+        "URL:http://www.lib.u-toyama.ac.jp/art/index.html (website)",
+        "URL:http://www.lib.u-toyama.ac.jp/art/contact.html(map)",
+        "来館利用担当:図書館利用支援課(高岡地区)",
+        "電話番号:0766-25-9110",
+        "受付時間:8:45-20:00(平日),10:00-16:00(土曜日),9:00-17:00(休業期間中)",
+        "持参書類:貸出の場合は住所を確認できるもの(運転免許証,学生証等)",
+        "複写時間:9:00-17:00(平日のみ)",
+        "館外貸出:可(参考図書等は不可)",
+        "休館日:日曜日,国民の祝日,休業期間中の土曜日,開学記念日(10/1),年末年始(12/28-1/4),書架整理日(8,2,3月各月末の平日),その他臨時休館日"
+      ]
+    }
+  ]
+}

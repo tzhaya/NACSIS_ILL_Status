@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015373.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015373#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015373.json"},"foaf:name":[{"@value":"島根県立大学 出雲キャンパス 図書館"},{"@value":"シマネケンリツダイガク イズモキャンパス トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"島根県大出雲"},{"@value":"シマネケンダイイズモ","@language":"ja-hrkt"}],"cinii:memberid":"FA015373","cinii:organizationid":"KI010644","cinii:prefcode":"32","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"島根県立大学 出雲キャンパス 図書館","v:adr":{"@type":"v:Address","v:postal-code":"693-8550","v:label":"島根県出雲市西林木町151番地"},"v:tel":[{"@type":"v:Tel","@value":"0853-20-0202"}],"v:fax":[{"@type":"v:Fax","@value":"0853-20-0203"}],"dc:description":["The University of Shimane Izumo Campus","151,Nishihayashigi-cho,Izumo-shi,Shimane 693-8550","URL:http://izumo.u-shimane.ac.jp/campus/library/(website)","電話番号:0853-20-0202","受付時間:初めての方は8:45-17:00(1号館1階事務局にて入館手続きが必要です。)","受付時間:授業期は「8:45-17:00」利用可能です。(休業期は9:00-17:00)","注意事項:【利用条件】島根県内に在住または在勤の18歳以上(高校生除く)の方","持参書類:氏名・現住所が確認できるもの(運転免許証など)","複写時間:8:45-16:50(長期休業中は9:00-16:50まで)","館外貸出:可(卒業生・修了生:1人3冊まで・15日以内、その他:1人2冊まで・15日)","休館日:日曜日、土曜日、国民の祝日、年末年始(12/28-1/4)、盆(8/13-8/15)、卒業・修了式(3月第2木曜)","対図書館複写サービス受付可否:可","図書館間相互貸借受付可否:可"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015373.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015373#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015373.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "島根県立大学 出雲キャンパス 図書館"
+        },
+        {
+          "@value": "シマネケンリツダイガク イズモキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "島根県大出雲"
+        },
+        {
+          "@value": "シマネケンダイイズモ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015373",
+      "cinii:organizationid": "KI010644",
+      "cinii:prefcode": "32",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "島根県立大学 出雲キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "693-8550",
+        "v:label": "島根県出雲市西林木町151番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0853-20-0202"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0853-20-0203"
+        }
+      ],
+      "dc:description": [
+        "The University of Shimane Izumo Campus",
+        "151,Nishihayashigi-cho,Izumo-shi,Shimane 693-8550",
+        "URL:http://izumo.u-shimane.ac.jp/campus/library/(website)",
+        "電話番号:0853-20-0202",
+        "受付時間:初めての方は8:45-17:00(1号館1階事務局にて入館手続きが必要です。)",
+        "受付時間:授業期は「8:45-17:00」利用可能です。(休業期は9:00-17:00)",
+        "注意事項:【利用条件】島根県内に在住または在勤の18歳以上(高校生除く)の方",
+        "持参書類:氏名・現住所が確認できるもの(運転免許証など)",
+        "複写時間:8:45-16:50(長期休業中は9:00-16:50まで)",
+        "館外貸出:可(卒業生・修了生:1人3冊まで・15日以内、その他:1人2冊まで・15日)",
+        "休館日:日曜日、土曜日、国民の祝日、年末年始(12/28-1/4)、盆(8/13-8/15)、卒業・修了式(3月第2木曜)",
+        "対図書館複写サービス受付可否:可",
+        "図書館間相互貸借受付可否:可"
+      ]
+    }
+  ]
+}

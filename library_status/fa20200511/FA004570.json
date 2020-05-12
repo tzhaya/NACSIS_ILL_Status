@@ -1,1 +1,75 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004570.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004570#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004570.json"},"foaf:name":[{"@value":"奥羽大学 図書館"},{"@value":"オウウダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"奥羽大"},{"@value":"オウウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA004570","cinii:organizationid":"KI001610","cinii:prefcode":"07","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"奥羽大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"963-8611","v:label":"福島県郡山市富田町字三角堂31-1"},"v:tel":[{"@type":"v:Tel","@value":"024-932-8931"}],"v:fax":[{"@type":"v:Fax","@value":"024-932-8944"}],"dc:description":["OHU University Library","31-1 Misumido, Tomita-machi, Koriyama-shi, Fukushima 963-8611"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004570.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004570#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004570.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "奥羽大学 図書館"
+        },
+        {
+          "@value": "オウウダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "奥羽大"
+        },
+        {
+          "@value": "オウウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004570",
+      "cinii:organizationid": "KI001610",
+      "cinii:prefcode": "07",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "奥羽大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "963-8611",
+        "v:label": "福島県郡山市富田町字三角堂31-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "024-932-8931"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "024-932-8944"
+        }
+      ],
+      "dc:description": [
+        "OHU University Library",
+        "31-1 Misumido, Tomita-machi, Koriyama-shi, Fukushima 963-8611"
+      ]
+    }
+  ]
+}

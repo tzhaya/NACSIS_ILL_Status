@@ -1,1 +1,94 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA005835.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA005835#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA005835.json"},"foaf:name":[{"@value":"東海大学 付属図書館 伊勢原図書館"},{"@value":"トウカイダイガク フゾクトショカン イセハラトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東海大伊"},{"@value":"トウカイダイイ","@language":"ja-hrkt"}],"cinii:memberid":"FA005835","cinii:organizationid":"KI002329","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"東海大学 付属図書館 伊勢原図書館","v:adr":{"@type":"v:Address","v:postal-code":"259-1193","v:label":"神奈川県伊勢原市下糟屋143"},"v:tel":[{"@type":"v:Tel","@value":"0463-93-1121"}],"v:fax":[{"@type":"v:Fax","@value":"0463-91-3328"}],"dc:description":["Shimokasuya 143, Isehara, Kanagawa 259-1193 Japan","URL:https://library.time.u-tokai.ac.jp/(website)","担当:利用係","複写支払方法 :NII相殺サービス参加館=相殺/それ以外=銀行振込(2週間以内にお支払いください。)","貸出期間(図書貸借) :発送日を含め1ヶ月","送料(図書貸借):NII相殺サービス参加館=相殺/それ以外=返却時切手同封","貸出冊数 :10冊","貸借注記 :雑誌・視聴覚資料・参考図書等の貸出は不可","閲覧事前連絡 :必ず電話・FAX等で事前連絡して下さい。(資料の所在、日時等)。詳しくは当館ホームページ(総合案内・学外者の方へ)を参照。","閲覧持参書類 :図書館利用願(身分を証明する物を携行のこと)","閲覧受付時間 :1号館 9:00〜17:00(土曜日〜15:00)、 3号館 9:30〜17:00(土曜日〜14:00)","館外貸出可否 :否","年末年始休館日 :12/28〜1/5","年末年始特別開館 :1/4〜1/5(相互利用業務は停止しています)","ILL-Org:Tokai University Isehara Campus Library","ILL-Address:Shimokasuya 143, Isehara, Kanagawa, Japan","ILL-ZIP:259-1193","ILL-Commun1:Tel:+81-463-93-1121 / FAX:+81-463-91-3328 / E-mail:iselib@tokai-u.jp","送付方法:2015年4月1日よりクロネコDM便になりました。","送付方法:速達は郵送で、受付は平日15時までとなります。","注記 :ILL受付は平日のみ。14時以降の申込は翌日処理になります。","複写送付注記:同一機関から複数のお申込みがあった場合、お申込者が異なっていても発送時間が同じであれば<一括発送>します。<別送>希望の場合はコメントでお知らせ願います","注記 :★★GW期間中につき、2019年4月26日12時から5月6日まで受付を停止させていただきます。5月7日から再開します。","注記 :★★大学冬季休業中につき、12月26日午後から1月6日まで受付を停止させていただきます。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005835.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005835#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005835.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東海大学 付属図書館 伊勢原図書館"
+        },
+        {
+          "@value": "トウカイダイガク フゾクトショカン イセハラトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東海大伊"
+        },
+        {
+          "@value": "トウカイダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005835",
+      "cinii:organizationid": "KI002329",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東海大学 付属図書館 伊勢原図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "259-1193",
+        "v:label": "神奈川県伊勢原市下糟屋143"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0463-93-1121"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0463-91-3328"
+        }
+      ],
+      "dc:description": [
+        "Shimokasuya 143, Isehara, Kanagawa 259-1193 Japan",
+        "URL:https://library.time.u-tokai.ac.jp/(website)",
+        "担当:利用係",
+        "複写支払方法 :NII相殺サービス参加館=相殺/それ以外=銀行振込(2週間以内にお支払いください。)",
+        "貸出期間(図書貸借) :発送日を含め1ヶ月",
+        "送料(図書貸借):NII相殺サービス参加館=相殺/それ以外=返却時切手同封",
+        "貸出冊数 :10冊",
+        "貸借注記 :雑誌・視聴覚資料・参考図書等の貸出は不可",
+        "閲覧事前連絡 :必ず電話・FAX等で事前連絡して下さい。(資料の所在、日時等)。詳しくは当館ホームページ(総合案内・学外者の方へ)を参照。",
+        "閲覧持参書類 :図書館利用願(身分を証明する物を携行のこと)",
+        "閲覧受付時間 :1号館 9:00〜17:00(土曜日〜15:00)、 3号館 9:30〜17:00(土曜日〜14:00)",
+        "館外貸出可否 :否",
+        "年末年始休館日 :12/28〜1/5",
+        "年末年始特別開館 :1/4〜1/5(相互利用業務は停止しています)",
+        "ILL-Org:Tokai University Isehara Campus Library",
+        "ILL-Address:Shimokasuya 143, Isehara, Kanagawa, Japan",
+        "ILL-ZIP:259-1193",
+        "ILL-Commun1:Tel:+81-463-93-1121 / FAX:+81-463-91-3328 / E-mail:iselib@tokai-u.jp",
+        "送付方法:2015年4月1日よりクロネコDM便になりました。",
+        "送付方法:速達は郵送で、受付は平日15時までとなります。",
+        "注記 :ILL受付は平日のみ。14時以降の申込は翌日処理になります。",
+        "複写送付注記:同一機関から複数のお申込みがあった場合、お申込者が異なっていても発送時間が同じであれば<一括発送>します。<別送>希望の場合はコメントでお知らせ願います",
+        "注記 :★★GW期間中につき、2019年4月26日12時から5月6日まで受付を停止させていただきます。5月7日から再開します。",
+        "注記 :★★大学冬季休業中につき、12月26日午後から1月6日まで受付を停止させていただきます。"
+      ]
+    }
+  ]
+}

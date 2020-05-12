@@ -1,1 +1,95 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003578.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003578#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003578.json"},"foaf:name":[{"@value":"大分大学 学術情報拠点(図書館)"},{"@value":"オオイタダイガク ガクジュツジョウホウキョテン(トショカン)","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"分大"},{"@value":"ブンダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA003578","cinii:organizationid":"KI000899","cinii:prefcode":"44","cinii:mextid":"007500","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"大分大学 学術情報拠点(図書館)","v:adr":{"@type":"v:Address","v:postal-code":"870-1192","v:label":"大分市大字旦野原700"},"v:tel":[{"@type":"v:Tel","@value":"097-554-7485"}],"v:fax":[{"@type":"v:Fax","@value":"097-554-8534"}],"dc:description":["Oita University Library","700 Dannoharu, Oita-shi 870-1192","URL:http://opac2.lib.oita-u.ac.jp/","来館利用担当:情報サービス担当","電話番号:097-554-7485","通常開館時間  :8:30〜22:00(土・日曜、祝日10:00〜19:00)","休業中開館時間:8:30〜19:00(土・日曜、祝日10:00〜19:00)","休館日:お盆・年末年始・その他・平成31年2月22日(金)22:00 ～ 2月28日(木)8:00","ILL-Staff:","ILL-Dept:Information Service Section","ILL-Org:Oita University Library","ILL-Address:700 Dannoharu, Oita-Shi, Oita-Ken, Japan","ILL-Zip:870-1192","ILL-Commun1:Tel:+81-97-554-7485 / Fax:+81-97-554-8534 / E-mail:ill-central@oita-u.ac.jp","ILL-Accept:Foreign(1): OCLC:SYMBOL:J3V / Foreign(2): KERIS","ILL-Sched:Dec 28-Jan 4","ILL-Bill:Foreign(1): OCLC-IFM only / Foreign(2): KERIS=NII Fee Management Service","ILL-Loan-Period: Foreign(2): 6 weeks: up to 3 item per library / Foreign(2): NA","ILL-Loan-Renew: Foreign(1): None / Foreign(2): None","ILL-Loan-Charge: Foreign(1): Postage required / Delivery method:via airmail, courier/ Foreign(2): N/A","ILL-Non-Circulation: Special collection, mcrfrm, mcrfch, ref, per, news, a-v, dissertations","ILL-Copy-Charge:40YEN per sheet. Postage required / Delivery method:via airmail, e-mail, fax","ILL-Note:DIS:Photocopy:need the author's permission / Materials in the libraries only","ILL-OCLC-Symbol:J3V"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003578.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003578#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003578.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大分大学 学術情報拠点(図書館)"
+        },
+        {
+          "@value": "オオイタダイガク ガクジュツジョウホウキョテン(トショカン)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "分大"
+        },
+        {
+          "@value": "ブンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003578",
+      "cinii:organizationid": "KI000899",
+      "cinii:prefcode": "44",
+      "cinii:mextid": "007500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大分大学 学術情報拠点(図書館)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "870-1192",
+        "v:label": "大分市大字旦野原700"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "097-554-7485"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "097-554-8534"
+        }
+      ],
+      "dc:description": [
+        "Oita University Library",
+        "700 Dannoharu, Oita-shi 870-1192",
+        "URL:http://opac2.lib.oita-u.ac.jp/",
+        "来館利用担当:情報サービス担当",
+        "電話番号:097-554-7485",
+        "通常開館時間  :8:30〜22:00(土・日曜、祝日10:00〜19:00)",
+        "休業中開館時間:8:30〜19:00(土・日曜、祝日10:00〜19:00)",
+        "休館日:お盆・年末年始・その他・平成31年2月22日(金)22:00 ～ 2月28日(木)8:00",
+        "ILL-Staff:",
+        "ILL-Dept:Information Service Section",
+        "ILL-Org:Oita University Library",
+        "ILL-Address:700 Dannoharu, Oita-Shi, Oita-Ken, Japan",
+        "ILL-Zip:870-1192",
+        "ILL-Commun1:Tel:+81-97-554-7485 / Fax:+81-97-554-8534 / E-mail:ill-central@oita-u.ac.jp",
+        "ILL-Accept:Foreign(1): OCLC:SYMBOL:J3V / Foreign(2): KERIS",
+        "ILL-Sched:Dec 28-Jan 4",
+        "ILL-Bill:Foreign(1): OCLC-IFM only / Foreign(2): KERIS=NII Fee Management Service",
+        "ILL-Loan-Period: Foreign(2): 6 weeks: up to 3 item per library / Foreign(2): NA",
+        "ILL-Loan-Renew: Foreign(1): None / Foreign(2): None",
+        "ILL-Loan-Charge: Foreign(1): Postage required / Delivery method:via airmail, courier/ Foreign(2): N/A",
+        "ILL-Non-Circulation: Special collection, mcrfrm, mcrfch, ref, per, news, a-v, dissertations",
+        "ILL-Copy-Charge:40YEN per sheet. Postage required / Delivery method:via airmail, e-mail, fax",
+        "ILL-Note:DIS:Photocopy:need the author's permission / Materials in the libraries only",
+        "ILL-OCLC-Symbol:J3V"
+      ]
+    }
+  ]
+}

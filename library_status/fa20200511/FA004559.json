@@ -1,1 +1,98 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004559.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004559#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004559.json"},"foaf:name":[{"@value":"郡山女子大学 図書館"},{"@value":"コオリヤマジヨシダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"郡山女"},{"@value":"コオリヤマジヨ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","研究室"],"cinii:memberid":"FA004559","cinii:organizationid":"KI00160X","cinii:prefcode":"07","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"郡山女子大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"963-8503","v:label":"福島県郡山市開成3-25-2"},"v:tel":[{"@type":"v:Tel","@value":"024-932-4848"}],"v:fax":[{"@type":"v:Fax","@value":"024-924-1394"}],"dc:description":["Library of Koriyama Women's University","3-25-2, Kaisei, Koriyama-city, Fukushima-ken 963-8503","URL:http://library.koriyama-kgc.ac.jp/ (website)","通常開館時間 :8:30〜18:00(出納〜17:40)","休業中開館時間:夏・冬季8:30〜16:50(出納〜16:40)","休館日 :土曜日,日曜日・国民の祝休日・本学の指定休日","来館利用担当: 閲覧参考係","本学に在籍している者以外の閲覧対象者: 他大学に在籍している学生・教職員または福島県内大学図書館間相互協力協定に基づく共通利用証の発行を受けた方に限ります","電話番号: 024-932-4848(内線252)","受付時間: 9:00-17:00(学生休業中は16:00)","注意事項: 他大学に在籍している学生・教職員は電話・文書等であらかじめ日時等についてお問い合わせください","注意事項: お車での来館はご遠慮ください","持参書類: 他大学に在籍している学生・教職員は身分証明書と在籍する大学の図書館が発行する紹介状(東北地区大学図書館協議会に加盟している大学に在籍している方は身分証明書のみ)","持参書類: 福島県内大学図書館間相互協力協定に基づく共通利用証の発行を受けた方は共通利用証","複写時間: 9:00-16:00","館外貸出: 条件付き可(福島県内大学図書館間相互協力協定に基づく共通利用証の発行を受けた方に限ります)","制限事項: 参考図書等,貸出できない資料があります","休館日: 土曜日,日曜日,国民の祝休日,本学の指定休業日","対図書館複写サービス:受付可","図書館間相互貸借:受付可","相互貸借による貸出期間:郵送期間を含め30日間(資料によって期間が短縮されるものがあります)","平成16年8月よりNACSIS-ILLでも文献複写及び現物貸借を受け付けています.","NACSIS-ILL料金相殺:不可(運営費の請求が別途請求に変更されないと参加できません)","蔵書点検(3月,8月)の期間中は相互利用業務を停止することがあります."]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004559.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004559#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004559.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "郡山女子大学 図書館"
+        },
+        {
+          "@value": "コオリヤマジヨシダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "郡山女"
+        },
+        {
+          "@value": "コオリヤマジヨ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研究室"
+      ],
+      "cinii:memberid": "FA004559",
+      "cinii:organizationid": "KI00160X",
+      "cinii:prefcode": "07",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "郡山女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "963-8503",
+        "v:label": "福島県郡山市開成3-25-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "024-932-4848"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "024-924-1394"
+        }
+      ],
+      "dc:description": [
+        "Library of Koriyama Women's University",
+        "3-25-2, Kaisei, Koriyama-city, Fukushima-ken 963-8503",
+        "URL:http://library.koriyama-kgc.ac.jp/ (website)",
+        "通常開館時間 :8:30〜18:00(出納〜17:40)",
+        "休業中開館時間:夏・冬季8:30〜16:50(出納〜16:40)",
+        "休館日 :土曜日,日曜日・国民の祝休日・本学の指定休日",
+        "来館利用担当: 閲覧参考係",
+        "本学に在籍している者以外の閲覧対象者: 他大学に在籍している学生・教職員または福島県内大学図書館間相互協力協定に基づく共通利用証の発行を受けた方に限ります",
+        "電話番号: 024-932-4848(内線252)",
+        "受付時間: 9:00-17:00(学生休業中は16:00)",
+        "注意事項: 他大学に在籍している学生・教職員は電話・文書等であらかじめ日時等についてお問い合わせください",
+        "注意事項: お車での来館はご遠慮ください",
+        "持参書類: 他大学に在籍している学生・教職員は身分証明書と在籍する大学の図書館が発行する紹介状(東北地区大学図書館協議会に加盟している大学に在籍している方は身分証明書のみ)",
+        "持参書類: 福島県内大学図書館間相互協力協定に基づく共通利用証の発行を受けた方は共通利用証",
+        "複写時間: 9:00-16:00",
+        "館外貸出: 条件付き可(福島県内大学図書館間相互協力協定に基づく共通利用証の発行を受けた方に限ります)",
+        "制限事項: 参考図書等,貸出できない資料があります",
+        "休館日: 土曜日,日曜日,国民の祝休日,本学の指定休業日",
+        "対図書館複写サービス:受付可",
+        "図書館間相互貸借:受付可",
+        "相互貸借による貸出期間:郵送期間を含め30日間(資料によって期間が短縮されるものがあります)",
+        "平成16年8月よりNACSIS-ILLでも文献複写及び現物貸借を受け付けています.",
+        "NACSIS-ILL料金相殺:不可(運営費の請求が別途請求に変更されないと参加できません)",
+        "蔵書点検(3月,8月)の期間中は相互利用業務を停止することがあります."
+      ]
+    }
+  ]
+}

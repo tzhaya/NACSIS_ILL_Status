@@ -1,1 +1,90 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004424.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004424#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004424.json"},"foaf:name":[{"@value":"岩手医科大学 附属図書館 分館"},{"@value":"イワテイカダイガク フゾクトショカン ブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"岩医大分"},{"@value":"イワイダイブン","@language":"ja-hrkt"}],"dcterms:hasPart":["分館"],"cinii:memberid":"FA004424","cinii:organizationid":"KI001494","cinii:prefcode":"03","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"岩手医科大学 附属図書館 分館","v:adr":{"@type":"v:Address","v:postal-code":"028-3694","v:label":"岩手県紫波郡矢巾町医大通1-1-1"},"v:tel":[{"@type":"v:Tel","@value":"019-651-5110"}],"v:fax":[{"@type":"v:Fax","@value":"019-698-1936"}],"dc:description":["1-1-1 idai-dori, Yahaba-cho, Shiwa-gun, Iwate, 028-3694","Iwate Medical University, Branch library","電話番号:019-651-5110(ダイヤルイン5362)","閲覧対象者 :本学職員・学生、OB、医療従事者等","閲覧持参書類 :身分証明書","複写受付可否 :可","館外貸出可否 :可","URL:http://www.lib.iwate-med.ac.jp/index.html (website)","通常開館時間 : 9:00-22:00(土曜日 -17:00)","休館日 :日曜祝祭日、第2・3・5土曜日、年末年始12/30-1/3","■複写及び貸借の受付","いずれの場合も内丸図書館にて受付致します。複写方法・料金等は内丸図書館に準拠します。","電話番号:019-651-5110(ダイヤルイン#2129)","FAX:019-625-8030","【お知らせ】","2012年7月1日よりILLの受付窓口が内丸図書館になりました。","ILL支払方法 :郵便振込(相殺参加館は相殺)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004424.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004424#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004424.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岩手医科大学 附属図書館 分館"
+        },
+        {
+          "@value": "イワテイカダイガク フゾクトショカン ブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岩医大分"
+        },
+        {
+          "@value": "イワイダイブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "分館"
+      ],
+      "cinii:memberid": "FA004424",
+      "cinii:organizationid": "KI001494",
+      "cinii:prefcode": "03",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "岩手医科大学 附属図書館 分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "028-3694",
+        "v:label": "岩手県紫波郡矢巾町医大通1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "019-651-5110"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "019-698-1936"
+        }
+      ],
+      "dc:description": [
+        "1-1-1 idai-dori, Yahaba-cho, Shiwa-gun, Iwate, 028-3694",
+        "Iwate Medical University, Branch library",
+        "電話番号:019-651-5110(ダイヤルイン5362)",
+        "閲覧対象者 :本学職員・学生、OB、医療従事者等",
+        "閲覧持参書類 :身分証明書",
+        "複写受付可否 :可",
+        "館外貸出可否 :可",
+        "URL:http://www.lib.iwate-med.ac.jp/index.html (website)",
+        "通常開館時間 : 9:00-22:00(土曜日 -17:00)",
+        "休館日 :日曜祝祭日、第2・3・5土曜日、年末年始12/30-1/3",
+        "■複写及び貸借の受付",
+        "いずれの場合も内丸図書館にて受付致します。複写方法・料金等は内丸図書館に準拠します。",
+        "電話番号:019-651-5110(ダイヤルイン#2129)",
+        "FAX:019-625-8030",
+        "【お知らせ】",
+        "2012年7月1日よりILLの受付窓口が内丸図書館になりました。",
+        "ILL支払方法 :郵便振込(相殺参加館は相殺)"
+      ]
+    }
+  ]
+}

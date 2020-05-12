@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004967.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004967#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004967.json"},"foaf:name":[{"@value":"上野学園 図書館"},{"@value":"ウエノガクエン トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"上野大"},{"@value":"ウエノダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA004967","cinii:organizationid":"KI001916","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"上野学園 図書館","v:adr":{"@type":"v:Address","v:postal-code":"110-8642","v:label":"東京都台東区東上野4-24-12"},"v:tel":[{"@type":"v:Tel","@value":"03-3842-1027"}],"v:fax":[{"@type":"v:Fax","@value":"03-3842-0162"}],"dc:description":["Ueno Gakuen University, Faculty of Music Library","4-24-12, Higashiueno Taito-ku, Tokyo 110-8642","URL:","来館利用担当:閲覧係","電話番号:03-3842-1027","受付時間:9:00〜16:00/土曜・短縮:9:00〜15:00(利用は17:00/土曜・短縮16:00まで)","注意事項:事前に所属機関を通じて所蔵確認してください","持参書類:資料利用依頼書(身分を証明するものを携行してください)","複写時間:9:00〜16:30/土曜・短縮:9:00〜15:30","館外貸出:不可","制限事項:開館時間を短縮している期間があります","休館日:日曜日、国民の祝日、学園祭、創立記念日、入試期間"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004967.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004967#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004967.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "上野学園 図書館"
+        },
+        {
+          "@value": "ウエノガクエン トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "上野大"
+        },
+        {
+          "@value": "ウエノダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004967",
+      "cinii:organizationid": "KI001916",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "上野学園 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "110-8642",
+        "v:label": "東京都台東区東上野4-24-12"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3842-1027"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3842-0162"
+        }
+      ],
+      "dc:description": [
+        "Ueno Gakuen University, Faculty of Music Library",
+        "4-24-12, Higashiueno Taito-ku, Tokyo 110-8642",
+        "URL:",
+        "来館利用担当:閲覧係",
+        "電話番号:03-3842-1027",
+        "受付時間:9:00〜16:00/土曜・短縮:9:00〜15:00(利用は17:00/土曜・短縮16:00まで)",
+        "注意事項:事前に所属機関を通じて所蔵確認してください",
+        "持参書類:資料利用依頼書(身分を証明するものを携行してください)",
+        "複写時間:9:00〜16:30/土曜・短縮:9:00〜15:30",
+        "館外貸出:不可",
+        "制限事項:開館時間を短縮している期間があります",
+        "休館日:日曜日、国民の祝日、学園祭、創立記念日、入試期間"
+      ]
+    }
+  ]
+}

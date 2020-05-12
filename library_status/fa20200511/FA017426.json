@@ -1,1 +1,87 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA017426.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA017426#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA017426.json"},"foaf:name":[{"@value":"常葉大学 附属図書館(浜松)"},{"@value":"トコハダイガク フゾクトショカン(ハママツ)","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"常葉大浜松"},{"@value":"トコハダイハママツ","@language":"ja-hrkt"}],"cinii:memberid":"FA017426","cinii:organizationid":"KI003106","cinii:prefcode":"22","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"常葉大学 附属図書館(浜松)","v:adr":{"@type":"v:Address","v:postal-code":"431-2102","v:label":"静岡県浜松市北区都田町1230番地"},"v:tel":[{"@type":"v:Tel","@value":"053-428-7732"},{"@type":"v:Tel","@value":"053-428-3613"}],"v:fax":[{"@type":"v:Fax","@value":"053-428-3901"}],"dc:description":["Tokoha University, Hamamatsu Campus Library","1230, Miyakoda-cho, Kita-ku, Hamamatsu-city, Shizuoka 431-2102","URL:http://www.tokoha-u.ac.jp/library/index.html (website)","URL:http://www.tokoha-u.ac.jp/university/campus/hamamatsu/index.html (map)","来館利用担当 :相互利用係","電話番号: 053-428-3613,7732","受付時間: 9:00〜19:00","注意事項: 開館日の確認をしてください。学外者の方は館外貸出はできません。","持参書類: 身分を証明するものと、できれば照会館発行の閲覧依頼書","複写時間: 9:00〜18:30","館外貸出: 不可","制限事項:","休館日  : 土曜日、日曜日、祝祭日、全学的行事挙行日、年末年始、その他臨時休館日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017426.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017426#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017426.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "常葉大学 附属図書館(浜松)"
+        },
+        {
+          "@value": "トコハダイガク フゾクトショカン(ハママツ)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "常葉大浜松"
+        },
+        {
+          "@value": "トコハダイハママツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017426",
+      "cinii:organizationid": "KI003106",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "常葉大学 附属図書館(浜松)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "431-2102",
+        "v:label": "静岡県浜松市北区都田町1230番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "053-428-7732"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "053-428-3613"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "053-428-3901"
+        }
+      ],
+      "dc:description": [
+        "Tokoha University, Hamamatsu Campus Library",
+        "1230, Miyakoda-cho, Kita-ku, Hamamatsu-city, Shizuoka 431-2102",
+        "URL:http://www.tokoha-u.ac.jp/library/index.html (website)",
+        "URL:http://www.tokoha-u.ac.jp/university/campus/hamamatsu/index.html (map)",
+        "来館利用担当 :相互利用係",
+        "電話番号: 053-428-3613,7732",
+        "受付時間: 9:00〜19:00",
+        "注意事項: 開館日の確認をしてください。学外者の方は館外貸出はできません。",
+        "持参書類: 身分を証明するものと、できれば照会館発行の閲覧依頼書",
+        "複写時間: 9:00〜18:30",
+        "館外貸出: 不可",
+        "制限事項:",
+        "休館日  : 土曜日、日曜日、祝祭日、全学的行事挙行日、年末年始、その他臨時休館日"
+      ]
+    }
+  ]
+}

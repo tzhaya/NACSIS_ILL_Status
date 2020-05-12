@@ -1,1 +1,80 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009734.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009734#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009734.json"},"foaf:name":[{"@value":"農業・食品産業技術総合研究機構 畜産研究部門 山地放牧研究拠点"},{"@value":"ノウギョウ・ショクヒンサンギョウギジュツソウゴウケンキュウキコウ チクサンケンキュウブモン サンチホウボクケンキュウキョテン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"畜産御代田"},{"@value":"チクサンミヨタ","@language":"ja-hrkt"}],"cinii:memberid":"FA009734","cinii:organizationid":"KI005065","cinii:prefcode":"20","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"農業・食品産業技術総合研究機構 畜産研究部門 山地放牧研究拠点","v:adr":{"@type":"v:Address","v:postal-code":"389-0201","v:label":"長野県北佐久郡御代田町大字塩野375-716"},"v:tel":[{"@type":"v:Tel","@value":"0267-32-2356"}],"v:fax":[{"@type":"v:Fax","@value":"0267-32-2318"}],"dc:description":["来館利用(閲覧)のみ可。貸出および複写は対応しておりません。","注意事項: 閲覧をご希望の場合は、資料の所蔵状況をご確認の上、閲覧希望日時について事前にご連絡ください。","URL:https://www.naro.affrc.go.jp/introduction/library.html","電話番号:0267-32-2356","E-mail: ref-ngria*ml.affrc.go.jp 「*」を「@」に変えてください","閲覧受付時間9:00-12:00,13:00-15:30","休館日:土曜日、日曜日、国民の祝日、年末年始(12/28-1/4)","持参書類:身分証明書","Institute of Livestock and Grassland Science, NARO","375-716, Shiono, Miyota-machi, Nagano 389-0201"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009734.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009734#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009734.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "農業・食品産業技術総合研究機構 畜産研究部門 山地放牧研究拠点"
+        },
+        {
+          "@value": "ノウギョウ・ショクヒンサンギョウギジュツソウゴウケンキュウキコウ チクサンケンキュウブモン サンチホウボクケンキュウキョテン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "畜産御代田"
+        },
+        {
+          "@value": "チクサンミヨタ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009734",
+      "cinii:organizationid": "KI005065",
+      "cinii:prefcode": "20",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "農業・食品産業技術総合研究機構 畜産研究部門 山地放牧研究拠点",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "389-0201",
+        "v:label": "長野県北佐久郡御代田町大字塩野375-716"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0267-32-2356"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0267-32-2318"
+        }
+      ],
+      "dc:description": [
+        "来館利用(閲覧)のみ可。貸出および複写は対応しておりません。",
+        "注意事項: 閲覧をご希望の場合は、資料の所蔵状況をご確認の上、閲覧希望日時について事前にご連絡ください。",
+        "URL:https://www.naro.affrc.go.jp/introduction/library.html",
+        "電話番号:0267-32-2356",
+        "E-mail: ref-ngria*ml.affrc.go.jp 「*」を「@」に変えてください",
+        "閲覧受付時間9:00-12:00,13:00-15:30",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始(12/28-1/4)",
+        "持参書類:身分証明書",
+        "Institute of Livestock and Grassland Science, NARO",
+        "375-716, Shiono, Miyota-machi, Nagano 389-0201"
+      ]
+    }
+  ]
+}

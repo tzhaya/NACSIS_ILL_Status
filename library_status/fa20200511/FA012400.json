@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012400.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012400#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012400.json"},"foaf:name":[{"@value":"北陸大学 図書館"},{"@value":"ホクリクダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"北陸大"},{"@value":"ホクリクダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["センター","薬分"],"cinii:memberid":"FA012400","cinii:organizationid":"KI003004","cinii:prefcode":"17","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"北陸大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"920-1180","v:label":"石川県金沢市太陽が丘1丁目1番地"},"v:tel":[{"@type":"v:Tel","@value":"076-229-3021"}],"v:fax":[{"@type":"v:Fax","@value":"076-229-4850"}],"dc:description":["Hokuriku University Library","1-1,Taiyogaoka,Kanazawa-shi,Ishikawaken,920-1180","受付時間:9:00-17:00","持参書類:身分証明書","複写時間:9:00-17:00","館外貸出:可","休館日:創立記念日(6月1日),12月31日及び1月1日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012400.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012400#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012400.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北陸大学 図書館"
+        },
+        {
+          "@value": "ホクリクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北陸大"
+        },
+        {
+          "@value": "ホクリクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "センター",
+        "薬分"
+      ],
+      "cinii:memberid": "FA012400",
+      "cinii:organizationid": "KI003004",
+      "cinii:prefcode": "17",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "北陸大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "920-1180",
+        "v:label": "石川県金沢市太陽が丘1丁目1番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "076-229-3021"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "076-229-4850"
+        }
+      ],
+      "dc:description": [
+        "Hokuriku University Library",
+        "1-1,Taiyogaoka,Kanazawa-shi,Ishikawaken,920-1180",
+        "受付時間:9:00-17:00",
+        "持参書類:身分証明書",
+        "複写時間:9:00-17:00",
+        "館外貸出:可",
+        "休館日:創立記念日(6月1日),12月31日及び1月1日"
+      ]
+    }
+  ]
+}

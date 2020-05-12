@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007885.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007885#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007885.json"},"foaf:name":[{"@value":"大阪樟蔭女子大学 図書館"},{"@value":"オオサカショウインジョシダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"樟蔭女"},{"@value":"ショウインジョ","@language":"ja-hrkt"}],"dcterms:hasPart":["小阪","関屋"],"cinii:memberid":"FA007885","cinii:organizationid":"KI003638","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"大阪樟蔭女子大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"577-8550","v:label":"大阪府東大阪市菱屋西4-2-26"},"v:tel":[{"@type":"v:Tel","@value":"06-6723-8182"}],"v:fax":[{"@type":"v:Fax","@value":"06-6723-8387"}],"dc:description":["通常開館時間:9:00-20:00 (出納 -19:00) / 土曜日-16:30 (出納 -16:00)","URL: http://lib.osaka-shoin.ac.jp/","休業中開館時間: 9:00-16:30(出納 -16:00) / 土曜日 -16:30 (出納 -16:00)","休館日: 日曜日・国民の祝日・入学式・オリエンテーション(4月中旬)・創立記念日(4/28又はその代休日)・卒業式・入試期間・蔵書点検期間・年末年始・学園休業(8月中旬)","ILL-Org: Osaka Shoin Women's University Library","ILL-Dept: ILL section","ILL-Address: 4-2-26 Hishiyanishi, Higashiosaka-shi, Osaka JAPAN","ILL-ZIP: 577-8550","ILL-Commun1: Tel:+81-6-6723-8182 / FAX: +81-6-6723-8387 / E-mail: library@osaka-shoin.ac.jp","ILL-Commun2: OPAC (Eng. mode): http://library.osaka-shoin.ac.jp/mylimedio/search/search-input.do?mode=comp&lang=en"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007885.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007885#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007885.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪樟蔭女子大学 図書館"
+        },
+        {
+          "@value": "オオサカショウインジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "樟蔭女"
+        },
+        {
+          "@value": "ショウインジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "小阪",
+        "関屋"
+      ],
+      "cinii:memberid": "FA007885",
+      "cinii:organizationid": "KI003638",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪樟蔭女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "577-8550",
+        "v:label": "大阪府東大阪市菱屋西4-2-26"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6723-8182"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6723-8387"
+        }
+      ],
+      "dc:description": [
+        "通常開館時間:9:00-20:00 (出納 -19:00) / 土曜日-16:30 (出納 -16:00)",
+        "URL: http://lib.osaka-shoin.ac.jp/",
+        "休業中開館時間: 9:00-16:30(出納 -16:00) / 土曜日 -16:30 (出納 -16:00)",
+        "休館日: 日曜日・国民の祝日・入学式・オリエンテーション(4月中旬)・創立記念日(4/28又はその代休日)・卒業式・入試期間・蔵書点検期間・年末年始・学園休業(8月中旬)",
+        "ILL-Org: Osaka Shoin Women's University Library",
+        "ILL-Dept: ILL section",
+        "ILL-Address: 4-2-26 Hishiyanishi, Higashiosaka-shi, Osaka JAPAN",
+        "ILL-ZIP: 577-8550",
+        "ILL-Commun1: Tel:+81-6-6723-8182 / FAX: +81-6-6723-8387 / E-mail: library@osaka-shoin.ac.jp",
+        "ILL-Commun2: OPAC (Eng. mode): http://library.osaka-shoin.ac.jp/mylimedio/search/search-input.do?mode=comp&lang=en"
+      ]
+    }
+  ]
+}

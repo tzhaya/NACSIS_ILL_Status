@@ -1,1 +1,77 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA027758.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA027758#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA027758.json"},"foaf:name":[{"@value":"豊橋市民病院 医学情報室"},{"@value":"トヨハシシミンビョウイン イガクジョウホウシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"豊橋市"},{"@value":"トヨハシシ","@language":"ja-hrkt"}],"cinii:memberid":"FA027758","cinii:organizationid":"KI025368","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"豊橋市民病院 医学情報室","v:adr":{"@type":"v:Address","v:postal-code":"441-8570","v:label":"豊橋市青竹町字八間西50番地"},"v:tel":[{"@type":"v:Tel","@value":"0532-33-6111"}],"v:fax":[{"@type":"v:Fax","@value":"0532-33-6179"}],"dc:description":["複写料金:白黒コピー1枚30円(カラー不可)","複写決済方法:後納(郵便振替)","複写受付時間:月～金10:00～17:00","開室時間:10:00～17:00","FAX送付、速達希望は要事前連絡。","1人体制のため、急に不在になることがございます。","年末年始休み:2019/12/28～2020/1/5"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027758.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027758#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027758.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "豊橋市民病院 医学情報室"
+        },
+        {
+          "@value": "トヨハシシミンビョウイン イガクジョウホウシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "豊橋市"
+        },
+        {
+          "@value": "トヨハシシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027758",
+      "cinii:organizationid": "KI025368",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "豊橋市民病院 医学情報室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "441-8570",
+        "v:label": "豊橋市青竹町字八間西50番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0532-33-6111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0532-33-6179"
+        }
+      ],
+      "dc:description": [
+        "複写料金:白黒コピー1枚30円(カラー不可)",
+        "複写決済方法:後納(郵便振替)",
+        "複写受付時間:月～金10:00～17:00",
+        "開室時間:10:00～17:00",
+        "FAX送付、速達希望は要事前連絡。",
+        "1人体制のため、急に不在になることがございます。",
+        "年末年始休み:2019/12/28～2020/1/5"
+      ]
+    }
+  ]
+}

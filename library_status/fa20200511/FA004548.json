@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004548.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004548#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004548.json"},"foaf:name":[{"@value":"ノースアジア大学 附属図書館"},{"@value":"ノースアジアダイガク フゾクトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"ノースアジア"},{"@value":"ノースアジア","@language":"ja-hrkt"}],"cinii:memberid":"FA004548","cinii:organizationid":"KI001596","cinii:prefcode":"05","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"ノースアジア大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"010-8515","v:label":"秋田県秋田市下北手桜字守沢46-1"},"v:tel":[{"@type":"v:Tel","@value":"018-836-2407"}],"v:fax":[{"@type":"v:Fax","@value":"018-836-4402"}],"dc:description":["NORTH ASIA UNIVERSITY LIBRARY","46-1AZA MAMORISAWA SAKURA SHIMOKITATE AKITA-SHI, JAPAN 010-8515","URL:http://www.nau.ac.jp/lib/","来館利用担当:閲覧係","電話番号:018-836-2407","受付時間:8:30〜17:10(月〜金)","注意事項:利用に関して、他大学の教職員・学生の方は、所属する大学図書館を通してお問い合わせください。一般の方は本学図書館のホームページをご確認ください。","持参書類:身分を証明する物","館外貸出:可","制限事項:禁帯出図書等の貸出制限あり","休館日:休業中の土曜日・日曜日・祝日・開学記念日(4月26日)・年末年始その他休業期間中の定める日。令和元年12月28日〜令和2年1月5日は休館いたします。また資料整備や年末年始一斉休暇に伴い令和元年12月26日〜令和2年1月5日はILLを休止させていただきます。","平成19年4月より秋田経済法科大学はノースアジア大学に名称変更しました。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004548.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004548#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004548.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "ノースアジア大学 附属図書館"
+        },
+        {
+          "@value": "ノースアジアダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "ノースアジア"
+        },
+        {
+          "@value": "ノースアジア",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004548",
+      "cinii:organizationid": "KI001596",
+      "cinii:prefcode": "05",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "ノースアジア大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "010-8515",
+        "v:label": "秋田県秋田市下北手桜字守沢46-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "018-836-2407"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "018-836-4402"
+        }
+      ],
+      "dc:description": [
+        "NORTH ASIA UNIVERSITY LIBRARY",
+        "46-1AZA MAMORISAWA SAKURA SHIMOKITATE AKITA-SHI, JAPAN 010-8515",
+        "URL:http://www.nau.ac.jp/lib/",
+        "来館利用担当:閲覧係",
+        "電話番号:018-836-2407",
+        "受付時間:8:30〜17:10(月〜金)",
+        "注意事項:利用に関して、他大学の教職員・学生の方は、所属する大学図書館を通してお問い合わせください。一般の方は本学図書館のホームページをご確認ください。",
+        "持参書類:身分を証明する物",
+        "館外貸出:可",
+        "制限事項:禁帯出図書等の貸出制限あり",
+        "休館日:休業中の土曜日・日曜日・祝日・開学記念日(4月26日)・年末年始その他休業期間中の定める日。令和元年12月28日〜令和2年1月5日は休館いたします。また資料整備や年末年始一斉休暇に伴い令和元年12月26日〜令和2年1月5日はILLを休止させていただきます。",
+        "平成19年4月より秋田経済法科大学はノースアジア大学に名称変更しました。"
+      ]
+    }
+  ]
+}

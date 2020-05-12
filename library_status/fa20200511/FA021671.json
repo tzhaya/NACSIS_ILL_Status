@@ -1,1 +1,77 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA021671.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA021671#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA021671.json"},"foaf:name":[{"@value":"健康科学大学 附属図書館"},{"@value":"ケンコウカガクダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"健康大"},{"@value":"ケンコウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA021671","cinii:organizationid":"KI01299X","cinii:prefcode":"19","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"N","v:fn":"健康科学大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"401-0380","v:label":"山梨県南都留郡富士河口湖町小立7187"},"v:tel":[{"@type":"v:Tel","@value":"0555-83-5216"}],"v:fax":[{"@type":"v:Fax","@value":"0555-83-5101"}],"dc:description":["休館日: 土曜・日曜など。学事日程により開館日が異なります。詳細はホームページにてご確認下さい。","注意事項:持参書類、資料の所在など、事前にお問い合わせ下さい。","http://www.kenkoudai.ac.jp/library/","Twitter @hsu_library223"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021671.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021671#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021671.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "健康科学大学 附属図書館"
+        },
+        {
+          "@value": "ケンコウカガクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "健康大"
+        },
+        {
+          "@value": "ケンコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA021671",
+      "cinii:organizationid": "KI01299X",
+      "cinii:prefcode": "19",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "健康科学大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "401-0380",
+        "v:label": "山梨県南都留郡富士河口湖町小立7187"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0555-83-5216"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0555-83-5101"
+        }
+      ],
+      "dc:description": [
+        "休館日: 土曜・日曜など。学事日程により開館日が異なります。詳細はホームページにてご確認下さい。",
+        "注意事項:持参書類、資料の所在など、事前にお問い合わせ下さい。",
+        "http://www.kenkoudai.ac.jp/library/",
+        "Twitter @hsu_library223"
+      ]
+    }
+  ]
+}

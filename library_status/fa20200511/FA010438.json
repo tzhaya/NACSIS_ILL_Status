@@ -1,1 +1,87 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA010438.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA010438#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA010438.json"},"foaf:name":[{"@value":"国立研究開発法人 産業技術総合研究所 つくば東 図書室"},{"@value":"コクリツケンキュウカイハツホウジン サンギョウギジュツソウゴウケンキュウショ ツクバヒガシ トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"産総研つくば東"},{"@value":"サンソウケンツクバヒガシ","@language":"ja-hrkt"}],"cinii:memberid":"FA010438","cinii:organizationid":"KI005677","cinii:prefcode":"08","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"国立研究開発法人 産業技術総合研究所 つくば東 図書室","v:adr":{"@type":"v:Address","v:postal-code":"305-8564","v:label":"茨城県つくば市並木1-2-1 つくば東"},"v:tel":[{"@type":"v:Tel","@value":"029-861-5321"}],"v:fax":[{"@type":"v:Fax","@value":"029-861-5047"}],"dc:description":["National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba East Library Office","1-2-1, Namiki, Tsukuba, Ibaraki 305-8564","http://www.aist.go.jp/ (website)","https://unit.aist.go.jp/tkb1/ci/tosyo_riyou.html (図書室利用案内)","来館利用担当: つくば東図書室 (電話番号: 029-861-7038)","注意事項: 所蔵確認は来館利用担当までお願いします。","来館受付時間: 9:30-12:00, 13:00-16:30(平日のみ)","複写受付時間: 9:30-12:00, 13:00-16:40(平日のみ)","開館時間: 9:30-12:00, 13:00-17:00(平日のみ)","持参書類: 特に必要無し","館外貸出: 不可","休館日: 毎月第3水曜日, 土曜日, 日曜日, 国民の祝日, 年末年始, 5/1～2, 8/13～16","注意事項: ILLでのご依頼は「つくば第七図書室(FA010416)」で受付けております。","注意事項: 「つくば東図書室」所蔵分は取り寄せに時間を要するため、速達不可。","――――――――――――","注意事項: 個人・企業の方からの郵送・FAXによる複写申込みは受付けておりません。","【臨時休室のお知らせ】新型コロナウイルス感染拡大防止のため当面の間、図書室は臨時休室いたします。ご不便をおかけいたしますが、皆様のご理解ご協力をお願いします。再開の時期につきましては決まり次第ウェブサイトでお知らせいたします。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010438.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010438#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010438.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 産業技術総合研究所 つくば東 図書室"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン サンギョウギジュツソウゴウケンキュウショ ツクバヒガシ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産総研つくば東"
+        },
+        {
+          "@value": "サンソウケンツクバヒガシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010438",
+      "cinii:organizationid": "KI005677",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立研究開発法人 産業技術総合研究所 つくば東 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-8564",
+        "v:label": "茨城県つくば市並木1-2-1 つくば東"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-861-5321"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-861-5047"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba East Library Office",
+        "1-2-1, Namiki, Tsukuba, Ibaraki 305-8564",
+        "http://www.aist.go.jp/ (website)",
+        "https://unit.aist.go.jp/tkb1/ci/tosyo_riyou.html (図書室利用案内)",
+        "来館利用担当: つくば東図書室 (電話番号: 029-861-7038)",
+        "注意事項: 所蔵確認は来館利用担当までお願いします。",
+        "来館受付時間: 9:30-12:00, 13:00-16:30(平日のみ)",
+        "複写受付時間: 9:30-12:00, 13:00-16:40(平日のみ)",
+        "開館時間: 9:30-12:00, 13:00-17:00(平日のみ)",
+        "持参書類: 特に必要無し",
+        "館外貸出: 不可",
+        "休館日: 毎月第3水曜日, 土曜日, 日曜日, 国民の祝日, 年末年始, 5/1～2, 8/13～16",
+        "注意事項: ILLでのご依頼は「つくば第七図書室(FA010416)」で受付けております。",
+        "注意事項: 「つくば東図書室」所蔵分は取り寄せに時間を要するため、速達不可。",
+        "――――――――――――",
+        "注意事項: 個人・企業の方からの郵送・FAXによる複写申込みは受付けておりません。",
+        "【臨時休室のお知らせ】新型コロナウイルス感染拡大防止のため当面の間、図書室は臨時休室いたします。ご不便をおかけいたしますが、皆様のご理解ご協力をお願いします。再開の時期につきましては決まり次第ウェブサイトでお知らせいたします。"
+      ]
+    }
+  ]
+}

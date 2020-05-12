@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012535.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012535#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012535.json"},"foaf:name":[{"@value":"釧路公立大学 附属図書館"},{"@value":"クシロコウリツダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"釧公大"},{"@value":"クシコウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA012535","cinii:organizationid":"KI007118","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"釧路公立大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"085-8585","v:label":"北海道釧路市芦野4-1-1"},"v:tel":[{"@type":"v:Tel","@value":"0154-37-5097"}],"v:fax":[{"@type":"v:Fax","@value":"0154-37-5140"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012535.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012535#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012535.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "釧路公立大学 附属図書館"
+        },
+        {
+          "@value": "クシロコウリツダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "釧公大"
+        },
+        {
+          "@value": "クシコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA012535",
+      "cinii:organizationid": "KI007118",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "釧路公立大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "085-8585",
+        "v:label": "北海道釧路市芦野4-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0154-37-5097"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0154-37-5140"
+        }
+      ]
+    }
+  ]
+}

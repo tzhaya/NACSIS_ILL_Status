@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007896.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007896#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007896.json"},"foaf:name":[{"@value":"大阪商業大学 図書館"},{"@value":"オオサカシヨウギヨウダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"大商大"},{"@value":"ダイシヨウダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA007896","cinii:organizationid":"KI003649","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"大阪商業大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"577-8505","v:label":"大阪府東大阪市御厨栄町4-1-10"},"v:tel":[{"@type":"v:Tel","@value":"06-6781-5280"}],"v:fax":[{"@type":"v:Fax","@value":"06-4307-6033"}],"dc:description":["Osaka University of Commerce Library","4-1-10 Mikuriyasakaemachi, Higashiosaka-shi, Osaka","URL:https://ouc.daishodai.ac.jp/lib/","来館利用担当:閲覧係","電話番号:06-6781-5280","受付時間:9:00〜17:00","他大学の教員・院生・学部生の方は所属されている図書館の資料利用依頼書または紹介状が必要です。","持参書類:身分証明書","複写受付時間:9:00〜17:00","館外貸出:否","制限事項:貴重図書・参考図書・特殊資料については対象外となる場合があります。","休館日:日曜日・国民の祝日・創立記念日(2月15日)・夏期・冬期休業期間の定めた日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007896.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007896#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007896.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪商業大学 図書館"
+        },
+        {
+          "@value": "オオサカシヨウギヨウダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大商大"
+        },
+        {
+          "@value": "ダイシヨウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007896",
+      "cinii:organizationid": "KI003649",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪商業大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "577-8505",
+        "v:label": "大阪府東大阪市御厨栄町4-1-10"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6781-5280"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-4307-6033"
+        }
+      ],
+      "dc:description": [
+        "Osaka University of Commerce Library",
+        "4-1-10 Mikuriyasakaemachi, Higashiosaka-shi, Osaka",
+        "URL:https://ouc.daishodai.ac.jp/lib/",
+        "来館利用担当:閲覧係",
+        "電話番号:06-6781-5280",
+        "受付時間:9:00〜17:00",
+        "他大学の教員・院生・学部生の方は所属されている図書館の資料利用依頼書または紹介状が必要です。",
+        "持参書類:身分証明書",
+        "複写受付時間:9:00〜17:00",
+        "館外貸出:否",
+        "制限事項:貴重図書・参考図書・特殊資料については対象外となる場合があります。",
+        "休館日:日曜日・国民の祝日・創立記念日(2月15日)・夏期・冬期休業期間の定めた日"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,108 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003374.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003374#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003374.json"},"foaf:name":[{"@value":"愛媛大学 図書館"},{"@value":"エヒメダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"愛媛大"},{"@value":"エヒメダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","研"],"cinii:memberid":"FA003374","cinii:organizationid":"KI000786","cinii:prefcode":"38","cinii:mextid":"006600","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"愛媛大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"790-8577","v:label":"愛媛県松山市文京町3"},"v:tel":[{"@type":"v:Tel","@value":"089-927-8849"}],"v:fax":[{"@type":"v:Fax","@value":"089-927-8846 (G3)"}],"dc:description":["愛媛大学 図書館","Ehime University Library","〒790-8577 愛媛県松山市文京町3","3, Bunkyo-cho, Matsuyama 790-8577","URL:http://www.lib.ehime-u.ac.jp/","来館利用担当 :情報サービス","電話番号 :089-927-8845","受付時間 :閲覧受付:(1)開架資料9:00-21:30(月曜日-金曜日),9:30-16:30(土曜日・日曜日及び休日) (2)書庫内資料9:00-12:00,13:00-16:30(月曜日-金曜日のみ)","注意事項","閲覧持参書類 :住所・氏名を明らかにする書類(身分証明書,運転免許証,健康保険証)","複写時間 :9:00-12:00,13:00-16:30(月曜日-金曜日)","館外貸出 :特別利用証の交付を受けた者は館外貸出可","制限事項 :利用できる資料は原則として図書館内所蔵資料のみ","休館日 :夏季及び冬季休業中の土曜日・日曜日及び休日,年末年始(12月28日-1月4日)","ILL-Dept:InterLibrary Service Section","ILL-Org:Ehime University Library","ILL-Address:3, Bunkyo-cho, Matsuyama, Ehime, JAPAN","ILL-Zip:790-8577","ILL-Contact1:Tel:+81-89-927-8849 / Fax:+81-89-927-8846 / E-mail:libref@stu.ehime-u.ac.jp","ILL-Contact2:Online catalogue:http://opac.lib.ehime-u.ac.jp/ / Website:http://www.lib.ehime-u.ac.jp/","ILL-Calendar:Closed:Dec. 28-Jan. 4","ILL-Accept:International:LOAN:N/A","ILL-Accept:International:COPY:Yes","ILL-Accept-method:Korea:KERIS=NII ILL Linkage (COPY only)","ILL-Accept-method:International:E-mail","ILL-Payment-method:KERIS=NII Fee Management service:Yes","ILL-Payment-method:International:Invoice:Yes","ILL-Payment-method:International:IFLA Voucher:Yes","ILL-Payment-method:International:Credit Card:N/A","ILL-Copy-Charge:35 JPY per sheet & Postage","ILL-Copy-Delivery-method:Airmail","ILL-Note:Only the items held at the Main Library are available.","ILL-Note:Thesis:COPY:need the author's permission."]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003374.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003374#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003374.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛媛大学 図書館"
+        },
+        {
+          "@value": "エヒメダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛媛大"
+        },
+        {
+          "@value": "エヒメダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA003374",
+      "cinii:organizationid": "KI000786",
+      "cinii:prefcode": "38",
+      "cinii:mextid": "006600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "愛媛大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "790-8577",
+        "v:label": "愛媛県松山市文京町3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "089-927-8849"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "089-927-8846 (G3)"
+        }
+      ],
+      "dc:description": [
+        "愛媛大学 図書館",
+        "Ehime University Library",
+        "〒790-8577 愛媛県松山市文京町3",
+        "3, Bunkyo-cho, Matsuyama 790-8577",
+        "URL:http://www.lib.ehime-u.ac.jp/",
+        "来館利用担当 :情報サービス",
+        "電話番号 :089-927-8845",
+        "受付時間 :閲覧受付:(1)開架資料9:00-21:30(月曜日-金曜日),9:30-16:30(土曜日・日曜日及び休日) (2)書庫内資料9:00-12:00,13:00-16:30(月曜日-金曜日のみ)",
+        "注意事項",
+        "閲覧持参書類 :住所・氏名を明らかにする書類(身分証明書,運転免許証,健康保険証)",
+        "複写時間 :9:00-12:00,13:00-16:30(月曜日-金曜日)",
+        "館外貸出 :特別利用証の交付を受けた者は館外貸出可",
+        "制限事項 :利用できる資料は原則として図書館内所蔵資料のみ",
+        "休館日 :夏季及び冬季休業中の土曜日・日曜日及び休日,年末年始(12月28日-1月4日)",
+        "ILL-Dept:InterLibrary Service Section",
+        "ILL-Org:Ehime University Library",
+        "ILL-Address:3, Bunkyo-cho, Matsuyama, Ehime, JAPAN",
+        "ILL-Zip:790-8577",
+        "ILL-Contact1:Tel:+81-89-927-8849 / Fax:+81-89-927-8846 / E-mail:libref@stu.ehime-u.ac.jp",
+        "ILL-Contact2:Online catalogue:http://opac.lib.ehime-u.ac.jp/ / Website:http://www.lib.ehime-u.ac.jp/",
+        "ILL-Calendar:Closed:Dec. 28-Jan. 4",
+        "ILL-Accept:International:LOAN:N/A",
+        "ILL-Accept:International:COPY:Yes",
+        "ILL-Accept-method:Korea:KERIS=NII ILL Linkage (COPY only)",
+        "ILL-Accept-method:International:E-mail",
+        "ILL-Payment-method:KERIS=NII Fee Management service:Yes",
+        "ILL-Payment-method:International:Invoice:Yes",
+        "ILL-Payment-method:International:IFLA Voucher:Yes",
+        "ILL-Payment-method:International:Credit Card:N/A",
+        "ILL-Copy-Charge:35 JPY per sheet & Postage",
+        "ILL-Copy-Delivery-method:Airmail",
+        "ILL-Note:Only the items held at the Main Library are available.",
+        "ILL-Note:Thesis:COPY:need the author's permission."
+      ]
+    }
+  ]
+}

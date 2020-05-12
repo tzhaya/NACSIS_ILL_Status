@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004763.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004763#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004763.json"},"foaf:name":[{"@value":"女子栄養大学 短期大学部図書館"},{"@value":"ジヨシエイヨウダイガク タンキダイガクブトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"女栄短"},{"@value":"ジヨエイタン","@language":"ja-hrkt"}],"cinii:memberid":"FA004763","cinii:organizationid":"KI00993X","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"女子栄養大学 短期大学部図書館","v:adr":{"@type":"v:Address","v:postal-code":"170-8481","v:label":"東京都豊島区駒込3-24-3"},"v:tel":[{"@type":"v:Tel","@value":"03-3576-2130"}],"v:fax":[{"@type":"v:Fax","@value":"03-3576-2344"}],"dc:description":["Junior College of Kagawa Nutrition University Library","3-24-3, Komagome, Toshima-ku, Tokyo 170-8481","URL:http://www.eiyo.ac.jp/library/","URL:https://opac.eiyo.ac.jp/","来館利用担当:カウンター係","TEL:03-3576-2130","FAX:03-3576-2344","閲覧受付時間:9:00〜19:00 (月〜金)、9:00〜13:30(土)","注意事項:要事前連絡","持参書類:学生のみ紹介状(身分を証明する物を携行のこと)","館外貸出:不可","制限事項:定期試験期間および前2週間","休館日:日曜祝祭日・夏期・年末年始・入学試験日・その他本学が定めた日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004763.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004763#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004763.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "女子栄養大学 短期大学部図書館"
+        },
+        {
+          "@value": "ジヨシエイヨウダイガク タンキダイガクブトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "女栄短"
+        },
+        {
+          "@value": "ジヨエイタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004763",
+      "cinii:organizationid": "KI00993X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "女子栄養大学 短期大学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "170-8481",
+        "v:label": "東京都豊島区駒込3-24-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3576-2130"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3576-2344"
+        }
+      ],
+      "dc:description": [
+        "Junior College of Kagawa Nutrition University Library",
+        "3-24-3, Komagome, Toshima-ku, Tokyo 170-8481",
+        "URL:http://www.eiyo.ac.jp/library/",
+        "URL:https://opac.eiyo.ac.jp/",
+        "来館利用担当:カウンター係",
+        "TEL:03-3576-2130",
+        "FAX:03-3576-2344",
+        "閲覧受付時間:9:00〜19:00 (月〜金)、9:00〜13:30(土)",
+        "注意事項:要事前連絡",
+        "持参書類:学生のみ紹介状(身分を証明する物を携行のこと)",
+        "館外貸出:不可",
+        "制限事項:定期試験期間および前2週間",
+        "休館日:日曜祝祭日・夏期・年末年始・入学試験日・その他本学が定めた日"
+      ]
+    }
+  ]
+}

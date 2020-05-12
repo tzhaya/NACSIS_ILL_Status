@@ -1,1 +1,94 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA026187.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA026187#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA026187.json"},"foaf:name":[{"@value":"公益財団法人 世界人権問題研究センター 人権図書室"},{"@value":"コウエキザイダンホウジン セカイジンケンモンダイケンキュウセンター ジンケントショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"世人研"},{"@value":"セジンケン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA026187","cinii:organizationid":"KI01515X","cinii:prefcode":"26","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"公益財団法人 世界人権問題研究センター 人権図書室","v:adr":{"@type":"v:Address","v:postal-code":"604-8221","v:label":"京都市中京区錦小路通室町西入天神山町290番地1"},"v:tel":[{"@type":"v:Tel","@value":"075-231-2600"}],"v:fax":[{"@type":"v:Fax","@value":"075-231-2750"}],"dc:description":["Kyoto Human Rights Research Institute","290-1, Tenjinyama-cho, Nakagyo-ku, 604-8221 JAPAN","URL : http://www.mmjp.or.jp/jinken/(website)","来館利用担当 :閲覧係(TEL:075-231-2600、FAX:075-231-2750)","持参書類 :特になし。ただし入室時に図書利用票に記入していただきます。","開室時間 :月～金 9:00-12:00、13:00-16:00、土日祝祭日・年末年始は休室いたします。2019年12月28日～2020年1月5日の間休室","複写料金 :20円(白黒)、50円(カラー)","利用注意事項1 :事前に資料の所在、利用の可否については電話・FAXでお問い合わせください。","利用注意事項2 :閲覧は1F閲覧室のみ、貸出は賛助会員に限ります(3冊、2週間)","利用注意事項3 :2F・研究室は利用できません。別に申請書が必要です。","利用注意事項4 :閲覧する資料により、利用申請書および身分証明証のご提示をお願いする場合があります。","利用注意事項5 :センター所蔵資料、貴重書、劣化の著しい資料など、一部利用できない資料があります。","利用注意事項6 :現在視聴覚資料は館内で閲覧できません。","ILL担当 :相互利用係","ILL貸出期間・冊数 :貸出期間は1か月以内、貸出冊数は、未返却分を含め3冊以内","ILL貸出方法・送料 :冊子小包またはゆうパック書留郵便で申込者側が実費負担","ILL決済方法 :公費・私費=後納","ILL支払方法 :ILL文献複写サービスによる。不参加館は、複写料+送料を現金書留(郵便振替)又は切手で送ってください。","ILL注意事項1 :利用者への提供は、館内利用に限る。","ILL注意事項2 :参考図書・雑誌は貸出できません。事前に所属大学の図書館、または公共図書館からの所蔵調査が必要です。個人からの直接のお問い合わせは受付できません。","上記、その他等のご質問は、電話またはFAXでご連絡ください。Emailでの質問受付はしておりません。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA026187.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA026187#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA026187.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公益財団法人 世界人権問題研究センター 人権図書室"
+        },
+        {
+          "@value": "コウエキザイダンホウジン セカイジンケンモンダイケンキュウセンター ジンケントショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "世人研"
+        },
+        {
+          "@value": "セジンケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA026187",
+      "cinii:organizationid": "KI01515X",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "公益財団法人 世界人権問題研究センター 人権図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "604-8221",
+        "v:label": "京都市中京区錦小路通室町西入天神山町290番地1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-231-2600"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-231-2750"
+        }
+      ],
+      "dc:description": [
+        "Kyoto Human Rights Research Institute",
+        "290-1, Tenjinyama-cho, Nakagyo-ku, 604-8221 JAPAN",
+        "URL : http://www.mmjp.or.jp/jinken/(website)",
+        "来館利用担当 :閲覧係(TEL:075-231-2600、FAX:075-231-2750)",
+        "持参書類 :特になし。ただし入室時に図書利用票に記入していただきます。",
+        "開室時間 :月～金 9:00-12:00、13:00-16:00、土日祝祭日・年末年始は休室いたします。2019年12月28日～2020年1月5日の間休室",
+        "複写料金 :20円(白黒)、50円(カラー)",
+        "利用注意事項1 :事前に資料の所在、利用の可否については電話・FAXでお問い合わせください。",
+        "利用注意事項2 :閲覧は1F閲覧室のみ、貸出は賛助会員に限ります(3冊、2週間)",
+        "利用注意事項3 :2F・研究室は利用できません。別に申請書が必要です。",
+        "利用注意事項4 :閲覧する資料により、利用申請書および身分証明証のご提示をお願いする場合があります。",
+        "利用注意事項5 :センター所蔵資料、貴重書、劣化の著しい資料など、一部利用できない資料があります。",
+        "利用注意事項6 :現在視聴覚資料は館内で閲覧できません。",
+        "ILL担当 :相互利用係",
+        "ILL貸出期間・冊数 :貸出期間は1か月以内、貸出冊数は、未返却分を含め3冊以内",
+        "ILL貸出方法・送料 :冊子小包またはゆうパック書留郵便で申込者側が実費負担",
+        "ILL決済方法 :公費・私費=後納",
+        "ILL支払方法 :ILL文献複写サービスによる。不参加館は、複写料+送料を現金書留(郵便振替)又は切手で送ってください。",
+        "ILL注意事項1 :利用者への提供は、館内利用に限る。",
+        "ILL注意事項2 :参考図書・雑誌は貸出できません。事前に所属大学の図書館、または公共図書館からの所蔵調査が必要です。個人からの直接のお問い合わせは受付できません。",
+        "上記、その他等のご質問は、電話またはFAXでご連絡ください。Emailでの質問受付はしておりません。"
+      ]
+    }
+  ]
+}

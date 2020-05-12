@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA010314.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA010314#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA010314.json"},"foaf:name":[{"@value":"国立研究開発法人 水産研究・教育機構 日本海区水産研究所"},{"@value":"コクリツケンキュウカイハツホウジン スイサンケンキュウ・キョウイクキコウ ニホンカイクスイサンケンキュウショ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"水研機構日水研"},{"@value":"スイケンキコウニッスイケン","@language":"ja-hrkt"}],"dcterms:hasPart":["図書"],"cinii:memberid":"FA010314","cinii:organizationid":"KI005586","cinii:prefcode":"15","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"国立研究開発法人 水産研究・教育機構 日本海区水産研究所","v:adr":{"@type":"v:Address","v:postal-code":"951-8121","v:label":"新潟県新潟市中央区水道町1丁目5939-22"},"v:tel":[{"@type":"v:Tel","@value":"025-228-0451"}],"v:fax":[{"@type":"v:Fax","@value":"025-224-0950"}],"dc:description":["Japan Sea National Fisheries Research Institute, Fisheries Research Agency","1-5939-22, Suido-cho, Chuou-ku Niigata-shi, Niigata 951-8121","URL:http://jsnfri.fra.affrc.go.jp","来館利用担当:情報係","電話番号:025-228-0451","受付時間:8:30〜17:15","注意事項:事前の連絡希望","持参書類:身分証明書等","複写時間:8:30〜17:15","館外貸出:不可","制限事項:内部資料は閲覧不可"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010314.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010314#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010314.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 水産研究・教育機構 日本海区水産研究所"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン スイサンケンキュウ・キョウイクキコウ ニホンカイクスイサンケンキュウショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "水研機構日水研"
+        },
+        {
+          "@value": "スイケンキコウニッスイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA010314",
+      "cinii:organizationid": "KI005586",
+      "cinii:prefcode": "15",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 水産研究・教育機構 日本海区水産研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "951-8121",
+        "v:label": "新潟県新潟市中央区水道町1丁目5939-22"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "025-228-0451"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "025-224-0950"
+        }
+      ],
+      "dc:description": [
+        "Japan Sea National Fisheries Research Institute, Fisheries Research Agency",
+        "1-5939-22, Suido-cho, Chuou-ku Niigata-shi, Niigata 951-8121",
+        "URL:http://jsnfri.fra.affrc.go.jp",
+        "来館利用担当:情報係",
+        "電話番号:025-228-0451",
+        "受付時間:8:30〜17:15",
+        "注意事項:事前の連絡希望",
+        "持参書類:身分証明書等",
+        "複写時間:8:30〜17:15",
+        "館外貸出:不可",
+        "制限事項:内部資料は閲覧不可"
+      ]
+    }
+  ]
+}

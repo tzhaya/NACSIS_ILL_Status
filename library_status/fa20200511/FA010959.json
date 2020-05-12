@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA010959.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA010959#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA010959.json"},"foaf:name":[{"@value":"奈良県立図書情報館"},{"@value":"ナラケンリツトショジョウホウカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"奈県図情"},{"@value":"ナケントジョウ","@language":"ja-hrkt"}],"dcterms:hasPart":["一般","ふるさと","旧児童","旧橿原","戦争文庫"],"cinii:memberid":"FA010959","cinii:organizationid":"KI006148","cinii:prefcode":"29","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"奈良県立図書情報館","v:adr":{"@type":"v:Address","v:postal-code":"630-8135","v:label":"奈良県奈良市大安寺西1丁目1000番地"},"v:tel":[{"@type":"v:Tel","@value":"0742-34-2111"}],"v:fax":[{"@type":"v:Fax","@value":"0742-34-2777"}],"dc:description":["Nara Prefectural Library & Information Center","URL:http://www.library.pref.nara.jp","電話番号:0742-34-2111","受付時間:9:00～20:00","来館利用担当:図書・公文書課","館外貸出:貸出の可否については当館OPACの貸出区分でご確認ください。貴重書庫資料は貸出・複写はお受けできません。","複写のための時間 9:00～19:30","休館日:月曜日(祝日法による休日のときは翌日)毎月月末(月曜日、祝日、休日にあたるときは、直前の休日でない日) 12月28日～1月4日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010959.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010959#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010959.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "奈良県立図書情報館"
+        },
+        {
+          "@value": "ナラケンリツトショジョウホウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "奈県図情"
+        },
+        {
+          "@value": "ナケントジョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "一般",
+        "ふるさと",
+        "旧児童",
+        "旧橿原",
+        "戦争文庫"
+      ],
+      "cinii:memberid": "FA010959",
+      "cinii:organizationid": "KI006148",
+      "cinii:prefcode": "29",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "奈良県立図書情報館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "630-8135",
+        "v:label": "奈良県奈良市大安寺西1丁目1000番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0742-34-2111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0742-34-2777"
+        }
+      ],
+      "dc:description": [
+        "Nara Prefectural Library & Information Center",
+        "URL:http://www.library.pref.nara.jp",
+        "電話番号:0742-34-2111",
+        "受付時間:9:00～20:00",
+        "来館利用担当:図書・公文書課",
+        "館外貸出:貸出の可否については当館OPACの貸出区分でご確認ください。貴重書庫資料は貸出・複写はお受けできません。",
+        "複写のための時間 9:00～19:30",
+        "休館日:月曜日(祝日法による休日のときは翌日)毎月月末(月曜日、祝日、休日にあたるときは、直前の休日でない日) 12月28日～1月4日"
+      ]
+    }
+  ]
+}

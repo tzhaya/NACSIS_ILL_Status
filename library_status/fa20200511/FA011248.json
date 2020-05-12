@@ -1,1 +1,90 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA011248.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA011248#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA011248.json"},"foaf:name":[{"@value":"結核予防会結核研究所 図書室"},{"@value":"ケツカクヨボウカイケツカクケンキユウシヨ トシヨシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"結研"},{"@value":"ケツケン","@language":"ja-hrkt"}],"cinii:memberid":"FA011248","cinii:organizationid":"KI006410","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"A","cinii:illstatus":"N","v:fn":"結核予防会結核研究所 図書室","v:adr":{"@type":"v:Address","v:postal-code":"204-8533","v:label":"東京都清瀬市松山3丁目1番24号"},"v:tel":[{"@type":"v:Tel","@value":"042-493-5711(内207)"},{"@type":"v:Tel","@value":"042-493-5645(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"042-492-4600"}],"dc:description":["複写担当係 :相互貸借係","複写方法・料金:電子複写(白黒A3・A4・B4・B5:各1枚50円、カラーをご希望の場合は申込書に明記してください。各1枚100円。(特に明記がない場合は白黒でコピーします。)","支払方法 :郵便振替(後納)(相殺は行っておりません。)","注記 :FAXで申込みを受付けます。","THE RESEARCH INSTITUTE OF TUBERCULOSIS JAPAN ANTI-TUBERCULOSIS ASSOCIATION","3-1-24 MATSUYAMA, KIYOSE, TOKYO 204-8533, JAPAN","URL:http://www.jata.or.jp/rit/rj/lib.htm","URL:http://www.jata.or.jp/rit/rj/map.htm","来館利用担当:閲覧係","電話番号:0424-93-5645","受付時間:9:00〜17:00","注意事項:事前連絡して下さい。","持参書類:紹介状","複写時間:9:00〜16:00","館外貸出:不可","休館日:土曜日、日曜日、国民の祝日、年末年始 他"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011248.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011248#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011248.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "結核予防会結核研究所 図書室"
+        },
+        {
+          "@value": "ケツカクヨボウカイケツカクケンキユウシヨ トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "結研"
+        },
+        {
+          "@value": "ケツケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011248",
+      "cinii:organizationid": "KI006410",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "結核予防会結核研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "204-8533",
+        "v:label": "東京都清瀬市松山3丁目1番24号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-493-5711(内207)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "042-493-5645(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-492-4600"
+        }
+      ],
+      "dc:description": [
+        "複写担当係 :相互貸借係",
+        "複写方法・料金:電子複写(白黒A3・A4・B4・B5:各1枚50円、カラーをご希望の場合は申込書に明記してください。各1枚100円。(特に明記がない場合は白黒でコピーします。)",
+        "支払方法 :郵便振替(後納)(相殺は行っておりません。)",
+        "注記 :FAXで申込みを受付けます。",
+        "THE RESEARCH INSTITUTE OF TUBERCULOSIS JAPAN ANTI-TUBERCULOSIS ASSOCIATION",
+        "3-1-24 MATSUYAMA, KIYOSE, TOKYO 204-8533, JAPAN",
+        "URL:http://www.jata.or.jp/rit/rj/lib.htm",
+        "URL:http://www.jata.or.jp/rit/rj/map.htm",
+        "来館利用担当:閲覧係",
+        "電話番号:0424-93-5645",
+        "受付時間:9:00〜17:00",
+        "注意事項:事前連絡して下さい。",
+        "持参書類:紹介状",
+        "複写時間:9:00〜16:00",
+        "館外貸出:不可",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始 他"
+      ]
+    }
+  ]
+}

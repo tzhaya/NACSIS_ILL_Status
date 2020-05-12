@@ -1,1 +1,133 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002564.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002564#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002564.json"},"foaf:name":[{"@value":"三重大学 附属図書館"},{"@value":"ミエダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"三重大"},{"@value":"ミエダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["人文","図","教育","工","医","生物資源","医療短大","創造開発セ","遺伝子実験","保健管理セ","総合情報セ","水産実験所","農場","演習林","実習船基地","附属中","附属養","附属病院","教育実践セ","附属幼","附属小"],"cinii:memberid":"FA002564","cinii:organizationid":"KI000538","cinii:prefcode":"24","cinii:mextid":"004600","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"三重大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"514-8507","v:label":"三重県津市栗真町屋町 1577"},"v:tel":[{"@type":"v:Tel","@value":"059-231-9660"}],"v:fax":[{"@type":"v:Fax","@value":"059-231-9800(G3)"}],"dc:description":["Mie University Library","1577 Kurimamachiya-cho Tsu-shi Mie-ken JAPAN","URL:http://www.lib.mie-u.ac.jp/ (website)","URL:http://www.lib.mie-u.ac.jp/guidance/public/ (for visitor)","システムリプレイスのため、11/22(金)12時からILL業務を停止いたします。サービス再開は11/29日(金)の予定です。","複写担当係: 情報・図書館チーム 利用者サービス担当(ILL) E-MAIL: portal@ab.mie-u.ac.jp","複写・送付方法: 複写方法=電子複写・リーダプリンタ複写;送付方法=郵送、FAX、DDS","文献複写等料金: 文献複写(平成28(2016)年4月1日よりモノクロ@35円、カラー@70円、マイクロ@50円)=単価×枚数+送料、現物貸借=送料のみ(当分の間)","決済方法: 原則として「ILL文献複写料金相殺サービス」による; その他については要相談","複写注記: 相殺サービス未加入機関は申し込み時にその旨記載のこと","貸借担当係: 情報・図書館チーム 利用者サービス担当(ILL)","貸出期間: 書庫=4週間、開架・研究室=3週間","貸出冊数: 1機関3冊以内","遠隔地(附属学校、生物資源学部附帯施設等)、医学部所蔵の資料には、複写・貸借とも応じられない場合がある","来館利用担当: 情報・図書館チーム 利用者サービス担当(閲覧)","電話番号: 059-231-9088","注意事項: 資料の所在等、事前確認をしてください","注意事項: 詳しくは上記ホームページをご覧ください","持参書類: 身分証明書","複写時間: 開館時間に同じ","館外貸出: 図書館備付資料(開架・書庫)は可。事前にお問い合わせください","制限事項: 参考図書・雑誌は館外貸出不可","ILL-Staff:Kazue Shibata","ILL-Dept:ILL Service Unit","ILL-Org:Mie Univ. Library","ILL-Address:1577 Kurimamachiya-cho Tsu-shi Mie-ken JAPAN","ILL-ZIP:514-8507","ILL-Commun1:Tel:+81-59-231-9660 / FAX:+81-59-231-9800 / E-mail:portal@ab.mie-u.ac.jp","ILL-Commun2:OPAC:http://opac.lib.mie-u.ac.jp/opc/en / Home-Page:http://www.lib.mie-u.ac.jp/en/index.html","ILL-Accept: Foreign(1): OCLC:SYMBOL:J3N / Foreign(2): KERIS","ILL-Sched:Closed:Dec 28-Jan 4","ILL-Bill:Foreign(1): OCLC=OCLC-IFM only / Foreign(2): KERIS=NII Fee Management Service only","ILL-Loan-Period:Foreign(1): 8 weeks per item ; up to 5 items per library / Foreign(2): NA","ILL-Loan-Renew:Foreign(1): 4 weeks / Foreign(2): NA","ILL-Loan-Charge:Foreign(1): Postage required (i.e. shipping cost) ; Delivery method:via EMS only ; No rush service available / Foreign(2): NA","ILL-Non-Circulation:Special collection, mcrfrm, ref, per, new, a-v","ILL-Copy-Charge:Photocopy:35 YEN per sheet / Postage required / Delivery method:via EMS only. \"E-mail attached\" is possible. )","ILL-Note:Only the items held at the Main Library are available. MCRFRM:N/A; REF:N/A; A-V:N/A / THESIS:Photocopy need the author's permission","ILL-OCLC-Symbol:J3N"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002564.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002564#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002564.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "三重大学 附属図書館"
+        },
+        {
+          "@value": "ミエダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "三重大"
+        },
+        {
+          "@value": "ミエダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "人文",
+        "図",
+        "教育",
+        "工",
+        "医",
+        "生物資源",
+        "医療短大",
+        "創造開発セ",
+        "遺伝子実験",
+        "保健管理セ",
+        "総合情報セ",
+        "水産実験所",
+        "農場",
+        "演習林",
+        "実習船基地",
+        "附属中",
+        "附属養",
+        "附属病院",
+        "教育実践セ",
+        "附属幼",
+        "附属小"
+      ],
+      "cinii:memberid": "FA002564",
+      "cinii:organizationid": "KI000538",
+      "cinii:prefcode": "24",
+      "cinii:mextid": "004600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "三重大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "514-8507",
+        "v:label": "三重県津市栗真町屋町 1577"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "059-231-9660"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "059-231-9800(G3)"
+        }
+      ],
+      "dc:description": [
+        "Mie University Library",
+        "1577 Kurimamachiya-cho Tsu-shi Mie-ken JAPAN",
+        "URL:http://www.lib.mie-u.ac.jp/ (website)",
+        "URL:http://www.lib.mie-u.ac.jp/guidance/public/ (for visitor)",
+        "システムリプレイスのため、11/22(金)12時からILL業務を停止いたします。サービス再開は11/29日(金)の予定です。",
+        "複写担当係: 情報・図書館チーム 利用者サービス担当(ILL) E-MAIL: portal@ab.mie-u.ac.jp",
+        "複写・送付方法: 複写方法=電子複写・リーダプリンタ複写;送付方法=郵送、FAX、DDS",
+        "文献複写等料金: 文献複写(平成28(2016)年4月1日よりモノクロ@35円、カラー@70円、マイクロ@50円)=単価×枚数+送料、現物貸借=送料のみ(当分の間)",
+        "決済方法: 原則として「ILL文献複写料金相殺サービス」による; その他については要相談",
+        "複写注記: 相殺サービス未加入機関は申し込み時にその旨記載のこと",
+        "貸借担当係: 情報・図書館チーム 利用者サービス担当(ILL)",
+        "貸出期間: 書庫=4週間、開架・研究室=3週間",
+        "貸出冊数: 1機関3冊以内",
+        "遠隔地(附属学校、生物資源学部附帯施設等)、医学部所蔵の資料には、複写・貸借とも応じられない場合がある",
+        "来館利用担当: 情報・図書館チーム 利用者サービス担当(閲覧)",
+        "電話番号: 059-231-9088",
+        "注意事項: 資料の所在等、事前確認をしてください",
+        "注意事項: 詳しくは上記ホームページをご覧ください",
+        "持参書類: 身分証明書",
+        "複写時間: 開館時間に同じ",
+        "館外貸出: 図書館備付資料(開架・書庫)は可。事前にお問い合わせください",
+        "制限事項: 参考図書・雑誌は館外貸出不可",
+        "ILL-Staff:Kazue Shibata",
+        "ILL-Dept:ILL Service Unit",
+        "ILL-Org:Mie Univ. Library",
+        "ILL-Address:1577 Kurimamachiya-cho Tsu-shi Mie-ken JAPAN",
+        "ILL-ZIP:514-8507",
+        "ILL-Commun1:Tel:+81-59-231-9660 / FAX:+81-59-231-9800 / E-mail:portal@ab.mie-u.ac.jp",
+        "ILL-Commun2:OPAC:http://opac.lib.mie-u.ac.jp/opc/en / Home-Page:http://www.lib.mie-u.ac.jp/en/index.html",
+        "ILL-Accept: Foreign(1): OCLC:SYMBOL:J3N / Foreign(2): KERIS",
+        "ILL-Sched:Closed:Dec 28-Jan 4",
+        "ILL-Bill:Foreign(1): OCLC=OCLC-IFM only / Foreign(2): KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period:Foreign(1): 8 weeks per item ; up to 5 items per library / Foreign(2): NA",
+        "ILL-Loan-Renew:Foreign(1): 4 weeks / Foreign(2): NA",
+        "ILL-Loan-Charge:Foreign(1): Postage required (i.e. shipping cost) ; Delivery method:via EMS only ; No rush service available / Foreign(2): NA",
+        "ILL-Non-Circulation:Special collection, mcrfrm, ref, per, new, a-v",
+        "ILL-Copy-Charge:Photocopy:35 YEN per sheet / Postage required / Delivery method:via EMS only. \"E-mail attached\" is possible. )",
+        "ILL-Note:Only the items held at the Main Library are available. MCRFRM:N/A; REF:N/A; A-V:N/A / THESIS:Photocopy need the author's permission",
+        "ILL-OCLC-Symbol:J3N"
+      ]
+    }
+  ]
+}

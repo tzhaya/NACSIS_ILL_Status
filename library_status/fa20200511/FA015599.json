@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015599.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015599#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015599.json"},"foaf:name":[{"@value":"松山東雲女子大学・松山東雲短期大学 図書館"},{"@value":"マツヤマシノノメジョシダイガク マツヤマシノノメタンキダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東雲大"},{"@value":"シノノメダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA015599","cinii:organizationid":"KI00837X","cinii:prefcode":"38","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"松山東雲女子大学・松山東雲短期大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"790-8531","v:label":"松山市桑原3丁目2番1号"},"v:tel":[{"@type":"v:Tel","@value":"089-931-6211"}],"v:fax":[{"@type":"v:Fax","@value":"089-913-1232"}],"dc:description":["Matsuyama Shinonome College","Matsuyama Shinonome Junior College Library","3-2-1, Kuwabara, Matsuyama, 790-8531","URL:http://www.shinonome.ac.jp/college/life/library/","来館利用担当:閲覧担当","電話番号:089-931-6211","受付時間:8:50〜17:00","持参書類:身分証明書(学生証等)","複写時間:開館時間内","館外貸出:可","制限事項:資料は本学図書館に所蔵するものとする","休館日:土曜日、日曜日、祝日、本学が規定する学校休日、年末年始、年度末・年度始め、休業期間中の定める日など"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015599.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015599#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015599.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "松山東雲女子大学・松山東雲短期大学 図書館"
+        },
+        {
+          "@value": "マツヤマシノノメジョシダイガク マツヤマシノノメタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東雲大"
+        },
+        {
+          "@value": "シノノメダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015599",
+      "cinii:organizationid": "KI00837X",
+      "cinii:prefcode": "38",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "松山東雲女子大学・松山東雲短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "790-8531",
+        "v:label": "松山市桑原3丁目2番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "089-931-6211"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "089-913-1232"
+        }
+      ],
+      "dc:description": [
+        "Matsuyama Shinonome College",
+        "Matsuyama Shinonome Junior College Library",
+        "3-2-1, Kuwabara, Matsuyama, 790-8531",
+        "URL:http://www.shinonome.ac.jp/college/life/library/",
+        "来館利用担当:閲覧担当",
+        "電話番号:089-931-6211",
+        "受付時間:8:50〜17:00",
+        "持参書類:身分証明書(学生証等)",
+        "複写時間:開館時間内",
+        "館外貸出:可",
+        "制限事項:資料は本学図書館に所蔵するものとする",
+        "休館日:土曜日、日曜日、祝日、本学が規定する学校休日、年末年始、年度末・年度始め、休業期間中の定める日など"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007251.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007251#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007251.json"},"foaf:name":[{"@value":"愛知工業大学 附属図書館"},{"@value":"アイチコウギヨウダイガク フゾクトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"愛工大"},{"@value":"アイコウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA007251","cinii:organizationid":"KI003150","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"愛知工業大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"470-0392","v:label":"愛知県豊田市八草町八千草1247"},"v:tel":[{"@type":"v:Tel","@value":"0565-48-8121"}],"v:fax":[{"@type":"v:Fax","@value":"0565-48-2908"}],"dc:description":["Aichi Institute of Technology (AIT)","1247,Yachikusa,Yakusa-cho,Toyota-shi,Aichi 470-0392","URL:http://aitech.ac.jp/lib/opac/servlet/opac.OpacMenuServlet?ACTION_TYPE=menu&SLV=2 (Website)","URL:http://www.ait.ac.jp/access/index.html (map)","来館利用担当:閲覧参考係","電話番号:0565-48-8121","受付時間:8:50〜21:10(土曜日〜19:00)","注意事項:8:50〜16:30の利用が好ましい。","注意事項:長期休業中、試験期間中等には受付時間が変更されるため事前に確認してください。","持参書類:身分を証明する物を携行のこと","複写時間:8:50〜21:10(土曜日〜19:00)","館外貸出:否","休館日:日曜日、祝日、8月13〜17日、12月24日〜1月4日、創立記念日(11月13日)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007251.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007251#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007251.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知工業大学 附属図書館"
+        },
+        {
+          "@value": "アイチコウギヨウダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛工大"
+        },
+        {
+          "@value": "アイコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA007251",
+      "cinii:organizationid": "KI003150",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知工業大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "470-0392",
+        "v:label": "愛知県豊田市八草町八千草1247"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0565-48-8121"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0565-48-2908"
+        }
+      ],
+      "dc:description": [
+        "Aichi Institute of Technology (AIT)",
+        "1247,Yachikusa,Yakusa-cho,Toyota-shi,Aichi 470-0392",
+        "URL:http://aitech.ac.jp/lib/opac/servlet/opac.OpacMenuServlet?ACTION_TYPE=menu&SLV=2 (Website)",
+        "URL:http://www.ait.ac.jp/access/index.html (map)",
+        "来館利用担当:閲覧参考係",
+        "電話番号:0565-48-8121",
+        "受付時間:8:50〜21:10(土曜日〜19:00)",
+        "注意事項:8:50〜16:30の利用が好ましい。",
+        "注意事項:長期休業中、試験期間中等には受付時間が変更されるため事前に確認してください。",
+        "持参書類:身分を証明する物を携行のこと",
+        "複写時間:8:50〜21:10(土曜日〜19:00)",
+        "館外貸出:否",
+        "休館日:日曜日、祝日、8月13〜17日、12月24日〜1月4日、創立記念日(11月13日)"
+      ]
+    }
+  ]
+}

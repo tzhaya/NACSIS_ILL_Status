@@ -1,1 +1,100 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018236.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018236#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018236.json"},"foaf:name":[{"@value":"広島大学 図書館 東千田図書館"},{"@value":"ヒロシマダイガク トショカン ヒガシセンダトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"広大東千田"},{"@value":"ヒロダイヒガシセンダ","@language":"ja-hrkt"}],"dcterms:hasPart":["図書館","平和セ","社・地域経セ","社・マネジメント","社・フアイナンス","法務・リーガルセ","社・マネジメント・組織経営","社・マネジメント・会計情報","社・マネジメント・地域交渉","法務・商事法","法務・民事手続","法務・公法","社・社会経済","図・参考","法務・刑事法"],"cinii:memberid":"FA018236","cinii:organizationid":"KI000720","cinii:prefcode":"34","cinii:mextid":"006206","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"広島大学 図書館 東千田図書館","v:adr":{"@type":"v:Address","v:postal-code":"730-0053","v:label":"広島県広島市中区東千田町1-1-89"},"v:tel":[{"@type":"v:Tel","@value":"082-542-6972"}],"v:fax":[{"@type":"v:Fax","@value":"082-542-6974"}],"dc:description":["1-1-89, Higashi-Senda-machi, Naka-ku, Hiroshima 730-0053","URL:http://www.lib.hiroshima-u.ac.jp/ (Website)","来館利用担当:図書学術情報普及グループ(広島地区フロアサービス主担当/東千田図書館)","電話番号:082-542-6972","受付時間:〔授業期〕8:30-22:00(月〜金) 13:00-19:00(土曜日)","注意事項:土・日曜日のサービスは閲覧のみ","注意事項:資料の所在は事前確認してください","注意事項:車での来館はご遠慮ください","持参書類:学生証・職員証等の証明書","複写時間:8:45-20:45(月〜金)","館外貸出:不可","休館日: 国民の祝日 休業期の日曜日 夏季一斉休業 年末年始  定例整理日(第4水曜日)は17:00開館"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018236.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018236#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018236.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島大学 図書館 東千田図書館"
+        },
+        {
+          "@value": "ヒロシマダイガク トショカン ヒガシセンダトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広大東千田"
+        },
+        {
+          "@value": "ヒロダイヒガシセンダ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館",
+        "平和セ",
+        "社・地域経セ",
+        "社・マネジメント",
+        "社・フアイナンス",
+        "法務・リーガルセ",
+        "社・マネジメント・組織経営",
+        "社・マネジメント・会計情報",
+        "社・マネジメント・地域交渉",
+        "法務・商事法",
+        "法務・民事手続",
+        "法務・公法",
+        "社・社会経済",
+        "図・参考",
+        "法務・刑事法"
+      ],
+      "cinii:memberid": "FA018236",
+      "cinii:organizationid": "KI000720",
+      "cinii:prefcode": "34",
+      "cinii:mextid": "006206",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "広島大学 図書館 東千田図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "730-0053",
+        "v:label": "広島県広島市中区東千田町1-1-89"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-542-6972"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-542-6974"
+        }
+      ],
+      "dc:description": [
+        "1-1-89, Higashi-Senda-machi, Naka-ku, Hiroshima 730-0053",
+        "URL:http://www.lib.hiroshima-u.ac.jp/ (Website)",
+        "来館利用担当:図書学術情報普及グループ(広島地区フロアサービス主担当/東千田図書館)",
+        "電話番号:082-542-6972",
+        "受付時間:〔授業期〕8:30-22:00(月〜金) 13:00-19:00(土曜日)",
+        "注意事項:土・日曜日のサービスは閲覧のみ",
+        "注意事項:資料の所在は事前確認してください",
+        "注意事項:車での来館はご遠慮ください",
+        "持参書類:学生証・職員証等の証明書",
+        "複写時間:8:45-20:45(月〜金)",
+        "館外貸出:不可",
+        "休館日: 国民の祝日 休業期の日曜日 夏季一斉休業 年末年始  定例整理日(第4水曜日)は17:00開館"
+      ]
+    }
+  ]
+}

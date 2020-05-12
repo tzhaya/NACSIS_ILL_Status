@@ -1,1 +1,93 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007160.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007160#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007160.json"},"foaf:name":[{"@value":"東海学院大学・東海学院大学短期大学部 附属図書館"},{"@value":"トウカイガクインダイガク・トウカイガクインダイガクタンキダイガクブ フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東海院"},{"@value":"トウカイイン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA007160","cinii:organizationid":"KI003092","cinii:prefcode":"21","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東海学院大学・東海学院大学短期大学部 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"504-8511","v:label":"岐阜県各務原市那加桐野町5-68"},"v:tel":[{"@type":"v:Tel","@value":"058-389-2969(図書館直通)"}],"v:fax":[{"@type":"v:Fax","@value":"058-371-9851(図書館直通)"}],"dc:description":["The Library of Tokai Gakuin University and Tokai Gakuin University School of Junior College Division","5-68,NAKAKIRINO-CHO,KAKAMIGAHARA-SHI 504-8511","----------文献複写----------","複写受付可否:可","複写方法・料金:電子複写・20円","支払方法:切手【現在ILL文献複写等料金相殺サービスには参加しておりません。】","複写注記:速達発送は応じかねます。「東海女子大学紀要」「東海女子短期大学紀要」「東海学院大学紀要」「東海学院大学短期大学部紀要」「東海学院大学研究年報」は本学学術機関リポジトリ(https://tokaigakuin-u.repo.nii.ac.jp/)にて公開しています。","----------相互貸借----------","貸借受付可否:可","貸出期間:発送日を含め4週間(予約が入っている場合はお断りする場合がございます。)","貸出冊数:5冊以内","貸借受付支払方法:着払い【現在ILL文献複写等料金相殺サービスには参加しておりません。】","貸借注記:速達発送は応じかねます。逐次刊行物、視聴覚資料、禁帯出図書、新着図書、資格コーナー、学科指定図書コーナー、学生選書コーナー、東海えほんの森、研究室貸出図書は貸出不可","----------館内利用----------","利用対象者:本学教職員・学生、学外者","利用事前連絡:電話でお問い合わせください。","利用手続:身分を証明できるもの(運転免許証・学生証・保険証等)を携行して下さい。","館外貸出可否:可","通常開館時間:9:00〜18:30(土曜日 9:30〜17:00)","休業中開館時間:9:00〜17:00(土曜日 9:30〜17:00)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007160.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007160#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007160.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東海学院大学・東海学院大学短期大学部 附属図書館"
+        },
+        {
+          "@value": "トウカイガクインダイガク・トウカイガクインダイガクタンキダイガクブ フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東海院"
+        },
+        {
+          "@value": "トウカイイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA007160",
+      "cinii:organizationid": "KI003092",
+      "cinii:prefcode": "21",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東海学院大学・東海学院大学短期大学部 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "504-8511",
+        "v:label": "岐阜県各務原市那加桐野町5-68"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "058-389-2969(図書館直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "058-371-9851(図書館直通)"
+        }
+      ],
+      "dc:description": [
+        "The Library of Tokai Gakuin University and Tokai Gakuin University School of Junior College Division",
+        "5-68,NAKAKIRINO-CHO,KAKAMIGAHARA-SHI 504-8511",
+        "----------文献複写----------",
+        "複写受付可否:可",
+        "複写方法・料金:電子複写・20円",
+        "支払方法:切手【現在ILL文献複写等料金相殺サービスには参加しておりません。】",
+        "複写注記:速達発送は応じかねます。「東海女子大学紀要」「東海女子短期大学紀要」「東海学院大学紀要」「東海学院大学短期大学部紀要」「東海学院大学研究年報」は本学学術機関リポジトリ(https://tokaigakuin-u.repo.nii.ac.jp/)にて公開しています。",
+        "----------相互貸借----------",
+        "貸借受付可否:可",
+        "貸出期間:発送日を含め4週間(予約が入っている場合はお断りする場合がございます。)",
+        "貸出冊数:5冊以内",
+        "貸借受付支払方法:着払い【現在ILL文献複写等料金相殺サービスには参加しておりません。】",
+        "貸借注記:速達発送は応じかねます。逐次刊行物、視聴覚資料、禁帯出図書、新着図書、資格コーナー、学科指定図書コーナー、学生選書コーナー、東海えほんの森、研究室貸出図書は貸出不可",
+        "----------館内利用----------",
+        "利用対象者:本学教職員・学生、学外者",
+        "利用事前連絡:電話でお問い合わせください。",
+        "利用手続:身分を証明できるもの(運転免許証・学生証・保険証等)を携行して下さい。",
+        "館外貸出可否:可",
+        "通常開館時間:9:00〜18:30(土曜日 9:30〜17:00)",
+        "休業中開館時間:9:00〜17:00(土曜日 9:30〜17:00)"
+      ]
+    }
+  ]
+}

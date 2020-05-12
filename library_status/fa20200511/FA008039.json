@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008039.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008039#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008039.json"},"foaf:name":[{"@value":"近畿大学 医学部図書館"},{"@value":"キンキダイガク イガクブトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"近大医"},{"@value":"キンダイイ","@language":"ja-hrkt"}],"dcterms:hasPart":["医図","ライフ研","腫瘍研","東洋医研"],"cinii:memberid":"FA008039","cinii:organizationid":"KI00373X","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"近畿大学 医学部図書館","v:adr":{"@type":"v:Address","v:postal-code":"589-8511","v:label":"大阪府大阪狭山市大野東377-2"},"v:tel":[{"@type":"v:Tel","@value":"072-366-0221"}],"v:fax":[{"@type":"v:Fax","@value":"072-366-0271"}],"dc:description":["Kinki University Medical Library","377-2, Onohigashi, Osakasayama-shi, Osaka 589-8511","来館利用担当:閲覧係。","電話番号:072-366-0221(内線3355)","受付時間:8:45〜17:00(土曜日8:45〜13:00)","注意事項:事前に電話で問い合わせて下さい。","持参書類:資料利用依頼書。(身分を証明する物を携行のこと。)","複写時間:8:45〜19:00 (土曜日8:45〜17:30)","館外貸出:不可。","休館日:日曜日・祝日・大学創立記念日(11/5)・年末年始(12月29日〜1月3日)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008039.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008039#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008039.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "近畿大学 医学部図書館"
+        },
+        {
+          "@value": "キンキダイガク イガクブトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "近大医"
+        },
+        {
+          "@value": "キンダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "医図",
+        "ライフ研",
+        "腫瘍研",
+        "東洋医研"
+      ],
+      "cinii:memberid": "FA008039",
+      "cinii:organizationid": "KI00373X",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "近畿大学 医学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "589-8511",
+        "v:label": "大阪府大阪狭山市大野東377-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-366-0221"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-366-0271"
+        }
+      ],
+      "dc:description": [
+        "Kinki University Medical Library",
+        "377-2, Onohigashi, Osakasayama-shi, Osaka 589-8511",
+        "来館利用担当:閲覧係。",
+        "電話番号:072-366-0221(内線3355)",
+        "受付時間:8:45〜17:00(土曜日8:45〜13:00)",
+        "注意事項:事前に電話で問い合わせて下さい。",
+        "持参書類:資料利用依頼書。(身分を証明する物を携行のこと。)",
+        "複写時間:8:45〜19:00 (土曜日8:45〜17:30)",
+        "館外貸出:不可。",
+        "休館日:日曜日・祝日・大学創立記念日(11/5)・年末年始(12月29日〜1月3日)"
+      ]
+    }
+  ]
+}

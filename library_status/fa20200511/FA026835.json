@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA026835.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA026835#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA026835.json"},"foaf:name":[{"@value":"東京家政大学 狭山図書館"},{"@value":"トウキョウカセイダイガク サヤマトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"家政大狭山"},{"@value":"カセイダイサヤマ","@language":"ja-hrkt"}],"cinii:memberid":"FA026835","cinii:organizationid":"KI002351","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東京家政大学 狭山図書館","v:adr":{"@type":"v:Address","v:postal-code":"350-1398","v:label":"埼玉県狭山市稲荷山2-15-1"},"v:tel":[{"@type":"v:Tel","@value":"04-2952-1624"}],"v:fax":[{"@type":"v:Fax","@value":"04-2952-3256"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA026835.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA026835#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA026835.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京家政大学 狭山図書館"
+        },
+        {
+          "@value": "トウキョウカセイダイガク サヤマトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "家政大狭山"
+        },
+        {
+          "@value": "カセイダイサヤマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA026835",
+      "cinii:organizationid": "KI002351",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京家政大学 狭山図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "350-1398",
+        "v:label": "埼玉県狭山市稲荷山2-15-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-2952-1624"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-2952-3256"
+        }
+      ]
+    }
+  ]
+}

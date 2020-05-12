@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018156.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018156#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018156.json"},"foaf:name":[{"@value":"出雲市立総合医療センター 図書室"},{"@value":"イズモシリツソウゴウイリョウセンター トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"出雲総合"},{"@value":"イズモソウゴウ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","院","薬","理療"],"cinii:memberid":"FA018156","cinii:organizationid":"KI010600","cinii:prefcode":"32","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"出雲市立総合医療センター 図書室","v:adr":{"@type":"v:Address","v:postal-code":"691-0003","v:label":"島根県出雲市灘分町613"},"v:tel":[{"@type":"v:Tel","@value":"0853-63-5111"}],"v:fax":[{"@type":"v:Fax","@value":"0853-63-4228"}],"dc:description":["Izumo City General Medical Center","613, Nadabun-tyo, Izumo-city, Shimane-ken, 691-0003","電話番号:0853-63-5111 (276)","受付時間:8:30-17:00","注意事項:院外者の方は室外貸出できません","複写時間:8:30-17:00","館外貸出:不可","休館日:土日曜日、祝祭日、年末年始"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018156.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018156#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018156.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "出雲市立総合医療センター 図書室"
+        },
+        {
+          "@value": "イズモシリツソウゴウイリョウセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "出雲総合"
+        },
+        {
+          "@value": "イズモソウゴウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "院",
+        "薬",
+        "理療"
+      ],
+      "cinii:memberid": "FA018156",
+      "cinii:organizationid": "KI010600",
+      "cinii:prefcode": "32",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "出雲市立総合医療センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "691-0003",
+        "v:label": "島根県出雲市灘分町613"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0853-63-5111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0853-63-4228"
+        }
+      ],
+      "dc:description": [
+        "Izumo City General Medical Center",
+        "613, Nadabun-tyo, Izumo-city, Shimane-ken, 691-0003",
+        "電話番号:0853-63-5111 (276)",
+        "受付時間:8:30-17:00",
+        "注意事項:院外者の方は室外貸出できません",
+        "複写時間:8:30-17:00",
+        "館外貸出:不可",
+        "休館日:土日曜日、祝祭日、年末年始"
+      ]
+    }
+  ]
+}

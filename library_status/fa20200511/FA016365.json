@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016365.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016365#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016365.json"},"foaf:name":[{"@value":"東京国立近代美術館"},{"@value":"トウキョウコクリツキンダイビジュツカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東近美"},{"@value":"トウキンビ","@language":"ja-hrkt"}],"dcterms:hasPart":["美術図","工芸図"],"cinii:memberid":"FA016365","cinii:organizationid":"KI009135","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東京国立近代美術館","v:adr":{"@type":"v:Address","v:postal-code":"102-8322","v:label":"東京都千代田区北の丸公園3-1"},"v:tel":[{"@type":"v:Tel","@value":"03-3214-2561"}],"dc:description":["The National Museum of Modern Art, Tokyo","3-1 Kitanomaru-Koen, Chiyoda-ku, Tokyo 102-8322","東京国立近代美術館には美術図工芸図の2図書室があります","美術図(本館美術館アートライブラリ):連絡先","〒102-8322 千代田区北の丸公園3-1","tel.03-3214-2561","fax.03-3214-2576","工芸図(工芸館図書閲覧室):連絡先","〒102-0091 東京都千代田区北の丸公園1-1","tel.03-3211-7781(内708)","fax.03-3211-7783","美術図・工芸図ともに館外貸出はできません","美術図・工芸図の開室日・時間は各々異なります","URL:http://www.momat.go.jp/art-library/index.html (美術図)","URL:http://www.momat.go.jp/CG/lib.html (工芸図)","LOCに\"工芸図\"と表示されている資料は工芸館図書閲覧室の所蔵です。2020年の東京国立近代美術館工芸館の石川県移転に伴い、工芸館図書閲覧室は2019年4月26日(金)をもって閉室いたします。閉室後、工芸館にて管理していた資料は、移転が完了するまでご利用いただけません。ご不便をおかけしますが、ご理解のほどよろしくお願い申し上げます。 詳しくは工芸館図書閲覧室のHPをご覧下さい。http://www.momat.go.jp/CG/lib.html"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016365.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016365#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016365.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京国立近代美術館"
+        },
+        {
+          "@value": "トウキョウコクリツキンダイビジュツカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東近美"
+        },
+        {
+          "@value": "トウキンビ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "美術図",
+        "工芸図"
+      ],
+      "cinii:memberid": "FA016365",
+      "cinii:organizationid": "KI009135",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京国立近代美術館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "102-8322",
+        "v:label": "東京都千代田区北の丸公園3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3214-2561"
+        }
+      ],
+      "dc:description": [
+        "The National Museum of Modern Art, Tokyo",
+        "3-1 Kitanomaru-Koen, Chiyoda-ku, Tokyo 102-8322",
+        "東京国立近代美術館には美術図工芸図の2図書室があります",
+        "美術図(本館美術館アートライブラリ):連絡先",
+        "〒102-8322 千代田区北の丸公園3-1",
+        "tel.03-3214-2561",
+        "fax.03-3214-2576",
+        "工芸図(工芸館図書閲覧室):連絡先",
+        "〒102-0091 東京都千代田区北の丸公園1-1",
+        "tel.03-3211-7781(内708)",
+        "fax.03-3211-7783",
+        "美術図・工芸図ともに館外貸出はできません",
+        "美術図・工芸図の開室日・時間は各々異なります",
+        "URL:http://www.momat.go.jp/art-library/index.html (美術図)",
+        "URL:http://www.momat.go.jp/CG/lib.html (工芸図)",
+        "LOCに\"工芸図\"と表示されている資料は工芸館図書閲覧室の所蔵です。2020年の東京国立近代美術館工芸館の石川県移転に伴い、工芸館図書閲覧室は2019年4月26日(金)をもって閉室いたします。閉室後、工芸館にて管理していた資料は、移転が完了するまでご利用いただけません。ご不便をおかけしますが、ご理解のほどよろしくお願い申し上げます。 詳しくは工芸館図書閲覧室のHPをご覧下さい。http://www.momat.go.jp/CG/lib.html"
+      ]
+    }
+  ]
+}

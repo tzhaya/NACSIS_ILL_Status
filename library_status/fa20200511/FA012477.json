@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012477.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012477#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012477.json"},"foaf:name":[{"@value":"広島国際学院大学 図書館 自動車短期大学部分館"},{"@value":"ヒロシマコクサイガクインダイガク トショカン ジドウシャタンキダイガクブブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"広国院大短"},{"@value":"ヒロコクインダイタン","@language":"ja-hrkt"}],"cinii:memberid":"FA012477","cinii:organizationid":"KI013813","cinii:prefcode":"34","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"広島国際学院大学 図書館 自動車短期大学部分館","v:adr":{"@type":"v:Address","v:postal-code":"739-0302","v:label":"広島県広島市安芸区上瀬野町517-1"},"v:tel":[{"@type":"v:Tel","@value":"082-820-3541"}],"v:fax":[{"@type":"v:Fax","@value":"082-820-3510"}],"dc:description":["Hiroshima Kokusai Gakuin University Automotive Junior College Library","517-1, Kamiseno-cho, Aki-ku, Hiroshima-shi, Hiroshima 739-0302","URL:http://office.hkg.ac.jp/~toshokan","電話番号:082-820-3541","受付時間:9:00〜16:30(土曜日 9:00〜12:30)","注意事項:資料の所在、開館日等、確認して下さい。","注意事項:学外者の方は館外貸出はできません。閲覧・複写のみです。","持参書類:身分証明書","複写時間:9:00〜16:30(土曜日 9:00〜12:30)","館外貸出:不可","休館日:日曜日、国民の祝日、第2・4土曜日、年末年始、8月上旬〜下旬、11/1、全学行事日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012477.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012477#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012477.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島国際学院大学 図書館 自動車短期大学部分館"
+        },
+        {
+          "@value": "ヒロシマコクサイガクインダイガク トショカン ジドウシャタンキダイガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広国院大短"
+        },
+        {
+          "@value": "ヒロコクインダイタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012477",
+      "cinii:organizationid": "KI013813",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "広島国際学院大学 図書館 自動車短期大学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "739-0302",
+        "v:label": "広島県広島市安芸区上瀬野町517-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-820-3541"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-820-3510"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima Kokusai Gakuin University Automotive Junior College Library",
+        "517-1, Kamiseno-cho, Aki-ku, Hiroshima-shi, Hiroshima 739-0302",
+        "URL:http://office.hkg.ac.jp/~toshokan",
+        "電話番号:082-820-3541",
+        "受付時間:9:00〜16:30(土曜日 9:00〜12:30)",
+        "注意事項:資料の所在、開館日等、確認して下さい。",
+        "注意事項:学外者の方は館外貸出はできません。閲覧・複写のみです。",
+        "持参書類:身分証明書",
+        "複写時間:9:00〜16:30(土曜日 9:00〜12:30)",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、第2・4土曜日、年末年始、8月上旬〜下旬、11/1、全学行事日"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008695.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008695#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008695.json"},"foaf:name":[{"@value":"徳山大学 図書館"},{"@value":"トクヤマダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"徳山大"},{"@value":"トクヤマダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA008695","cinii:organizationid":"KI004222","cinii:prefcode":"35","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"徳山大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"745-8566","v:label":"山口県周南市学園台843-4-2"},"v:tel":[{"@type":"v:Tel","@value":"0834-28-5394"}],"v:fax":[{"@type":"v:Fax","@value":"0834-28-8977"}],"dc:description":["Tokuyama University Library","843-4-2, Gakuendai, Shunan-city, Yamaguchi 745-8566","URL:http://www.tokuyama-u.ac.jp","来館利用担当:閲覧係","電話番号:0834-28-5394","受付時間:通常期 9:00〜16:30 (土曜日〜12:30) 夏期休業中・冬期休業中 9:00〜16:30 (平日のみ)","注意事項:","持参書類:所属機関発行の紹介状 (身分を証明する物)","複写時間:通常期 9:00〜16:30 (土曜日〜12:30) 夏期休業中・冬期休業中 9:00〜16:30 (平日のみ)","館外貸出:可 (利用登録された者)","制限事項:","休館日:日曜日、国民の祝日、 8月中旬 (1週間程度)、年末年始 (1週間程度)、 夏期休業中・冬期休業中の土曜日、その他の臨時休館日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008695.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008695#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008695.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "徳山大学 図書館"
+        },
+        {
+          "@value": "トクヤマダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "徳山大"
+        },
+        {
+          "@value": "トクヤマダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008695",
+      "cinii:organizationid": "KI004222",
+      "cinii:prefcode": "35",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "徳山大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "745-8566",
+        "v:label": "山口県周南市学園台843-4-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0834-28-5394"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0834-28-8977"
+        }
+      ],
+      "dc:description": [
+        "Tokuyama University Library",
+        "843-4-2, Gakuendai, Shunan-city, Yamaguchi 745-8566",
+        "URL:http://www.tokuyama-u.ac.jp",
+        "来館利用担当:閲覧係",
+        "電話番号:0834-28-5394",
+        "受付時間:通常期 9:00〜16:30 (土曜日〜12:30) 夏期休業中・冬期休業中 9:00〜16:30 (平日のみ)",
+        "注意事項:",
+        "持参書類:所属機関発行の紹介状 (身分を証明する物)",
+        "複写時間:通常期 9:00〜16:30 (土曜日〜12:30) 夏期休業中・冬期休業中 9:00〜16:30 (平日のみ)",
+        "館外貸出:可 (利用登録された者)",
+        "制限事項:",
+        "休館日:日曜日、国民の祝日、 8月中旬 (1週間程度)、年末年始 (1週間程度)、 夏期休業中・冬期休業中の土曜日、その他の臨時休館日"
+      ]
+    }
+  ]
+}

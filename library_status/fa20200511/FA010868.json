@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA010868.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA010868#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA010868.json"},"foaf:name":[{"@value":"愛知県がんセンター 図書室"},{"@value":"アイチケンガンセンター トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"愛知がん"},{"@value":"アイチガン","@language":"ja-hrkt"}],"cinii:memberid":"FA010868","cinii:organizationid":"KI006068","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"愛知県がんセンター 図書室","v:adr":{"@type":"v:Address","v:postal-code":"464-8681","v:label":"愛知県名古屋市千種区鹿子殿1-1"},"v:tel":[{"@type":"v:Tel","@value":"052-764-2914"}],"v:fax":[{"@type":"v:Fax","@value":"052-763-5233"}],"dc:description":["ILL-Org : Aichi Cancer Center Library","ILL-Address : 1-1 Kanokoden, Chikusa-ku, Nagoya-shi, Aichi-ken, JAPAN","ILL-ZIP : 464-8681","ILL-Commun1 : Tel : +81-52-764-2914 / FAX : +81-52-763-5233 / E-mail : bunken@aichi-cc.jp","URL : http://www.pref.aichi.jp/cancer-center/hosp/11medical/library/index.html","来室利用担当 : 閲覧係","電話番号 : 052-764-2914","開室時間 : 午前9時～午後5時 (12時～午後1時は昼休みで職員不在です。)","注意事項 : がんその他の悪性新生物に関する調査研究をしようとする方が利用できます。来室時、図書室利用許可申請書を記入してください。 事前に資料が閲覧できるか電話でご確認願います。病院、研究所各部の所蔵資料は、閲覧できません。また、オンライン資料は契約上、職員以外の方は利用できません。","持参書類 : 身分証明書","来室複写 : モノクロ1枚10円、カラー1枚50円。電子ジャーナルは複写できません。複写料金は、運用部会計担当へ行き、現金で納入していただきます。(当日午後5時まで) 会計担当での手続きに時間がかかるので、複写はなるべく、所属機関を通した文献複写依頼(モノクロ1枚50円、カラー1枚100円、プラス送料)でお願いします。","館外貸出 : 不可","休室日 : 土曜日・日曜日・祝休日・年末年始 (12/29-1/3)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010868.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010868#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010868.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知県がんセンター 図書室"
+        },
+        {
+          "@value": "アイチケンガンセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛知がん"
+        },
+        {
+          "@value": "アイチガン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010868",
+      "cinii:organizationid": "KI006068",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知県がんセンター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8681",
+        "v:label": "愛知県名古屋市千種区鹿子殿1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-764-2914"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-763-5233"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org : Aichi Cancer Center Library",
+        "ILL-Address : 1-1 Kanokoden, Chikusa-ku, Nagoya-shi, Aichi-ken, JAPAN",
+        "ILL-ZIP : 464-8681",
+        "ILL-Commun1 : Tel : +81-52-764-2914 / FAX : +81-52-763-5233 / E-mail : bunken@aichi-cc.jp",
+        "URL : http://www.pref.aichi.jp/cancer-center/hosp/11medical/library/index.html",
+        "来室利用担当 : 閲覧係",
+        "電話番号 : 052-764-2914",
+        "開室時間 : 午前9時～午後5時 (12時～午後1時は昼休みで職員不在です。)",
+        "注意事項 : がんその他の悪性新生物に関する調査研究をしようとする方が利用できます。来室時、図書室利用許可申請書を記入してください。 事前に資料が閲覧できるか電話でご確認願います。病院、研究所各部の所蔵資料は、閲覧できません。また、オンライン資料は契約上、職員以外の方は利用できません。",
+        "持参書類 : 身分証明書",
+        "来室複写 : モノクロ1枚10円、カラー1枚50円。電子ジャーナルは複写できません。複写料金は、運用部会計担当へ行き、現金で納入していただきます。(当日午後5時まで) 会計担当での手続きに時間がかかるので、複写はなるべく、所属機関を通した文献複写依頼(モノクロ1枚50円、カラー1枚100円、プラス送料)でお願いします。",
+        "館外貸出 : 不可",
+        "休室日 : 土曜日・日曜日・祝休日・年末年始 (12/29-1/3)"
+      ]
+    }
+  ]
+}

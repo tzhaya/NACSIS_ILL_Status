@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA022721.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA022721#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA022721.json"},"foaf:name":[{"@value":"学校法人 光産業創成大学院大学"},{"@value":"ガッコウホウジン ヒカリサンギョウソウセイダイガクインダイガク","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"GPI"},{"@value":"ジーピーアイ","@language":"ja-hrkt"}],"cinii:memberid":"FA022721","cinii:organizationid":"KI01353X","cinii:prefcode":"22","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"学校法人 光産業創成大学院大学","v:adr":{"@type":"v:Address","v:postal-code":"431-1202","v:label":"静岡県浜松市西区呉松町1955-1"},"v:tel":[{"@type":"v:Tel","@value":"053-484-2501"}],"v:fax":[{"@type":"v:Fax","@value":"053-487-3012"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022721.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022721#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022721.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "学校法人 光産業創成大学院大学"
+        },
+        {
+          "@value": "ガッコウホウジン ヒカリサンギョウソウセイダイガクインダイガク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "GPI"
+        },
+        {
+          "@value": "ジーピーアイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022721",
+      "cinii:organizationid": "KI01353X",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "学校法人 光産業創成大学院大学",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "431-1202",
+        "v:label": "静岡県浜松市西区呉松町1955-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "053-484-2501"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "053-487-3012"
+        }
+      ]
+    }
+  ]
+}

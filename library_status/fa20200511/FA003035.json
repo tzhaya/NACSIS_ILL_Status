@@ -1,1 +1,102 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003035.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003035#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003035.json"},"foaf:name":[{"@value":"神戸大学 附属図書館 自然科学系図書館"},{"@value":"コウベダイガク フゾクトショカン シゼンカガクケイトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"神大自"},{"@value":"シンダイシ","@language":"ja-hrkt"}],"cinii:memberid":"FA003035","cinii:organizationid":"KI00063X","cinii:prefcode":"28","cinii:mextid":"005404","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"C","cinii:illstatus":"N","v:fn":"神戸大学 附属図書館 自然科学系図書館","v:adr":{"@type":"v:Address","v:postal-code":"657-8501","v:label":"兵庫県神戸市灘区六甲台町1-1"},"v:tel":[{"@type":"v:Tel","@value":"078-803-5306"}],"v:fax":[{"@type":"v:Fax","@value":"078-803-5310(G3)"}],"dc:description":["Kobe University Library for Science and Technology","1-1,Rokkodaicho,Nada-ku,Kobe 657-8501","URL:https://lib.kobe-u.ac.jp/libraries/list/shizen/ (website)","URL:https://lib.kobe-u.ac.jp/userguides/access/ (access)","ILL-Staff:Tomoki Sato","ILL-Dept:Information Service Section","ILL-Org:Kobe University Library for Science and Technology","ILL-Address:1-1 Rokkodai-cho, Nada-ku Kobe, Japan","ILL-ZIP:657-8501","ILL-Contact1:Tel:+81-78-803-5306 / FAX:+81-78-803-5310 / E-mail:nlibsvc@lib.kobe-u.ac.jp","ILL-Contact2:Online catalogue:https://op.lib.kobe-u.ac.jp/opac/opac_search/?smode=1&lang=1 / Website:https://lib.kobe-u.ac.jp/en/","ILL-Calender:Closed: Dec 28-Jan 4","ILL-Accept:International: LOAN Yes (Traceable courier with insurance Only)","ILL-Accept:International: COPY Yes","ILL-Acceptmethod:International: E-mail","ILL-Acceptmethod:Korea: KERIS=NII ILL Linkage(COPY only)","ILL-Paymentmethod:International: Invoice N/A","ILL-Paymentmethod:International: IFLA Voucher Yes","ILL-Paymentmethod:International: Credit Card N/A","ILL-Paymentmethod:International: OCLC-IFM N/A","ILL-Paymentmethod:International: KERIS=NII Fee Management service Yes","ILL-Loan-Period:6 weeks","ILL-Loan-Item-Max:3","ILL-Loan-Renewal:N/A","ILL-Loan-Charge:Postage only","ILL-Loan-Delivery-method:EMS","ILL-Non-Circulation-items:Special Collection, microfilm, microfische, Reference collection, Periodicals, AV, Dissertation, Thesis","ILL-Copy-Charge:1 IFLA Voucher for first 15 monochrome pages. Additional 0.5 IFLA Voucher for each 15 monochrome pages.","ILL-Copy-Charge:1 IFLA Voucher for first 7 color pages. Additional 0.5 IFLA Voucher for each 7 color pages.","ILL-Copy-Delivery-method:SAL","ILL-Note:Dissertation, Thesis: COPY: need the author's permission."]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003035.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003035#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003035.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸大学 附属図書館 自然科学系図書館"
+        },
+        {
+          "@value": "コウベダイガク フゾクトショカン シゼンカガクケイトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神大自"
+        },
+        {
+          "@value": "シンダイシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003035",
+      "cinii:organizationid": "KI00063X",
+      "cinii:prefcode": "28",
+      "cinii:mextid": "005404",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "N",
+      "v:fn": "神戸大学 附属図書館 自然科学系図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "657-8501",
+        "v:label": "兵庫県神戸市灘区六甲台町1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-803-5306"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-803-5310(G3)"
+        }
+      ],
+      "dc:description": [
+        "Kobe University Library for Science and Technology",
+        "1-1,Rokkodaicho,Nada-ku,Kobe 657-8501",
+        "URL:https://lib.kobe-u.ac.jp/libraries/list/shizen/ (website)",
+        "URL:https://lib.kobe-u.ac.jp/userguides/access/ (access)",
+        "ILL-Staff:Tomoki Sato",
+        "ILL-Dept:Information Service Section",
+        "ILL-Org:Kobe University Library for Science and Technology",
+        "ILL-Address:1-1 Rokkodai-cho, Nada-ku Kobe, Japan",
+        "ILL-ZIP:657-8501",
+        "ILL-Contact1:Tel:+81-78-803-5306 / FAX:+81-78-803-5310 / E-mail:nlibsvc@lib.kobe-u.ac.jp",
+        "ILL-Contact2:Online catalogue:https://op.lib.kobe-u.ac.jp/opac/opac_search/?smode=1&lang=1 / Website:https://lib.kobe-u.ac.jp/en/",
+        "ILL-Calender:Closed: Dec 28-Jan 4",
+        "ILL-Accept:International: LOAN Yes (Traceable courier with insurance Only)",
+        "ILL-Accept:International: COPY Yes",
+        "ILL-Acceptmethod:International: E-mail",
+        "ILL-Acceptmethod:Korea: KERIS=NII ILL Linkage(COPY only)",
+        "ILL-Paymentmethod:International: Invoice N/A",
+        "ILL-Paymentmethod:International: IFLA Voucher Yes",
+        "ILL-Paymentmethod:International: Credit Card N/A",
+        "ILL-Paymentmethod:International: OCLC-IFM N/A",
+        "ILL-Paymentmethod:International: KERIS=NII Fee Management service Yes",
+        "ILL-Loan-Period:6 weeks",
+        "ILL-Loan-Item-Max:3",
+        "ILL-Loan-Renewal:N/A",
+        "ILL-Loan-Charge:Postage only",
+        "ILL-Loan-Delivery-method:EMS",
+        "ILL-Non-Circulation-items:Special Collection, microfilm, microfische, Reference collection, Periodicals, AV, Dissertation, Thesis",
+        "ILL-Copy-Charge:1 IFLA Voucher for first 15 monochrome pages. Additional 0.5 IFLA Voucher for each 15 monochrome pages.",
+        "ILL-Copy-Charge:1 IFLA Voucher for first 7 color pages. Additional 0.5 IFLA Voucher for each 7 color pages.",
+        "ILL-Copy-Delivery-method:SAL",
+        "ILL-Note:Dissertation, Thesis: COPY: need the author's permission."
+      ]
+    }
+  ]
+}

@@ -1,1 +1,80 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016911.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016911#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016911.json"},"foaf:name":[{"@value":"白梅学園大学・短期大学 図書館"},{"@value":"シラウメガクエンダイガク タンキダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"白梅大図"},{"@value":"シラウメダイト","@language":"ja-hrkt"}],"cinii:memberid":"FA016911","cinii:organizationid":"KI009521","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"白梅学園大学・短期大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"187-8570","v:label":"東京都小平市小川町1-830"},"v:tel":[{"@type":"v:Tel","@value":"042-346-5626"}],"v:fax":[{"@type":"v:Fax","@value":"042-346-5648"}],"dc:description":["Shiraume Gakuen University Library","1-830, Kodairashi, Ogawa-cho, Tokyo 187-8570","来館利用担当 : 閲覧係","持参書類 : 身分証明書及び紹介状","受付時間 : 9:30〜16:30(平日) 9:30～13:30(土曜) ※開・休館事情等により変更になる場合があります(要事前確認)。","館外貸出 : 不可","休館日 : 日曜日、国民の祝日、春夏の一定期間、年末年始","注意事項 : 資料の所在等、事前に必ず電話またはFAXで連絡のこと。","URL : http://libwww.shiraume.ac.jp/ (website)","制限事項 : 研究室所蔵資料の文献複写及び閲覧不可。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016911.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016911#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016911.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "白梅学園大学・短期大学 図書館"
+        },
+        {
+          "@value": "シラウメガクエンダイガク タンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "白梅大図"
+        },
+        {
+          "@value": "シラウメダイト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016911",
+      "cinii:organizationid": "KI009521",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "白梅学園大学・短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "187-8570",
+        "v:label": "東京都小平市小川町1-830"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-346-5626"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-346-5648"
+        }
+      ],
+      "dc:description": [
+        "Shiraume Gakuen University Library",
+        "1-830, Kodairashi, Ogawa-cho, Tokyo 187-8570",
+        "来館利用担当 : 閲覧係",
+        "持参書類 : 身分証明書及び紹介状",
+        "受付時間 : 9:30〜16:30(平日) 9:30～13:30(土曜) ※開・休館事情等により変更になる場合があります(要事前確認)。",
+        "館外貸出 : 不可",
+        "休館日 : 日曜日、国民の祝日、春夏の一定期間、年末年始",
+        "注意事項 : 資料の所在等、事前に必ず電話またはFAXで連絡のこと。",
+        "URL : http://libwww.shiraume.ac.jp/ (website)",
+        "制限事項 : 研究室所蔵資料の文献複写及び閲覧不可。"
+      ]
+    }
+  ]
+}

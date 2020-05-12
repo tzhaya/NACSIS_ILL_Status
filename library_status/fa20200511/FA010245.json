@@ -1,1 +1,75 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA010245.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA010245#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA010245.json"},"foaf:name":[{"@value":"国立研究開発法人 水産研究・教育機構 北海道区水産研究所 釧路庁舎"},{"@value":"コクリツケンキュウカイハツホウジン スイサンケンキュウ・キョウイクキコウ ホッカイドウクスイサンケンキュウショ クシロチョウシャ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"北水研"},{"@value":"ホクスイケン","@language":"ja-hrkt"}],"dcterms:hasPart":["図書"],"cinii:memberid":"FA010245","cinii:organizationid":"KI005520","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"国立研究開発法人 水産研究・教育機構 北海道区水産研究所 釧路庁舎","v:adr":{"@type":"v:Address","v:postal-code":"085-0802","v:label":"北海道釧路市桂恋116"},"v:tel":[{"@type":"v:Tel","@value":"0154-92-1708"}],"v:fax":[{"@type":"v:Fax","@value":"0154-91-9355"}],"dc:description":["Hokkaido National Fisheries Research Institute Fisheries Research Agency","116, Katsurakoi, Kushiro, Hokkaido 085-0802"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010245.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010245#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010245.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 水産研究・教育機構 北海道区水産研究所 釧路庁舎"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン スイサンケンキュウ・キョウイクキコウ ホッカイドウクスイサンケンキュウショ クシロチョウシャ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北水研"
+        },
+        {
+          "@value": "ホクスイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA010245",
+      "cinii:organizationid": "KI005520",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 水産研究・教育機構 北海道区水産研究所 釧路庁舎",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "085-0802",
+        "v:label": "北海道釧路市桂恋116"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0154-92-1708"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0154-91-9355"
+        }
+      ],
+      "dc:description": [
+        "Hokkaido National Fisheries Research Institute Fisheries Research Agency",
+        "116, Katsurakoi, Kushiro, Hokkaido 085-0802"
+      ]
+    }
+  ]
+}

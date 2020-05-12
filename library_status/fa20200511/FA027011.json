@@ -1,1 +1,116 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA027011.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA027011#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA027011.json"},"foaf:name":[{"@value":"湘南医療大学 図書館"},{"@value":"ショウナンイリョウダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"湘医大"},{"@value":"ショウイダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA027011","cinii:organizationid":"KI015295","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"湘南医療大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"244-0806","v:label":"神奈川県横浜市戸塚区上品濃16-48"},"v:tel":[{"@type":"v:Tel","@value":"045-821-0111"}],"v:fax":[{"@type":"v:Fax","@value":"045-821-0116"}],"dc:description":["Library of Shonan University of Medical Sciences","16-48,Kamishinano,Totsuka-ku,Yokohama-shi,Kanagawa,JAPAN,244-0806","URL:http://sums.ac.jp/html/library/ (website)","URL:http://sums.ac.jp/html/access/ (map)","連絡先:電話番号:045-821-0111 (内線:3403) FAX:045-821-0116","開館時間(月～金):9:00～20:00","土曜日・休業中開館時間:9:00～17:00","閲覧対象者:公共、または大学図書館発行の紹介状保持者。または神奈川県図書館協会大学図書館協力委員会が運営する共通閲覧証保持者","閲覧事前連絡:事前に電話かFAX、またはE-mail(lib@sums.ac.jp)でご連絡下さい。学外者は閲覧・複写のみのご利用となります。","来館持参物:身分証明書(学生証・運転免許証・保険証等)と紹介状、または神奈川県図書館協会大学図書館協力委員会が運営する共通閲覧証の発行を受けた方は共通閲覧証をご持参下さい。カウンターにご提示後、学外者利用願にご記入していただきます。","閲覧受付時間:開館時間中","複写受付時間:開館時間中(白黒:10円 カラー:50円)(こちらは、直接当館に来館された場合の料金です。領収書の発行は、行っておりません。又、相互貸借による複写は、別料金{白黒:50円 カラー:100円}になります。)","館外貸出:不可","閲覧注記:紹介状での訪問利用は一日に一機関、1枚のみとなります。","閲覧注記:お車での来館はご遠慮下さい。","休館日:日曜祝日・大学指定休日","病院図書室等相互貸借担当者様へ:公費・私費ともに見積書、納品書、請求書、領収書等の発行は行っておりません。また、ILL相殺サービス非加盟館の複写料金支払いは切手のみです(貸借の場合は、返送時に送料分の切手を同封して下さい)。","ILL-Staff: Daichi Ohira","ILL-Dept: ILL Section","ILL-Org: Library of Shonan University of Medical Sciences","ILL-Address: 16-48, Kamishinano, Totsuka-ku, Yokohama-shi, Kanagawa, JAPAN","ILL-Zip: 244-0806","ILL-Contact1:Tel: +81-45-821-0111(Extension:3403) / FAX: +81-45-821-0116 / E-mail: lib@sums.ac.jp","ILL-Contact2:Website: http://sums.ac.jp/html/library/","ILL-Calender:closed: Sunday / National  holiday / Designated holiday / Dec 31-Jan 3","ILL-Accept:International: LOAN: Yes(Traceable courier with insurance Only)","ILL-Accept:International: COPY: Yes(Traceable courier with insurance Only)","WSILL: JPSHM","ILL-Accept: KERIS=NII ILL Linkage","ILL-Payment-method:International: Invoice: N/A","ILL-Payment-method:International: IFLA Voucher: N/A","ILL-Payment-method:International: Credit Card: N/A","ILL-Payment-method:International: OCLC-IFM: Yes","ILL-Payment-method:International: KERIS=NII Fee Management Service: Yes","ILL-Loan-Period: 6 weeks","ILL-Loan-Item-Max: 5","ILL-Loan-Renewal: 6 weeks.","ILL-Loan-Charge: Postage only","ILL-Loan-Delivery-method: via registered mail","ILL-Non-Circulation-items: ref/per/news/a-v/bound journals.","ILL-Copy-Charge:Photocopy: 50 Yen per sheet. Colorcopy:100 Yen per sheet.","ILL-Copy-Charge:Postage required.","ILL-Copy-Delivery-method: via registered mail.","ILL-Note: CHARGES FOR Estimate: N/A","ILL-Note: CHARGES FOR Statement of Delivery: N/A","ILL-Note: CHARGES FOR Receipt: N/A"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027011.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027011#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027011.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "湘南医療大学 図書館"
+        },
+        {
+          "@value": "ショウナンイリョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "湘医大"
+        },
+        {
+          "@value": "ショウイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027011",
+      "cinii:organizationid": "KI015295",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "湘南医療大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "244-0806",
+        "v:label": "神奈川県横浜市戸塚区上品濃16-48"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-821-0111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-821-0116"
+        }
+      ],
+      "dc:description": [
+        "Library of Shonan University of Medical Sciences",
+        "16-48,Kamishinano,Totsuka-ku,Yokohama-shi,Kanagawa,JAPAN,244-0806",
+        "URL:http://sums.ac.jp/html/library/ (website)",
+        "URL:http://sums.ac.jp/html/access/ (map)",
+        "連絡先:電話番号:045-821-0111 (内線:3403) FAX:045-821-0116",
+        "開館時間(月～金):9:00～20:00",
+        "土曜日・休業中開館時間:9:00～17:00",
+        "閲覧対象者:公共、または大学図書館発行の紹介状保持者。または神奈川県図書館協会大学図書館協力委員会が運営する共通閲覧証保持者",
+        "閲覧事前連絡:事前に電話かFAX、またはE-mail(lib@sums.ac.jp)でご連絡下さい。学外者は閲覧・複写のみのご利用となります。",
+        "来館持参物:身分証明書(学生証・運転免許証・保険証等)と紹介状、または神奈川県図書館協会大学図書館協力委員会が運営する共通閲覧証の発行を受けた方は共通閲覧証をご持参下さい。カウンターにご提示後、学外者利用願にご記入していただきます。",
+        "閲覧受付時間:開館時間中",
+        "複写受付時間:開館時間中(白黒:10円 カラー:50円)(こちらは、直接当館に来館された場合の料金です。領収書の発行は、行っておりません。又、相互貸借による複写は、別料金{白黒:50円 カラー:100円}になります。)",
+        "館外貸出:不可",
+        "閲覧注記:紹介状での訪問利用は一日に一機関、1枚のみとなります。",
+        "閲覧注記:お車での来館はご遠慮下さい。",
+        "休館日:日曜祝日・大学指定休日",
+        "病院図書室等相互貸借担当者様へ:公費・私費ともに見積書、納品書、請求書、領収書等の発行は行っておりません。また、ILL相殺サービス非加盟館の複写料金支払いは切手のみです(貸借の場合は、返送時に送料分の切手を同封して下さい)。",
+        "ILL-Staff: Daichi Ohira",
+        "ILL-Dept: ILL Section",
+        "ILL-Org: Library of Shonan University of Medical Sciences",
+        "ILL-Address: 16-48, Kamishinano, Totsuka-ku, Yokohama-shi, Kanagawa, JAPAN",
+        "ILL-Zip: 244-0806",
+        "ILL-Contact1:Tel: +81-45-821-0111(Extension:3403) / FAX: +81-45-821-0116 / E-mail: lib@sums.ac.jp",
+        "ILL-Contact2:Website: http://sums.ac.jp/html/library/",
+        "ILL-Calender:closed: Sunday / National  holiday / Designated holiday / Dec 31-Jan 3",
+        "ILL-Accept:International: LOAN: Yes(Traceable courier with insurance Only)",
+        "ILL-Accept:International: COPY: Yes(Traceable courier with insurance Only)",
+        "WSILL: JPSHM",
+        "ILL-Accept: KERIS=NII ILL Linkage",
+        "ILL-Payment-method:International: Invoice: N/A",
+        "ILL-Payment-method:International: IFLA Voucher: N/A",
+        "ILL-Payment-method:International: Credit Card: N/A",
+        "ILL-Payment-method:International: OCLC-IFM: Yes",
+        "ILL-Payment-method:International: KERIS=NII Fee Management Service: Yes",
+        "ILL-Loan-Period: 6 weeks",
+        "ILL-Loan-Item-Max: 5",
+        "ILL-Loan-Renewal: 6 weeks.",
+        "ILL-Loan-Charge: Postage only",
+        "ILL-Loan-Delivery-method: via registered mail",
+        "ILL-Non-Circulation-items: ref/per/news/a-v/bound journals.",
+        "ILL-Copy-Charge:Photocopy: 50 Yen per sheet. Colorcopy:100 Yen per sheet.",
+        "ILL-Copy-Charge:Postage required.",
+        "ILL-Copy-Delivery-method: via registered mail.",
+        "ILL-Note: CHARGES FOR Estimate: N/A",
+        "ILL-Note: CHARGES FOR Statement of Delivery: N/A",
+        "ILL-Note: CHARGES FOR Receipt: N/A"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,105 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002677.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002677#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002677.json"},"foaf:name":[{"@value":"京都大学 理学部"},{"@value":"キョウトダイガク リガクブ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"京大理"},{"@value":"キョウダイリ","@language":"ja-hrkt"}],"dcterms:hasPart":["中央","数学","物理","化学","生物","地球惑星","宇宙","天文台","植生","大津臨湖","地研","火山","地震予知","逢坂山","機器分析","地磁気","気候変動"],"cinii:memberid":"FA002677","cinii:organizationid":"KI000560","cinii:prefcode":"26","cinii:mextid":"004805","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"京都大学 理学部","v:adr":{"@type":"v:Address","v:postal-code":"606-8502","v:label":"京都市左京区北白川追分町理学部6号館南棟1F-104"},"v:tel":[{"@type":"v:Tel","@value":"075-753-3644"}],"v:fax":[{"@type":"v:Fax","@value":"075-753-3643"}],"dc:description":["Faculty of Science, Kyoto University.","Kitashirakawa-Oiwake-cho, Sakyo-ku, Kyoto 606-8502","URL:http://www.sci.kyoto-u.ac.jp/lib/ (理学部中央図書室)","URL:http://www.sci.kyoto-u.ac.jp/lib/guide.htm (理学部中央図書室利用案内)","URL:http://www2.sci.kyoto-u.ac.jp/lib/scl.htm (理学研究科教室図書室一覧)","[休室日] 土曜日・日曜日・国民の祝日・年末年始・創立記念日他","理学部中央図書室 075-753-3644(9:00 - 17:00)","理学研究科数学教室図書室 075-753-3703 (9:00 - 12:00,13:00 - 17:00)","理学研究科物理学教室図書室 075-753-3803  月・水・金 (9:00 - 12:00,13:00 - 16:30)","理学研究科宇宙物理学教室図書室 075-753-3900 (10:00 - 12:00,13:00 - 16:30)","理学研究科地球惑星科学図書室 075-753-3920,  (10:00 - 1200,13:00 - 17:00)","理学研究科化学教室図書室 075-753-3966 (9:00 - 12:00,13:00 - 16:30)","理学研究科生物科学専攻図書室 075-753-4082 (9:00 - 12:00,13:00 - 17:00)","[館外貸出] 否 (複写のための一時持出しが可能な場合あり)","[注意事項] 臨時に休室する場合や、希望資料が利用できない場合がありますので、閲覧の際には事前にご確認下さい。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002677.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002677#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002677.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 理学部"
+        },
+        {
+          "@value": "キョウトダイガク リガクブ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大理"
+        },
+        {
+          "@value": "キョウダイリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "中央",
+        "数学",
+        "物理",
+        "化学",
+        "生物",
+        "地球惑星",
+        "宇宙",
+        "天文台",
+        "植生",
+        "大津臨湖",
+        "地研",
+        "火山",
+        "地震予知",
+        "逢坂山",
+        "機器分析",
+        "地磁気",
+        "気候変動"
+      ],
+      "cinii:memberid": "FA002677",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004805",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都大学 理学部",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8502",
+        "v:label": "京都市左京区北白川追分町理学部6号館南棟1F-104"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-753-3644"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-753-3643"
+        }
+      ],
+      "dc:description": [
+        "Faculty of Science, Kyoto University.",
+        "Kitashirakawa-Oiwake-cho, Sakyo-ku, Kyoto 606-8502",
+        "URL:http://www.sci.kyoto-u.ac.jp/lib/ (理学部中央図書室)",
+        "URL:http://www.sci.kyoto-u.ac.jp/lib/guide.htm (理学部中央図書室利用案内)",
+        "URL:http://www2.sci.kyoto-u.ac.jp/lib/scl.htm (理学研究科教室図書室一覧)",
+        "[休室日] 土曜日・日曜日・国民の祝日・年末年始・創立記念日他",
+        "理学部中央図書室 075-753-3644(9:00 - 17:00)",
+        "理学研究科数学教室図書室 075-753-3703 (9:00 - 12:00,13:00 - 17:00)",
+        "理学研究科物理学教室図書室 075-753-3803  月・水・金 (9:00 - 12:00,13:00 - 16:30)",
+        "理学研究科宇宙物理学教室図書室 075-753-3900 (10:00 - 12:00,13:00 - 16:30)",
+        "理学研究科地球惑星科学図書室 075-753-3920,  (10:00 - 1200,13:00 - 17:00)",
+        "理学研究科化学教室図書室 075-753-3966 (9:00 - 12:00,13:00 - 16:30)",
+        "理学研究科生物科学専攻図書室 075-753-4082 (9:00 - 12:00,13:00 - 17:00)",
+        "[館外貸出] 否 (複写のための一時持出しが可能な場合あり)",
+        "[注意事項] 臨時に休室する場合や、希望資料が利用できない場合がありますので、閲覧の際には事前にご確認下さい。"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,79 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019705.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019705#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019705.json"},"foaf:name":[{"@value":"京都大学 人文科学研究所 附属東アジア人文情報学研究センター"},{"@value":"キョウトダイガク ジンブンカガクケンキュウショ フゾクヒガシアジアジンブンジョウホウガクケンキュウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"京大人情セ"},{"@value":"キョウダイジンジョウセ","@language":"ja-hrkt"}],"cinii:memberid":"FA019705","cinii:organizationid":"KI000560","cinii:prefcode":"26","cinii:mextid":"004812","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"京都大学 人文科学研究所 附属東アジア人文情報学研究センター","v:adr":{"@type":"v:Address","v:postal-code":"606-8265","v:label":"京都市左京区北白川東小倉町47"},"v:tel":[{"@type":"v:Tel","@value":"075-753-6990"}],"v:fax":[{"@type":"v:Fax","@value":"075-753-6999"}],"dc:description":["Documentation and Information Center for Chinese Studies at Institute for Research in Humanities, Kyoto University","47 Higashiogura-cho, Kitashirakawa, Sakyo-ku, Kyoto, 606-8265","URL:http://www.kanji.zinbun.kyoto-u.ac.jp/(website)","閲覧受付時間 :9:30〜12:00 13:00〜16:00","複写受付時間 :9:30〜12:00 13:00〜16:00","注意事項:必ず事前に所蔵調査を依頼すること","館外貸出:不可","休館日 :土,日曜日・国民の祝日等・本学創立記念日(6/18)・毎月月末(末日が土・日曜日にあたるときはその次の月曜日)・夏期休館(8/1〜8/15)・年末年始(12/26〜1/5)・漢籍講習会開催期間中(年2回)・そのほか業務上特別の事由があるときは、利用を休止または、利用時間を変更することがある"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019705.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019705#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019705.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 人文科学研究所 附属東アジア人文情報学研究センター"
+        },
+        {
+          "@value": "キョウトダイガク ジンブンカガクケンキュウショ フゾクヒガシアジアジンブンジョウホウガクケンキュウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大人情セ"
+        },
+        {
+          "@value": "キョウダイジンジョウセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019705",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004812",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都大学 人文科学研究所 附属東アジア人文情報学研究センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8265",
+        "v:label": "京都市左京区北白川東小倉町47"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-753-6990"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-753-6999"
+        }
+      ],
+      "dc:description": [
+        "Documentation and Information Center for Chinese Studies at Institute for Research in Humanities, Kyoto University",
+        "47 Higashiogura-cho, Kitashirakawa, Sakyo-ku, Kyoto, 606-8265",
+        "URL:http://www.kanji.zinbun.kyoto-u.ac.jp/(website)",
+        "閲覧受付時間 :9:30〜12:00 13:00〜16:00",
+        "複写受付時間 :9:30〜12:00 13:00〜16:00",
+        "注意事項:必ず事前に所蔵調査を依頼すること",
+        "館外貸出:不可",
+        "休館日 :土,日曜日・国民の祝日等・本学創立記念日(6/18)・毎月月末(末日が土・日曜日にあたるときはその次の月曜日)・夏期休館(8/1〜8/15)・年末年始(12/26〜1/5)・漢籍講習会開催期間中(年2回)・そのほか業務上特別の事由があるときは、利用を休止または、利用時間を変更することがある"
+      ]
+    }
+  ]
+}

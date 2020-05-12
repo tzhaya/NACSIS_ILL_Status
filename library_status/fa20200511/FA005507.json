@@ -1,1 +1,91 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA005507.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA005507#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA005507.json"},"foaf:name":[{"@value":"聖心女子大学 図書館"},{"@value":"セイシンジヨシダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"聖心女"},{"@value":"セイシンジヨ","@language":"ja-hrkt"}],"cinii:memberid":"FA005507","cinii:organizationid":"KI002180","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"聖心女子大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"150-8938","v:label":"東京都渋谷区広尾4-3-1"},"v:tel":[{"@type":"v:Tel","@value":"03-3407-5297"}],"v:fax":[{"@type":"v:Fax","@value":"03-3498-5226"}],"dc:description":["University of the Sacred Heart Library","4-3-1, Hiroo, Shibuya-ku, Tokyo 150-8938","URL:http://www.u-sacred-heart.ac.jp/library/index.html","来館利用担当:参考係","電話番号:03-3407-5297","受付時間:月曜日〜金曜日 9:00〜17:00","注意事項:資料の所在等を事前に確認のこと。土曜日の来館利用は不可。開館日をホームページで確認のこと。","持参書類:図書館資料利用願と身分証明書","複写時間:9:00〜17:00","館外貸出:不可","制限事項:マイクロ資料の利用受付は9:00〜16:00とし、15:30迄にプリントを終了のこと。","休館日:日曜日・国民の祝日・年末年始・休暇中の定められた日・本学創立記念日(4月29日～5月6日)・聖心祭(10月下旬)・入学試験日(2月上旬)","複写担当係 :参考係","複写受付可否 :可","FAX受付可否 :可","複写方法・料金:電子複写(40円均一)・リーダプリンタ(40円均一)・カラーコピー(200円均一)","複写決済方法 :公費・私費=後納","複写支払方法 :ILL相殺システムまたは、銀行振込","貸借担当係 :参考係","貸出期間 :4週間(含む郵送期間)、貸出冊数 :10冊以内","貸借注記 :都内など近郊の場合は不可。返送はゆうパックまたは書留郵便に限る。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005507.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005507#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005507.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "聖心女子大学 図書館"
+        },
+        {
+          "@value": "セイシンジヨシダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "聖心女"
+        },
+        {
+          "@value": "セイシンジヨ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005507",
+      "cinii:organizationid": "KI002180",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "聖心女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "150-8938",
+        "v:label": "東京都渋谷区広尾4-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3407-5297"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3498-5226"
+        }
+      ],
+      "dc:description": [
+        "University of the Sacred Heart Library",
+        "4-3-1, Hiroo, Shibuya-ku, Tokyo 150-8938",
+        "URL:http://www.u-sacred-heart.ac.jp/library/index.html",
+        "来館利用担当:参考係",
+        "電話番号:03-3407-5297",
+        "受付時間:月曜日〜金曜日 9:00〜17:00",
+        "注意事項:資料の所在等を事前に確認のこと。土曜日の来館利用は不可。開館日をホームページで確認のこと。",
+        "持参書類:図書館資料利用願と身分証明書",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可",
+        "制限事項:マイクロ資料の利用受付は9:00〜16:00とし、15:30迄にプリントを終了のこと。",
+        "休館日:日曜日・国民の祝日・年末年始・休暇中の定められた日・本学創立記念日(4月29日～5月6日)・聖心祭(10月下旬)・入学試験日(2月上旬)",
+        "複写担当係 :参考係",
+        "複写受付可否 :可",
+        "FAX受付可否 :可",
+        "複写方法・料金:電子複写(40円均一)・リーダプリンタ(40円均一)・カラーコピー(200円均一)",
+        "複写決済方法 :公費・私費=後納",
+        "複写支払方法 :ILL相殺システムまたは、銀行振込",
+        "貸借担当係 :参考係",
+        "貸出期間 :4週間(含む郵送期間)、貸出冊数 :10冊以内",
+        "貸借注記 :都内など近郊の場合は不可。返送はゆうパックまたは書留郵便に限る。"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,67 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA001186.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA001186#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA001186.json"},"foaf:name":[{"@value":"北海道大学 電子科学研究所 図書室"},{"@value":"ホツカイドウダイガク デンシカガクケンキユウジヨ トシヨシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"北大電"},{"@value":"ホクダイデン","@language":"ja-hrkt"}],"dcterms:hasPart":["図書","研究室"],"cinii:memberid":"FA001186","cinii:organizationid":"KI000017","cinii:prefcode":"01","cinii:mextid":"000113","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"北海道大学 電子科学研究所 図書室","v:adr":{"@type":"v:Address","v:postal-code":"001-0021","v:label":"札幌市北区北21条西10丁目 北キャンパス合同事務部 北キャンパス図書室(電子研担当)"},"v:tel":[{"@type":"v:Tel","@value":"011-706-9106(DI)"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001186.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001186#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001186.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 電子科学研究所 図書室"
+        },
+        {
+          "@value": "ホツカイドウダイガク デンシカガクケンキユウジヨ トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大電"
+        },
+        {
+          "@value": "ホクダイデン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "研究室"
+      ],
+      "cinii:memberid": "FA001186",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000113",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北海道大学 電子科学研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "001-0021",
+        "v:label": "札幌市北区北21条西10丁目 北キャンパス合同事務部 北キャンパス図書室(電子研担当)"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-706-9106(DI)"
+        }
+      ]
+    }
+  ]
+}

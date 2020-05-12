@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007262.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007262#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007262.json"},"foaf:name":[{"@value":"愛知淑徳大学 図書館"},{"@value":"アイチシュクトクダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"愛淑大"},{"@value":"アイシュクダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA007262","cinii:organizationid":"KI003161","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"愛知淑徳大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"480-1197","v:label":"愛知県長久手市片平二丁目9"},"v:tel":[{"@type":"v:Tel","@value":"0561-62-4111"}],"v:fax":[{"@type":"v:Fax","@value":"0561-64-0310"}],"dc:description":["URL:https://www2.aasa.ac.jp/org/lib/","●閲覧事前連絡 : 電話での問い合わせが望ましい(所蔵の有無・貸出状況は当館ウェブサイトでご確認ください)","●閲覧持参書類 : 所属図書館(あるいは最寄の公共図書館)発行の紹介状、身分を証明する物。","●来館時注意 :守衛室にて入校の手続きをしてから、ご来館ください。","●閲覧受付時間 : 9:00 - 16:30","●館外貸出   : 不可","●休館日      : 土曜日・日曜日・祝祭日(ただし、授業日は除く)およびその振替休日・夏季休業・冬季休業など。詳細は当館ウェブサイトでご確認ください。","●文献複写・相互貸借サービスの個人による申込は受付しておりません。所属図書館を通じて申込ください。","●電子資料、貴重書、学外書庫の資料は、複写・貸借ともにお断りさせていただきます。","ILL-Org:Aichi Shukutoku University","ILL-Address:2-9, Katahira, Nagakute-shi, Aichi Prefecture, JAPAN","ILL-ZIP: 480-1197","ILL-Commun1:Tel:+81-0561-62-4111 /FAX:+81-0561-64-0310 / E-mail:illlib@asu.aasa.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007262.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007262#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007262.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知淑徳大学 図書館"
+        },
+        {
+          "@value": "アイチシュクトクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛淑大"
+        },
+        {
+          "@value": "アイシュクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007262",
+      "cinii:organizationid": "KI003161",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知淑徳大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "480-1197",
+        "v:label": "愛知県長久手市片平二丁目9"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0561-62-4111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0561-64-0310"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www2.aasa.ac.jp/org/lib/",
+        "●閲覧事前連絡 : 電話での問い合わせが望ましい(所蔵の有無・貸出状況は当館ウェブサイトでご確認ください)",
+        "●閲覧持参書類 : 所属図書館(あるいは最寄の公共図書館)発行の紹介状、身分を証明する物。",
+        "●来館時注意 :守衛室にて入校の手続きをしてから、ご来館ください。",
+        "●閲覧受付時間 : 9:00 - 16:30",
+        "●館外貸出   : 不可",
+        "●休館日      : 土曜日・日曜日・祝祭日(ただし、授業日は除く)およびその振替休日・夏季休業・冬季休業など。詳細は当館ウェブサイトでご確認ください。",
+        "●文献複写・相互貸借サービスの個人による申込は受付しておりません。所属図書館を通じて申込ください。",
+        "●電子資料、貴重書、学外書庫の資料は、複写・貸借ともにお断りさせていただきます。",
+        "ILL-Org:Aichi Shukutoku University",
+        "ILL-Address:2-9, Katahira, Nagakute-shi, Aichi Prefecture, JAPAN",
+        "ILL-ZIP: 480-1197",
+        "ILL-Commun1:Tel:+81-0561-62-4111 /FAX:+81-0561-64-0310 / E-mail:illlib@asu.aasa.ac.jp"
+      ]
+    }
+  ]
+}

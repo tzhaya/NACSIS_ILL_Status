@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA010766.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA010766#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA010766.json"},"foaf:name":[{"@value":"茨城県立図書館"},{"@value":"イバラキケンリツトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"茨県図"},{"@value":"イバラケント","@language":"ja-hrkt"}],"dcterms:hasPart":["館内"],"cinii:memberid":"FA010766","cinii:organizationid":"KI005961","cinii:prefcode":"08","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"茨城県立図書館","v:adr":{"@type":"v:Address","v:postal-code":"310-0011","v:label":"茨城県水戸市三の丸1丁目5番38号"},"v:tel":[{"@type":"v:Tel","@value":"029-221-5568"}],"v:fax":[{"@type":"v:Fax","@value":"029-225-3399"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010766.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010766#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010766.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "茨城県立図書館"
+        },
+        {
+          "@value": "イバラキケンリツトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "茨県図"
+        },
+        {
+          "@value": "イバラケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "館内"
+      ],
+      "cinii:memberid": "FA010766",
+      "cinii:organizationid": "KI005961",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "茨城県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "310-0011",
+        "v:label": "茨城県水戸市三の丸1丁目5番38号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-221-5568"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-225-3399"
+        }
+      ]
+    }
+  ]
+}

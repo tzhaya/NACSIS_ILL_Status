@@ -1,1 +1,87 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009166.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009166#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009166.json"},"foaf:name":[{"@value":"放送大学 附属図書館"},{"@value":"ホウソウダイガク フゾクトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"放送大"},{"@value":"ホウソウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","研","学セ"],"cinii:memberid":"FA009166","cinii:organizationid":"KI004608","cinii:prefcode":"12","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"放送大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"261-8586","v:label":"千葉市美浜区若葉2-11"},"v:tel":[{"@type":"v:Tel","@value":"043-298-4301"}],"v:fax":[{"@type":"v:Fax","@value":"043-298-4382"}],"dc:description":["The Open University of Japan","2-11 Wakaba, Mihama-ku, Chiba City, 261-8586","URL:http://lib.ouj.ac.jp/","来館利用担当 :情報管理係","電話番号 :043-298-4302","受付時間 :9:00-18:30 (土・日・祝日 9:00-20:00)","注意事項 :車での来館はご遠慮ください","持参書類 :住所が確認できるもの(免許証、学生証、保険証など)","複写時間 :閉館5分前まで","館外貸出 :不可","制限事項 :貴重書の閲覧は原則としてマイクロフィルムによる。要・事前問い合わせ","休館日: 年末・年始(12月28日〜1月4日),毎月第4月曜日(1月・7月を除く。当該日が休日に当たるときは翌日)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009166.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009166#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009166.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "放送大学 附属図書館"
+        },
+        {
+          "@value": "ホウソウダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "放送大"
+        },
+        {
+          "@value": "ホウソウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研",
+        "学セ"
+      ],
+      "cinii:memberid": "FA009166",
+      "cinii:organizationid": "KI004608",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "放送大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "261-8586",
+        "v:label": "千葉市美浜区若葉2-11"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "043-298-4301"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "043-298-4382"
+        }
+      ],
+      "dc:description": [
+        "The Open University of Japan",
+        "2-11 Wakaba, Mihama-ku, Chiba City, 261-8586",
+        "URL:http://lib.ouj.ac.jp/",
+        "来館利用担当 :情報管理係",
+        "電話番号 :043-298-4302",
+        "受付時間 :9:00-18:30 (土・日・祝日 9:00-20:00)",
+        "注意事項 :車での来館はご遠慮ください",
+        "持参書類 :住所が確認できるもの(免許証、学生証、保険証など)",
+        "複写時間 :閉館5分前まで",
+        "館外貸出 :不可",
+        "制限事項 :貴重書の閲覧は原則としてマイクロフィルムによる。要・事前問い合わせ",
+        "休館日: 年末・年始(12月28日〜1月4日),毎月第4月曜日(1月・7月を除く。当該日が休日に当たるときは翌日)"
+      ]
+    }
+  ]
+}

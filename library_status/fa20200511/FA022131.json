@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA022131.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA022131#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA022131.json"},"foaf:name":[{"@value":"日本大学 大学院法務研究科"},{"@value":"ニホンダイガク ダイガクインホウムケンキユウカ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日大法科"},{"@value":"ニチダイホウカ","@language":"ja-hrkt"}],"cinii:memberid":"FA022131","cinii:organizationid":"KI002533","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"日本大学 大学院法務研究科","v:adr":{"@type":"v:Address","v:postal-code":"101-0061","v:label":"東京都千代田区三崎町2-2-3 1・2号館1階"},"v:tel":[{"@type":"v:Tel","@value":"03-6261-3206"}],"v:fax":[{"@type":"v:Fax","@value":"03-6261-3207"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022131.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022131#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022131.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 大学院法務研究科"
+        },
+        {
+          "@value": "ニホンダイガク ダイガクインホウムケンキユウカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大法科"
+        },
+        {
+          "@value": "ニチダイホウカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022131",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本大学 大学院法務研究科",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-0061",
+        "v:label": "東京都千代田区三崎町2-2-3 1・2号館1階"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-6261-3206"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-6261-3207"
+        }
+      ]
+    }
+  ]
+}

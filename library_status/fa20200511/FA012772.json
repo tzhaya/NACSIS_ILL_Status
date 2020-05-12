@@ -1,1 +1,74 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012772.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012772#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012772.json"},"foaf:name":[{"@value":"金沢学院大学 図書館"},{"@value":"カナザワガクインダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"金学大"},{"@value":"キンガクダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA012772","cinii:organizationid":"KI007060","cinii:prefcode":"17","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"金沢学院大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"920-1392","v:label":"石川県金沢市末町10"},"v:tel":[{"@type":"v:Tel","@value":"076-229-8877"}],"v:fax":[{"@type":"v:Fax","@value":"076-229-1426"}],"dc:description":["KANAZAWA GAKUIN UNIVERSITY LIBRARY","10 SUE-MACHI,KANAZAWA,ISHIKAWA 920-1392 JAPAN","URL:HTTP://LIBRARY.KANAZAWA-GU.AC.JP/","URL:HTTP://LIBRARY.KANAZAWA-GU.AC.JP/ (MAP)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012772.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012772#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012772.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "金沢学院大学 図書館"
+        },
+        {
+          "@value": "カナザワガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "金学大"
+        },
+        {
+          "@value": "キンガクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012772",
+      "cinii:organizationid": "KI007060",
+      "cinii:prefcode": "17",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "金沢学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "920-1392",
+        "v:label": "石川県金沢市末町10"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "076-229-8877"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "076-229-1426"
+        }
+      ],
+      "dc:description": [
+        "KANAZAWA GAKUIN UNIVERSITY LIBRARY",
+        "10 SUE-MACHI,KANAZAWA,ISHIKAWA 920-1392 JAPAN",
+        "URL:HTTP://LIBRARY.KANAZAWA-GU.AC.JP/",
+        "URL:HTTP://LIBRARY.KANAZAWA-GU.AC.JP/ (MAP)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018101.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018101#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018101.json"},"foaf:name":[{"@value":"独立行政法人 地域医療機能推進機構 下関医療センター 図書室"},{"@value":"ドクリツギョウセイホウジン チイキイリョウキノウスイシンキコウ シモノセキイリョウセンター トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"下関医"},{"@value":"シモノセキイ","@language":"ja-hrkt"}],"cinii:memberid":"FA018101","cinii:organizationid":"KI010575","cinii:prefcode":"35","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"A","cinii:illstatus":"N","v:fn":"独立行政法人 地域医療機能推進機構 下関医療センター 図書室","v:adr":{"@type":"v:Address","v:postal-code":"750-0061","v:label":"山口県下関市上新地町3-3-8"},"v:tel":[{"@type":"v:Tel","@value":"083-231-5811"}],"v:fax":[{"@type":"v:Fax","@value":"083-228-0440"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018101.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018101#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018101.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 地域医療機能推進機構 下関医療センター 図書室"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジン チイキイリョウキノウスイシンキコウ シモノセキイリョウセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "下関医"
+        },
+        {
+          "@value": "シモノセキイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018101",
+      "cinii:organizationid": "KI010575",
+      "cinii:prefcode": "35",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "独立行政法人 地域医療機能推進機構 下関医療センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "750-0061",
+        "v:label": "山口県下関市上新地町3-3-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "083-231-5811"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "083-228-0440"
+        }
+      ]
+    }
+  ]
+}

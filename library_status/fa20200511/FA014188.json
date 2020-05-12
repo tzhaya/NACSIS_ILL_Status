@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014188.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014188#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014188.json"},"foaf:name":[{"@value":"早稲田大学 現代政治経済研究所図書室"},{"@value":"ワセダダイガク ゲンダイセイジケイザイケンキユウジヨトシヨシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"早大現政研"},{"@value":"ソウダイゲンセイケン","@language":"ja-hrkt"}],"cinii:memberid":"FA014188","cinii:organizationid":"KI002781","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"早稲田大学 現代政治経済研究所図書室","v:adr":{"@type":"v:Address","v:postal-code":"169-8050","v:label":"東京都新宿区西早稲田1-6-1"},"v:fax":[{"@type":"v:Fax","@value":"03-3204-8961"}],"dc:description":["Institute for Research in Contemporary Political and Economic Affairs","Waseda University 1-6-1, Nishiwaseda, Shinjuku-ku, Tokyo, 169-8050, JAPAN","URL:http://www.waseda-pse.jp/ircpea/","E-mail:web-ircpea@list.waseda.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014188.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014188#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014188.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "早稲田大学 現代政治経済研究所図書室"
+        },
+        {
+          "@value": "ワセダダイガク ゲンダイセイジケイザイケンキユウジヨトシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "早大現政研"
+        },
+        {
+          "@value": "ソウダイゲンセイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014188",
+      "cinii:organizationid": "KI002781",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "早稲田大学 現代政治経済研究所図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "169-8050",
+        "v:label": "東京都新宿区西早稲田1-6-1"
+      },
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3204-8961"
+        }
+      ],
+      "dc:description": [
+        "Institute for Research in Contemporary Political and Economic Affairs",
+        "Waseda University 1-6-1, Nishiwaseda, Shinjuku-ku, Tokyo, 169-8050, JAPAN",
+        "URL:http://www.waseda-pse.jp/ircpea/",
+        "E-mail:web-ircpea@list.waseda.jp"
+      ]
+    }
+  ]
+}

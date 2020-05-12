@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA022856.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA022856#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA022856.json"},"foaf:name":[{"@value":"宮城大学 学術情報センター 太白キャンパス図書館"},{"@value":"ミヤギダイガク ガクジュツジョウホウセンター タイハクキャンパストショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"宮城大太白"},{"@value":"ミヤギダイタイハク","@language":"ja-hrkt"}],"cinii:memberid":"FA022856","cinii:organizationid":"KI010112","cinii:prefcode":"04","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"宮城大学 学術情報センター 太白キャンパス図書館","v:adr":{"@type":"v:Address","v:postal-code":"982-0215","v:label":"宮城県仙台市太白区旗立2-2-1"},"v:tel":[{"@type":"v:Tel","@value":"022-245-1046"}],"v:fax":[{"@type":"v:Fax","@value":"022-245-2214"}],"dc:description":["Miyagi University Taihaku Campus Library","2-2-1 Hatatate, Taihaku, Sendai, Miyagi 982-0215","E-mail :f-tosho@myu.ac.jp","来館利用担当:事務局太白事務室教務・学生支援グループ図書館担当","電話番号 :022-245-1046","受付時間 :9:00～19:00(長期休業中は9:00～17:00)","注意事項 :学生の定期試験の一週間前から最終日までは,利用をご遠慮いただいておりますので,来館前に開館日等を確認してください。","注意事項 :来館時に利用申込書の記入が必要です。","複写時間 :9:00～(閉館15分前まで受付)","館外貸出 :一人2冊2週間まで","休館日 :土・日,国民の祝日,年末年始,図書整理日,その他センター長が必要と認めたとき","制限事項 :研究室貸出資料等,閲覧・貸出ができない資料もあります。","ILL-Org:Miyagi University Taihaku Campus Library","ILL-Address:2-2-1 Hatatate, Taihaku, Sendai, Miyagi, JAPAN","ILL-ZIP:982-0215","ILL-Commun1:E-mail:f-tosho@myu.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022856.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022856#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022856.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宮城大学 学術情報センター 太白キャンパス図書館"
+        },
+        {
+          "@value": "ミヤギダイガク ガクジュツジョウホウセンター タイハクキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宮城大太白"
+        },
+        {
+          "@value": "ミヤギダイタイハク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022856",
+      "cinii:organizationid": "KI010112",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "宮城大学 学術情報センター 太白キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "982-0215",
+        "v:label": "宮城県仙台市太白区旗立2-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-245-1046"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-245-2214"
+        }
+      ],
+      "dc:description": [
+        "Miyagi University Taihaku Campus Library",
+        "2-2-1 Hatatate, Taihaku, Sendai, Miyagi 982-0215",
+        "E-mail :f-tosho@myu.ac.jp",
+        "来館利用担当:事務局太白事務室教務・学生支援グループ図書館担当",
+        "電話番号 :022-245-1046",
+        "受付時間 :9:00～19:00(長期休業中は9:00～17:00)",
+        "注意事項 :学生の定期試験の一週間前から最終日までは,利用をご遠慮いただいておりますので,来館前に開館日等を確認してください。",
+        "注意事項 :来館時に利用申込書の記入が必要です。",
+        "複写時間 :9:00～(閉館15分前まで受付)",
+        "館外貸出 :一人2冊2週間まで",
+        "休館日 :土・日,国民の祝日,年末年始,図書整理日,その他センター長が必要と認めたとき",
+        "制限事項 :研究室貸出資料等,閲覧・貸出ができない資料もあります。",
+        "ILL-Org:Miyagi University Taihaku Campus Library",
+        "ILL-Address:2-2-1 Hatatate, Taihaku, Sendai, Miyagi, JAPAN",
+        "ILL-ZIP:982-0215",
+        "ILL-Commun1:E-mail:f-tosho@myu.ac.jp"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016605.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016605#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016605.json"},"foaf:name":[{"@value":"日本赤十字秋田看護大学 図書館"},{"@value":"ニッポンセキジュウジアキタカンゴダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日赤秋看大"},{"@value":"ニッセキアキカンダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA016605","cinii:organizationid":"KI009270","cinii:prefcode":"05","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"日本赤十字秋田看護大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"010-1492","v:label":"秋田市上北手猿田字苗代沢17-3"},"v:tel":[{"@type":"v:Tel","@value":"018-829-3070"}],"v:fax":[{"@type":"v:Fax","@value":"018-829-3032"}],"dc:description":["来館利用担当:図書係","電話番号:018-829-3070","URL:http://forest.rcakita.ac.jp","受付時間:9:00〜20:00 (土曜日10:00～17:00) 長期休業期間中は平日のみ9:00〜17:00","注意事項:学外の方は、カウンタ-で受付簿記載ののち利用するようお願いします。","注意事項:金曜日・土曜日のILL申込については、月曜日以降の対応となります。","館外貸出:可 (但し、予め図書館利用カ-ドの発行を要する。当日不可。身分証明書持参。)","制限事項:参考図書、雑誌、ビデオ等は貸出をしません。","休館日:日曜日、国民の祝日、5月1日、8月13日、年末年始、長期休業期間中の土曜日","ILL-Org:The Japanese Red Cross Akita College of Nursing Library","ILL-Address:17-3 Nawashirosawa,Saruta-Aza,Kamikitade,Akita-city,Akita,JAPAN","ILL-ZIP:010-1492","ILL-Commun1:Tel:+81-18-829-3070/FAX:+81-18-829-3032/E-mail:lib@rcakita.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016605.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016605#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016605.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本赤十字秋田看護大学 図書館"
+        },
+        {
+          "@value": "ニッポンセキジュウジアキタカンゴダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日赤秋看大"
+        },
+        {
+          "@value": "ニッセキアキカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016605",
+      "cinii:organizationid": "KI009270",
+      "cinii:prefcode": "05",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本赤十字秋田看護大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "010-1492",
+        "v:label": "秋田市上北手猿田字苗代沢17-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "018-829-3070"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "018-829-3032"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当:図書係",
+        "電話番号:018-829-3070",
+        "URL:http://forest.rcakita.ac.jp",
+        "受付時間:9:00〜20:00 (土曜日10:00～17:00) 長期休業期間中は平日のみ9:00〜17:00",
+        "注意事項:学外の方は、カウンタ-で受付簿記載ののち利用するようお願いします。",
+        "注意事項:金曜日・土曜日のILL申込については、月曜日以降の対応となります。",
+        "館外貸出:可 (但し、予め図書館利用カ-ドの発行を要する。当日不可。身分証明書持参。)",
+        "制限事項:参考図書、雑誌、ビデオ等は貸出をしません。",
+        "休館日:日曜日、国民の祝日、5月1日、8月13日、年末年始、長期休業期間中の土曜日",
+        "ILL-Org:The Japanese Red Cross Akita College of Nursing Library",
+        "ILL-Address:17-3 Nawashirosawa,Saruta-Aza,Kamikitade,Akita-city,Akita,JAPAN",
+        "ILL-ZIP:010-1492",
+        "ILL-Commun1:Tel:+81-18-829-3070/FAX:+81-18-829-3032/E-mail:lib@rcakita.ac.jp"
+      ]
+    }
+  ]
+}

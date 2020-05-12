@@ -1,1 +1,92 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA001732.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA001732#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA001732.json"},"foaf:name":[{"@value":"群馬大学 総合情報メディアセンター 理工学図書館"},{"@value":"グンマダイガク ソウゴウジョウホウメディアセンター リコウガクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"群大理工"},{"@value":"グンダイリコウ","@language":"ja-hrkt"}],"dcterms:hasPart":["研究室","図書館"],"cinii:memberid":"FA001732","cinii:organizationid":"KI000196","cinii:prefcode":"10","cinii:mextid":"001802","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"群馬大学 総合情報メディアセンター 理工学図書館","v:adr":{"@type":"v:Address","v:postal-code":"376-8516","v:label":"群馬県桐生市天神町1-5-1"},"v:tel":[{"@type":"v:Tel","@value":"0277-30-1073"}],"v:fax":[{"@type":"v:Fax","@value":"0277-30-1082(G3)"}],"dc:description":["Science and Technology Library of Gunma University","1-5-1 Tenjin-cho, Kiryu, Gunma 376-8516","URL:https://www.media.gunma-u.ac.jp (website)","URL:https://www.media.gunma-u.ac.jp/aboutus/access/ (map)","来館利用者担当:理工学情報係","電話番号:0277-30-1079","受付時間:9:00-21:30(土曜日10:00-17:30)","注意事項:利用する資料は、オンライン目録で所在(理工図)等を確認し、事前に連絡してください。来館時は「学外者利用受付簿」に記入してください。","持参書類:閲覧のみの利用は不要、貸出希望者は貸出カード貼付用の顔写真1枚(コピー可)と住所の確認できる公的証明書(運転免許証等)","複写時間:9:00-21:50(土曜日10:00-17:50)","館外貸出:可(ただし図書館備付資料(オンライン目録の所在が「理工図」で始まるもの)のみ。研究室備付資料は貸出できません) (なお、中央館、医学図書館発行の貸出カードは理工学図書館でそのまま使用できます) (直接来館のみ。遠隔地の場合は図書館間貸出をご利用ください)","制限事項:研究室備付資料は閲覧できない場合があります。","休館日:日曜日・国民の祝日・年末年始・休業期間中の土曜日・入学試験日","ILL-Org: Science and Technology Library of Gunma University","ILL-Adress: 1-5-1 Tenjin-cho, Kiryu, Gunma, Japan","ILL-ZIP: 376-8516","ILL-Commun1: Tel:+81-277-30-1073 / FAX: +81-277-30-1082 / E-mail: stlib@jimu.gunma-u.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001732.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001732#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001732.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "群馬大学 総合情報メディアセンター 理工学図書館"
+        },
+        {
+          "@value": "グンマダイガク ソウゴウジョウホウメディアセンター リコウガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "群大理工"
+        },
+        {
+          "@value": "グンダイリコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研究室",
+        "図書館"
+      ],
+      "cinii:memberid": "FA001732",
+      "cinii:organizationid": "KI000196",
+      "cinii:prefcode": "10",
+      "cinii:mextid": "001802",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "群馬大学 総合情報メディアセンター 理工学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "376-8516",
+        "v:label": "群馬県桐生市天神町1-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0277-30-1073"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0277-30-1082(G3)"
+        }
+      ],
+      "dc:description": [
+        "Science and Technology Library of Gunma University",
+        "1-5-1 Tenjin-cho, Kiryu, Gunma 376-8516",
+        "URL:https://www.media.gunma-u.ac.jp (website)",
+        "URL:https://www.media.gunma-u.ac.jp/aboutus/access/ (map)",
+        "来館利用者担当:理工学情報係",
+        "電話番号:0277-30-1079",
+        "受付時間:9:00-21:30(土曜日10:00-17:30)",
+        "注意事項:利用する資料は、オンライン目録で所在(理工図)等を確認し、事前に連絡してください。来館時は「学外者利用受付簿」に記入してください。",
+        "持参書類:閲覧のみの利用は不要、貸出希望者は貸出カード貼付用の顔写真1枚(コピー可)と住所の確認できる公的証明書(運転免許証等)",
+        "複写時間:9:00-21:50(土曜日10:00-17:50)",
+        "館外貸出:可(ただし図書館備付資料(オンライン目録の所在が「理工図」で始まるもの)のみ。研究室備付資料は貸出できません) (なお、中央館、医学図書館発行の貸出カードは理工学図書館でそのまま使用できます) (直接来館のみ。遠隔地の場合は図書館間貸出をご利用ください)",
+        "制限事項:研究室備付資料は閲覧できない場合があります。",
+        "休館日:日曜日・国民の祝日・年末年始・休業期間中の土曜日・入学試験日",
+        "ILL-Org: Science and Technology Library of Gunma University",
+        "ILL-Adress: 1-5-1 Tenjin-cho, Kiryu, Gunma, Japan",
+        "ILL-ZIP: 376-8516",
+        "ILL-Commun1: Tel:+81-277-30-1073 / FAX: +81-277-30-1082 / E-mail: stlib@jimu.gunma-u.ac.jp"
+      ]
+    }
+  ]
+}

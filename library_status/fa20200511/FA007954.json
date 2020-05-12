@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007954.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007954#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007954.json"},"foaf:name":[{"@value":"追手門学院大学 附属図書館"},{"@value":"オウテモンガクインダイガク フゾクトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"追手門"},{"@value":"オウテモン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA007954","cinii:organizationid":"KI003693","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"C","cinii:illstatus":"N","v:fn":"追手門学院大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"567-8502","v:label":"大阪府茨木市西安威2-1-15"},"v:tel":[{"@type":"v:Tel","@value":"072-641-9641"}],"v:fax":[{"@type":"v:Fax","@value":"072-643-9786"}],"dc:description":["Otemon Gakuin University Library","2-1-15, Nishi-Ai, Ibaraki-shi Osaka 567-8502","URL:https://lib-opac.otemon.ac.jp/ (OPAC)","当館HPの一部を復旧いたしました。URL:https://library.otemon.ac.jp/ (website)","URL:http://www.otemon.ac.jp/access/kotsu.htm (map)","来館利用担当:山本(安威キャンパス)天田(総持寺キャンパス)","電話番号:072-641-9641(安威キャンパス)072-697-8165(総持寺キャンパス)","受付時間: 平日 9:00～17:00","注意事項:必ず事前連絡をしてください。 大学・研究機関に所属しておられる方は、所属機関の図書館を通じて、一般の方は、公共図書館を通じてお申し込みください。開館日・時間は事前にご確認ください。","持参書類:当館からのFAX回答(または紹介状)。身分を証明する物を携行してください。","館外貸出:不可","休館日: 夏期一斉休暇・年末年始・蔵書点検・土曜・日曜日・国民の祝日 (詳細はホームページで確認してください。)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007954.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007954#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007954.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "追手門学院大学 附属図書館"
+        },
+        {
+          "@value": "オウテモンガクインダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "追手門"
+        },
+        {
+          "@value": "オウテモン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA007954",
+      "cinii:organizationid": "KI003693",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "N",
+      "v:fn": "追手門学院大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "567-8502",
+        "v:label": "大阪府茨木市西安威2-1-15"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-641-9641"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-643-9786"
+        }
+      ],
+      "dc:description": [
+        "Otemon Gakuin University Library",
+        "2-1-15, Nishi-Ai, Ibaraki-shi Osaka 567-8502",
+        "URL:https://lib-opac.otemon.ac.jp/ (OPAC)",
+        "当館HPの一部を復旧いたしました。URL:https://library.otemon.ac.jp/ (website)",
+        "URL:http://www.otemon.ac.jp/access/kotsu.htm (map)",
+        "来館利用担当:山本(安威キャンパス)天田(総持寺キャンパス)",
+        "電話番号:072-641-9641(安威キャンパス)072-697-8165(総持寺キャンパス)",
+        "受付時間: 平日 9:00～17:00",
+        "注意事項:必ず事前連絡をしてください。 大学・研究機関に所属しておられる方は、所属機関の図書館を通じて、一般の方は、公共図書館を通じてお申し込みください。開館日・時間は事前にご確認ください。",
+        "持参書類:当館からのFAX回答(または紹介状)。身分を証明する物を携行してください。",
+        "館外貸出:不可",
+        "休館日: 夏期一斉休暇・年末年始・蔵書点検・土曜・日曜日・国民の祝日 (詳細はホームページで確認してください。)"
+      ]
+    }
+  ]
+}

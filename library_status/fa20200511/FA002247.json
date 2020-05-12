@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002247.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002247#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002247.json"},"foaf:name":[{"@value":"福井大学 附属図書館 医学図書館"},{"@value":"フクイダイガク フゾクトショカン イガクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"福井大医"},{"@value":"フクイダイイ","@language":"ja-hrkt"}],"cinii:memberid":"FA002247","cinii:organizationid":"KI000414","cinii:prefcode":"18","cinii:mextid":"003801","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"福井大学 附属図書館 医学図書館","v:adr":{"@type":"v:Address","v:postal-code":"910-1194","v:label":"福井県吉田郡永平寺町松岡下合月23-3"},"v:tel":[{"@type":"v:Tel","@value":"0776-61-8258"}],"v:fax":[{"@type":"v:Fax","@value":"0776-61-8100"}],"dc:description":["University of Fukui Medical Library","23-3, Shimoaizuki, Matsuoka, Eiheiji-cyo, Yoshida-gun, Fukui 910-1194","http://www.flib.fukui-u.ac.jp/igaku.html","来館利用担当 医学情報サービス担当","電話番号 0776-61-8258","受付時間 9:00-20:00","注意事項 資料の所在等、事前確認をしてください。","持参書類 身分証明書","複写時間 9:00-20:00(土・日・祝日10:00-17:00)","制限事項","休館日 年末年始(12/29-1/3)、 8-9月の土・日・祝日、8月の一斉休業日、その他ホームページの開館カレンダーをご確認ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002247.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002247#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002247.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福井大学 附属図書館 医学図書館"
+        },
+        {
+          "@value": "フクイダイガク フゾクトショカン イガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福井大医"
+        },
+        {
+          "@value": "フクイダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA002247",
+      "cinii:organizationid": "KI000414",
+      "cinii:prefcode": "18",
+      "cinii:mextid": "003801",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "福井大学 附属図書館 医学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "910-1194",
+        "v:label": "福井県吉田郡永平寺町松岡下合月23-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0776-61-8258"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0776-61-8100"
+        }
+      ],
+      "dc:description": [
+        "University of Fukui Medical Library",
+        "23-3, Shimoaizuki, Matsuoka, Eiheiji-cyo, Yoshida-gun, Fukui 910-1194",
+        "http://www.flib.fukui-u.ac.jp/igaku.html",
+        "来館利用担当 医学情報サービス担当",
+        "電話番号 0776-61-8258",
+        "受付時間 9:00-20:00",
+        "注意事項 資料の所在等、事前確認をしてください。",
+        "持参書類 身分証明書",
+        "複写時間 9:00-20:00(土・日・祝日10:00-17:00)",
+        "制限事項",
+        "休館日 年末年始(12/29-1/3)、 8-9月の土・日・祝日、8月の一斉休業日、その他ホームページの開館カレンダーをご確認ください。"
+      ]
+    }
+  ]
+}

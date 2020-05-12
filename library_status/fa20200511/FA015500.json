@@ -1,1 +1,89 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015500.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015500#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015500.json"},"foaf:name":[{"@value":"新潟工科大学 附属図書館"},{"@value":"ニイガタコウカダイガク フゾクトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"新工大"},{"@value":"シンコウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["機械工","情電工","物生工","建築学","一般","図"],"cinii:memberid":"FA015500","cinii:organizationid":"KI00829X","cinii:prefcode":"15","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"新潟工科大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"945-1195","v:label":"新潟県柏崎市藤橋1719番地"},"v:tel":[{"@type":"v:Tel","@value":"0257-22-8177"}],"v:fax":[{"@type":"v:Fax","@value":"0257-22-8178"}],"dc:description":["Niigata Institute of Technology Library","1719, Fujihashi, Kashiwazaki-shi, Niigata 945-1195","URL:https://www01s.ufinity.jp/niit/","来館利用担当:図書館員全員","開館時間:通常 8:35〜19:00(夏季一定期間は20:00まで) 学生休業期間開館時 8:35〜17:00","持参書類:身分証明書(運転免許証等)","学外の方への館外貸出:2冊以内、2週間以内(利用登録が必要です。図書:貸出できます,雑誌:館内でご利用ください。)","休館日 :土曜日・日曜日・国民の祝日・振替休日・年末年始・夏季休業中の一定期間 ※詳細は図書館ホームページをご覧ください。","ILL-Org:Niigata Institute of Technology Library","ILL-Address:1719 Fujihashi, Kashiwazaki-shi, Niigata, JAPAN","ILL-ZIP:945-1195"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015500.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015500#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015500.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "新潟工科大学 附属図書館"
+        },
+        {
+          "@value": "ニイガタコウカダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "新工大"
+        },
+        {
+          "@value": "シンコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "機械工",
+        "情電工",
+        "物生工",
+        "建築学",
+        "一般",
+        "図"
+      ],
+      "cinii:memberid": "FA015500",
+      "cinii:organizationid": "KI00829X",
+      "cinii:prefcode": "15",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "新潟工科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "945-1195",
+        "v:label": "新潟県柏崎市藤橋1719番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0257-22-8177"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0257-22-8178"
+        }
+      ],
+      "dc:description": [
+        "Niigata Institute of Technology Library",
+        "1719, Fujihashi, Kashiwazaki-shi, Niigata 945-1195",
+        "URL:https://www01s.ufinity.jp/niit/",
+        "来館利用担当:図書館員全員",
+        "開館時間:通常 8:35〜19:00(夏季一定期間は20:00まで) 学生休業期間開館時 8:35〜17:00",
+        "持参書類:身分証明書(運転免許証等)",
+        "学外の方への館外貸出:2冊以内、2週間以内(利用登録が必要です。図書:貸出できます,雑誌:館内でご利用ください。)",
+        "休館日 :土曜日・日曜日・国民の祝日・振替休日・年末年始・夏季休業中の一定期間 ※詳細は図書館ホームページをご覧ください。",
+        "ILL-Org:Niigata Institute of Technology Library",
+        "ILL-Address:1719 Fujihashi, Kashiwazaki-shi, Niigata, JAPAN",
+        "ILL-ZIP:945-1195"
+      ]
+    }
+  ]
+}

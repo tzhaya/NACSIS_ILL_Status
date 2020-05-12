@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007976.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007976#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007976.json"},"foaf:name":[{"@value":"関西医科大学 附属図書館"},{"@value":"カンサイイカダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"関医大"},{"@value":"カンイダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["本館","本館倉庫","電子ジャーナル","看護"],"cinii:memberid":"FA007976","cinii:organizationid":"KI003718","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"関西医科大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"573-1010","v:label":"大阪府枚方市新町2丁目5-1"},"v:tel":[{"@type":"v:Tel","@value":"072-804-2573"}],"v:fax":[{"@type":"v:Fax","@value":"072-804-2587"}],"dc:description":["Library of Kansai Medical University","2-5-1 Shinmachi Hirakata-shi Osaka 573-1010","URL:http://www.kmu.ac.jp/library/","本図書館は、一般の方の利用はできません。","利用できるのは大学、医療機関、地域医師会会員の方などです。","来館に際しては所定の手続きが必要です。","必ず、事前にお電話(072)804-2579でお問い合わせください。","受付時間:平日9:00〜17:00"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007976.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007976#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007976.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関西医科大学 附属図書館"
+        },
+        {
+          "@value": "カンサイイカダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関医大"
+        },
+        {
+          "@value": "カンイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館",
+        "本館倉庫",
+        "電子ジャーナル",
+        "看護"
+      ],
+      "cinii:memberid": "FA007976",
+      "cinii:organizationid": "KI003718",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "関西医科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "573-1010",
+        "v:label": "大阪府枚方市新町2丁目5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-804-2573"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-804-2587"
+        }
+      ],
+      "dc:description": [
+        "Library of Kansai Medical University",
+        "2-5-1 Shinmachi Hirakata-shi Osaka 573-1010",
+        "URL:http://www.kmu.ac.jp/library/",
+        "本図書館は、一般の方の利用はできません。",
+        "利用できるのは大学、医療機関、地域医師会会員の方などです。",
+        "来館に際しては所定の手続きが必要です。",
+        "必ず、事前にお電話(072)804-2579でお問い合わせください。",
+        "受付時間:平日9:00〜17:00"
+      ]
+    }
+  ]
+}

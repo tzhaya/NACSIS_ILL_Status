@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004457.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004457#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004457.json"},"foaf:name":[{"@value":"仙台大学 図書館"},{"@value":"センダイダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"仙大"},{"@value":"センダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA004457","cinii:organizationid":"KI00152X","cinii:prefcode":"04","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"仙台大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"989-1693","v:label":"宮城県柴田郡柴田町船岡南2丁目2-18"},"v:tel":[{"@type":"v:Tel","@value":"0224-55-1399"}],"v:fax":[{"@type":"v:Fax","@value":"0224-57-2062"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004457.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004457#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004457.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "仙台大学 図書館"
+        },
+        {
+          "@value": "センダイダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "仙大"
+        },
+        {
+          "@value": "センダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004457",
+      "cinii:organizationid": "KI00152X",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "仙台大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "989-1693",
+        "v:label": "宮城県柴田郡柴田町船岡南2丁目2-18"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0224-55-1399"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0224-57-2062"
+        }
+      ]
+    }
+  ]
+}

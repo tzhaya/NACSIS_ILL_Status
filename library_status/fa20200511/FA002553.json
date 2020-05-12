@@ -1,1 +1,103 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002553.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002553#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002553.json"},"foaf:name":[{"@value":"豊橋技術科学大学 附属図書館"},{"@value":"トヨハシギジュツカガクダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"豊技大"},{"@value":"トヨギダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA002553","cinii:organizationid":"KI000527","cinii:prefcode":"23","cinii:mextid":"008500","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"豊橋技術科学大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"441-8580","v:label":"愛知県豊橋市天伯町雲雀ケ丘1-1"},"v:tel":[{"@type":"v:Tel","@value":"0532-44-6564(DI)"}],"v:fax":[{"@type":"v:Fax","@value":"0532-44-6566(G3)"}],"dc:description":["Toyohashi University of Technology Library","1-1 Hibarigaoka, Tempaku-cho, Toyohashi, 441-8580 Japan","URL:http://www.lib.tut.ac.jp /(website)","URL:http://www.tut.ac.jp/Frame00/sub_syokai.htm (map)","来館利用担当: 情報サービス係","電話番号: 0532-44-6564","受付時間: 9:00 〜 20:00 (土曜日 13:00 〜 17:00)","持参書類: 身分証明書","複写時間: 9:00 〜 17:00 (土曜日 13:00 〜 17:00)","制限事項: 研究室所蔵資料は希望に応じられない場合がある","休館日: 日曜日, 国民の祝日, 年末年始, 開学記念日(10/1), 夏期休業日・館内蔵書点検日 ホームページカレンダー参照","==========Lending Policy==========","ILL-Staff:","ILL-Dept: Information Service Section","ILL-Org: Toyohashi University of Technology Library","ILL-Address: 1-1 Hibarigaoka, Tempaku-cho, Toyohashi, JAPAN","ILL-ZIP: 441-8580","ILL-Commun1: TEL:+81-*********** / FAX:+81-*********** / E-mail:gakujo@office.tut.ac.jp","ILL-Commun2: OPAC:http://tutlos.lib.tut.ac.jp/limedio/index.html / Home-Page: http://www.lib.tut.ac.jp/ Ariel(e-mail attached): gakujo@office.tut.ac.jp","ILL-Accept: OCLC (NII-OCLC link): TU#","ILL-Sched: Closed: Dec. 25-Jan. 4","ILL-Bill:","ILL-Loan-Period: 6 weeks per volume / up to 3 volumes per library","ILL-Loan-Renew: None","ILL-Loan-Charge: Postage required / Delivery method: via air mail / No rush service available","ILL-Non-Circulation: ref, per, news, a-v, DIS, THESIS","ILL-Copy-Charge: Photocopy:40 YEN per sheet (monocrome), 50 YEN per sheet (color) / Postage required / Delivery method: via air mail","ILL-Note: Only the items held at the Library are available / DIS: Photocopy: need the author's permission / THESIS: Photocopy: need the author's permission","ILL-OCLC-Symbol:TU#"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002553.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002553#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002553.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "豊橋技術科学大学 附属図書館"
+        },
+        {
+          "@value": "トヨハシギジュツカガクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "豊技大"
+        },
+        {
+          "@value": "トヨギダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA002553",
+      "cinii:organizationid": "KI000527",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "008500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "豊橋技術科学大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "441-8580",
+        "v:label": "愛知県豊橋市天伯町雲雀ケ丘1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0532-44-6564(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0532-44-6566(G3)"
+        }
+      ],
+      "dc:description": [
+        "Toyohashi University of Technology Library",
+        "1-1 Hibarigaoka, Tempaku-cho, Toyohashi, 441-8580 Japan",
+        "URL:http://www.lib.tut.ac.jp /(website)",
+        "URL:http://www.tut.ac.jp/Frame00/sub_syokai.htm (map)",
+        "来館利用担当: 情報サービス係",
+        "電話番号: 0532-44-6564",
+        "受付時間: 9:00 〜 20:00 (土曜日 13:00 〜 17:00)",
+        "持参書類: 身分証明書",
+        "複写時間: 9:00 〜 17:00 (土曜日 13:00 〜 17:00)",
+        "制限事項: 研究室所蔵資料は希望に応じられない場合がある",
+        "休館日: 日曜日, 国民の祝日, 年末年始, 開学記念日(10/1), 夏期休業日・館内蔵書点検日 ホームページカレンダー参照",
+        "==========Lending Policy==========",
+        "ILL-Staff:",
+        "ILL-Dept: Information Service Section",
+        "ILL-Org: Toyohashi University of Technology Library",
+        "ILL-Address: 1-1 Hibarigaoka, Tempaku-cho, Toyohashi, JAPAN",
+        "ILL-ZIP: 441-8580",
+        "ILL-Commun1: TEL:+81-*********** / FAX:+81-*********** / E-mail:gakujo@office.tut.ac.jp",
+        "ILL-Commun2: OPAC:http://tutlos.lib.tut.ac.jp/limedio/index.html / Home-Page: http://www.lib.tut.ac.jp/ Ariel(e-mail attached): gakujo@office.tut.ac.jp",
+        "ILL-Accept: OCLC (NII-OCLC link): TU#",
+        "ILL-Sched: Closed: Dec. 25-Jan. 4",
+        "ILL-Bill:",
+        "ILL-Loan-Period: 6 weeks per volume / up to 3 volumes per library",
+        "ILL-Loan-Renew: None",
+        "ILL-Loan-Charge: Postage required / Delivery method: via air mail / No rush service available",
+        "ILL-Non-Circulation: ref, per, news, a-v, DIS, THESIS",
+        "ILL-Copy-Charge: Photocopy:40 YEN per sheet (monocrome), 50 YEN per sheet (color) / Postage required / Delivery method: via air mail",
+        "ILL-Note: Only the items held at the Library are available / DIS: Photocopy: need the author's permission / THESIS: Photocopy: need the author's permission",
+        "ILL-OCLC-Symbol:TU#"
+      ]
+    }
+  ]
+}

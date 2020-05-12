@@ -1,1 +1,76 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004898.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004898#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004898.json"},"foaf:name":[{"@value":"中央学院大学 図書館"},{"@value":"チュウオウガクインダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"中院大"},{"@value":"チュウインダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA004898","cinii:organizationid":"KI001869","cinii:prefcode":"12","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"N","v:fn":"中央学院大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"270-1196","v:label":"千葉県我孫子市久寺家451"},"v:tel":[{"@type":"v:Tel","@value":"04-7183-6525"}],"v:fax":[{"@type":"v:Fax","@value":"04-7183-6533"}],"dc:description":["URL:http://www.cgu.ac.jp/lib/tabid/66/Default.aspx","閲覧事前連絡: 利用の前日までに電話にてご連絡ください。","閲覧持参書類: 紹介状、身分を証明するもの","閲覧受付時間: 月-金 9:30-16:00","休館日: 土・日・祝祭日、学内行事日","注記: 各季休業期間により開館時間が異なります 詳しくはホームページ<https://www.cgu.ac.jp/library/>をご覧下さい。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004898.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004898#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004898.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "中央学院大学 図書館"
+        },
+        {
+          "@value": "チュウオウガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中院大"
+        },
+        {
+          "@value": "チュウインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004898",
+      "cinii:organizationid": "KI001869",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "中央学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "270-1196",
+        "v:label": "千葉県我孫子市久寺家451"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-7183-6525"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-7183-6533"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.cgu.ac.jp/lib/tabid/66/Default.aspx",
+        "閲覧事前連絡: 利用の前日までに電話にてご連絡ください。",
+        "閲覧持参書類: 紹介状、身分を証明するもの",
+        "閲覧受付時間: 月-金 9:30-16:00",
+        "休館日: 土・日・祝祭日、学内行事日",
+        "注記: 各季休業期間により開館時間が異なります 詳しくはホームページ<https://www.cgu.ac.jp/library/>をご覧下さい。"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018123.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018123#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018123.json"},"foaf:name":[{"@value":"松山市民病院 図書室"},{"@value":"マツヤマシミンビヨウイン トシヨシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"松山市病"},{"@value":"マツヤマシビヨウ","@language":"ja-hrkt"}],"cinii:memberid":"FA018123","cinii:organizationid":"KI010586","cinii:prefcode":"38","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"松山市民病院 図書室","v:adr":{"@type":"v:Address","v:postal-code":"790-0067","v:label":"愛媛県松山市大手町2-6-5"},"v:tel":[{"@type":"v:Tel","@value":"089-943-1151(代)"}],"v:fax":[{"@type":"v:Fax","@value":"089-933-4877(図書室)"}],"dc:description":["複写担当係:図書室","申込方法:FAX","★速達の場合、要事前電話連絡。複写物FAX送付不可★","★1機関につき1日1回3件まで。これを超える場合は、要事前電話連絡。連絡無き場合は対応いたしません。医中誌IDやPubMedIDなどの典拠を必ず記載してください。★","★★★2020年4月1日(水)～3日(金)ILL休止。担当者不在★★★","支払方法:少額(100円以下)切手, 後納(通知書のコピーではなく、必ず明細書に「当館受付番号」「複写料、送料などの明細」「貴館名称」を明記し、1か月以内にお支払ください。)★領収書、受領書、請求書などの発行・返送はできません★","複写受付時間 :10:00〜17:00","館外貸出:不可","休館日:土・日曜日、祝日、お盆期間、年末年始(12月28日～1月4日)","Matsuyama Shimin Hospital","2-6-5 Ohtemachi, Matsuyama 790-0067 Ehime, Japan"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018123.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018123#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018123.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "松山市民病院 図書室"
+        },
+        {
+          "@value": "マツヤマシミンビヨウイン トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "松山市病"
+        },
+        {
+          "@value": "マツヤマシビヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018123",
+      "cinii:organizationid": "KI010586",
+      "cinii:prefcode": "38",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "松山市民病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "790-0067",
+        "v:label": "愛媛県松山市大手町2-6-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "089-943-1151(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "089-933-4877(図書室)"
+        }
+      ],
+      "dc:description": [
+        "複写担当係:図書室",
+        "申込方法:FAX",
+        "★速達の場合、要事前電話連絡。複写物FAX送付不可★",
+        "★1機関につき1日1回3件まで。これを超える場合は、要事前電話連絡。連絡無き場合は対応いたしません。医中誌IDやPubMedIDなどの典拠を必ず記載してください。★",
+        "★★★2020年4月1日(水)～3日(金)ILL休止。担当者不在★★★",
+        "支払方法:少額(100円以下)切手, 後納(通知書のコピーではなく、必ず明細書に「当館受付番号」「複写料、送料などの明細」「貴館名称」を明記し、1か月以内にお支払ください。)★領収書、受領書、請求書などの発行・返送はできません★",
+        "複写受付時間 :10:00〜17:00",
+        "館外貸出:不可",
+        "休館日:土・日曜日、祝日、お盆期間、年末年始(12月28日～1月4日)",
+        "Matsuyama Shimin Hospital",
+        "2-6-5 Ohtemachi, Matsuyama 790-0067 Ehime, Japan"
+      ]
+    }
+  ]
+}

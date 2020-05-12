@@ -1,1 +1,96 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA001062.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA001062#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA001062.json"},"foaf:name":[{"@value":"北海道大学 大学院理学研究科・理学部図書室"},{"@value":"ホッカイドウダイガク ダイガクインリガクケンキュウカ・リガクブトショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"北大理"},{"@value":"ホクダイリ","@language":"ja-hrkt"}],"dcterms:hasPart":["図書","研究室","数学"],"cinii:memberid":"FA001062","cinii:organizationid":"KI000017","cinii:prefcode":"01","cinii:mextid":"000103","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"北海道大学 大学院理学研究科・理学部図書室","v:adr":{"@type":"v:Address","v:postal-code":"060-0810","v:label":"札幌市北区北10条西8丁目"},"v:tel":[{"@type":"v:Tel","@value":"011(706)2665[依頼・受付]"},{"@type":"v:Tel","@value":"011(706)2634[数学受付]"}],"v:fax":[{"@type":"v:Fax","@value":"011(706)3715"}],"dc:description":["Hokkaido University, Library, Graduate School of Science, Faculty of Science and School of Science","Kita 10, Nishi 8, Kita-ku, Sapporo 060-0810","URL:https://www.lib.hokudai.ac.jp/sci/","来館利用担当:図書担当","電話番号:011-706-3808[図書係長席], 011-706-2667[図書室カウンター]","受付時間:9:00〜17:00","注意事項:学外者の方への館外貸出は行っておりません。(ただし、附属図書館で図書館利用証の交付を受けた方を除く)","持参書類:身分を証明できるもの","複写時間:9:00〜17:00","館外貸出:不可(附属図書館で図書館利用証の交付を受けた学外者の方を除く)、但し複写のための一時持ち出しは可","制限事項:なし","休館日:土曜日、日曜日、国民の祝日、年末年始","ILL-Org:Hokkaido University, Library, Graduate School of Science, Faculty of Science and School of Science","ILL-Address:Kita 10, Nishi 8, Kita-ku, Sapporo, Hokkaido, JAPAN","ILL-ZIP:060-0810","ILL-Commun1:fax:+81-11-706-3715 / E-mail:sci@lib.hokudai.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001062.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001062#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001062.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 大学院理学研究科・理学部図書室"
+        },
+        {
+          "@value": "ホッカイドウダイガク ダイガクインリガクケンキュウカ・リガクブトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大理"
+        },
+        {
+          "@value": "ホクダイリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "研究室",
+        "数学"
+      ],
+      "cinii:memberid": "FA001062",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000103",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道大学 大学院理学研究科・理学部図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-0810",
+        "v:label": "札幌市北区北10条西8丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011(706)2665[依頼・受付]"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "011(706)2634[数学受付]"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011(706)3715"
+        }
+      ],
+      "dc:description": [
+        "Hokkaido University, Library, Graduate School of Science, Faculty of Science and School of Science",
+        "Kita 10, Nishi 8, Kita-ku, Sapporo 060-0810",
+        "URL:https://www.lib.hokudai.ac.jp/sci/",
+        "来館利用担当:図書担当",
+        "電話番号:011-706-3808[図書係長席], 011-706-2667[図書室カウンター]",
+        "受付時間:9:00〜17:00",
+        "注意事項:学外者の方への館外貸出は行っておりません。(ただし、附属図書館で図書館利用証の交付を受けた方を除く)",
+        "持参書類:身分を証明できるもの",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可(附属図書館で図書館利用証の交付を受けた学外者の方を除く)、但し複写のための一時持ち出しは可",
+        "制限事項:なし",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始",
+        "ILL-Org:Hokkaido University, Library, Graduate School of Science, Faculty of Science and School of Science",
+        "ILL-Address:Kita 10, Nishi 8, Kita-ku, Sapporo, Hokkaido, JAPAN",
+        "ILL-ZIP:060-0810",
+        "ILL-Commun1:fax:+81-11-706-3715 / E-mail:sci@lib.hokudai.ac.jp"
+      ]
+    }
+  ]
+}

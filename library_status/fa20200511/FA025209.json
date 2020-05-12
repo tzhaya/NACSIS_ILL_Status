@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA025209.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA025209#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA025209.json"},"foaf:name":[{"@value":"広島都市学園大学 附属西風図書館"},{"@value":"ヒロシマトシガクエンダイガク フゾクセイフウトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"広都大西風"},{"@value":"ヒロトダイセイフウ","@language":"ja-hrkt"}],"cinii:memberid":"FA025209","cinii:organizationid":"KI014736","cinii:prefcode":"34","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"広島都市学園大学 附属西風図書館","v:adr":{"@type":"v:Address","v:postal-code":"731-3166","v:label":"広島県広島市安佐南区大塚東3丁目2-1"},"v:tel":[{"@type":"v:Tel","@value":"082-849-6883"}],"v:fax":[{"@type":"v:Fax","@value":"082-849-6884"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA025209.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA025209#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA025209.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島都市学園大学 附属西風図書館"
+        },
+        {
+          "@value": "ヒロシマトシガクエンダイガク フゾクセイフウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広都大西風"
+        },
+        {
+          "@value": "ヒロトダイセイフウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA025209",
+      "cinii:organizationid": "KI014736",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "広島都市学園大学 附属西風図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "731-3166",
+        "v:label": "広島県広島市安佐南区大塚東3丁目2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-849-6883"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-849-6884"
+        }
+      ]
+    }
+  ]
+}

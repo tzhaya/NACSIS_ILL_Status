@@ -1,1 +1,78 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA027827.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA027827#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA027827.json"},"foaf:name":[{"@value":"宇宙航空研究開発機構 角田図書室"},{"@value":"ウチュウコウクウケンキュウカイハツキコウ カクダトショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"JAXA/KSPC"},{"@value":"ジャクサ カクダトショ","@language":"ja-hrkt"}],"dcterms:hasPart":["JAXA/KAKUDA"],"cinii:memberid":"FA027827","cinii:organizationid":"KI004641","cinii:prefcode":"04","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"宇宙航空研究開発機構 角田図書室","v:adr":{"@type":"v:Address","v:postal-code":"981-1525","v:label":"角田市君萱字小金沢1"},"v:tel":[{"@type":"v:Tel","@value":"050-3362-5976"}],"v:fax":[{"@type":"v:Fax","@value":"0224-68-3942"}],"dc:description":["開館時間:9:30-17:45","休館日:土曜日、日曜日、国民の祝日、年末年始","注記:図書館以外の所蔵資料の場合は応じられないこともあります","注記:機関外の方は館外貸出できません","https://www-std01.ufinity.jp/jaxalib/(website)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027827.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027827#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027827.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宇宙航空研究開発機構 角田図書室"
+        },
+        {
+          "@value": "ウチュウコウクウケンキュウカイハツキコウ カクダトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "JAXA/KSPC"
+        },
+        {
+          "@value": "ジャクサ カクダトショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "JAXA/KAKUDA"
+      ],
+      "cinii:memberid": "FA027827",
+      "cinii:organizationid": "KI004641",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "宇宙航空研究開発機構 角田図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "981-1525",
+        "v:label": "角田市君萱字小金沢1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "050-3362-5976"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0224-68-3942"
+        }
+      ],
+      "dc:description": [
+        "開館時間:9:30-17:45",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始",
+        "注記:図書館以外の所蔵資料の場合は応じられないこともあります",
+        "注記:機関外の方は館外貸出できません",
+        "https://www-std01.ufinity.jp/jaxalib/(website)"
+      ]
+    }
+  ]
+}

@@ -1,1784 +1,1784 @@
 #!/bin/sh
-curl https://ci.nii.ac.jp/library/FA001007.json -o FA001007.json
-curl https://ci.nii.ac.jp/library/FA001018.json -o FA001018.json
-curl https://ci.nii.ac.jp/library/FA001029.json -o FA001029.json
-curl https://ci.nii.ac.jp/library/FA001040.json -o FA001040.json
-curl https://ci.nii.ac.jp/library/FA001051.json -o FA001051.json
-curl https://ci.nii.ac.jp/library/FA001062.json -o FA001062.json
-curl https://ci.nii.ac.jp/library/FA001073.json -o FA001073.json
-curl https://ci.nii.ac.jp/library/FA001084.json -o FA001084.json
-curl https://ci.nii.ac.jp/library/FA001095.json -o FA001095.json
-curl https://ci.nii.ac.jp/library/FA001109.json -o FA001109.json
-curl https://ci.nii.ac.jp/library/FA001120.json -o FA001120.json
-curl https://ci.nii.ac.jp/library/FA001153.json -o FA001153.json
-curl https://ci.nii.ac.jp/library/FA001164.json -o FA001164.json
-curl https://ci.nii.ac.jp/library/FA001175.json -o FA001175.json
-curl https://ci.nii.ac.jp/library/FA001186.json -o FA001186.json
-curl https://ci.nii.ac.jp/library/FA001197.json -o FA001197.json
-curl https://ci.nii.ac.jp/library/FA001200.json -o FA001200.json
-curl https://ci.nii.ac.jp/library/FA001211.json -o FA001211.json
-curl https://ci.nii.ac.jp/library/FA001222.json -o FA001222.json
-curl https://ci.nii.ac.jp/library/FA020453.json -o FA020453.json
-curl https://ci.nii.ac.jp/library/FA001244.json -o FA001244.json
-curl https://ci.nii.ac.jp/library/FA001255.json -o FA001255.json
-curl https://ci.nii.ac.jp/library/FA001266.json -o FA001266.json
-curl https://ci.nii.ac.jp/library/FA001277.json -o FA001277.json
-curl https://ci.nii.ac.jp/library/FA001288.json -o FA001288.json
-curl https://ci.nii.ac.jp/library/FA001299.json -o FA001299.json
-curl https://ci.nii.ac.jp/library/FA001302.json -o FA001302.json
-curl https://ci.nii.ac.jp/library/FA001313.json -o FA001313.json
-curl https://ci.nii.ac.jp/library/FA001324.json -o FA001324.json
-curl https://ci.nii.ac.jp/library/FA001335.json -o FA001335.json
-curl https://ci.nii.ac.jp/library/FA001346.json -o FA001346.json
-curl https://ci.nii.ac.jp/library/FA001357.json -o FA001357.json
-curl https://ci.nii.ac.jp/library/FA001368.json -o FA001368.json
-curl https://ci.nii.ac.jp/library/FA001379.json -o FA001379.json
-curl https://ci.nii.ac.jp/library/FA001390.json -o FA001390.json
-curl https://ci.nii.ac.jp/library/FA001404.json -o FA001404.json
-curl https://ci.nii.ac.jp/library/FA001415.json -o FA001415.json
-curl https://ci.nii.ac.jp/library/FA001426.json -o FA001426.json
-curl https://ci.nii.ac.jp/library/FA001437.json -o FA001437.json
-curl https://ci.nii.ac.jp/library/FA001448.json -o FA001448.json
-curl https://ci.nii.ac.jp/library/FA001481.json -o FA001481.json
-curl https://ci.nii.ac.jp/library/FA001492.json -o FA001492.json
-curl https://ci.nii.ac.jp/library/FA02165X.json -o FA02165X.json
-curl https://ci.nii.ac.jp/library/FA001517.json -o FA001517.json
-curl https://ci.nii.ac.jp/library/FA001528.json -o FA001528.json
-curl https://ci.nii.ac.jp/library/FA001539.json -o FA001539.json
-curl https://ci.nii.ac.jp/library/FA001550.json -o FA001550.json
-curl https://ci.nii.ac.jp/library/FA001561.json -o FA001561.json
-curl https://ci.nii.ac.jp/library/FA001572.json -o FA001572.json
-curl https://ci.nii.ac.jp/library/FA001583.json -o FA001583.json
-curl https://ci.nii.ac.jp/library/FA001594.json -o FA001594.json
-curl https://ci.nii.ac.jp/library/FA001608.json -o FA001608.json
-curl https://ci.nii.ac.jp/library/FA001619.json -o FA001619.json
-curl https://ci.nii.ac.jp/library/FA001630.json -o FA001630.json
-curl https://ci.nii.ac.jp/library/FA001641.json -o FA001641.json
-curl https://ci.nii.ac.jp/library/FA001652.json -o FA001652.json
-curl https://ci.nii.ac.jp/library/FA001663.json -o FA001663.json
-curl https://ci.nii.ac.jp/library/FA001674.json -o FA001674.json
-curl https://ci.nii.ac.jp/library/FA012273.json -o FA012273.json
-curl https://ci.nii.ac.jp/library/FA001685.json -o FA001685.json
-curl https://ci.nii.ac.jp/library/FA001696.json -o FA001696.json
-curl https://ci.nii.ac.jp/library/FA001710.json -o FA001710.json
-curl https://ci.nii.ac.jp/library/FA001721.json -o FA001721.json
-curl https://ci.nii.ac.jp/library/FA001732.json -o FA001732.json
-curl https://ci.nii.ac.jp/library/FA001743.json -o FA001743.json
-curl https://ci.nii.ac.jp/library/FA001754.json -o FA001754.json
-curl https://ci.nii.ac.jp/library/FA001765.json -o FA001765.json
-curl https://ci.nii.ac.jp/library/FA001776.json -o FA001776.json
-curl https://ci.nii.ac.jp/library/FA001787.json -o FA001787.json
-curl https://ci.nii.ac.jp/library/FA001798.json -o FA001798.json
-curl https://ci.nii.ac.jp/library/FA001801.json -o FA001801.json
-curl https://ci.nii.ac.jp/library/FA001823.json -o FA001823.json
-curl https://ci.nii.ac.jp/library/FA001845.json -o FA001845.json
-curl https://ci.nii.ac.jp/library/FA011747.json -o FA011747.json
-curl https://ci.nii.ac.jp/library/FA011758.json -o FA011758.json
-curl https://ci.nii.ac.jp/library/FA011769.json -o FA011769.json
-curl https://ci.nii.ac.jp/library/FA01177X.json -o FA01177X.json
-curl https://ci.nii.ac.jp/library/FA011780.json -o FA011780.json
-curl https://ci.nii.ac.jp/library/FA011791.json -o FA011791.json
-curl https://ci.nii.ac.jp/library/FA011849.json -o FA011849.json
-curl https://ci.nii.ac.jp/library/FA01185X.json -o FA01185X.json
-curl https://ci.nii.ac.jp/library/FA011929.json -o FA011929.json
-curl https://ci.nii.ac.jp/library/FA01193X.json -o FA01193X.json
-curl https://ci.nii.ac.jp/library/FA011951.json -o FA011951.json
-curl https://ci.nii.ac.jp/library/FA011962.json -o FA011962.json
-curl https://ci.nii.ac.jp/library/FA011973.json -o FA011973.json
-curl https://ci.nii.ac.jp/library/FA011984.json -o FA011984.json
-curl https://ci.nii.ac.jp/library/FA012003.json -o FA012003.json
-curl https://ci.nii.ac.jp/library/FA012025.json -o FA012025.json
-curl https://ci.nii.ac.jp/library/FA012069.json -o FA012069.json
-curl https://ci.nii.ac.jp/library/FA012080.json -o FA012080.json
-curl https://ci.nii.ac.jp/library/FA012091.json -o FA012091.json
-curl https://ci.nii.ac.jp/library/FA013990.json -o FA013990.json
-curl https://ci.nii.ac.jp/library/FA020395.json -o FA020395.json
-curl https://ci.nii.ac.jp/library/FA022142.json -o FA022142.json
-curl https://ci.nii.ac.jp/library/FA022153.json -o FA022153.json
-curl https://ci.nii.ac.jp/library/FA001867.json -o FA001867.json
-curl https://ci.nii.ac.jp/library/FA001878.json -o FA001878.json
-curl https://ci.nii.ac.jp/library/FA001889.json -o FA001889.json
-curl https://ci.nii.ac.jp/library/FA001903.json -o FA001903.json
-curl https://ci.nii.ac.jp/library/FA001914.json -o FA001914.json
-curl https://ci.nii.ac.jp/library/FA001925.json -o FA001925.json
-curl https://ci.nii.ac.jp/library/FA020861.json -o FA020861.json
-curl https://ci.nii.ac.jp/library/FA000106.json -o FA000106.json
-curl https://ci.nii.ac.jp/library/FA000117.json -o FA000117.json
-curl https://ci.nii.ac.jp/library/FA001958.json -o FA001958.json
-curl https://ci.nii.ac.jp/library/FA001969.json -o FA001969.json
-curl https://ci.nii.ac.jp/library/FA001980.json -o FA001980.json
-curl https://ci.nii.ac.jp/library/FA001991.json -o FA001991.json
-curl https://ci.nii.ac.jp/library/FA002010.json -o FA002010.json
-curl https://ci.nii.ac.jp/library/FA002043.json -o FA002043.json
-curl https://ci.nii.ac.jp/library/FA002054.json -o FA002054.json
-curl https://ci.nii.ac.jp/library/FA019578.json -o FA019578.json
-curl https://ci.nii.ac.jp/library/FA002065.json -o FA002065.json
-curl https://ci.nii.ac.jp/library/FA002076.json -o FA002076.json
-curl https://ci.nii.ac.jp/library/FA002087.json -o FA002087.json
-curl https://ci.nii.ac.jp/library/FA002098.json -o FA002098.json
-curl https://ci.nii.ac.jp/library/FA002101.json -o FA002101.json
-curl https://ci.nii.ac.jp/library/FA002112.json -o FA002112.json
-curl https://ci.nii.ac.jp/library/FA002123.json -o FA002123.json
-curl https://ci.nii.ac.jp/library/FA002134.json -o FA002134.json
-curl https://ci.nii.ac.jp/library/FA015307.json -o FA015307.json
-curl https://ci.nii.ac.jp/library/FA002145.json -o FA002145.json
-curl https://ci.nii.ac.jp/library/FA002203.json -o FA002203.json
-curl https://ci.nii.ac.jp/library/FA002236.json -o FA002236.json
-curl https://ci.nii.ac.jp/library/FA002247.json -o FA002247.json
-curl https://ci.nii.ac.jp/library/FA002258.json -o FA002258.json
-curl https://ci.nii.ac.jp/library/FA002269.json -o FA002269.json
-curl https://ci.nii.ac.jp/library/FA002280.json -o FA002280.json
-curl https://ci.nii.ac.jp/library/FA002291.json -o FA002291.json
-curl https://ci.nii.ac.jp/library/FA002305.json -o FA002305.json
-curl https://ci.nii.ac.jp/library/FA002316.json -o FA002316.json
-curl https://ci.nii.ac.jp/library/FA002327.json -o FA002327.json
-curl https://ci.nii.ac.jp/library/FA002338.json -o FA002338.json
-curl https://ci.nii.ac.jp/library/FA002349.json -o FA002349.json
-curl https://ci.nii.ac.jp/library/FA002360.json -o FA002360.json
-curl https://ci.nii.ac.jp/library/FA002371.json -o FA002371.json
-curl https://ci.nii.ac.jp/library/FA002382.json -o FA002382.json
-curl https://ci.nii.ac.jp/library/FA002393.json -o FA002393.json
-curl https://ci.nii.ac.jp/library/FA002407.json -o FA002407.json
-curl https://ci.nii.ac.jp/library/FA002418.json -o FA002418.json
-curl https://ci.nii.ac.jp/library/FA002429.json -o FA002429.json
-curl https://ci.nii.ac.jp/library/FA002440.json -o FA002440.json
-curl https://ci.nii.ac.jp/library/FA002451.json -o FA002451.json
-curl https://ci.nii.ac.jp/library/FA002462.json -o FA002462.json
-curl https://ci.nii.ac.jp/library/FA002473.json -o FA002473.json
-curl https://ci.nii.ac.jp/library/FA002484.json -o FA002484.json
-curl https://ci.nii.ac.jp/library/FA002495.json -o FA002495.json
-curl https://ci.nii.ac.jp/library/FA002509.json -o FA002509.json
-curl https://ci.nii.ac.jp/library/FA013957.json -o FA013957.json
-curl https://ci.nii.ac.jp/library/FA013968.json -o FA013968.json
-curl https://ci.nii.ac.jp/library/FA013979.json -o FA013979.json
-curl https://ci.nii.ac.jp/library/FA016423.json -o FA016423.json
-curl https://ci.nii.ac.jp/library/FA016434.json -o FA016434.json
-curl https://ci.nii.ac.jp/library/FA016445.json -o FA016445.json
-curl https://ci.nii.ac.jp/library/FA016456.json -o FA016456.json
-curl https://ci.nii.ac.jp/library/FA016467.json -o FA016467.json
-curl https://ci.nii.ac.jp/library/FA024330.json -o FA024330.json
-curl https://ci.nii.ac.jp/library/FA027259.json -o FA027259.json
-curl https://ci.nii.ac.jp/library/FA027292.json -o FA027292.json
-curl https://ci.nii.ac.jp/library/FA002531.json -o FA002531.json
-curl https://ci.nii.ac.jp/library/FA002542.json -o FA002542.json
-curl https://ci.nii.ac.jp/library/FA002553.json -o FA002553.json
-curl https://ci.nii.ac.jp/library/FA002564.json -o FA002564.json
-curl https://ci.nii.ac.jp/library/FA002575.json -o FA002575.json
-curl https://ci.nii.ac.jp/library/FA002586.json -o FA002586.json
-curl https://ci.nii.ac.jp/library/FA002597.json -o FA002597.json
-curl https://ci.nii.ac.jp/library/FA002600.json -o FA002600.json
-curl https://ci.nii.ac.jp/library/FA002611.json -o FA002611.json
-curl https://ci.nii.ac.jp/library/FA002622.json -o FA002622.json
-curl https://ci.nii.ac.jp/library/FA002633.json -o FA002633.json
-curl https://ci.nii.ac.jp/library/FA002644.json -o FA002644.json
-curl https://ci.nii.ac.jp/library/FA002655.json -o FA002655.json
-curl https://ci.nii.ac.jp/library/FA002666.json -o FA002666.json
-curl https://ci.nii.ac.jp/library/FA002677.json -o FA002677.json
-curl https://ci.nii.ac.jp/library/FA002688.json -o FA002688.json
-curl https://ci.nii.ac.jp/library/FA002699.json -o FA002699.json
-curl https://ci.nii.ac.jp/library/FA002702.json -o FA002702.json
-curl https://ci.nii.ac.jp/library/FA002713.json -o FA002713.json
-curl https://ci.nii.ac.jp/library/FA002724.json -o FA002724.json
-curl https://ci.nii.ac.jp/library/FA002735.json -o FA002735.json
-curl https://ci.nii.ac.jp/library/FA002746.json -o FA002746.json
-curl https://ci.nii.ac.jp/library/FA002757.json -o FA002757.json
-curl https://ci.nii.ac.jp/library/FA002768.json -o FA002768.json
-curl https://ci.nii.ac.jp/library/FA002779.json -o FA002779.json
-curl https://ci.nii.ac.jp/library/FA002790.json -o FA002790.json
-curl https://ci.nii.ac.jp/library/FA002804.json -o FA002804.json
-curl https://ci.nii.ac.jp/library/FA012910.json -o FA012910.json
-curl https://ci.nii.ac.jp/library/FA018393.json -o FA018393.json
-curl https://ci.nii.ac.jp/library/FA019705.json -o FA019705.json
-curl https://ci.nii.ac.jp/library/FA021707.json -o FA021707.json
-curl https://ci.nii.ac.jp/library/FA022120.json -o FA022120.json
-curl https://ci.nii.ac.jp/library/FA022732.json -o FA022732.json
-curl https://ci.nii.ac.jp/library/FA022743.json -o FA022743.json
-curl https://ci.nii.ac.jp/library/FA022980.json -o FA022980.json
-curl https://ci.nii.ac.jp/library/FA026165.json -o FA026165.json
-curl https://ci.nii.ac.jp/library/FA026857.json -o FA026857.json
-curl https://ci.nii.ac.jp/library/FA026915.json -o FA026915.json
-curl https://ci.nii.ac.jp/library/FA002826.json -o FA002826.json
-curl https://ci.nii.ac.jp/library/FA002837.json -o FA002837.json
-curl https://ci.nii.ac.jp/library/FA002848.json -o FA002848.json
-curl https://ci.nii.ac.jp/library/FA002859.json -o FA002859.json
-curl https://ci.nii.ac.jp/library/FA002870.json -o FA002870.json
-curl https://ci.nii.ac.jp/library/FA002928.json -o FA002928.json
-curl https://ci.nii.ac.jp/library/FA016296.json -o FA016296.json
-curl https://ci.nii.ac.jp/library/FA002939.json -o FA002939.json
-curl https://ci.nii.ac.jp/library/FA020307.json -o FA020307.json
-curl https://ci.nii.ac.jp/library/FA002972.json -o FA002972.json
-curl https://ci.nii.ac.jp/library/FA002983.json -o FA002983.json
-curl https://ci.nii.ac.jp/library/FA002994.json -o FA002994.json
-curl https://ci.nii.ac.jp/library/FA003002.json -o FA003002.json
-curl https://ci.nii.ac.jp/library/FA003013.json -o FA003013.json
-curl https://ci.nii.ac.jp/library/FA003024.json -o FA003024.json
-curl https://ci.nii.ac.jp/library/FA003035.json -o FA003035.json
-curl https://ci.nii.ac.jp/library/FA003046.json -o FA003046.json
-curl https://ci.nii.ac.jp/library/FA003057.json -o FA003057.json
-curl https://ci.nii.ac.jp/library/FA003068.json -o FA003068.json
-curl https://ci.nii.ac.jp/library/FA003079.json -o FA003079.json
-curl https://ci.nii.ac.jp/library/FA003090.json -o FA003090.json
-curl https://ci.nii.ac.jp/library/FA003104.json -o FA003104.json
-curl https://ci.nii.ac.jp/library/FA003126.json -o FA003126.json
-curl https://ci.nii.ac.jp/library/FA003137.json -o FA003137.json
-curl https://ci.nii.ac.jp/library/FA003148.json -o FA003148.json
-curl https://ci.nii.ac.jp/library/FA003159.json -o FA003159.json
-curl https://ci.nii.ac.jp/library/FA003170.json -o FA003170.json
-curl https://ci.nii.ac.jp/library/FA003181.json -o FA003181.json
-curl https://ci.nii.ac.jp/library/FA003192.json -o FA003192.json
-curl https://ci.nii.ac.jp/library/FA003239.json -o FA003239.json
-curl https://ci.nii.ac.jp/library/FA003261.json -o FA003261.json
-curl https://ci.nii.ac.jp/library/FA012284.json -o FA012284.json
-curl https://ci.nii.ac.jp/library/FA014508.json -o FA014508.json
-curl https://ci.nii.ac.jp/library/FA018236.json -o FA018236.json
-curl https://ci.nii.ac.jp/library/FA003283.json -o FA003283.json
-curl https://ci.nii.ac.jp/library/FA003294.json -o FA003294.json
-curl https://ci.nii.ac.jp/library/FA003308.json -o FA003308.json
-curl https://ci.nii.ac.jp/library/FA003319.json -o FA003319.json
-curl https://ci.nii.ac.jp/library/FA003330.json -o FA003330.json
-curl https://ci.nii.ac.jp/library/FA003341.json -o FA003341.json
-curl https://ci.nii.ac.jp/library/FA003352.json -o FA003352.json
-curl https://ci.nii.ac.jp/library/FA003363.json -o FA003363.json
-curl https://ci.nii.ac.jp/library/FA013924.json -o FA013924.json
-curl https://ci.nii.ac.jp/library/FA019523.json -o FA019523.json
-curl https://ci.nii.ac.jp/library/FA003374.json -o FA003374.json
-curl https://ci.nii.ac.jp/library/FA003385.json -o FA003385.json
-curl https://ci.nii.ac.jp/library/FA003396.json -o FA003396.json
-curl https://ci.nii.ac.jp/library/FA003410.json -o FA003410.json
-curl https://ci.nii.ac.jp/library/FA003421.json -o FA003421.json
-curl https://ci.nii.ac.jp/library/FA003432.json -o FA003432.json
-curl https://ci.nii.ac.jp/library/FA003443.json -o FA003443.json
-curl https://ci.nii.ac.jp/library/FA003454.json -o FA003454.json
-curl https://ci.nii.ac.jp/library/FA003465.json -o FA003465.json
-curl https://ci.nii.ac.jp/library/FA003476.json -o FA003476.json
-curl https://ci.nii.ac.jp/library/FA022084.json -o FA022084.json
-curl https://ci.nii.ac.jp/library/FA02289X.json -o FA02289X.json
-curl https://ci.nii.ac.jp/library/FA003487.json -o FA003487.json
-curl https://ci.nii.ac.jp/library/FA014075.json -o FA014075.json
-curl https://ci.nii.ac.jp/library/FA003498.json -o FA003498.json
-curl https://ci.nii.ac.jp/library/FA003501.json -o FA003501.json
-curl https://ci.nii.ac.jp/library/FA003512.json -o FA003512.json
-curl https://ci.nii.ac.jp/library/FA003523.json -o FA003523.json
-curl https://ci.nii.ac.jp/library/FA003534.json -o FA003534.json
-curl https://ci.nii.ac.jp/library/FA003545.json -o FA003545.json
-curl https://ci.nii.ac.jp/library/FA003556.json -o FA003556.json
-curl https://ci.nii.ac.jp/library/FA003567.json -o FA003567.json
-curl https://ci.nii.ac.jp/library/FA003578.json -o FA003578.json
-curl https://ci.nii.ac.jp/library/FA003589.json -o FA003589.json
-curl https://ci.nii.ac.jp/library/FA003603.json -o FA003603.json
-curl https://ci.nii.ac.jp/library/FA003614.json -o FA003614.json
-curl https://ci.nii.ac.jp/library/FA003625.json -o FA003625.json
-curl https://ci.nii.ac.jp/library/FA003636.json -o FA003636.json
-curl https://ci.nii.ac.jp/library/FA003647.json -o FA003647.json
-curl https://ci.nii.ac.jp/library/FA003658.json -o FA003658.json
-curl https://ci.nii.ac.jp/library/FA003669.json -o FA003669.json
-curl https://ci.nii.ac.jp/library/FA003680.json -o FA003680.json
-curl https://ci.nii.ac.jp/library/FA003691.json -o FA003691.json
-curl https://ci.nii.ac.jp/library/FA003705.json -o FA003705.json
-curl https://ci.nii.ac.jp/library/FA003716.json -o FA003716.json
-curl https://ci.nii.ac.jp/library/FA003727.json -o FA003727.json
-curl https://ci.nii.ac.jp/library/FA003738.json -o FA003738.json
-curl https://ci.nii.ac.jp/library/FA003749.json -o FA003749.json
-curl https://ci.nii.ac.jp/library/FA003760.json -o FA003760.json
-curl https://ci.nii.ac.jp/library/FA014053.json -o FA014053.json
-curl https://ci.nii.ac.jp/library/FA017834.json -o FA017834.json
-curl https://ci.nii.ac.jp/library/FA003771.json -o FA003771.json
-curl https://ci.nii.ac.jp/library/FA003782.json -o FA003782.json
-curl https://ci.nii.ac.jp/library/FA018702.json -o FA018702.json
-curl https://ci.nii.ac.jp/library/FA020260.json -o FA020260.json
-curl https://ci.nii.ac.jp/library/FA003793.json -o FA003793.json
-curl https://ci.nii.ac.jp/library/FA003807.json -o FA003807.json
-curl https://ci.nii.ac.jp/library/FA003851.json -o FA003851.json
-curl https://ci.nii.ac.jp/library/FA015624.json -o FA015624.json
-curl https://ci.nii.ac.jp/library/FA003862.json -o FA003862.json
-curl https://ci.nii.ac.jp/library/FA003873.json -o FA003873.json
-curl https://ci.nii.ac.jp/library/FA003895.json -o FA003895.json
-curl https://ci.nii.ac.jp/library/FA003909.json -o FA003909.json
-curl https://ci.nii.ac.jp/library/FA016387.json -o FA016387.json
-curl https://ci.nii.ac.jp/library/FA003920.json -o FA003920.json
-curl https://ci.nii.ac.jp/library/FA003931.json -o FA003931.json
-curl https://ci.nii.ac.jp/library/FA003942.json -o FA003942.json
-curl https://ci.nii.ac.jp/library/FA000139.json -o FA000139.json
-curl https://ci.nii.ac.jp/library/FA00014X.json -o FA00014X.json
-curl https://ci.nii.ac.jp/library/FA003964.json -o FA003964.json
-curl https://ci.nii.ac.jp/library/FA003975.json -o FA003975.json
-curl https://ci.nii.ac.jp/library/FA003986.json -o FA003986.json
-curl https://ci.nii.ac.jp/library/FA004005.json -o FA004005.json
-curl https://ci.nii.ac.jp/library/FA004016.json -o FA004016.json
-curl https://ci.nii.ac.jp/library/FA004038.json -o FA004038.json
-curl https://ci.nii.ac.jp/library/FA014825.json -o FA014825.json
-curl https://ci.nii.ac.jp/library/FA004049.json -o FA004049.json
-curl https://ci.nii.ac.jp/library/FA004060.json -o FA004060.json
-curl https://ci.nii.ac.jp/library/FA004071.json -o FA004071.json
-curl https://ci.nii.ac.jp/library/FA004082.json -o FA004082.json
-curl https://ci.nii.ac.jp/library/FA014213.json -o FA014213.json
-curl https://ci.nii.ac.jp/library/FA015635.json -o FA015635.json
-curl https://ci.nii.ac.jp/library/FA018407.json -o FA018407.json
-curl https://ci.nii.ac.jp/library/FA022164.json -o FA022164.json
-curl https://ci.nii.ac.jp/library/FA027055.json -o FA027055.json
-curl https://ci.nii.ac.jp/library/FA027612.json -o FA027612.json
-curl https://ci.nii.ac.jp/library/FA004093.json -o FA004093.json
-curl https://ci.nii.ac.jp/library/FA004107.json -o FA004107.json
-curl https://ci.nii.ac.jp/library/FA015941.json -o FA015941.json
-curl https://ci.nii.ac.jp/library/FA004118.json -o FA004118.json
-curl https://ci.nii.ac.jp/library/FA012546.json -o FA012546.json
-curl https://ci.nii.ac.jp/library/FA017481.json -o FA017481.json
-curl https://ci.nii.ac.jp/library/FA004129.json -o FA004129.json
-curl https://ci.nii.ac.jp/library/FA004140.json -o FA004140.json
-curl https://ci.nii.ac.jp/library/FA004151.json -o FA004151.json
-curl https://ci.nii.ac.jp/library/FA021343.json -o FA021343.json
-curl https://ci.nii.ac.jp/library/FA004162.json -o FA004162.json
-curl https://ci.nii.ac.jp/library/FA004173.json -o FA004173.json
-curl https://ci.nii.ac.jp/library/FA004184.json -o FA004184.json
-curl https://ci.nii.ac.jp/library/FA004195.json -o FA004195.json
-curl https://ci.nii.ac.jp/library/FA018622.json -o FA018622.json
-curl https://ci.nii.ac.jp/library/FA004209.json -o FA004209.json
-curl https://ci.nii.ac.jp/library/FA004220.json -o FA004220.json
-curl https://ci.nii.ac.jp/library/FA004231.json -o FA004231.json
-curl https://ci.nii.ac.jp/library/FA004242.json -o FA004242.json
-curl https://ci.nii.ac.jp/library/FA017685.json -o FA017685.json
-curl https://ci.nii.ac.jp/library/FA004264.json -o FA004264.json
-curl https://ci.nii.ac.jp/library/FA004275.json -o FA004275.json
-curl https://ci.nii.ac.jp/library/FA004286.json -o FA004286.json
-curl https://ci.nii.ac.jp/library/FA014235.json -o FA014235.json
-curl https://ci.nii.ac.jp/library/FA004297.json -o FA004297.json
-curl https://ci.nii.ac.jp/library/FA004300.json -o FA004300.json
-curl https://ci.nii.ac.jp/library/FA004311.json -o FA004311.json
-curl https://ci.nii.ac.jp/library/FA004322.json -o FA004322.json
-curl https://ci.nii.ac.jp/library/FA004355.json -o FA004355.json
-curl https://ci.nii.ac.jp/library/FA004366.json -o FA004366.json
-curl https://ci.nii.ac.jp/library/FA004377.json -o FA004377.json
-curl https://ci.nii.ac.jp/library/FA004388.json -o FA004388.json
-curl https://ci.nii.ac.jp/library/FA004399.json -o FA004399.json
-curl https://ci.nii.ac.jp/library/FA004402.json -o FA004402.json
-curl https://ci.nii.ac.jp/library/FA004413.json -o FA004413.json
-curl https://ci.nii.ac.jp/library/FA004424.json -o FA004424.json
-curl https://ci.nii.ac.jp/library/FA004435.json -o FA004435.json
-curl https://ci.nii.ac.jp/library/FA004446.json -o FA004446.json
-curl https://ci.nii.ac.jp/library/FA004457.json -o FA004457.json
-curl https://ci.nii.ac.jp/library/FA004468.json -o FA004468.json
-curl https://ci.nii.ac.jp/library/FA004479.json -o FA004479.json
-curl https://ci.nii.ac.jp/library/FA012309.json -o FA012309.json
-curl https://ci.nii.ac.jp/library/FA004490.json -o FA004490.json
-curl https://ci.nii.ac.jp/library/FA004504.json -o FA004504.json
-curl https://ci.nii.ac.jp/library/FA004515.json -o FA004515.json
-curl https://ci.nii.ac.jp/library/FA004526.json -o FA004526.json
-curl https://ci.nii.ac.jp/library/FA004537.json -o FA004537.json
-curl https://ci.nii.ac.jp/library/FA004548.json -o FA004548.json
-curl https://ci.nii.ac.jp/library/FA004559.json -o FA004559.json
-curl https://ci.nii.ac.jp/library/FA004570.json -o FA004570.json
-curl https://ci.nii.ac.jp/library/FA004581.json -o FA004581.json
-curl https://ci.nii.ac.jp/library/FA004592.json -o FA004592.json
-curl https://ci.nii.ac.jp/library/FA004606.json -o FA004606.json
-curl https://ci.nii.ac.jp/library/FA022572.json -o FA022572.json
-curl https://ci.nii.ac.jp/library/FA004617.json -o FA004617.json
-curl https://ci.nii.ac.jp/library/FA004628.json -o FA004628.json
-curl https://ci.nii.ac.jp/library/FA004639.json -o FA004639.json
-curl https://ci.nii.ac.jp/library/FA004650.json -o FA004650.json
-curl https://ci.nii.ac.jp/library/FA004661.json -o FA004661.json
-curl https://ci.nii.ac.jp/library/FA022936.json -o FA022936.json
-curl https://ci.nii.ac.jp/library/FA004672.json -o FA004672.json
-curl https://ci.nii.ac.jp/library/FA014585.json -o FA014585.json
-curl https://ci.nii.ac.jp/library/FA004694.json -o FA004694.json
-curl https://ci.nii.ac.jp/library/FA004708.json -o FA004708.json
-curl https://ci.nii.ac.jp/library/FA004719.json -o FA004719.json
-curl https://ci.nii.ac.jp/library/FA004730.json -o FA004730.json
-curl https://ci.nii.ac.jp/library/FA004741.json -o FA004741.json
-curl https://ci.nii.ac.jp/library/FA004752.json -o FA004752.json
-curl https://ci.nii.ac.jp/library/FA012932.json -o FA012932.json
-curl https://ci.nii.ac.jp/library/FA004774.json -o FA004774.json
-curl https://ci.nii.ac.jp/library/FA004796.json -o FA004796.json
-curl https://ci.nii.ac.jp/library/FA004810.json -o FA004810.json
-curl https://ci.nii.ac.jp/library/FA004821.json -o FA004821.json
-curl https://ci.nii.ac.jp/library/FA004832.json -o FA004832.json
-curl https://ci.nii.ac.jp/library/FA004843.json -o FA004843.json
-curl https://ci.nii.ac.jp/library/FA004854.json -o FA004854.json
-curl https://ci.nii.ac.jp/library/FA016263.json -o FA016263.json
-curl https://ci.nii.ac.jp/library/FA022550.json -o FA022550.json
-curl https://ci.nii.ac.jp/library/FA023666.json -o FA023666.json
-curl https://ci.nii.ac.jp/library/FA004865.json -o FA004865.json
-curl https://ci.nii.ac.jp/library/FA017732.json -o FA017732.json
-curl https://ci.nii.ac.jp/library/FA004876.json -o FA004876.json
-curl https://ci.nii.ac.jp/library/FA004887.json -o FA004887.json
-curl https://ci.nii.ac.jp/library/FA004898.json -o FA004898.json
-curl https://ci.nii.ac.jp/library/FA004901.json -o FA004901.json
-curl https://ci.nii.ac.jp/library/FA004912.json -o FA004912.json
-curl https://ci.nii.ac.jp/library/FA004923.json -o FA004923.json
-curl https://ci.nii.ac.jp/library/FA004934.json -o FA004934.json
-curl https://ci.nii.ac.jp/library/FA022244.json -o FA022244.json
-curl https://ci.nii.ac.jp/library/FA004956.json -o FA004956.json
-curl https://ci.nii.ac.jp/library/FA004967.json -o FA004967.json
-curl https://ci.nii.ac.jp/library/FA004978.json -o FA004978.json
-curl https://ci.nii.ac.jp/library/FA016784.json -o FA016784.json
-curl https://ci.nii.ac.jp/library/FA005008.json -o FA005008.json
-curl https://ci.nii.ac.jp/library/FA024013.json -o FA024013.json
-curl https://ci.nii.ac.jp/library/FA005019.json -o FA005019.json
-curl https://ci.nii.ac.jp/library/FA005063.json -o FA005063.json
-curl https://ci.nii.ac.jp/library/FA005074.json -o FA005074.json
-curl https://ci.nii.ac.jp/library/FA005085.json -o FA005085.json
-curl https://ci.nii.ac.jp/library/FA005096.json -o FA005096.json
-curl https://ci.nii.ac.jp/library/FA005110.json -o FA005110.json
-curl https://ci.nii.ac.jp/library/FA005121.json -o FA005121.json
-curl https://ci.nii.ac.jp/library/FA01231X.json -o FA01231X.json
-curl https://ci.nii.ac.jp/library/FA005132.json -o FA005132.json
-curl https://ci.nii.ac.jp/library/FA012320.json -o FA012320.json
-curl https://ci.nii.ac.jp/library/FA005154.json -o FA005154.json
-curl https://ci.nii.ac.jp/library/FA027328.json -o FA027328.json
-curl https://ci.nii.ac.jp/library/FA005187.json -o FA005187.json
-curl https://ci.nii.ac.jp/library/FA005143.json -o FA005143.json
-curl https://ci.nii.ac.jp/library/FA005198.json -o FA005198.json
-curl https://ci.nii.ac.jp/library/FA005201.json -o FA005201.json
-curl https://ci.nii.ac.jp/library/FA005212.json -o FA005212.json
-curl https://ci.nii.ac.jp/library/FA005223.json -o FA005223.json
-curl https://ci.nii.ac.jp/library/FA012921.json -o FA012921.json
-curl https://ci.nii.ac.jp/library/FA005234.json -o FA005234.json
-curl https://ci.nii.ac.jp/library/FA005245.json -o FA005245.json
-curl https://ci.nii.ac.jp/library/FA005256.json -o FA005256.json
-curl https://ci.nii.ac.jp/library/FA021751.json -o FA021751.json
-curl https://ci.nii.ac.jp/library/FA005267.json -o FA005267.json
-curl https://ci.nii.ac.jp/library/FA005278.json -o FA005278.json
-curl https://ci.nii.ac.jp/library/FA021966.json -o FA021966.json
-curl https://ci.nii.ac.jp/library/FA021977.json -o FA021977.json
-curl https://ci.nii.ac.jp/library/FA005289.json -o FA005289.json
-curl https://ci.nii.ac.jp/library/FA005303.json -o FA005303.json
-curl https://ci.nii.ac.jp/library/FA005314.json -o FA005314.json
-curl https://ci.nii.ac.jp/library/FA005325.json -o FA005325.json
-curl https://ci.nii.ac.jp/library/FA005336.json -o FA005336.json
-curl https://ci.nii.ac.jp/library/FA005347.json -o FA005347.json
-curl https://ci.nii.ac.jp/library/FA005358.json -o FA005358.json
-curl https://ci.nii.ac.jp/library/FA024341.json -o FA024341.json
-curl https://ci.nii.ac.jp/library/FA005391.json -o FA005391.json
-curl https://ci.nii.ac.jp/library/FA017754.json -o FA017754.json
-curl https://ci.nii.ac.jp/library/FA027022.json -o FA027022.json
-curl https://ci.nii.ac.jp/library/FA027033.json -o FA027033.json
-curl https://ci.nii.ac.jp/library/FA005405.json -o FA005405.json
-curl https://ci.nii.ac.jp/library/FA005427.json -o FA005427.json
-curl https://ci.nii.ac.jp/library/FA005438.json -o FA005438.json
-curl https://ci.nii.ac.jp/library/FA013855.json -o FA013855.json
-curl https://ci.nii.ac.jp/library/FA005449.json -o FA005449.json
-curl https://ci.nii.ac.jp/library/FA005460.json -o FA005460.json
-curl https://ci.nii.ac.jp/library/FA005471.json -o FA005471.json
-curl https://ci.nii.ac.jp/library/FA005493.json -o FA005493.json
-curl https://ci.nii.ac.jp/library/FA005507.json -o FA005507.json
-curl https://ci.nii.ac.jp/library/FA005518.json -o FA005518.json
-curl https://ci.nii.ac.jp/library/FA005529.json -o FA005529.json
-curl https://ci.nii.ac.jp/library/FA005540.json -o FA005540.json
-curl https://ci.nii.ac.jp/library/FA005551.json -o FA005551.json
-curl https://ci.nii.ac.jp/library/FA020147.json -o FA020147.json
-curl https://ci.nii.ac.jp/library/FA022040.json -o FA022040.json
-curl https://ci.nii.ac.jp/library/FA028149.json -o FA028149.json
-curl https://ci.nii.ac.jp/library/FA005562.json -o FA005562.json
-curl https://ci.nii.ac.jp/library/FA014574.json -o FA014574.json
-curl https://ci.nii.ac.jp/library/FA005573.json -o FA005573.json
-curl https://ci.nii.ac.jp/library/FA005595.json -o FA005595.json
-curl https://ci.nii.ac.jp/library/FA005609.json -o FA005609.json
-curl https://ci.nii.ac.jp/library/FA005620.json -o FA005620.json
-curl https://ci.nii.ac.jp/library/FA005631.json -o FA005631.json
-curl https://ci.nii.ac.jp/library/FA005642.json -o FA005642.json
-curl https://ci.nii.ac.jp/library/FA005653.json -o FA005653.json
-curl https://ci.nii.ac.jp/library/FA005664.json -o FA005664.json
-curl https://ci.nii.ac.jp/library/FA005675.json -o FA005675.json
-curl https://ci.nii.ac.jp/library/FA005686.json -o FA005686.json
-curl https://ci.nii.ac.jp/library/FA005697.json -o FA005697.json
-curl https://ci.nii.ac.jp/library/FA005700.json -o FA005700.json
-curl https://ci.nii.ac.jp/library/FA005711.json -o FA005711.json
-curl https://ci.nii.ac.jp/library/FA005722.json -o FA005722.json
-curl https://ci.nii.ac.jp/library/FA005733.json -o FA005733.json
-curl https://ci.nii.ac.jp/library/FA005744.json -o FA005744.json
-curl https://ci.nii.ac.jp/library/FA01991X.json -o FA01991X.json
-curl https://ci.nii.ac.jp/library/FA02327X.json -o FA02327X.json
-curl https://ci.nii.ac.jp/library/FA005755.json -o FA005755.json
-curl https://ci.nii.ac.jp/library/FA005766.json -o FA005766.json
-curl https://ci.nii.ac.jp/library/FA005777.json -o FA005777.json
-curl https://ci.nii.ac.jp/library/FA005788.json -o FA005788.json
-curl https://ci.nii.ac.jp/library/FA012331.json -o FA012331.json
-curl https://ci.nii.ac.jp/library/FA018418.json -o FA018418.json
-curl https://ci.nii.ac.jp/library/FA005802.json -o FA005802.json
-curl https://ci.nii.ac.jp/library/FA005813.json -o FA005813.json
-curl https://ci.nii.ac.jp/library/FA005824.json -o FA005824.json
-curl https://ci.nii.ac.jp/library/FA005835.json -o FA005835.json
-curl https://ci.nii.ac.jp/library/FA005890.json -o FA005890.json
-curl https://ci.nii.ac.jp/library/FA009009.json -o FA009009.json
-curl https://ci.nii.ac.jp/library/FA009020.json -o FA009020.json
-curl https://ci.nii.ac.jp/library/FA017142.json -o FA017142.json
-curl https://ci.nii.ac.jp/library/FA005915.json -o FA005915.json
-curl https://ci.nii.ac.jp/library/FA005926.json -o FA005926.json
-curl https://ci.nii.ac.jp/library/FA020012.json -o FA020012.json
-curl https://ci.nii.ac.jp/library/FA020023.json -o FA020023.json
-curl https://ci.nii.ac.jp/library/FA005937.json -o FA005937.json
-curl https://ci.nii.ac.jp/library/FA005948.json -o FA005948.json
-curl https://ci.nii.ac.jp/library/FA026835.json -o FA026835.json
-curl https://ci.nii.ac.jp/library/FA005959.json -o FA005959.json
-curl https://ci.nii.ac.jp/library/FA005970.json -o FA005970.json
-curl https://ci.nii.ac.jp/library/FA005981.json -o FA005981.json
-curl https://ci.nii.ac.jp/library/FA005992.json -o FA005992.json
-curl https://ci.nii.ac.jp/library/FA006000.json -o FA006000.json
-curl https://ci.nii.ac.jp/library/FA006011.json -o FA006011.json
-curl https://ci.nii.ac.jp/library/FA006022.json -o FA006022.json
-curl https://ci.nii.ac.jp/library/FA006033.json -o FA006033.json
-curl https://ci.nii.ac.jp/library/FA006044.json -o FA006044.json
-curl https://ci.nii.ac.jp/library/FA006055.json -o FA006055.json
-curl https://ci.nii.ac.jp/library/FA006066.json -o FA006066.json
-curl https://ci.nii.ac.jp/library/FA006077.json -o FA006077.json
-curl https://ci.nii.ac.jp/library/FA019727.json -o FA019727.json
-curl https://ci.nii.ac.jp/library/FA006088.json -o FA006088.json
-curl https://ci.nii.ac.jp/library/FA012353.json -o FA012353.json
-curl https://ci.nii.ac.jp/library/FA019614.json -o FA019614.json
-curl https://ci.nii.ac.jp/library/FA006099.json -o FA006099.json
-curl https://ci.nii.ac.jp/library/FA006102.json -o FA006102.json
-curl https://ci.nii.ac.jp/library/FA006113.json -o FA006113.json
-curl https://ci.nii.ac.jp/library/FA022812.json -o FA022812.json
-curl https://ci.nii.ac.jp/library/FA025195.json -o FA025195.json
-curl https://ci.nii.ac.jp/library/FA006135.json -o FA006135.json
-curl https://ci.nii.ac.jp/library/FA006146.json -o FA006146.json
-curl https://ci.nii.ac.jp/library/FA006157.json -o FA006157.json
-curl https://ci.nii.ac.jp/library/FA023214.json -o FA023214.json
-curl https://ci.nii.ac.jp/library/FA023553.json -o FA023553.json
-curl https://ci.nii.ac.jp/library/FA006168.json -o FA006168.json
-curl https://ci.nii.ac.jp/library/FA006179.json -o FA006179.json
-curl https://ci.nii.ac.jp/library/FA006190.json -o FA006190.json
-curl https://ci.nii.ac.jp/library/FA006204.json -o FA006204.json
-curl https://ci.nii.ac.jp/library/FA016627.json -o FA016627.json
-curl https://ci.nii.ac.jp/library/FA006215.json -o FA006215.json
-curl https://ci.nii.ac.jp/library/FA014494.json -o FA014494.json
-curl https://ci.nii.ac.jp/library/FA006226.json -o FA006226.json
-curl https://ci.nii.ac.jp/library/FA006237.json -o FA006237.json
-curl https://ci.nii.ac.jp/library/FA006248.json -o FA006248.json
-curl https://ci.nii.ac.jp/library/FA006259.json -o FA006259.json
-curl https://ci.nii.ac.jp/library/FA006270.json -o FA006270.json
-curl https://ci.nii.ac.jp/library/FA006281.json -o FA006281.json
-curl https://ci.nii.ac.jp/library/FA006292.json -o FA006292.json
-curl https://ci.nii.ac.jp/library/FA006306.json -o FA006306.json
-curl https://ci.nii.ac.jp/library/FA006317.json -o FA006317.json
-curl https://ci.nii.ac.jp/library/FA006328.json -o FA006328.json
-curl https://ci.nii.ac.jp/library/FA006339.json -o FA006339.json
-curl https://ci.nii.ac.jp/library/FA006361.json -o FA006361.json
-curl https://ci.nii.ac.jp/library/FA006372.json -o FA006372.json
-curl https://ci.nii.ac.jp/library/FA006383.json -o FA006383.json
-curl https://ci.nii.ac.jp/library/FA012171.json -o FA012171.json
-curl https://ci.nii.ac.jp/library/FA012182.json -o FA012182.json
-curl https://ci.nii.ac.jp/library/FA014869.json -o FA014869.json
-curl https://ci.nii.ac.jp/library/FA022131.json -o FA022131.json
-curl https://ci.nii.ac.jp/library/FA022947.json -o FA022947.json
-curl https://ci.nii.ac.jp/library/FA006394.json -o FA006394.json
-curl https://ci.nii.ac.jp/library/FA006419.json -o FA006419.json
-curl https://ci.nii.ac.jp/library/FA006430.json -o FA006430.json
-curl https://ci.nii.ac.jp/library/FA006441.json -o FA006441.json
-curl https://ci.nii.ac.jp/library/FA015737.json -o FA015737.json
-curl https://ci.nii.ac.jp/library/FA006452.json -o FA006452.json
-curl https://ci.nii.ac.jp/library/FA006463.json -o FA006463.json
-curl https://ci.nii.ac.jp/library/FA006474.json -o FA006474.json
-curl https://ci.nii.ac.jp/library/FA006485.json -o FA006485.json
-curl https://ci.nii.ac.jp/library/FA006496.json -o FA006496.json
-curl https://ci.nii.ac.jp/library/FA012364.json -o FA012364.json
-curl https://ci.nii.ac.jp/library/FA006510.json -o FA006510.json
-curl https://ci.nii.ac.jp/library/FA006521.json -o FA006521.json
-curl https://ci.nii.ac.jp/library/FA006532.json -o FA006532.json
-curl https://ci.nii.ac.jp/library/FA006543.json -o FA006543.json
-curl https://ci.nii.ac.jp/library/FA006554.json -o FA006554.json
-curl https://ci.nii.ac.jp/library/FA006565.json -o FA006565.json
-curl https://ci.nii.ac.jp/library/FA006576.json -o FA006576.json
-curl https://ci.nii.ac.jp/library/FA006587.json -o FA006587.json
-curl https://ci.nii.ac.jp/library/FA006598.json -o FA006598.json
-curl https://ci.nii.ac.jp/library/FA006601.json -o FA006601.json
-curl https://ci.nii.ac.jp/library/FA012375.json -o FA012375.json
-curl https://ci.nii.ac.jp/library/FA012386.json -o FA012386.json
-curl https://ci.nii.ac.jp/library/FA02297X.json -o FA02297X.json
-curl https://ci.nii.ac.jp/library/FA006612.json -o FA006612.json
-curl https://ci.nii.ac.jp/library/FA006623.json -o FA006623.json
-curl https://ci.nii.ac.jp/library/FA006634.json -o FA006634.json
-curl https://ci.nii.ac.jp/library/FA018542.json -o FA018542.json
-curl https://ci.nii.ac.jp/library/FA022018.json -o FA022018.json
-curl https://ci.nii.ac.jp/library/FA006645.json -o FA006645.json
-curl https://ci.nii.ac.jp/library/FA006656.json -o FA006656.json
-curl https://ci.nii.ac.jp/library/FA024942.json -o FA024942.json
-curl https://ci.nii.ac.jp/library/FA006667.json -o FA006667.json
-curl https://ci.nii.ac.jp/library/FA006678.json -o FA006678.json
-curl https://ci.nii.ac.jp/library/FA000150.json -o FA000150.json
-curl https://ci.nii.ac.jp/library/FA006714.json -o FA006714.json
-curl https://ci.nii.ac.jp/library/FA02491X.json -o FA02491X.json
-curl https://ci.nii.ac.jp/library/FA006725.json -o FA006725.json
-curl https://ci.nii.ac.jp/library/FA006747.json -o FA006747.json
-curl https://ci.nii.ac.jp/library/FA006758.json -o FA006758.json
-curl https://ci.nii.ac.jp/library/FA006769.json -o FA006769.json
-curl https://ci.nii.ac.jp/library/FA006780.json -o FA006780.json
-curl https://ci.nii.ac.jp/library/FA006791.json -o FA006791.json
-curl https://ci.nii.ac.jp/library/FA006805.json -o FA006805.json
-curl https://ci.nii.ac.jp/library/FA006816.json -o FA006816.json
-curl https://ci.nii.ac.jp/library/FA013833.json -o FA013833.json
-curl https://ci.nii.ac.jp/library/FA013844.json -o FA013844.json
-curl https://ci.nii.ac.jp/library/FA014100.json -o FA014100.json
-curl https://ci.nii.ac.jp/library/FA014111.json -o FA014111.json
-curl https://ci.nii.ac.jp/library/FA014122.json -o FA014122.json
-curl https://ci.nii.ac.jp/library/FA014133.json -o FA014133.json
-curl https://ci.nii.ac.jp/library/FA014144.json -o FA014144.json
-curl https://ci.nii.ac.jp/library/FA014188.json -o FA014188.json
-curl https://ci.nii.ac.jp/library/FA014202.json -o FA014202.json
-curl https://ci.nii.ac.jp/library/FA006827.json -o FA006827.json
-curl https://ci.nii.ac.jp/library/FA006838.json -o FA006838.json
-curl https://ci.nii.ac.jp/library/FA006849.json -o FA006849.json
-curl https://ci.nii.ac.jp/library/FA013050.json -o FA013050.json
-curl https://ci.nii.ac.jp/library/FA006860.json -o FA006860.json
-curl https://ci.nii.ac.jp/library/FA006871.json -o FA006871.json
-curl https://ci.nii.ac.jp/library/FA014472.json -o FA014472.json
-curl https://ci.nii.ac.jp/library/FA014483.json -o FA014483.json
-curl https://ci.nii.ac.jp/library/FA020657.json -o FA020657.json
-curl https://ci.nii.ac.jp/library/FA006882.json -o FA006882.json
-curl https://ci.nii.ac.jp/library/FA006893.json -o FA006893.json
-curl https://ci.nii.ac.jp/library/FA006907.json -o FA006907.json
-curl https://ci.nii.ac.jp/library/FA006918.json -o FA006918.json
-curl https://ci.nii.ac.jp/library/FA019374.json -o FA019374.json
-curl https://ci.nii.ac.jp/library/FA006929.json -o FA006929.json
-curl https://ci.nii.ac.jp/library/FA006940.json -o FA006940.json
-curl https://ci.nii.ac.jp/library/FA006951.json -o FA006951.json
-curl https://ci.nii.ac.jp/library/FA006962.json -o FA006962.json
-curl https://ci.nii.ac.jp/library/FA006973.json -o FA006973.json
-curl https://ci.nii.ac.jp/library/FA02262X.json -o FA02262X.json
-curl https://ci.nii.ac.jp/library/FA006984.json -o FA006984.json
-curl https://ci.nii.ac.jp/library/FA006995.json -o FA006995.json
-curl https://ci.nii.ac.jp/library/FA007003.json -o FA007003.json
-curl https://ci.nii.ac.jp/library/FA007014.json -o FA007014.json
-curl https://ci.nii.ac.jp/library/FA007025.json -o FA007025.json
-curl https://ci.nii.ac.jp/library/FA007036.json -o FA007036.json
-curl https://ci.nii.ac.jp/library/FA007047.json -o FA007047.json
-curl https://ci.nii.ac.jp/library/FA007058.json -o FA007058.json
-curl https://ci.nii.ac.jp/library/FA012400.json -o FA012400.json
-curl https://ci.nii.ac.jp/library/FA007069.json -o FA007069.json
-curl https://ci.nii.ac.jp/library/FA007080.json -o FA007080.json
-curl https://ci.nii.ac.jp/library/FA007091.json -o FA007091.json
-curl https://ci.nii.ac.jp/library/FA007105.json -o FA007105.json
-curl https://ci.nii.ac.jp/library/FA007116.json -o FA007116.json
-curl https://ci.nii.ac.jp/library/FA007127.json -o FA007127.json
-curl https://ci.nii.ac.jp/library/FA012411.json -o FA012411.json
-curl https://ci.nii.ac.jp/library/FA007138.json -o FA007138.json
-curl https://ci.nii.ac.jp/library/FA007149.json -o FA007149.json
-curl https://ci.nii.ac.jp/library/FA018575.json -o FA018575.json
-curl https://ci.nii.ac.jp/library/FA007160.json -o FA007160.json
-curl https://ci.nii.ac.jp/library/FA007171.json -o FA007171.json
-curl https://ci.nii.ac.jp/library/FA017426.json -o FA017426.json
-curl https://ci.nii.ac.jp/library/FA025162.json -o FA025162.json
-curl https://ci.nii.ac.jp/library/FA027871.json -o FA027871.json
-curl https://ci.nii.ac.jp/library/FA007182.json -o FA007182.json
-curl https://ci.nii.ac.jp/library/FA007193.json -o FA007193.json
-curl https://ci.nii.ac.jp/library/FA012262.json -o FA012262.json
-curl https://ci.nii.ac.jp/library/FA016172.json -o FA016172.json
-curl https://ci.nii.ac.jp/library/FA017018.json -o FA017018.json
-curl https://ci.nii.ac.jp/library/FA017856.json -o FA017856.json
-curl https://ci.nii.ac.jp/library/FA017969.json -o FA017969.json
-curl https://ci.nii.ac.jp/library/FA027452.json -o FA027452.json
-curl https://ci.nii.ac.jp/library/FA007207.json -o FA007207.json
-curl https://ci.nii.ac.jp/library/FA007218.json -o FA007218.json
-curl https://ci.nii.ac.jp/library/FA007229.json -o FA007229.json
-curl https://ci.nii.ac.jp/library/FA007240.json -o FA007240.json
-curl https://ci.nii.ac.jp/library/FA012433.json -o FA012433.json
-curl https://ci.nii.ac.jp/library/FA007251.json -o FA007251.json
-curl https://ci.nii.ac.jp/library/FA007262.json -o FA007262.json
-curl https://ci.nii.ac.jp/library/FA019680.json -o FA019680.json
-curl https://ci.nii.ac.jp/library/FA007273.json -o FA007273.json
-curl https://ci.nii.ac.jp/library/FA007284.json -o FA007284.json
-curl https://ci.nii.ac.jp/library/FA012444.json -o FA012444.json
-curl https://ci.nii.ac.jp/library/FA007295.json -o FA007295.json
-curl https://ci.nii.ac.jp/library/FA007309.json -o FA007309.json
-curl https://ci.nii.ac.jp/library/FA007320.json -o FA007320.json
-curl https://ci.nii.ac.jp/library/FA007331.json -o FA007331.json
-curl https://ci.nii.ac.jp/library/FA007342.json -o FA007342.json
-curl https://ci.nii.ac.jp/library/FA007353.json -o FA007353.json
-curl https://ci.nii.ac.jp/library/FA007364.json -o FA007364.json
-curl https://ci.nii.ac.jp/library/FA007375.json -o FA007375.json
-curl https://ci.nii.ac.jp/library/FA007386.json -o FA007386.json
-curl https://ci.nii.ac.jp/library/FA007397.json -o FA007397.json
-curl https://ci.nii.ac.jp/library/FA021820.json -o FA021820.json
-curl https://ci.nii.ac.jp/library/FA007400.json -o FA007400.json
-curl https://ci.nii.ac.jp/library/FA007411.json -o FA007411.json
-curl https://ci.nii.ac.jp/library/FA007433.json -o FA007433.json
-curl https://ci.nii.ac.jp/library/FA007444.json -o FA007444.json
-curl https://ci.nii.ac.jp/library/FA007455.json -o FA007455.json
-curl https://ci.nii.ac.jp/library/FA007466.json -o FA007466.json
-curl https://ci.nii.ac.jp/library/FA007477.json -o FA007477.json
-curl https://ci.nii.ac.jp/library/FA015588.json -o FA015588.json
-curl https://ci.nii.ac.jp/library/FA027372.json -o FA027372.json
-curl https://ci.nii.ac.jp/library/FA007488.json -o FA007488.json
-curl https://ci.nii.ac.jp/library/FA007502.json -o FA007502.json
-curl https://ci.nii.ac.jp/library/FA007513.json -o FA007513.json
-curl https://ci.nii.ac.jp/library/FA007524.json -o FA007524.json
-curl https://ci.nii.ac.jp/library/FA012218.json -o FA012218.json
-curl https://ci.nii.ac.jp/library/FA007604.json -o FA007604.json
-curl https://ci.nii.ac.jp/library/FA007615.json -o FA007615.json
-curl https://ci.nii.ac.jp/library/FA007626.json -o FA007626.json
-curl https://ci.nii.ac.jp/library/FA007637.json -o FA007637.json
-curl https://ci.nii.ac.jp/library/FA007648.json -o FA007648.json
-curl https://ci.nii.ac.jp/library/FA007659.json -o FA007659.json
-curl https://ci.nii.ac.jp/library/FA007670.json -o FA007670.json
-curl https://ci.nii.ac.jp/library/FA007681.json -o FA007681.json
-curl https://ci.nii.ac.jp/library/FA022175.json -o FA022175.json
-curl https://ci.nii.ac.jp/library/FA007692.json -o FA007692.json
-curl https://ci.nii.ac.jp/library/FA007706.json -o FA007706.json
-curl https://ci.nii.ac.jp/library/FA007717.json -o FA007717.json
-curl https://ci.nii.ac.jp/library/FA007728.json -o FA007728.json
-curl https://ci.nii.ac.jp/library/FA007739.json -o FA007739.json
-curl https://ci.nii.ac.jp/library/FA007750.json -o FA007750.json
-curl https://ci.nii.ac.jp/library/FA007761.json -o FA007761.json
-curl https://ci.nii.ac.jp/library/FA012455.json -o FA012455.json
-curl https://ci.nii.ac.jp/library/FA007772.json -o FA007772.json
-curl https://ci.nii.ac.jp/library/FA007783.json -o FA007783.json
-curl https://ci.nii.ac.jp/library/FA007794.json -o FA007794.json
-curl https://ci.nii.ac.jp/library/FA007808.json -o FA007808.json
-curl https://ci.nii.ac.jp/library/FA019771.json -o FA019771.json
-curl https://ci.nii.ac.jp/library/FA019782.json -o FA019782.json
-curl https://ci.nii.ac.jp/library/FA007819.json -o FA007819.json
-curl https://ci.nii.ac.jp/library/FA007830.json -o FA007830.json
-curl https://ci.nii.ac.jp/library/FA007841.json -o FA007841.json
-curl https://ci.nii.ac.jp/library/FA020001.json -o FA020001.json
-curl https://ci.nii.ac.jp/library/FA027554.json -o FA027554.json
-curl https://ci.nii.ac.jp/library/FA007852.json -o FA007852.json
-curl https://ci.nii.ac.jp/library/FA007874.json -o FA007874.json
-curl https://ci.nii.ac.jp/library/FA027882.json -o FA027882.json
-curl https://ci.nii.ac.jp/library/FA027907.json -o FA027907.json
-curl https://ci.nii.ac.jp/library/FA007885.json -o FA007885.json
-curl https://ci.nii.ac.jp/library/FA007896.json -o FA007896.json
-curl https://ci.nii.ac.jp/library/FA007910.json -o FA007910.json
-curl https://ci.nii.ac.jp/library/FA007921.json -o FA007921.json
-curl https://ci.nii.ac.jp/library/FA007932.json -o FA007932.json
-curl https://ci.nii.ac.jp/library/FA007943.json -o FA007943.json
-curl https://ci.nii.ac.jp/library/FA007954.json -o FA007954.json
-curl https://ci.nii.ac.jp/library/FA007965.json -o FA007965.json
-curl https://ci.nii.ac.jp/library/FA007976.json -o FA007976.json
-curl https://ci.nii.ac.jp/library/FA008006.json -o FA008006.json
-curl https://ci.nii.ac.jp/library/FA008017.json -o FA008017.json
-curl https://ci.nii.ac.jp/library/FA008028.json -o FA008028.json
-curl https://ci.nii.ac.jp/library/FA008039.json -o FA008039.json
-curl https://ci.nii.ac.jp/library/FA008050.json -o FA008050.json
-curl https://ci.nii.ac.jp/library/FA008061.json -o FA008061.json
-curl https://ci.nii.ac.jp/library/FA012466.json -o FA012466.json
-curl https://ci.nii.ac.jp/library/FA015577.json -o FA015577.json
-curl https://ci.nii.ac.jp/library/FA008072.json -o FA008072.json
-curl https://ci.nii.ac.jp/library/FA008083.json -o FA008083.json
-curl https://ci.nii.ac.jp/library/FA008094.json -o FA008094.json
-curl https://ci.nii.ac.jp/library/FA008108.json -o FA008108.json
-curl https://ci.nii.ac.jp/library/FA008119.json -o FA008119.json
-curl https://ci.nii.ac.jp/library/FA008130.json -o FA008130.json
-curl https://ci.nii.ac.jp/library/FA018349.json -o FA018349.json
-curl https://ci.nii.ac.jp/library/FA008141.json -o FA008141.json
-curl https://ci.nii.ac.jp/library/FA008152.json -o FA008152.json
-curl https://ci.nii.ac.jp/library/FA008174.json -o FA008174.json
-curl https://ci.nii.ac.jp/library/FA008185.json -o FA008185.json
-curl https://ci.nii.ac.jp/library/FA008210.json -o FA008210.json
-curl https://ci.nii.ac.jp/library/FA008221.json -o FA008221.json
-curl https://ci.nii.ac.jp/library/FA008232.json -o FA008232.json
-curl https://ci.nii.ac.jp/library/FA008243.json -o FA008243.json
-curl https://ci.nii.ac.jp/library/FA008254.json -o FA008254.json
-curl https://ci.nii.ac.jp/library/FA008265.json -o FA008265.json
-curl https://ci.nii.ac.jp/library/FA008276.json -o FA008276.json
-curl https://ci.nii.ac.jp/library/FA008287.json -o FA008287.json
-curl https://ci.nii.ac.jp/library/FA008301.json -o FA008301.json
-curl https://ci.nii.ac.jp/library/FA023542.json -o FA023542.json
-curl https://ci.nii.ac.jp/library/FA008312.json -o FA008312.json
-curl https://ci.nii.ac.jp/library/FA008323.json -o FA008323.json
-curl https://ci.nii.ac.jp/library/FA008334.json -o FA008334.json
-curl https://ci.nii.ac.jp/library/FA008345.json -o FA008345.json
-curl https://ci.nii.ac.jp/library/FA008356.json -o FA008356.json
-curl https://ci.nii.ac.jp/library/FA008378.json -o FA008378.json
-curl https://ci.nii.ac.jp/library/FA019760.json -o FA019760.json
-curl https://ci.nii.ac.jp/library/FA008389.json -o FA008389.json
-curl https://ci.nii.ac.jp/library/FA008403.json -o FA008403.json
-curl https://ci.nii.ac.jp/library/FA008414.json -o FA008414.json
-curl https://ci.nii.ac.jp/library/FA026992.json -o FA026992.json
-curl https://ci.nii.ac.jp/library/FA008425.json -o FA008425.json
-curl https://ci.nii.ac.jp/library/FA008447.json -o FA008447.json
-curl https://ci.nii.ac.jp/library/FA014031.json -o FA014031.json
-curl https://ci.nii.ac.jp/library/FA008458.json -o FA008458.json
-curl https://ci.nii.ac.jp/library/FA025027.json -o FA025027.json
-curl https://ci.nii.ac.jp/library/FA008469.json -o FA008469.json
-curl https://ci.nii.ac.jp/library/FA008480.json -o FA008480.json
-curl https://ci.nii.ac.jp/library/FA008491.json -o FA008491.json
-curl https://ci.nii.ac.jp/library/FA008505.json -o FA008505.json
-curl https://ci.nii.ac.jp/library/FA008516.json -o FA008516.json
-curl https://ci.nii.ac.jp/library/FA008527.json -o FA008527.json
-curl https://ci.nii.ac.jp/library/FA008538.json -o FA008538.json
-curl https://ci.nii.ac.jp/library/FA008549.json -o FA008549.json
-curl https://ci.nii.ac.jp/library/FA008560.json -o FA008560.json
-curl https://ci.nii.ac.jp/library/FA008571.json -o FA008571.json
-curl https://ci.nii.ac.jp/library/FA008582.json -o FA008582.json
-curl https://ci.nii.ac.jp/library/FA008593.json -o FA008593.json
-curl https://ci.nii.ac.jp/library/FA008607.json -o FA008607.json
-curl https://ci.nii.ac.jp/library/FA008618.json -o FA008618.json
-curl https://ci.nii.ac.jp/library/FA008629.json -o FA008629.json
-curl https://ci.nii.ac.jp/library/FA008640.json -o FA008640.json
-curl https://ci.nii.ac.jp/library/FA008651.json -o FA008651.json
-curl https://ci.nii.ac.jp/library/FA008662.json -o FA008662.json
-curl https://ci.nii.ac.jp/library/FA008673.json -o FA008673.json
-curl https://ci.nii.ac.jp/library/FA008684.json -o FA008684.json
-curl https://ci.nii.ac.jp/library/FA008695.json -o FA008695.json
-curl https://ci.nii.ac.jp/library/FA008709.json -o FA008709.json
-curl https://ci.nii.ac.jp/library/FA008720.json -o FA008720.json
-curl https://ci.nii.ac.jp/library/FA008731.json -o FA008731.json
-curl https://ci.nii.ac.jp/library/FA008742.json -o FA008742.json
-curl https://ci.nii.ac.jp/library/FA008753.json -o FA008753.json
-curl https://ci.nii.ac.jp/library/FA008764.json -o FA008764.json
-curl https://ci.nii.ac.jp/library/FA008775.json -o FA008775.json
-curl https://ci.nii.ac.jp/library/FA015566.json -o FA015566.json
-curl https://ci.nii.ac.jp/library/FA008786.json -o FA008786.json
-curl https://ci.nii.ac.jp/library/FA008797.json -o FA008797.json
-curl https://ci.nii.ac.jp/library/FA008800.json -o FA008800.json
-curl https://ci.nii.ac.jp/library/FA008811.json -o FA008811.json
-curl https://ci.nii.ac.jp/library/FA008822.json -o FA008822.json
-curl https://ci.nii.ac.jp/library/FA008833.json -o FA008833.json
-curl https://ci.nii.ac.jp/library/FA008844.json -o FA008844.json
-curl https://ci.nii.ac.jp/library/FA008855.json -o FA008855.json
-curl https://ci.nii.ac.jp/library/FA008866.json -o FA008866.json
-curl https://ci.nii.ac.jp/library/FA026981.json -o FA026981.json
-curl https://ci.nii.ac.jp/library/FA008877.json -o FA008877.json
-curl https://ci.nii.ac.jp/library/FA024002.json -o FA024002.json
-curl https://ci.nii.ac.jp/library/FA008899.json -o FA008899.json
-curl https://ci.nii.ac.jp/library/FA008902.json -o FA008902.json
-curl https://ci.nii.ac.jp/library/FA008913.json -o FA008913.json
-curl https://ci.nii.ac.jp/library/FA008924.json -o FA008924.json
-curl https://ci.nii.ac.jp/library/FA021649.json -o FA021649.json
-curl https://ci.nii.ac.jp/library/FA008935.json -o FA008935.json
-curl https://ci.nii.ac.jp/library/FA008946.json -o FA008946.json
-curl https://ci.nii.ac.jp/library/FA008957.json -o FA008957.json
-curl https://ci.nii.ac.jp/library/FA008968.json -o FA008968.json
-curl https://ci.nii.ac.jp/library/FA027689.json -o FA027689.json
-curl https://ci.nii.ac.jp/library/FA008979.json -o FA008979.json
-curl https://ci.nii.ac.jp/library/FA008990.json -o FA008990.json
-curl https://ci.nii.ac.jp/library/FA009031.json -o FA009031.json
-curl https://ci.nii.ac.jp/library/FA009042.json -o FA009042.json
-curl https://ci.nii.ac.jp/library/FA009053.json -o FA009053.json
-curl https://ci.nii.ac.jp/library/FA01487X.json -o FA01487X.json
-curl https://ci.nii.ac.jp/library/FA018269.json -o FA018269.json
-curl https://ci.nii.ac.jp/library/FA009086.json -o FA009086.json
-curl https://ci.nii.ac.jp/library/FA009097.json -o FA009097.json
-curl https://ci.nii.ac.jp/library/FA009100.json -o FA009100.json
-curl https://ci.nii.ac.jp/library/FA021616.json -o FA021616.json
-curl https://ci.nii.ac.jp/library/FA009111.json -o FA009111.json
-curl https://ci.nii.ac.jp/library/FA009122.json -o FA009122.json
-curl https://ci.nii.ac.jp/library/FA009133.json -o FA009133.json
-curl https://ci.nii.ac.jp/library/FA009144.json -o FA009144.json
-curl https://ci.nii.ac.jp/library/FA009155.json -o FA009155.json
-curl https://ci.nii.ac.jp/library/FA009166.json -o FA009166.json
-curl https://ci.nii.ac.jp/library/FA009177.json -o FA009177.json
-curl https://ci.nii.ac.jp/library/FA009188.json -o FA009188.json
-curl https://ci.nii.ac.jp/library/FA009199.json -o FA009199.json
-curl https://ci.nii.ac.jp/library/FA009202.json -o FA009202.json
-curl https://ci.nii.ac.jp/library/FA009359.json -o FA009359.json
-curl https://ci.nii.ac.jp/library/FA020442.json -o FA020442.json
-curl https://ci.nii.ac.jp/library/FA027827.json -o FA027827.json
-curl https://ci.nii.ac.jp/library/FA009213.json -o FA009213.json
-curl https://ci.nii.ac.jp/library/FA009224.json -o FA009224.json
-curl https://ci.nii.ac.jp/library/FA009235.json -o FA009235.json
-curl https://ci.nii.ac.jp/library/FA009246.json -o FA009246.json
-curl https://ci.nii.ac.jp/library/FA009268.json -o FA009268.json
-curl https://ci.nii.ac.jp/library/FA009406.json -o FA009406.json
-curl https://ci.nii.ac.jp/library/FA019807.json -o FA019807.json
-curl https://ci.nii.ac.jp/library/FA009315.json -o FA009315.json
-curl https://ci.nii.ac.jp/library/FA009326.json -o FA009326.json
-curl https://ci.nii.ac.jp/library/FA009337.json -o FA009337.json
-curl https://ci.nii.ac.jp/library/FA009348.json -o FA009348.json
-curl https://ci.nii.ac.jp/library/FA009370.json -o FA009370.json
-curl https://ci.nii.ac.jp/library/FA009381.json -o FA009381.json
-curl https://ci.nii.ac.jp/library/FA009392.json -o FA009392.json
-curl https://ci.nii.ac.jp/library/FA009428.json -o FA009428.json
-curl https://ci.nii.ac.jp/library/FA009439.json -o FA009439.json
-curl https://ci.nii.ac.jp/library/FA009461.json -o FA009461.json
-curl https://ci.nii.ac.jp/library/FA009483.json -o FA009483.json
-curl https://ci.nii.ac.jp/library/FA012193.json -o FA012193.json
-curl https://ci.nii.ac.jp/library/FA009494.json -o FA009494.json
-curl https://ci.nii.ac.jp/library/FA009508.json -o FA009508.json
-curl https://ci.nii.ac.jp/library/FA009519.json -o FA009519.json
-curl https://ci.nii.ac.jp/library/FA009530.json -o FA009530.json
-curl https://ci.nii.ac.jp/library/FA009541.json -o FA009541.json
-curl https://ci.nii.ac.jp/library/FA009563.json -o FA009563.json
-curl https://ci.nii.ac.jp/library/FA009596.json -o FA009596.json
-curl https://ci.nii.ac.jp/library/FA009610.json -o FA009610.json
-curl https://ci.nii.ac.jp/library/FA009621.json -o FA009621.json
-curl https://ci.nii.ac.jp/library/FA009632.json -o FA009632.json
-curl https://ci.nii.ac.jp/library/FA016183.json -o FA016183.json
-curl https://ci.nii.ac.jp/library/FA013006.json -o FA013006.json
-curl https://ci.nii.ac.jp/library/FA009654.json -o FA009654.json
-curl https://ci.nii.ac.jp/library/FA024909.json -o FA024909.json
-curl https://ci.nii.ac.jp/library/FA009665.json -o FA009665.json
-curl https://ci.nii.ac.jp/library/FA009687.json -o FA009687.json
-curl https://ci.nii.ac.jp/library/FA009698.json -o FA009698.json
-curl https://ci.nii.ac.jp/library/FA009701.json -o FA009701.json
-curl https://ci.nii.ac.jp/library/FA009712.json -o FA009712.json
-curl https://ci.nii.ac.jp/library/FA009723.json -o FA009723.json
-curl https://ci.nii.ac.jp/library/FA009734.json -o FA009734.json
-curl https://ci.nii.ac.jp/library/FA009745.json -o FA009745.json
-curl https://ci.nii.ac.jp/library/FA009756.json -o FA009756.json
-curl https://ci.nii.ac.jp/library/FA009767.json -o FA009767.json
-curl https://ci.nii.ac.jp/library/FA009803.json -o FA009803.json
-curl https://ci.nii.ac.jp/library/FA009847.json -o FA009847.json
-curl https://ci.nii.ac.jp/library/FA009869.json -o FA009869.json
-curl https://ci.nii.ac.jp/library/FA009880.json -o FA009880.json
-curl https://ci.nii.ac.jp/library/FA009905.json -o FA009905.json
-curl https://ci.nii.ac.jp/library/FA009916.json -o FA009916.json
-curl https://ci.nii.ac.jp/library/FA009949.json -o FA009949.json
-curl https://ci.nii.ac.jp/library/FA009960.json -o FA009960.json
-curl https://ci.nii.ac.jp/library/FA009993.json -o FA009993.json
-curl https://ci.nii.ac.jp/library/FA010008.json -o FA010008.json
-curl https://ci.nii.ac.jp/library/FA010085.json -o FA010085.json
-curl https://ci.nii.ac.jp/library/FA010096.json -o FA010096.json
-curl https://ci.nii.ac.jp/library/FA010165.json -o FA010165.json
-curl https://ci.nii.ac.jp/library/FA010380.json -o FA010380.json
-curl https://ci.nii.ac.jp/library/FA010405.json -o FA010405.json
-curl https://ci.nii.ac.jp/library/FA010041.json -o FA010041.json
-curl https://ci.nii.ac.jp/library/FA010187.json -o FA010187.json
-curl https://ci.nii.ac.jp/library/FA010198.json -o FA010198.json
-curl https://ci.nii.ac.jp/library/FA010201.json -o FA010201.json
-curl https://ci.nii.ac.jp/library/FA010212.json -o FA010212.json
-curl https://ci.nii.ac.jp/library/FA010223.json -o FA010223.json
-curl https://ci.nii.ac.jp/library/FA010234.json -o FA010234.json
-curl https://ci.nii.ac.jp/library/FA027361.json -o FA027361.json
-curl https://ci.nii.ac.jp/library/FA010245.json -o FA010245.json
-curl https://ci.nii.ac.jp/library/FA010256.json -o FA010256.json
-curl https://ci.nii.ac.jp/library/FA010267.json -o FA010267.json
-curl https://ci.nii.ac.jp/library/FA010278.json -o FA010278.json
-curl https://ci.nii.ac.jp/library/FA010303.json -o FA010303.json
-curl https://ci.nii.ac.jp/library/FA010314.json -o FA010314.json
-curl https://ci.nii.ac.jp/library/FA010336.json -o FA010336.json
-curl https://ci.nii.ac.jp/library/FA010347.json -o FA010347.json
-curl https://ci.nii.ac.jp/library/FA010358.json -o FA010358.json
-curl https://ci.nii.ac.jp/library/FA010369.json -o FA010369.json
-curl https://ci.nii.ac.jp/library/FA010391.json -o FA010391.json
-curl https://ci.nii.ac.jp/library/FA010416.json -o FA010416.json
-curl https://ci.nii.ac.jp/library/FA010438.json -o FA010438.json
-curl https://ci.nii.ac.jp/library/FA010449.json -o FA010449.json
-curl https://ci.nii.ac.jp/library/FA010460.json -o FA010460.json
-curl https://ci.nii.ac.jp/library/FA010471.json -o FA010471.json
-curl https://ci.nii.ac.jp/library/FA010482.json -o FA010482.json
-curl https://ci.nii.ac.jp/library/FA010493.json -o FA010493.json
-curl https://ci.nii.ac.jp/library/FA010551.json -o FA010551.json
-curl https://ci.nii.ac.jp/library/FA010562.json -o FA010562.json
-curl https://ci.nii.ac.jp/library/FA010595.json -o FA010595.json
-curl https://ci.nii.ac.jp/library/FA010609.json -o FA010609.json
-curl https://ci.nii.ac.jp/library/FA010620.json -o FA010620.json
-curl https://ci.nii.ac.jp/library/FA010642.json -o FA010642.json
-curl https://ci.nii.ac.jp/library/FA010697.json -o FA010697.json
-curl https://ci.nii.ac.jp/library/FA010711.json -o FA010711.json
-curl https://ci.nii.ac.jp/library/FA010722.json -o FA010722.json
-curl https://ci.nii.ac.jp/library/FA027929.json -o FA027929.json
-curl https://ci.nii.ac.jp/library/FA010744.json -o FA010744.json
-curl https://ci.nii.ac.jp/library/FA010755.json -o FA010755.json
-curl https://ci.nii.ac.jp/library/FA010766.json -o FA010766.json
-curl https://ci.nii.ac.jp/library/FA010777.json -o FA010777.json
-curl https://ci.nii.ac.jp/library/FA010799.json -o FA010799.json
-curl https://ci.nii.ac.jp/library/FA010802.json -o FA010802.json
-curl https://ci.nii.ac.jp/library/FA014428.json -o FA014428.json
-curl https://ci.nii.ac.jp/library/FA010813.json -o FA010813.json
-curl https://ci.nii.ac.jp/library/FA010824.json -o FA010824.json
-curl https://ci.nii.ac.jp/library/FA010835.json -o FA010835.json
-curl https://ci.nii.ac.jp/library/FA010846.json -o FA010846.json
-curl https://ci.nii.ac.jp/library/FA010857.json -o FA010857.json
-curl https://ci.nii.ac.jp/library/FA017674.json -o FA017674.json
-curl https://ci.nii.ac.jp/library/FA010868.json -o FA010868.json
-curl https://ci.nii.ac.jp/library/FA010879.json -o FA010879.json
-curl https://ci.nii.ac.jp/library/FA010890.json -o FA010890.json
-curl https://ci.nii.ac.jp/library/FA010915.json -o FA010915.json
-curl https://ci.nii.ac.jp/library/FA010926.json -o FA010926.json
-curl https://ci.nii.ac.jp/library/FA010904.json -o FA010904.json
-curl https://ci.nii.ac.jp/library/FA010948.json -o FA010948.json
-curl https://ci.nii.ac.jp/library/FA010959.json -o FA010959.json
-curl https://ci.nii.ac.jp/library/FA010970.json -o FA010970.json
-curl https://ci.nii.ac.jp/library/FA016194.json -o FA016194.json
-curl https://ci.nii.ac.jp/library/FA010992.json -o FA010992.json
-curl https://ci.nii.ac.jp/library/FA011000.json -o FA011000.json
-curl https://ci.nii.ac.jp/library/FA011033.json -o FA011033.json
-curl https://ci.nii.ac.jp/library/FA011044.json -o FA011044.json
-curl https://ci.nii.ac.jp/library/FA011055.json -o FA011055.json
-curl https://ci.nii.ac.jp/library/FA021988.json -o FA021988.json
-curl https://ci.nii.ac.jp/library/FA011066.json -o FA011066.json
-curl https://ci.nii.ac.jp/library/FA011088.json -o FA011088.json
-curl https://ci.nii.ac.jp/library/FA011113.json -o FA011113.json
-curl https://ci.nii.ac.jp/library/FA011135.json -o FA011135.json
-curl https://ci.nii.ac.jp/library/FA011168.json -o FA011168.json
-curl https://ci.nii.ac.jp/library/FA020872.json -o FA020872.json
-curl https://ci.nii.ac.jp/library/FA011179.json -o FA011179.json
-curl https://ci.nii.ac.jp/library/FA011190.json -o FA011190.json
-curl https://ci.nii.ac.jp/library/FA011204.json -o FA011204.json
-curl https://ci.nii.ac.jp/library/FA011226.json -o FA011226.json
-curl https://ci.nii.ac.jp/library/FA011237.json -o FA011237.json
-curl https://ci.nii.ac.jp/library/FA011248.json -o FA011248.json
-curl https://ci.nii.ac.jp/library/FA011259.json -o FA011259.json
-curl https://ci.nii.ac.jp/library/FA011292.json -o FA011292.json
-curl https://ci.nii.ac.jp/library/FA011306.json -o FA011306.json
-curl https://ci.nii.ac.jp/library/FA011317.json -o FA011317.json
-curl https://ci.nii.ac.jp/library/FA011328.json -o FA011328.json
-curl https://ci.nii.ac.jp/library/FA011372.json -o FA011372.json
-curl https://ci.nii.ac.jp/library/FA011383.json -o FA011383.json
-curl https://ci.nii.ac.jp/library/FA011394.json -o FA011394.json
-curl https://ci.nii.ac.jp/library/FA011419.json -o FA011419.json
-curl https://ci.nii.ac.jp/library/FA011463.json -o FA011463.json
-curl https://ci.nii.ac.jp/library/FA011474.json -o FA011474.json
-curl https://ci.nii.ac.jp/library/FA011485.json -o FA011485.json
-curl https://ci.nii.ac.jp/library/FA011496.json -o FA011496.json
-curl https://ci.nii.ac.jp/library/FA011521.json -o FA011521.json
-curl https://ci.nii.ac.jp/library/FA011532.json -o FA011532.json
-curl https://ci.nii.ac.jp/library/FA011565.json -o FA011565.json
-curl https://ci.nii.ac.jp/library/FA011587.json -o FA011587.json
-curl https://ci.nii.ac.jp/library/FA011598.json -o FA011598.json
-curl https://ci.nii.ac.jp/library/FA011601.json -o FA011601.json
-curl https://ci.nii.ac.jp/library/FA011645.json -o FA011645.json
-curl https://ci.nii.ac.jp/library/FA011667.json -o FA011667.json
-curl https://ci.nii.ac.jp/library/FA011678.json -o FA011678.json
-curl https://ci.nii.ac.jp/library/FA011725.json -o FA011725.json
-curl https://ci.nii.ac.jp/library/FA012207.json -o FA012207.json
-curl https://ci.nii.ac.jp/library/FA018021.json -o FA018021.json
-curl https://ci.nii.ac.jp/library/FA02386X.json -o FA02386X.json
-curl https://ci.nii.ac.jp/library/FA025151.json -o FA025151.json
-curl https://ci.nii.ac.jp/library/FA012251.json -o FA012251.json
-curl https://ci.nii.ac.jp/library/FA012295.json -o FA012295.json
-curl https://ci.nii.ac.jp/library/FA027088.json -o FA027088.json
-curl https://ci.nii.ac.jp/library/FA01290X.json -o FA01290X.json
-curl https://ci.nii.ac.jp/library/FA012896.json -o FA012896.json
-curl https://ci.nii.ac.jp/library/FA012885.json -o FA012885.json
-curl https://ci.nii.ac.jp/library/FA012874.json -o FA012874.json
-curl https://ci.nii.ac.jp/library/FA012852.json -o FA012852.json
-curl https://ci.nii.ac.jp/library/FA012841.json -o FA012841.json
-curl https://ci.nii.ac.jp/library/FA01282X.json -o FA01282X.json
-curl https://ci.nii.ac.jp/library/FA012772.json -o FA012772.json
-curl https://ci.nii.ac.jp/library/FA012750.json -o FA012750.json
-curl https://ci.nii.ac.jp/library/FA012761.json -o FA012761.json
-curl https://ci.nii.ac.jp/library/FA01274X.json -o FA01274X.json
-curl https://ci.nii.ac.jp/library/FA021944.json -o FA021944.json
-curl https://ci.nii.ac.jp/library/FA012739.json -o FA012739.json
-curl https://ci.nii.ac.jp/library/FA012535.json -o FA012535.json
-curl https://ci.nii.ac.jp/library/FA012557.json -o FA012557.json
-curl https://ci.nii.ac.jp/library/FA012568.json -o FA012568.json
-curl https://ci.nii.ac.jp/library/FA012579.json -o FA012579.json
-curl https://ci.nii.ac.jp/library/FA023688.json -o FA023688.json
-curl https://ci.nii.ac.jp/library/FA026926.json -o FA026926.json
-curl https://ci.nii.ac.jp/library/FA01258X.json -o FA01258X.json
-curl https://ci.nii.ac.jp/library/FA012590.json -o FA012590.json
-curl https://ci.nii.ac.jp/library/FA012604.json -o FA012604.json
-curl https://ci.nii.ac.jp/library/FA012615.json -o FA012615.json
-curl https://ci.nii.ac.jp/library/FA012626.json -o FA012626.json
-curl https://ci.nii.ac.jp/library/FA012637.json -o FA012637.json
-curl https://ci.nii.ac.jp/library/FA012648.json -o FA012648.json
-curl https://ci.nii.ac.jp/library/FA012659.json -o FA012659.json
-curl https://ci.nii.ac.jp/library/FA01266X.json -o FA01266X.json
-curl https://ci.nii.ac.jp/library/FA012670.json -o FA012670.json
-curl https://ci.nii.ac.jp/library/FA012681.json -o FA012681.json
-curl https://ci.nii.ac.jp/library/FA012692.json -o FA012692.json
-curl https://ci.nii.ac.jp/library/FA012706.json -o FA012706.json
-curl https://ci.nii.ac.jp/library/FA012717.json -o FA012717.json
-curl https://ci.nii.ac.jp/library/FA012728.json -o FA012728.json
-curl https://ci.nii.ac.jp/library/FA013028.json -o FA013028.json
-curl https://ci.nii.ac.jp/library/FA013061.json -o FA013061.json
-curl https://ci.nii.ac.jp/library/FA013039.json -o FA013039.json
-curl https://ci.nii.ac.jp/library/FA013017.json -o FA013017.json
-curl https://ci.nii.ac.jp/library/FA013866.json -o FA013866.json
-curl https://ci.nii.ac.jp/library/FA013888.json -o FA013888.json
-curl https://ci.nii.ac.jp/library/FA013913.json -o FA013913.json
-curl https://ci.nii.ac.jp/library/FA013935.json -o FA013935.json
-curl https://ci.nii.ac.jp/library/FA013946.json -o FA013946.json
-curl https://ci.nii.ac.jp/library/FA013822.json -o FA013822.json
-curl https://ci.nii.ac.jp/library/FA024476.json -o FA024476.json
-curl https://ci.nii.ac.jp/library/FA014009.json -o FA014009.json
-curl https://ci.nii.ac.jp/library/FA014020.json -o FA014020.json
-curl https://ci.nii.ac.jp/library/FA01401X.json -o FA01401X.json
-curl https://ci.nii.ac.jp/library/FA018112.json -o FA018112.json
-curl https://ci.nii.ac.jp/library/FA014064.json -o FA014064.json
-curl https://ci.nii.ac.jp/library/FA014086.json -o FA014086.json
-curl https://ci.nii.ac.jp/library/FA014246.json -o FA014246.json
-curl https://ci.nii.ac.jp/library/FA014257.json -o FA014257.json
-curl https://ci.nii.ac.jp/library/FA014268.json -o FA014268.json
-curl https://ci.nii.ac.jp/library/FA021580.json -o FA021580.json
-curl https://ci.nii.ac.jp/library/FA014279.json -o FA014279.json
-curl https://ci.nii.ac.jp/library/FA01428X.json -o FA01428X.json
-curl https://ci.nii.ac.jp/library/FA014290.json -o FA014290.json
-curl https://ci.nii.ac.jp/library/FA014304.json -o FA014304.json
-curl https://ci.nii.ac.jp/library/FA014326.json -o FA014326.json
-curl https://ci.nii.ac.jp/library/FA014348.json -o FA014348.json
-curl https://ci.nii.ac.jp/library/FA014359.json -o FA014359.json
-curl https://ci.nii.ac.jp/library/FA015872.json -o FA015872.json
-curl https://ci.nii.ac.jp/library/FA01436X.json -o FA01436X.json
-curl https://ci.nii.ac.jp/library/FA014370.json -o FA014370.json
-curl https://ci.nii.ac.jp/library/FA014392.json -o FA014392.json
-curl https://ci.nii.ac.jp/library/FA014406.json -o FA014406.json
-curl https://ci.nii.ac.jp/library/FA016773.json -o FA016773.json
-curl https://ci.nii.ac.jp/library/FA01444X.json -o FA01444X.json
-curl https://ci.nii.ac.jp/library/FA014450.json -o FA014450.json
-curl https://ci.nii.ac.jp/library/FA014461.json -o FA014461.json
-curl https://ci.nii.ac.jp/library/FA014519.json -o FA014519.json
-curl https://ci.nii.ac.jp/library/FA01452X.json -o FA01452X.json
-curl https://ci.nii.ac.jp/library/FA014530.json -o FA014530.json
-curl https://ci.nii.ac.jp/library/FA014552.json -o FA014552.json
-curl https://ci.nii.ac.jp/library/FA014563.json -o FA014563.json
-curl https://ci.nii.ac.jp/library/FA015453.json -o FA015453.json
-curl https://ci.nii.ac.jp/library/FA01460X.json -o FA01460X.json
-curl https://ci.nii.ac.jp/library/FA024501.json -o FA024501.json
-curl https://ci.nii.ac.jp/library/FA014610.json -o FA014610.json
-curl https://ci.nii.ac.jp/library/FA014621.json -o FA014621.json
-curl https://ci.nii.ac.jp/library/FA014643.json -o FA014643.json
-curl https://ci.nii.ac.jp/library/FA014654.json -o FA014654.json
-curl https://ci.nii.ac.jp/library/FA014665.json -o FA014665.json
-curl https://ci.nii.ac.jp/library/FA014676.json -o FA014676.json
-curl https://ci.nii.ac.jp/library/FA014698.json -o FA014698.json
-curl https://ci.nii.ac.jp/library/FA014745.json -o FA014745.json
-curl https://ci.nii.ac.jp/library/FA014756.json -o FA014756.json
-curl https://ci.nii.ac.jp/library/FA014778.json -o FA014778.json
-curl https://ci.nii.ac.jp/library/FA014803.json -o FA014803.json
-curl https://ci.nii.ac.jp/library/FA014814.json -o FA014814.json
-curl https://ci.nii.ac.jp/library/FA014891.json -o FA014891.json
-curl https://ci.nii.ac.jp/library/FA01517X.json -o FA01517X.json
-curl https://ci.nii.ac.jp/library/FA014905.json -o FA014905.json
-curl https://ci.nii.ac.jp/library/FA018666.json -o FA018666.json
-curl https://ci.nii.ac.jp/library/FA014916.json -o FA014916.json
-curl https://ci.nii.ac.jp/library/FA014927.json -o FA014927.json
-curl https://ci.nii.ac.jp/library/FA015125.json -o FA015125.json
-curl https://ci.nii.ac.jp/library/FA015136.json -o FA015136.json
-curl https://ci.nii.ac.jp/library/FA015147.json -o FA015147.json
-curl https://ci.nii.ac.jp/library/FA015158.json -o FA015158.json
-curl https://ci.nii.ac.jp/library/FA015169.json -o FA015169.json
-curl https://ci.nii.ac.jp/library/FA015180.json -o FA015180.json
-curl https://ci.nii.ac.jp/library/FA015191.json -o FA015191.json
-curl https://ci.nii.ac.jp/library/FA015205.json -o FA015205.json
-curl https://ci.nii.ac.jp/library/FA015216.json -o FA015216.json
-curl https://ci.nii.ac.jp/library/FA015227.json -o FA015227.json
-curl https://ci.nii.ac.jp/library/FA015238.json -o FA015238.json
-curl https://ci.nii.ac.jp/library/FA015249.json -o FA015249.json
-curl https://ci.nii.ac.jp/library/FA015260.json -o FA015260.json
-curl https://ci.nii.ac.jp/library/FA015271.json -o FA015271.json
-curl https://ci.nii.ac.jp/library/FA015293.json -o FA015293.json
-curl https://ci.nii.ac.jp/library/FA015340.json -o FA015340.json
-curl https://ci.nii.ac.jp/library/FA024716.json -o FA024716.json
-curl https://ci.nii.ac.jp/library/FA015362.json -o FA015362.json
-curl https://ci.nii.ac.jp/library/FA023611.json -o FA023611.json
-curl https://ci.nii.ac.jp/library/FA015395.json -o FA015395.json
-curl https://ci.nii.ac.jp/library/FA027099.json -o FA027099.json
-curl https://ci.nii.ac.jp/library/FA015442.json -o FA015442.json
-curl https://ci.nii.ac.jp/library/FA015464.json -o FA015464.json
-curl https://ci.nii.ac.jp/library/FA015475.json -o FA015475.json
-curl https://ci.nii.ac.jp/library/FA015486.json -o FA015486.json
-curl https://ci.nii.ac.jp/library/FA015497.json -o FA015497.json
-curl https://ci.nii.ac.jp/library/FA023167.json -o FA023167.json
-curl https://ci.nii.ac.jp/library/FA023178.json -o FA023178.json
-curl https://ci.nii.ac.jp/library/FA024206.json -o FA024206.json
-curl https://ci.nii.ac.jp/library/FA027000.json -o FA027000.json
-curl https://ci.nii.ac.jp/library/FA027317.json -o FA027317.json
-curl https://ci.nii.ac.jp/library/FA015500.json -o FA015500.json
-curl https://ci.nii.ac.jp/library/FA015511.json -o FA015511.json
-curl https://ci.nii.ac.jp/library/FA015522.json -o FA015522.json
-curl https://ci.nii.ac.jp/library/FA015533.json -o FA015533.json
-curl https://ci.nii.ac.jp/library/FA017368.json -o FA017368.json
-curl https://ci.nii.ac.jp/library/FA018473.json -o FA018473.json
-curl https://ci.nii.ac.jp/library/FA015544.json -o FA015544.json
-curl https://ci.nii.ac.jp/library/FA012998.json -o FA012998.json
-curl https://ci.nii.ac.jp/library/FA015599.json -o FA015599.json
-curl https://ci.nii.ac.jp/library/FA015602.json -o FA015602.json
-curl https://ci.nii.ac.jp/library/FA015613.json -o FA015613.json
-curl https://ci.nii.ac.jp/library/FA015657.json -o FA015657.json
-curl https://ci.nii.ac.jp/library/FA015668.json -o FA015668.json
-curl https://ci.nii.ac.jp/library/FA015679.json -o FA015679.json
-curl https://ci.nii.ac.jp/library/FA015704.json -o FA015704.json
-curl https://ci.nii.ac.jp/library/FA015759.json -o FA015759.json
-curl https://ci.nii.ac.jp/library/FA015409.json -o FA015409.json
-curl https://ci.nii.ac.jp/library/FA01541X.json -o FA01541X.json
-curl https://ci.nii.ac.jp/library/FA015420.json -o FA015420.json
-curl https://ci.nii.ac.jp/library/FA015431.json -o FA015431.json
-curl https://ci.nii.ac.jp/library/FA015555.json -o FA015555.json
-curl https://ci.nii.ac.jp/library/FA015690.json -o FA015690.json
-curl https://ci.nii.ac.jp/library/FA015715.json -o FA015715.json
-curl https://ci.nii.ac.jp/library/FA015726.json -o FA015726.json
-curl https://ci.nii.ac.jp/library/FA015748.json -o FA015748.json
-curl https://ci.nii.ac.jp/library/FA01576X.json -o FA01576X.json
-curl https://ci.nii.ac.jp/library/FA015781.json -o FA015781.json
-curl https://ci.nii.ac.jp/library/FA015828.json -o FA015828.json
-curl https://ci.nii.ac.jp/library/FA01584X.json -o FA01584X.json
-curl https://ci.nii.ac.jp/library/FA015883.json -o FA015883.json
-curl https://ci.nii.ac.jp/library/FA015908.json -o FA015908.json
-curl https://ci.nii.ac.jp/library/FA016398.json -o FA016398.json
-curl https://ci.nii.ac.jp/library/FA017029.json -o FA017029.json
-curl https://ci.nii.ac.jp/library/FA017222.json -o FA017222.json
-curl https://ci.nii.ac.jp/library/FA017925.json -o FA017925.json
-curl https://ci.nii.ac.jp/library/FA020249.json -o FA020249.json
-curl https://ci.nii.ac.jp/library/FA01592X.json -o FA01592X.json
-curl https://ci.nii.ac.jp/library/FA015930.json -o FA015930.json
-curl https://ci.nii.ac.jp/library/FA015963.json -o FA015963.json
-curl https://ci.nii.ac.jp/library/FA015985.json -o FA015985.json
-curl https://ci.nii.ac.jp/library/FA016004.json -o FA016004.json
-curl https://ci.nii.ac.jp/library/FA016015.json -o FA016015.json
-curl https://ci.nii.ac.jp/library/FA016026.json -o FA016026.json
-curl https://ci.nii.ac.jp/library/FA017051.json -o FA017051.json
-curl https://ci.nii.ac.jp/library/FA016048.json -o FA016048.json
-curl https://ci.nii.ac.jp/library/FA01606X.json -o FA01606X.json
-curl https://ci.nii.ac.jp/library/FA016070.json -o FA016070.json
-curl https://ci.nii.ac.jp/library/FA016081.json -o FA016081.json
-curl https://ci.nii.ac.jp/library/FA016117.json -o FA016117.json
-curl https://ci.nii.ac.jp/library/FA016128.json -o FA016128.json
-curl https://ci.nii.ac.jp/library/FA01614X.json -o FA01614X.json
-curl https://ci.nii.ac.jp/library/FA015806.json -o FA015806.json
-curl https://ci.nii.ac.jp/library/FA015817.json -o FA015817.json
-curl https://ci.nii.ac.jp/library/FA015974.json -o FA015974.json
-curl https://ci.nii.ac.jp/library/FA016092.json -o FA016092.json
-curl https://ci.nii.ac.jp/library/FA016106.json -o FA016106.json
-curl https://ci.nii.ac.jp/library/FA016150.json -o FA016150.json
-curl https://ci.nii.ac.jp/library/FA016161.json -o FA016161.json
-curl https://ci.nii.ac.jp/library/FA016208.json -o FA016208.json
-curl https://ci.nii.ac.jp/library/FA016219.json -o FA016219.json
-curl https://ci.nii.ac.jp/library/FA016230.json -o FA016230.json
-curl https://ci.nii.ac.jp/library/FA016241.json -o FA016241.json
-curl https://ci.nii.ac.jp/library/FA016252.json -o FA016252.json
-curl https://ci.nii.ac.jp/library/FA016274.json -o FA016274.json
-curl https://ci.nii.ac.jp/library/FA01630X.json -o FA01630X.json
-curl https://ci.nii.ac.jp/library/FA016310.json -o FA016310.json
-curl https://ci.nii.ac.jp/library/FA016864.json -o FA016864.json
-curl https://ci.nii.ac.jp/library/FA016343.json -o FA016343.json
-curl https://ci.nii.ac.jp/library/FA016354.json -o FA016354.json
-curl https://ci.nii.ac.jp/library/FA016365.json -o FA016365.json
-curl https://ci.nii.ac.jp/library/FA016693.json -o FA016693.json
-curl https://ci.nii.ac.jp/library/FA023269.json -o FA023269.json
-curl https://ci.nii.ac.jp/library/FA02734X.json -o FA02734X.json
-curl https://ci.nii.ac.jp/library/FA027383.json -o FA027383.json
-curl https://ci.nii.ac.jp/library/FA027838.json -o FA027838.json
-curl https://ci.nii.ac.jp/library/FA016376.json -o FA016376.json
-curl https://ci.nii.ac.jp/library/FA012987.json -o FA012987.json
-curl https://ci.nii.ac.jp/library/FA016412.json -o FA016412.json
-curl https://ci.nii.ac.jp/library/FA016503.json -o FA016503.json
-curl https://ci.nii.ac.jp/library/FA016514.json -o FA016514.json
-curl https://ci.nii.ac.jp/library/FA016525.json -o FA016525.json
-curl https://ci.nii.ac.jp/library/FA016536.json -o FA016536.json
-curl https://ci.nii.ac.jp/library/FA017109.json -o FA017109.json
-curl https://ci.nii.ac.jp/library/FA016547.json -o FA016547.json
-curl https://ci.nii.ac.jp/library/FA016649.json -o FA016649.json
-curl https://ci.nii.ac.jp/library/FA016569.json -o FA016569.json
-curl https://ci.nii.ac.jp/library/FA016558.json -o FA016558.json
-curl https://ci.nii.ac.jp/library/FA016638.json -o FA016638.json
-curl https://ci.nii.ac.jp/library/FA01657X.json -o FA01657X.json
-curl https://ci.nii.ac.jp/library/FA016605.json -o FA016605.json
-curl https://ci.nii.ac.jp/library/FA01665X.json -o FA01665X.json
-curl https://ci.nii.ac.jp/library/FA016580.json -o FA016580.json
-curl https://ci.nii.ac.jp/library/FA016616.json -o FA016616.json
-curl https://ci.nii.ac.jp/library/FA016591.json -o FA016591.json
-curl https://ci.nii.ac.jp/library/FA016671.json -o FA016671.json
-curl https://ci.nii.ac.jp/library/FA016682.json -o FA016682.json
-curl https://ci.nii.ac.jp/library/FA016707.json -o FA016707.json
-curl https://ci.nii.ac.jp/library/FA016718.json -o FA016718.json
-curl https://ci.nii.ac.jp/library/FA016729.json -o FA016729.json
-curl https://ci.nii.ac.jp/library/FA016740.json -o FA016740.json
-curl https://ci.nii.ac.jp/library/FA016751.json -o FA016751.json
-curl https://ci.nii.ac.jp/library/FA016762.json -o FA016762.json
-curl https://ci.nii.ac.jp/library/FA016809.json -o FA016809.json
-curl https://ci.nii.ac.jp/library/FA01681X.json -o FA01681X.json
-curl https://ci.nii.ac.jp/library/FA016831.json -o FA016831.json
-curl https://ci.nii.ac.jp/library/FA016875.json -o FA016875.json
-curl https://ci.nii.ac.jp/library/FA016886.json -o FA016886.json
-curl https://ci.nii.ac.jp/library/FA016897.json -o FA016897.json
-curl https://ci.nii.ac.jp/library/FA017404.json -o FA017404.json
-curl https://ci.nii.ac.jp/library/FA012954.json -o FA012954.json
-curl https://ci.nii.ac.jp/library/FA016900.json -o FA016900.json
-curl https://ci.nii.ac.jp/library/FA016911.json -o FA016911.json
-curl https://ci.nii.ac.jp/library/FA016922.json -o FA016922.json
-curl https://ci.nii.ac.jp/library/FA016933.json -o FA016933.json
-curl https://ci.nii.ac.jp/library/FA016944.json -o FA016944.json
-curl https://ci.nii.ac.jp/library/FA016955.json -o FA016955.json
-curl https://ci.nii.ac.jp/library/FA016966.json -o FA016966.json
-curl https://ci.nii.ac.jp/library/FA012965.json -o FA012965.json
-curl https://ci.nii.ac.jp/library/FA012976.json -o FA012976.json
-curl https://ci.nii.ac.jp/library/FA017062.json -o FA017062.json
-curl https://ci.nii.ac.jp/library/FA017084.json -o FA017084.json
-curl https://ci.nii.ac.jp/library/FA017095.json -o FA017095.json
-curl https://ci.nii.ac.jp/library/FA023291.json -o FA023291.json
-curl https://ci.nii.ac.jp/library/FA01711X.json -o FA01711X.json
-curl https://ci.nii.ac.jp/library/FA017120.json -o FA017120.json
-curl https://ci.nii.ac.jp/library/FA017131.json -o FA017131.json
-curl https://ci.nii.ac.jp/library/FA017153.json -o FA017153.json
-curl https://ci.nii.ac.jp/library/FA017164.json -o FA017164.json
-curl https://ci.nii.ac.jp/library/FA017197.json -o FA017197.json
-curl https://ci.nii.ac.jp/library/FA017200.json -o FA017200.json
-curl https://ci.nii.ac.jp/library/FA017244.json -o FA017244.json
-curl https://ci.nii.ac.jp/library/FA017277.json -o FA017277.json
-curl https://ci.nii.ac.jp/library/FA017324.json -o FA017324.json
-curl https://ci.nii.ac.jp/library/FA017335.json -o FA017335.json
-curl https://ci.nii.ac.jp/library/FA017346.json -o FA017346.json
-curl https://ci.nii.ac.jp/library/FA017379.json -o FA017379.json
-curl https://ci.nii.ac.jp/library/FA004763.json -o FA004763.json
-curl https://ci.nii.ac.jp/library/FA016401.json -o FA016401.json
-curl https://ci.nii.ac.jp/library/FA01703X.json -o FA01703X.json
-curl https://ci.nii.ac.jp/library/FA017040.json -o FA017040.json
-curl https://ci.nii.ac.jp/library/FA017211.json -o FA017211.json
-curl https://ci.nii.ac.jp/library/FA017302.json -o FA017302.json
-curl https://ci.nii.ac.jp/library/FA017357.json -o FA017357.json
-curl https://ci.nii.ac.jp/library/FA017459.json -o FA017459.json
-curl https://ci.nii.ac.jp/library/FA003818.json -o FA003818.json
-curl https://ci.nii.ac.jp/library/FA017448.json -o FA017448.json
-curl https://ci.nii.ac.jp/library/FA017470.json -o FA017470.json
-curl https://ci.nii.ac.jp/library/FA017492.json -o FA017492.json
-curl https://ci.nii.ac.jp/library/FA022856.json -o FA022856.json
-curl https://ci.nii.ac.jp/library/FA017506.json -o FA017506.json
-curl https://ci.nii.ac.jp/library/FA017517.json -o FA017517.json
-curl https://ci.nii.ac.jp/library/FA017528.json -o FA017528.json
-curl https://ci.nii.ac.jp/library/FA020158.json -o FA020158.json
-curl https://ci.nii.ac.jp/library/FA017539.json -o FA017539.json
-curl https://ci.nii.ac.jp/library/FA017550.json -o FA017550.json
-curl https://ci.nii.ac.jp/library/FA017561.json -o FA017561.json
-curl https://ci.nii.ac.jp/library/FA017572.json -o FA017572.json
-curl https://ci.nii.ac.jp/library/FA017583.json -o FA017583.json
-curl https://ci.nii.ac.jp/library/FA017594.json -o FA017594.json
-curl https://ci.nii.ac.jp/library/FA017608.json -o FA017608.json
-curl https://ci.nii.ac.jp/library/FA017619.json -o FA017619.json
-curl https://ci.nii.ac.jp/library/FA01762X.json -o FA01762X.json
-curl https://ci.nii.ac.jp/library/FA017630.json -o FA017630.json
-curl https://ci.nii.ac.jp/library/FA017641.json -o FA017641.json
-curl https://ci.nii.ac.jp/library/FA017652.json -o FA017652.json
-curl https://ci.nii.ac.jp/library/FA017696.json -o FA017696.json
-curl https://ci.nii.ac.jp/library/FA01770X.json -o FA01770X.json
-curl https://ci.nii.ac.jp/library/FA017710.json -o FA017710.json
-curl https://ci.nii.ac.jp/library/FA017721.json -o FA017721.json
-curl https://ci.nii.ac.jp/library/FA017765.json -o FA017765.json
-curl https://ci.nii.ac.jp/library/FA017798.json -o FA017798.json
-curl https://ci.nii.ac.jp/library/FA017845.json -o FA017845.json
-curl https://ci.nii.ac.jp/library/FA017878.json -o FA017878.json
-curl https://ci.nii.ac.jp/library/FA017889.json -o FA017889.json
-curl https://ci.nii.ac.jp/library/FA017903.json -o FA017903.json
-curl https://ci.nii.ac.jp/library/FA017936.json -o FA017936.json
-curl https://ci.nii.ac.jp/library/FA017958.json -o FA017958.json
-curl https://ci.nii.ac.jp/library/FA01797X.json -o FA01797X.json
-curl https://ci.nii.ac.jp/library/FA017991.json -o FA017991.json
-curl https://ci.nii.ac.jp/library/FA018032.json -o FA018032.json
-curl https://ci.nii.ac.jp/library/FA018076.json -o FA018076.json
-curl https://ci.nii.ac.jp/library/FA018087.json -o FA018087.json
-curl https://ci.nii.ac.jp/library/FA018098.json -o FA018098.json
-curl https://ci.nii.ac.jp/library/FA020690.json -o FA020690.json
-curl https://ci.nii.ac.jp/library/FA018101.json -o FA018101.json
-curl https://ci.nii.ac.jp/library/FA018123.json -o FA018123.json
-curl https://ci.nii.ac.jp/library/FA018145.json -o FA018145.json
-curl https://ci.nii.ac.jp/library/FA018156.json -o FA018156.json
-curl https://ci.nii.ac.jp/library/FA018214.json -o FA018214.json
-curl https://ci.nii.ac.jp/library/FA015373.json -o FA015373.json
-curl https://ci.nii.ac.jp/library/FA018225.json -o FA018225.json
-curl https://ci.nii.ac.jp/library/FA018655.json -o FA018655.json
-curl https://ci.nii.ac.jp/library/FA018247.json -o FA018247.json
-curl https://ci.nii.ac.jp/library/FA01827X.json -o FA01827X.json
-curl https://ci.nii.ac.jp/library/FA018495.json -o FA018495.json
-curl https://ci.nii.ac.jp/library/FA018305.json -o FA018305.json
-curl https://ci.nii.ac.jp/library/FA018371.json -o FA018371.json
-curl https://ci.nii.ac.jp/library/FA018360.json -o FA018360.json
-curl https://ci.nii.ac.jp/library/FA018382.json -o FA018382.json
-curl https://ci.nii.ac.jp/library/FA018451.json -o FA018451.json
-curl https://ci.nii.ac.jp/library/FA018484.json -o FA018484.json
-curl https://ci.nii.ac.jp/library/FA018509.json -o FA018509.json
-curl https://ci.nii.ac.jp/library/FA01851X.json -o FA01851X.json
-curl https://ci.nii.ac.jp/library/FA018520.json -o FA018520.json
-curl https://ci.nii.ac.jp/library/FA018531.json -o FA018531.json
-curl https://ci.nii.ac.jp/library/FA018564.json -o FA018564.json
-curl https://ci.nii.ac.jp/library/FA018597.json -o FA018597.json
-curl https://ci.nii.ac.jp/library/FA018600.json -o FA018600.json
-curl https://ci.nii.ac.jp/library/FA018611.json -o FA018611.json
-curl https://ci.nii.ac.jp/library/FA018633.json -o FA018633.json
-curl https://ci.nii.ac.jp/library/FA018644.json -o FA018644.json
-curl https://ci.nii.ac.jp/library/FA018677.json -o FA018677.json
-curl https://ci.nii.ac.jp/library/FA018699.json -o FA018699.json
-curl https://ci.nii.ac.jp/library/FA018713.json -o FA018713.json
-curl https://ci.nii.ac.jp/library/FA018724.json -o FA018724.json
-curl https://ci.nii.ac.jp/library/FA018746.json -o FA018746.json
-curl https://ci.nii.ac.jp/library/FA018757.json -o FA018757.json
-curl https://ci.nii.ac.jp/library/FA018768.json -o FA018768.json
-curl https://ci.nii.ac.jp/library/FA018779.json -o FA018779.json
-curl https://ci.nii.ac.jp/library/FA018804.json -o FA018804.json
-curl https://ci.nii.ac.jp/library/FA018815.json -o FA018815.json
-curl https://ci.nii.ac.jp/library/FA018837.json -o FA018837.json
-curl https://ci.nii.ac.jp/library/FA018848.json -o FA018848.json
-curl https://ci.nii.ac.jp/library/FA020056.json -o FA020056.json
-curl https://ci.nii.ac.jp/library/FA020078.json -o FA020078.json
-curl https://ci.nii.ac.jp/library/FA017288.json -o FA017288.json
-curl https://ci.nii.ac.jp/library/FA018859.json -o FA018859.json
-curl https://ci.nii.ac.jp/library/FA01886X.json -o FA01886X.json
-curl https://ci.nii.ac.jp/library/FA018870.json -o FA018870.json
-curl https://ci.nii.ac.jp/library/FA018881.json -o FA018881.json
-curl https://ci.nii.ac.jp/library/FA018892.json -o FA018892.json
-curl https://ci.nii.ac.jp/library/FA018939.json -o FA018939.json
-curl https://ci.nii.ac.jp/library/FA018961.json -o FA018961.json
-curl https://ci.nii.ac.jp/library/FA018972.json -o FA018972.json
-curl https://ci.nii.ac.jp/library/FA018983.json -o FA018983.json
-curl https://ci.nii.ac.jp/library/FA018994.json -o FA018994.json
-curl https://ci.nii.ac.jp/library/FA019002.json -o FA019002.json
-curl https://ci.nii.ac.jp/library/FA019013.json -o FA019013.json
-curl https://ci.nii.ac.jp/library/FA019035.json -o FA019035.json
-curl https://ci.nii.ac.jp/library/FA019079.json -o FA019079.json
-curl https://ci.nii.ac.jp/library/FA01908X.json -o FA01908X.json
-curl https://ci.nii.ac.jp/library/FA019104.json -o FA019104.json
-curl https://ci.nii.ac.jp/library/FA019115.json -o FA019115.json
-curl https://ci.nii.ac.jp/library/FA019137.json -o FA019137.json
-curl https://ci.nii.ac.jp/library/FA019148.json -o FA019148.json
-curl https://ci.nii.ac.jp/library/FA019159.json -o FA019159.json
-curl https://ci.nii.ac.jp/library/FA01916X.json -o FA01916X.json
-curl https://ci.nii.ac.jp/library/FA019170.json -o FA019170.json
-curl https://ci.nii.ac.jp/library/FA019192.json -o FA019192.json
-curl https://ci.nii.ac.jp/library/FA019206.json -o FA019206.json
-curl https://ci.nii.ac.jp/library/FA01975X.json -o FA01975X.json
-curl https://ci.nii.ac.jp/library/FA019228.json -o FA019228.json
-curl https://ci.nii.ac.jp/library/FA01924X.json -o FA01924X.json
-curl https://ci.nii.ac.jp/library/FA014439.json -o FA014439.json
-curl https://ci.nii.ac.jp/library/FA019250.json -o FA019250.json
-curl https://ci.nii.ac.jp/library/FA019261.json -o FA019261.json
-curl https://ci.nii.ac.jp/library/FA019272.json -o FA019272.json
-curl https://ci.nii.ac.jp/library/FA019283.json -o FA019283.json
-curl https://ci.nii.ac.jp/library/FA019294.json -o FA019294.json
-curl https://ci.nii.ac.jp/library/FA019308.json -o FA019308.json
-curl https://ci.nii.ac.jp/library/FA019319.json -o FA019319.json
-curl https://ci.nii.ac.jp/library/FA019363.json -o FA019363.json
-curl https://ci.nii.ac.jp/library/FA019385.json -o FA019385.json
-curl https://ci.nii.ac.jp/library/FA019396.json -o FA019396.json
-curl https://ci.nii.ac.jp/library/FA01940X.json -o FA01940X.json
-curl https://ci.nii.ac.jp/library/FA019410.json -o FA019410.json
-curl https://ci.nii.ac.jp/library/FA019421.json -o FA019421.json
-curl https://ci.nii.ac.jp/library/FA019465.json -o FA019465.json
-curl https://ci.nii.ac.jp/library/FA019454.json -o FA019454.json
-curl https://ci.nii.ac.jp/library/FA019476.json -o FA019476.json
-curl https://ci.nii.ac.jp/library/FA019501.json -o FA019501.json
-curl https://ci.nii.ac.jp/library/FA019512.json -o FA019512.json
-curl https://ci.nii.ac.jp/library/FA019534.json -o FA019534.json
-curl https://ci.nii.ac.jp/library/FA019545.json -o FA019545.json
-curl https://ci.nii.ac.jp/library/FA019556.json -o FA019556.json
-curl https://ci.nii.ac.jp/library/FA015952.json -o FA015952.json
-curl https://ci.nii.ac.jp/library/FA028080.json -o FA028080.json
-curl https://ci.nii.ac.jp/library/FA019589.json -o FA019589.json
-curl https://ci.nii.ac.jp/library/FA01959X.json -o FA01959X.json
-curl https://ci.nii.ac.jp/library/FA019603.json -o FA019603.json
-curl https://ci.nii.ac.jp/library/FA019625.json -o FA019625.json
-curl https://ci.nii.ac.jp/library/FA019636.json -o FA019636.json
-curl https://ci.nii.ac.jp/library/FA019647.json -o FA019647.json
-curl https://ci.nii.ac.jp/library/FA019669.json -o FA019669.json
-curl https://ci.nii.ac.jp/library/FA019691.json -o FA019691.json
-curl https://ci.nii.ac.jp/library/FA019716.json -o FA019716.json
-curl https://ci.nii.ac.jp/library/FA019738.json -o FA019738.json
-curl https://ci.nii.ac.jp/library/FA019749.json -o FA019749.json
-curl https://ci.nii.ac.jp/library/FA019793.json -o FA019793.json
-curl https://ci.nii.ac.jp/library/FA019818.json -o FA019818.json
-curl https://ci.nii.ac.jp/library/FA022200.json -o FA022200.json
-curl https://ci.nii.ac.jp/library/FA019829.json -o FA019829.json
-curl https://ci.nii.ac.jp/library/FA01983X.json -o FA01983X.json
-curl https://ci.nii.ac.jp/library/FA019840.json -o FA019840.json
-curl https://ci.nii.ac.jp/library/FA019851.json -o FA019851.json
-curl https://ci.nii.ac.jp/library/FA019862.json -o FA019862.json
-curl https://ci.nii.ac.jp/library/FA019873.json -o FA019873.json
-curl https://ci.nii.ac.jp/library/FA019884.json -o FA019884.json
-curl https://ci.nii.ac.jp/library/FA019909.json -o FA019909.json
-curl https://ci.nii.ac.jp/library/FA019920.json -o FA019920.json
-curl https://ci.nii.ac.jp/library/FA019931.json -o FA019931.json
-curl https://ci.nii.ac.jp/library/FA019953.json -o FA019953.json
-curl https://ci.nii.ac.jp/library/FA019975.json -o FA019975.json
-curl https://ci.nii.ac.jp/library/FA019986.json -o FA019986.json
-curl https://ci.nii.ac.jp/library/FA019997.json -o FA019997.json
-curl https://ci.nii.ac.jp/library/FA020034.json -o FA020034.json
-curl https://ci.nii.ac.jp/library/FA020045.json -o FA020045.json
-curl https://ci.nii.ac.jp/library/FA020067.json -o FA020067.json
-curl https://ci.nii.ac.jp/library/FA020089.json -o FA020089.json
-curl https://ci.nii.ac.jp/library/FA02009X.json -o FA02009X.json
-curl https://ci.nii.ac.jp/library/FA020114.json -o FA020114.json
-curl https://ci.nii.ac.jp/library/FA020125.json -o FA020125.json
-curl https://ci.nii.ac.jp/library/FA020169.json -o FA020169.json
-curl https://ci.nii.ac.jp/library/FA02017X.json -o FA02017X.json
-curl https://ci.nii.ac.jp/library/FA020180.json -o FA020180.json
-curl https://ci.nii.ac.jp/library/FA020191.json -o FA020191.json
-curl https://ci.nii.ac.jp/library/FA020205.json -o FA020205.json
-curl https://ci.nii.ac.jp/library/FA018462.json -o FA018462.json
-curl https://ci.nii.ac.jp/library/FA020216.json -o FA020216.json
-curl https://ci.nii.ac.jp/library/FA020227.json -o FA020227.json
-curl https://ci.nii.ac.jp/library/FA02025X.json -o FA02025X.json
-curl https://ci.nii.ac.jp/library/FA020282.json -o FA020282.json
-curl https://ci.nii.ac.jp/library/FA020293.json -o FA020293.json
-curl https://ci.nii.ac.jp/library/FA020329.json -o FA020329.json
-curl https://ci.nii.ac.jp/library/FA020340.json -o FA020340.json
-curl https://ci.nii.ac.jp/library/FA020384.json -o FA020384.json
-curl https://ci.nii.ac.jp/library/FA020409.json -o FA020409.json
-curl https://ci.nii.ac.jp/library/FA01754X.json -o FA01754X.json
-curl https://ci.nii.ac.jp/library/FA02041X.json -o FA02041X.json
-curl https://ci.nii.ac.jp/library/FA020420.json -o FA020420.json
-curl https://ci.nii.ac.jp/library/FA020464.json -o FA020464.json
-curl https://ci.nii.ac.jp/library/FA020475.json -o FA020475.json
-curl https://ci.nii.ac.jp/library/FA020486.json -o FA020486.json
-curl https://ci.nii.ac.jp/library/FA023994.json -o FA023994.json
-curl https://ci.nii.ac.jp/library/FA020497.json -o FA020497.json
-curl https://ci.nii.ac.jp/library/FA020500.json -o FA020500.json
-curl https://ci.nii.ac.jp/library/FA020511.json -o FA020511.json
-curl https://ci.nii.ac.jp/library/FA020522.json -o FA020522.json
-curl https://ci.nii.ac.jp/library/FA020533.json -o FA020533.json
-curl https://ci.nii.ac.jp/library/FA020544.json -o FA020544.json
-curl https://ci.nii.ac.jp/library/FA020555.json -o FA020555.json
-curl https://ci.nii.ac.jp/library/FA020566.json -o FA020566.json
-curl https://ci.nii.ac.jp/library/FA020577.json -o FA020577.json
-curl https://ci.nii.ac.jp/library/FA020624.json -o FA020624.json
-curl https://ci.nii.ac.jp/library/FA020613.json -o FA020613.json
-curl https://ci.nii.ac.jp/library/FA020635.json -o FA020635.json
-curl https://ci.nii.ac.jp/library/FA020646.json -o FA020646.json
-curl https://ci.nii.ac.jp/library/FA020679.json -o FA020679.json
-curl https://ci.nii.ac.jp/library/FA020726.json -o FA020726.json
-curl https://ci.nii.ac.jp/library/FA020737.json -o FA020737.json
-curl https://ci.nii.ac.jp/library/FA020759.json -o FA020759.json
-curl https://ci.nii.ac.jp/library/FA020770.json -o FA020770.json
-curl https://ci.nii.ac.jp/library/FA020781.json -o FA020781.json
-curl https://ci.nii.ac.jp/library/FA020792.json -o FA020792.json
-curl https://ci.nii.ac.jp/library/FA020806.json -o FA020806.json
-curl https://ci.nii.ac.jp/library/FA020817.json -o FA020817.json
-curl https://ci.nii.ac.jp/library/FA020828.json -o FA020828.json
-curl https://ci.nii.ac.jp/library/FA020839.json -o FA020839.json
-curl https://ci.nii.ac.jp/library/FA02084X.json -o FA02084X.json
-curl https://ci.nii.ac.jp/library/FA021285.json -o FA021285.json
-curl https://ci.nii.ac.jp/library/FA02130X.json -o FA02130X.json
-curl https://ci.nii.ac.jp/library/FA021398.json -o FA021398.json
-curl https://ci.nii.ac.jp/library/FA021401.json -o FA021401.json
-curl https://ci.nii.ac.jp/library/FA021412.json -o FA021412.json
-curl https://ci.nii.ac.jp/library/FA021423.json -o FA021423.json
-curl https://ci.nii.ac.jp/library/FA021434.json -o FA021434.json
-curl https://ci.nii.ac.jp/library/FA021445.json -o FA021445.json
-curl https://ci.nii.ac.jp/library/FA021456.json -o FA021456.json
-curl https://ci.nii.ac.jp/library/FA021467.json -o FA021467.json
-curl https://ci.nii.ac.jp/library/FA021489.json -o FA021489.json
-curl https://ci.nii.ac.jp/library/FA021525.json -o FA021525.json
-curl https://ci.nii.ac.jp/library/FA021536.json -o FA021536.json
-curl https://ci.nii.ac.jp/library/FA021547.json -o FA021547.json
-curl https://ci.nii.ac.jp/library/FA021558.json -o FA021558.json
-curl https://ci.nii.ac.jp/library/FA02157X.json -o FA02157X.json
-curl https://ci.nii.ac.jp/library/FA021591.json -o FA021591.json
-curl https://ci.nii.ac.jp/library/FA021605.json -o FA021605.json
-curl https://ci.nii.ac.jp/library/FA021627.json -o FA021627.json
-curl https://ci.nii.ac.jp/library/FA021660.json -o FA021660.json
-curl https://ci.nii.ac.jp/library/FA022630.json -o FA022630.json
-curl https://ci.nii.ac.jp/library/FA021671.json -o FA021671.json
-curl https://ci.nii.ac.jp/library/FA027598.json -o FA027598.json
-curl https://ci.nii.ac.jp/library/FA021682.json -o FA021682.json
-curl https://ci.nii.ac.jp/library/FA021693.json -o FA021693.json
-curl https://ci.nii.ac.jp/library/FA021718.json -o FA021718.json
-curl https://ci.nii.ac.jp/library/FA021729.json -o FA021729.json
-curl https://ci.nii.ac.jp/library/FA02173X.json -o FA02173X.json
-curl https://ci.nii.ac.jp/library/FA021740.json -o FA021740.json
-curl https://ci.nii.ac.jp/library/FA021762.json -o FA021762.json
-curl https://ci.nii.ac.jp/library/FA021784.json -o FA021784.json
-curl https://ci.nii.ac.jp/library/FA021795.json -o FA021795.json
-curl https://ci.nii.ac.jp/library/FA021809.json -o FA021809.json
-curl https://ci.nii.ac.jp/library/FA02181X.json -o FA02181X.json
-curl https://ci.nii.ac.jp/library/FA021842.json -o FA021842.json
-curl https://ci.nii.ac.jp/library/FA021864.json -o FA021864.json
-curl https://ci.nii.ac.jp/library/FA021875.json -o FA021875.json
-curl https://ci.nii.ac.jp/library/FA021897.json -o FA021897.json
-curl https://ci.nii.ac.jp/library/FA021900.json -o FA021900.json
-curl https://ci.nii.ac.jp/library/FA021911.json -o FA021911.json
-curl https://ci.nii.ac.jp/library/FA021933.json -o FA021933.json
-curl https://ci.nii.ac.jp/library/FA021955.json -o FA021955.json
-curl https://ci.nii.ac.jp/library/FA021999.json -o FA021999.json
-curl https://ci.nii.ac.jp/library/FA02203X.json -o FA02203X.json
-curl https://ci.nii.ac.jp/library/FA022029.json -o FA022029.json
-curl https://ci.nii.ac.jp/library/FA022062.json -o FA022062.json
-curl https://ci.nii.ac.jp/library/FA022095.json -o FA022095.json
-curl https://ci.nii.ac.jp/library/FA022109.json -o FA022109.json
-curl https://ci.nii.ac.jp/library/FA02211X.json -o FA02211X.json
-curl https://ci.nii.ac.jp/library/FA022186.json -o FA022186.json
-curl https://ci.nii.ac.jp/library/FA022197.json -o FA022197.json
-curl https://ci.nii.ac.jp/library/FA022211.json -o FA022211.json
-curl https://ci.nii.ac.jp/library/FA022222.json -o FA022222.json
-curl https://ci.nii.ac.jp/library/FA022233.json -o FA022233.json
-curl https://ci.nii.ac.jp/library/FA022470.json -o FA022470.json
-curl https://ci.nii.ac.jp/library/FA022481.json -o FA022481.json
-curl https://ci.nii.ac.jp/library/FA022506.json -o FA022506.json
-curl https://ci.nii.ac.jp/library/FA022492.json -o FA022492.json
-curl https://ci.nii.ac.jp/library/FA022517.json -o FA022517.json
-curl https://ci.nii.ac.jp/library/FA022539.json -o FA022539.json
-curl https://ci.nii.ac.jp/library/FA02254X.json -o FA02254X.json
-curl https://ci.nii.ac.jp/library/FA022561.json -o FA022561.json
-curl https://ci.nii.ac.jp/library/FA022583.json -o FA022583.json
-curl https://ci.nii.ac.jp/library/FA023236.json -o FA023236.json
-curl https://ci.nii.ac.jp/library/FA024432.json -o FA024432.json
-curl https://ci.nii.ac.jp/library/FA027066.json -o FA027066.json
-curl https://ci.nii.ac.jp/library/FA022594.json -o FA022594.json
-curl https://ci.nii.ac.jp/library/FA022608.json -o FA022608.json
-curl https://ci.nii.ac.jp/library/FA022619.json -o FA022619.json
-curl https://ci.nii.ac.jp/library/FA022641.json -o FA022641.json
-curl https://ci.nii.ac.jp/library/FA022652.json -o FA022652.json
-curl https://ci.nii.ac.jp/library/FA022663.json -o FA022663.json
-curl https://ci.nii.ac.jp/library/FA02246X.json -o FA02246X.json
-curl https://ci.nii.ac.jp/library/FA022721.json -o FA022721.json
-curl https://ci.nii.ac.jp/library/FA022787.json -o FA022787.json
-curl https://ci.nii.ac.jp/library/FA026198.json -o FA026198.json
-curl https://ci.nii.ac.jp/library/FA022798.json -o FA022798.json
-curl https://ci.nii.ac.jp/library/FA022801.json -o FA022801.json
-curl https://ci.nii.ac.jp/library/FA022834.json -o FA022834.json
-curl https://ci.nii.ac.jp/library/FA022867.json -o FA022867.json
-curl https://ci.nii.ac.jp/library/FA022878.json -o FA022878.json
-curl https://ci.nii.ac.jp/library/FA022889.json -o FA022889.json
-curl https://ci.nii.ac.jp/library/FA022914.json -o FA022914.json
-curl https://ci.nii.ac.jp/library/FA023145.json -o FA023145.json
-curl https://ci.nii.ac.jp/library/FA024691.json -o FA024691.json
-curl https://ci.nii.ac.jp/library/FA027394.json -o FA027394.json
-curl https://ci.nii.ac.jp/library/FA027747.json -o FA027747.json
-curl https://ci.nii.ac.jp/library/FA021376.json -o FA021376.json
-curl https://ci.nii.ac.jp/library/FA020136.json -o FA020136.json
-curl https://ci.nii.ac.jp/library/FA018280.json -o FA018280.json
-curl https://ci.nii.ac.jp/library/FA017812.json -o FA017812.json
-curl https://ci.nii.ac.jp/library/FA017266.json -o FA017266.json
-curl https://ci.nii.ac.jp/library/FA022958.json -o FA022958.json
-curl https://ci.nii.ac.jp/library/FA012477.json -o FA012477.json
-curl https://ci.nii.ac.jp/library/FA009075.json -o FA009075.json
-curl https://ci.nii.ac.jp/library/FA018586.json -o FA018586.json
-curl https://ci.nii.ac.jp/library/FA01789X.json -o FA01789X.json
-curl https://ci.nii.ac.jp/library/FA022969.json -o FA022969.json
-curl https://ci.nii.ac.jp/library/FA02300X.json -o FA02300X.json
-curl https://ci.nii.ac.jp/library/FA023010.json -o FA023010.json
-curl https://ci.nii.ac.jp/library/FA023021.json -o FA023021.json
-curl https://ci.nii.ac.jp/library/FA023032.json -o FA023032.json
-curl https://ci.nii.ac.jp/library/FA021773.json -o FA021773.json
-curl https://ci.nii.ac.jp/library/FA023054.json -o FA023054.json
-curl https://ci.nii.ac.jp/library/FA023065.json -o FA023065.json
-curl https://ci.nii.ac.jp/library/FA023087.json -o FA023087.json
-curl https://ci.nii.ac.jp/library/FA023098.json -o FA023098.json
-curl https://ci.nii.ac.jp/library/FA023101.json -o FA023101.json
-curl https://ci.nii.ac.jp/library/FA023112.json -o FA023112.json
-curl https://ci.nii.ac.jp/library/FA023123.json -o FA023123.json
-curl https://ci.nii.ac.jp/library/FA023134.json -o FA023134.json
-curl https://ci.nii.ac.jp/library/FA023156.json -o FA023156.json
-curl https://ci.nii.ac.jp/library/FA023189.json -o FA023189.json
-curl https://ci.nii.ac.jp/library/FA023225.json -o FA023225.json
-curl https://ci.nii.ac.jp/library/FA027995.json -o FA027995.json
-curl https://ci.nii.ac.jp/library/FA023258.json -o FA023258.json
-curl https://ci.nii.ac.jp/library/FA023280.json -o FA023280.json
-curl https://ci.nii.ac.jp/library/FA024352.json -o FA024352.json
-curl https://ci.nii.ac.jp/library/FA023305.json -o FA023305.json
-curl https://ci.nii.ac.jp/library/FA023327.json -o FA023327.json
-curl https://ci.nii.ac.jp/library/FA02335X.json -o FA02335X.json
-curl https://ci.nii.ac.jp/library/FA023575.json -o FA023575.json
-curl https://ci.nii.ac.jp/library/FA023586.json -o FA023586.json
-curl https://ci.nii.ac.jp/library/FA023597.json -o FA023597.json
-curl https://ci.nii.ac.jp/library/FA023600.json -o FA023600.json
-curl https://ci.nii.ac.jp/library/FA023633.json -o FA023633.json
-curl https://ci.nii.ac.jp/library/FA023644.json -o FA023644.json
-curl https://ci.nii.ac.jp/library/FA023699.json -o FA023699.json
-curl https://ci.nii.ac.jp/library/FA023735.json -o FA023735.json
-curl https://ci.nii.ac.jp/library/FA023746.json -o FA023746.json
-curl https://ci.nii.ac.jp/library/FA009643.json -o FA009643.json
-curl https://ci.nii.ac.jp/library/FA023757.json -o FA023757.json
-curl https://ci.nii.ac.jp/library/FA023768.json -o FA023768.json
-curl https://ci.nii.ac.jp/library/FA023779.json -o FA023779.json
-curl https://ci.nii.ac.jp/library/FA023790.json -o FA023790.json
-curl https://ci.nii.ac.jp/library/FA02378X.json -o FA02378X.json
-curl https://ci.nii.ac.jp/library/FA023837.json -o FA023837.json
-curl https://ci.nii.ac.jp/library/FA023848.json -o FA023848.json
-curl https://ci.nii.ac.jp/library/FA023859.json -o FA023859.json
-curl https://ci.nii.ac.jp/library/FA023939.json -o FA023939.json
-curl https://ci.nii.ac.jp/library/FA023961.json -o FA023961.json
-curl https://ci.nii.ac.jp/library/FA023972.json -o FA023972.json
-curl https://ci.nii.ac.jp/library/FA023983.json -o FA023983.json
-curl https://ci.nii.ac.jp/library/FA024046.json -o FA024046.json
-curl https://ci.nii.ac.jp/library/FA024057.json -o FA024057.json
-curl https://ci.nii.ac.jp/library/FA024068.json -o FA024068.json
-curl https://ci.nii.ac.jp/library/FA024079.json -o FA024079.json
-curl https://ci.nii.ac.jp/library/FA02408X.json -o FA02408X.json
-curl https://ci.nii.ac.jp/library/FA024090.json -o FA024090.json
-curl https://ci.nii.ac.jp/library/FA024126.json -o FA024126.json
-curl https://ci.nii.ac.jp/library/FA024137.json -o FA024137.json
-curl https://ci.nii.ac.jp/library/FA024148.json -o FA024148.json
-curl https://ci.nii.ac.jp/library/FA024170.json -o FA024170.json
-curl https://ci.nii.ac.jp/library/FA024228.json -o FA024228.json
-curl https://ci.nii.ac.jp/library/FA024239.json -o FA024239.json
-curl https://ci.nii.ac.jp/library/FA02424X.json -o FA02424X.json
-curl https://ci.nii.ac.jp/library/FA024272.json -o FA024272.json
-curl https://ci.nii.ac.jp/library/FA024283.json -o FA024283.json
-curl https://ci.nii.ac.jp/library/FA024294.json -o FA024294.json
-curl https://ci.nii.ac.jp/library/FA024319.json -o FA024319.json
-curl https://ci.nii.ac.jp/library/FA025209.json -o FA025209.json
-curl https://ci.nii.ac.jp/library/FA02432X.json -o FA02432X.json
-curl https://ci.nii.ac.jp/library/FA024374.json -o FA024374.json
-curl https://ci.nii.ac.jp/library/FA024385.json -o FA024385.json
-curl https://ci.nii.ac.jp/library/FA024421.json -o FA024421.json
-curl https://ci.nii.ac.jp/library/FA024512.json -o FA024512.json
-curl https://ci.nii.ac.jp/library/FA024523.json -o FA024523.json
-curl https://ci.nii.ac.jp/library/FA024534.json -o FA024534.json
-curl https://ci.nii.ac.jp/library/FA024545.json -o FA024545.json
-curl https://ci.nii.ac.jp/library/FA024556.json -o FA024556.json
-curl https://ci.nii.ac.jp/library/FA024793.json -o FA024793.json
-curl https://ci.nii.ac.jp/library/FA024807.json -o FA024807.json
-curl https://ci.nii.ac.jp/library/FA024818.json -o FA024818.json
-curl https://ci.nii.ac.jp/library/FA024895.json -o FA024895.json
-curl https://ci.nii.ac.jp/library/FA024931.json -o FA024931.json
-curl https://ci.nii.ac.jp/library/FA024975.json -o FA024975.json
-curl https://ci.nii.ac.jp/library/FA024986.json -o FA024986.json
-curl https://ci.nii.ac.jp/library/FA024997.json -o FA024997.json
-curl https://ci.nii.ac.jp/library/FA025005.json -o FA025005.json
-curl https://ci.nii.ac.jp/library/FA025016.json -o FA025016.json
-curl https://ci.nii.ac.jp/library/FA025038.json -o FA025038.json
-curl https://ci.nii.ac.jp/library/FA025049.json -o FA025049.json
-curl https://ci.nii.ac.jp/library/FA025071.json -o FA025071.json
-curl https://ci.nii.ac.jp/library/FA025082.json -o FA025082.json
-curl https://ci.nii.ac.jp/library/FA025118.json -o FA025118.json
-curl https://ci.nii.ac.jp/library/FA025129.json -o FA025129.json
-curl https://ci.nii.ac.jp/library/FA02793X.json -o FA02793X.json
-curl https://ci.nii.ac.jp/library/FA025140.json -o FA025140.json
-curl https://ci.nii.ac.jp/library/FA025173.json -o FA025173.json
-curl https://ci.nii.ac.jp/library/FA025220.json -o FA025220.json
-curl https://ci.nii.ac.jp/library/FA026143.json -o FA026143.json
-curl https://ci.nii.ac.jp/library/FA026187.json -o FA026187.json
-curl https://ci.nii.ac.jp/library/FA026802.json -o FA026802.json
-curl https://ci.nii.ac.jp/library/FA026824.json -o FA026824.json
-curl https://ci.nii.ac.jp/library/FA026868.json -o FA026868.json
-curl https://ci.nii.ac.jp/library/FA026879.json -o FA026879.json
-curl https://ci.nii.ac.jp/library/FA02688X.json -o FA02688X.json
-curl https://ci.nii.ac.jp/library/FA026890.json -o FA026890.json
-curl https://ci.nii.ac.jp/library/FA026937.json -o FA026937.json
-curl https://ci.nii.ac.jp/library/FA026948.json -o FA026948.json
-curl https://ci.nii.ac.jp/library/FA02696X.json -o FA02696X.json
-curl https://ci.nii.ac.jp/library/FA026970.json -o FA026970.json
-curl https://ci.nii.ac.jp/library/FA027011.json -o FA027011.json
-curl https://ci.nii.ac.jp/library/FA027044.json -o FA027044.json
-curl https://ci.nii.ac.jp/library/FA027077.json -o FA027077.json
-curl https://ci.nii.ac.jp/library/FA027102.json -o FA027102.json
-curl https://ci.nii.ac.jp/library/FA027124.json -o FA027124.json
-curl https://ci.nii.ac.jp/library/FA02718X.json -o FA02718X.json
-curl https://ci.nii.ac.jp/library/FA027190.json -o FA027190.json
-curl https://ci.nii.ac.jp/library/FA027204.json -o FA027204.json
-curl https://ci.nii.ac.jp/library/FA02726X.json -o FA02726X.json
-curl https://ci.nii.ac.jp/library/FA027281.json -o FA027281.json
-curl https://ci.nii.ac.jp/library/FA027306.json -o FA027306.json
-curl https://ci.nii.ac.jp/library/FA027339.json -o FA027339.json
-curl https://ci.nii.ac.jp/library/FA027408.json -o FA027408.json
-curl https://ci.nii.ac.jp/library/FA027430.json -o FA027430.json
-curl https://ci.nii.ac.jp/library/FA027463.json -o FA027463.json
-curl https://ci.nii.ac.jp/library/FA022991.json -o FA022991.json
-curl https://ci.nii.ac.jp/library/FA023203.json -o FA023203.json
-curl https://ci.nii.ac.jp/library/FA023338.json -o FA023338.json
-curl https://ci.nii.ac.jp/library/FA022299.json -o FA022299.json
-curl https://ci.nii.ac.jp/library/FA022302.json -o FA022302.json
-curl https://ci.nii.ac.jp/library/FA022368.json -o FA022368.json
-curl https://ci.nii.ac.jp/library/FA023371.json -o FA023371.json
-curl https://ci.nii.ac.jp/library/FA023473.json -o FA023473.json
-curl https://ci.nii.ac.jp/library/FA023484.json -o FA023484.json
-curl https://ci.nii.ac.jp/library/FA023520.json -o FA023520.json
-curl https://ci.nii.ac.jp/library/FA024024.json -o FA024024.json
-curl https://ci.nii.ac.jp/library/FA024250.json -o FA024250.json
-curl https://ci.nii.ac.jp/library/FA024658.json -o FA024658.json
-curl https://ci.nii.ac.jp/library/FA022903.json -o FA022903.json
-curl https://ci.nii.ac.jp/library/FA027474.json -o FA027474.json
-curl https://ci.nii.ac.jp/library/FA027485.json -o FA027485.json
-curl https://ci.nii.ac.jp/library/FA02750X.json -o FA02750X.json
-curl https://ci.nii.ac.jp/library/FA027510.json -o FA027510.json
-curl https://ci.nii.ac.jp/library/FA027521.json -o FA027521.json
-curl https://ci.nii.ac.jp/library/FA027532.json -o FA027532.json
-curl https://ci.nii.ac.jp/library/FA027543.json -o FA027543.json
-curl https://ci.nii.ac.jp/library/FA024705.json -o FA024705.json
-curl https://ci.nii.ac.jp/library/FA016795.json -o FA016795.json
-curl https://ci.nii.ac.jp/library/FA027576.json -o FA027576.json
-curl https://ci.nii.ac.jp/library/FA027601.json -o FA027601.json
-curl https://ci.nii.ac.jp/library/FA027623.json -o FA027623.json
-curl https://ci.nii.ac.jp/library/FA027656.json -o FA027656.json
-curl https://ci.nii.ac.jp/library/FA027667.json -o FA027667.json
-curl https://ci.nii.ac.jp/library/FA027678.json -o FA027678.json
-curl https://ci.nii.ac.jp/library/FA02769X.json -o FA02769X.json
-curl https://ci.nii.ac.jp/library/FA027703.json -o FA027703.json
-curl https://ci.nii.ac.jp/library/FA027714.json -o FA027714.json
-curl https://ci.nii.ac.jp/library/FA027736.json -o FA027736.json
-curl https://ci.nii.ac.jp/library/FA027758.json -o FA027758.json
-curl https://ci.nii.ac.jp/library/FA027805.json -o FA027805.json
-curl https://ci.nii.ac.jp/library/FA027849.json -o FA027849.json
-curl https://ci.nii.ac.jp/library/FA027860.json -o FA027860.json
-curl https://ci.nii.ac.jp/library/FA027893.json -o FA027893.json
-curl https://ci.nii.ac.jp/library/FA027918.json -o FA027918.json
-curl https://ci.nii.ac.jp/library/FA027940.json -o FA027940.json
-curl https://ci.nii.ac.jp/library/FA027951.json -o FA027951.json
-curl https://ci.nii.ac.jp/library/FA027962.json -o FA027962.json
-curl https://ci.nii.ac.jp/library/FA028014.json -o FA028014.json
-curl https://ci.nii.ac.jp/library/FA028025.json -o FA028025.json
-curl https://ci.nii.ac.jp/library/FA028069.json -o FA028069.json
-curl https://ci.nii.ac.jp/library/FA02807X.json -o FA02807X.json
-curl https://ci.nii.ac.jp/library/FA028105.json -o FA028105.json
-curl https://ci.nii.ac.jp/library/FA028116.json -o FA028116.json
-curl https://ci.nii.ac.jp/library/FA012943.json -o FA012943.json
+curl https://ci.nii.ac.jp/library/FA001007.json | jq . > FA001007.json
+curl https://ci.nii.ac.jp/library/FA001018.json | jq . > FA001018.json
+curl https://ci.nii.ac.jp/library/FA001029.json | jq . > FA001029.json
+curl https://ci.nii.ac.jp/library/FA001040.json | jq . > FA001040.json
+curl https://ci.nii.ac.jp/library/FA001051.json | jq . > FA001051.json
+curl https://ci.nii.ac.jp/library/FA001062.json | jq . > FA001062.json
+curl https://ci.nii.ac.jp/library/FA001073.json | jq . > FA001073.json
+curl https://ci.nii.ac.jp/library/FA001084.json | jq . > FA001084.json
+curl https://ci.nii.ac.jp/library/FA001095.json | jq . > FA001095.json
+curl https://ci.nii.ac.jp/library/FA001109.json | jq . > FA001109.json
+curl https://ci.nii.ac.jp/library/FA001120.json | jq . > FA001120.json
+curl https://ci.nii.ac.jp/library/FA001153.json | jq . > FA001153.json
+curl https://ci.nii.ac.jp/library/FA001164.json | jq . > FA001164.json
+curl https://ci.nii.ac.jp/library/FA001175.json | jq . > FA001175.json
+curl https://ci.nii.ac.jp/library/FA001186.json | jq . > FA001186.json
+curl https://ci.nii.ac.jp/library/FA001197.json | jq . > FA001197.json
+curl https://ci.nii.ac.jp/library/FA001200.json | jq . > FA001200.json
+curl https://ci.nii.ac.jp/library/FA001211.json | jq . > FA001211.json
+curl https://ci.nii.ac.jp/library/FA001222.json | jq . > FA001222.json
+curl https://ci.nii.ac.jp/library/FA020453.json | jq . > FA020453.json
+curl https://ci.nii.ac.jp/library/FA001244.json | jq . > FA001244.json
+curl https://ci.nii.ac.jp/library/FA001255.json | jq . > FA001255.json
+curl https://ci.nii.ac.jp/library/FA001266.json | jq . > FA001266.json
+curl https://ci.nii.ac.jp/library/FA001277.json | jq . > FA001277.json
+curl https://ci.nii.ac.jp/library/FA001288.json | jq . > FA001288.json
+curl https://ci.nii.ac.jp/library/FA001299.json | jq . > FA001299.json
+curl https://ci.nii.ac.jp/library/FA001302.json | jq . > FA001302.json
+curl https://ci.nii.ac.jp/library/FA001313.json | jq . > FA001313.json
+curl https://ci.nii.ac.jp/library/FA001324.json | jq . > FA001324.json
+curl https://ci.nii.ac.jp/library/FA001335.json | jq . > FA001335.json
+curl https://ci.nii.ac.jp/library/FA001346.json | jq . > FA001346.json
+curl https://ci.nii.ac.jp/library/FA001357.json | jq . > FA001357.json
+curl https://ci.nii.ac.jp/library/FA001368.json | jq . > FA001368.json
+curl https://ci.nii.ac.jp/library/FA001379.json | jq . > FA001379.json
+curl https://ci.nii.ac.jp/library/FA001390.json | jq . > FA001390.json
+curl https://ci.nii.ac.jp/library/FA001404.json | jq . > FA001404.json
+curl https://ci.nii.ac.jp/library/FA001415.json | jq . > FA001415.json
+curl https://ci.nii.ac.jp/library/FA001426.json | jq . > FA001426.json
+curl https://ci.nii.ac.jp/library/FA001437.json | jq . > FA001437.json
+curl https://ci.nii.ac.jp/library/FA001448.json | jq . > FA001448.json
+curl https://ci.nii.ac.jp/library/FA001481.json | jq . > FA001481.json
+curl https://ci.nii.ac.jp/library/FA001492.json | jq . > FA001492.json
+curl https://ci.nii.ac.jp/library/FA02165X.json | jq . > FA02165X.json
+curl https://ci.nii.ac.jp/library/FA001517.json | jq . > FA001517.json
+curl https://ci.nii.ac.jp/library/FA001528.json | jq . > FA001528.json
+curl https://ci.nii.ac.jp/library/FA001539.json | jq . > FA001539.json
+curl https://ci.nii.ac.jp/library/FA001550.json | jq . > FA001550.json
+curl https://ci.nii.ac.jp/library/FA001561.json | jq . > FA001561.json
+curl https://ci.nii.ac.jp/library/FA001572.json | jq . > FA001572.json
+curl https://ci.nii.ac.jp/library/FA001583.json | jq . > FA001583.json
+curl https://ci.nii.ac.jp/library/FA001594.json | jq . > FA001594.json
+curl https://ci.nii.ac.jp/library/FA001608.json | jq . > FA001608.json
+curl https://ci.nii.ac.jp/library/FA001619.json | jq . > FA001619.json
+curl https://ci.nii.ac.jp/library/FA001630.json | jq . > FA001630.json
+curl https://ci.nii.ac.jp/library/FA001641.json | jq . > FA001641.json
+curl https://ci.nii.ac.jp/library/FA001652.json | jq . > FA001652.json
+curl https://ci.nii.ac.jp/library/FA001663.json | jq . > FA001663.json
+curl https://ci.nii.ac.jp/library/FA001674.json | jq . > FA001674.json
+curl https://ci.nii.ac.jp/library/FA012273.json | jq . > FA012273.json
+curl https://ci.nii.ac.jp/library/FA001685.json | jq . > FA001685.json
+curl https://ci.nii.ac.jp/library/FA001696.json | jq . > FA001696.json
+curl https://ci.nii.ac.jp/library/FA001710.json | jq . > FA001710.json
+curl https://ci.nii.ac.jp/library/FA001721.json | jq . > FA001721.json
+curl https://ci.nii.ac.jp/library/FA001732.json | jq . > FA001732.json
+curl https://ci.nii.ac.jp/library/FA001743.json | jq . > FA001743.json
+curl https://ci.nii.ac.jp/library/FA001754.json | jq . > FA001754.json
+curl https://ci.nii.ac.jp/library/FA001765.json | jq . > FA001765.json
+curl https://ci.nii.ac.jp/library/FA001776.json | jq . > FA001776.json
+curl https://ci.nii.ac.jp/library/FA001787.json | jq . > FA001787.json
+curl https://ci.nii.ac.jp/library/FA001798.json | jq . > FA001798.json
+curl https://ci.nii.ac.jp/library/FA001801.json | jq . > FA001801.json
+curl https://ci.nii.ac.jp/library/FA001823.json | jq . > FA001823.json
+curl https://ci.nii.ac.jp/library/FA001845.json | jq . > FA001845.json
+curl https://ci.nii.ac.jp/library/FA011747.json | jq . > FA011747.json
+curl https://ci.nii.ac.jp/library/FA011758.json | jq . > FA011758.json
+curl https://ci.nii.ac.jp/library/FA011769.json | jq . > FA011769.json
+curl https://ci.nii.ac.jp/library/FA01177X.json | jq . > FA01177X.json
+curl https://ci.nii.ac.jp/library/FA011780.json | jq . > FA011780.json
+curl https://ci.nii.ac.jp/library/FA011791.json | jq . > FA011791.json
+curl https://ci.nii.ac.jp/library/FA011849.json | jq . > FA011849.json
+curl https://ci.nii.ac.jp/library/FA01185X.json | jq . > FA01185X.json
+curl https://ci.nii.ac.jp/library/FA011929.json | jq . > FA011929.json
+curl https://ci.nii.ac.jp/library/FA01193X.json | jq . > FA01193X.json
+curl https://ci.nii.ac.jp/library/FA011951.json | jq . > FA011951.json
+curl https://ci.nii.ac.jp/library/FA011962.json | jq . > FA011962.json
+curl https://ci.nii.ac.jp/library/FA011973.json | jq . > FA011973.json
+curl https://ci.nii.ac.jp/library/FA011984.json | jq . > FA011984.json
+curl https://ci.nii.ac.jp/library/FA012003.json | jq . > FA012003.json
+curl https://ci.nii.ac.jp/library/FA012025.json | jq . > FA012025.json
+curl https://ci.nii.ac.jp/library/FA012069.json | jq . > FA012069.json
+curl https://ci.nii.ac.jp/library/FA012080.json | jq . > FA012080.json
+curl https://ci.nii.ac.jp/library/FA012091.json | jq . > FA012091.json
+curl https://ci.nii.ac.jp/library/FA013990.json | jq . > FA013990.json
+curl https://ci.nii.ac.jp/library/FA020395.json | jq . > FA020395.json
+curl https://ci.nii.ac.jp/library/FA022142.json | jq . > FA022142.json
+curl https://ci.nii.ac.jp/library/FA022153.json | jq . > FA022153.json
+curl https://ci.nii.ac.jp/library/FA001867.json | jq . > FA001867.json
+curl https://ci.nii.ac.jp/library/FA001878.json | jq . > FA001878.json
+curl https://ci.nii.ac.jp/library/FA001889.json | jq . > FA001889.json
+curl https://ci.nii.ac.jp/library/FA001903.json | jq . > FA001903.json
+curl https://ci.nii.ac.jp/library/FA001914.json | jq . > FA001914.json
+curl https://ci.nii.ac.jp/library/FA001925.json | jq . > FA001925.json
+curl https://ci.nii.ac.jp/library/FA020861.json | jq . > FA020861.json
+curl https://ci.nii.ac.jp/library/FA000106.json | jq . > FA000106.json
+curl https://ci.nii.ac.jp/library/FA000117.json | jq . > FA000117.json
+curl https://ci.nii.ac.jp/library/FA001958.json | jq . > FA001958.json
+curl https://ci.nii.ac.jp/library/FA001969.json | jq . > FA001969.json
+curl https://ci.nii.ac.jp/library/FA001980.json | jq . > FA001980.json
+curl https://ci.nii.ac.jp/library/FA001991.json | jq . > FA001991.json
+curl https://ci.nii.ac.jp/library/FA002010.json | jq . > FA002010.json
+curl https://ci.nii.ac.jp/library/FA002043.json | jq . > FA002043.json
+curl https://ci.nii.ac.jp/library/FA002054.json | jq . > FA002054.json
+curl https://ci.nii.ac.jp/library/FA019578.json | jq . > FA019578.json
+curl https://ci.nii.ac.jp/library/FA002065.json | jq . > FA002065.json
+curl https://ci.nii.ac.jp/library/FA002076.json | jq . > FA002076.json
+curl https://ci.nii.ac.jp/library/FA002087.json | jq . > FA002087.json
+curl https://ci.nii.ac.jp/library/FA002098.json | jq . > FA002098.json
+curl https://ci.nii.ac.jp/library/FA002101.json | jq . > FA002101.json
+curl https://ci.nii.ac.jp/library/FA002112.json | jq . > FA002112.json
+curl https://ci.nii.ac.jp/library/FA002123.json | jq . > FA002123.json
+curl https://ci.nii.ac.jp/library/FA002134.json | jq . > FA002134.json
+curl https://ci.nii.ac.jp/library/FA015307.json | jq . > FA015307.json
+curl https://ci.nii.ac.jp/library/FA002145.json | jq . > FA002145.json
+curl https://ci.nii.ac.jp/library/FA002203.json | jq . > FA002203.json
+curl https://ci.nii.ac.jp/library/FA002236.json | jq . > FA002236.json
+curl https://ci.nii.ac.jp/library/FA002247.json | jq . > FA002247.json
+curl https://ci.nii.ac.jp/library/FA002258.json | jq . > FA002258.json
+curl https://ci.nii.ac.jp/library/FA002269.json | jq . > FA002269.json
+curl https://ci.nii.ac.jp/library/FA002280.json | jq . > FA002280.json
+curl https://ci.nii.ac.jp/library/FA002291.json | jq . > FA002291.json
+curl https://ci.nii.ac.jp/library/FA002305.json | jq . > FA002305.json
+curl https://ci.nii.ac.jp/library/FA002316.json | jq . > FA002316.json
+curl https://ci.nii.ac.jp/library/FA002327.json | jq . > FA002327.json
+curl https://ci.nii.ac.jp/library/FA002338.json | jq . > FA002338.json
+curl https://ci.nii.ac.jp/library/FA002349.json | jq . > FA002349.json
+curl https://ci.nii.ac.jp/library/FA002360.json | jq . > FA002360.json
+curl https://ci.nii.ac.jp/library/FA002371.json | jq . > FA002371.json
+curl https://ci.nii.ac.jp/library/FA002382.json | jq . > FA002382.json
+curl https://ci.nii.ac.jp/library/FA002393.json | jq . > FA002393.json
+curl https://ci.nii.ac.jp/library/FA002407.json | jq . > FA002407.json
+curl https://ci.nii.ac.jp/library/FA002418.json | jq . > FA002418.json
+curl https://ci.nii.ac.jp/library/FA002429.json | jq . > FA002429.json
+curl https://ci.nii.ac.jp/library/FA002440.json | jq . > FA002440.json
+curl https://ci.nii.ac.jp/library/FA002451.json | jq . > FA002451.json
+curl https://ci.nii.ac.jp/library/FA002462.json | jq . > FA002462.json
+curl https://ci.nii.ac.jp/library/FA002473.json | jq . > FA002473.json
+curl https://ci.nii.ac.jp/library/FA002484.json | jq . > FA002484.json
+curl https://ci.nii.ac.jp/library/FA002495.json | jq . > FA002495.json
+curl https://ci.nii.ac.jp/library/FA002509.json | jq . > FA002509.json
+curl https://ci.nii.ac.jp/library/FA013957.json | jq . > FA013957.json
+curl https://ci.nii.ac.jp/library/FA013968.json | jq . > FA013968.json
+curl https://ci.nii.ac.jp/library/FA013979.json | jq . > FA013979.json
+curl https://ci.nii.ac.jp/library/FA016423.json | jq . > FA016423.json
+curl https://ci.nii.ac.jp/library/FA016434.json | jq . > FA016434.json
+curl https://ci.nii.ac.jp/library/FA016445.json | jq . > FA016445.json
+curl https://ci.nii.ac.jp/library/FA016456.json | jq . > FA016456.json
+curl https://ci.nii.ac.jp/library/FA016467.json | jq . > FA016467.json
+curl https://ci.nii.ac.jp/library/FA024330.json | jq . > FA024330.json
+curl https://ci.nii.ac.jp/library/FA027259.json | jq . > FA027259.json
+curl https://ci.nii.ac.jp/library/FA027292.json | jq . > FA027292.json
+curl https://ci.nii.ac.jp/library/FA002531.json | jq . > FA002531.json
+curl https://ci.nii.ac.jp/library/FA002542.json | jq . > FA002542.json
+curl https://ci.nii.ac.jp/library/FA002553.json | jq . > FA002553.json
+curl https://ci.nii.ac.jp/library/FA002564.json | jq . > FA002564.json
+curl https://ci.nii.ac.jp/library/FA002575.json | jq . > FA002575.json
+curl https://ci.nii.ac.jp/library/FA002586.json | jq . > FA002586.json
+curl https://ci.nii.ac.jp/library/FA002597.json | jq . > FA002597.json
+curl https://ci.nii.ac.jp/library/FA002600.json | jq . > FA002600.json
+curl https://ci.nii.ac.jp/library/FA002611.json | jq . > FA002611.json
+curl https://ci.nii.ac.jp/library/FA002622.json | jq . > FA002622.json
+curl https://ci.nii.ac.jp/library/FA002633.json | jq . > FA002633.json
+curl https://ci.nii.ac.jp/library/FA002644.json | jq . > FA002644.json
+curl https://ci.nii.ac.jp/library/FA002655.json | jq . > FA002655.json
+curl https://ci.nii.ac.jp/library/FA002666.json | jq . > FA002666.json
+curl https://ci.nii.ac.jp/library/FA002677.json | jq . > FA002677.json
+curl https://ci.nii.ac.jp/library/FA002688.json | jq . > FA002688.json
+curl https://ci.nii.ac.jp/library/FA002699.json | jq . > FA002699.json
+curl https://ci.nii.ac.jp/library/FA002702.json | jq . > FA002702.json
+curl https://ci.nii.ac.jp/library/FA002713.json | jq . > FA002713.json
+curl https://ci.nii.ac.jp/library/FA002724.json | jq . > FA002724.json
+curl https://ci.nii.ac.jp/library/FA002735.json | jq . > FA002735.json
+curl https://ci.nii.ac.jp/library/FA002746.json | jq . > FA002746.json
+curl https://ci.nii.ac.jp/library/FA002757.json | jq . > FA002757.json
+curl https://ci.nii.ac.jp/library/FA002768.json | jq . > FA002768.json
+curl https://ci.nii.ac.jp/library/FA002779.json | jq . > FA002779.json
+curl https://ci.nii.ac.jp/library/FA002790.json | jq . > FA002790.json
+curl https://ci.nii.ac.jp/library/FA002804.json | jq . > FA002804.json
+curl https://ci.nii.ac.jp/library/FA012910.json | jq . > FA012910.json
+curl https://ci.nii.ac.jp/library/FA018393.json | jq . > FA018393.json
+curl https://ci.nii.ac.jp/library/FA019705.json | jq . > FA019705.json
+curl https://ci.nii.ac.jp/library/FA021707.json | jq . > FA021707.json
+curl https://ci.nii.ac.jp/library/FA022120.json | jq . > FA022120.json
+curl https://ci.nii.ac.jp/library/FA022732.json | jq . > FA022732.json
+curl https://ci.nii.ac.jp/library/FA022743.json | jq . > FA022743.json
+curl https://ci.nii.ac.jp/library/FA022980.json | jq . > FA022980.json
+curl https://ci.nii.ac.jp/library/FA026165.json | jq . > FA026165.json
+curl https://ci.nii.ac.jp/library/FA026857.json | jq . > FA026857.json
+curl https://ci.nii.ac.jp/library/FA026915.json | jq . > FA026915.json
+curl https://ci.nii.ac.jp/library/FA002826.json | jq . > FA002826.json
+curl https://ci.nii.ac.jp/library/FA002837.json | jq . > FA002837.json
+curl https://ci.nii.ac.jp/library/FA002848.json | jq . > FA002848.json
+curl https://ci.nii.ac.jp/library/FA002859.json | jq . > FA002859.json
+curl https://ci.nii.ac.jp/library/FA002870.json | jq . > FA002870.json
+curl https://ci.nii.ac.jp/library/FA002928.json | jq . > FA002928.json
+curl https://ci.nii.ac.jp/library/FA016296.json | jq . > FA016296.json
+curl https://ci.nii.ac.jp/library/FA002939.json | jq . > FA002939.json
+curl https://ci.nii.ac.jp/library/FA020307.json | jq . > FA020307.json
+curl https://ci.nii.ac.jp/library/FA002972.json | jq . > FA002972.json
+curl https://ci.nii.ac.jp/library/FA002983.json | jq . > FA002983.json
+curl https://ci.nii.ac.jp/library/FA002994.json | jq . > FA002994.json
+curl https://ci.nii.ac.jp/library/FA003002.json | jq . > FA003002.json
+curl https://ci.nii.ac.jp/library/FA003013.json | jq . > FA003013.json
+curl https://ci.nii.ac.jp/library/FA003024.json | jq . > FA003024.json
+curl https://ci.nii.ac.jp/library/FA003035.json | jq . > FA003035.json
+curl https://ci.nii.ac.jp/library/FA003046.json | jq . > FA003046.json
+curl https://ci.nii.ac.jp/library/FA003057.json | jq . > FA003057.json
+curl https://ci.nii.ac.jp/library/FA003068.json | jq . > FA003068.json
+curl https://ci.nii.ac.jp/library/FA003079.json | jq . > FA003079.json
+curl https://ci.nii.ac.jp/library/FA003090.json | jq . > FA003090.json
+curl https://ci.nii.ac.jp/library/FA003104.json | jq . > FA003104.json
+curl https://ci.nii.ac.jp/library/FA003126.json | jq . > FA003126.json
+curl https://ci.nii.ac.jp/library/FA003137.json | jq . > FA003137.json
+curl https://ci.nii.ac.jp/library/FA003148.json | jq . > FA003148.json
+curl https://ci.nii.ac.jp/library/FA003159.json | jq . > FA003159.json
+curl https://ci.nii.ac.jp/library/FA003170.json | jq . > FA003170.json
+curl https://ci.nii.ac.jp/library/FA003181.json | jq . > FA003181.json
+curl https://ci.nii.ac.jp/library/FA003192.json | jq . > FA003192.json
+curl https://ci.nii.ac.jp/library/FA003239.json | jq . > FA003239.json
+curl https://ci.nii.ac.jp/library/FA003261.json | jq . > FA003261.json
+curl https://ci.nii.ac.jp/library/FA012284.json | jq . > FA012284.json
+curl https://ci.nii.ac.jp/library/FA014508.json | jq . > FA014508.json
+curl https://ci.nii.ac.jp/library/FA018236.json | jq . > FA018236.json
+curl https://ci.nii.ac.jp/library/FA003283.json | jq . > FA003283.json
+curl https://ci.nii.ac.jp/library/FA003294.json | jq . > FA003294.json
+curl https://ci.nii.ac.jp/library/FA003308.json | jq . > FA003308.json
+curl https://ci.nii.ac.jp/library/FA003319.json | jq . > FA003319.json
+curl https://ci.nii.ac.jp/library/FA003330.json | jq . > FA003330.json
+curl https://ci.nii.ac.jp/library/FA003341.json | jq . > FA003341.json
+curl https://ci.nii.ac.jp/library/FA003352.json | jq . > FA003352.json
+curl https://ci.nii.ac.jp/library/FA003363.json | jq . > FA003363.json
+curl https://ci.nii.ac.jp/library/FA013924.json | jq . > FA013924.json
+curl https://ci.nii.ac.jp/library/FA019523.json | jq . > FA019523.json
+curl https://ci.nii.ac.jp/library/FA003374.json | jq . > FA003374.json
+curl https://ci.nii.ac.jp/library/FA003385.json | jq . > FA003385.json
+curl https://ci.nii.ac.jp/library/FA003396.json | jq . > FA003396.json
+curl https://ci.nii.ac.jp/library/FA003410.json | jq . > FA003410.json
+curl https://ci.nii.ac.jp/library/FA003421.json | jq . > FA003421.json
+curl https://ci.nii.ac.jp/library/FA003432.json | jq . > FA003432.json
+curl https://ci.nii.ac.jp/library/FA003443.json | jq . > FA003443.json
+curl https://ci.nii.ac.jp/library/FA003454.json | jq . > FA003454.json
+curl https://ci.nii.ac.jp/library/FA003465.json | jq . > FA003465.json
+curl https://ci.nii.ac.jp/library/FA003476.json | jq . > FA003476.json
+curl https://ci.nii.ac.jp/library/FA022084.json | jq . > FA022084.json
+curl https://ci.nii.ac.jp/library/FA02289X.json | jq . > FA02289X.json
+curl https://ci.nii.ac.jp/library/FA003487.json | jq . > FA003487.json
+curl https://ci.nii.ac.jp/library/FA014075.json | jq . > FA014075.json
+curl https://ci.nii.ac.jp/library/FA003498.json | jq . > FA003498.json
+curl https://ci.nii.ac.jp/library/FA003501.json | jq . > FA003501.json
+curl https://ci.nii.ac.jp/library/FA003512.json | jq . > FA003512.json
+curl https://ci.nii.ac.jp/library/FA003523.json | jq . > FA003523.json
+curl https://ci.nii.ac.jp/library/FA003534.json | jq . > FA003534.json
+curl https://ci.nii.ac.jp/library/FA003545.json | jq . > FA003545.json
+curl https://ci.nii.ac.jp/library/FA003556.json | jq . > FA003556.json
+curl https://ci.nii.ac.jp/library/FA003567.json | jq . > FA003567.json
+curl https://ci.nii.ac.jp/library/FA003578.json | jq . > FA003578.json
+curl https://ci.nii.ac.jp/library/FA003589.json | jq . > FA003589.json
+curl https://ci.nii.ac.jp/library/FA003603.json | jq . > FA003603.json
+curl https://ci.nii.ac.jp/library/FA003614.json | jq . > FA003614.json
+curl https://ci.nii.ac.jp/library/FA003625.json | jq . > FA003625.json
+curl https://ci.nii.ac.jp/library/FA003636.json | jq . > FA003636.json
+curl https://ci.nii.ac.jp/library/FA003647.json | jq . > FA003647.json
+curl https://ci.nii.ac.jp/library/FA003658.json | jq . > FA003658.json
+curl https://ci.nii.ac.jp/library/FA003669.json | jq . > FA003669.json
+curl https://ci.nii.ac.jp/library/FA003680.json | jq . > FA003680.json
+curl https://ci.nii.ac.jp/library/FA003691.json | jq . > FA003691.json
+curl https://ci.nii.ac.jp/library/FA003705.json | jq . > FA003705.json
+curl https://ci.nii.ac.jp/library/FA003716.json | jq . > FA003716.json
+curl https://ci.nii.ac.jp/library/FA003727.json | jq . > FA003727.json
+curl https://ci.nii.ac.jp/library/FA003738.json | jq . > FA003738.json
+curl https://ci.nii.ac.jp/library/FA003749.json | jq . > FA003749.json
+curl https://ci.nii.ac.jp/library/FA003760.json | jq . > FA003760.json
+curl https://ci.nii.ac.jp/library/FA014053.json | jq . > FA014053.json
+curl https://ci.nii.ac.jp/library/FA017834.json | jq . > FA017834.json
+curl https://ci.nii.ac.jp/library/FA003771.json | jq . > FA003771.json
+curl https://ci.nii.ac.jp/library/FA003782.json | jq . > FA003782.json
+curl https://ci.nii.ac.jp/library/FA018702.json | jq . > FA018702.json
+curl https://ci.nii.ac.jp/library/FA020260.json | jq . > FA020260.json
+curl https://ci.nii.ac.jp/library/FA003793.json | jq . > FA003793.json
+curl https://ci.nii.ac.jp/library/FA003807.json | jq . > FA003807.json
+curl https://ci.nii.ac.jp/library/FA003851.json | jq . > FA003851.json
+curl https://ci.nii.ac.jp/library/FA015624.json | jq . > FA015624.json
+curl https://ci.nii.ac.jp/library/FA003862.json | jq . > FA003862.json
+curl https://ci.nii.ac.jp/library/FA003873.json | jq . > FA003873.json
+curl https://ci.nii.ac.jp/library/FA003895.json | jq . > FA003895.json
+curl https://ci.nii.ac.jp/library/FA003909.json | jq . > FA003909.json
+curl https://ci.nii.ac.jp/library/FA016387.json | jq . > FA016387.json
+curl https://ci.nii.ac.jp/library/FA003920.json | jq . > FA003920.json
+curl https://ci.nii.ac.jp/library/FA003931.json | jq . > FA003931.json
+curl https://ci.nii.ac.jp/library/FA003942.json | jq . > FA003942.json
+curl https://ci.nii.ac.jp/library/FA000139.json | jq . > FA000139.json
+curl https://ci.nii.ac.jp/library/FA00014X.json | jq . > FA00014X.json
+curl https://ci.nii.ac.jp/library/FA003964.json | jq . > FA003964.json
+curl https://ci.nii.ac.jp/library/FA003975.json | jq . > FA003975.json
+curl https://ci.nii.ac.jp/library/FA003986.json | jq . > FA003986.json
+curl https://ci.nii.ac.jp/library/FA004005.json | jq . > FA004005.json
+curl https://ci.nii.ac.jp/library/FA004016.json | jq . > FA004016.json
+curl https://ci.nii.ac.jp/library/FA004038.json | jq . > FA004038.json
+curl https://ci.nii.ac.jp/library/FA014825.json | jq . > FA014825.json
+curl https://ci.nii.ac.jp/library/FA004049.json | jq . > FA004049.json
+curl https://ci.nii.ac.jp/library/FA004060.json | jq . > FA004060.json
+curl https://ci.nii.ac.jp/library/FA004071.json | jq . > FA004071.json
+curl https://ci.nii.ac.jp/library/FA004082.json | jq . > FA004082.json
+curl https://ci.nii.ac.jp/library/FA014213.json | jq . > FA014213.json
+curl https://ci.nii.ac.jp/library/FA015635.json | jq . > FA015635.json
+curl https://ci.nii.ac.jp/library/FA018407.json | jq . > FA018407.json
+curl https://ci.nii.ac.jp/library/FA022164.json | jq . > FA022164.json
+curl https://ci.nii.ac.jp/library/FA027055.json | jq . > FA027055.json
+curl https://ci.nii.ac.jp/library/FA027612.json | jq . > FA027612.json
+curl https://ci.nii.ac.jp/library/FA004093.json | jq . > FA004093.json
+curl https://ci.nii.ac.jp/library/FA004107.json | jq . > FA004107.json
+curl https://ci.nii.ac.jp/library/FA015941.json | jq . > FA015941.json
+curl https://ci.nii.ac.jp/library/FA004118.json | jq . > FA004118.json
+curl https://ci.nii.ac.jp/library/FA012546.json | jq . > FA012546.json
+curl https://ci.nii.ac.jp/library/FA017481.json | jq . > FA017481.json
+curl https://ci.nii.ac.jp/library/FA004129.json | jq . > FA004129.json
+curl https://ci.nii.ac.jp/library/FA004140.json | jq . > FA004140.json
+curl https://ci.nii.ac.jp/library/FA004151.json | jq . > FA004151.json
+curl https://ci.nii.ac.jp/library/FA021343.json | jq . > FA021343.json
+curl https://ci.nii.ac.jp/library/FA004162.json | jq . > FA004162.json
+curl https://ci.nii.ac.jp/library/FA004173.json | jq . > FA004173.json
+curl https://ci.nii.ac.jp/library/FA004184.json | jq . > FA004184.json
+curl https://ci.nii.ac.jp/library/FA004195.json | jq . > FA004195.json
+curl https://ci.nii.ac.jp/library/FA018622.json | jq . > FA018622.json
+curl https://ci.nii.ac.jp/library/FA004209.json | jq . > FA004209.json
+curl https://ci.nii.ac.jp/library/FA004220.json | jq . > FA004220.json
+curl https://ci.nii.ac.jp/library/FA004231.json | jq . > FA004231.json
+curl https://ci.nii.ac.jp/library/FA004242.json | jq . > FA004242.json
+curl https://ci.nii.ac.jp/library/FA017685.json | jq . > FA017685.json
+curl https://ci.nii.ac.jp/library/FA004264.json | jq . > FA004264.json
+curl https://ci.nii.ac.jp/library/FA004275.json | jq . > FA004275.json
+curl https://ci.nii.ac.jp/library/FA004286.json | jq . > FA004286.json
+curl https://ci.nii.ac.jp/library/FA014235.json | jq . > FA014235.json
+curl https://ci.nii.ac.jp/library/FA004297.json | jq . > FA004297.json
+curl https://ci.nii.ac.jp/library/FA004300.json | jq . > FA004300.json
+curl https://ci.nii.ac.jp/library/FA004311.json | jq . > FA004311.json
+curl https://ci.nii.ac.jp/library/FA004322.json | jq . > FA004322.json
+curl https://ci.nii.ac.jp/library/FA004355.json | jq . > FA004355.json
+curl https://ci.nii.ac.jp/library/FA004366.json | jq . > FA004366.json
+curl https://ci.nii.ac.jp/library/FA004377.json | jq . > FA004377.json
+curl https://ci.nii.ac.jp/library/FA004388.json | jq . > FA004388.json
+curl https://ci.nii.ac.jp/library/FA004399.json | jq . > FA004399.json
+curl https://ci.nii.ac.jp/library/FA004402.json | jq . > FA004402.json
+curl https://ci.nii.ac.jp/library/FA004413.json | jq . > FA004413.json
+curl https://ci.nii.ac.jp/library/FA004424.json | jq . > FA004424.json
+curl https://ci.nii.ac.jp/library/FA004435.json | jq . > FA004435.json
+curl https://ci.nii.ac.jp/library/FA004446.json | jq . > FA004446.json
+curl https://ci.nii.ac.jp/library/FA004457.json | jq . > FA004457.json
+curl https://ci.nii.ac.jp/library/FA004468.json | jq . > FA004468.json
+curl https://ci.nii.ac.jp/library/FA004479.json | jq . > FA004479.json
+curl https://ci.nii.ac.jp/library/FA012309.json | jq . > FA012309.json
+curl https://ci.nii.ac.jp/library/FA004490.json | jq . > FA004490.json
+curl https://ci.nii.ac.jp/library/FA004504.json | jq . > FA004504.json
+curl https://ci.nii.ac.jp/library/FA004515.json | jq . > FA004515.json
+curl https://ci.nii.ac.jp/library/FA004526.json | jq . > FA004526.json
+curl https://ci.nii.ac.jp/library/FA004537.json | jq . > FA004537.json
+curl https://ci.nii.ac.jp/library/FA004548.json | jq . > FA004548.json
+curl https://ci.nii.ac.jp/library/FA004559.json | jq . > FA004559.json
+curl https://ci.nii.ac.jp/library/FA004570.json | jq . > FA004570.json
+curl https://ci.nii.ac.jp/library/FA004581.json | jq . > FA004581.json
+curl https://ci.nii.ac.jp/library/FA004592.json | jq . > FA004592.json
+curl https://ci.nii.ac.jp/library/FA004606.json | jq . > FA004606.json
+curl https://ci.nii.ac.jp/library/FA022572.json | jq . > FA022572.json
+curl https://ci.nii.ac.jp/library/FA004617.json | jq . > FA004617.json
+curl https://ci.nii.ac.jp/library/FA004628.json | jq . > FA004628.json
+curl https://ci.nii.ac.jp/library/FA004639.json | jq . > FA004639.json
+curl https://ci.nii.ac.jp/library/FA004650.json | jq . > FA004650.json
+curl https://ci.nii.ac.jp/library/FA004661.json | jq . > FA004661.json
+curl https://ci.nii.ac.jp/library/FA022936.json | jq . > FA022936.json
+curl https://ci.nii.ac.jp/library/FA004672.json | jq . > FA004672.json
+curl https://ci.nii.ac.jp/library/FA014585.json | jq . > FA014585.json
+curl https://ci.nii.ac.jp/library/FA004694.json | jq . > FA004694.json
+curl https://ci.nii.ac.jp/library/FA004708.json | jq . > FA004708.json
+curl https://ci.nii.ac.jp/library/FA004719.json | jq . > FA004719.json
+curl https://ci.nii.ac.jp/library/FA004730.json | jq . > FA004730.json
+curl https://ci.nii.ac.jp/library/FA004741.json | jq . > FA004741.json
+curl https://ci.nii.ac.jp/library/FA004752.json | jq . > FA004752.json
+curl https://ci.nii.ac.jp/library/FA012932.json | jq . > FA012932.json
+curl https://ci.nii.ac.jp/library/FA004774.json | jq . > FA004774.json
+curl https://ci.nii.ac.jp/library/FA004796.json | jq . > FA004796.json
+curl https://ci.nii.ac.jp/library/FA004810.json | jq . > FA004810.json
+curl https://ci.nii.ac.jp/library/FA004821.json | jq . > FA004821.json
+curl https://ci.nii.ac.jp/library/FA004832.json | jq . > FA004832.json
+curl https://ci.nii.ac.jp/library/FA004843.json | jq . > FA004843.json
+curl https://ci.nii.ac.jp/library/FA004854.json | jq . > FA004854.json
+curl https://ci.nii.ac.jp/library/FA016263.json | jq . > FA016263.json
+curl https://ci.nii.ac.jp/library/FA022550.json | jq . > FA022550.json
+curl https://ci.nii.ac.jp/library/FA023666.json | jq . > FA023666.json
+curl https://ci.nii.ac.jp/library/FA004865.json | jq . > FA004865.json
+curl https://ci.nii.ac.jp/library/FA017732.json | jq . > FA017732.json
+curl https://ci.nii.ac.jp/library/FA004876.json | jq . > FA004876.json
+curl https://ci.nii.ac.jp/library/FA004887.json | jq . > FA004887.json
+curl https://ci.nii.ac.jp/library/FA004898.json | jq . > FA004898.json
+curl https://ci.nii.ac.jp/library/FA004901.json | jq . > FA004901.json
+curl https://ci.nii.ac.jp/library/FA004912.json | jq . > FA004912.json
+curl https://ci.nii.ac.jp/library/FA004923.json | jq . > FA004923.json
+curl https://ci.nii.ac.jp/library/FA004934.json | jq . > FA004934.json
+curl https://ci.nii.ac.jp/library/FA022244.json | jq . > FA022244.json
+curl https://ci.nii.ac.jp/library/FA004956.json | jq . > FA004956.json
+curl https://ci.nii.ac.jp/library/FA004967.json | jq . > FA004967.json
+curl https://ci.nii.ac.jp/library/FA004978.json | jq . > FA004978.json
+curl https://ci.nii.ac.jp/library/FA016784.json | jq . > FA016784.json
+curl https://ci.nii.ac.jp/library/FA005008.json | jq . > FA005008.json
+curl https://ci.nii.ac.jp/library/FA024013.json | jq . > FA024013.json
+curl https://ci.nii.ac.jp/library/FA005019.json | jq . > FA005019.json
+curl https://ci.nii.ac.jp/library/FA005063.json | jq . > FA005063.json
+curl https://ci.nii.ac.jp/library/FA005074.json | jq . > FA005074.json
+curl https://ci.nii.ac.jp/library/FA005085.json | jq . > FA005085.json
+curl https://ci.nii.ac.jp/library/FA005096.json | jq . > FA005096.json
+curl https://ci.nii.ac.jp/library/FA005110.json | jq . > FA005110.json
+curl https://ci.nii.ac.jp/library/FA005121.json | jq . > FA005121.json
+curl https://ci.nii.ac.jp/library/FA01231X.json | jq . > FA01231X.json
+curl https://ci.nii.ac.jp/library/FA005132.json | jq . > FA005132.json
+curl https://ci.nii.ac.jp/library/FA012320.json | jq . > FA012320.json
+curl https://ci.nii.ac.jp/library/FA005154.json | jq . > FA005154.json
+curl https://ci.nii.ac.jp/library/FA027328.json | jq . > FA027328.json
+curl https://ci.nii.ac.jp/library/FA005187.json | jq . > FA005187.json
+curl https://ci.nii.ac.jp/library/FA005143.json | jq . > FA005143.json
+curl https://ci.nii.ac.jp/library/FA005198.json | jq . > FA005198.json
+curl https://ci.nii.ac.jp/library/FA005201.json | jq . > FA005201.json
+curl https://ci.nii.ac.jp/library/FA005212.json | jq . > FA005212.json
+curl https://ci.nii.ac.jp/library/FA005223.json | jq . > FA005223.json
+curl https://ci.nii.ac.jp/library/FA012921.json | jq . > FA012921.json
+curl https://ci.nii.ac.jp/library/FA005234.json | jq . > FA005234.json
+curl https://ci.nii.ac.jp/library/FA005245.json | jq . > FA005245.json
+curl https://ci.nii.ac.jp/library/FA005256.json | jq . > FA005256.json
+curl https://ci.nii.ac.jp/library/FA021751.json | jq . > FA021751.json
+curl https://ci.nii.ac.jp/library/FA005267.json | jq . > FA005267.json
+curl https://ci.nii.ac.jp/library/FA005278.json | jq . > FA005278.json
+curl https://ci.nii.ac.jp/library/FA021966.json | jq . > FA021966.json
+curl https://ci.nii.ac.jp/library/FA021977.json | jq . > FA021977.json
+curl https://ci.nii.ac.jp/library/FA005289.json | jq . > FA005289.json
+curl https://ci.nii.ac.jp/library/FA005303.json | jq . > FA005303.json
+curl https://ci.nii.ac.jp/library/FA005314.json | jq . > FA005314.json
+curl https://ci.nii.ac.jp/library/FA005325.json | jq . > FA005325.json
+curl https://ci.nii.ac.jp/library/FA005336.json | jq . > FA005336.json
+curl https://ci.nii.ac.jp/library/FA005347.json | jq . > FA005347.json
+curl https://ci.nii.ac.jp/library/FA005358.json | jq . > FA005358.json
+curl https://ci.nii.ac.jp/library/FA024341.json | jq . > FA024341.json
+curl https://ci.nii.ac.jp/library/FA005391.json | jq . > FA005391.json
+curl https://ci.nii.ac.jp/library/FA017754.json | jq . > FA017754.json
+curl https://ci.nii.ac.jp/library/FA027022.json | jq . > FA027022.json
+curl https://ci.nii.ac.jp/library/FA027033.json | jq . > FA027033.json
+curl https://ci.nii.ac.jp/library/FA005405.json | jq . > FA005405.json
+curl https://ci.nii.ac.jp/library/FA005427.json | jq . > FA005427.json
+curl https://ci.nii.ac.jp/library/FA005438.json | jq . > FA005438.json
+curl https://ci.nii.ac.jp/library/FA013855.json | jq . > FA013855.json
+curl https://ci.nii.ac.jp/library/FA005449.json | jq . > FA005449.json
+curl https://ci.nii.ac.jp/library/FA005460.json | jq . > FA005460.json
+curl https://ci.nii.ac.jp/library/FA005471.json | jq . > FA005471.json
+curl https://ci.nii.ac.jp/library/FA005493.json | jq . > FA005493.json
+curl https://ci.nii.ac.jp/library/FA005507.json | jq . > FA005507.json
+curl https://ci.nii.ac.jp/library/FA005518.json | jq . > FA005518.json
+curl https://ci.nii.ac.jp/library/FA005529.json | jq . > FA005529.json
+curl https://ci.nii.ac.jp/library/FA005540.json | jq . > FA005540.json
+curl https://ci.nii.ac.jp/library/FA005551.json | jq . > FA005551.json
+curl https://ci.nii.ac.jp/library/FA020147.json | jq . > FA020147.json
+curl https://ci.nii.ac.jp/library/FA022040.json | jq . > FA022040.json
+curl https://ci.nii.ac.jp/library/FA028149.json | jq . > FA028149.json
+curl https://ci.nii.ac.jp/library/FA005562.json | jq . > FA005562.json
+curl https://ci.nii.ac.jp/library/FA014574.json | jq . > FA014574.json
+curl https://ci.nii.ac.jp/library/FA005573.json | jq . > FA005573.json
+curl https://ci.nii.ac.jp/library/FA005595.json | jq . > FA005595.json
+curl https://ci.nii.ac.jp/library/FA005609.json | jq . > FA005609.json
+curl https://ci.nii.ac.jp/library/FA005620.json | jq . > FA005620.json
+curl https://ci.nii.ac.jp/library/FA005631.json | jq . > FA005631.json
+curl https://ci.nii.ac.jp/library/FA005642.json | jq . > FA005642.json
+curl https://ci.nii.ac.jp/library/FA005653.json | jq . > FA005653.json
+curl https://ci.nii.ac.jp/library/FA005664.json | jq . > FA005664.json
+curl https://ci.nii.ac.jp/library/FA005675.json | jq . > FA005675.json
+curl https://ci.nii.ac.jp/library/FA005686.json | jq . > FA005686.json
+curl https://ci.nii.ac.jp/library/FA005697.json | jq . > FA005697.json
+curl https://ci.nii.ac.jp/library/FA005700.json | jq . > FA005700.json
+curl https://ci.nii.ac.jp/library/FA005711.json | jq . > FA005711.json
+curl https://ci.nii.ac.jp/library/FA005722.json | jq . > FA005722.json
+curl https://ci.nii.ac.jp/library/FA005733.json | jq . > FA005733.json
+curl https://ci.nii.ac.jp/library/FA005744.json | jq . > FA005744.json
+curl https://ci.nii.ac.jp/library/FA01991X.json | jq . > FA01991X.json
+curl https://ci.nii.ac.jp/library/FA02327X.json | jq . > FA02327X.json
+curl https://ci.nii.ac.jp/library/FA005755.json | jq . > FA005755.json
+curl https://ci.nii.ac.jp/library/FA005766.json | jq . > FA005766.json
+curl https://ci.nii.ac.jp/library/FA005777.json | jq . > FA005777.json
+curl https://ci.nii.ac.jp/library/FA005788.json | jq . > FA005788.json
+curl https://ci.nii.ac.jp/library/FA012331.json | jq . > FA012331.json
+curl https://ci.nii.ac.jp/library/FA018418.json | jq . > FA018418.json
+curl https://ci.nii.ac.jp/library/FA005802.json | jq . > FA005802.json
+curl https://ci.nii.ac.jp/library/FA005813.json | jq . > FA005813.json
+curl https://ci.nii.ac.jp/library/FA005824.json | jq . > FA005824.json
+curl https://ci.nii.ac.jp/library/FA005835.json | jq . > FA005835.json
+curl https://ci.nii.ac.jp/library/FA005890.json | jq . > FA005890.json
+curl https://ci.nii.ac.jp/library/FA009009.json | jq . > FA009009.json
+curl https://ci.nii.ac.jp/library/FA009020.json | jq . > FA009020.json
+curl https://ci.nii.ac.jp/library/FA017142.json | jq . > FA017142.json
+curl https://ci.nii.ac.jp/library/FA005915.json | jq . > FA005915.json
+curl https://ci.nii.ac.jp/library/FA005926.json | jq . > FA005926.json
+curl https://ci.nii.ac.jp/library/FA020012.json | jq . > FA020012.json
+curl https://ci.nii.ac.jp/library/FA020023.json | jq . > FA020023.json
+curl https://ci.nii.ac.jp/library/FA005937.json | jq . > FA005937.json
+curl https://ci.nii.ac.jp/library/FA005948.json | jq . > FA005948.json
+curl https://ci.nii.ac.jp/library/FA026835.json | jq . > FA026835.json
+curl https://ci.nii.ac.jp/library/FA005959.json | jq . > FA005959.json
+curl https://ci.nii.ac.jp/library/FA005970.json | jq . > FA005970.json
+curl https://ci.nii.ac.jp/library/FA005981.json | jq . > FA005981.json
+curl https://ci.nii.ac.jp/library/FA005992.json | jq . > FA005992.json
+curl https://ci.nii.ac.jp/library/FA006000.json | jq . > FA006000.json
+curl https://ci.nii.ac.jp/library/FA006011.json | jq . > FA006011.json
+curl https://ci.nii.ac.jp/library/FA006022.json | jq . > FA006022.json
+curl https://ci.nii.ac.jp/library/FA006033.json | jq . > FA006033.json
+curl https://ci.nii.ac.jp/library/FA006044.json | jq . > FA006044.json
+curl https://ci.nii.ac.jp/library/FA006055.json | jq . > FA006055.json
+curl https://ci.nii.ac.jp/library/FA006066.json | jq . > FA006066.json
+curl https://ci.nii.ac.jp/library/FA006077.json | jq . > FA006077.json
+curl https://ci.nii.ac.jp/library/FA019727.json | jq . > FA019727.json
+curl https://ci.nii.ac.jp/library/FA006088.json | jq . > FA006088.json
+curl https://ci.nii.ac.jp/library/FA012353.json | jq . > FA012353.json
+curl https://ci.nii.ac.jp/library/FA019614.json | jq . > FA019614.json
+curl https://ci.nii.ac.jp/library/FA006099.json | jq . > FA006099.json
+curl https://ci.nii.ac.jp/library/FA006102.json | jq . > FA006102.json
+curl https://ci.nii.ac.jp/library/FA006113.json | jq . > FA006113.json
+curl https://ci.nii.ac.jp/library/FA022812.json | jq . > FA022812.json
+curl https://ci.nii.ac.jp/library/FA025195.json | jq . > FA025195.json
+curl https://ci.nii.ac.jp/library/FA006135.json | jq . > FA006135.json
+curl https://ci.nii.ac.jp/library/FA006146.json | jq . > FA006146.json
+curl https://ci.nii.ac.jp/library/FA006157.json | jq . > FA006157.json
+curl https://ci.nii.ac.jp/library/FA023214.json | jq . > FA023214.json
+curl https://ci.nii.ac.jp/library/FA023553.json | jq . > FA023553.json
+curl https://ci.nii.ac.jp/library/FA006168.json | jq . > FA006168.json
+curl https://ci.nii.ac.jp/library/FA006179.json | jq . > FA006179.json
+curl https://ci.nii.ac.jp/library/FA006190.json | jq . > FA006190.json
+curl https://ci.nii.ac.jp/library/FA006204.json | jq . > FA006204.json
+curl https://ci.nii.ac.jp/library/FA016627.json | jq . > FA016627.json
+curl https://ci.nii.ac.jp/library/FA006215.json | jq . > FA006215.json
+curl https://ci.nii.ac.jp/library/FA014494.json | jq . > FA014494.json
+curl https://ci.nii.ac.jp/library/FA006226.json | jq . > FA006226.json
+curl https://ci.nii.ac.jp/library/FA006237.json | jq . > FA006237.json
+curl https://ci.nii.ac.jp/library/FA006248.json | jq . > FA006248.json
+curl https://ci.nii.ac.jp/library/FA006259.json | jq . > FA006259.json
+curl https://ci.nii.ac.jp/library/FA006270.json | jq . > FA006270.json
+curl https://ci.nii.ac.jp/library/FA006281.json | jq . > FA006281.json
+curl https://ci.nii.ac.jp/library/FA006292.json | jq . > FA006292.json
+curl https://ci.nii.ac.jp/library/FA006306.json | jq . > FA006306.json
+curl https://ci.nii.ac.jp/library/FA006317.json | jq . > FA006317.json
+curl https://ci.nii.ac.jp/library/FA006328.json | jq . > FA006328.json
+curl https://ci.nii.ac.jp/library/FA006339.json | jq . > FA006339.json
+curl https://ci.nii.ac.jp/library/FA006361.json | jq . > FA006361.json
+curl https://ci.nii.ac.jp/library/FA006372.json | jq . > FA006372.json
+curl https://ci.nii.ac.jp/library/FA006383.json | jq . > FA006383.json
+curl https://ci.nii.ac.jp/library/FA012171.json | jq . > FA012171.json
+curl https://ci.nii.ac.jp/library/FA012182.json | jq . > FA012182.json
+curl https://ci.nii.ac.jp/library/FA014869.json | jq . > FA014869.json
+curl https://ci.nii.ac.jp/library/FA022131.json | jq . > FA022131.json
+curl https://ci.nii.ac.jp/library/FA022947.json | jq . > FA022947.json
+curl https://ci.nii.ac.jp/library/FA006394.json | jq . > FA006394.json
+curl https://ci.nii.ac.jp/library/FA006419.json | jq . > FA006419.json
+curl https://ci.nii.ac.jp/library/FA006430.json | jq . > FA006430.json
+curl https://ci.nii.ac.jp/library/FA006441.json | jq . > FA006441.json
+curl https://ci.nii.ac.jp/library/FA015737.json | jq . > FA015737.json
+curl https://ci.nii.ac.jp/library/FA006452.json | jq . > FA006452.json
+curl https://ci.nii.ac.jp/library/FA006463.json | jq . > FA006463.json
+curl https://ci.nii.ac.jp/library/FA006474.json | jq . > FA006474.json
+curl https://ci.nii.ac.jp/library/FA006485.json | jq . > FA006485.json
+curl https://ci.nii.ac.jp/library/FA006496.json | jq . > FA006496.json
+curl https://ci.nii.ac.jp/library/FA012364.json | jq . > FA012364.json
+curl https://ci.nii.ac.jp/library/FA006510.json | jq . > FA006510.json
+curl https://ci.nii.ac.jp/library/FA006521.json | jq . > FA006521.json
+curl https://ci.nii.ac.jp/library/FA006532.json | jq . > FA006532.json
+curl https://ci.nii.ac.jp/library/FA006543.json | jq . > FA006543.json
+curl https://ci.nii.ac.jp/library/FA006554.json | jq . > FA006554.json
+curl https://ci.nii.ac.jp/library/FA006565.json | jq . > FA006565.json
+curl https://ci.nii.ac.jp/library/FA006576.json | jq . > FA006576.json
+curl https://ci.nii.ac.jp/library/FA006587.json | jq . > FA006587.json
+curl https://ci.nii.ac.jp/library/FA006598.json | jq . > FA006598.json
+curl https://ci.nii.ac.jp/library/FA006601.json | jq . > FA006601.json
+curl https://ci.nii.ac.jp/library/FA012375.json | jq . > FA012375.json
+curl https://ci.nii.ac.jp/library/FA012386.json | jq . > FA012386.json
+curl https://ci.nii.ac.jp/library/FA02297X.json | jq . > FA02297X.json
+curl https://ci.nii.ac.jp/library/FA006612.json | jq . > FA006612.json
+curl https://ci.nii.ac.jp/library/FA006623.json | jq . > FA006623.json
+curl https://ci.nii.ac.jp/library/FA006634.json | jq . > FA006634.json
+curl https://ci.nii.ac.jp/library/FA018542.json | jq . > FA018542.json
+curl https://ci.nii.ac.jp/library/FA022018.json | jq . > FA022018.json
+curl https://ci.nii.ac.jp/library/FA006645.json | jq . > FA006645.json
+curl https://ci.nii.ac.jp/library/FA006656.json | jq . > FA006656.json
+curl https://ci.nii.ac.jp/library/FA024942.json | jq . > FA024942.json
+curl https://ci.nii.ac.jp/library/FA006667.json | jq . > FA006667.json
+curl https://ci.nii.ac.jp/library/FA006678.json | jq . > FA006678.json
+curl https://ci.nii.ac.jp/library/FA000150.json | jq . > FA000150.json
+curl https://ci.nii.ac.jp/library/FA006714.json | jq . > FA006714.json
+curl https://ci.nii.ac.jp/library/FA02491X.json | jq . > FA02491X.json
+curl https://ci.nii.ac.jp/library/FA006725.json | jq . > FA006725.json
+curl https://ci.nii.ac.jp/library/FA006747.json | jq . > FA006747.json
+curl https://ci.nii.ac.jp/library/FA006758.json | jq . > FA006758.json
+curl https://ci.nii.ac.jp/library/FA006769.json | jq . > FA006769.json
+curl https://ci.nii.ac.jp/library/FA006780.json | jq . > FA006780.json
+curl https://ci.nii.ac.jp/library/FA006791.json | jq . > FA006791.json
+curl https://ci.nii.ac.jp/library/FA006805.json | jq . > FA006805.json
+curl https://ci.nii.ac.jp/library/FA006816.json | jq . > FA006816.json
+curl https://ci.nii.ac.jp/library/FA013833.json | jq . > FA013833.json
+curl https://ci.nii.ac.jp/library/FA013844.json | jq . > FA013844.json
+curl https://ci.nii.ac.jp/library/FA014100.json | jq . > FA014100.json
+curl https://ci.nii.ac.jp/library/FA014111.json | jq . > FA014111.json
+curl https://ci.nii.ac.jp/library/FA014122.json | jq . > FA014122.json
+curl https://ci.nii.ac.jp/library/FA014133.json | jq . > FA014133.json
+curl https://ci.nii.ac.jp/library/FA014144.json | jq . > FA014144.json
+curl https://ci.nii.ac.jp/library/FA014188.json | jq . > FA014188.json
+curl https://ci.nii.ac.jp/library/FA014202.json | jq . > FA014202.json
+curl https://ci.nii.ac.jp/library/FA006827.json | jq . > FA006827.json
+curl https://ci.nii.ac.jp/library/FA006838.json | jq . > FA006838.json
+curl https://ci.nii.ac.jp/library/FA006849.json | jq . > FA006849.json
+curl https://ci.nii.ac.jp/library/FA013050.json | jq . > FA013050.json
+curl https://ci.nii.ac.jp/library/FA006860.json | jq . > FA006860.json
+curl https://ci.nii.ac.jp/library/FA006871.json | jq . > FA006871.json
+curl https://ci.nii.ac.jp/library/FA014472.json | jq . > FA014472.json
+curl https://ci.nii.ac.jp/library/FA014483.json | jq . > FA014483.json
+curl https://ci.nii.ac.jp/library/FA020657.json | jq . > FA020657.json
+curl https://ci.nii.ac.jp/library/FA006882.json | jq . > FA006882.json
+curl https://ci.nii.ac.jp/library/FA006893.json | jq . > FA006893.json
+curl https://ci.nii.ac.jp/library/FA006907.json | jq . > FA006907.json
+curl https://ci.nii.ac.jp/library/FA006918.json | jq . > FA006918.json
+curl https://ci.nii.ac.jp/library/FA019374.json | jq . > FA019374.json
+curl https://ci.nii.ac.jp/library/FA006929.json | jq . > FA006929.json
+curl https://ci.nii.ac.jp/library/FA006940.json | jq . > FA006940.json
+curl https://ci.nii.ac.jp/library/FA006951.json | jq . > FA006951.json
+curl https://ci.nii.ac.jp/library/FA006962.json | jq . > FA006962.json
+curl https://ci.nii.ac.jp/library/FA006973.json | jq . > FA006973.json
+curl https://ci.nii.ac.jp/library/FA02262X.json | jq . > FA02262X.json
+curl https://ci.nii.ac.jp/library/FA006984.json | jq . > FA006984.json
+curl https://ci.nii.ac.jp/library/FA006995.json | jq . > FA006995.json
+curl https://ci.nii.ac.jp/library/FA007003.json | jq . > FA007003.json
+curl https://ci.nii.ac.jp/library/FA007014.json | jq . > FA007014.json
+curl https://ci.nii.ac.jp/library/FA007025.json | jq . > FA007025.json
+curl https://ci.nii.ac.jp/library/FA007036.json | jq . > FA007036.json
+curl https://ci.nii.ac.jp/library/FA007047.json | jq . > FA007047.json
+curl https://ci.nii.ac.jp/library/FA007058.json | jq . > FA007058.json
+curl https://ci.nii.ac.jp/library/FA012400.json | jq . > FA012400.json
+curl https://ci.nii.ac.jp/library/FA007069.json | jq . > FA007069.json
+curl https://ci.nii.ac.jp/library/FA007080.json | jq . > FA007080.json
+curl https://ci.nii.ac.jp/library/FA007091.json | jq . > FA007091.json
+curl https://ci.nii.ac.jp/library/FA007105.json | jq . > FA007105.json
+curl https://ci.nii.ac.jp/library/FA007116.json | jq . > FA007116.json
+curl https://ci.nii.ac.jp/library/FA007127.json | jq . > FA007127.json
+curl https://ci.nii.ac.jp/library/FA012411.json | jq . > FA012411.json
+curl https://ci.nii.ac.jp/library/FA007138.json | jq . > FA007138.json
+curl https://ci.nii.ac.jp/library/FA007149.json | jq . > FA007149.json
+curl https://ci.nii.ac.jp/library/FA018575.json | jq . > FA018575.json
+curl https://ci.nii.ac.jp/library/FA007160.json | jq . > FA007160.json
+curl https://ci.nii.ac.jp/library/FA007171.json | jq . > FA007171.json
+curl https://ci.nii.ac.jp/library/FA017426.json | jq . > FA017426.json
+curl https://ci.nii.ac.jp/library/FA025162.json | jq . > FA025162.json
+curl https://ci.nii.ac.jp/library/FA027871.json | jq . > FA027871.json
+curl https://ci.nii.ac.jp/library/FA007182.json | jq . > FA007182.json
+curl https://ci.nii.ac.jp/library/FA007193.json | jq . > FA007193.json
+curl https://ci.nii.ac.jp/library/FA012262.json | jq . > FA012262.json
+curl https://ci.nii.ac.jp/library/FA016172.json | jq . > FA016172.json
+curl https://ci.nii.ac.jp/library/FA017018.json | jq . > FA017018.json
+curl https://ci.nii.ac.jp/library/FA017856.json | jq . > FA017856.json
+curl https://ci.nii.ac.jp/library/FA017969.json | jq . > FA017969.json
+curl https://ci.nii.ac.jp/library/FA027452.json | jq . > FA027452.json
+curl https://ci.nii.ac.jp/library/FA007207.json | jq . > FA007207.json
+curl https://ci.nii.ac.jp/library/FA007218.json | jq . > FA007218.json
+curl https://ci.nii.ac.jp/library/FA007229.json | jq . > FA007229.json
+curl https://ci.nii.ac.jp/library/FA007240.json | jq . > FA007240.json
+curl https://ci.nii.ac.jp/library/FA012433.json | jq . > FA012433.json
+curl https://ci.nii.ac.jp/library/FA007251.json | jq . > FA007251.json
+curl https://ci.nii.ac.jp/library/FA007262.json | jq . > FA007262.json
+curl https://ci.nii.ac.jp/library/FA019680.json | jq . > FA019680.json
+curl https://ci.nii.ac.jp/library/FA007273.json | jq . > FA007273.json
+curl https://ci.nii.ac.jp/library/FA007284.json | jq . > FA007284.json
+curl https://ci.nii.ac.jp/library/FA012444.json | jq . > FA012444.json
+curl https://ci.nii.ac.jp/library/FA007295.json | jq . > FA007295.json
+curl https://ci.nii.ac.jp/library/FA007309.json | jq . > FA007309.json
+curl https://ci.nii.ac.jp/library/FA007320.json | jq . > FA007320.json
+curl https://ci.nii.ac.jp/library/FA007331.json | jq . > FA007331.json
+curl https://ci.nii.ac.jp/library/FA007342.json | jq . > FA007342.json
+curl https://ci.nii.ac.jp/library/FA007353.json | jq . > FA007353.json
+curl https://ci.nii.ac.jp/library/FA007364.json | jq . > FA007364.json
+curl https://ci.nii.ac.jp/library/FA007375.json | jq . > FA007375.json
+curl https://ci.nii.ac.jp/library/FA007386.json | jq . > FA007386.json
+curl https://ci.nii.ac.jp/library/FA007397.json | jq . > FA007397.json
+curl https://ci.nii.ac.jp/library/FA021820.json | jq . > FA021820.json
+curl https://ci.nii.ac.jp/library/FA007400.json | jq . > FA007400.json
+curl https://ci.nii.ac.jp/library/FA007411.json | jq . > FA007411.json
+curl https://ci.nii.ac.jp/library/FA007433.json | jq . > FA007433.json
+curl https://ci.nii.ac.jp/library/FA007444.json | jq . > FA007444.json
+curl https://ci.nii.ac.jp/library/FA007455.json | jq . > FA007455.json
+curl https://ci.nii.ac.jp/library/FA007466.json | jq . > FA007466.json
+curl https://ci.nii.ac.jp/library/FA007477.json | jq . > FA007477.json
+curl https://ci.nii.ac.jp/library/FA015588.json | jq . > FA015588.json
+curl https://ci.nii.ac.jp/library/FA027372.json | jq . > FA027372.json
+curl https://ci.nii.ac.jp/library/FA007488.json | jq . > FA007488.json
+curl https://ci.nii.ac.jp/library/FA007502.json | jq . > FA007502.json
+curl https://ci.nii.ac.jp/library/FA007513.json | jq . > FA007513.json
+curl https://ci.nii.ac.jp/library/FA007524.json | jq . > FA007524.json
+curl https://ci.nii.ac.jp/library/FA012218.json | jq . > FA012218.json
+curl https://ci.nii.ac.jp/library/FA007604.json | jq . > FA007604.json
+curl https://ci.nii.ac.jp/library/FA007615.json | jq . > FA007615.json
+curl https://ci.nii.ac.jp/library/FA007626.json | jq . > FA007626.json
+curl https://ci.nii.ac.jp/library/FA007637.json | jq . > FA007637.json
+curl https://ci.nii.ac.jp/library/FA007648.json | jq . > FA007648.json
+curl https://ci.nii.ac.jp/library/FA007659.json | jq . > FA007659.json
+curl https://ci.nii.ac.jp/library/FA007670.json | jq . > FA007670.json
+curl https://ci.nii.ac.jp/library/FA007681.json | jq . > FA007681.json
+curl https://ci.nii.ac.jp/library/FA022175.json | jq . > FA022175.json
+curl https://ci.nii.ac.jp/library/FA007692.json | jq . > FA007692.json
+curl https://ci.nii.ac.jp/library/FA007706.json | jq . > FA007706.json
+curl https://ci.nii.ac.jp/library/FA007717.json | jq . > FA007717.json
+curl https://ci.nii.ac.jp/library/FA007728.json | jq . > FA007728.json
+curl https://ci.nii.ac.jp/library/FA007739.json | jq . > FA007739.json
+curl https://ci.nii.ac.jp/library/FA007750.json | jq . > FA007750.json
+curl https://ci.nii.ac.jp/library/FA007761.json | jq . > FA007761.json
+curl https://ci.nii.ac.jp/library/FA012455.json | jq . > FA012455.json
+curl https://ci.nii.ac.jp/library/FA007772.json | jq . > FA007772.json
+curl https://ci.nii.ac.jp/library/FA007783.json | jq . > FA007783.json
+curl https://ci.nii.ac.jp/library/FA007794.json | jq . > FA007794.json
+curl https://ci.nii.ac.jp/library/FA007808.json | jq . > FA007808.json
+curl https://ci.nii.ac.jp/library/FA019771.json | jq . > FA019771.json
+curl https://ci.nii.ac.jp/library/FA019782.json | jq . > FA019782.json
+curl https://ci.nii.ac.jp/library/FA007819.json | jq . > FA007819.json
+curl https://ci.nii.ac.jp/library/FA007830.json | jq . > FA007830.json
+curl https://ci.nii.ac.jp/library/FA007841.json | jq . > FA007841.json
+curl https://ci.nii.ac.jp/library/FA020001.json | jq . > FA020001.json
+curl https://ci.nii.ac.jp/library/FA027554.json | jq . > FA027554.json
+curl https://ci.nii.ac.jp/library/FA007852.json | jq . > FA007852.json
+curl https://ci.nii.ac.jp/library/FA007874.json | jq . > FA007874.json
+curl https://ci.nii.ac.jp/library/FA027882.json | jq . > FA027882.json
+curl https://ci.nii.ac.jp/library/FA027907.json | jq . > FA027907.json
+curl https://ci.nii.ac.jp/library/FA007885.json | jq . > FA007885.json
+curl https://ci.nii.ac.jp/library/FA007896.json | jq . > FA007896.json
+curl https://ci.nii.ac.jp/library/FA007910.json | jq . > FA007910.json
+curl https://ci.nii.ac.jp/library/FA007921.json | jq . > FA007921.json
+curl https://ci.nii.ac.jp/library/FA007932.json | jq . > FA007932.json
+curl https://ci.nii.ac.jp/library/FA007943.json | jq . > FA007943.json
+curl https://ci.nii.ac.jp/library/FA007954.json | jq . > FA007954.json
+curl https://ci.nii.ac.jp/library/FA007965.json | jq . > FA007965.json
+curl https://ci.nii.ac.jp/library/FA007976.json | jq . > FA007976.json
+curl https://ci.nii.ac.jp/library/FA008006.json | jq . > FA008006.json
+curl https://ci.nii.ac.jp/library/FA008017.json | jq . > FA008017.json
+curl https://ci.nii.ac.jp/library/FA008028.json | jq . > FA008028.json
+curl https://ci.nii.ac.jp/library/FA008039.json | jq . > FA008039.json
+curl https://ci.nii.ac.jp/library/FA008050.json | jq . > FA008050.json
+curl https://ci.nii.ac.jp/library/FA008061.json | jq . > FA008061.json
+curl https://ci.nii.ac.jp/library/FA012466.json | jq . > FA012466.json
+curl https://ci.nii.ac.jp/library/FA015577.json | jq . > FA015577.json
+curl https://ci.nii.ac.jp/library/FA008072.json | jq . > FA008072.json
+curl https://ci.nii.ac.jp/library/FA008083.json | jq . > FA008083.json
+curl https://ci.nii.ac.jp/library/FA008094.json | jq . > FA008094.json
+curl https://ci.nii.ac.jp/library/FA008108.json | jq . > FA008108.json
+curl https://ci.nii.ac.jp/library/FA008119.json | jq . > FA008119.json
+curl https://ci.nii.ac.jp/library/FA008130.json | jq . > FA008130.json
+curl https://ci.nii.ac.jp/library/FA018349.json | jq . > FA018349.json
+curl https://ci.nii.ac.jp/library/FA008141.json | jq . > FA008141.json
+curl https://ci.nii.ac.jp/library/FA008152.json | jq . > FA008152.json
+curl https://ci.nii.ac.jp/library/FA008174.json | jq . > FA008174.json
+curl https://ci.nii.ac.jp/library/FA008185.json | jq . > FA008185.json
+curl https://ci.nii.ac.jp/library/FA008210.json | jq . > FA008210.json
+curl https://ci.nii.ac.jp/library/FA008221.json | jq . > FA008221.json
+curl https://ci.nii.ac.jp/library/FA008232.json | jq . > FA008232.json
+curl https://ci.nii.ac.jp/library/FA008243.json | jq . > FA008243.json
+curl https://ci.nii.ac.jp/library/FA008254.json | jq . > FA008254.json
+curl https://ci.nii.ac.jp/library/FA008265.json | jq . > FA008265.json
+curl https://ci.nii.ac.jp/library/FA008276.json | jq . > FA008276.json
+curl https://ci.nii.ac.jp/library/FA008287.json | jq . > FA008287.json
+curl https://ci.nii.ac.jp/library/FA008301.json | jq . > FA008301.json
+curl https://ci.nii.ac.jp/library/FA023542.json | jq . > FA023542.json
+curl https://ci.nii.ac.jp/library/FA008312.json | jq . > FA008312.json
+curl https://ci.nii.ac.jp/library/FA008323.json | jq . > FA008323.json
+curl https://ci.nii.ac.jp/library/FA008334.json | jq . > FA008334.json
+curl https://ci.nii.ac.jp/library/FA008345.json | jq . > FA008345.json
+curl https://ci.nii.ac.jp/library/FA008356.json | jq . > FA008356.json
+curl https://ci.nii.ac.jp/library/FA008378.json | jq . > FA008378.json
+curl https://ci.nii.ac.jp/library/FA019760.json | jq . > FA019760.json
+curl https://ci.nii.ac.jp/library/FA008389.json | jq . > FA008389.json
+curl https://ci.nii.ac.jp/library/FA008403.json | jq . > FA008403.json
+curl https://ci.nii.ac.jp/library/FA008414.json | jq . > FA008414.json
+curl https://ci.nii.ac.jp/library/FA026992.json | jq . > FA026992.json
+curl https://ci.nii.ac.jp/library/FA008425.json | jq . > FA008425.json
+curl https://ci.nii.ac.jp/library/FA008447.json | jq . > FA008447.json
+curl https://ci.nii.ac.jp/library/FA014031.json | jq . > FA014031.json
+curl https://ci.nii.ac.jp/library/FA008458.json | jq . > FA008458.json
+curl https://ci.nii.ac.jp/library/FA025027.json | jq . > FA025027.json
+curl https://ci.nii.ac.jp/library/FA008469.json | jq . > FA008469.json
+curl https://ci.nii.ac.jp/library/FA008480.json | jq . > FA008480.json
+curl https://ci.nii.ac.jp/library/FA008491.json | jq . > FA008491.json
+curl https://ci.nii.ac.jp/library/FA008505.json | jq . > FA008505.json
+curl https://ci.nii.ac.jp/library/FA008516.json | jq . > FA008516.json
+curl https://ci.nii.ac.jp/library/FA008527.json | jq . > FA008527.json
+curl https://ci.nii.ac.jp/library/FA008538.json | jq . > FA008538.json
+curl https://ci.nii.ac.jp/library/FA008549.json | jq . > FA008549.json
+curl https://ci.nii.ac.jp/library/FA008560.json | jq . > FA008560.json
+curl https://ci.nii.ac.jp/library/FA008571.json | jq . > FA008571.json
+curl https://ci.nii.ac.jp/library/FA008582.json | jq . > FA008582.json
+curl https://ci.nii.ac.jp/library/FA008593.json | jq . > FA008593.json
+curl https://ci.nii.ac.jp/library/FA008607.json | jq . > FA008607.json
+curl https://ci.nii.ac.jp/library/FA008618.json | jq . > FA008618.json
+curl https://ci.nii.ac.jp/library/FA008629.json | jq . > FA008629.json
+curl https://ci.nii.ac.jp/library/FA008640.json | jq . > FA008640.json
+curl https://ci.nii.ac.jp/library/FA008651.json | jq . > FA008651.json
+curl https://ci.nii.ac.jp/library/FA008662.json | jq . > FA008662.json
+curl https://ci.nii.ac.jp/library/FA008673.json | jq . > FA008673.json
+curl https://ci.nii.ac.jp/library/FA008684.json | jq . > FA008684.json
+curl https://ci.nii.ac.jp/library/FA008695.json | jq . > FA008695.json
+curl https://ci.nii.ac.jp/library/FA008709.json | jq . > FA008709.json
+curl https://ci.nii.ac.jp/library/FA008720.json | jq . > FA008720.json
+curl https://ci.nii.ac.jp/library/FA008731.json | jq . > FA008731.json
+curl https://ci.nii.ac.jp/library/FA008742.json | jq . > FA008742.json
+curl https://ci.nii.ac.jp/library/FA008753.json | jq . > FA008753.json
+curl https://ci.nii.ac.jp/library/FA008764.json | jq . > FA008764.json
+curl https://ci.nii.ac.jp/library/FA008775.json | jq . > FA008775.json
+curl https://ci.nii.ac.jp/library/FA015566.json | jq . > FA015566.json
+curl https://ci.nii.ac.jp/library/FA008786.json | jq . > FA008786.json
+curl https://ci.nii.ac.jp/library/FA008797.json | jq . > FA008797.json
+curl https://ci.nii.ac.jp/library/FA008800.json | jq . > FA008800.json
+curl https://ci.nii.ac.jp/library/FA008811.json | jq . > FA008811.json
+curl https://ci.nii.ac.jp/library/FA008822.json | jq . > FA008822.json
+curl https://ci.nii.ac.jp/library/FA008833.json | jq . > FA008833.json
+curl https://ci.nii.ac.jp/library/FA008844.json | jq . > FA008844.json
+curl https://ci.nii.ac.jp/library/FA008855.json | jq . > FA008855.json
+curl https://ci.nii.ac.jp/library/FA008866.json | jq . > FA008866.json
+curl https://ci.nii.ac.jp/library/FA026981.json | jq . > FA026981.json
+curl https://ci.nii.ac.jp/library/FA008877.json | jq . > FA008877.json
+curl https://ci.nii.ac.jp/library/FA024002.json | jq . > FA024002.json
+curl https://ci.nii.ac.jp/library/FA008899.json | jq . > FA008899.json
+curl https://ci.nii.ac.jp/library/FA008902.json | jq . > FA008902.json
+curl https://ci.nii.ac.jp/library/FA008913.json | jq . > FA008913.json
+curl https://ci.nii.ac.jp/library/FA008924.json | jq . > FA008924.json
+curl https://ci.nii.ac.jp/library/FA021649.json | jq . > FA021649.json
+curl https://ci.nii.ac.jp/library/FA008935.json | jq . > FA008935.json
+curl https://ci.nii.ac.jp/library/FA008946.json | jq . > FA008946.json
+curl https://ci.nii.ac.jp/library/FA008957.json | jq . > FA008957.json
+curl https://ci.nii.ac.jp/library/FA008968.json | jq . > FA008968.json
+curl https://ci.nii.ac.jp/library/FA027689.json | jq . > FA027689.json
+curl https://ci.nii.ac.jp/library/FA008979.json | jq . > FA008979.json
+curl https://ci.nii.ac.jp/library/FA008990.json | jq . > FA008990.json
+curl https://ci.nii.ac.jp/library/FA009031.json | jq . > FA009031.json
+curl https://ci.nii.ac.jp/library/FA009042.json | jq . > FA009042.json
+curl https://ci.nii.ac.jp/library/FA009053.json | jq . > FA009053.json
+curl https://ci.nii.ac.jp/library/FA01487X.json | jq . > FA01487X.json
+curl https://ci.nii.ac.jp/library/FA018269.json | jq . > FA018269.json
+curl https://ci.nii.ac.jp/library/FA009086.json | jq . > FA009086.json
+curl https://ci.nii.ac.jp/library/FA009097.json | jq . > FA009097.json
+curl https://ci.nii.ac.jp/library/FA009100.json | jq . > FA009100.json
+curl https://ci.nii.ac.jp/library/FA021616.json | jq . > FA021616.json
+curl https://ci.nii.ac.jp/library/FA009111.json | jq . > FA009111.json
+curl https://ci.nii.ac.jp/library/FA009122.json | jq . > FA009122.json
+curl https://ci.nii.ac.jp/library/FA009133.json | jq . > FA009133.json
+curl https://ci.nii.ac.jp/library/FA009144.json | jq . > FA009144.json
+curl https://ci.nii.ac.jp/library/FA009155.json | jq . > FA009155.json
+curl https://ci.nii.ac.jp/library/FA009166.json | jq . > FA009166.json
+curl https://ci.nii.ac.jp/library/FA009177.json | jq . > FA009177.json
+curl https://ci.nii.ac.jp/library/FA009188.json | jq . > FA009188.json
+curl https://ci.nii.ac.jp/library/FA009199.json | jq . > FA009199.json
+curl https://ci.nii.ac.jp/library/FA009202.json | jq . > FA009202.json
+curl https://ci.nii.ac.jp/library/FA009359.json | jq . > FA009359.json
+curl https://ci.nii.ac.jp/library/FA020442.json | jq . > FA020442.json
+curl https://ci.nii.ac.jp/library/FA027827.json | jq . > FA027827.json
+curl https://ci.nii.ac.jp/library/FA009213.json | jq . > FA009213.json
+curl https://ci.nii.ac.jp/library/FA009224.json | jq . > FA009224.json
+curl https://ci.nii.ac.jp/library/FA009235.json | jq . > FA009235.json
+curl https://ci.nii.ac.jp/library/FA009246.json | jq . > FA009246.json
+curl https://ci.nii.ac.jp/library/FA009268.json | jq . > FA009268.json
+curl https://ci.nii.ac.jp/library/FA009406.json | jq . > FA009406.json
+curl https://ci.nii.ac.jp/library/FA019807.json | jq . > FA019807.json
+curl https://ci.nii.ac.jp/library/FA009315.json | jq . > FA009315.json
+curl https://ci.nii.ac.jp/library/FA009326.json | jq . > FA009326.json
+curl https://ci.nii.ac.jp/library/FA009337.json | jq . > FA009337.json
+curl https://ci.nii.ac.jp/library/FA009348.json | jq . > FA009348.json
+curl https://ci.nii.ac.jp/library/FA009370.json | jq . > FA009370.json
+curl https://ci.nii.ac.jp/library/FA009381.json | jq . > FA009381.json
+curl https://ci.nii.ac.jp/library/FA009392.json | jq . > FA009392.json
+curl https://ci.nii.ac.jp/library/FA009428.json | jq . > FA009428.json
+curl https://ci.nii.ac.jp/library/FA009439.json | jq . > FA009439.json
+curl https://ci.nii.ac.jp/library/FA009461.json | jq . > FA009461.json
+curl https://ci.nii.ac.jp/library/FA009483.json | jq . > FA009483.json
+curl https://ci.nii.ac.jp/library/FA012193.json | jq . > FA012193.json
+curl https://ci.nii.ac.jp/library/FA009494.json | jq . > FA009494.json
+curl https://ci.nii.ac.jp/library/FA009508.json | jq . > FA009508.json
+curl https://ci.nii.ac.jp/library/FA009519.json | jq . > FA009519.json
+curl https://ci.nii.ac.jp/library/FA009530.json | jq . > FA009530.json
+curl https://ci.nii.ac.jp/library/FA009541.json | jq . > FA009541.json
+curl https://ci.nii.ac.jp/library/FA009563.json | jq . > FA009563.json
+curl https://ci.nii.ac.jp/library/FA009596.json | jq . > FA009596.json
+curl https://ci.nii.ac.jp/library/FA009610.json | jq . > FA009610.json
+curl https://ci.nii.ac.jp/library/FA009621.json | jq . > FA009621.json
+curl https://ci.nii.ac.jp/library/FA009632.json | jq . > FA009632.json
+curl https://ci.nii.ac.jp/library/FA016183.json | jq . > FA016183.json
+curl https://ci.nii.ac.jp/library/FA013006.json | jq . > FA013006.json
+curl https://ci.nii.ac.jp/library/FA009654.json | jq . > FA009654.json
+curl https://ci.nii.ac.jp/library/FA024909.json | jq . > FA024909.json
+curl https://ci.nii.ac.jp/library/FA009665.json | jq . > FA009665.json
+curl https://ci.nii.ac.jp/library/FA009687.json | jq . > FA009687.json
+curl https://ci.nii.ac.jp/library/FA009698.json | jq . > FA009698.json
+curl https://ci.nii.ac.jp/library/FA009701.json | jq . > FA009701.json
+curl https://ci.nii.ac.jp/library/FA009712.json | jq . > FA009712.json
+curl https://ci.nii.ac.jp/library/FA009723.json | jq . > FA009723.json
+curl https://ci.nii.ac.jp/library/FA009734.json | jq . > FA009734.json
+curl https://ci.nii.ac.jp/library/FA009745.json | jq . > FA009745.json
+curl https://ci.nii.ac.jp/library/FA009756.json | jq . > FA009756.json
+curl https://ci.nii.ac.jp/library/FA009767.json | jq . > FA009767.json
+curl https://ci.nii.ac.jp/library/FA009803.json | jq . > FA009803.json
+curl https://ci.nii.ac.jp/library/FA009847.json | jq . > FA009847.json
+curl https://ci.nii.ac.jp/library/FA009869.json | jq . > FA009869.json
+curl https://ci.nii.ac.jp/library/FA009880.json | jq . > FA009880.json
+curl https://ci.nii.ac.jp/library/FA009905.json | jq . > FA009905.json
+curl https://ci.nii.ac.jp/library/FA009916.json | jq . > FA009916.json
+curl https://ci.nii.ac.jp/library/FA009949.json | jq . > FA009949.json
+curl https://ci.nii.ac.jp/library/FA009960.json | jq . > FA009960.json
+curl https://ci.nii.ac.jp/library/FA009993.json | jq . > FA009993.json
+curl https://ci.nii.ac.jp/library/FA010008.json | jq . > FA010008.json
+curl https://ci.nii.ac.jp/library/FA010085.json | jq . > FA010085.json
+curl https://ci.nii.ac.jp/library/FA010096.json | jq . > FA010096.json
+curl https://ci.nii.ac.jp/library/FA010165.json | jq . > FA010165.json
+curl https://ci.nii.ac.jp/library/FA010380.json | jq . > FA010380.json
+curl https://ci.nii.ac.jp/library/FA010405.json | jq . > FA010405.json
+curl https://ci.nii.ac.jp/library/FA010041.json | jq . > FA010041.json
+curl https://ci.nii.ac.jp/library/FA010187.json | jq . > FA010187.json
+curl https://ci.nii.ac.jp/library/FA010198.json | jq . > FA010198.json
+curl https://ci.nii.ac.jp/library/FA010201.json | jq . > FA010201.json
+curl https://ci.nii.ac.jp/library/FA010212.json | jq . > FA010212.json
+curl https://ci.nii.ac.jp/library/FA010223.json | jq . > FA010223.json
+curl https://ci.nii.ac.jp/library/FA010234.json | jq . > FA010234.json
+curl https://ci.nii.ac.jp/library/FA027361.json | jq . > FA027361.json
+curl https://ci.nii.ac.jp/library/FA010245.json | jq . > FA010245.json
+curl https://ci.nii.ac.jp/library/FA010256.json | jq . > FA010256.json
+curl https://ci.nii.ac.jp/library/FA010267.json | jq . > FA010267.json
+curl https://ci.nii.ac.jp/library/FA010278.json | jq . > FA010278.json
+curl https://ci.nii.ac.jp/library/FA010303.json | jq . > FA010303.json
+curl https://ci.nii.ac.jp/library/FA010314.json | jq . > FA010314.json
+curl https://ci.nii.ac.jp/library/FA010336.json | jq . > FA010336.json
+curl https://ci.nii.ac.jp/library/FA010347.json | jq . > FA010347.json
+curl https://ci.nii.ac.jp/library/FA010358.json | jq . > FA010358.json
+curl https://ci.nii.ac.jp/library/FA010369.json | jq . > FA010369.json
+curl https://ci.nii.ac.jp/library/FA010391.json | jq . > FA010391.json
+curl https://ci.nii.ac.jp/library/FA010416.json | jq . > FA010416.json
+curl https://ci.nii.ac.jp/library/FA010438.json | jq . > FA010438.json
+curl https://ci.nii.ac.jp/library/FA010449.json | jq . > FA010449.json
+curl https://ci.nii.ac.jp/library/FA010460.json | jq . > FA010460.json
+curl https://ci.nii.ac.jp/library/FA010471.json | jq . > FA010471.json
+curl https://ci.nii.ac.jp/library/FA010482.json | jq . > FA010482.json
+curl https://ci.nii.ac.jp/library/FA010493.json | jq . > FA010493.json
+curl https://ci.nii.ac.jp/library/FA010551.json | jq . > FA010551.json
+curl https://ci.nii.ac.jp/library/FA010562.json | jq . > FA010562.json
+curl https://ci.nii.ac.jp/library/FA010595.json | jq . > FA010595.json
+curl https://ci.nii.ac.jp/library/FA010609.json | jq . > FA010609.json
+curl https://ci.nii.ac.jp/library/FA010620.json | jq . > FA010620.json
+curl https://ci.nii.ac.jp/library/FA010642.json | jq . > FA010642.json
+curl https://ci.nii.ac.jp/library/FA010697.json | jq . > FA010697.json
+curl https://ci.nii.ac.jp/library/FA010711.json | jq . > FA010711.json
+curl https://ci.nii.ac.jp/library/FA010722.json | jq . > FA010722.json
+curl https://ci.nii.ac.jp/library/FA027929.json | jq . > FA027929.json
+curl https://ci.nii.ac.jp/library/FA010744.json | jq . > FA010744.json
+curl https://ci.nii.ac.jp/library/FA010755.json | jq . > FA010755.json
+curl https://ci.nii.ac.jp/library/FA010766.json | jq . > FA010766.json
+curl https://ci.nii.ac.jp/library/FA010777.json | jq . > FA010777.json
+curl https://ci.nii.ac.jp/library/FA010799.json | jq . > FA010799.json
+curl https://ci.nii.ac.jp/library/FA010802.json | jq . > FA010802.json
+curl https://ci.nii.ac.jp/library/FA014428.json | jq . > FA014428.json
+curl https://ci.nii.ac.jp/library/FA010813.json | jq . > FA010813.json
+curl https://ci.nii.ac.jp/library/FA010824.json | jq . > FA010824.json
+curl https://ci.nii.ac.jp/library/FA010835.json | jq . > FA010835.json
+curl https://ci.nii.ac.jp/library/FA010846.json | jq . > FA010846.json
+curl https://ci.nii.ac.jp/library/FA010857.json | jq . > FA010857.json
+curl https://ci.nii.ac.jp/library/FA017674.json | jq . > FA017674.json
+curl https://ci.nii.ac.jp/library/FA010868.json | jq . > FA010868.json
+curl https://ci.nii.ac.jp/library/FA010879.json | jq . > FA010879.json
+curl https://ci.nii.ac.jp/library/FA010890.json | jq . > FA010890.json
+curl https://ci.nii.ac.jp/library/FA010915.json | jq . > FA010915.json
+curl https://ci.nii.ac.jp/library/FA010926.json | jq . > FA010926.json
+curl https://ci.nii.ac.jp/library/FA010904.json | jq . > FA010904.json
+curl https://ci.nii.ac.jp/library/FA010948.json | jq . > FA010948.json
+curl https://ci.nii.ac.jp/library/FA010959.json | jq . > FA010959.json
+curl https://ci.nii.ac.jp/library/FA010970.json | jq . > FA010970.json
+curl https://ci.nii.ac.jp/library/FA016194.json | jq . > FA016194.json
+curl https://ci.nii.ac.jp/library/FA010992.json | jq . > FA010992.json
+curl https://ci.nii.ac.jp/library/FA011000.json | jq . > FA011000.json
+curl https://ci.nii.ac.jp/library/FA011033.json | jq . > FA011033.json
+curl https://ci.nii.ac.jp/library/FA011044.json | jq . > FA011044.json
+curl https://ci.nii.ac.jp/library/FA011055.json | jq . > FA011055.json
+curl https://ci.nii.ac.jp/library/FA021988.json | jq . > FA021988.json
+curl https://ci.nii.ac.jp/library/FA011066.json | jq . > FA011066.json
+curl https://ci.nii.ac.jp/library/FA011088.json | jq . > FA011088.json
+curl https://ci.nii.ac.jp/library/FA011113.json | jq . > FA011113.json
+curl https://ci.nii.ac.jp/library/FA011135.json | jq . > FA011135.json
+curl https://ci.nii.ac.jp/library/FA011168.json | jq . > FA011168.json
+curl https://ci.nii.ac.jp/library/FA020872.json | jq . > FA020872.json
+curl https://ci.nii.ac.jp/library/FA011179.json | jq . > FA011179.json
+curl https://ci.nii.ac.jp/library/FA011190.json | jq . > FA011190.json
+curl https://ci.nii.ac.jp/library/FA011204.json | jq . > FA011204.json
+curl https://ci.nii.ac.jp/library/FA011226.json | jq . > FA011226.json
+curl https://ci.nii.ac.jp/library/FA011237.json | jq . > FA011237.json
+curl https://ci.nii.ac.jp/library/FA011248.json | jq . > FA011248.json
+curl https://ci.nii.ac.jp/library/FA011259.json | jq . > FA011259.json
+curl https://ci.nii.ac.jp/library/FA011292.json | jq . > FA011292.json
+curl https://ci.nii.ac.jp/library/FA011306.json | jq . > FA011306.json
+curl https://ci.nii.ac.jp/library/FA011317.json | jq . > FA011317.json
+curl https://ci.nii.ac.jp/library/FA011328.json | jq . > FA011328.json
+curl https://ci.nii.ac.jp/library/FA011372.json | jq . > FA011372.json
+curl https://ci.nii.ac.jp/library/FA011383.json | jq . > FA011383.json
+curl https://ci.nii.ac.jp/library/FA011394.json | jq . > FA011394.json
+curl https://ci.nii.ac.jp/library/FA011419.json | jq . > FA011419.json
+curl https://ci.nii.ac.jp/library/FA011463.json | jq . > FA011463.json
+curl https://ci.nii.ac.jp/library/FA011474.json | jq . > FA011474.json
+curl https://ci.nii.ac.jp/library/FA011485.json | jq . > FA011485.json
+curl https://ci.nii.ac.jp/library/FA011496.json | jq . > FA011496.json
+curl https://ci.nii.ac.jp/library/FA011521.json | jq . > FA011521.json
+curl https://ci.nii.ac.jp/library/FA011532.json | jq . > FA011532.json
+curl https://ci.nii.ac.jp/library/FA011565.json | jq . > FA011565.json
+curl https://ci.nii.ac.jp/library/FA011587.json | jq . > FA011587.json
+curl https://ci.nii.ac.jp/library/FA011598.json | jq . > FA011598.json
+curl https://ci.nii.ac.jp/library/FA011601.json | jq . > FA011601.json
+curl https://ci.nii.ac.jp/library/FA011645.json | jq . > FA011645.json
+curl https://ci.nii.ac.jp/library/FA011667.json | jq . > FA011667.json
+curl https://ci.nii.ac.jp/library/FA011678.json | jq . > FA011678.json
+curl https://ci.nii.ac.jp/library/FA011725.json | jq . > FA011725.json
+curl https://ci.nii.ac.jp/library/FA012207.json | jq . > FA012207.json
+curl https://ci.nii.ac.jp/library/FA018021.json | jq . > FA018021.json
+curl https://ci.nii.ac.jp/library/FA02386X.json | jq . > FA02386X.json
+curl https://ci.nii.ac.jp/library/FA025151.json | jq . > FA025151.json
+curl https://ci.nii.ac.jp/library/FA012251.json | jq . > FA012251.json
+curl https://ci.nii.ac.jp/library/FA012295.json | jq . > FA012295.json
+curl https://ci.nii.ac.jp/library/FA027088.json | jq . > FA027088.json
+curl https://ci.nii.ac.jp/library/FA01290X.json | jq . > FA01290X.json
+curl https://ci.nii.ac.jp/library/FA012896.json | jq . > FA012896.json
+curl https://ci.nii.ac.jp/library/FA012885.json | jq . > FA012885.json
+curl https://ci.nii.ac.jp/library/FA012874.json | jq . > FA012874.json
+curl https://ci.nii.ac.jp/library/FA012852.json | jq . > FA012852.json
+curl https://ci.nii.ac.jp/library/FA012841.json | jq . > FA012841.json
+curl https://ci.nii.ac.jp/library/FA01282X.json | jq . > FA01282X.json
+curl https://ci.nii.ac.jp/library/FA012772.json | jq . > FA012772.json
+curl https://ci.nii.ac.jp/library/FA012750.json | jq . > FA012750.json
+curl https://ci.nii.ac.jp/library/FA012761.json | jq . > FA012761.json
+curl https://ci.nii.ac.jp/library/FA01274X.json | jq . > FA01274X.json
+curl https://ci.nii.ac.jp/library/FA021944.json | jq . > FA021944.json
+curl https://ci.nii.ac.jp/library/FA012739.json | jq . > FA012739.json
+curl https://ci.nii.ac.jp/library/FA012535.json | jq . > FA012535.json
+curl https://ci.nii.ac.jp/library/FA012557.json | jq . > FA012557.json
+curl https://ci.nii.ac.jp/library/FA012568.json | jq . > FA012568.json
+curl https://ci.nii.ac.jp/library/FA012579.json | jq . > FA012579.json
+curl https://ci.nii.ac.jp/library/FA023688.json | jq . > FA023688.json
+curl https://ci.nii.ac.jp/library/FA026926.json | jq . > FA026926.json
+curl https://ci.nii.ac.jp/library/FA01258X.json | jq . > FA01258X.json
+curl https://ci.nii.ac.jp/library/FA012590.json | jq . > FA012590.json
+curl https://ci.nii.ac.jp/library/FA012604.json | jq . > FA012604.json
+curl https://ci.nii.ac.jp/library/FA012615.json | jq . > FA012615.json
+curl https://ci.nii.ac.jp/library/FA012626.json | jq . > FA012626.json
+curl https://ci.nii.ac.jp/library/FA012637.json | jq . > FA012637.json
+curl https://ci.nii.ac.jp/library/FA012648.json | jq . > FA012648.json
+curl https://ci.nii.ac.jp/library/FA012659.json | jq . > FA012659.json
+curl https://ci.nii.ac.jp/library/FA01266X.json | jq . > FA01266X.json
+curl https://ci.nii.ac.jp/library/FA012670.json | jq . > FA012670.json
+curl https://ci.nii.ac.jp/library/FA012681.json | jq . > FA012681.json
+curl https://ci.nii.ac.jp/library/FA012692.json | jq . > FA012692.json
+curl https://ci.nii.ac.jp/library/FA012706.json | jq . > FA012706.json
+curl https://ci.nii.ac.jp/library/FA012717.json | jq . > FA012717.json
+curl https://ci.nii.ac.jp/library/FA012728.json | jq . > FA012728.json
+curl https://ci.nii.ac.jp/library/FA013028.json | jq . > FA013028.json
+curl https://ci.nii.ac.jp/library/FA013061.json | jq . > FA013061.json
+curl https://ci.nii.ac.jp/library/FA013039.json | jq . > FA013039.json
+curl https://ci.nii.ac.jp/library/FA013017.json | jq . > FA013017.json
+curl https://ci.nii.ac.jp/library/FA013866.json | jq . > FA013866.json
+curl https://ci.nii.ac.jp/library/FA013888.json | jq . > FA013888.json
+curl https://ci.nii.ac.jp/library/FA013913.json | jq . > FA013913.json
+curl https://ci.nii.ac.jp/library/FA013935.json | jq . > FA013935.json
+curl https://ci.nii.ac.jp/library/FA013946.json | jq . > FA013946.json
+curl https://ci.nii.ac.jp/library/FA013822.json | jq . > FA013822.json
+curl https://ci.nii.ac.jp/library/FA024476.json | jq . > FA024476.json
+curl https://ci.nii.ac.jp/library/FA014009.json | jq . > FA014009.json
+curl https://ci.nii.ac.jp/library/FA014020.json | jq . > FA014020.json
+curl https://ci.nii.ac.jp/library/FA01401X.json | jq . > FA01401X.json
+curl https://ci.nii.ac.jp/library/FA018112.json | jq . > FA018112.json
+curl https://ci.nii.ac.jp/library/FA014064.json | jq . > FA014064.json
+curl https://ci.nii.ac.jp/library/FA014086.json | jq . > FA014086.json
+curl https://ci.nii.ac.jp/library/FA014246.json | jq . > FA014246.json
+curl https://ci.nii.ac.jp/library/FA014257.json | jq . > FA014257.json
+curl https://ci.nii.ac.jp/library/FA014268.json | jq . > FA014268.json
+curl https://ci.nii.ac.jp/library/FA021580.json | jq . > FA021580.json
+curl https://ci.nii.ac.jp/library/FA014279.json | jq . > FA014279.json
+curl https://ci.nii.ac.jp/library/FA01428X.json | jq . > FA01428X.json
+curl https://ci.nii.ac.jp/library/FA014290.json | jq . > FA014290.json
+curl https://ci.nii.ac.jp/library/FA014304.json | jq . > FA014304.json
+curl https://ci.nii.ac.jp/library/FA014326.json | jq . > FA014326.json
+curl https://ci.nii.ac.jp/library/FA014348.json | jq . > FA014348.json
+curl https://ci.nii.ac.jp/library/FA014359.json | jq . > FA014359.json
+curl https://ci.nii.ac.jp/library/FA015872.json | jq . > FA015872.json
+curl https://ci.nii.ac.jp/library/FA01436X.json | jq . > FA01436X.json
+curl https://ci.nii.ac.jp/library/FA014370.json | jq . > FA014370.json
+curl https://ci.nii.ac.jp/library/FA014392.json | jq . > FA014392.json
+curl https://ci.nii.ac.jp/library/FA014406.json | jq . > FA014406.json
+curl https://ci.nii.ac.jp/library/FA016773.json | jq . > FA016773.json
+curl https://ci.nii.ac.jp/library/FA01444X.json | jq . > FA01444X.json
+curl https://ci.nii.ac.jp/library/FA014450.json | jq . > FA014450.json
+curl https://ci.nii.ac.jp/library/FA014461.json | jq . > FA014461.json
+curl https://ci.nii.ac.jp/library/FA014519.json | jq . > FA014519.json
+curl https://ci.nii.ac.jp/library/FA01452X.json | jq . > FA01452X.json
+curl https://ci.nii.ac.jp/library/FA014530.json | jq . > FA014530.json
+curl https://ci.nii.ac.jp/library/FA014552.json | jq . > FA014552.json
+curl https://ci.nii.ac.jp/library/FA014563.json | jq . > FA014563.json
+curl https://ci.nii.ac.jp/library/FA015453.json | jq . > FA015453.json
+curl https://ci.nii.ac.jp/library/FA01460X.json | jq . > FA01460X.json
+curl https://ci.nii.ac.jp/library/FA024501.json | jq . > FA024501.json
+curl https://ci.nii.ac.jp/library/FA014610.json | jq . > FA014610.json
+curl https://ci.nii.ac.jp/library/FA014621.json | jq . > FA014621.json
+curl https://ci.nii.ac.jp/library/FA014643.json | jq . > FA014643.json
+curl https://ci.nii.ac.jp/library/FA014654.json | jq . > FA014654.json
+curl https://ci.nii.ac.jp/library/FA014665.json | jq . > FA014665.json
+curl https://ci.nii.ac.jp/library/FA014676.json | jq . > FA014676.json
+curl https://ci.nii.ac.jp/library/FA014698.json | jq . > FA014698.json
+curl https://ci.nii.ac.jp/library/FA014745.json | jq . > FA014745.json
+curl https://ci.nii.ac.jp/library/FA014756.json | jq . > FA014756.json
+curl https://ci.nii.ac.jp/library/FA014778.json | jq . > FA014778.json
+curl https://ci.nii.ac.jp/library/FA014803.json | jq . > FA014803.json
+curl https://ci.nii.ac.jp/library/FA014814.json | jq . > FA014814.json
+curl https://ci.nii.ac.jp/library/FA014891.json | jq . > FA014891.json
+curl https://ci.nii.ac.jp/library/FA01517X.json | jq . > FA01517X.json
+curl https://ci.nii.ac.jp/library/FA014905.json | jq . > FA014905.json
+curl https://ci.nii.ac.jp/library/FA018666.json | jq . > FA018666.json
+curl https://ci.nii.ac.jp/library/FA014916.json | jq . > FA014916.json
+curl https://ci.nii.ac.jp/library/FA014927.json | jq . > FA014927.json
+curl https://ci.nii.ac.jp/library/FA015125.json | jq . > FA015125.json
+curl https://ci.nii.ac.jp/library/FA015136.json | jq . > FA015136.json
+curl https://ci.nii.ac.jp/library/FA015147.json | jq . > FA015147.json
+curl https://ci.nii.ac.jp/library/FA015158.json | jq . > FA015158.json
+curl https://ci.nii.ac.jp/library/FA015169.json | jq . > FA015169.json
+curl https://ci.nii.ac.jp/library/FA015180.json | jq . > FA015180.json
+curl https://ci.nii.ac.jp/library/FA015191.json | jq . > FA015191.json
+curl https://ci.nii.ac.jp/library/FA015205.json | jq . > FA015205.json
+curl https://ci.nii.ac.jp/library/FA015216.json | jq . > FA015216.json
+curl https://ci.nii.ac.jp/library/FA015227.json | jq . > FA015227.json
+curl https://ci.nii.ac.jp/library/FA015238.json | jq . > FA015238.json
+curl https://ci.nii.ac.jp/library/FA015249.json | jq . > FA015249.json
+curl https://ci.nii.ac.jp/library/FA015260.json | jq . > FA015260.json
+curl https://ci.nii.ac.jp/library/FA015271.json | jq . > FA015271.json
+curl https://ci.nii.ac.jp/library/FA015293.json | jq . > FA015293.json
+curl https://ci.nii.ac.jp/library/FA015340.json | jq . > FA015340.json
+curl https://ci.nii.ac.jp/library/FA024716.json | jq . > FA024716.json
+curl https://ci.nii.ac.jp/library/FA015362.json | jq . > FA015362.json
+curl https://ci.nii.ac.jp/library/FA023611.json | jq . > FA023611.json
+curl https://ci.nii.ac.jp/library/FA015395.json | jq . > FA015395.json
+curl https://ci.nii.ac.jp/library/FA027099.json | jq . > FA027099.json
+curl https://ci.nii.ac.jp/library/FA015442.json | jq . > FA015442.json
+curl https://ci.nii.ac.jp/library/FA015464.json | jq . > FA015464.json
+curl https://ci.nii.ac.jp/library/FA015475.json | jq . > FA015475.json
+curl https://ci.nii.ac.jp/library/FA015486.json | jq . > FA015486.json
+curl https://ci.nii.ac.jp/library/FA015497.json | jq . > FA015497.json
+curl https://ci.nii.ac.jp/library/FA023167.json | jq . > FA023167.json
+curl https://ci.nii.ac.jp/library/FA023178.json | jq . > FA023178.json
+curl https://ci.nii.ac.jp/library/FA024206.json | jq . > FA024206.json
+curl https://ci.nii.ac.jp/library/FA027000.json | jq . > FA027000.json
+curl https://ci.nii.ac.jp/library/FA027317.json | jq . > FA027317.json
+curl https://ci.nii.ac.jp/library/FA015500.json | jq . > FA015500.json
+curl https://ci.nii.ac.jp/library/FA015511.json | jq . > FA015511.json
+curl https://ci.nii.ac.jp/library/FA015522.json | jq . > FA015522.json
+curl https://ci.nii.ac.jp/library/FA015533.json | jq . > FA015533.json
+curl https://ci.nii.ac.jp/library/FA017368.json | jq . > FA017368.json
+curl https://ci.nii.ac.jp/library/FA018473.json | jq . > FA018473.json
+curl https://ci.nii.ac.jp/library/FA015544.json | jq . > FA015544.json
+curl https://ci.nii.ac.jp/library/FA012998.json | jq . > FA012998.json
+curl https://ci.nii.ac.jp/library/FA015599.json | jq . > FA015599.json
+curl https://ci.nii.ac.jp/library/FA015602.json | jq . > FA015602.json
+curl https://ci.nii.ac.jp/library/FA015613.json | jq . > FA015613.json
+curl https://ci.nii.ac.jp/library/FA015657.json | jq . > FA015657.json
+curl https://ci.nii.ac.jp/library/FA015668.json | jq . > FA015668.json
+curl https://ci.nii.ac.jp/library/FA015679.json | jq . > FA015679.json
+curl https://ci.nii.ac.jp/library/FA015704.json | jq . > FA015704.json
+curl https://ci.nii.ac.jp/library/FA015759.json | jq . > FA015759.json
+curl https://ci.nii.ac.jp/library/FA015409.json | jq . > FA015409.json
+curl https://ci.nii.ac.jp/library/FA01541X.json | jq . > FA01541X.json
+curl https://ci.nii.ac.jp/library/FA015420.json | jq . > FA015420.json
+curl https://ci.nii.ac.jp/library/FA015431.json | jq . > FA015431.json
+curl https://ci.nii.ac.jp/library/FA015555.json | jq . > FA015555.json
+curl https://ci.nii.ac.jp/library/FA015690.json | jq . > FA015690.json
+curl https://ci.nii.ac.jp/library/FA015715.json | jq . > FA015715.json
+curl https://ci.nii.ac.jp/library/FA015726.json | jq . > FA015726.json
+curl https://ci.nii.ac.jp/library/FA015748.json | jq . > FA015748.json
+curl https://ci.nii.ac.jp/library/FA01576X.json | jq . > FA01576X.json
+curl https://ci.nii.ac.jp/library/FA015781.json | jq . > FA015781.json
+curl https://ci.nii.ac.jp/library/FA015828.json | jq . > FA015828.json
+curl https://ci.nii.ac.jp/library/FA01584X.json | jq . > FA01584X.json
+curl https://ci.nii.ac.jp/library/FA015883.json | jq . > FA015883.json
+curl https://ci.nii.ac.jp/library/FA015908.json | jq . > FA015908.json
+curl https://ci.nii.ac.jp/library/FA016398.json | jq . > FA016398.json
+curl https://ci.nii.ac.jp/library/FA017029.json | jq . > FA017029.json
+curl https://ci.nii.ac.jp/library/FA017222.json | jq . > FA017222.json
+curl https://ci.nii.ac.jp/library/FA017925.json | jq . > FA017925.json
+curl https://ci.nii.ac.jp/library/FA020249.json | jq . > FA020249.json
+curl https://ci.nii.ac.jp/library/FA01592X.json | jq . > FA01592X.json
+curl https://ci.nii.ac.jp/library/FA015930.json | jq . > FA015930.json
+curl https://ci.nii.ac.jp/library/FA015963.json | jq . > FA015963.json
+curl https://ci.nii.ac.jp/library/FA015985.json | jq . > FA015985.json
+curl https://ci.nii.ac.jp/library/FA016004.json | jq . > FA016004.json
+curl https://ci.nii.ac.jp/library/FA016015.json | jq . > FA016015.json
+curl https://ci.nii.ac.jp/library/FA016026.json | jq . > FA016026.json
+curl https://ci.nii.ac.jp/library/FA017051.json | jq . > FA017051.json
+curl https://ci.nii.ac.jp/library/FA016048.json | jq . > FA016048.json
+curl https://ci.nii.ac.jp/library/FA01606X.json | jq . > FA01606X.json
+curl https://ci.nii.ac.jp/library/FA016070.json | jq . > FA016070.json
+curl https://ci.nii.ac.jp/library/FA016081.json | jq . > FA016081.json
+curl https://ci.nii.ac.jp/library/FA016117.json | jq . > FA016117.json
+curl https://ci.nii.ac.jp/library/FA016128.json | jq . > FA016128.json
+curl https://ci.nii.ac.jp/library/FA01614X.json | jq . > FA01614X.json
+curl https://ci.nii.ac.jp/library/FA015806.json | jq . > FA015806.json
+curl https://ci.nii.ac.jp/library/FA015817.json | jq . > FA015817.json
+curl https://ci.nii.ac.jp/library/FA015974.json | jq . > FA015974.json
+curl https://ci.nii.ac.jp/library/FA016092.json | jq . > FA016092.json
+curl https://ci.nii.ac.jp/library/FA016106.json | jq . > FA016106.json
+curl https://ci.nii.ac.jp/library/FA016150.json | jq . > FA016150.json
+curl https://ci.nii.ac.jp/library/FA016161.json | jq . > FA016161.json
+curl https://ci.nii.ac.jp/library/FA016208.json | jq . > FA016208.json
+curl https://ci.nii.ac.jp/library/FA016219.json | jq . > FA016219.json
+curl https://ci.nii.ac.jp/library/FA016230.json | jq . > FA016230.json
+curl https://ci.nii.ac.jp/library/FA016241.json | jq . > FA016241.json
+curl https://ci.nii.ac.jp/library/FA016252.json | jq . > FA016252.json
+curl https://ci.nii.ac.jp/library/FA016274.json | jq . > FA016274.json
+curl https://ci.nii.ac.jp/library/FA01630X.json | jq . > FA01630X.json
+curl https://ci.nii.ac.jp/library/FA016310.json | jq . > FA016310.json
+curl https://ci.nii.ac.jp/library/FA016864.json | jq . > FA016864.json
+curl https://ci.nii.ac.jp/library/FA016343.json | jq . > FA016343.json
+curl https://ci.nii.ac.jp/library/FA016354.json | jq . > FA016354.json
+curl https://ci.nii.ac.jp/library/FA016365.json | jq . > FA016365.json
+curl https://ci.nii.ac.jp/library/FA016693.json | jq . > FA016693.json
+curl https://ci.nii.ac.jp/library/FA023269.json | jq . > FA023269.json
+curl https://ci.nii.ac.jp/library/FA02734X.json | jq . > FA02734X.json
+curl https://ci.nii.ac.jp/library/FA027383.json | jq . > FA027383.json
+curl https://ci.nii.ac.jp/library/FA027838.json | jq . > FA027838.json
+curl https://ci.nii.ac.jp/library/FA016376.json | jq . > FA016376.json
+curl https://ci.nii.ac.jp/library/FA012987.json | jq . > FA012987.json
+curl https://ci.nii.ac.jp/library/FA016412.json | jq . > FA016412.json
+curl https://ci.nii.ac.jp/library/FA016503.json | jq . > FA016503.json
+curl https://ci.nii.ac.jp/library/FA016514.json | jq . > FA016514.json
+curl https://ci.nii.ac.jp/library/FA016525.json | jq . > FA016525.json
+curl https://ci.nii.ac.jp/library/FA016536.json | jq . > FA016536.json
+curl https://ci.nii.ac.jp/library/FA017109.json | jq . > FA017109.json
+curl https://ci.nii.ac.jp/library/FA016547.json | jq . > FA016547.json
+curl https://ci.nii.ac.jp/library/FA016649.json | jq . > FA016649.json
+curl https://ci.nii.ac.jp/library/FA016569.json | jq . > FA016569.json
+curl https://ci.nii.ac.jp/library/FA016558.json | jq . > FA016558.json
+curl https://ci.nii.ac.jp/library/FA016638.json | jq . > FA016638.json
+curl https://ci.nii.ac.jp/library/FA01657X.json | jq . > FA01657X.json
+curl https://ci.nii.ac.jp/library/FA016605.json | jq . > FA016605.json
+curl https://ci.nii.ac.jp/library/FA01665X.json | jq . > FA01665X.json
+curl https://ci.nii.ac.jp/library/FA016580.json | jq . > FA016580.json
+curl https://ci.nii.ac.jp/library/FA016616.json | jq . > FA016616.json
+curl https://ci.nii.ac.jp/library/FA016591.json | jq . > FA016591.json
+curl https://ci.nii.ac.jp/library/FA016671.json | jq . > FA016671.json
+curl https://ci.nii.ac.jp/library/FA016682.json | jq . > FA016682.json
+curl https://ci.nii.ac.jp/library/FA016707.json | jq . > FA016707.json
+curl https://ci.nii.ac.jp/library/FA016718.json | jq . > FA016718.json
+curl https://ci.nii.ac.jp/library/FA016729.json | jq . > FA016729.json
+curl https://ci.nii.ac.jp/library/FA016740.json | jq . > FA016740.json
+curl https://ci.nii.ac.jp/library/FA016751.json | jq . > FA016751.json
+curl https://ci.nii.ac.jp/library/FA016762.json | jq . > FA016762.json
+curl https://ci.nii.ac.jp/library/FA016809.json | jq . > FA016809.json
+curl https://ci.nii.ac.jp/library/FA01681X.json | jq . > FA01681X.json
+curl https://ci.nii.ac.jp/library/FA016831.json | jq . > FA016831.json
+curl https://ci.nii.ac.jp/library/FA016875.json | jq . > FA016875.json
+curl https://ci.nii.ac.jp/library/FA016886.json | jq . > FA016886.json
+curl https://ci.nii.ac.jp/library/FA016897.json | jq . > FA016897.json
+curl https://ci.nii.ac.jp/library/FA017404.json | jq . > FA017404.json
+curl https://ci.nii.ac.jp/library/FA012954.json | jq . > FA012954.json
+curl https://ci.nii.ac.jp/library/FA016900.json | jq . > FA016900.json
+curl https://ci.nii.ac.jp/library/FA016911.json | jq . > FA016911.json
+curl https://ci.nii.ac.jp/library/FA016922.json | jq . > FA016922.json
+curl https://ci.nii.ac.jp/library/FA016933.json | jq . > FA016933.json
+curl https://ci.nii.ac.jp/library/FA016944.json | jq . > FA016944.json
+curl https://ci.nii.ac.jp/library/FA016955.json | jq . > FA016955.json
+curl https://ci.nii.ac.jp/library/FA016966.json | jq . > FA016966.json
+curl https://ci.nii.ac.jp/library/FA012965.json | jq . > FA012965.json
+curl https://ci.nii.ac.jp/library/FA012976.json | jq . > FA012976.json
+curl https://ci.nii.ac.jp/library/FA017062.json | jq . > FA017062.json
+curl https://ci.nii.ac.jp/library/FA017084.json | jq . > FA017084.json
+curl https://ci.nii.ac.jp/library/FA017095.json | jq . > FA017095.json
+curl https://ci.nii.ac.jp/library/FA023291.json | jq . > FA023291.json
+curl https://ci.nii.ac.jp/library/FA01711X.json | jq . > FA01711X.json
+curl https://ci.nii.ac.jp/library/FA017120.json | jq . > FA017120.json
+curl https://ci.nii.ac.jp/library/FA017131.json | jq . > FA017131.json
+curl https://ci.nii.ac.jp/library/FA017153.json | jq . > FA017153.json
+curl https://ci.nii.ac.jp/library/FA017164.json | jq . > FA017164.json
+curl https://ci.nii.ac.jp/library/FA017197.json | jq . > FA017197.json
+curl https://ci.nii.ac.jp/library/FA017200.json | jq . > FA017200.json
+curl https://ci.nii.ac.jp/library/FA017244.json | jq . > FA017244.json
+curl https://ci.nii.ac.jp/library/FA017277.json | jq . > FA017277.json
+curl https://ci.nii.ac.jp/library/FA017324.json | jq . > FA017324.json
+curl https://ci.nii.ac.jp/library/FA017335.json | jq . > FA017335.json
+curl https://ci.nii.ac.jp/library/FA017346.json | jq . > FA017346.json
+curl https://ci.nii.ac.jp/library/FA017379.json | jq . > FA017379.json
+curl https://ci.nii.ac.jp/library/FA004763.json | jq . > FA004763.json
+curl https://ci.nii.ac.jp/library/FA016401.json | jq . > FA016401.json
+curl https://ci.nii.ac.jp/library/FA01703X.json | jq . > FA01703X.json
+curl https://ci.nii.ac.jp/library/FA017040.json | jq . > FA017040.json
+curl https://ci.nii.ac.jp/library/FA017211.json | jq . > FA017211.json
+curl https://ci.nii.ac.jp/library/FA017302.json | jq . > FA017302.json
+curl https://ci.nii.ac.jp/library/FA017357.json | jq . > FA017357.json
+curl https://ci.nii.ac.jp/library/FA017459.json | jq . > FA017459.json
+curl https://ci.nii.ac.jp/library/FA003818.json | jq . > FA003818.json
+curl https://ci.nii.ac.jp/library/FA017448.json | jq . > FA017448.json
+curl https://ci.nii.ac.jp/library/FA017470.json | jq . > FA017470.json
+curl https://ci.nii.ac.jp/library/FA017492.json | jq . > FA017492.json
+curl https://ci.nii.ac.jp/library/FA022856.json | jq . > FA022856.json
+curl https://ci.nii.ac.jp/library/FA017506.json | jq . > FA017506.json
+curl https://ci.nii.ac.jp/library/FA017517.json | jq . > FA017517.json
+curl https://ci.nii.ac.jp/library/FA017528.json | jq . > FA017528.json
+curl https://ci.nii.ac.jp/library/FA020158.json | jq . > FA020158.json
+curl https://ci.nii.ac.jp/library/FA017539.json | jq . > FA017539.json
+curl https://ci.nii.ac.jp/library/FA017550.json | jq . > FA017550.json
+curl https://ci.nii.ac.jp/library/FA017561.json | jq . > FA017561.json
+curl https://ci.nii.ac.jp/library/FA017572.json | jq . > FA017572.json
+curl https://ci.nii.ac.jp/library/FA017583.json | jq . > FA017583.json
+curl https://ci.nii.ac.jp/library/FA017594.json | jq . > FA017594.json
+curl https://ci.nii.ac.jp/library/FA017608.json | jq . > FA017608.json
+curl https://ci.nii.ac.jp/library/FA017619.json | jq . > FA017619.json
+curl https://ci.nii.ac.jp/library/FA01762X.json | jq . > FA01762X.json
+curl https://ci.nii.ac.jp/library/FA017630.json | jq . > FA017630.json
+curl https://ci.nii.ac.jp/library/FA017641.json | jq . > FA017641.json
+curl https://ci.nii.ac.jp/library/FA017652.json | jq . > FA017652.json
+curl https://ci.nii.ac.jp/library/FA017696.json | jq . > FA017696.json
+curl https://ci.nii.ac.jp/library/FA01770X.json | jq . > FA01770X.json
+curl https://ci.nii.ac.jp/library/FA017710.json | jq . > FA017710.json
+curl https://ci.nii.ac.jp/library/FA017721.json | jq . > FA017721.json
+curl https://ci.nii.ac.jp/library/FA017765.json | jq . > FA017765.json
+curl https://ci.nii.ac.jp/library/FA017798.json | jq . > FA017798.json
+curl https://ci.nii.ac.jp/library/FA017845.json | jq . > FA017845.json
+curl https://ci.nii.ac.jp/library/FA017878.json | jq . > FA017878.json
+curl https://ci.nii.ac.jp/library/FA017889.json | jq . > FA017889.json
+curl https://ci.nii.ac.jp/library/FA017903.json | jq . > FA017903.json
+curl https://ci.nii.ac.jp/library/FA017936.json | jq . > FA017936.json
+curl https://ci.nii.ac.jp/library/FA017958.json | jq . > FA017958.json
+curl https://ci.nii.ac.jp/library/FA01797X.json | jq . > FA01797X.json
+curl https://ci.nii.ac.jp/library/FA017991.json | jq . > FA017991.json
+curl https://ci.nii.ac.jp/library/FA018032.json | jq . > FA018032.json
+curl https://ci.nii.ac.jp/library/FA018076.json | jq . > FA018076.json
+curl https://ci.nii.ac.jp/library/FA018087.json | jq . > FA018087.json
+curl https://ci.nii.ac.jp/library/FA018098.json | jq . > FA018098.json
+curl https://ci.nii.ac.jp/library/FA020690.json | jq . > FA020690.json
+curl https://ci.nii.ac.jp/library/FA018101.json | jq . > FA018101.json
+curl https://ci.nii.ac.jp/library/FA018123.json | jq . > FA018123.json
+curl https://ci.nii.ac.jp/library/FA018145.json | jq . > FA018145.json
+curl https://ci.nii.ac.jp/library/FA018156.json | jq . > FA018156.json
+curl https://ci.nii.ac.jp/library/FA018214.json | jq . > FA018214.json
+curl https://ci.nii.ac.jp/library/FA015373.json | jq . > FA015373.json
+curl https://ci.nii.ac.jp/library/FA018225.json | jq . > FA018225.json
+curl https://ci.nii.ac.jp/library/FA018655.json | jq . > FA018655.json
+curl https://ci.nii.ac.jp/library/FA018247.json | jq . > FA018247.json
+curl https://ci.nii.ac.jp/library/FA01827X.json | jq . > FA01827X.json
+curl https://ci.nii.ac.jp/library/FA018495.json | jq . > FA018495.json
+curl https://ci.nii.ac.jp/library/FA018305.json | jq . > FA018305.json
+curl https://ci.nii.ac.jp/library/FA018371.json | jq . > FA018371.json
+curl https://ci.nii.ac.jp/library/FA018360.json | jq . > FA018360.json
+curl https://ci.nii.ac.jp/library/FA018382.json | jq . > FA018382.json
+curl https://ci.nii.ac.jp/library/FA018451.json | jq . > FA018451.json
+curl https://ci.nii.ac.jp/library/FA018484.json | jq . > FA018484.json
+curl https://ci.nii.ac.jp/library/FA018509.json | jq . > FA018509.json
+curl https://ci.nii.ac.jp/library/FA01851X.json | jq . > FA01851X.json
+curl https://ci.nii.ac.jp/library/FA018520.json | jq . > FA018520.json
+curl https://ci.nii.ac.jp/library/FA018531.json | jq . > FA018531.json
+curl https://ci.nii.ac.jp/library/FA018564.json | jq . > FA018564.json
+curl https://ci.nii.ac.jp/library/FA018597.json | jq . > FA018597.json
+curl https://ci.nii.ac.jp/library/FA018600.json | jq . > FA018600.json
+curl https://ci.nii.ac.jp/library/FA018611.json | jq . > FA018611.json
+curl https://ci.nii.ac.jp/library/FA018633.json | jq . > FA018633.json
+curl https://ci.nii.ac.jp/library/FA018644.json | jq . > FA018644.json
+curl https://ci.nii.ac.jp/library/FA018677.json | jq . > FA018677.json
+curl https://ci.nii.ac.jp/library/FA018699.json | jq . > FA018699.json
+curl https://ci.nii.ac.jp/library/FA018713.json | jq . > FA018713.json
+curl https://ci.nii.ac.jp/library/FA018724.json | jq . > FA018724.json
+curl https://ci.nii.ac.jp/library/FA018746.json | jq . > FA018746.json
+curl https://ci.nii.ac.jp/library/FA018757.json | jq . > FA018757.json
+curl https://ci.nii.ac.jp/library/FA018768.json | jq . > FA018768.json
+curl https://ci.nii.ac.jp/library/FA018779.json | jq . > FA018779.json
+curl https://ci.nii.ac.jp/library/FA018804.json | jq . > FA018804.json
+curl https://ci.nii.ac.jp/library/FA018815.json | jq . > FA018815.json
+curl https://ci.nii.ac.jp/library/FA018837.json | jq . > FA018837.json
+curl https://ci.nii.ac.jp/library/FA018848.json | jq . > FA018848.json
+curl https://ci.nii.ac.jp/library/FA020056.json | jq . > FA020056.json
+curl https://ci.nii.ac.jp/library/FA020078.json | jq . > FA020078.json
+curl https://ci.nii.ac.jp/library/FA017288.json | jq . > FA017288.json
+curl https://ci.nii.ac.jp/library/FA018859.json | jq . > FA018859.json
+curl https://ci.nii.ac.jp/library/FA01886X.json | jq . > FA01886X.json
+curl https://ci.nii.ac.jp/library/FA018870.json | jq . > FA018870.json
+curl https://ci.nii.ac.jp/library/FA018881.json | jq . > FA018881.json
+curl https://ci.nii.ac.jp/library/FA018892.json | jq . > FA018892.json
+curl https://ci.nii.ac.jp/library/FA018939.json | jq . > FA018939.json
+curl https://ci.nii.ac.jp/library/FA018961.json | jq . > FA018961.json
+curl https://ci.nii.ac.jp/library/FA018972.json | jq . > FA018972.json
+curl https://ci.nii.ac.jp/library/FA018983.json | jq . > FA018983.json
+curl https://ci.nii.ac.jp/library/FA018994.json | jq . > FA018994.json
+curl https://ci.nii.ac.jp/library/FA019002.json | jq . > FA019002.json
+curl https://ci.nii.ac.jp/library/FA019013.json | jq . > FA019013.json
+curl https://ci.nii.ac.jp/library/FA019035.json | jq . > FA019035.json
+curl https://ci.nii.ac.jp/library/FA019079.json | jq . > FA019079.json
+curl https://ci.nii.ac.jp/library/FA01908X.json | jq . > FA01908X.json
+curl https://ci.nii.ac.jp/library/FA019104.json | jq . > FA019104.json
+curl https://ci.nii.ac.jp/library/FA019115.json | jq . > FA019115.json
+curl https://ci.nii.ac.jp/library/FA019137.json | jq . > FA019137.json
+curl https://ci.nii.ac.jp/library/FA019148.json | jq . > FA019148.json
+curl https://ci.nii.ac.jp/library/FA019159.json | jq . > FA019159.json
+curl https://ci.nii.ac.jp/library/FA01916X.json | jq . > FA01916X.json
+curl https://ci.nii.ac.jp/library/FA019170.json | jq . > FA019170.json
+curl https://ci.nii.ac.jp/library/FA019192.json | jq . > FA019192.json
+curl https://ci.nii.ac.jp/library/FA019206.json | jq . > FA019206.json
+curl https://ci.nii.ac.jp/library/FA01975X.json | jq . > FA01975X.json
+curl https://ci.nii.ac.jp/library/FA019228.json | jq . > FA019228.json
+curl https://ci.nii.ac.jp/library/FA01924X.json | jq . > FA01924X.json
+curl https://ci.nii.ac.jp/library/FA014439.json | jq . > FA014439.json
+curl https://ci.nii.ac.jp/library/FA019250.json | jq . > FA019250.json
+curl https://ci.nii.ac.jp/library/FA019261.json | jq . > FA019261.json
+curl https://ci.nii.ac.jp/library/FA019272.json | jq . > FA019272.json
+curl https://ci.nii.ac.jp/library/FA019283.json | jq . > FA019283.json
+curl https://ci.nii.ac.jp/library/FA019294.json | jq . > FA019294.json
+curl https://ci.nii.ac.jp/library/FA019308.json | jq . > FA019308.json
+curl https://ci.nii.ac.jp/library/FA019319.json | jq . > FA019319.json
+curl https://ci.nii.ac.jp/library/FA019363.json | jq . > FA019363.json
+curl https://ci.nii.ac.jp/library/FA019385.json | jq . > FA019385.json
+curl https://ci.nii.ac.jp/library/FA019396.json | jq . > FA019396.json
+curl https://ci.nii.ac.jp/library/FA01940X.json | jq . > FA01940X.json
+curl https://ci.nii.ac.jp/library/FA019410.json | jq . > FA019410.json
+curl https://ci.nii.ac.jp/library/FA019421.json | jq . > FA019421.json
+curl https://ci.nii.ac.jp/library/FA019465.json | jq . > FA019465.json
+curl https://ci.nii.ac.jp/library/FA019454.json | jq . > FA019454.json
+curl https://ci.nii.ac.jp/library/FA019476.json | jq . > FA019476.json
+curl https://ci.nii.ac.jp/library/FA019501.json | jq . > FA019501.json
+curl https://ci.nii.ac.jp/library/FA019512.json | jq . > FA019512.json
+curl https://ci.nii.ac.jp/library/FA019534.json | jq . > FA019534.json
+curl https://ci.nii.ac.jp/library/FA019545.json | jq . > FA019545.json
+curl https://ci.nii.ac.jp/library/FA019556.json | jq . > FA019556.json
+curl https://ci.nii.ac.jp/library/FA015952.json | jq . > FA015952.json
+curl https://ci.nii.ac.jp/library/FA028080.json | jq . > FA028080.json
+curl https://ci.nii.ac.jp/library/FA019589.json | jq . > FA019589.json
+curl https://ci.nii.ac.jp/library/FA01959X.json | jq . > FA01959X.json
+curl https://ci.nii.ac.jp/library/FA019603.json | jq . > FA019603.json
+curl https://ci.nii.ac.jp/library/FA019625.json | jq . > FA019625.json
+curl https://ci.nii.ac.jp/library/FA019636.json | jq . > FA019636.json
+curl https://ci.nii.ac.jp/library/FA019647.json | jq . > FA019647.json
+curl https://ci.nii.ac.jp/library/FA019669.json | jq . > FA019669.json
+curl https://ci.nii.ac.jp/library/FA019691.json | jq . > FA019691.json
+curl https://ci.nii.ac.jp/library/FA019716.json | jq . > FA019716.json
+curl https://ci.nii.ac.jp/library/FA019738.json | jq . > FA019738.json
+curl https://ci.nii.ac.jp/library/FA019749.json | jq . > FA019749.json
+curl https://ci.nii.ac.jp/library/FA019793.json | jq . > FA019793.json
+curl https://ci.nii.ac.jp/library/FA019818.json | jq . > FA019818.json
+curl https://ci.nii.ac.jp/library/FA022200.json | jq . > FA022200.json
+curl https://ci.nii.ac.jp/library/FA019829.json | jq . > FA019829.json
+curl https://ci.nii.ac.jp/library/FA01983X.json | jq . > FA01983X.json
+curl https://ci.nii.ac.jp/library/FA019840.json | jq . > FA019840.json
+curl https://ci.nii.ac.jp/library/FA019851.json | jq . > FA019851.json
+curl https://ci.nii.ac.jp/library/FA019862.json | jq . > FA019862.json
+curl https://ci.nii.ac.jp/library/FA019873.json | jq . > FA019873.json
+curl https://ci.nii.ac.jp/library/FA019884.json | jq . > FA019884.json
+curl https://ci.nii.ac.jp/library/FA019909.json | jq . > FA019909.json
+curl https://ci.nii.ac.jp/library/FA019920.json | jq . > FA019920.json
+curl https://ci.nii.ac.jp/library/FA019931.json | jq . > FA019931.json
+curl https://ci.nii.ac.jp/library/FA019953.json | jq . > FA019953.json
+curl https://ci.nii.ac.jp/library/FA019975.json | jq . > FA019975.json
+curl https://ci.nii.ac.jp/library/FA019986.json | jq . > FA019986.json
+curl https://ci.nii.ac.jp/library/FA019997.json | jq . > FA019997.json
+curl https://ci.nii.ac.jp/library/FA020034.json | jq . > FA020034.json
+curl https://ci.nii.ac.jp/library/FA020045.json | jq . > FA020045.json
+curl https://ci.nii.ac.jp/library/FA020067.json | jq . > FA020067.json
+curl https://ci.nii.ac.jp/library/FA020089.json | jq . > FA020089.json
+curl https://ci.nii.ac.jp/library/FA02009X.json | jq . > FA02009X.json
+curl https://ci.nii.ac.jp/library/FA020114.json | jq . > FA020114.json
+curl https://ci.nii.ac.jp/library/FA020125.json | jq . > FA020125.json
+curl https://ci.nii.ac.jp/library/FA020169.json | jq . > FA020169.json
+curl https://ci.nii.ac.jp/library/FA02017X.json | jq . > FA02017X.json
+curl https://ci.nii.ac.jp/library/FA020180.json | jq . > FA020180.json
+curl https://ci.nii.ac.jp/library/FA020191.json | jq . > FA020191.json
+curl https://ci.nii.ac.jp/library/FA020205.json | jq . > FA020205.json
+curl https://ci.nii.ac.jp/library/FA018462.json | jq . > FA018462.json
+curl https://ci.nii.ac.jp/library/FA020216.json | jq . > FA020216.json
+curl https://ci.nii.ac.jp/library/FA020227.json | jq . > FA020227.json
+curl https://ci.nii.ac.jp/library/FA02025X.json | jq . > FA02025X.json
+curl https://ci.nii.ac.jp/library/FA020282.json | jq . > FA020282.json
+curl https://ci.nii.ac.jp/library/FA020293.json | jq . > FA020293.json
+curl https://ci.nii.ac.jp/library/FA020329.json | jq . > FA020329.json
+curl https://ci.nii.ac.jp/library/FA020340.json | jq . > FA020340.json
+curl https://ci.nii.ac.jp/library/FA020384.json | jq . > FA020384.json
+curl https://ci.nii.ac.jp/library/FA020409.json | jq . > FA020409.json
+curl https://ci.nii.ac.jp/library/FA01754X.json | jq . > FA01754X.json
+curl https://ci.nii.ac.jp/library/FA02041X.json | jq . > FA02041X.json
+curl https://ci.nii.ac.jp/library/FA020420.json | jq . > FA020420.json
+curl https://ci.nii.ac.jp/library/FA020464.json | jq . > FA020464.json
+curl https://ci.nii.ac.jp/library/FA020475.json | jq . > FA020475.json
+curl https://ci.nii.ac.jp/library/FA020486.json | jq . > FA020486.json
+curl https://ci.nii.ac.jp/library/FA023994.json | jq . > FA023994.json
+curl https://ci.nii.ac.jp/library/FA020497.json | jq . > FA020497.json
+curl https://ci.nii.ac.jp/library/FA020500.json | jq . > FA020500.json
+curl https://ci.nii.ac.jp/library/FA020511.json | jq . > FA020511.json
+curl https://ci.nii.ac.jp/library/FA020522.json | jq . > FA020522.json
+curl https://ci.nii.ac.jp/library/FA020533.json | jq . > FA020533.json
+curl https://ci.nii.ac.jp/library/FA020544.json | jq . > FA020544.json
+curl https://ci.nii.ac.jp/library/FA020555.json | jq . > FA020555.json
+curl https://ci.nii.ac.jp/library/FA020566.json | jq . > FA020566.json
+curl https://ci.nii.ac.jp/library/FA020577.json | jq . > FA020577.json
+curl https://ci.nii.ac.jp/library/FA020624.json | jq . > FA020624.json
+curl https://ci.nii.ac.jp/library/FA020613.json | jq . > FA020613.json
+curl https://ci.nii.ac.jp/library/FA020635.json | jq . > FA020635.json
+curl https://ci.nii.ac.jp/library/FA020646.json | jq . > FA020646.json
+curl https://ci.nii.ac.jp/library/FA020679.json | jq . > FA020679.json
+curl https://ci.nii.ac.jp/library/FA020726.json | jq . > FA020726.json
+curl https://ci.nii.ac.jp/library/FA020737.json | jq . > FA020737.json
+curl https://ci.nii.ac.jp/library/FA020759.json | jq . > FA020759.json
+curl https://ci.nii.ac.jp/library/FA020770.json | jq . > FA020770.json
+curl https://ci.nii.ac.jp/library/FA020781.json | jq . > FA020781.json
+curl https://ci.nii.ac.jp/library/FA020792.json | jq . > FA020792.json
+curl https://ci.nii.ac.jp/library/FA020806.json | jq . > FA020806.json
+curl https://ci.nii.ac.jp/library/FA020817.json | jq . > FA020817.json
+curl https://ci.nii.ac.jp/library/FA020828.json | jq . > FA020828.json
+curl https://ci.nii.ac.jp/library/FA020839.json | jq . > FA020839.json
+curl https://ci.nii.ac.jp/library/FA02084X.json | jq . > FA02084X.json
+curl https://ci.nii.ac.jp/library/FA021285.json | jq . > FA021285.json
+curl https://ci.nii.ac.jp/library/FA02130X.json | jq . > FA02130X.json
+curl https://ci.nii.ac.jp/library/FA021398.json | jq . > FA021398.json
+curl https://ci.nii.ac.jp/library/FA021401.json | jq . > FA021401.json
+curl https://ci.nii.ac.jp/library/FA021412.json | jq . > FA021412.json
+curl https://ci.nii.ac.jp/library/FA021423.json | jq . > FA021423.json
+curl https://ci.nii.ac.jp/library/FA021434.json | jq . > FA021434.json
+curl https://ci.nii.ac.jp/library/FA021445.json | jq . > FA021445.json
+curl https://ci.nii.ac.jp/library/FA021456.json | jq . > FA021456.json
+curl https://ci.nii.ac.jp/library/FA021467.json | jq . > FA021467.json
+curl https://ci.nii.ac.jp/library/FA021489.json | jq . > FA021489.json
+curl https://ci.nii.ac.jp/library/FA021525.json | jq . > FA021525.json
+curl https://ci.nii.ac.jp/library/FA021536.json | jq . > FA021536.json
+curl https://ci.nii.ac.jp/library/FA021547.json | jq . > FA021547.json
+curl https://ci.nii.ac.jp/library/FA021558.json | jq . > FA021558.json
+curl https://ci.nii.ac.jp/library/FA02157X.json | jq . > FA02157X.json
+curl https://ci.nii.ac.jp/library/FA021591.json | jq . > FA021591.json
+curl https://ci.nii.ac.jp/library/FA021605.json | jq . > FA021605.json
+curl https://ci.nii.ac.jp/library/FA021627.json | jq . > FA021627.json
+curl https://ci.nii.ac.jp/library/FA021660.json | jq . > FA021660.json
+curl https://ci.nii.ac.jp/library/FA022630.json | jq . > FA022630.json
+curl https://ci.nii.ac.jp/library/FA021671.json | jq . > FA021671.json
+curl https://ci.nii.ac.jp/library/FA027598.json | jq . > FA027598.json
+curl https://ci.nii.ac.jp/library/FA021682.json | jq . > FA021682.json
+curl https://ci.nii.ac.jp/library/FA021693.json | jq . > FA021693.json
+curl https://ci.nii.ac.jp/library/FA021718.json | jq . > FA021718.json
+curl https://ci.nii.ac.jp/library/FA021729.json | jq . > FA021729.json
+curl https://ci.nii.ac.jp/library/FA02173X.json | jq . > FA02173X.json
+curl https://ci.nii.ac.jp/library/FA021740.json | jq . > FA021740.json
+curl https://ci.nii.ac.jp/library/FA021762.json | jq . > FA021762.json
+curl https://ci.nii.ac.jp/library/FA021784.json | jq . > FA021784.json
+curl https://ci.nii.ac.jp/library/FA021795.json | jq . > FA021795.json
+curl https://ci.nii.ac.jp/library/FA021809.json | jq . > FA021809.json
+curl https://ci.nii.ac.jp/library/FA02181X.json | jq . > FA02181X.json
+curl https://ci.nii.ac.jp/library/FA021842.json | jq . > FA021842.json
+curl https://ci.nii.ac.jp/library/FA021864.json | jq . > FA021864.json
+curl https://ci.nii.ac.jp/library/FA021875.json | jq . > FA021875.json
+curl https://ci.nii.ac.jp/library/FA021897.json | jq . > FA021897.json
+curl https://ci.nii.ac.jp/library/FA021900.json | jq . > FA021900.json
+curl https://ci.nii.ac.jp/library/FA021911.json | jq . > FA021911.json
+curl https://ci.nii.ac.jp/library/FA021933.json | jq . > FA021933.json
+curl https://ci.nii.ac.jp/library/FA021955.json | jq . > FA021955.json
+curl https://ci.nii.ac.jp/library/FA021999.json | jq . > FA021999.json
+curl https://ci.nii.ac.jp/library/FA02203X.json | jq . > FA02203X.json
+curl https://ci.nii.ac.jp/library/FA022029.json | jq . > FA022029.json
+curl https://ci.nii.ac.jp/library/FA022062.json | jq . > FA022062.json
+curl https://ci.nii.ac.jp/library/FA022095.json | jq . > FA022095.json
+curl https://ci.nii.ac.jp/library/FA022109.json | jq . > FA022109.json
+curl https://ci.nii.ac.jp/library/FA02211X.json | jq . > FA02211X.json
+curl https://ci.nii.ac.jp/library/FA022186.json | jq . > FA022186.json
+curl https://ci.nii.ac.jp/library/FA022197.json | jq . > FA022197.json
+curl https://ci.nii.ac.jp/library/FA022211.json | jq . > FA022211.json
+curl https://ci.nii.ac.jp/library/FA022222.json | jq . > FA022222.json
+curl https://ci.nii.ac.jp/library/FA022233.json | jq . > FA022233.json
+curl https://ci.nii.ac.jp/library/FA022470.json | jq . > FA022470.json
+curl https://ci.nii.ac.jp/library/FA022481.json | jq . > FA022481.json
+curl https://ci.nii.ac.jp/library/FA022506.json | jq . > FA022506.json
+curl https://ci.nii.ac.jp/library/FA022492.json | jq . > FA022492.json
+curl https://ci.nii.ac.jp/library/FA022517.json | jq . > FA022517.json
+curl https://ci.nii.ac.jp/library/FA022539.json | jq . > FA022539.json
+curl https://ci.nii.ac.jp/library/FA02254X.json | jq . > FA02254X.json
+curl https://ci.nii.ac.jp/library/FA022561.json | jq . > FA022561.json
+curl https://ci.nii.ac.jp/library/FA022583.json | jq . > FA022583.json
+curl https://ci.nii.ac.jp/library/FA023236.json | jq . > FA023236.json
+curl https://ci.nii.ac.jp/library/FA024432.json | jq . > FA024432.json
+curl https://ci.nii.ac.jp/library/FA027066.json | jq . > FA027066.json
+curl https://ci.nii.ac.jp/library/FA022594.json | jq . > FA022594.json
+curl https://ci.nii.ac.jp/library/FA022608.json | jq . > FA022608.json
+curl https://ci.nii.ac.jp/library/FA022619.json | jq . > FA022619.json
+curl https://ci.nii.ac.jp/library/FA022641.json | jq . > FA022641.json
+curl https://ci.nii.ac.jp/library/FA022652.json | jq . > FA022652.json
+curl https://ci.nii.ac.jp/library/FA022663.json | jq . > FA022663.json
+curl https://ci.nii.ac.jp/library/FA02246X.json | jq . > FA02246X.json
+curl https://ci.nii.ac.jp/library/FA022721.json | jq . > FA022721.json
+curl https://ci.nii.ac.jp/library/FA022787.json | jq . > FA022787.json
+curl https://ci.nii.ac.jp/library/FA026198.json | jq . > FA026198.json
+curl https://ci.nii.ac.jp/library/FA022798.json | jq . > FA022798.json
+curl https://ci.nii.ac.jp/library/FA022801.json | jq . > FA022801.json
+curl https://ci.nii.ac.jp/library/FA022834.json | jq . > FA022834.json
+curl https://ci.nii.ac.jp/library/FA022867.json | jq . > FA022867.json
+curl https://ci.nii.ac.jp/library/FA022878.json | jq . > FA022878.json
+curl https://ci.nii.ac.jp/library/FA022889.json | jq . > FA022889.json
+curl https://ci.nii.ac.jp/library/FA022914.json | jq . > FA022914.json
+curl https://ci.nii.ac.jp/library/FA023145.json | jq . > FA023145.json
+curl https://ci.nii.ac.jp/library/FA024691.json | jq . > FA024691.json
+curl https://ci.nii.ac.jp/library/FA027394.json | jq . > FA027394.json
+curl https://ci.nii.ac.jp/library/FA027747.json | jq . > FA027747.json
+curl https://ci.nii.ac.jp/library/FA021376.json | jq . > FA021376.json
+curl https://ci.nii.ac.jp/library/FA020136.json | jq . > FA020136.json
+curl https://ci.nii.ac.jp/library/FA018280.json | jq . > FA018280.json
+curl https://ci.nii.ac.jp/library/FA017812.json | jq . > FA017812.json
+curl https://ci.nii.ac.jp/library/FA017266.json | jq . > FA017266.json
+curl https://ci.nii.ac.jp/library/FA022958.json | jq . > FA022958.json
+curl https://ci.nii.ac.jp/library/FA012477.json | jq . > FA012477.json
+curl https://ci.nii.ac.jp/library/FA009075.json | jq . > FA009075.json
+curl https://ci.nii.ac.jp/library/FA018586.json | jq . > FA018586.json
+curl https://ci.nii.ac.jp/library/FA01789X.json | jq . > FA01789X.json
+curl https://ci.nii.ac.jp/library/FA022969.json | jq . > FA022969.json
+curl https://ci.nii.ac.jp/library/FA02300X.json | jq . > FA02300X.json
+curl https://ci.nii.ac.jp/library/FA023010.json | jq . > FA023010.json
+curl https://ci.nii.ac.jp/library/FA023021.json | jq . > FA023021.json
+curl https://ci.nii.ac.jp/library/FA023032.json | jq . > FA023032.json
+curl https://ci.nii.ac.jp/library/FA021773.json | jq . > FA021773.json
+curl https://ci.nii.ac.jp/library/FA023054.json | jq . > FA023054.json
+curl https://ci.nii.ac.jp/library/FA023065.json | jq . > FA023065.json
+curl https://ci.nii.ac.jp/library/FA023087.json | jq . > FA023087.json
+curl https://ci.nii.ac.jp/library/FA023098.json | jq . > FA023098.json
+curl https://ci.nii.ac.jp/library/FA023101.json | jq . > FA023101.json
+curl https://ci.nii.ac.jp/library/FA023112.json | jq . > FA023112.json
+curl https://ci.nii.ac.jp/library/FA023123.json | jq . > FA023123.json
+curl https://ci.nii.ac.jp/library/FA023134.json | jq . > FA023134.json
+curl https://ci.nii.ac.jp/library/FA023156.json | jq . > FA023156.json
+curl https://ci.nii.ac.jp/library/FA023189.json | jq . > FA023189.json
+curl https://ci.nii.ac.jp/library/FA023225.json | jq . > FA023225.json
+curl https://ci.nii.ac.jp/library/FA027995.json | jq . > FA027995.json
+curl https://ci.nii.ac.jp/library/FA023258.json | jq . > FA023258.json
+curl https://ci.nii.ac.jp/library/FA023280.json | jq . > FA023280.json
+curl https://ci.nii.ac.jp/library/FA024352.json | jq . > FA024352.json
+curl https://ci.nii.ac.jp/library/FA023305.json | jq . > FA023305.json
+curl https://ci.nii.ac.jp/library/FA023327.json | jq . > FA023327.json
+curl https://ci.nii.ac.jp/library/FA02335X.json | jq . > FA02335X.json
+curl https://ci.nii.ac.jp/library/FA023575.json | jq . > FA023575.json
+curl https://ci.nii.ac.jp/library/FA023586.json | jq . > FA023586.json
+curl https://ci.nii.ac.jp/library/FA023597.json | jq . > FA023597.json
+curl https://ci.nii.ac.jp/library/FA023600.json | jq . > FA023600.json
+curl https://ci.nii.ac.jp/library/FA023633.json | jq . > FA023633.json
+curl https://ci.nii.ac.jp/library/FA023644.json | jq . > FA023644.json
+curl https://ci.nii.ac.jp/library/FA023699.json | jq . > FA023699.json
+curl https://ci.nii.ac.jp/library/FA023735.json | jq . > FA023735.json
+curl https://ci.nii.ac.jp/library/FA023746.json | jq . > FA023746.json
+curl https://ci.nii.ac.jp/library/FA009643.json | jq . > FA009643.json
+curl https://ci.nii.ac.jp/library/FA023757.json | jq . > FA023757.json
+curl https://ci.nii.ac.jp/library/FA023768.json | jq . > FA023768.json
+curl https://ci.nii.ac.jp/library/FA023779.json | jq . > FA023779.json
+curl https://ci.nii.ac.jp/library/FA023790.json | jq . > FA023790.json
+curl https://ci.nii.ac.jp/library/FA02378X.json | jq . > FA02378X.json
+curl https://ci.nii.ac.jp/library/FA023837.json | jq . > FA023837.json
+curl https://ci.nii.ac.jp/library/FA023848.json | jq . > FA023848.json
+curl https://ci.nii.ac.jp/library/FA023859.json | jq . > FA023859.json
+curl https://ci.nii.ac.jp/library/FA023939.json | jq . > FA023939.json
+curl https://ci.nii.ac.jp/library/FA023961.json | jq . > FA023961.json
+curl https://ci.nii.ac.jp/library/FA023972.json | jq . > FA023972.json
+curl https://ci.nii.ac.jp/library/FA023983.json | jq . > FA023983.json
+curl https://ci.nii.ac.jp/library/FA024046.json | jq . > FA024046.json
+curl https://ci.nii.ac.jp/library/FA024057.json | jq . > FA024057.json
+curl https://ci.nii.ac.jp/library/FA024068.json | jq . > FA024068.json
+curl https://ci.nii.ac.jp/library/FA024079.json | jq . > FA024079.json
+curl https://ci.nii.ac.jp/library/FA02408X.json | jq . > FA02408X.json
+curl https://ci.nii.ac.jp/library/FA024090.json | jq . > FA024090.json
+curl https://ci.nii.ac.jp/library/FA024126.json | jq . > FA024126.json
+curl https://ci.nii.ac.jp/library/FA024137.json | jq . > FA024137.json
+curl https://ci.nii.ac.jp/library/FA024148.json | jq . > FA024148.json
+curl https://ci.nii.ac.jp/library/FA024170.json | jq . > FA024170.json
+curl https://ci.nii.ac.jp/library/FA024228.json | jq . > FA024228.json
+curl https://ci.nii.ac.jp/library/FA024239.json | jq . > FA024239.json
+curl https://ci.nii.ac.jp/library/FA02424X.json | jq . > FA02424X.json
+curl https://ci.nii.ac.jp/library/FA024272.json | jq . > FA024272.json
+curl https://ci.nii.ac.jp/library/FA024283.json | jq . > FA024283.json
+curl https://ci.nii.ac.jp/library/FA024294.json | jq . > FA024294.json
+curl https://ci.nii.ac.jp/library/FA024319.json | jq . > FA024319.json
+curl https://ci.nii.ac.jp/library/FA025209.json | jq . > FA025209.json
+curl https://ci.nii.ac.jp/library/FA02432X.json | jq . > FA02432X.json
+curl https://ci.nii.ac.jp/library/FA024374.json | jq . > FA024374.json
+curl https://ci.nii.ac.jp/library/FA024385.json | jq . > FA024385.json
+curl https://ci.nii.ac.jp/library/FA024421.json | jq . > FA024421.json
+curl https://ci.nii.ac.jp/library/FA024512.json | jq . > FA024512.json
+curl https://ci.nii.ac.jp/library/FA024523.json | jq . > FA024523.json
+curl https://ci.nii.ac.jp/library/FA024534.json | jq . > FA024534.json
+curl https://ci.nii.ac.jp/library/FA024545.json | jq . > FA024545.json
+curl https://ci.nii.ac.jp/library/FA024556.json | jq . > FA024556.json
+curl https://ci.nii.ac.jp/library/FA024793.json | jq . > FA024793.json
+curl https://ci.nii.ac.jp/library/FA024807.json | jq . > FA024807.json
+curl https://ci.nii.ac.jp/library/FA024818.json | jq . > FA024818.json
+curl https://ci.nii.ac.jp/library/FA024895.json | jq . > FA024895.json
+curl https://ci.nii.ac.jp/library/FA024931.json | jq . > FA024931.json
+curl https://ci.nii.ac.jp/library/FA024975.json | jq . > FA024975.json
+curl https://ci.nii.ac.jp/library/FA024986.json | jq . > FA024986.json
+curl https://ci.nii.ac.jp/library/FA024997.json | jq . > FA024997.json
+curl https://ci.nii.ac.jp/library/FA025005.json | jq . > FA025005.json
+curl https://ci.nii.ac.jp/library/FA025016.json | jq . > FA025016.json
+curl https://ci.nii.ac.jp/library/FA025038.json | jq . > FA025038.json
+curl https://ci.nii.ac.jp/library/FA025049.json | jq . > FA025049.json
+curl https://ci.nii.ac.jp/library/FA025071.json | jq . > FA025071.json
+curl https://ci.nii.ac.jp/library/FA025082.json | jq . > FA025082.json
+curl https://ci.nii.ac.jp/library/FA025118.json | jq . > FA025118.json
+curl https://ci.nii.ac.jp/library/FA025129.json | jq . > FA025129.json
+curl https://ci.nii.ac.jp/library/FA02793X.json | jq . > FA02793X.json
+curl https://ci.nii.ac.jp/library/FA025140.json | jq . > FA025140.json
+curl https://ci.nii.ac.jp/library/FA025173.json | jq . > FA025173.json
+curl https://ci.nii.ac.jp/library/FA025220.json | jq . > FA025220.json
+curl https://ci.nii.ac.jp/library/FA026143.json | jq . > FA026143.json
+curl https://ci.nii.ac.jp/library/FA026187.json | jq . > FA026187.json
+curl https://ci.nii.ac.jp/library/FA026802.json | jq . > FA026802.json
+curl https://ci.nii.ac.jp/library/FA026824.json | jq . > FA026824.json
+curl https://ci.nii.ac.jp/library/FA026868.json | jq . > FA026868.json
+curl https://ci.nii.ac.jp/library/FA026879.json | jq . > FA026879.json
+curl https://ci.nii.ac.jp/library/FA02688X.json | jq . > FA02688X.json
+curl https://ci.nii.ac.jp/library/FA026890.json | jq . > FA026890.json
+curl https://ci.nii.ac.jp/library/FA026937.json | jq . > FA026937.json
+curl https://ci.nii.ac.jp/library/FA026948.json | jq . > FA026948.json
+curl https://ci.nii.ac.jp/library/FA02696X.json | jq . > FA02696X.json
+curl https://ci.nii.ac.jp/library/FA026970.json | jq . > FA026970.json
+curl https://ci.nii.ac.jp/library/FA027011.json | jq . > FA027011.json
+curl https://ci.nii.ac.jp/library/FA027044.json | jq . > FA027044.json
+curl https://ci.nii.ac.jp/library/FA027077.json | jq . > FA027077.json
+curl https://ci.nii.ac.jp/library/FA027102.json | jq . > FA027102.json
+curl https://ci.nii.ac.jp/library/FA027124.json | jq . > FA027124.json
+curl https://ci.nii.ac.jp/library/FA02718X.json | jq . > FA02718X.json
+curl https://ci.nii.ac.jp/library/FA027190.json | jq . > FA027190.json
+curl https://ci.nii.ac.jp/library/FA027204.json | jq . > FA027204.json
+curl https://ci.nii.ac.jp/library/FA02726X.json | jq . > FA02726X.json
+curl https://ci.nii.ac.jp/library/FA027281.json | jq . > FA027281.json
+curl https://ci.nii.ac.jp/library/FA027306.json | jq . > FA027306.json
+curl https://ci.nii.ac.jp/library/FA027339.json | jq . > FA027339.json
+curl https://ci.nii.ac.jp/library/FA027408.json | jq . > FA027408.json
+curl https://ci.nii.ac.jp/library/FA027430.json | jq . > FA027430.json
+curl https://ci.nii.ac.jp/library/FA027463.json | jq . > FA027463.json
+curl https://ci.nii.ac.jp/library/FA022991.json | jq . > FA022991.json
+curl https://ci.nii.ac.jp/library/FA023203.json | jq . > FA023203.json
+curl https://ci.nii.ac.jp/library/FA023338.json | jq . > FA023338.json
+curl https://ci.nii.ac.jp/library/FA022299.json | jq . > FA022299.json
+curl https://ci.nii.ac.jp/library/FA022302.json | jq . > FA022302.json
+curl https://ci.nii.ac.jp/library/FA022368.json | jq . > FA022368.json
+curl https://ci.nii.ac.jp/library/FA023371.json | jq . > FA023371.json
+curl https://ci.nii.ac.jp/library/FA023473.json | jq . > FA023473.json
+curl https://ci.nii.ac.jp/library/FA023484.json | jq . > FA023484.json
+curl https://ci.nii.ac.jp/library/FA023520.json | jq . > FA023520.json
+curl https://ci.nii.ac.jp/library/FA024024.json | jq . > FA024024.json
+curl https://ci.nii.ac.jp/library/FA024250.json | jq . > FA024250.json
+curl https://ci.nii.ac.jp/library/FA024658.json | jq . > FA024658.json
+curl https://ci.nii.ac.jp/library/FA022903.json | jq . > FA022903.json
+curl https://ci.nii.ac.jp/library/FA027474.json | jq . > FA027474.json
+curl https://ci.nii.ac.jp/library/FA027485.json | jq . > FA027485.json
+curl https://ci.nii.ac.jp/library/FA02750X.json | jq . > FA02750X.json
+curl https://ci.nii.ac.jp/library/FA027510.json | jq . > FA027510.json
+curl https://ci.nii.ac.jp/library/FA027521.json | jq . > FA027521.json
+curl https://ci.nii.ac.jp/library/FA027532.json | jq . > FA027532.json
+curl https://ci.nii.ac.jp/library/FA027543.json | jq . > FA027543.json
+curl https://ci.nii.ac.jp/library/FA024705.json | jq . > FA024705.json
+curl https://ci.nii.ac.jp/library/FA016795.json | jq . > FA016795.json
+curl https://ci.nii.ac.jp/library/FA027576.json | jq . > FA027576.json
+curl https://ci.nii.ac.jp/library/FA027601.json | jq . > FA027601.json
+curl https://ci.nii.ac.jp/library/FA027623.json | jq . > FA027623.json
+curl https://ci.nii.ac.jp/library/FA027656.json | jq . > FA027656.json
+curl https://ci.nii.ac.jp/library/FA027667.json | jq . > FA027667.json
+curl https://ci.nii.ac.jp/library/FA027678.json | jq . > FA027678.json
+curl https://ci.nii.ac.jp/library/FA02769X.json | jq . > FA02769X.json
+curl https://ci.nii.ac.jp/library/FA027703.json | jq . > FA027703.json
+curl https://ci.nii.ac.jp/library/FA027714.json | jq . > FA027714.json
+curl https://ci.nii.ac.jp/library/FA027736.json | jq . > FA027736.json
+curl https://ci.nii.ac.jp/library/FA027758.json | jq . > FA027758.json
+curl https://ci.nii.ac.jp/library/FA027805.json | jq . > FA027805.json
+curl https://ci.nii.ac.jp/library/FA027849.json | jq . > FA027849.json
+curl https://ci.nii.ac.jp/library/FA027860.json | jq . > FA027860.json
+curl https://ci.nii.ac.jp/library/FA027893.json | jq . > FA027893.json
+curl https://ci.nii.ac.jp/library/FA027918.json | jq . > FA027918.json
+curl https://ci.nii.ac.jp/library/FA027940.json | jq . > FA027940.json
+curl https://ci.nii.ac.jp/library/FA027951.json | jq . > FA027951.json
+curl https://ci.nii.ac.jp/library/FA027962.json | jq . > FA027962.json
+curl https://ci.nii.ac.jp/library/FA028014.json | jq . > FA028014.json
+curl https://ci.nii.ac.jp/library/FA028025.json | jq . > FA028025.json
+curl https://ci.nii.ac.jp/library/FA028069.json | jq . > FA028069.json
+curl https://ci.nii.ac.jp/library/FA02807X.json | jq . > FA02807X.json
+curl https://ci.nii.ac.jp/library/FA028105.json | jq . > FA028105.json
+curl https://ci.nii.ac.jp/library/FA028116.json | jq . > FA028116.json
+curl https://ci.nii.ac.jp/library/FA012943.json | jq . > FA012943.json
 

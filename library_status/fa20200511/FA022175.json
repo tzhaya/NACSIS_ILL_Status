@@ -1,1 +1,92 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA022175.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA022175#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA022175.json"},"foaf:name":[{"@value":"同志社女子大学 京田辺図書館"},{"@value":"ドウシシャジョシダイガク キョウタナベトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"同女大田"},{"@value":"ドウジョダイタ","@language":"ja-hrkt"}],"dcterms:hasPart":["田"],"cinii:memberid":"FA022175","cinii:organizationid":"KI003478","cinii:prefcode":"26","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"同志社女子大学 京田辺図書館","v:adr":{"@type":"v:Address","v:postal-code":"610-0395","v:label":"京都府京田辺市興戸"},"v:tel":[{"@type":"v:Tel","@value":"0774-65-8481"}],"v:fax":[{"@type":"v:Fax","@value":"0774-65-8445"}],"dc:description":["閲覧担当係:ILL担当","閲覧事前連絡: 学生証・教職員証での利用不可。当館OPACを検索の上、所属の大学図書館か公共図書館からの照会が必要です。(原則としてFAXでご連絡ください)個人の方からの直接のお問い合わせには応じられません。","閲覧持参書類: 当館からの所蔵調査回答(FAX)、および学生証など身分を証明する書類を持参してください。","閲覧受付時間:9:00〜19:45(土曜日10:00〜16:45)","複写受付時間:9:00〜19:45(土曜日10:00〜16:45)","館外貸出可否:否","閲覧注記:閲覧は所蔵館でお願いします。(他キャンパスへの取り寄せは行いません)","通常開館時間:8:50〜20:00(土曜日9:50〜17:00)","休業中開館時間:8:50〜17:00","休館日:日曜日・国民の祝日・創立記念日(11/29)・キリスト降誕祭(12/25)・2月第3週・第4週土曜日・3月・8月・9月の全土曜日・夏・冬期休暇中の一定期間・入試期間","ILL-Dept:ILL Section","ILL-Org:Library, Doshisha Women's College of Liberal Arts","ILL-Address:Kodo, Kyotanabe-shi, Kyoto-fu","ILL-Zip:610-0395","ILL-Contact1:Tel:+81-774-65-8481/Fax:+81-774-65-8445/E-mail:tosho-t@dwc.doshisha.ac.jp","ILL-Contact2: Opac: https://opac.dwc.doshisha.ac.jp/ Home-page:https://www.dwc.doshisha.ac.jp/current/library","ILL-Calender:Closed:Sundays, national holidays, Saturdays during the vacation months, 2nd week and 3rd week in Aug, Nov 29, Dec 25, Dec 28-Jan 6","ILL-Accept: International: COPY: N/A","ILL-Accept: International: LOAN: N/A"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022175.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022175#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022175.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "同志社女子大学 京田辺図書館"
+        },
+        {
+          "@value": "ドウシシャジョシダイガク キョウタナベトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "同女大田"
+        },
+        {
+          "@value": "ドウジョダイタ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "田"
+      ],
+      "cinii:memberid": "FA022175",
+      "cinii:organizationid": "KI003478",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "同志社女子大学 京田辺図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "610-0395",
+        "v:label": "京都府京田辺市興戸"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0774-65-8481"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0774-65-8445"
+        }
+      ],
+      "dc:description": [
+        "閲覧担当係:ILL担当",
+        "閲覧事前連絡: 学生証・教職員証での利用不可。当館OPACを検索の上、所属の大学図書館か公共図書館からの照会が必要です。(原則としてFAXでご連絡ください)個人の方からの直接のお問い合わせには応じられません。",
+        "閲覧持参書類: 当館からの所蔵調査回答(FAX)、および学生証など身分を証明する書類を持参してください。",
+        "閲覧受付時間:9:00〜19:45(土曜日10:00〜16:45)",
+        "複写受付時間:9:00〜19:45(土曜日10:00〜16:45)",
+        "館外貸出可否:否",
+        "閲覧注記:閲覧は所蔵館でお願いします。(他キャンパスへの取り寄せは行いません)",
+        "通常開館時間:8:50〜20:00(土曜日9:50〜17:00)",
+        "休業中開館時間:8:50〜17:00",
+        "休館日:日曜日・国民の祝日・創立記念日(11/29)・キリスト降誕祭(12/25)・2月第3週・第4週土曜日・3月・8月・9月の全土曜日・夏・冬期休暇中の一定期間・入試期間",
+        "ILL-Dept:ILL Section",
+        "ILL-Org:Library, Doshisha Women's College of Liberal Arts",
+        "ILL-Address:Kodo, Kyotanabe-shi, Kyoto-fu",
+        "ILL-Zip:610-0395",
+        "ILL-Contact1:Tel:+81-774-65-8481/Fax:+81-774-65-8445/E-mail:tosho-t@dwc.doshisha.ac.jp",
+        "ILL-Contact2: Opac: https://opac.dwc.doshisha.ac.jp/ Home-page:https://www.dwc.doshisha.ac.jp/current/library",
+        "ILL-Calender:Closed:Sundays, national holidays, Saturdays during the vacation months, 2nd week and 3rd week in Aug, Nov 29, Dec 25, Dec 28-Jan 6",
+        "ILL-Accept: International: COPY: N/A",
+        "ILL-Accept: International: LOAN: N/A"
+      ]
+    }
+  ]
+}

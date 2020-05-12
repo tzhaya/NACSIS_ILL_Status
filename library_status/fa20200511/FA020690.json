@@ -1,1 +1,76 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA020690.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA020690#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA020690.json"},"foaf:name":[{"@value":"広島国際大学 図書館 呉分館"},{"@value":"ヒロシマコクサイダイガク トシヨカン クレブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"広国大呉"},{"@value":"ヒロコクダイクレ","@language":"ja-hrkt"}],"dcterms:hasPart":["呉図"],"cinii:memberid":"FA020690","cinii:organizationid":"KI010564","cinii:prefcode":"34","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"広島国際大学 図書館 呉分館","v:adr":{"@type":"v:Address","v:postal-code":"737-0112","v:label":"広島県呉市広古新開5-1-1"},"v:tel":[{"@type":"v:Tel","@value":"0823-73-8329"}],"v:fax":[{"@type":"v:Fax","@value":"0823-73-8330"}],"dc:description":["Hiroshima International University","5-1-1, hirokoshinkai, kure, Hiroshima 737-0112","URL:http://www.hirokoku-u.ac.jp/library/index.html"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020690.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020690#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020690.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島国際大学 図書館 呉分館"
+        },
+        {
+          "@value": "ヒロシマコクサイダイガク トシヨカン クレブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広国大呉"
+        },
+        {
+          "@value": "ヒロコクダイクレ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "呉図"
+      ],
+      "cinii:memberid": "FA020690",
+      "cinii:organizationid": "KI010564",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "広島国際大学 図書館 呉分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "737-0112",
+        "v:label": "広島県呉市広古新開5-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0823-73-8329"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0823-73-8330"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima International University",
+        "5-1-1, hirokoshinkai, kure, Hiroshima 737-0112",
+        "URL:http://www.hirokoku-u.ac.jp/library/index.html"
+      ]
+    }
+  ]
+}

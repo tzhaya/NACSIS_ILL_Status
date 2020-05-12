@@ -1,1 +1,87 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015817.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015817#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015817.json"},"foaf:name":[{"@value":"身延山大学 図書館"},{"@value":"ミノブサンダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"身大"},{"@value":"シンダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA015817","cinii:organizationid":"KI008926","cinii:prefcode":"19","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"身延山大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"409-2597","v:label":"山梨県南巨摩郡身延町身延3567"},"v:tel":[{"@type":"v:Tel","@value":"0556-62-9507"}],"v:fax":[{"@type":"v:Fax","@value":"0556-62-9507"}],"dc:description":["Library of Minobusan University","3567, Minobu, Minamikoma, Yamanashi-ken 409-2597","URL:http://www.min.ac.jp/ (website)","URL:http://www.min.ac.jp/akusesu.htm (map)","来館利用担当:相互協力担当","電話番号:0556-62-9507","受付時間:9:30〜18:00","注意事項:事前に開館日を確認してください","持参書類:特にありません。(入館時に来館者名簿に名前、住所、TELを記入)","複写時間:10:00〜17:30","館外貸出:原則可能(詳細は館員にお尋ね下さい)","制限事項:閉架図書の閲覧については、図書館員にたずねて下さい。","WEBPOLICY:貴重書の閲覧を希望の際は、当館所定の「貴重資料閲覧願い」に必要事項記入の上、図書館に提出下さい。","休館日:土曜日、日曜日、祝祭日及び学校指定の休日。年末年始、春季、夏季、冬季休暇中"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015817.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015817#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015817.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "身延山大学 図書館"
+        },
+        {
+          "@value": "ミノブサンダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "身大"
+        },
+        {
+          "@value": "シンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA015817",
+      "cinii:organizationid": "KI008926",
+      "cinii:prefcode": "19",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "身延山大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "409-2597",
+        "v:label": "山梨県南巨摩郡身延町身延3567"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0556-62-9507"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0556-62-9507"
+        }
+      ],
+      "dc:description": [
+        "Library of Minobusan University",
+        "3567, Minobu, Minamikoma, Yamanashi-ken 409-2597",
+        "URL:http://www.min.ac.jp/ (website)",
+        "URL:http://www.min.ac.jp/akusesu.htm (map)",
+        "来館利用担当:相互協力担当",
+        "電話番号:0556-62-9507",
+        "受付時間:9:30〜18:00",
+        "注意事項:事前に開館日を確認してください",
+        "持参書類:特にありません。(入館時に来館者名簿に名前、住所、TELを記入)",
+        "複写時間:10:00〜17:30",
+        "館外貸出:原則可能(詳細は館員にお尋ね下さい)",
+        "制限事項:閉架図書の閲覧については、図書館員にたずねて下さい。",
+        "WEBPOLICY:貴重書の閲覧を希望の際は、当館所定の「貴重資料閲覧願い」に必要事項記入の上、図書館に提出下さい。",
+        "休館日:土曜日、日曜日、祝祭日及び学校指定の休日。年末年始、春季、夏季、冬季休暇中"
+      ]
+    }
+  ]
+}

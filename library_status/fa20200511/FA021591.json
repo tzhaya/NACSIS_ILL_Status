@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA021591.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA021591#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA021591.json"},"foaf:name":[{"@value":"青森明の星短期大学 図書館"},{"@value":"アオモリアケノホシタンキダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"青森明短"},{"@value":"アオモリアケタン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA021591","cinii:organizationid":"KI012956","cinii:prefcode":"02","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"青森明の星短期大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"030‐0961","v:label":"青森市浪打2丁目6‐32"},"v:tel":[{"@type":"v:Tel","@value":"017‐741‐0123"}],"v:fax":[{"@type":"v:Fax","@value":"017‐741‐9876"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021591.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021591#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021591.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "青森明の星短期大学 図書館"
+        },
+        {
+          "@value": "アオモリアケノホシタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "青森明短"
+        },
+        {
+          "@value": "アオモリアケタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA021591",
+      "cinii:organizationid": "KI012956",
+      "cinii:prefcode": "02",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "青森明の星短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "030‐0961",
+        "v:label": "青森市浪打2丁目6‐32"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "017‐741‐0123"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "017‐741‐9876"
+        }
+      ]
+    }
+  ]
+}

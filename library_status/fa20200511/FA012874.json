@@ -1,1 +1,96 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012874.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012874#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012874.json"},"foaf:name":[{"@value":"聖学院大学 総合図書館"},{"@value":"セイガクインダイガク ソウゴウトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"聖学院大"},{"@value":"セイガクインダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA012874","cinii:organizationid":"KI006964","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"聖学院大学 総合図書館","v:adr":{"@type":"v:Address","v:postal-code":"362-8585","v:label":"埼玉県上尾市戸崎1-1"},"v:tel":[{"@type":"v:Tel","@value":"048-725-5461"}],"v:fax":[{"@type":"v:Fax","@value":"048-780-1096"}],"dc:description":["閲覧担当係 :相談係","閲覧事前連絡 :電話での事前連絡が望ましい。","閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)","閲覧受付時間 :9:00〜18:00(土曜日13:30)","館外貸出可否 :否","通常開館時間 :8:45〜21:30(土曜日17:00)","休業中開館時間:9:00〜16:00","ILL-Staff:Koji Nakayama / Hidemi Iida / Kiko Horiuchi / Azusa Kondo / Mika Nagai / Mitsuyo Inamura","ILL-Dept:Inter Library Service Section","ILL-Org:Seigakuin University Library","ILL-Address: 1-1 Tosaki Ageo-shi, Saitama-ken, JAPAN","ILL-ZIP: 362-8585","ILL-Commun1:Tel:+81-48-725-5461 / FAX:+81-48-780-1096 / E-mail:lib@seigakuin-univ.ac.jp","ILL-Commun2:OPAC:http://lib.seigakuin-univ.ac.jp/opac/ / Home-Page:http://www.seigakuin-univ.ac.jp/scr/lib.asp","ILL-Accept:Foreign(1): OCLC (NII-OCLClink):[KSY] / Foreign(2): KERIS","ILL-Bill:Foreign(1): OCLC=OCLC-IFM only / Foreign(2): KERIS=NII Fee Management Serivice only","ILL-Loan-period:Foreign(1): 30 days per item; up to 7 items per library / Foreign(2): N/A","Foreign(1): None. / Foreign(2): N/A","Foreign(1): Postage required. Delivery method: via airmail / Foreign(2): N/A","ILL-Non-Circulation:Foreign(1): Special collection, mcrfrm, mcrfch, ref,per, news, a-v. / Foreign(2): N/A","ILL-Copy-Charge:Photocopy:Black and white= 40 YEN per sheet. Color= 100 YEN per sheet. / Postage required / Delivery method:via air mail","ILL-Note:","ILL-OCLC-Symbol:KSY"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012874.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012874#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012874.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "聖学院大学 総合図書館"
+        },
+        {
+          "@value": "セイガクインダイガク ソウゴウトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "聖学院大"
+        },
+        {
+          "@value": "セイガクインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA012874",
+      "cinii:organizationid": "KI006964",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "聖学院大学 総合図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "362-8585",
+        "v:label": "埼玉県上尾市戸崎1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-725-5461"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-780-1096"
+        }
+      ],
+      "dc:description": [
+        "閲覧担当係 :相談係",
+        "閲覧事前連絡 :電話での事前連絡が望ましい。",
+        "閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "閲覧受付時間 :9:00〜18:00(土曜日13:30)",
+        "館外貸出可否 :否",
+        "通常開館時間 :8:45〜21:30(土曜日17:00)",
+        "休業中開館時間:9:00〜16:00",
+        "ILL-Staff:Koji Nakayama / Hidemi Iida / Kiko Horiuchi / Azusa Kondo / Mika Nagai / Mitsuyo Inamura",
+        "ILL-Dept:Inter Library Service Section",
+        "ILL-Org:Seigakuin University Library",
+        "ILL-Address: 1-1 Tosaki Ageo-shi, Saitama-ken, JAPAN",
+        "ILL-ZIP: 362-8585",
+        "ILL-Commun1:Tel:+81-48-725-5461 / FAX:+81-48-780-1096 / E-mail:lib@seigakuin-univ.ac.jp",
+        "ILL-Commun2:OPAC:http://lib.seigakuin-univ.ac.jp/opac/ / Home-Page:http://www.seigakuin-univ.ac.jp/scr/lib.asp",
+        "ILL-Accept:Foreign(1): OCLC (NII-OCLClink):[KSY] / Foreign(2): KERIS",
+        "ILL-Bill:Foreign(1): OCLC=OCLC-IFM only / Foreign(2): KERIS=NII Fee Management Serivice only",
+        "ILL-Loan-period:Foreign(1): 30 days per item; up to 7 items per library / Foreign(2): N/A",
+        "Foreign(1): None. / Foreign(2): N/A",
+        "Foreign(1): Postage required. Delivery method: via airmail / Foreign(2): N/A",
+        "ILL-Non-Circulation:Foreign(1): Special collection, mcrfrm, mcrfch, ref,per, news, a-v. / Foreign(2): N/A",
+        "ILL-Copy-Charge:Photocopy:Black and white= 40 YEN per sheet. Color= 100 YEN per sheet. / Postage required / Delivery method:via air mail",
+        "ILL-Note:",
+        "ILL-OCLC-Symbol:KSY"
+      ]
+    }
+  ]
+}

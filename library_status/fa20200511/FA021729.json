@@ -1,1 +1,74 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA021729.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA021729#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA021729.json"},"foaf:name":[{"@value":"長浜バイオ大学 教育・学術情報センター 図書室"},{"@value":"ナガハマバイオダイガク キョウイク・ガクジュツジョウホウセンター トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"バイオ大"},{"@value":"バイオダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA021729","cinii:organizationid":"KI013030","cinii:prefcode":"25","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"長浜バイオ大学 教育・学術情報センター 図書室","v:adr":{"@type":"v:Address","v:postal-code":"526-0829","v:label":"滋賀県長浜市田村町1266番地"},"v:tel":[{"@type":"v:Tel","@value":"0749-64-8135"}],"v:fax":[{"@type":"v:Fax","@value":"0749-64-8136"}],"dc:description":["URL:https://www.facebook.com/nbioLibrary","休館日:土曜日、日曜日、国民の祝日、夏期休暇(8/12~8/18)、年末年始(12/29～1/4)、本学創立記念日(12/19)","開館時間:9:15〜21:00(授業期間中) / 9:15〜19:00(休業期間中)","閲覧受付時間:9:15~19:00(授業期間中) / 9:15~17:00(休業期間中)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021729.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021729#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021729.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "長浜バイオ大学 教育・学術情報センター 図書室"
+        },
+        {
+          "@value": "ナガハマバイオダイガク キョウイク・ガクジュツジョウホウセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "バイオ大"
+        },
+        {
+          "@value": "バイオダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021729",
+      "cinii:organizationid": "KI013030",
+      "cinii:prefcode": "25",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "長浜バイオ大学 教育・学術情報センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "526-0829",
+        "v:label": "滋賀県長浜市田村町1266番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0749-64-8135"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0749-64-8136"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.facebook.com/nbioLibrary",
+        "休館日:土曜日、日曜日、国民の祝日、夏期休暇(8/12~8/18)、年末年始(12/29～1/4)、本学創立記念日(12/19)",
+        "開館時間:9:15〜21:00(授業期間中) / 9:15〜19:00(休業期間中)",
+        "閲覧受付時間:9:15~19:00(授業期間中) / 9:15~17:00(休業期間中)"
+      ]
+    }
+  ]
+}

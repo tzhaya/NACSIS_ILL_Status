@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007477.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007477#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007477.json"},"foaf:name":[{"@value":"名城大学 附属図書館 薬学部分館"},{"@value":"メイジヨウダイガク フゾクトシヨカン ヤクガクブブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"名城大薬"},{"@value":"メイジヨウダイヤク","@language":"ja-hrkt"}],"dcterms:hasPart":["薬"],"cinii:memberid":"FA007477","cinii:organizationid":"KI003332","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"名城大学 附属図書館 薬学部分館","v:adr":{"@type":"v:Address","v:postal-code":"468-8503","v:label":"愛知県名古屋市天白区八事山150"},"v:tel":[{"@type":"v:Tel","@value":"052-839-2626(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"052-834-8780"}],"dc:description":["Meijo University Pharmaceutical Library","150, Yagotoyama, Tempaku-ku, Nagoya, Aichi 468-8503","Web Site: http://www-yaku.meijo-u.ac.jp/center/toshokan.html","OPAC: https://opac.meijo-u.ac.jp/","Access Map: https://www.meijo-u.ac.jp/about/campus/","来館利用担当:相互利用担当","電話番号:052-832-1781(内線2125)","受付時間:9:00〜18:00(土曜日〜16:00)","注意事項:電話にて事前連絡をお願いします。車での来館はご遠慮ください。","持参書類 :所属機関の紹介状 (学生証、身分証明書も併せてお持ちください。)","複写時間:9:00〜18:00(土曜日〜16:00)","館外貸出:不可","開館カレンダー(https://opac.meijo-u.ac.jp/?page_id=16)「薬学分館」をご参照ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007477.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007477#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007477.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名城大学 附属図書館 薬学部分館"
+        },
+        {
+          "@value": "メイジヨウダイガク フゾクトシヨカン ヤクガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名城大薬"
+        },
+        {
+          "@value": "メイジヨウダイヤク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "薬"
+      ],
+      "cinii:memberid": "FA007477",
+      "cinii:organizationid": "KI003332",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名城大学 附属図書館 薬学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "468-8503",
+        "v:label": "愛知県名古屋市天白区八事山150"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-839-2626(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-834-8780"
+        }
+      ],
+      "dc:description": [
+        "Meijo University Pharmaceutical Library",
+        "150, Yagotoyama, Tempaku-ku, Nagoya, Aichi 468-8503",
+        "Web Site: http://www-yaku.meijo-u.ac.jp/center/toshokan.html",
+        "OPAC: https://opac.meijo-u.ac.jp/",
+        "Access Map: https://www.meijo-u.ac.jp/about/campus/",
+        "来館利用担当:相互利用担当",
+        "電話番号:052-832-1781(内線2125)",
+        "受付時間:9:00〜18:00(土曜日〜16:00)",
+        "注意事項:電話にて事前連絡をお願いします。車での来館はご遠慮ください。",
+        "持参書類 :所属機関の紹介状 (学生証、身分証明書も併せてお持ちください。)",
+        "複写時間:9:00〜18:00(土曜日〜16:00)",
+        "館外貸出:不可",
+        "開館カレンダー(https://opac.meijo-u.ac.jp/?page_id=16)「薬学分館」をご参照ください。"
+      ]
+    }
+  ]
+}

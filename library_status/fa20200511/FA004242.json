@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004242.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004242#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004242.json"},"foaf:name":[{"@value":"札幌学院大学 図書館"},{"@value":"サツポロガクインダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"札院大"},{"@value":"サツインダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA004242","cinii:organizationid":"KI001326","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"札幌学院大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"069-8555","v:label":"北海道江別市文京台11番地"},"v:tel":[{"@type":"v:Tel","@value":"011-386-8111"}],"v:fax":[{"@type":"v:Fax","@value":"011-388-2057"}],"dc:description":["閲覧担当係    :運用係","閲覧事前連絡  :Faxまたは電話で事前連絡のこと","利用受付時間  :9:00〜17:00 (日曜日・祝日10:00〜15:30)","複写受付時間  :9:00〜21:15 (日曜日・祝日10:00〜15:45)","館外貸出可否  :可(要利用登録。本人持参による返却が可能であること)","閲覧持参書類  :資料利用依頼書(身分を証明するものを携行のこと)","通常開館時間   :9:00〜21:30 (日曜日・祝日:10:00～16:00)","休業中開館時間 :9:00〜17:00 (日曜日・祝日:休館)","休館日           :図書館ホームページの開館カレンダーをご覧下さい。","URL:https://library.sgu.ac.jp/HP/"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004242.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004242#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004242.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "札幌学院大学 図書館"
+        },
+        {
+          "@value": "サツポロガクインダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "札院大"
+        },
+        {
+          "@value": "サツインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004242",
+      "cinii:organizationid": "KI001326",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "札幌学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "069-8555",
+        "v:label": "北海道江別市文京台11番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-386-8111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-388-2057"
+        }
+      ],
+      "dc:description": [
+        "閲覧担当係    :運用係",
+        "閲覧事前連絡  :Faxまたは電話で事前連絡のこと",
+        "利用受付時間  :9:00〜17:00 (日曜日・祝日10:00〜15:30)",
+        "複写受付時間  :9:00〜21:15 (日曜日・祝日10:00〜15:45)",
+        "館外貸出可否  :可(要利用登録。本人持参による返却が可能であること)",
+        "閲覧持参書類  :資料利用依頼書(身分を証明するものを携行のこと)",
+        "通常開館時間   :9:00〜21:30 (日曜日・祝日:10:00～16:00)",
+        "休業中開館時間 :9:00〜17:00 (日曜日・祝日:休館)",
+        "休館日           :図書館ホームページの開館カレンダーをご覧下さい。",
+        "URL:https://library.sgu.ac.jp/HP/"
+      ]
+    }
+  ]
+}

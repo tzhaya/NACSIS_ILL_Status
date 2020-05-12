@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014552.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014552#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014552.json"},"foaf:name":[{"@value":"公立大学法人 石川県立大学 図書・情報センター"},{"@value":"コウリツダイガクホウジン イシカワケンリツダイガク トショ・ジョウホウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"石川県大"},{"@value":"イシカワケンダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA014552","cinii:organizationid":"KI007752","cinii:prefcode":"17","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"公立大学法人 石川県立大学 図書・情報センター","v:adr":{"@type":"v:Address","v:postal-code":"921-8836","v:label":"石川県野々市市末松1-308"},"v:tel":[{"@type":"v:Tel","@value":"076-227-7421"}],"v:fax":[{"@type":"v:Fax","@value":"076-227-7410(代表)"}],"dc:description":["Ishikawa Prefectural University Library","1-308, Suematsu, Nonoichi, Ishikawa","ZIP:921-8836","開館時間 :平日:9:00〜19:00(長期休業中は9:00〜17:00の場合あり)・土曜:9:00〜17:00","休館日 :日曜日・国民の祝日・12月29日〜翌年1月3日・特別整理期間9月9日〜14日","15歳以上の方は利用できます。身分を証明するものをご持参ください。","館外貸出: 3冊2週間以内","研究室配置資料は利用できませんので、あらかじめお問い合わせください","◆◆◆担当者不在の場合等、都合によりILL受付業務を休止することがあります。◆◆◆","TEL:076(227)7421","URL:http://10.210.2.1/library/index.html"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014552.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014552#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014552.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公立大学法人 石川県立大学 図書・情報センター"
+        },
+        {
+          "@value": "コウリツダイガクホウジン イシカワケンリツダイガク トショ・ジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "石川県大"
+        },
+        {
+          "@value": "イシカワケンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014552",
+      "cinii:organizationid": "KI007752",
+      "cinii:prefcode": "17",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "公立大学法人 石川県立大学 図書・情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "921-8836",
+        "v:label": "石川県野々市市末松1-308"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "076-227-7421"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "076-227-7410(代表)"
+        }
+      ],
+      "dc:description": [
+        "Ishikawa Prefectural University Library",
+        "1-308, Suematsu, Nonoichi, Ishikawa",
+        "ZIP:921-8836",
+        "開館時間 :平日:9:00〜19:00(長期休業中は9:00〜17:00の場合あり)・土曜:9:00〜17:00",
+        "休館日 :日曜日・国民の祝日・12月29日〜翌年1月3日・特別整理期間9月9日〜14日",
+        "15歳以上の方は利用できます。身分を証明するものをご持参ください。",
+        "館外貸出: 3冊2週間以内",
+        "研究室配置資料は利用できませんので、あらかじめお問い合わせください",
+        "◆◆◆担当者不在の場合等、都合によりILL受付業務を休止することがあります。◆◆◆",
+        "TEL:076(227)7421",
+        "URL:http://10.210.2.1/library/index.html"
+      ]
+    }
+  ]
+}

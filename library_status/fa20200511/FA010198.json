@@ -1,1 +1,70 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA010198.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA010198#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA010198.json"},"foaf:name":[{"@value":"国立研究開発法人 森林研究・整備機構 森林総合研究所 北海道支所"},{"@value":"コクリツケンキュウカイハツホウジン シンリンケンキュウ・セイビキコウ シンリンソウゴウケンキュウショ ホッカイドウシショ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"森林総研北海"},{"@value":"シンリンソウケンホッカイ","@language":"ja-hrkt"}],"cinii:memberid":"FA010198","cinii:organizationid":"KI005462","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"C","cinii:loanservice":"C","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"国立研究開発法人 森林研究・整備機構 森林総合研究所 北海道支所","v:adr":{"@type":"v:Address","v:postal-code":"062-8516","v:label":"札幌市豊平区羊ヶ丘7"},"v:tel":[{"@type":"v:Tel","@value":"011-590-5505"}],"dc:description":["Hokkaido Research Center, Forestry and Forest Products Research Institute","Hitsujigaoka 7, Toyohira, Sapporo, Japan 062-8516","URL:http://www.ffpri-hkd.affrc.go.jp/","来館利用担当:図書室","電話番号:011-590-5505","事前に上記までお問い合わせください"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010198.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010198#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010198.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 森林研究・整備機構 森林総合研究所 北海道支所"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン シンリンケンキュウ・セイビキコウ シンリンソウゴウケンキュウショ ホッカイドウシショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "森林総研北海"
+        },
+        {
+          "@value": "シンリンソウケンホッカイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010198",
+      "cinii:organizationid": "KI005462",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 森林研究・整備機構 森林総合研究所 北海道支所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "062-8516",
+        "v:label": "札幌市豊平区羊ヶ丘7"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-590-5505"
+        }
+      ],
+      "dc:description": [
+        "Hokkaido Research Center, Forestry and Forest Products Research Institute",
+        "Hitsujigaoka 7, Toyohira, Sapporo, Japan 062-8516",
+        "URL:http://www.ffpri-hkd.affrc.go.jp/",
+        "来館利用担当:図書室",
+        "電話番号:011-590-5505",
+        "事前に上記までお問い合わせください"
+      ]
+    }
+  ]
+}

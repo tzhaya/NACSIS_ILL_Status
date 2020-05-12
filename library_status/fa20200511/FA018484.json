@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018484.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018484#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018484.json"},"foaf:name":[{"@value":"嘉悦大学 情報メディアセンター"},{"@value":"カエツダイガク ジョウホウメディアセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"嘉悦大"},{"@value":"カエツダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA018484","cinii:organizationid":"KI010790","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"嘉悦大学 情報メディアセンター","v:adr":{"@type":"v:Address","v:postal-code":"187-8578","v:label":"東京都小平市花小金井南町2-8-4"},"v:tel":[{"@type":"v:Tel","@value":"042-466-1763"}],"v:fax":[{"@type":"v:Fax","@value":"042-466-3965"}],"dc:description":["Kaetsu University","2-8-4,Hanakoganeiminami-cho,Kodaira-shi,Tokyo 187-8578","URL:http://imc.kaetsu.ac.jp/(website)","URL:http://www.kaetsu.ac.jp/access/","来館利用担当:","対象者:高校生(16歳)以上の方はどなたでも利用できます","電話番号:042-466-1763","E-mail:library@kaetsu.ac.jp","受付時間:8:50〜20:30 (土曜日 10:30〜17:00)","持参書類:利用者カードを作成するため,現住所が確認できる身分証明書が必要","館外貸出:可","複写受付時間:8:50〜20:30 (土曜日 10:30〜17:00)","注意事項:資料が研究室で所蔵していることがあるので,OPACでの検索,または電話・FAX・電子メールでの問い合わせが望ましい","注意事項:当館WWWホームページに学外者向け利用案内があります","休館日:日曜日,国民の祝日,本学の定めた休日,年末年始"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018484.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018484#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018484.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "嘉悦大学 情報メディアセンター"
+        },
+        {
+          "@value": "カエツダイガク ジョウホウメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "嘉悦大"
+        },
+        {
+          "@value": "カエツダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018484",
+      "cinii:organizationid": "KI010790",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "嘉悦大学 情報メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "187-8578",
+        "v:label": "東京都小平市花小金井南町2-8-4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-466-1763"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-466-3965"
+        }
+      ],
+      "dc:description": [
+        "Kaetsu University",
+        "2-8-4,Hanakoganeiminami-cho,Kodaira-shi,Tokyo 187-8578",
+        "URL:http://imc.kaetsu.ac.jp/(website)",
+        "URL:http://www.kaetsu.ac.jp/access/",
+        "来館利用担当:",
+        "対象者:高校生(16歳)以上の方はどなたでも利用できます",
+        "電話番号:042-466-1763",
+        "E-mail:library@kaetsu.ac.jp",
+        "受付時間:8:50〜20:30 (土曜日 10:30〜17:00)",
+        "持参書類:利用者カードを作成するため,現住所が確認できる身分証明書が必要",
+        "館外貸出:可",
+        "複写受付時間:8:50〜20:30 (土曜日 10:30〜17:00)",
+        "注意事項:資料が研究室で所蔵していることがあるので,OPACでの検索,または電話・FAX・電子メールでの問い合わせが望ましい",
+        "注意事項:当館WWWホームページに学外者向け利用案内があります",
+        "休館日:日曜日,国民の祝日,本学の定めた休日,年末年始"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,99 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007342.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007342#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007342.json"},"foaf:name":[{"@value":"中部大学 附属三浦記念図書館"},{"@value":"チュウブダイガク フゾクミウラキネントショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"中部大"},{"@value":"チュウブダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","電子ジャーナル"],"cinii:memberid":"FA007342","cinii:organizationid":"KI00322X","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"中部大学 附属三浦記念図書館","v:adr":{"@type":"v:Address","v:postal-code":"487-8501","v:label":"愛知県春日井市松本町1200"},"v:tel":[{"@type":"v:Tel","@value":"0568-51-4437"}],"v:fax":[{"@type":"v:Fax","@value":"0568-52-1510"}],"dc:description":["CHUBU UNIVERSITY MIURA MEMORIAL LIBRARY","URL:http://www.bliss.chubu.ac.jp/","来館利用担当:閲覧係","電話番号:0568-51-4437       FAX:0568-52-1510","通常開館時間: 9:00〜21:00(土曜日〜16:50)","休業中開館時間: 9:00〜16:50(土曜日〜12:00)","休館日: 日曜・祝日・年末年始・本学の記念日(11月19日,12月8日)・夏季休業中の一定期間・休日振替による一斉休暇、学園創立記念日","注意事項:地域開放対象者以外のかたの来館利用は事前にご連絡をお願い致します。","ILL-Staff: OSHIMA / KONDO","ILL-Dept: Reference Service Section","ILL-Org: CHUBU UNIVERSITY MIURA MEMORIAL LIBRARY","ILL-Address: 1200 MATSUMOTO-CHO, KASUGAI, AICHI, JAPAN","ILL-ZIP: 487-8501","ILL-Commun1: Tel:+81-*********** / FAX:+81-*********** / E-mail:ref@bliss.chubu.ac.jp","ILL-Commun2: Home-page:http://www.bliss.chubu.ac.jp/","ILL-Accept: OCLC(NII-OCLC ISO ILL Link only):KC3","ILL-Sched: Closed: Dec27-Jan5","ILL-Bill: Foreign: OCLC-IFM only","ILL-Loan-Period: Loan: N/A","ILL-Loan-Renew: Loan: N/A","ILL-Loan-Charge: Loan: N/A","ILL-Loan-Circulation: Loan: N/A","ILL-Copy-Charge: Photocopy: 40 YEN per sheet. / Postage required. / Delivery method:via airmail only.","ILL-NOTE: CHARGES FOR EST: N/A","ILL-OCLC-Symbol:KC3"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007342.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007342#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007342.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "中部大学 附属三浦記念図書館"
+        },
+        {
+          "@value": "チュウブダイガク フゾクミウラキネントショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中部大"
+        },
+        {
+          "@value": "チュウブダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "電子ジャーナル"
+      ],
+      "cinii:memberid": "FA007342",
+      "cinii:organizationid": "KI00322X",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "中部大学 附属三浦記念図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "487-8501",
+        "v:label": "愛知県春日井市松本町1200"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0568-51-4437"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0568-52-1510"
+        }
+      ],
+      "dc:description": [
+        "CHUBU UNIVERSITY MIURA MEMORIAL LIBRARY",
+        "URL:http://www.bliss.chubu.ac.jp/",
+        "来館利用担当:閲覧係",
+        "電話番号:0568-51-4437       FAX:0568-52-1510",
+        "通常開館時間: 9:00〜21:00(土曜日〜16:50)",
+        "休業中開館時間: 9:00〜16:50(土曜日〜12:00)",
+        "休館日: 日曜・祝日・年末年始・本学の記念日(11月19日,12月8日)・夏季休業中の一定期間・休日振替による一斉休暇、学園創立記念日",
+        "注意事項:地域開放対象者以外のかたの来館利用は事前にご連絡をお願い致します。",
+        "ILL-Staff: OSHIMA / KONDO",
+        "ILL-Dept: Reference Service Section",
+        "ILL-Org: CHUBU UNIVERSITY MIURA MEMORIAL LIBRARY",
+        "ILL-Address: 1200 MATSUMOTO-CHO, KASUGAI, AICHI, JAPAN",
+        "ILL-ZIP: 487-8501",
+        "ILL-Commun1: Tel:+81-*********** / FAX:+81-*********** / E-mail:ref@bliss.chubu.ac.jp",
+        "ILL-Commun2: Home-page:http://www.bliss.chubu.ac.jp/",
+        "ILL-Accept: OCLC(NII-OCLC ISO ILL Link only):KC3",
+        "ILL-Sched: Closed: Dec27-Jan5",
+        "ILL-Bill: Foreign: OCLC-IFM only",
+        "ILL-Loan-Period: Loan: N/A",
+        "ILL-Loan-Renew: Loan: N/A",
+        "ILL-Loan-Charge: Loan: N/A",
+        "ILL-Loan-Circulation: Loan: N/A",
+        "ILL-Copy-Charge: Photocopy: 40 YEN per sheet. / Postage required. / Delivery method:via airmail only.",
+        "ILL-NOTE: CHARGES FOR EST: N/A",
+        "ILL-OCLC-Symbol:KC3"
+      ]
+    }
+  ]
+}

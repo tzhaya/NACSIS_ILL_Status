@@ -1,1 +1,87 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA027372.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA027372#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA027372.json"},"foaf:name":[{"@value":"名城大学 附属図書館 ナゴヤドーム前キャンパス図書館"},{"@value":"メイジョウダイガク フゾクトショカン ナゴヤドームマエキャンパストショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"名城大ドーム"},{"@value":"メイジョウダイドーム","@language":"ja-hrkt"}],"dcterms:hasPart":["図","ドーム"],"cinii:memberid":"FA027372","cinii:organizationid":"KI003332","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"名城大学 附属図書館 ナゴヤドーム前キャンパス図書館","v:adr":{"@type":"v:Address","v:postal-code":"461-8534","v:label":"愛知県名古屋市東区矢田南4-102-9"},"v:tel":[{"@type":"v:Tel","@value":"052-768-7002 (直通)"}],"v:fax":[{"@type":"v:Fax","@value":"052-723-0550"}],"dc:description":["Meijo University Nagoya Dome-mae Campus Library","4-102-9 Yadaminami, Higashi, Nagoya 461-8534 JAPAN","Web Site: https://www.meijo-u.ac.jp/library/","OPAC: https://opac.meijo-u.ac.jp/","Access Map: https://www.meijo-u.ac.jp/about/campus/","来館利用担当:閲覧参考係","電話番号:052-768-7002","受付時間:9:00〜18:00(土曜日〜16:00)","注意事項:電話にて事前連絡をお願いします。車での来館はご遠慮ください。","持参書類 :所属機関の紹介状 (学生証、身分証明書も併せてお持ちください。)","複写時間:9:00〜18:00(土曜日〜16:00)","館外貸出:不可","開館カレンダー(https://opac.meijo-u.ac.jp/?page_id=16)「ドーム前C」をご参照ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027372.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027372#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027372.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名城大学 附属図書館 ナゴヤドーム前キャンパス図書館"
+        },
+        {
+          "@value": "メイジョウダイガク フゾクトショカン ナゴヤドームマエキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名城大ドーム"
+        },
+        {
+          "@value": "メイジョウダイドーム",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "ドーム"
+      ],
+      "cinii:memberid": "FA027372",
+      "cinii:organizationid": "KI003332",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名城大学 附属図書館 ナゴヤドーム前キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "461-8534",
+        "v:label": "愛知県名古屋市東区矢田南4-102-9"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-768-7002 (直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-723-0550"
+        }
+      ],
+      "dc:description": [
+        "Meijo University Nagoya Dome-mae Campus Library",
+        "4-102-9 Yadaminami, Higashi, Nagoya 461-8534 JAPAN",
+        "Web Site: https://www.meijo-u.ac.jp/library/",
+        "OPAC: https://opac.meijo-u.ac.jp/",
+        "Access Map: https://www.meijo-u.ac.jp/about/campus/",
+        "来館利用担当:閲覧参考係",
+        "電話番号:052-768-7002",
+        "受付時間:9:00〜18:00(土曜日〜16:00)",
+        "注意事項:電話にて事前連絡をお願いします。車での来館はご遠慮ください。",
+        "持参書類 :所属機関の紹介状 (学生証、身分証明書も併せてお持ちください。)",
+        "複写時間:9:00〜18:00(土曜日〜16:00)",
+        "館外貸出:不可",
+        "開館カレンダー(https://opac.meijo-u.ac.jp/?page_id=16)「ドーム前C」をご参照ください。"
+      ]
+    }
+  ]
+}

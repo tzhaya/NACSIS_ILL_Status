@@ -1,1 +1,77 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007091.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007091#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007091.json"},"foaf:name":[{"@value":"長野大学 附属図書館"},{"@value":"ナガノダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"長野大"},{"@value":"ナガノダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA007091","cinii:organizationid":"KI003037","cinii:prefcode":"20","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"長野大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"386-1298","v:label":"長野県上田市下之郷658-1"},"v:tel":[{"@type":"v:Tel","@value":"0268-39-0005"}],"v:fax":[{"@type":"v:Fax","@value":"0268-39-0006"}],"dc:description":["Nagano University Library","658-1, Shimono-go, Ueda-shi, Nagano 386-1298","URL:http://www.nagano.ac.jp","来館利用担当:閲覧係","電話番号:0268-39-0005","受付時間:8:30〜18:00(土曜〜13:00)","注意事項:資料の所在等、事前に確認して下さい。開館日及び閉館時間が変更になることがありますので"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007091.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007091#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007091.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "長野大学 附属図書館"
+        },
+        {
+          "@value": "ナガノダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "長野大"
+        },
+        {
+          "@value": "ナガノダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007091",
+      "cinii:organizationid": "KI003037",
+      "cinii:prefcode": "20",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "長野大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "386-1298",
+        "v:label": "長野県上田市下之郷658-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0268-39-0005"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0268-39-0006"
+        }
+      ],
+      "dc:description": [
+        "Nagano University Library",
+        "658-1, Shimono-go, Ueda-shi, Nagano 386-1298",
+        "URL:http://www.nagano.ac.jp",
+        "来館利用担当:閲覧係",
+        "電話番号:0268-39-0005",
+        "受付時間:8:30〜18:00(土曜〜13:00)",
+        "注意事項:資料の所在等、事前に確認して下さい。開館日及び閉館時間が変更になることがありますので"
+      ]
+    }
+  ]
+}

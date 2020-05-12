@@ -1,1 +1,94 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016434.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016434#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016434.json"},"foaf:name":[{"@value":"名古屋大学 国際開発 図書室"},{"@value":"ナゴヤダイガク コクサイカイハツ トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"名大国際"},{"@value":"メイダイコクサイ","@language":"ja-hrkt"}],"dcterms:hasPart":["国際開発","国開サテラcb","国開書庫","国開サテラph"],"cinii:memberid":"FA016434","cinii:organizationid":"KI000491","cinii:prefcode":"23","cinii:mextid":"004313","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"名古屋大学 国際開発 図書室","v:adr":{"@type":"v:Address","v:postal-code":"464-8601","v:label":"名古屋市千種区不老町"},"v:tel":[{"@type":"v:Tel","@value":"052-789-5064/5065"}],"v:fax":[{"@type":"v:Fax","@value":"052-789-5067"}],"dc:description":["Graduate School of International Development, Nagoya University","C4-1(700), Furo-cho, Chikusa-ku, Nagoya 464-8601","URL:https://www.gsid.nagoya-u.ac.jp/service/library/index.html (website)","URL:https://www.gsid.nagoya-u.ac.jp/ja/general/access/ (map)","電話番号:052-789-5064、5065","受付時間:9:30〜17:00","注意事項:事前連絡は不要ですが、利用可否を知りたい場合は電話等で確認して下さい。","持参書類:所属機関の紹介状または身分証明書","複写時間:9:30〜17:00","館外貸出:不可。所属機関(公共図書館も含む)を通して相互貸借で一部資料貸出可。","休室日:土曜日・日曜日・国民の祝日・年末年始(12/27〜1/4)など","休室日:臨時の休室はWEBページで案内します。","Closed:Dec27-Jan4, Saturday, Sunday, National Holidays.","ILL-Dept:Interlibrary Loan Services","ILL-Org:Nagoya University Library","ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp","ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016434.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016434#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016434.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 国際開発 図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク コクサイカイハツ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大国際"
+        },
+        {
+          "@value": "メイダイコクサイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "国際開発",
+        "国開サテラcb",
+        "国開書庫",
+        "国開サテラph"
+      ],
+      "cinii:memberid": "FA016434",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004313",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "名古屋大学 国際開発 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8601",
+        "v:label": "名古屋市千種区不老町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-789-5064/5065"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-789-5067"
+        }
+      ],
+      "dc:description": [
+        "Graduate School of International Development, Nagoya University",
+        "C4-1(700), Furo-cho, Chikusa-ku, Nagoya 464-8601",
+        "URL:https://www.gsid.nagoya-u.ac.jp/service/library/index.html (website)",
+        "URL:https://www.gsid.nagoya-u.ac.jp/ja/general/access/ (map)",
+        "電話番号:052-789-5064、5065",
+        "受付時間:9:30〜17:00",
+        "注意事項:事前連絡は不要ですが、利用可否を知りたい場合は電話等で確認して下さい。",
+        "持参書類:所属機関の紹介状または身分証明書",
+        "複写時間:9:30〜17:00",
+        "館外貸出:不可。所属機関(公共図書館も含む)を通して相互貸借で一部資料貸出可。",
+        "休室日:土曜日・日曜日・国民の祝日・年末年始(12/27〜1/4)など",
+        "休室日:臨時の休室はWEBページで案内します。",
+        "Closed:Dec27-Jan4, Saturday, Sunday, National Holidays.",
+        "ILL-Dept:Interlibrary Loan Services",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp",
+        "ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"
+      ]
+    }
+  ]
+}

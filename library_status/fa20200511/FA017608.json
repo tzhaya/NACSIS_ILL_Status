@@ -1,1 +1,63 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA017608.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA017608#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA017608.json"},"foaf:name":[{"@value":"鈴鹿工業高等専門学校 図書館"},{"@value":"スズカコウギヨウコウトウセンモンガツコウ トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"鈴鹿高専"},{"@value":"スズカコウセン","@language":"ja-hrkt"}],"cinii:memberid":"FA017608","cinii:organizationid":"KI010225","cinii:prefcode":"24","cinii:mextid":"602600","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"鈴鹿工業高等専門学校 図書館","v:adr":{"@type":"v:Address","v:postal-code":"510-0294","v:label":"三重県鈴鹿市白子町"},"v:tel":[{"@type":"v:Tel","@value":"059-368-1733"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017608.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017608#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017608.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鈴鹿工業高等専門学校 図書館"
+        },
+        {
+          "@value": "スズカコウギヨウコウトウセンモンガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鈴鹿高専"
+        },
+        {
+          "@value": "スズカコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017608",
+      "cinii:organizationid": "KI010225",
+      "cinii:prefcode": "24",
+      "cinii:mextid": "602600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "鈴鹿工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "510-0294",
+        "v:label": "三重県鈴鹿市白子町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "059-368-1733"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019476.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019476#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019476.json"},"foaf:name":[{"@value":"上田女子短期大学 附属図書館"},{"@value":"ウエダジヨシタンキダイガク フゾクトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"上田女短図"},{"@value":"ウエダジヨタント","@language":"ja-hrkt"}],"cinii:memberid":"FA019476","cinii:organizationid":"KI011658","cinii:prefcode":"20","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"上田女子短期大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"386-1214","v:label":"長野県上田市下之郷乙620"},"v:tel":[{"@type":"v:Tel","@value":"0268-38-6019"}],"v:fax":[{"@type":"v:Fax","@value":"0268-38-6019"}],"dc:description":["Ueda women's junior college library","620-Shimonogo, Ueda city, Nagano, 386-1214","URL:http://www.uedawjc.ac.jp/index.html/","来館利用担当:閲覧係","電話番号:0268-38-6019","受付時間:9:00-16:50","注意事項:学外者は館外貸出禁止、事前確認をして下さい","持参書類:身分証明書","複写時間:9:00-16:50","館外貸出:不可","休館日:土曜、日曜、国民の祝日、年末年始、その他","図書館の耐震補強工事のため、工事終了まで受付を停止いたします"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019476.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019476#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019476.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "上田女子短期大学 附属図書館"
+        },
+        {
+          "@value": "ウエダジヨシタンキダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "上田女短図"
+        },
+        {
+          "@value": "ウエダジヨタント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019476",
+      "cinii:organizationid": "KI011658",
+      "cinii:prefcode": "20",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "上田女子短期大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "386-1214",
+        "v:label": "長野県上田市下之郷乙620"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0268-38-6019"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0268-38-6019"
+        }
+      ],
+      "dc:description": [
+        "Ueda women's junior college library",
+        "620-Shimonogo, Ueda city, Nagano, 386-1214",
+        "URL:http://www.uedawjc.ac.jp/index.html/",
+        "来館利用担当:閲覧係",
+        "電話番号:0268-38-6019",
+        "受付時間:9:00-16:50",
+        "注意事項:学外者は館外貸出禁止、事前確認をして下さい",
+        "持参書類:身分証明書",
+        "複写時間:9:00-16:50",
+        "館外貸出:不可",
+        "休館日:土曜、日曜、国民の祝日、年末年始、その他",
+        "図書館の耐震補強工事のため、工事終了まで受付を停止いたします"
+      ]
+    }
+  ]
+}

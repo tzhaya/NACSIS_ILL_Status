@@ -1,1 +1,99 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA001153.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA001153#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA001153.json"},"foaf:name":[{"@value":"北海道大学 大学院獣医学研究院図書室"},{"@value":"ホッカイドウダイガク ダイガクインジュウイガクケンキュウイントショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"北大獣"},{"@value":"ホクダイジュウ","@language":"ja-hrkt"}],"dcterms:hasPart":["図書","解剖","生理","病理","薬理","内科","外科","繁殖","寄生","放射","公衛","微生","感染","生化","実動","分子","毒性","生態","研究室","病院"],"cinii:memberid":"FA001153","cinii:organizationid":"KI000017","cinii:prefcode":"01","cinii:mextid":"000108","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"北海道大学 大学院獣医学研究院図書室","v:adr":{"@type":"v:Address","v:postal-code":"060-0818","v:label":"札幌市北区北18条西9丁目"},"v:tel":[{"@type":"v:Tel","@value":"011-706-5179"}],"v:fax":[{"@type":"v:Fax","@value":"011-706-5179"}],"dc:description":["The Graduate School of Veterinary Medicine, Hokkaido University","Kita 18 Nishi 9, kitaku, Sapporo 060-0181","来館利用担当:図書担当","電話番号:011-706-5179","利用時間:9:00〜17:00(月〜金曜日)","注意事項:研究室備付資料は利用できない場合があります"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001153.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001153#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001153.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 大学院獣医学研究院図書室"
+        },
+        {
+          "@value": "ホッカイドウダイガク ダイガクインジュウイガクケンキュウイントショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大獣"
+        },
+        {
+          "@value": "ホクダイジュウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "解剖",
+        "生理",
+        "病理",
+        "薬理",
+        "内科",
+        "外科",
+        "繁殖",
+        "寄生",
+        "放射",
+        "公衛",
+        "微生",
+        "感染",
+        "生化",
+        "実動",
+        "分子",
+        "毒性",
+        "生態",
+        "研究室",
+        "病院"
+      ],
+      "cinii:memberid": "FA001153",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000108",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道大学 大学院獣医学研究院図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-0818",
+        "v:label": "札幌市北区北18条西9丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-706-5179"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-706-5179"
+        }
+      ],
+      "dc:description": [
+        "The Graduate School of Veterinary Medicine, Hokkaido University",
+        "Kita 18 Nishi 9, kitaku, Sapporo 060-0181",
+        "来館利用担当:図書担当",
+        "電話番号:011-706-5179",
+        "利用時間:9:00〜17:00(月〜金曜日)",
+        "注意事項:研究室備付資料は利用できない場合があります"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012455.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012455#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012455.json"},"foaf:name":[{"@value":"龍谷大学 瀬田図書館"},{"@value":"リュウコクダイガク セタトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"龍大瀬"},{"@value":"リュウダイセ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA012455","cinii:organizationid":"KI003536","cinii:prefcode":"25","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"龍谷大学 瀬田図書館","v:adr":{"@type":"v:Address","v:postal-code":"520-2194","v:label":"滋賀県大津市瀬田大江町横谷1-5"},"v:tel":[{"@type":"v:Tel","@value":"077-543-7751"}],"v:fax":[{"@type":"v:Fax","@value":"077-543-7769"}],"dc:description":["Ryukoku University Seta Library","1-5 Yokotani,Ooe-cho,Seta,Otsu,Shiga 520-2194","URL:https://library.ryukoku.ac.jp (website)","URL:http://www.ryukoku.ac.jp/about/campus_traffic/traffic/t_seta.html(map)","来館利用担当:閲覧係","電話番号:077-543-7751","受付時間:9:00〜17:00(土曜日 10:00〜16:00)","注意事項:事前に所属大学の図書館か公共図書館からの所蔵調査が必要です。個人からの直接のお問い合わせは受付できません。","持参書類:所蔵調査回答、身分証明書","複写時間:9:00〜17:00(土曜日10:00〜16:00)","館外貸出不可","休館日:ホームページ「開館スケジュール」参照"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012455.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012455#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012455.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "龍谷大学 瀬田図書館"
+        },
+        {
+          "@value": "リュウコクダイガク セタトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "龍大瀬"
+        },
+        {
+          "@value": "リュウダイセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA012455",
+      "cinii:organizationid": "KI003536",
+      "cinii:prefcode": "25",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "龍谷大学 瀬田図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "520-2194",
+        "v:label": "滋賀県大津市瀬田大江町横谷1-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "077-543-7751"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "077-543-7769"
+        }
+      ],
+      "dc:description": [
+        "Ryukoku University Seta Library",
+        "1-5 Yokotani,Ooe-cho,Seta,Otsu,Shiga 520-2194",
+        "URL:https://library.ryukoku.ac.jp (website)",
+        "URL:http://www.ryukoku.ac.jp/about/campus_traffic/traffic/t_seta.html(map)",
+        "来館利用担当:閲覧係",
+        "電話番号:077-543-7751",
+        "受付時間:9:00〜17:00(土曜日 10:00〜16:00)",
+        "注意事項:事前に所属大学の図書館か公共図書館からの所蔵調査が必要です。個人からの直接のお問い合わせは受付できません。",
+        "持参書類:所蔵調査回答、身分証明書",
+        "複写時間:9:00〜17:00(土曜日10:00〜16:00)",
+        "館外貸出不可",
+        "休館日:ホームページ「開館スケジュール」参照"
+      ]
+    }
+  ]
+}

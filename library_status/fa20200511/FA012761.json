@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012761.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012761#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012761.json"},"foaf:name":[{"@value":"大阪府立中央図書館"},{"@value":"オオサカフリツチュウオウトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"阪府中央"},{"@value":"ハンフチュウオウ","@language":"ja-hrkt"}],"dcterms:hasPart":["住友","松下","大原"],"cinii:memberid":"FA012761","cinii:organizationid":"KI007071","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"大阪府立中央図書館","v:adr":{"@type":"v:Address","v:postal-code":"577-0011","v:label":"大阪府東大阪市荒本北1丁目2番1号"},"v:tel":[{"@type":"v:Tel","@value":"06-6745-0170"}],"v:fax":[{"@type":"v:Fax","@value":"06-6745-9232"}],"dc:description":["The Osaka Prefectural Central Library","1-2-1, Aramoto-Kita, Higashi-Osaka city, Osaka 577-0011","来館利用担当:調査相談課","電話番号:06-6745-0170(代表)","受付時間:9:00〜19:00(土曜日・日曜日、祝・休日 〜17:00)","注意事項:資料の所在等、事前確認をしてください。","貴重図書の利用については、事前の承認が必要です。","複写時間:9:00〜18:30(土曜日・日曜日、祝・休日 〜16:30)","館外貸出:当館規則による","休館日:月曜日(その日が祝・休日のときはその翌日を振替休館)、毎月第2木曜日(図書館が定める日は開館)、年末年始","URL:http://www.library.pref.osaka.jp/"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012761.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012761#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012761.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪府立中央図書館"
+        },
+        {
+          "@value": "オオサカフリツチュウオウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪府中央"
+        },
+        {
+          "@value": "ハンフチュウオウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "住友",
+        "松下",
+        "大原"
+      ],
+      "cinii:memberid": "FA012761",
+      "cinii:organizationid": "KI007071",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪府立中央図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "577-0011",
+        "v:label": "大阪府東大阪市荒本北1丁目2番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6745-0170"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6745-9232"
+        }
+      ],
+      "dc:description": [
+        "The Osaka Prefectural Central Library",
+        "1-2-1, Aramoto-Kita, Higashi-Osaka city, Osaka 577-0011",
+        "来館利用担当:調査相談課",
+        "電話番号:06-6745-0170(代表)",
+        "受付時間:9:00〜19:00(土曜日・日曜日、祝・休日 〜17:00)",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "貴重図書の利用については、事前の承認が必要です。",
+        "複写時間:9:00〜18:30(土曜日・日曜日、祝・休日 〜16:30)",
+        "館外貸出:当館規則による",
+        "休館日:月曜日(その日が祝・休日のときはその翌日を振替休館)、毎月第2木曜日(図書館が定める日は開館)、年末年始",
+        "URL:http://www.library.pref.osaka.jp/"
+      ]
+    }
+  ]
+}

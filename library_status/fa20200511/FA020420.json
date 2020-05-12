@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA020420.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA020420#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA020420.json"},"foaf:name":[{"@value":"田園調布学園大学 図書館"},{"@value":"デンエンチヨウフガクエンダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"田調大"},{"@value":"デンチヨウダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA020420","cinii:organizationid":"KI012322","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"田園調布学園大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"2158542","v:label":"神奈川県川崎市麻生区東百合丘3-4-1"},"v:tel":[{"@type":"v:Tel","@value":"044-966-3443"}],"v:fax":[{"@type":"v:Fax","@value":"044-966-3512"}],"dc:description":["DEN-EN CHOFU UNIVERSITY LIBRARY","3-4-1 HIGASHIYURIGAOKA ASAO-KU, KAWASAKI-SHI KANAGAWA-KEN 215-8542 JAPAN","複写受付可否 : 条件付可(本学教員著作物のみ)","貸借受付可否 : 条件付可(本学教員著作物のみ)","申込方法 : FAX 郵便","貸出期間 : 30日間","複写料金 : 白黒1枚 35円/カラー1枚 100円","閲覧対象者 : 中学生以上 身分証明書要","開館時間 : 8:45〜18:30(休業期間中は9:00〜17:00)","休館日 : 日曜日 祝日 年末年始","車での来館はご遠慮下さい"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020420.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020420#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020420.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "田園調布学園大学 図書館"
+        },
+        {
+          "@value": "デンエンチヨウフガクエンダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "田調大"
+        },
+        {
+          "@value": "デンチヨウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020420",
+      "cinii:organizationid": "KI012322",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "田園調布学園大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "2158542",
+        "v:label": "神奈川県川崎市麻生区東百合丘3-4-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "044-966-3443"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "044-966-3512"
+        }
+      ],
+      "dc:description": [
+        "DEN-EN CHOFU UNIVERSITY LIBRARY",
+        "3-4-1 HIGASHIYURIGAOKA ASAO-KU, KAWASAKI-SHI KANAGAWA-KEN 215-8542 JAPAN",
+        "複写受付可否 : 条件付可(本学教員著作物のみ)",
+        "貸借受付可否 : 条件付可(本学教員著作物のみ)",
+        "申込方法 : FAX 郵便",
+        "貸出期間 : 30日間",
+        "複写料金 : 白黒1枚 35円/カラー1枚 100円",
+        "閲覧対象者 : 中学生以上 身分証明書要",
+        "開館時間 : 8:45〜18:30(休業期間中は9:00〜17:00)",
+        "休館日 : 日曜日 祝日 年末年始",
+        "車での来館はご遠慮下さい"
+      ]
+    }
+  ]
+}

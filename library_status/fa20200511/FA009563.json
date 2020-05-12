@@ -1,1 +1,93 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009563.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009563#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009563.json"},"foaf:name":[{"@value":"国立科学博物館"},{"@value":"コクリツカガクハクブツカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"科博"},{"@value":"カハク","@language":"ja-hrkt"}],"dcterms:hasPart":["書庫","植図","筑園","自然","昭和","上教","上テ","上観","上探"],"cinii:memberid":"FA009563","cinii:organizationid":"KI004936","cinii:prefcode":"08","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"国立科学博物館","v:adr":{"@type":"v:Address","v:postal-code":"305-0005","v:label":"茨城県つくば市天久保4-1-1"},"v:tel":[{"@type":"v:Tel","@value":"029-853-8124"}],"v:fax":[{"@type":"v:Fax","@value":"029-853-8133"}],"dc:description":["LIBRARY NATIONAL MUSEUM OF NATURE AND SCIENCE","4-1-1 Amakubo, Tsukuba-shi  Ibaraki, 305-0005 Japan","URL:http://www.kahaku.go.jp./","来館利用担当:図書室 (図書室は総合研究棟1階です。ロビーの電話(内線8124)で呼び出してください)","電話番号:029-853-8124","閲覧時間:9:00～16:30(12:00～13:00は昼休みのため閉室)","注意事項:「自然」は遠隔地のため、「植図」、「筑園」、「昭和」は別棟のため、直接来館利用者は事前連絡してください。また、複写量によっては当日渡し出来ない事もあります。 「書庫」でも、研究室長期貸出の場合があるので、直接来館利用には、事前連絡してください。","持参書類:特別なし","複写受付時間 : 9:30～11:30,13:30～16:30","館外貸出:不可","制限事項:劣化図書、貴重本などは複写不可","休館日:土曜日・日曜日・祝祭日・年末年始"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009563.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009563#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009563.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立科学博物館"
+        },
+        {
+          "@value": "コクリツカガクハクブツカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "科博"
+        },
+        {
+          "@value": "カハク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "書庫",
+        "植図",
+        "筑園",
+        "自然",
+        "昭和",
+        "上教",
+        "上テ",
+        "上観",
+        "上探"
+      ],
+      "cinii:memberid": "FA009563",
+      "cinii:organizationid": "KI004936",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立科学博物館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-0005",
+        "v:label": "茨城県つくば市天久保4-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-853-8124"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-853-8133"
+        }
+      ],
+      "dc:description": [
+        "LIBRARY NATIONAL MUSEUM OF NATURE AND SCIENCE",
+        "4-1-1 Amakubo, Tsukuba-shi  Ibaraki, 305-0005 Japan",
+        "URL:http://www.kahaku.go.jp./",
+        "来館利用担当:図書室 (図書室は総合研究棟1階です。ロビーの電話(内線8124)で呼び出してください)",
+        "電話番号:029-853-8124",
+        "閲覧時間:9:00～16:30(12:00～13:00は昼休みのため閉室)",
+        "注意事項:「自然」は遠隔地のため、「植図」、「筑園」、「昭和」は別棟のため、直接来館利用者は事前連絡してください。また、複写量によっては当日渡し出来ない事もあります。 「書庫」でも、研究室長期貸出の場合があるので、直接来館利用には、事前連絡してください。",
+        "持参書類:特別なし",
+        "複写受付時間 : 9:30～11:30,13:30～16:30",
+        "館外貸出:不可",
+        "制限事項:劣化図書、貴重本などは複写不可",
+        "休館日:土曜日・日曜日・祝祭日・年末年始"
+      ]
+    }
+  ]
+}

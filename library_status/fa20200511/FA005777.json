@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA005777.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA005777#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA005777.json"},"foaf:name":[{"@value":"帝京大学 医学総合図書館"},{"@value":"テイキョウダイガク イガクソウゴウトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"帝京大医"},{"@value":"テイキョウダイイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","研"],"cinii:memberid":"FA005777","cinii:organizationid":"KI002318","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"帝京大学 医学総合図書館","v:adr":{"@type":"v:Address","v:postal-code":"173-8605","v:label":"東京都板橋区加賀2-11-1"},"v:tel":[{"@type":"v:Tel","@value":"03-3964-3295(DI)"}],"v:fax":[{"@type":"v:Fax","@value":"03-5375-0921"}],"dc:description":["Teikyo University, Library of Medical Sciences","2-11-1, Kaga, Itabashi-ku, Tokyo 173-8605","アクセスmap:http://www.med.teikyo-u.ac.jp/kyoutsu/z_map.htm (map)","来館利用担当:情報サービス係","電話番号:03-3964-3295","来館受付時間:9:00〜16:30 (土曜日9:00〜12:00)","注意事項:教育・研究機関の在籍者、医療関係従事者のみ利用可能(事前に連絡してください)","持参書類:所属機関発行の紹介状・利用依頼書 (身分を証明するものを携行のこと)","来館複写受付時間:9:00〜16:30 (土曜日9:00〜12:00)","館外貸出:不可","休館日:日曜日、国民の祝日、年末年始、創立記念日(6/29)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005777.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005777#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005777.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "帝京大学 医学総合図書館"
+        },
+        {
+          "@value": "テイキョウダイガク イガクソウゴウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "帝京大医"
+        },
+        {
+          "@value": "テイキョウダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA005777",
+      "cinii:organizationid": "KI002318",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "帝京大学 医学総合図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "173-8605",
+        "v:label": "東京都板橋区加賀2-11-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3964-3295(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5375-0921"
+        }
+      ],
+      "dc:description": [
+        "Teikyo University, Library of Medical Sciences",
+        "2-11-1, Kaga, Itabashi-ku, Tokyo 173-8605",
+        "アクセスmap:http://www.med.teikyo-u.ac.jp/kyoutsu/z_map.htm (map)",
+        "来館利用担当:情報サービス係",
+        "電話番号:03-3964-3295",
+        "来館受付時間:9:00〜16:30 (土曜日9:00〜12:00)",
+        "注意事項:教育・研究機関の在籍者、医療関係従事者のみ利用可能(事前に連絡してください)",
+        "持参書類:所属機関発行の紹介状・利用依頼書 (身分を証明するものを携行のこと)",
+        "来館複写受付時間:9:00〜16:30 (土曜日9:00〜12:00)",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、年末年始、創立記念日(6/29)"
+      ]
+    }
+  ]
+}

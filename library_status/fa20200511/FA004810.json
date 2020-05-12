@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004810.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004810#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004810.json"},"foaf:name":[{"@value":"日本工業大学LCセンター"},{"@value":"ニッポンコウギョウダイガク エルシーセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日工大"},{"@value":"ニッコウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["工","専門職院"],"cinii:memberid":"FA004810","cinii:organizationid":"KI00179X","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"日本工業大学LCセンター","v:adr":{"@type":"v:Address","v:postal-code":"345-8501","v:label":"埼玉県南埼玉郡宮代町学園台4-1"},"v:tel":[{"@type":"v:Tel","@value":"0480-33-7511(直)"}],"dc:description":["閲覧担当係 :閲覧係","閲覧対象者 :教職員・大学院生・学生(閲覧・複写)","閲覧事前連絡 :FAXにて利用希望日時、資料の所在等の事前確認をして下さい。","閲覧持参書類 :私工大・SALA加盟館の方は、学生証をご持参下さい。","閲覧持参書類 :上記以外の方は、閲覧紹介状及び身分証明書をご持参下さい。","閲覧受付時間 :9:00〜17:00(土曜日〜17:00)","複写受付時間 :9:00〜17:00(土曜日〜17:00)","館外貸出可否 :否(ただし卒業生・私工大加盟学生は可)","制限事項 :所蔵館が「専門院」・配置場所が「研究室」の資料は利用不可。","開館日・開館時間 :事前に必ずホームページもしくは電話で確認して下さい。","休館日:日曜日、祝祭日、夏季事務一斉休暇、年末年始、入学式、学位記授与式、創立記念日(6月29日)","NIPPON INSTITUTE OF TECHNOLOGY LC CENTER","4-1 Gakuendai, Miyashiro-machi, Minamisaitama-gun,Saitama Pref. 345-8501 JAPAN","TEL:0480(33)7511/FAX:0480(33)7530","URL:http://lib.nit.ac.jp/"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004810.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004810#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004810.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本工業大学LCセンター"
+        },
+        {
+          "@value": "ニッポンコウギョウダイガク エルシーセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日工大"
+        },
+        {
+          "@value": "ニッコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "工",
+        "専門職院"
+      ],
+      "cinii:memberid": "FA004810",
+      "cinii:organizationid": "KI00179X",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本工業大学LCセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "345-8501",
+        "v:label": "埼玉県南埼玉郡宮代町学園台4-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0480-33-7511(直)"
+        }
+      ],
+      "dc:description": [
+        "閲覧担当係 :閲覧係",
+        "閲覧対象者 :教職員・大学院生・学生(閲覧・複写)",
+        "閲覧事前連絡 :FAXにて利用希望日時、資料の所在等の事前確認をして下さい。",
+        "閲覧持参書類 :私工大・SALA加盟館の方は、学生証をご持参下さい。",
+        "閲覧持参書類 :上記以外の方は、閲覧紹介状及び身分証明書をご持参下さい。",
+        "閲覧受付時間 :9:00〜17:00(土曜日〜17:00)",
+        "複写受付時間 :9:00〜17:00(土曜日〜17:00)",
+        "館外貸出可否 :否(ただし卒業生・私工大加盟学生は可)",
+        "制限事項 :所蔵館が「専門院」・配置場所が「研究室」の資料は利用不可。",
+        "開館日・開館時間 :事前に必ずホームページもしくは電話で確認して下さい。",
+        "休館日:日曜日、祝祭日、夏季事務一斉休暇、年末年始、入学式、学位記授与式、創立記念日(6月29日)",
+        "NIPPON INSTITUTE OF TECHNOLOGY LC CENTER",
+        "4-1 Gakuendai, Miyashiro-machi, Minamisaitama-gun,Saitama Pref. 345-8501 JAPAN",
+        "TEL:0480(33)7511/FAX:0480(33)7530",
+        "URL:http://lib.nit.ac.jp/"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,76 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008855.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008855#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008855.json"},"foaf:name":[{"@value":"西南学院大学 図書館"},{"@value":"セイナンガクインダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"西南院"},{"@value":"セイナンイン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA008855","cinii:organizationid":"KI004357","cinii:prefcode":"40","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"西南学院大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"814-8511","v:label":"福岡県福岡市早良区西新6-2-92"},"v:tel":[{"@type":"v:Tel","@value":"(092)823-3403"}],"v:fax":[{"@type":"v:Fax","@value":"(092)823-3480"}],"dc:description":["ILL-Org:Seinan Gakuin University Library","ILL-Address:6-2-92 Nishijin, Sawara-ku, Fukuoka 814-8511 JAPAN","ILL-Commun1:FAX:+81-92-823-3480 / E-mail:lib-ill@seinan-gu.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008855.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008855#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008855.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "西南学院大学 図書館"
+        },
+        {
+          "@value": "セイナンガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "西南院"
+        },
+        {
+          "@value": "セイナンイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008855",
+      "cinii:organizationid": "KI004357",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "西南学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "814-8511",
+        "v:label": "福岡県福岡市早良区西新6-2-92"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "(092)823-3403"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "(092)823-3480"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Seinan Gakuin University Library",
+        "ILL-Address:6-2-92 Nishijin, Sawara-ku, Fukuoka 814-8511 JAPAN",
+        "ILL-Commun1:FAX:+81-92-823-3480 / E-mail:lib-ill@seinan-gu.ac.jp"
+      ]
+    }
+  ]
+}

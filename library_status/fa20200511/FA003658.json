@@ -1,1 +1,94 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003658.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003658#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003658.json"},"foaf:name":[{"@value":"鹿児島大学 附属図書館 桜ヶ丘分館"},{"@value":"カゴシマダイガク フゾクトショカン サクラガオカブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"鹿大桜"},{"@value":"カダイサクラ","@language":"ja-hrkt"}],"dcterms:hasPart":["桜丘分館","医学","保健","医病","歯学","歯病"],"cinii:memberid":"FA003658","cinii:organizationid":"KI000935","cinii:prefcode":"46","cinii:mextid":"007701","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"鹿児島大学 附属図書館 桜ヶ丘分館","v:adr":{"@type":"v:Address","v:postal-code":"890-8532","v:label":"鹿児島市桜ケ丘8-35-1"},"v:tel":[{"@type":"v:Tel","@value":"099-275-5205"}],"v:fax":[{"@type":"v:Fax","@value":"099-275-5204"}],"dc:description":["Sakuragaoka Library,Kagoshima University","8-35-1,Sakuragaoka,kagoshima 890-8532","URL:https://www.lib.kagoshima-u.ac.jp","来館利用担当:情報サービス係","電話番号:099-275-5205","受付時間:平日 8:30-21:30 土・日 10:00-18:00","注意事項:資料の所在等事前確認をしてください。","複写時間:平日 8:30-21:30 土:日 10:00-18:00","館外貸出:否","制限事項:学外者の方は図書館所蔵の資料のみ利用可","休館日:ホームページの開館スケジュールで確認してください。","ILL-Org:Sakuragaoka Library,Kagoshima University","ILL-Address:8-35-1,Sakuragaoka,Kagoshima,Japan","ILL-ZIP:890-8532","ILL-Commun1:Tel:+81-099-275-5205 /FAX:+81-099-275-5204 / E-mail:sakura@lib.kagoshima-u.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003658.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003658#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003658.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鹿児島大学 附属図書館 桜ヶ丘分館"
+        },
+        {
+          "@value": "カゴシマダイガク フゾクトショカン サクラガオカブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鹿大桜"
+        },
+        {
+          "@value": "カダイサクラ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "桜丘分館",
+        "医学",
+        "保健",
+        "医病",
+        "歯学",
+        "歯病"
+      ],
+      "cinii:memberid": "FA003658",
+      "cinii:organizationid": "KI000935",
+      "cinii:prefcode": "46",
+      "cinii:mextid": "007701",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "鹿児島大学 附属図書館 桜ヶ丘分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "890-8532",
+        "v:label": "鹿児島市桜ケ丘8-35-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "099-275-5205"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "099-275-5204"
+        }
+      ],
+      "dc:description": [
+        "Sakuragaoka Library,Kagoshima University",
+        "8-35-1,Sakuragaoka,kagoshima 890-8532",
+        "URL:https://www.lib.kagoshima-u.ac.jp",
+        "来館利用担当:情報サービス係",
+        "電話番号:099-275-5205",
+        "受付時間:平日 8:30-21:30 土・日 10:00-18:00",
+        "注意事項:資料の所在等事前確認をしてください。",
+        "複写時間:平日 8:30-21:30 土:日 10:00-18:00",
+        "館外貸出:否",
+        "制限事項:学外者の方は図書館所蔵の資料のみ利用可",
+        "休館日:ホームページの開館スケジュールで確認してください。",
+        "ILL-Org:Sakuragaoka Library,Kagoshima University",
+        "ILL-Address:8-35-1,Sakuragaoka,Kagoshima,Japan",
+        "ILL-ZIP:890-8532",
+        "ILL-Commun1:Tel:+81-099-275-5205 /FAX:+81-099-275-5204 / E-mail:sakura@lib.kagoshima-u.ac.jp"
+      ]
+    }
+  ]
+}

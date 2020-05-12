@@ -1,1 +1,74 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014756.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014756#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014756.json"},"foaf:name":[{"@value":"高知工業高等専門学校 図書館"},{"@value":"コウチコウギョウコウトウセンモンガッコウ トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"高知高専"},{"@value":"コウチコウセン","@language":"ja-hrkt"}],"cinii:memberid":"FA014756","cinii:organizationid":"KI007887","cinii:prefcode":"39","cinii:mextid":"604400","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"高知工業高等専門学校 図書館","v:adr":{"@type":"v:Address","v:postal-code":"783-8508","v:label":"南国市物部乙200-1"},"v:tel":[{"@type":"v:Tel","@value":"088-864-5607(5608)"}],"v:fax":[{"@type":"v:Fax","@value":"088-864-5609"}],"dc:description":["National Institute of Technology, Kochi College","200-1 Monobe Nankoku City Kochi Prefecture 783-8508 Japan","受付時間平日8:30-17:00"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014756.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014756#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014756.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高知工業高等専門学校 図書館"
+        },
+        {
+          "@value": "コウチコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高知高専"
+        },
+        {
+          "@value": "コウチコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014756",
+      "cinii:organizationid": "KI007887",
+      "cinii:prefcode": "39",
+      "cinii:mextid": "604400",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "高知工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "783-8508",
+        "v:label": "南国市物部乙200-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-864-5607(5608)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-864-5609"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Technology, Kochi College",
+        "200-1 Monobe Nankoku City Kochi Prefecture 783-8508 Japan",
+        "受付時間平日8:30-17:00"
+      ]
+    }
+  ]
+}

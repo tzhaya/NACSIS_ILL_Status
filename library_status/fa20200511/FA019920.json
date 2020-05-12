@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019920.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019920#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019920.json"},"foaf:name":[{"@value":"ミュンヘン大学 日本学科"},{"@value":"ミュンヘンダイガク ニホンガッカ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"MUNICH/"},{"@value":"MUNICH","@language":"ja-hrkt"}],"dcterms:hasPart":["図1","図2"],"cinii:memberid":"FA019920","cinii:organizationid":"KI011975","cinii:prefcode":"255","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"ミュンヘン大学 日本学科","v:adr":{"@type":"v:Address","v:label":"Japan-Zentrum der LMU Oettingenstr. 67 80538 Muenchen Germany"},"v:tel":[{"@type":"v:Tel","@value":"+49 89 2180 9820"}],"v:fax":[{"@type":"v:Fax","@value":"+49 89 2180 9827"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019920.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019920#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019920.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "ミュンヘン大学 日本学科"
+        },
+        {
+          "@value": "ミュンヘンダイガク ニホンガッカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "MUNICH/"
+        },
+        {
+          "@value": "MUNICH",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図1",
+        "図2"
+      ],
+      "cinii:memberid": "FA019920",
+      "cinii:organizationid": "KI011975",
+      "cinii:prefcode": "255",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "ミュンヘン大学 日本学科",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:label": "Japan-Zentrum der LMU Oettingenstr. 67 80538 Muenchen Germany"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "+49 89 2180 9820"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "+49 89 2180 9827"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,108 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015872.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015872#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015872.json"},"foaf:name":[{"@value":"東洋英和女学院大学大学院 図書室"},{"@value":"トウヨウエイワジョガクインダイガクダイガクイン トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東洋英女大院"},{"@value":"トウヨウエイジョダイイン","@language":"ja-hrkt"}],"cinii:memberid":"FA015872","cinii:organizationid":"KI007581","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東洋英和女学院大学大学院 図書室","v:adr":{"@type":"v:Address","v:postal-code":"106-8507","v:label":"東京都港区六本木5-14-40"},"v:tel":[{"@type":"v:Tel","@value":"03-3583-3267"}],"v:fax":[{"@type":"v:Fax","@value":"03-3583-5617"}],"dc:description":["複写受付・担当係: 利用者サービス係","複写受付可否: 可","複写の受付方法:NACSIS-ILL、FAX、郵便。","複写方法: 電子複写","複写料金: モノクロ1枚40円、カラー1枚80円(2013年4月2日より)","電子ジャーナルの複写可(契約上ILL提供が認められているものに限る)","複写料金の決済方法:後納。領収書の発行はいたしません。","複写料金の支払い方法:NACSISI-ILL料金相殺サービス、郵便振替。申込の際、ILL相殺サービス\"加盟\"又は\"非加盟\"をお知らせください。","貸借受付可否: 可(参考図書、貴重書、雑誌、視聴覚資料、新刊(発行後6カ月以内のもの)は貸出不可)","貸借条件: 貸出期間: 14日 貸出期間延長: 14日まで 貸出冊数: 一館につき3冊以内","貸借方法: 冊子小包(簡易書留)、メール便","貸借受付方法: NACSIS-ILL、FAX、郵便","貸借受付・担当係: 利用者サービス係","貸借の支払方法: NACSISI-ILL料金相殺サービス、 切手。申込の際、ILL相殺サービス\"加盟\"又は\"非加盟\"をお知らせください。","貸借注記:資料の状態により貸出をお断りする場合があります。","閲覧受付・担当係: 利用者サービス係","閲覧対象者: 教職員 大学院生 学生","来館事前連絡: FAX","持参書類: \"資料利用依頼書\"又は\"紹介状\"(利用希望資料を明記してください)、 身分を証明するもの。","館外貸出: 不可","複写方法:コイン式複写機。両替はいたしません。","来館閲覧受付時間: 開室時間内","開室日・開室時間: 月-金 14:00-21:45(土曜日9:00-19:30) 休暇期間等は変更します。詳細はホームページでご確認ください。","休室日: 日曜日、祝祭日、年末年始、創立記念日(11月6日)、学院本学の行事の日、夏期・冬期・春期休暇中の一定期間、入学試験日","ILL-Staff:Hiroo Yokota","ILL-Dept:Department of user service","ILL-Org:Library of Graduate School, Toyo Eiwa University","ILL-Address:5-14-40 Roppongi, Minato-ku, Tokyo, Japan","ILL-Zip:106-8507","ILL-Commun1:Tel:+81-3-3583-3267/FAX:+81-3-3583-5617/E-mail:lib-rpg@toyoeiwa.ac.jp","ILL-Commun2:Home-page:http://www.toyoeiwa.ac.jp/daigaku/shisetsu/library/index.html","ILL-Accept:Foreign:OCLC(NII-OCLC Link):TOYOU/NACSIS-ILL/FAX","ILL-Bill:Foreign:OCLC-IFM only","ILL-Copy-Charge:Foreign:Photocopy:35YEN per sheet.Postage required.Delivery method:via airmail","ILL-Copy-Charge:Foreign:Colorphotocopy:80YEN per sheet. from November 1st 2007","ILL-Loan:Foreign:N/A","ILL-OCLC-Symbol:TOYOU","新型コロナウィルスの感染拡大の影響のため、5/6まで(暫定)の期間、閉室し相互協力業務も休止させていただきます。ご了承ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015872.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015872#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015872.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東洋英和女学院大学大学院 図書室"
+        },
+        {
+          "@value": "トウヨウエイワジョガクインダイガクダイガクイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東洋英女大院"
+        },
+        {
+          "@value": "トウヨウエイジョダイイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015872",
+      "cinii:organizationid": "KI007581",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東洋英和女学院大学大学院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "106-8507",
+        "v:label": "東京都港区六本木5-14-40"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3583-3267"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3583-5617"
+        }
+      ],
+      "dc:description": [
+        "複写受付・担当係: 利用者サービス係",
+        "複写受付可否: 可",
+        "複写の受付方法:NACSIS-ILL、FAX、郵便。",
+        "複写方法: 電子複写",
+        "複写料金: モノクロ1枚40円、カラー1枚80円(2013年4月2日より)",
+        "電子ジャーナルの複写可(契約上ILL提供が認められているものに限る)",
+        "複写料金の決済方法:後納。領収書の発行はいたしません。",
+        "複写料金の支払い方法:NACSISI-ILL料金相殺サービス、郵便振替。申込の際、ILL相殺サービス\"加盟\"又は\"非加盟\"をお知らせください。",
+        "貸借受付可否: 可(参考図書、貴重書、雑誌、視聴覚資料、新刊(発行後6カ月以内のもの)は貸出不可)",
+        "貸借条件: 貸出期間: 14日 貸出期間延長: 14日まで 貸出冊数: 一館につき3冊以内",
+        "貸借方法: 冊子小包(簡易書留)、メール便",
+        "貸借受付方法: NACSIS-ILL、FAX、郵便",
+        "貸借受付・担当係: 利用者サービス係",
+        "貸借の支払方法: NACSISI-ILL料金相殺サービス、 切手。申込の際、ILL相殺サービス\"加盟\"又は\"非加盟\"をお知らせください。",
+        "貸借注記:資料の状態により貸出をお断りする場合があります。",
+        "閲覧受付・担当係: 利用者サービス係",
+        "閲覧対象者: 教職員 大学院生 学生",
+        "来館事前連絡: FAX",
+        "持参書類: \"資料利用依頼書\"又は\"紹介状\"(利用希望資料を明記してください)、 身分を証明するもの。",
+        "館外貸出: 不可",
+        "複写方法:コイン式複写機。両替はいたしません。",
+        "来館閲覧受付時間: 開室時間内",
+        "開室日・開室時間: 月-金 14:00-21:45(土曜日9:00-19:30) 休暇期間等は変更します。詳細はホームページでご確認ください。",
+        "休室日: 日曜日、祝祭日、年末年始、創立記念日(11月6日)、学院本学の行事の日、夏期・冬期・春期休暇中の一定期間、入学試験日",
+        "ILL-Staff:Hiroo Yokota",
+        "ILL-Dept:Department of user service",
+        "ILL-Org:Library of Graduate School, Toyo Eiwa University",
+        "ILL-Address:5-14-40 Roppongi, Minato-ku, Tokyo, Japan",
+        "ILL-Zip:106-8507",
+        "ILL-Commun1:Tel:+81-3-3583-3267/FAX:+81-3-3583-5617/E-mail:lib-rpg@toyoeiwa.ac.jp",
+        "ILL-Commun2:Home-page:http://www.toyoeiwa.ac.jp/daigaku/shisetsu/library/index.html",
+        "ILL-Accept:Foreign:OCLC(NII-OCLC Link):TOYOU/NACSIS-ILL/FAX",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Copy-Charge:Foreign:Photocopy:35YEN per sheet.Postage required.Delivery method:via airmail",
+        "ILL-Copy-Charge:Foreign:Colorphotocopy:80YEN per sheet. from November 1st 2007",
+        "ILL-Loan:Foreign:N/A",
+        "ILL-OCLC-Symbol:TOYOU",
+        "新型コロナウィルスの感染拡大の影響のため、5/6まで(暫定)の期間、閉室し相互協力業務も休止させていただきます。ご了承ください。"
+      ]
+    }
+  ]
+}

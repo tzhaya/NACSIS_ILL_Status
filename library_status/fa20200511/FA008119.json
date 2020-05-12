@@ -1,1 +1,90 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008119.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008119#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008119.json"},"foaf:name":[{"@value":"大阪国際大学 守口図書館"},{"@value":"オオサカコクサイダイガク モリグチトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"大国大守"},{"@value":"ダイコクダイモリ","@language":"ja-hrkt"}],"cinii:memberid":"FA008119","cinii:organizationid":"KI003773","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"大阪国際大学 守口図書館","v:adr":{"@type":"v:Address","v:postal-code":"570-8555","v:label":"大阪府守口市藤田町6-21-57"},"v:tel":[{"@type":"v:Tel","@value":"06-6907-4323"}],"v:fax":[{"@type":"v:Fax","@value":"06-6902-2744"}],"dc:description":["ILL-Org:Osaka International University Moriguchi Library","ILL-Address:6-21-57, Toda-cho, Moriguchi, Osaka, Japan","ILL-Commun2:URL:http://www.lib.oiu.ac.jp/media/m-lib/index.html","来館利用担当:閲覧係","受付時間:9:00-17:50","注意事項:開館日・時間の確認のみ、事前連絡が望ましい。","注意事項:他大学の教職員・学生及び高等教育機関に所属する研究者は、所属機関の図書館を通してお問い合わせください。","持参書類:一般学外者の場合、住所の証明できる書類(免許証・保険証等)が必要。","館外貸出:可(直接来館可能な18歳以上の人に限る)","休館日:土曜日、日曜日、祝日、年末年始、創立記念日(1月18日)","ILL-Dept:ILL Section","ILL-Zip:570-8555","ILL-Commun1:FAX:+81-6-6902-2744","ILL-Accept:OCLC:OIK","ILL-Sched:Closed:Saturdays,Sundays,National Holodays,certain periods in summer,winter and spring holidays.","ILL-BILL:Foreign:OCLC-IFM only","ILL-Loan-Period:None","ILL-Copy-Charge:Postage required,PHOTOCOPY:35 YEN per sheet","ILL-Note:Will supply only photocopies","ILL-OCLC-Symbol:OIK"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008119.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008119#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008119.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪国際大学 守口図書館"
+        },
+        {
+          "@value": "オオサカコクサイダイガク モリグチトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大国大守"
+        },
+        {
+          "@value": "ダイコクダイモリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008119",
+      "cinii:organizationid": "KI003773",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪国際大学 守口図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "570-8555",
+        "v:label": "大阪府守口市藤田町6-21-57"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6907-4323"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6902-2744"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Osaka International University Moriguchi Library",
+        "ILL-Address:6-21-57, Toda-cho, Moriguchi, Osaka, Japan",
+        "ILL-Commun2:URL:http://www.lib.oiu.ac.jp/media/m-lib/index.html",
+        "来館利用担当:閲覧係",
+        "受付時間:9:00-17:50",
+        "注意事項:開館日・時間の確認のみ、事前連絡が望ましい。",
+        "注意事項:他大学の教職員・学生及び高等教育機関に所属する研究者は、所属機関の図書館を通してお問い合わせください。",
+        "持参書類:一般学外者の場合、住所の証明できる書類(免許証・保険証等)が必要。",
+        "館外貸出:可(直接来館可能な18歳以上の人に限る)",
+        "休館日:土曜日、日曜日、祝日、年末年始、創立記念日(1月18日)",
+        "ILL-Dept:ILL Section",
+        "ILL-Zip:570-8555",
+        "ILL-Commun1:FAX:+81-6-6902-2744",
+        "ILL-Accept:OCLC:OIK",
+        "ILL-Sched:Closed:Saturdays,Sundays,National Holodays,certain periods in summer,winter and spring holidays.",
+        "ILL-BILL:Foreign:OCLC-IFM only",
+        "ILL-Loan-Period:None",
+        "ILL-Copy-Charge:Postage required,PHOTOCOPY:35 YEN per sheet",
+        "ILL-Note:Will supply only photocopies",
+        "ILL-OCLC-Symbol:OIK"
+      ]
+    }
+  ]
+}

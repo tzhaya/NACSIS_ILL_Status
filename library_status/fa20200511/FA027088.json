@@ -1,1 +1,77 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA027088.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA027088#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA027088.json"},"foaf:name":[{"@value":"静岡県立大学 附属図書館 小鹿図書館"},{"@value":"シズオカケンリツダイガク フゾクトショカン オシカトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"静県大小鹿"},{"@value":"シズケンダイオシカ","@language":"ja-hrkt"}],"cinii:memberid":"FA027088","cinii:organizationid":"KI006920","cinii:prefcode":"22","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"静岡県立大学 附属図書館 小鹿図書館","v:adr":{"@type":"v:Address","v:postal-code":"422-8021","v:label":"静岡市駿河区小鹿2-2-1"},"v:tel":[{"@type":"v:Tel","@value":"054-202-2617"}],"v:fax":[{"@type":"v:Fax","@value":"054-202-2620"}],"dc:description":["University of Shizuoka Oshika Library","2-2-1 Oshika, Suruga-ku, Shizuoka-shi, Shizuoka-ken","URL:http://www.u-shizuoka-ken.ac.jp/library/","通常開館時間:平日9:00～20:45,土曜日9:00～17:00","休館日:日曜日,祝祭日,年末年始,その他臨時に定める休館日","図書館ホームページの開館日カレンダーをご確認ください。","持参書類:身分証明書または紹介状"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027088.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027088#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027088.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "静岡県立大学 附属図書館 小鹿図書館"
+        },
+        {
+          "@value": "シズオカケンリツダイガク フゾクトショカン オシカトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "静県大小鹿"
+        },
+        {
+          "@value": "シズケンダイオシカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027088",
+      "cinii:organizationid": "KI006920",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "静岡県立大学 附属図書館 小鹿図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "422-8021",
+        "v:label": "静岡市駿河区小鹿2-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "054-202-2617"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "054-202-2620"
+        }
+      ],
+      "dc:description": [
+        "University of Shizuoka Oshika Library",
+        "2-2-1 Oshika, Suruga-ku, Shizuoka-shi, Shizuoka-ken",
+        "URL:http://www.u-shizuoka-ken.ac.jp/library/",
+        "通常開館時間:平日9:00～20:45,土曜日9:00～17:00",
+        "休館日:日曜日,祝祭日,年末年始,その他臨時に定める休館日",
+        "図書館ホームページの開館日カレンダーをご確認ください。",
+        "持参書類:身分証明書または紹介状"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA006929.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA006929#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA006929.json"},"foaf:name":[{"@value":"昭和音楽大学 附属図書館"},{"@value":"シヨウワオンガクダイガク フゾクトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"昭音大"},{"@value":"シヨウオンダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA006929","cinii:organizationid":"KI002883","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"昭和音楽大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"215-8558","v:label":"神奈川県川崎市麻生区上麻生1-11-1"},"v:tel":[{"@type":"v:Tel","@value":"044-953-9854"}],"v:fax":[{"@type":"v:Fax","@value":"044-953-9801"}],"dc:description":["Library of Showa University of Music","1-11-1, Kamiasao, Asao-ku, Kawasaki-shi, Kanagawa 215-8558","URL:https://lib.tosei-showa-music.ac.jp/","来館利用担当:閲覧係","電話番号:044-953-9854","受付時間:8:30〜17:00(土曜日10:00〜16:00、授業のない平日9:00〜17:00)","注意事項:資料の所在等、事前確認をしてください。","持参書類:資料利用依頼書 (身分を証明するものを携行のこと)","複写時間:8:30〜17:00(土曜日10:00〜16:00、授業のない平日9:00〜17:00)","館外貸出:不可","制限事項:資料によっては閲覧できない場合があります。","休館日:日曜日・国民の祝日・春・夏・冬期休業中・学園祭・入試期間"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006929.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006929#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006929.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "昭和音楽大学 附属図書館"
+        },
+        {
+          "@value": "シヨウワオンガクダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "昭音大"
+        },
+        {
+          "@value": "シヨウオンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006929",
+      "cinii:organizationid": "KI002883",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "昭和音楽大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "215-8558",
+        "v:label": "神奈川県川崎市麻生区上麻生1-11-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "044-953-9854"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "044-953-9801"
+        }
+      ],
+      "dc:description": [
+        "Library of Showa University of Music",
+        "1-11-1, Kamiasao, Asao-ku, Kawasaki-shi, Kanagawa 215-8558",
+        "URL:https://lib.tosei-showa-music.ac.jp/",
+        "来館利用担当:閲覧係",
+        "電話番号:044-953-9854",
+        "受付時間:8:30〜17:00(土曜日10:00〜16:00、授業のない平日9:00〜17:00)",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:資料利用依頼書 (身分を証明するものを携行のこと)",
+        "複写時間:8:30〜17:00(土曜日10:00〜16:00、授業のない平日9:00〜17:00)",
+        "館外貸出:不可",
+        "制限事項:資料によっては閲覧できない場合があります。",
+        "休館日:日曜日・国民の祝日・春・夏・冬期休業中・学園祭・入試期間"
+      ]
+    }
+  ]
+}

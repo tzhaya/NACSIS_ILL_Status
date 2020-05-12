@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004005.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004005#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004005.json"},"foaf:name":[{"@value":"大阪府立大学 ヒューマンサイエンス系図書室"},{"@value":"オオサカフリツダイガク ヒューマンサイエンスケイトショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"阪府大人"},{"@value":"ハンフダイジン","@language":"ja-hrkt"}],"cinii:memberid":"FA004005","cinii:organizationid":"KI001155","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"大阪府立大学 ヒューマンサイエンス系図書室","v:adr":{"@type":"v:Address","v:postal-code":"599-8531","v:label":"大阪府堺市中区学園町1-1"},"v:tel":[{"@type":"v:Tel","@value":"072-254-9772"}],"v:fax":[{"@type":"v:Fax","@value":"072-254-9772"}],"dc:description":["URL:http://www.osakafu-u.ac.jp/library/libraries/hs.html"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004005.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004005#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004005.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪府立大学 ヒューマンサイエンス系図書室"
+        },
+        {
+          "@value": "オオサカフリツダイガク ヒューマンサイエンスケイトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪府大人"
+        },
+        {
+          "@value": "ハンフダイジン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004005",
+      "cinii:organizationid": "KI001155",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪府立大学 ヒューマンサイエンス系図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "599-8531",
+        "v:label": "大阪府堺市中区学園町1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-254-9772"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-254-9772"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.osakafu-u.ac.jp/library/libraries/hs.html"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,91 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009541.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009541#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009541.json"},"foaf:name":[{"@value":"国立教育政策研究所 教育図書館"},{"@value":"コクリツキョウイクセイサクケンキュウジョ キョウイクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"国教研"},{"@value":"コクキョウケン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA009541","cinii:organizationid":"KI004925","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"国立教育政策研究所 教育図書館","v:adr":{"@type":"v:Address","v:postal-code":"100-8951","v:label":"東京都千代田区霞が関3-2-2"},"v:tel":[{"@type":"v:Tel","@value":"03-6733-6536"}],"v:fax":[{"@type":"v:Fax","@value":"03-6733-6957"}],"dc:description":["National Institute for Educational Policy Research","3-2-2 Kasumigaseki, Tiyoda-ku, Tokyo 153-8681","URL:http://www.nier.go.jp/library/index.html (website)","URL:http://nieropac.nier.go.jp (opac)","来館利用担当:閲覧担当","電話番号:03-6733-6536","受付時間:9:30〜17:00","事前連絡:文科省庁舎内にあるため事前に来館予約が必要となります。","注意事項:当館は閉架式です。所外の方は入庫できませんので御了承ください。","持参書類:予約確認書(予約時に発行します)","複写時間:9:30〜17:00","館外貸出:不可","制限事項:貴重資料を閲覧する場合は紹介状が必要です。","休館日:土曜日・日曜日、国民の祝日、月末、年末年始、臨時休館日(特別整理期間)","ILL-Org: Library of Education, National Institute for Educational Policy Research","ILL-Address: 3-2-2 Kasumigaseki, Chiyoda-ku, Tokyo, Japan","ILL-ZIP: 100-8951","ILL-Commun1: Tel:+81-(0)3-6733-6536 /FAX:+81-(0)3-6733-6957 /E-mail:library@nier.go.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009541.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009541#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009541.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立教育政策研究所 教育図書館"
+        },
+        {
+          "@value": "コクリツキョウイクセイサクケンキュウジョ キョウイクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国教研"
+        },
+        {
+          "@value": "コクキョウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA009541",
+      "cinii:organizationid": "KI004925",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立教育政策研究所 教育図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "100-8951",
+        "v:label": "東京都千代田区霞が関3-2-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-6733-6536"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-6733-6957"
+        }
+      ],
+      "dc:description": [
+        "National Institute for Educational Policy Research",
+        "3-2-2 Kasumigaseki, Tiyoda-ku, Tokyo 153-8681",
+        "URL:http://www.nier.go.jp/library/index.html (website)",
+        "URL:http://nieropac.nier.go.jp (opac)",
+        "来館利用担当:閲覧担当",
+        "電話番号:03-6733-6536",
+        "受付時間:9:30〜17:00",
+        "事前連絡:文科省庁舎内にあるため事前に来館予約が必要となります。",
+        "注意事項:当館は閉架式です。所外の方は入庫できませんので御了承ください。",
+        "持参書類:予約確認書(予約時に発行します)",
+        "複写時間:9:30〜17:00",
+        "館外貸出:不可",
+        "制限事項:貴重資料を閲覧する場合は紹介状が必要です。",
+        "休館日:土曜日・日曜日、国民の祝日、月末、年末年始、臨時休館日(特別整理期間)",
+        "ILL-Org: Library of Education, National Institute for Educational Policy Research",
+        "ILL-Address: 3-2-2 Kasumigaseki, Chiyoda-ku, Tokyo, Japan",
+        "ILL-ZIP: 100-8951",
+        "ILL-Commun1: Tel:+81-(0)3-6733-6536 /FAX:+81-(0)3-6733-6957 /E-mail:library@nier.go.jp"
+      ]
+    }
+  ]
+}

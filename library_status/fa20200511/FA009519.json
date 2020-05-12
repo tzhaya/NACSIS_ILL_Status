@@ -1,1 +1,79 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009519.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009519#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009519.json"},"foaf:name":[{"@value":"独立行政法人 国立文化財機構 東京文化財研究所"},{"@value":"ドクリツギョウセイホウジン コクリツブンカザイキコウ トウキョウブンカザイケンキュウショ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東文研"},{"@value":"トウブンケン","@language":"ja-hrkt"}],"cinii:memberid":"FA009519","cinii:organizationid":"KI004903","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"独立行政法人 国立文化財機構 東京文化財研究所","v:adr":{"@type":"v:Address","v:postal-code":"110-8713","v:label":"東京都台東区上野公園13-43"},"v:tel":[{"@type":"v:Tel","@value":"03-3823-2264"}],"dc:description":["Tokyo National Research Institute for Cultural Properties","Library","13-43 Ueno Park, Taito-ku, Tokyo, 110-8713 Japan","URL:https://www.tobunken.go.jp/~joho/japanese/library/library.html","URL:https://opac.tobunken.go.jp/","開室日月、水、金曜日(祝日、年末年始を除く)","開室カレンダーは、こちら https://www.tobunken.go.jp/~joho/japanese/library/library.html","開室時間 10:00 ～ 17:00(*12:00から13:00、16:30以降は新規入室できません。)","座席数10席","複写サービス コピー機 2台(セルフサービス 白黒1枚10円/カラー1枚50円)","郵送サービス 白黒1枚36円/カラー1枚67円 郵送サービス申請","資料保全のため、コピー機で複写ができない場合があります。その際は利用者が持参したデジタルカメラで複写をしていただきます。","所外の方への貸出はおこなっておりません。","業務使用中の資料については閲覧できない場合があります。","資料保存のため一部マイクロフィルム及びCD-ROMでの提供となります。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009519.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009519#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009519.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 国立文化財機構 東京文化財研究所"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジン コクリツブンカザイキコウ トウキョウブンカザイケンキュウショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東文研"
+        },
+        {
+          "@value": "トウブンケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009519",
+      "cinii:organizationid": "KI004903",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "独立行政法人 国立文化財機構 東京文化財研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "110-8713",
+        "v:label": "東京都台東区上野公園13-43"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3823-2264"
+        }
+      ],
+      "dc:description": [
+        "Tokyo National Research Institute for Cultural Properties",
+        "Library",
+        "13-43 Ueno Park, Taito-ku, Tokyo, 110-8713 Japan",
+        "URL:https://www.tobunken.go.jp/~joho/japanese/library/library.html",
+        "URL:https://opac.tobunken.go.jp/",
+        "開室日月、水、金曜日(祝日、年末年始を除く)",
+        "開室カレンダーは、こちら https://www.tobunken.go.jp/~joho/japanese/library/library.html",
+        "開室時間 10:00 ～ 17:00(*12:00から13:00、16:30以降は新規入室できません。)",
+        "座席数10席",
+        "複写サービス コピー機 2台(セルフサービス 白黒1枚10円/カラー1枚50円)",
+        "郵送サービス 白黒1枚36円/カラー1枚67円 郵送サービス申請",
+        "資料保全のため、コピー機で複写ができない場合があります。その際は利用者が持参したデジタルカメラで複写をしていただきます。",
+        "所外の方への貸出はおこなっておりません。",
+        "業務使用中の資料については閲覧できない場合があります。",
+        "資料保存のため一部マイクロフィルム及びCD-ROMでの提供となります。"
+      ]
+    }
+  ]
+}

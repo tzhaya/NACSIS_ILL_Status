@@ -1,1 +1,90 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002258.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002258#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002258.json"},"foaf:name":[{"@value":"山梨大学 附属図書館"},{"@value":"ヤマナシダイガク フゾクトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"梨大"},{"@value":"ナシダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["研","図"],"cinii:memberid":"FA002258","cinii:organizationid":"KI000436","cinii:prefcode":"19","cinii:mextid":"010100","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"山梨大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"400-8510","v:label":"甲府市武田四丁目4-37"},"v:tel":[{"@type":"v:Tel","@value":"055-220-8066,8067"}],"v:fax":[{"@type":"v:Fax","@value":"055-220-8793"}],"dc:description":["The University of Yamanashi Library","4-37, Takeda, Kofu-shi, Yamanashi 400-8510","URL:https://lib.yamanashi.ac.jp/ (website)","URL: https://lib.yamanashi.ac.jp/main/kokyo.html(公共図書館等への現物貸借について)","来館利用担当:情報サービスグループ","電話番号:055-220-8066・8067","受付時間:8:45-20:30(月-金)、 13:00-16:30(土・日)","注意事項:資料の所在等、事前確認をしてください。","注意事項:車での来館はご遠慮ください。","注意事項:休業中は17時閉館となります(土・日は休館)。","注意事項:開館時間の変更等ホームページで確認してください。","館外貸出:本館備付資料について可。(3冊、14日以内)","持参書類:運転免許証等住所・氏名が確認できるもの。","制限事項:研究室備付けの資料は利用できません。","休館日:国民の祝日および振替休日、甲府キャンパス夏季一斉休業期間、蔵書点検期間、開学記念日(10月1日)、年末年始(12月27日-1月4日)、入学試験日等"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002258.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002258#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002258.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山梨大学 附属図書館"
+        },
+        {
+          "@value": "ヤマナシダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "梨大"
+        },
+        {
+          "@value": "ナシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研",
+        "図"
+      ],
+      "cinii:memberid": "FA002258",
+      "cinii:organizationid": "KI000436",
+      "cinii:prefcode": "19",
+      "cinii:mextid": "010100",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "山梨大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "400-8510",
+        "v:label": "甲府市武田四丁目4-37"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "055-220-8066,8067"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "055-220-8793"
+        }
+      ],
+      "dc:description": [
+        "The University of Yamanashi Library",
+        "4-37, Takeda, Kofu-shi, Yamanashi 400-8510",
+        "URL:https://lib.yamanashi.ac.jp/ (website)",
+        "URL: https://lib.yamanashi.ac.jp/main/kokyo.html(公共図書館等への現物貸借について)",
+        "来館利用担当:情報サービスグループ",
+        "電話番号:055-220-8066・8067",
+        "受付時間:8:45-20:30(月-金)、 13:00-16:30(土・日)",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "注意事項:車での来館はご遠慮ください。",
+        "注意事項:休業中は17時閉館となります(土・日は休館)。",
+        "注意事項:開館時間の変更等ホームページで確認してください。",
+        "館外貸出:本館備付資料について可。(3冊、14日以内)",
+        "持参書類:運転免許証等住所・氏名が確認できるもの。",
+        "制限事項:研究室備付けの資料は利用できません。",
+        "休館日:国民の祝日および振替休日、甲府キャンパス夏季一斉休業期間、蔵書点検期間、開学記念日(10月1日)、年末年始(12月27日-1月4日)、入学試験日等"
+      ]
+    }
+  ]
+}

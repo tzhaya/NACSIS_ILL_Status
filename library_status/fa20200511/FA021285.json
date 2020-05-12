@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA021285.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA021285#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA021285.json"},"foaf:name":[{"@value":"日本赤十字社医療センター"},{"@value":"ニホンセキジユウジシヤイリヨウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日赤医セ"},{"@value":"ニツセキイセ","@language":"ja-hrkt"}],"cinii:memberid":"FA021285","cinii:organizationid":"KI01272X","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"日本赤十字社医療センター","v:adr":{"@type":"v:Address","v:postal-code":"150-8935","v:label":"東京都渋谷区広尾4-1-22"},"v:tel":[{"@type":"v:Tel","@value":"03-3400-1311(代表)"}],"v:fax":[{"@type":"v:Fax","@value":"03-3400-0144(図書室)"}],"dc:description":["Japanese Red Cross Medical Center","4-1-22, Hiroo, Shibuya-ku, Tokyo 150-8935","URL:http://www.med.jrc.or.jp/index.html","文献相互利用担当: 中村、藏部、池田","電話番号:03-3400-1311(代) 内線2205","在室時間:9:00-16:00","注意事項:一般の方、個人での利用・複写は受付できません。","","お知らせ - -2020年4月22日より、受付時間が8:30〜13:00に変更となります。(13:00以降の受付分は翌日の発送となります) ご了承ください。","複写料金:1枚50円(カラー80円):ご指示がない限りカラー優先でコピーします。FAX1枚100円","送付方法:郵送(速達可)、FAX","支払方法:相殺参加館は相殺、非参加館は郵便振替(後納)","支払方法:郵便振替:00170-0-721757 加入者名:日本赤十字社医療センター","受付時間:8:30〜13:00(13:00以降の受付分は翌日の発送となります)","館外貸出:不可","休館日:土・日曜日、祝日、年末年始、創立記念日(5月1日)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021285.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021285#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021285.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本赤十字社医療センター"
+        },
+        {
+          "@value": "ニホンセキジユウジシヤイリヨウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日赤医セ"
+        },
+        {
+          "@value": "ニツセキイセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021285",
+      "cinii:organizationid": "KI01272X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "日本赤十字社医療センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "150-8935",
+        "v:label": "東京都渋谷区広尾4-1-22"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3400-1311(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3400-0144(図書室)"
+        }
+      ],
+      "dc:description": [
+        "Japanese Red Cross Medical Center",
+        "4-1-22, Hiroo, Shibuya-ku, Tokyo 150-8935",
+        "URL:http://www.med.jrc.or.jp/index.html",
+        "文献相互利用担当: 中村、藏部、池田",
+        "電話番号:03-3400-1311(代) 内線2205",
+        "在室時間:9:00-16:00",
+        "注意事項:一般の方、個人での利用・複写は受付できません。",
+        "",
+        "お知らせ - -2020年4月22日より、受付時間が8:30〜13:00に変更となります。(13:00以降の受付分は翌日の発送となります) ご了承ください。",
+        "複写料金:1枚50円(カラー80円):ご指示がない限りカラー優先でコピーします。FAX1枚100円",
+        "送付方法:郵送(速達可)、FAX",
+        "支払方法:相殺参加館は相殺、非参加館は郵便振替(後納)",
+        "支払方法:郵便振替:00170-0-721757 加入者名:日本赤十字社医療センター",
+        "受付時間:8:30〜13:00(13:00以降の受付分は翌日の発送となります)",
+        "館外貸出:不可",
+        "休館日:土・日曜日、祝日、年末年始、創立記念日(5月1日)"
+      ]
+    }
+  ]
+}

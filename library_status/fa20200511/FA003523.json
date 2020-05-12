@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003523.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003523#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003523.json"},"foaf:name":[{"@value":"長崎大学 附属図書館 経済学部分館"},{"@value":"ナガサキダイガク フゾクトショカン ケイザイガクブブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"長大経"},{"@value":"チョウダイケイ","@language":"ja-hrkt"}],"dcterms:hasPart":["研究所"],"cinii:memberid":"FA003523","cinii:organizationid":"KI000877","cinii:prefcode":"42","cinii:mextid":"007302","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"長崎大学 附属図書館 経済学部分館","v:adr":{"@type":"v:Address","v:postal-code":"850-8506","v:label":"長崎市片淵4-2-1"},"v:tel":[{"@type":"v:Tel","@value":"095-820-6309 内223"}],"v:fax":[{"@type":"v:Fax","@value":"095-820-6313(G3)"}],"dc:description":["ECONOMIC LIBRARY NAGASAKI UNIVERSITY","4-2-1,KATAFUCHI, NAGASAKI 850-8506","http://www.lb.nagasaki-u.ac.jp/use/eco/ (website)","ILL-Org:Economic Library Nagasaki University","ILL-Address:4-2-1, Katafuchi, Nagasaki, JAPAN","ILL-ZIP:850-8506","ILL-Commun1:Tel:+81-95-820-6309/FAX:+81-95-820-6313/E-mail:econlib@ml.nagasaki-u.ac.jp","担当:経済学部分館:電話番号:095-820-6309","注意事項:電話での問合せは平日9:00-17:00にお願いします。","持参書類:身分証明書","制限事項:貴重資料(武藤文庫)、参考図書、禁帯出資料、雑誌は貸出できません。研究室備付図書は貸出できないことがあります。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003523.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003523#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003523.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "長崎大学 附属図書館 経済学部分館"
+        },
+        {
+          "@value": "ナガサキダイガク フゾクトショカン ケイザイガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "長大経"
+        },
+        {
+          "@value": "チョウダイケイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研究所"
+      ],
+      "cinii:memberid": "FA003523",
+      "cinii:organizationid": "KI000877",
+      "cinii:prefcode": "42",
+      "cinii:mextid": "007302",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "長崎大学 附属図書館 経済学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "850-8506",
+        "v:label": "長崎市片淵4-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "095-820-6309 内223"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "095-820-6313(G3)"
+        }
+      ],
+      "dc:description": [
+        "ECONOMIC LIBRARY NAGASAKI UNIVERSITY",
+        "4-2-1,KATAFUCHI, NAGASAKI 850-8506",
+        "http://www.lb.nagasaki-u.ac.jp/use/eco/ (website)",
+        "ILL-Org:Economic Library Nagasaki University",
+        "ILL-Address:4-2-1, Katafuchi, Nagasaki, JAPAN",
+        "ILL-ZIP:850-8506",
+        "ILL-Commun1:Tel:+81-95-820-6309/FAX:+81-95-820-6313/E-mail:econlib@ml.nagasaki-u.ac.jp",
+        "担当:経済学部分館:電話番号:095-820-6309",
+        "注意事項:電話での問合せは平日9:00-17:00にお願いします。",
+        "持参書類:身分証明書",
+        "制限事項:貴重資料(武藤文庫)、参考図書、禁帯出資料、雑誌は貸出できません。研究室備付図書は貸出できないことがあります。"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009122.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009122#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009122.json"},"foaf:name":[{"@value":"志學館大学 図書館"},{"@value":"シガクカンダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"志學館大"},{"@value":"シガクカンダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["01"],"cinii:memberid":"FA009122","cinii:organizationid":"KI004561","cinii:prefcode":"46","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"志學館大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"890-8504","v:label":"鹿児島県鹿児島市紫原1-59-1"},"v:tel":[{"@type":"v:Tel","@value":"099-812-8501(代表)"}],"v:fax":[{"@type":"v:Fax","@value":"099-257-0308"}],"dc:description":["Library of Shigakukan University","1-59-1 Murasakibaru, Kagoshima City  890-8504","URL:http://www.lib.shigakukan.ac.jp/","電話番号:099-812-8501","受付時間:","持参書類:","複写時間:","館外貸出:不可","-休館日:図書館整理期間,8月13-15日,12月28日-1月4日,日曜日,祝日,大学祭,入学式,卒業式,その他(学校行事の際,必要と思われる時)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009122.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009122#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009122.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "志學館大学 図書館"
+        },
+        {
+          "@value": "シガクカンダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "志學館大"
+        },
+        {
+          "@value": "シガクカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "01"
+      ],
+      "cinii:memberid": "FA009122",
+      "cinii:organizationid": "KI004561",
+      "cinii:prefcode": "46",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "志學館大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "890-8504",
+        "v:label": "鹿児島県鹿児島市紫原1-59-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "099-812-8501(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "099-257-0308"
+        }
+      ],
+      "dc:description": [
+        "Library of Shigakukan University",
+        "1-59-1 Murasakibaru, Kagoshima City  890-8504",
+        "URL:http://www.lib.shigakukan.ac.jp/",
+        "電話番号:099-812-8501",
+        "受付時間:",
+        "持参書類:",
+        "複写時間:",
+        "館外貸出:不可",
+        "-休館日:図書館整理期間,8月13-15日,12月28日-1月4日,日曜日,祝日,大学祭,入学式,卒業式,その他(学校行事の際,必要と思われる時)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,73 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018597.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018597#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018597.json"},"foaf:name":[{"@value":"鳥羽商船高等専門学校 図書館"},{"@value":"トバシヨウセンコウトウセンモンガツコウ トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"鳥羽商船"},{"@value":"トバシヨウセン","@language":"ja-hrkt"}],"cinii:memberid":"FA018597","cinii:organizationid":"KI010870","cinii:prefcode":"24","cinii:mextid":"602700","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"鳥羽商船高等専門学校 図書館","v:adr":{"@type":"v:Address","v:postal-code":"517-8501","v:label":"三重県鳥羽市池上町1番1号"},"v:tel":[{"@type":"v:Tel","@value":"0599-25-8015"}],"v:fax":[{"@type":"v:Fax","@value":"0599-25-8015"}],"dc:description":["Library of Toba National College of  Maritime Technology","1-1 Ikegami-cho,Toba City,Mie Prefecture,Japan"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018597.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018597#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018597.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鳥羽商船高等専門学校 図書館"
+        },
+        {
+          "@value": "トバシヨウセンコウトウセンモンガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鳥羽商船"
+        },
+        {
+          "@value": "トバシヨウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018597",
+      "cinii:organizationid": "KI010870",
+      "cinii:prefcode": "24",
+      "cinii:mextid": "602700",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "鳥羽商船高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "517-8501",
+        "v:label": "三重県鳥羽市池上町1番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0599-25-8015"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0599-25-8015"
+        }
+      ],
+      "dc:description": [
+        "Library of Toba National College of  Maritime Technology",
+        "1-1 Ikegami-cho,Toba City,Mie Prefecture,Japan"
+      ]
+    }
+  ]
+}

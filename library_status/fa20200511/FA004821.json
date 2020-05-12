@@ -1,1 +1,102 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004821.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004821#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004821.json"},"foaf:name":[{"@value":"文教大学 越谷図書館"},{"@value":"ブンキョウダイガク コシガヤトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"文教大"},{"@value":"ブンキョウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA004821","cinii:organizationid":"KI001803","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"文教大学 越谷図書館","v:adr":{"@type":"v:Address","v:postal-code":"343-8511","v:label":"埼玉県越谷市南荻島3337"},"v:tel":[{"@type":"v:Tel","@value":"048-974-8811"}],"v:fax":[{"@type":"v:Fax","@value":"048-974-8040"}],"dc:description":["Bunkyo University Koshigaya Library","3337, Minami-Ogishima, Koshigaya, Saitama 343-8511","URL:https://www.bunkyo.ac.jp/faculty/lib/klib/ (website)","来館利用担当:情報サービス係","電話番号:048-974-8145","受付時間:9:00〜18:30","注意事項:資料についてのお問い合わせは文書(ファックス, 電子メール)でお願いします。","注意事項:学外の方の利用については図書館ホームページの『文教大学越谷図書館利用案内(学外利用者の方へ)』をご覧下さい。","注意事項:来館の際は開館時間、持参書類等をあらかじめ図書館ホームページでご確認ください。","複写時間:9:00〜18:30(土曜日〜15:00)","制限事項:参考図書・雑誌最新号・教科書・指定書他学生の利用の多い資料及び研究室所蔵資料","休館日:図書館ホームページでご確認ください。","ILL-Staff : Keiichi FUJIKURA","ILL-Dept : ILL Section","ILL-Org : Bunkyo University Koshigaya Library","ILL-Address : 3337 Minami-Ogishima, Koshigaya-shi, Saitama, Japan","ILL-Zip : 343-8511","ILL-Commun1 : Tel : +81-48-974-8145 / Fax : +81-48-974-8040 / E-mail : kref@stf.bunkyo.ac.jp","ILL-Commun2 : OPAC : https://opac.bunkyo.ac.jp/mylimedio/search/search-input.do?mode=comp  /  Home-Page : https://www.bunkyo.ac.jp/faculty/lib/klib/","ILL-Accept : OCLC :BUJ","ILL-Sched : Closed : Sunday, national holidays, Saturdays during August, the yearend and New Year's holidays","ILL-Bill : Foreign : OCLC-IFM only","ILL-Loan-Period : 8 weeks per item / up to 5 items per library","ILL-Loan-Renew : 4 weeks","ILL-Loan-Charge : Postage required. / Delivery method: via airmail.","ILL-Non-Circulation : Books in deteriorated condition, Special collection, old Japanese books, reference books, dissertations, mcrfrm, mcrfch, per, news, a-v","ILL-Copy-Charge : Photocopy : 40 YEN per sheet. / Also available for photocopy of color pages as requested, 100 YEN per sheet. / Postage required. / Delivery method : via airmail, or E-mail","ILL-Note :  Copying method is  photocopy only.  /  Only the items held at the Library are available.","ILL-OCLC-Symbol:BUJ"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004821.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004821#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004821.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "文教大学 越谷図書館"
+        },
+        {
+          "@value": "ブンキョウダイガク コシガヤトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "文教大"
+        },
+        {
+          "@value": "ブンキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004821",
+      "cinii:organizationid": "KI001803",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "文教大学 越谷図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "343-8511",
+        "v:label": "埼玉県越谷市南荻島3337"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-974-8811"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-974-8040"
+        }
+      ],
+      "dc:description": [
+        "Bunkyo University Koshigaya Library",
+        "3337, Minami-Ogishima, Koshigaya, Saitama 343-8511",
+        "URL:https://www.bunkyo.ac.jp/faculty/lib/klib/ (website)",
+        "来館利用担当:情報サービス係",
+        "電話番号:048-974-8145",
+        "受付時間:9:00〜18:30",
+        "注意事項:資料についてのお問い合わせは文書(ファックス, 電子メール)でお願いします。",
+        "注意事項:学外の方の利用については図書館ホームページの『文教大学越谷図書館利用案内(学外利用者の方へ)』をご覧下さい。",
+        "注意事項:来館の際は開館時間、持参書類等をあらかじめ図書館ホームページでご確認ください。",
+        "複写時間:9:00〜18:30(土曜日〜15:00)",
+        "制限事項:参考図書・雑誌最新号・教科書・指定書他学生の利用の多い資料及び研究室所蔵資料",
+        "休館日:図書館ホームページでご確認ください。",
+        "ILL-Staff : Keiichi FUJIKURA",
+        "ILL-Dept : ILL Section",
+        "ILL-Org : Bunkyo University Koshigaya Library",
+        "ILL-Address : 3337 Minami-Ogishima, Koshigaya-shi, Saitama, Japan",
+        "ILL-Zip : 343-8511",
+        "ILL-Commun1 : Tel : +81-48-974-8145 / Fax : +81-48-974-8040 / E-mail : kref@stf.bunkyo.ac.jp",
+        "ILL-Commun2 : OPAC : https://opac.bunkyo.ac.jp/mylimedio/search/search-input.do?mode=comp  /  Home-Page : https://www.bunkyo.ac.jp/faculty/lib/klib/",
+        "ILL-Accept : OCLC :BUJ",
+        "ILL-Sched : Closed : Sunday, national holidays, Saturdays during August, the yearend and New Year's holidays",
+        "ILL-Bill : Foreign : OCLC-IFM only",
+        "ILL-Loan-Period : 8 weeks per item / up to 5 items per library",
+        "ILL-Loan-Renew : 4 weeks",
+        "ILL-Loan-Charge : Postage required. / Delivery method: via airmail.",
+        "ILL-Non-Circulation : Books in deteriorated condition, Special collection, old Japanese books, reference books, dissertations, mcrfrm, mcrfch, per, news, a-v",
+        "ILL-Copy-Charge : Photocopy : 40 YEN per sheet. / Also available for photocopy of color pages as requested, 100 YEN per sheet. / Postage required. / Delivery method : via airmail, or E-mail",
+        "ILL-Note :  Copying method is  photocopy only.  /  Only the items held at the Library are available.",
+        "ILL-OCLC-Symbol:BUJ"
+      ]
+    }
+  ]
+}

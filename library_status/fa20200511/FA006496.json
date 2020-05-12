@@ -1,1 +1,92 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA006496.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA006496#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA006496.json"},"foaf:name":[{"@value":"日本女子大学 図書館"},{"@value":"ニホンジョシダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日女大"},{"@value":"ニチジョダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図書館","研究室"],"cinii:memberid":"FA006496","cinii:organizationid":"KI002588","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"日本女子大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"112-8681","v:label":"東京都文京区目白台2-8-1"},"v:tel":[{"@type":"v:Tel","@value":"03-5981-3193"}],"v:fax":[{"@type":"v:Fax","@value":"03-5981-3194"}],"dc:description":["Japan Women's University Library","2-8-1 Mejirodai, Bunkyo-ku, Tokyo 112-8681","URL: http://www.lib.jwu.ac.jp","ILL-Dept: Reference Sec.","ILL-Org: Japan Women's University Library","ILL-Address: 2-8-1 Mejirodai, Bunkyo-ku, Tokyo, JAPAN","ILL-ZIP: 112-8681","ILL-Commun1: Fax.+81-3-5981-3194/E-mail: reference@atlas.jwu.ac.jp","来館利用担当:参考係","電話番号:03-5981-3193","受付時間:10:00-16:30 (土曜日 -11:50)","利用対象者:学外の方は,所属機関の図書館を通してお問い合せください。","閲覧事前連絡:来館の際には,資料の所在等,所属機関の図書館を通して事前確認をしてください。","持参書類:資料利用依頼書,身分証明書","複写時間:10:00-20:45(土曜日 -17:45)","閲覧注記:研究室所蔵資料,貴重書は閲覧を許可しないことがある。","閲覧注記:外部倉庫資料(OPAC配置場所:JCCM,JCCT)は、原則として受付不可。本学のみの所蔵の場合は応相談。","休館日:日曜日,国民の祝日,夏季,冬季,春季休業期間,入試期間,他"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006496.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006496#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006496.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本女子大学 図書館"
+        },
+        {
+          "@value": "ニホンジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日女大"
+        },
+        {
+          "@value": "ニチジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館",
+        "研究室"
+      ],
+      "cinii:memberid": "FA006496",
+      "cinii:organizationid": "KI002588",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "112-8681",
+        "v:label": "東京都文京区目白台2-8-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5981-3193"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5981-3194"
+        }
+      ],
+      "dc:description": [
+        "Japan Women's University Library",
+        "2-8-1 Mejirodai, Bunkyo-ku, Tokyo 112-8681",
+        "URL: http://www.lib.jwu.ac.jp",
+        "ILL-Dept: Reference Sec.",
+        "ILL-Org: Japan Women's University Library",
+        "ILL-Address: 2-8-1 Mejirodai, Bunkyo-ku, Tokyo, JAPAN",
+        "ILL-ZIP: 112-8681",
+        "ILL-Commun1: Fax.+81-3-5981-3194/E-mail: reference@atlas.jwu.ac.jp",
+        "来館利用担当:参考係",
+        "電話番号:03-5981-3193",
+        "受付時間:10:00-16:30 (土曜日 -11:50)",
+        "利用対象者:学外の方は,所属機関の図書館を通してお問い合せください。",
+        "閲覧事前連絡:来館の際には,資料の所在等,所属機関の図書館を通して事前確認をしてください。",
+        "持参書類:資料利用依頼書,身分証明書",
+        "複写時間:10:00-20:45(土曜日 -17:45)",
+        "閲覧注記:研究室所蔵資料,貴重書は閲覧を許可しないことがある。",
+        "閲覧注記:外部倉庫資料(OPAC配置場所:JCCM,JCCT)は、原則として受付不可。本学のみの所蔵の場合は応相談。",
+        "休館日:日曜日,国民の祝日,夏季,冬季,春季休業期間,入試期間,他"
+      ]
+    }
+  ]
+}

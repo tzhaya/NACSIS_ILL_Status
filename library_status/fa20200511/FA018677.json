@@ -1,1 +1,100 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018677.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018677#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018677.json"},"foaf:name":[{"@value":"青森県立保健大学 附属図書館"},{"@value":"アオモリケンリツホケンダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"青森保健大"},{"@value":"アオモリホケンダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA018677","cinii:organizationid":"KI01094X","cinii:prefcode":"02","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"青森県立保健大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"030-8505","v:label":"青森県青森市大字浜館字間瀬58-1"},"v:tel":[{"@type":"v:Tel","@value":"017-765-2011(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"017-765-2012"}],"dc:description":["Aomori University of Health and Welfare Library","58-1 Mase,Hamadate,Aomori 030-8505","URL:http://www.auhw.ac.jp/library/index.html","http://www.auhw.ac.jp/about/enkaku/access.html#access(map)","通常開館時間:平日 8:45-19:00、第一・第三土曜日 10:00-16:00","長期休業期間開館時間:平日 8:45-17:00","休館日:第二・第四・第五土曜日、日曜日、祝日、長期休業期間の土曜日、年末年始(12/29-1/3)、大学事務局一斉休業日(2019年8月13日)、入学者選抜試験日、大学祭期間、大学入試センター試験実施日","***来館利用***","新型コロナウイルス対策のため、2020年4月1日から5月31日まで一般の方はご利用いただけません。","利用条件:18歳以上で当館資料を用いて調査研究活動を行う方に限ります。図書館カウンターで受付を済ませてからご利用ください。試験期間中など、閲覧席が利用できないこともありますので、ご了承ください。","館外貸出:貸出可能な図書のみ(貸出冊数:5冊、貸出期間:2週間)。館外貸出を希望する場合は、現住所を証明するものが必要です。詳しくは図書館ホームページをご覧ください。","URL:http://www.auhw.ac.jp/library/index.html","***図書館間相互利用***","2020年4月23日(木)から5月6日(水)まで休校のため、ILL受付を停止することがあります。また、発送に日数がかかる可能性があります。ご了承ください。","2008年7月1日よりILL相殺サービスに参加いたしました。","個人からのお申し込みは受け付けておりません。所蔵先の図書館(室)や最寄りの公共図書館よりお申し込みください。","必ず書誌事項及び当館所蔵の有無を確認した上でお申し込みください。","担当者不在のときは対応が遅くなることがあります。ご了承ください。","複写申込方法:FAX(017-765-2012)","複写方法・料金:電子複写1枚50円(白黒のみ。カラー、電子ジャーナルには受付しておりません)","送付方法:普通郵便のみ(速達は対応できません)","2016年4月1日(金)より、本学からの郵便物は翌日以降の発送へ変更となります。受付当日の発送はできませんので、お急ぎの際はご注意ください。","複写支払方法:銀行振込(2週間以内にお支払いください)","貸借申込方法:FAX(017-765-2012)","貸出不可資料:参考図書、逐次刊行物、視聴覚資料、その他禁帯出資料、研究室資料","貸出期間:1ヶ月(郵送期間を含む)","貸借送付方法:簡易書留(ゆうメールまたは普通郵便)、ゆうパック、宅急便","貸借支払方法:着払いまたは切手(返送時に小額切手を同封)","相互協力注記:本学教員の研究成果物の一部と本学紀要はリポジトリA-plus(アプラス)で無料公開しております。","URL:https://auhw.repo.nii.ac.jp/"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018677.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018677#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018677.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "青森県立保健大学 附属図書館"
+        },
+        {
+          "@value": "アオモリケンリツホケンダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "青森保健大"
+        },
+        {
+          "@value": "アオモリホケンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018677",
+      "cinii:organizationid": "KI01094X",
+      "cinii:prefcode": "02",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "青森県立保健大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "030-8505",
+        "v:label": "青森県青森市大字浜館字間瀬58-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "017-765-2011(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "017-765-2012"
+        }
+      ],
+      "dc:description": [
+        "Aomori University of Health and Welfare Library",
+        "58-1 Mase,Hamadate,Aomori 030-8505",
+        "URL:http://www.auhw.ac.jp/library/index.html",
+        "http://www.auhw.ac.jp/about/enkaku/access.html#access(map)",
+        "通常開館時間:平日 8:45-19:00、第一・第三土曜日 10:00-16:00",
+        "長期休業期間開館時間:平日 8:45-17:00",
+        "休館日:第二・第四・第五土曜日、日曜日、祝日、長期休業期間の土曜日、年末年始(12/29-1/3)、大学事務局一斉休業日(2019年8月13日)、入学者選抜試験日、大学祭期間、大学入試センター試験実施日",
+        "***来館利用***",
+        "新型コロナウイルス対策のため、2020年4月1日から5月31日まで一般の方はご利用いただけません。",
+        "利用条件:18歳以上で当館資料を用いて調査研究活動を行う方に限ります。図書館カウンターで受付を済ませてからご利用ください。試験期間中など、閲覧席が利用できないこともありますので、ご了承ください。",
+        "館外貸出:貸出可能な図書のみ(貸出冊数:5冊、貸出期間:2週間)。館外貸出を希望する場合は、現住所を証明するものが必要です。詳しくは図書館ホームページをご覧ください。",
+        "URL:http://www.auhw.ac.jp/library/index.html",
+        "***図書館間相互利用***",
+        "2020年4月23日(木)から5月6日(水)まで休校のため、ILL受付を停止することがあります。また、発送に日数がかかる可能性があります。ご了承ください。",
+        "2008年7月1日よりILL相殺サービスに参加いたしました。",
+        "個人からのお申し込みは受け付けておりません。所蔵先の図書館(室)や最寄りの公共図書館よりお申し込みください。",
+        "必ず書誌事項及び当館所蔵の有無を確認した上でお申し込みください。",
+        "担当者不在のときは対応が遅くなることがあります。ご了承ください。",
+        "複写申込方法:FAX(017-765-2012)",
+        "複写方法・料金:電子複写1枚50円(白黒のみ。カラー、電子ジャーナルには受付しておりません)",
+        "送付方法:普通郵便のみ(速達は対応できません)",
+        "2016年4月1日(金)より、本学からの郵便物は翌日以降の発送へ変更となります。受付当日の発送はできませんので、お急ぎの際はご注意ください。",
+        "複写支払方法:銀行振込(2週間以内にお支払いください)",
+        "貸借申込方法:FAX(017-765-2012)",
+        "貸出不可資料:参考図書、逐次刊行物、視聴覚資料、その他禁帯出資料、研究室資料",
+        "貸出期間:1ヶ月(郵送期間を含む)",
+        "貸借送付方法:簡易書留(ゆうメールまたは普通郵便)、ゆうパック、宅急便",
+        "貸借支払方法:着払いまたは切手(返送時に小額切手を同封)",
+        "相互協力注記:本学教員の研究成果物の一部と本学紀要はリポジトリA-plus(アプラス)で無料公開しております。",
+        "URL:https://auhw.repo.nii.ac.jp/"
+      ]
+    }
+  ]
+}

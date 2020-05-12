@@ -1,1 +1,87 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007761.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007761#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007761.json"},"foaf:name":[{"@value":"龍谷大学 大宮図書館"},{"@value":"リュウコクダイガク オオミヤトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"龍大宮"},{"@value":"リュウダイミヤ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA007761","cinii:organizationid":"KI003536","cinii:prefcode":"26","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"龍谷大学 大宮図書館","v:adr":{"@type":"v:Address","v:postal-code":"600-8268","v:label":"京都府京都市下京区七条通大宮東入大工町125-1"},"v:tel":[{"@type":"v:Tel","@value":"075-343-3462"}],"v:fax":[{"@type":"v:Fax","@value":"075-344-0345"}],"dc:description":["Ryukoku University Omiya Library","Shichijo Omiya,Shimogyo-ku,Kyoto 600-8268","URL:https://library.ryukoku.ac.jp (website)","URL:http://www.ryukoku.ac.jp/about/campus_traffic/traffic/t_omiya.html (map)","来館利用担当:閲覧係","電話番号:075-343-3311(内線5073)","受付時間:9:00〜17:00(土曜日 9:00〜16:00)","注意事項:事前に所属大学の図書館か公共図書館からの所蔵調査が必要です。個人から直接のお問い合わせは受付できません。","持参書類:所蔵調査回答、身分証明書","複写時間:9:00〜17:00(土曜日 9:00〜16:00)","館外貸出不可","制限事項:貴重書については、別途事前に利用手続きが必要","館外貸出不可","休館日:ホームページ「開館スケジュール」参照"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007761.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007761#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007761.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "龍谷大学 大宮図書館"
+        },
+        {
+          "@value": "リュウコクダイガク オオミヤトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "龍大宮"
+        },
+        {
+          "@value": "リュウダイミヤ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA007761",
+      "cinii:organizationid": "KI003536",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "龍谷大学 大宮図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "600-8268",
+        "v:label": "京都府京都市下京区七条通大宮東入大工町125-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-343-3462"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-344-0345"
+        }
+      ],
+      "dc:description": [
+        "Ryukoku University Omiya Library",
+        "Shichijo Omiya,Shimogyo-ku,Kyoto 600-8268",
+        "URL:https://library.ryukoku.ac.jp (website)",
+        "URL:http://www.ryukoku.ac.jp/about/campus_traffic/traffic/t_omiya.html (map)",
+        "来館利用担当:閲覧係",
+        "電話番号:075-343-3311(内線5073)",
+        "受付時間:9:00〜17:00(土曜日 9:00〜16:00)",
+        "注意事項:事前に所属大学の図書館か公共図書館からの所蔵調査が必要です。個人から直接のお問い合わせは受付できません。",
+        "持参書類:所蔵調査回答、身分証明書",
+        "複写時間:9:00〜17:00(土曜日 9:00〜16:00)",
+        "館外貸出不可",
+        "制限事項:貴重書については、別途事前に利用手続きが必要",
+        "館外貸出不可",
+        "休館日:ホームページ「開館スケジュール」参照"
+      ]
+    }
+  ]
+}

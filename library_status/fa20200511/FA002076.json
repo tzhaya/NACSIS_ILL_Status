@@ -1,1 +1,66 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002076.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002076#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002076.json"},"foaf:name":[{"@value":"横浜国立大学 経済学部 附属アジア経済社会研究センター"},{"@value":"ヨコハマコクリツダイガク ケイザイガクブ フゾクアジアケイザイシャカイケンキュウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"横国大アジア研"},{"@value":"ヨココクダイアジアケン","@language":"ja-hrkt"}],"dcterms:hasPart":["アジア研"],"cinii:memberid":"FA002076","cinii:organizationid":"KI000345","cinii:prefcode":"14","cinii:mextid":"003401","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"横浜国立大学 経済学部 附属アジア経済社会研究センター","v:adr":{"@type":"v:Address","v:postal-code":"240-8501","v:label":"横浜市保土ケ谷区常盤台79番3号"},"v:tel":[{"@type":"v:Tel","@value":"045-339-3519"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002076.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002076#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002076.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "横浜国立大学 経済学部 附属アジア経済社会研究センター"
+        },
+        {
+          "@value": "ヨコハマコクリツダイガク ケイザイガクブ フゾクアジアケイザイシャカイケンキュウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "横国大アジア研"
+        },
+        {
+          "@value": "ヨココクダイアジアケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "アジア研"
+      ],
+      "cinii:memberid": "FA002076",
+      "cinii:organizationid": "KI000345",
+      "cinii:prefcode": "14",
+      "cinii:mextid": "003401",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "横浜国立大学 経済学部 附属アジア経済社会研究センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "240-8501",
+        "v:label": "横浜市保土ケ谷区常盤台79番3号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-339-3519"
+        }
+      ]
+    }
+  ]
+}

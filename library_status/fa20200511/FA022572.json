@@ -1,1 +1,77 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA022572.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA022572#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA022572.json"},"foaf:name":[{"@value":"流通経済大学 新松戸図書館"},{"@value":"リュウツウケイザイダイガクシンマツドトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"流経大新松戸"},{"@value":"リュウケイダイシンマツド","@language":"ja-hrkt"}],"cinii:memberid":"FA022572","cinii:organizationid":"KI001643","cinii:prefcode":"12","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"流通経済大学 新松戸図書館","v:adr":{"@type":"v:Address","v:postal-code":"270-8555","v:label":"千葉県松戸市新松戸3-2-1"},"v:tel":[{"@type":"v:Tel","@value":"047-340-0244"}],"v:fax":[{"@type":"v:Fax","@value":"047-340-0245"}],"dc:description":["RYUTSU KEIZAI UNIVERSITY LIBRARY","URL:http://lib.rku.ac.jp/","新型コロナウィルス感染防止のための緊急事態宣言に伴い、2020/04/08～2020/05/31まで休業いたします。","来館利用の際は、 事前に電話またはFAXで問い合わせし,日時も内諾を得ておくこと。持参書類: 紹介状(図書館発行), 身分証明書。館外貸出不可。","※貴重書閲覧には、別途手続きが必要です。お問い合わせください。","複写受付: モノクロのみ","現物貸借:3週間(送付期間含む), 3冊, 送料実費 ※貴重書・雑誌・参考図書・マイクロ資料・視聴覚資料等は不可"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022572.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022572#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022572.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "流通経済大学 新松戸図書館"
+        },
+        {
+          "@value": "リュウツウケイザイダイガクシンマツドトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "流経大新松戸"
+        },
+        {
+          "@value": "リュウケイダイシンマツド",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022572",
+      "cinii:organizationid": "KI001643",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "流通経済大学 新松戸図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "270-8555",
+        "v:label": "千葉県松戸市新松戸3-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "047-340-0244"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "047-340-0245"
+        }
+      ],
+      "dc:description": [
+        "RYUTSU KEIZAI UNIVERSITY LIBRARY",
+        "URL:http://lib.rku.ac.jp/",
+        "新型コロナウィルス感染防止のための緊急事態宣言に伴い、2020/04/08～2020/05/31まで休業いたします。",
+        "来館利用の際は、 事前に電話またはFAXで問い合わせし,日時も内諾を得ておくこと。持参書類: 紹介状(図書館発行), 身分証明書。館外貸出不可。",
+        "※貴重書閲覧には、別途手続きが必要です。お問い合わせください。",
+        "複写受付: モノクロのみ",
+        "現物貸借:3週間(送付期間含む), 3冊, 送料実費 ※貴重書・雑誌・参考図書・マイクロ資料・視聴覚資料等は不可"
+      ]
+    }
+  ]
+}

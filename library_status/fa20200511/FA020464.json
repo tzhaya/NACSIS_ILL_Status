@@ -1,1 +1,90 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA020464.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA020464#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA020464.json"},"foaf:name":[{"@value":"畿央大学 図書館"},{"@value":"キオウダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"畿央大"},{"@value":"キオウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図書館"],"cinii:memberid":"FA020464","cinii:organizationid":"KI012333","cinii:prefcode":"29","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"畿央大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"635-0832","v:label":"奈良県北葛城郡広陵町馬見中4-2-2"},"v:tel":[{"@type":"v:Tel","@value":"0745-54-1601"}],"v:fax":[{"@type":"v:Fax","@value":"0745-54-1600"}],"dc:description":["Kio University Library","4-2-2 Umaminaka, Koryo-cho, Kitakathuragi-Gun, Nara-ken 635-0832","URL:http://www.kio.ac.jp/library/","電話番号:0745-54-1601","通常開館時間:9:00〜20:00(土曜日〜18:00)","休館日:日曜日・国民の祝日・創立記念日(5/21)・蔵書点検( /  ～ / )・年末年始(  /   ～  / )・春季休業中(3/19～3/31)","注意事項:利用については、畿央大学図書館ホームページの利用案内を必ずご参照ください","ILL-Staff:","ILL-Dept:ILL Section, Contents Div.","ILL-Org: Kio Univ. Library","ILL-Address:4-2-2 Umaminaka Koryocho, Kitakatsuragigun, NARA, JAPAN","ILL-Zip:635-0832","ILL-Commun1:Tel:+81-745-54-1601/Fax:+81-745-54-1600/E-mail:tosyokan@kio.ac.jp","ILL-Accept:Foreign:KERIS","ILL-Sched:Closed:Sunday,National holidays,May21,Sep1-8,Dec26-Jan5","ILL-Bill:Foreign:KERIS=NII Fee Management Service only","ILL-Copy-Charge:Photocopy:50YEN per sheet[per exposure].Postage required. Delivery method:via airmail"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020464.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020464#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020464.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "畿央大学 図書館"
+        },
+        {
+          "@value": "キオウダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "畿央大"
+        },
+        {
+          "@value": "キオウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館"
+      ],
+      "cinii:memberid": "FA020464",
+      "cinii:organizationid": "KI012333",
+      "cinii:prefcode": "29",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "畿央大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "635-0832",
+        "v:label": "奈良県北葛城郡広陵町馬見中4-2-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0745-54-1601"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0745-54-1600"
+        }
+      ],
+      "dc:description": [
+        "Kio University Library",
+        "4-2-2 Umaminaka, Koryo-cho, Kitakathuragi-Gun, Nara-ken 635-0832",
+        "URL:http://www.kio.ac.jp/library/",
+        "電話番号:0745-54-1601",
+        "通常開館時間:9:00〜20:00(土曜日〜18:00)",
+        "休館日:日曜日・国民の祝日・創立記念日(5/21)・蔵書点検( /  ～ / )・年末年始(  /   ～  / )・春季休業中(3/19～3/31)",
+        "注意事項:利用については、畿央大学図書館ホームページの利用案内を必ずご参照ください",
+        "ILL-Staff:",
+        "ILL-Dept:ILL Section, Contents Div.",
+        "ILL-Org: Kio Univ. Library",
+        "ILL-Address:4-2-2 Umaminaka Koryocho, Kitakatsuragigun, NARA, JAPAN",
+        "ILL-Zip:635-0832",
+        "ILL-Commun1:Tel:+81-745-54-1601/Fax:+81-745-54-1600/E-mail:tosyokan@kio.ac.jp",
+        "ILL-Accept:Foreign:KERIS",
+        "ILL-Sched:Closed:Sunday,National holidays,May21,Sep1-8,Dec26-Jan5",
+        "ILL-Bill:Foreign:KERIS=NII Fee Management Service only",
+        "ILL-Copy-Charge:Photocopy:50YEN per sheet[per exposure].Postage required. Delivery method:via airmail"
+      ]
+    }
+  ]
+}

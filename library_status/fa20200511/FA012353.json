@@ -1,1 +1,93 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012353.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012353#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012353.json"},"foaf:name":[{"@value":"東京農業大学 学術情報センター(オホーツク)"},{"@value":"トウキョウノウギョウダイガク ガクジュツジョウホウセンター (オホーツク)","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東農大生"},{"@value":"トウノウダイセイ","@language":"ja-hrkt"}],"dcterms:hasPart":["生産図","生","食","産","院","資","アクア","EJ"],"cinii:memberid":"FA012353","cinii:organizationid":"KI002464","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東京農業大学 学術情報センター(オホーツク)","v:adr":{"@type":"v:Address","v:postal-code":"099-2493","v:label":"北海道網走市八坂196"},"v:tel":[{"@type":"v:Tel","@value":"0152-48-3818"}],"v:fax":[{"@type":"v:Fax","@value":"0152-48-2263"}],"dc:description":["Tokyo Univ. of Agri., Library of the Faculty of Bioindustry","196 Yasaka, Abashiri, Hokkaido 099-2493","URL:https://www.bioindustry.nodai.ac.jp/~library/index.html (website)","Mail:icerlib@nodai.ac.jp","来館利用担当: 閲覧係","電話番号: 0152-48-3818","受付時間: 9:00-18:00 (通常期)","注意事項: 開館の状況等は事前にホームページでご確認ください。","★☆ 新型コロナウィルス感染拡大防止のため 4月8日～7月31日(予定) まで臨時閉館となります。","持参書類: 他大学の方は所属大学の紹介状,一般の方は身分を証明するもの(運転免許証等)をご持参ください。 ※(北海道)大学図書館相互利用サービス参加館所属の方を除く","館外貸出: 一般学外利用者:館内閲覧のみ可, 本学卒業・修了・教職員退職者:登録後貸出可, (北海道)大学図書館相互利用サービス参加館所属の方:貸出可","休館日: ホームページにてお知らせしています。","図書館間相互利用サービス: ILL参加館・非参加館共に複写・貸借可。 ※決済方法は国立情報学研究所ILL文献複写等料金相殺サービスもしくは銀行振込のみ。※「銀行振込」の場合は所定の請求書を同封します。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012353.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012353#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012353.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京農業大学 学術情報センター(オホーツク)"
+        },
+        {
+          "@value": "トウキョウノウギョウダイガク ガクジュツジョウホウセンター (オホーツク)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東農大生"
+        },
+        {
+          "@value": "トウノウダイセイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "生産図",
+        "生",
+        "食",
+        "産",
+        "院",
+        "資",
+        "アクア",
+        "EJ"
+      ],
+      "cinii:memberid": "FA012353",
+      "cinii:organizationid": "KI002464",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京農業大学 学術情報センター(オホーツク)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "099-2493",
+        "v:label": "北海道網走市八坂196"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0152-48-3818"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0152-48-2263"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Univ. of Agri., Library of the Faculty of Bioindustry",
+        "196 Yasaka, Abashiri, Hokkaido 099-2493",
+        "URL:https://www.bioindustry.nodai.ac.jp/~library/index.html (website)",
+        "Mail:icerlib@nodai.ac.jp",
+        "来館利用担当: 閲覧係",
+        "電話番号: 0152-48-3818",
+        "受付時間: 9:00-18:00 (通常期)",
+        "注意事項: 開館の状況等は事前にホームページでご確認ください。",
+        "★☆ 新型コロナウィルス感染拡大防止のため 4月8日～7月31日(予定) まで臨時閉館となります。",
+        "持参書類: 他大学の方は所属大学の紹介状,一般の方は身分を証明するもの(運転免許証等)をご持参ください。 ※(北海道)大学図書館相互利用サービス参加館所属の方を除く",
+        "館外貸出: 一般学外利用者:館内閲覧のみ可, 本学卒業・修了・教職員退職者:登録後貸出可, (北海道)大学図書館相互利用サービス参加館所属の方:貸出可",
+        "休館日: ホームページにてお知らせしています。",
+        "図書館間相互利用サービス: ILL参加館・非参加館共に複写・貸借可。 ※決済方法は国立情報学研究所ILL文献複写等料金相殺サービスもしくは銀行振込のみ。※「銀行振込」の場合は所定の請求書を同封します。"
+      ]
+    }
+  ]
+}

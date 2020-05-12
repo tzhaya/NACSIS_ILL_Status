@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA022732.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA022732#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA022732.json"},"foaf:name":[{"@value":"京都大学 大学院 エネルギー科学研究科"},{"@value":"キョウトダイガク ダイガクイン エネルギーカガクケンキュウカ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"京大エネ科"},{"@value":"キョウダイエネカ","@language":"ja-hrkt"}],"cinii:memberid":"FA022732","cinii:organizationid":"KI000560","cinii:prefcode":"26","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"京都大学 大学院 エネルギー科学研究科","v:adr":{"@type":"v:Address","v:postal-code":"606-8501","v:label":"京都市左京区吉田本町"},"v:tel":[{"@type":"v:Tel","@value":"075-753-3591"}],"v:fax":[{"@type":"v:Fax","@value":"075-753-3591"}],"dc:description":["Graduate School of Energy Science Library, Kyoto University","Yoshida-Honmachi, Sakyo-ku, Kyoto 606-8501","URL:http://www.kulib.kyoto-u.ac.jp/enelib/ (website)","URL:http://www.kulib.kyoto-u.ac.jp/modules/map/index.php?content_id=8 (map)","注意事項 :図書室と研究室で分散所蔵しています。閲覧に際しては、資料の所在等を事前に確認してください。","注意事項 :研究室備付資料は当日利用できません。また、利用に応じられない場合があります。","注意事項 :臨時に閉室することがあります。閲覧の際は事前にメールでお問い合わせください。","館外貸出 :不可(但し身分証明書を預かりの上、一時持出可)","制限事項 :次に該当する資料には、閲覧できないものがあります。:「情報公開法」に定める公開対象外情報が記載された資料/非公開を条件に寄贈または寄託されている資料/破損や汚損のおそれがある資料/現在利用中の資料","制限事項 :貴重資料の閲覧には、所定の手続きが必要です。事前にご相談ください。","休室日 :土曜日/日曜日、国民の祝日、創立記念日(6/18)、夏季一斉休業日、年末年始、その他臨時に閉室する場合があります。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022732.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022732#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022732.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 大学院 エネルギー科学研究科"
+        },
+        {
+          "@value": "キョウトダイガク ダイガクイン エネルギーカガクケンキュウカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大エネ科"
+        },
+        {
+          "@value": "キョウダイエネカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022732",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都大学 大学院 エネルギー科学研究科",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8501",
+        "v:label": "京都市左京区吉田本町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-753-3591"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-753-3591"
+        }
+      ],
+      "dc:description": [
+        "Graduate School of Energy Science Library, Kyoto University",
+        "Yoshida-Honmachi, Sakyo-ku, Kyoto 606-8501",
+        "URL:http://www.kulib.kyoto-u.ac.jp/enelib/ (website)",
+        "URL:http://www.kulib.kyoto-u.ac.jp/modules/map/index.php?content_id=8 (map)",
+        "注意事項 :図書室と研究室で分散所蔵しています。閲覧に際しては、資料の所在等を事前に確認してください。",
+        "注意事項 :研究室備付資料は当日利用できません。また、利用に応じられない場合があります。",
+        "注意事項 :臨時に閉室することがあります。閲覧の際は事前にメールでお問い合わせください。",
+        "館外貸出 :不可(但し身分証明書を預かりの上、一時持出可)",
+        "制限事項 :次に該当する資料には、閲覧できないものがあります。:「情報公開法」に定める公開対象外情報が記載された資料/非公開を条件に寄贈または寄託されている資料/破損や汚損のおそれがある資料/現在利用中の資料",
+        "制限事項 :貴重資料の閲覧には、所定の手続きが必要です。事前にご相談ください。",
+        "休室日 :土曜日/日曜日、国民の祝日、創立記念日(6/18)、夏季一斉休業日、年末年始、その他臨時に閉室する場合があります。"
+      ]
+    }
+  ]
+}

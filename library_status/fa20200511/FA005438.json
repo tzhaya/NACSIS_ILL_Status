@@ -1,1 +1,88 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA005438.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA005438#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA005438.json"},"foaf:name":[{"@value":"女子美術大学 相模原図書館"},{"@value":"ジョシビジュツダイガク サガミハラトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"女美大相"},{"@value":"ジョビダイサガ","@language":"ja-hrkt"}],"cinii:memberid":"FA005438","cinii:organizationid":"KI002136","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"女子美術大学 相模原図書館","v:adr":{"@type":"v:Address","v:postal-code":"252-8538","v:label":"神奈川県相模原市南区麻溝台1900"},"v:tel":[{"@type":"v:Tel","@value":"042-778-6616"}],"v:fax":[{"@type":"v:Fax","@value":"042-778-6639"}],"dc:description":["Joshibi University of Art and Design Library","Asamizodai 1900, Minami-Ku, Sagamihara-shi, Kanagawa-ken 252-8538","URL:http://www1.joshibi.ac.jp/library/","URL:http://library.joshibi.ac.jp/sagamihara/","来館利用担当: 参考係","電話番号: 042-778-6616","受付時間: 9:30-18:30","持参書類: 紹介状(資料利用依頼書)、身分証明書","複写時間: 9:30-18:30","3F設置のコピー機(1台)のみコイン式、他階に設置のコピー機(4台)は、プリペイドカード式","館外貸出: 不可","制限事項: 一部閲覧できない資料があります","制限事項: 展覧会カタログは、関東圏内の展覧会会期終了後に貸し出しを開始します。(関東圏外の展覧会の場合は全ての会期終了後)","制限事項:所在が「松島文庫」・「森文庫」の資料は、禁帯出扱いのため「現物貸借」の対象外となります","休館日: 日曜・祝日・一斉休業期間・夏期休業期間中の土曜・創立記念日(10/30)・入試期間ほか","開館予定日は、図書館ホームページの開館カレンダーを参照してください","年末年始、夏期休業期間、年度末、蔵書点検、年度開始直後は、ILL業務を休止します","臨時閉館に際し、女子美術大学図書館の「文献複写」と「現物貸借」の取り扱いを3月2日(月)～5月31日(日)まで全て停止します。ご迷惑をおかけしますが、何卒ご了承下さい。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005438.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005438#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005438.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "女子美術大学 相模原図書館"
+        },
+        {
+          "@value": "ジョシビジュツダイガク サガミハラトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "女美大相"
+        },
+        {
+          "@value": "ジョビダイサガ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005438",
+      "cinii:organizationid": "KI002136",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "女子美術大学 相模原図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "252-8538",
+        "v:label": "神奈川県相模原市南区麻溝台1900"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-778-6616"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-778-6639"
+        }
+      ],
+      "dc:description": [
+        "Joshibi University of Art and Design Library",
+        "Asamizodai 1900, Minami-Ku, Sagamihara-shi, Kanagawa-ken 252-8538",
+        "URL:http://www1.joshibi.ac.jp/library/",
+        "URL:http://library.joshibi.ac.jp/sagamihara/",
+        "来館利用担当: 参考係",
+        "電話番号: 042-778-6616",
+        "受付時間: 9:30-18:30",
+        "持参書類: 紹介状(資料利用依頼書)、身分証明書",
+        "複写時間: 9:30-18:30",
+        "3F設置のコピー機(1台)のみコイン式、他階に設置のコピー機(4台)は、プリペイドカード式",
+        "館外貸出: 不可",
+        "制限事項: 一部閲覧できない資料があります",
+        "制限事項: 展覧会カタログは、関東圏内の展覧会会期終了後に貸し出しを開始します。(関東圏外の展覧会の場合は全ての会期終了後)",
+        "制限事項:所在が「松島文庫」・「森文庫」の資料は、禁帯出扱いのため「現物貸借」の対象外となります",
+        "休館日: 日曜・祝日・一斉休業期間・夏期休業期間中の土曜・創立記念日(10/30)・入試期間ほか",
+        "開館予定日は、図書館ホームページの開館カレンダーを参照してください",
+        "年末年始、夏期休業期間、年度末、蔵書点検、年度開始直後は、ILL業務を休止します",
+        "臨時閉館に際し、女子美術大学図書館の「文献複写」と「現物貸借」の取り扱いを3月2日(月)～5月31日(日)まで全て停止します。ご迷惑をおかけしますが、何卒ご了承下さい。"
+      ]
+    }
+  ]
+}

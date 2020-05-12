@@ -1,1 +1,65 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA027598.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA027598#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA027598.json"},"foaf:name":[{"@value":"健康科学大学 看護学部図書室"},{"@value":"ケンコウカガクダイガク カンゴガクブトショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"健康大看護"},{"@value":"ケンコウダイカンゴ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA027598","cinii:organizationid":"KI01299X","cinii:prefcode":"19","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"N","v:fn":"健康科学大学 看護学部図書室","v:adr":{"@type":"v:Address","v:postal-code":"402-8580","v:label":"都留市四日市場909-2"},"dc:description":["休館日: 土曜・日曜など。学事日程により開館日が異なります。詳細はホームページにてご確認下さい。","注意事項:持参書類、資料の所在など、事前にお問い合わせ下さい。","http://www.kenkoudai.ac.jp/library/","Twitter @hsu_nlibrary"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027598.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027598#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027598.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "健康科学大学 看護学部図書室"
+        },
+        {
+          "@value": "ケンコウカガクダイガク カンゴガクブトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "健康大看護"
+        },
+        {
+          "@value": "ケンコウダイカンゴ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA027598",
+      "cinii:organizationid": "KI01299X",
+      "cinii:prefcode": "19",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "健康科学大学 看護学部図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "402-8580",
+        "v:label": "都留市四日市場909-2"
+      },
+      "dc:description": [
+        "休館日: 土曜・日曜など。学事日程により開館日が異なります。詳細はホームページにてご確認下さい。",
+        "注意事項:持参書類、資料の所在など、事前にお問い合わせ下さい。",
+        "http://www.kenkoudai.ac.jp/library/",
+        "Twitter @hsu_nlibrary"
+      ]
+    }
+  ]
+}

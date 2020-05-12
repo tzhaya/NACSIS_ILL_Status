@@ -1,1 +1,67 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA02726X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA02726X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA02726X.json"},"foaf:name":[{"@value":"公益財団法人 国立劇場おきなわ運営財団"},{"@value":"コウエキザイダンホウジン コクリツゲキジョウオキナワウンエイザイダン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"国お図書閲覧室"},{"@value":"コクオトショエツランシツ","@language":"ja-hrkt"}],"dcterms:hasPart":["国お図"],"cinii:memberid":"FA02726X","cinii:organizationid":"KI015375","cinii:prefcode":"47","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"公益財団法人 国立劇場おきなわ運営財団","v:adr":{"@type":"v:Address","v:postal-code":"901-2122","v:label":"沖縄県浦添市勢理客4-14-1"},"dc:description":["National Theatre Okinawa","〒901-2122 4-14-1 Jitchaku,Urasoe Ctiy, Okinawa, JAPAN","URL:http://opac.nt-okinawa.or.jp/wo/opc/srh/","開室日:火-木曜、第2・4土曜日 午前10時-午後5時(※午後12時-午後1時は休室)","閉室日:月、金、日曜日、第1・3・5土曜日、祝日、慰霊の日(6月23日)、年末年始、特別整理期間","図書、雑誌等の閲覧および自主公演記録映像(DVD)の視聴がご利用いただけます。※外部への貸出、コピーサービスは行っておりません。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA02726X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA02726X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA02726X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公益財団法人 国立劇場おきなわ運営財団"
+        },
+        {
+          "@value": "コウエキザイダンホウジン コクリツゲキジョウオキナワウンエイザイダン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国お図書閲覧室"
+        },
+        {
+          "@value": "コクオトショエツランシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "国お図"
+      ],
+      "cinii:memberid": "FA02726X",
+      "cinii:organizationid": "KI015375",
+      "cinii:prefcode": "47",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "公益財団法人 国立劇場おきなわ運営財団",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "901-2122",
+        "v:label": "沖縄県浦添市勢理客4-14-1"
+      },
+      "dc:description": [
+        "National Theatre Okinawa",
+        "〒901-2122 4-14-1 Jitchaku,Urasoe Ctiy, Okinawa, JAPAN",
+        "URL:http://opac.nt-okinawa.or.jp/wo/opc/srh/",
+        "開室日:火-木曜、第2・4土曜日 午前10時-午後5時(※午後12時-午後1時は休室)",
+        "閉室日:月、金、日曜日、第1・3・5土曜日、祝日、慰霊の日(6月23日)、年末年始、特別整理期間",
+        "図書、雑誌等の閲覧および自主公演記録映像(DVD)の視聴がご利用いただけます。※外部への貸出、コピーサービスは行っておりません。"
+      ]
+    }
+  ]
+}

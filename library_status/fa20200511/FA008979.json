@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008979.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008979#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008979.json"},"foaf:name":[{"@value":"活水女子大学 図書館"},{"@value":"カッスイジョシダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"活女大"},{"@value":"カツジョダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","新図","看図"],"cinii:memberid":"FA008979","cinii:organizationid":"KI00446X","cinii:prefcode":"42","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"活水女子大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"850-8515","v:label":"長崎県長崎市東山手町1-50"},"v:tel":[{"@type":"v:Tel","@value":"095-820-6028"}],"v:fax":[{"@type":"v:Fax","@value":"095-823-3701"}],"dc:description":["ILL-Org:Kwassui Women's University Library","ILL-Address:1-50, Higashiyamate-machi, Nagasaki-shi","ILL-ZIP:850-8515","ILL-Commun1:Tel:+81-095-820-6028 /FAX:+81-095-823-3701 / E-mail:libsec@kwassui.ac.jp","URL:http://libsec.kwassui.ac.jp/ (website)","受付時間:9:00-18:00","注意事項:事前に電話連絡をしてください","持参書類:閲覧願・身分証明書","複写時間:9:00-19:50","館外貸出:不可","休館日:日曜日・祝休日・8/13-15,12/25,12/28-1/5,その他館長が必要と定めた日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008979.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008979#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008979.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "活水女子大学 図書館"
+        },
+        {
+          "@value": "カッスイジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "活女大"
+        },
+        {
+          "@value": "カツジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "新図",
+        "看図"
+      ],
+      "cinii:memberid": "FA008979",
+      "cinii:organizationid": "KI00446X",
+      "cinii:prefcode": "42",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "活水女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "850-8515",
+        "v:label": "長崎県長崎市東山手町1-50"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "095-820-6028"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "095-823-3701"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Kwassui Women's University Library",
+        "ILL-Address:1-50, Higashiyamate-machi, Nagasaki-shi",
+        "ILL-ZIP:850-8515",
+        "ILL-Commun1:Tel:+81-095-820-6028 /FAX:+81-095-823-3701 / E-mail:libsec@kwassui.ac.jp",
+        "URL:http://libsec.kwassui.ac.jp/ (website)",
+        "受付時間:9:00-18:00",
+        "注意事項:事前に電話連絡をしてください",
+        "持参書類:閲覧願・身分証明書",
+        "複写時間:9:00-19:50",
+        "館外貸出:不可",
+        "休館日:日曜日・祝休日・8/13-15,12/25,12/28-1/5,その他館長が必要と定めた日"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015260.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015260#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015260.json"},"foaf:name":[{"@value":"会津大学 情報センター (附属図書館)"},{"@value":"アイヅダイガク ジョウホウセンター (フゾクトショカン)","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"会津大"},{"@value":"アイヅダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","図書ラ"],"cinii:memberid":"FA015260","cinii:organizationid":"KI008132","cinii:prefcode":"07","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"会津大学 情報センター (附属図書館)","v:adr":{"@type":"v:Address","v:postal-code":"965-8580","v:label":"福島県会津若松市一箕町鶴賀"},"v:tel":[{"@type":"v:Tel","@value":"0242-37-2545"}],"v:fax":[{"@type":"v:Fax","@value":"0242-37-2554"}],"dc:description":["The University of Aizu","Tsuruga, Ikki-machi Aizu-Wakamatsu City Fukushima, 965-8580","URL:http://www.u-aizu.ac.jp/intro/facilities/library/ (website)","URL:http://www.u-aizu.ac.jp/access/ (map)","来館利用担当:カウンター","電話番号:0242-37-2545","受付時間:開館時間内","注意事項: 図書諸ラウンジ(研究室所蔵)の本は利用できません。開館日を確認して下さい。","持参書類:所属する大学等からの紹介状、その他閲覧証","複写時間:開館中","館外貸出:可。但し、福島県在住で18歳以上の方(高校生を除く)に限ります。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015260.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015260#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015260.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "会津大学 情報センター (附属図書館)"
+        },
+        {
+          "@value": "アイヅダイガク ジョウホウセンター (フゾクトショカン)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "会津大"
+        },
+        {
+          "@value": "アイヅダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "図書ラ"
+      ],
+      "cinii:memberid": "FA015260",
+      "cinii:organizationid": "KI008132",
+      "cinii:prefcode": "07",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "会津大学 情報センター (附属図書館)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "965-8580",
+        "v:label": "福島県会津若松市一箕町鶴賀"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0242-37-2545"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0242-37-2554"
+        }
+      ],
+      "dc:description": [
+        "The University of Aizu",
+        "Tsuruga, Ikki-machi Aizu-Wakamatsu City Fukushima, 965-8580",
+        "URL:http://www.u-aizu.ac.jp/intro/facilities/library/ (website)",
+        "URL:http://www.u-aizu.ac.jp/access/ (map)",
+        "来館利用担当:カウンター",
+        "電話番号:0242-37-2545",
+        "受付時間:開館時間内",
+        "注意事項: 図書諸ラウンジ(研究室所蔵)の本は利用できません。開館日を確認して下さい。",
+        "持参書類:所属する大学等からの紹介状、その他閲覧証",
+        "複写時間:開館中",
+        "館外貸出:可。但し、福島県在住で18歳以上の方(高校生を除く)に限ります。"
+      ]
+    }
+  ]
+}

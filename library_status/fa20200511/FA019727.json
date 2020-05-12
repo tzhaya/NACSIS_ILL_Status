@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019727.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019727#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019727.json"},"foaf:name":[{"@value":"東京電機大学 総合メディアセンター 千葉センター"},{"@value":"トウキョウデンキダイガク ソウゴウメディアセンター チバセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"電機大千葉"},{"@value":"デンキダイチバ","@language":"ja-hrkt"}],"cinii:memberid":"FA019727","cinii:organizationid":"KI002453","cinii:prefcode":"12","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"C","cinii:loanservice":"C","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"東京電機大学 総合メディアセンター 千葉センター","v:adr":{"@type":"v:Address","v:postal-code":"270-1382","v:label":"千葉県印西市武西学園台2-1200"},"v:tel":[{"@type":"v:Tel","@value":"0476-46-8729"}],"v:fax":[{"@type":"v:Fax","@value":"0476-46-8037"}],"dc:description":["Tokyo Denki University Multimedia Resource Center & Library Chiba Satelite Center","2-1200, Muzai-Gakuendai, Inzai-shi, Chiba 270-1382","URL:http://www.mrcl.dendai.ac.jp/","URL:http://www.dendai.ac.jp/d2_guide/index.html (map)","来館利用担当:閲覧担当","電話番号:0476-46-8729","受付時間:9:30〜19:00(土曜日〜16:00)","注意事項:閲覧・複写の利用は、事前にメール・電話等で連絡して下さい。","持参書類:閲覧紹介状","複写時間:9:30〜18:30(土曜日〜16:00)","館外貸出:不可","制限事項:定期試験中、入学試験中は利用制限あり。","休館日:日曜日・祝休日・創立記念日(9月11日)・夏季・冬季・春季の各休業中の一定期間"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019727.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019727#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019727.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京電機大学 総合メディアセンター 千葉センター"
+        },
+        {
+          "@value": "トウキョウデンキダイガク ソウゴウメディアセンター チバセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "電機大千葉"
+        },
+        {
+          "@value": "デンキダイチバ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019727",
+      "cinii:organizationid": "KI002453",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京電機大学 総合メディアセンター 千葉センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "270-1382",
+        "v:label": "千葉県印西市武西学園台2-1200"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0476-46-8729"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0476-46-8037"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Denki University Multimedia Resource Center & Library Chiba Satelite Center",
+        "2-1200, Muzai-Gakuendai, Inzai-shi, Chiba 270-1382",
+        "URL:http://www.mrcl.dendai.ac.jp/",
+        "URL:http://www.dendai.ac.jp/d2_guide/index.html (map)",
+        "来館利用担当:閲覧担当",
+        "電話番号:0476-46-8729",
+        "受付時間:9:30〜19:00(土曜日〜16:00)",
+        "注意事項:閲覧・複写の利用は、事前にメール・電話等で連絡して下さい。",
+        "持参書類:閲覧紹介状",
+        "複写時間:9:30〜18:30(土曜日〜16:00)",
+        "館外貸出:不可",
+        "制限事項:定期試験中、入学試験中は利用制限あり。",
+        "休館日:日曜日・祝休日・創立記念日(9月11日)・夏季・冬季・春季の各休業中の一定期間"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,72 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA024228.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA024228#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA024228.json"},"foaf:name":[{"@value":"仙台青葉学院短期大学 図書館"},{"@value":"センダイセイヨウガクインタンキダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"青葉短大"},{"@value":"セイヨウタンダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA024228","cinii:organizationid":"KI014554","cinii:prefcode":"04","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"仙台青葉学院短期大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"984-0022","v:label":"宮城県仙台市若林区五橋三丁目5-75"},"v:tel":[{"@type":"v:Tel","@value":"022-369-8003(直通)"},{"@type":"v:Tel","@value":"022-369-8000(代表)"}],"v:fax":[{"@type":"v:Fax","@value":"022-215-0950"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024228.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024228#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024228.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "仙台青葉学院短期大学 図書館"
+        },
+        {
+          "@value": "センダイセイヨウガクインタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "青葉短大"
+        },
+        {
+          "@value": "セイヨウタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024228",
+      "cinii:organizationid": "KI014554",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "仙台青葉学院短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "984-0022",
+        "v:label": "宮城県仙台市若林区五橋三丁目5-75"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-369-8003(直通)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "022-369-8000(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-215-0950"
+        }
+      ]
+    }
+  ]
+}

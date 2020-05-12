@@ -1,1 +1,95 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003192.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003192#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003192.json"},"foaf:name":[{"@value":"岡山大学 附属図書館 資源植物科学研究所分館"},{"@value":"オカヤマダイガク フゾクトショカン シゲンショクブツカガクケンキュウショブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"岡大植物研"},{"@value":"オカダイショクブツケン","@language":"ja-hrkt"}],"dcterms:hasPart":["植物研図"],"cinii:memberid":"FA003192","cinii:organizationid":"KI00071X","cinii:prefcode":"33","cinii:mextid":"006102","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"岡山大学 附属図書館 資源植物科学研究所分館","v:adr":{"@type":"v:Address","v:postal-code":"710-0046","v:label":"岡山県倉敷市中央2-20-1"},"v:tel":[{"@type":"v:Tel","@value":"086-434-1204"}],"v:fax":[{"@type":"v:Fax","@value":"086-434-1204"}],"dc:description":["ILL-Staff: Miyoshi, Misako","ILL-Dept: Interlibrary Loan Section","ILL-Org: Okayama University Institute of Plant Science and Resources Branch Library","ILL-Address: 2-20-1 Chuo Kurashiki, Japan","ILL-ZIP: 710-0046","ILL-Contact1: Tel: +81-86-434-1204 / FAX: +81-86-434-1204 / E-mail: fde1204@adm.okayama-u.ac.jp","ILL-Contact2: OPAC: http://webcat.lib.okayama-u.ac.jp/mylimedio/search/search-input.do?mode=comp&nqid=1 / Home-Page: http://www.rib.okayama-u.ac.jp/library/index-j.htm","ILL-Calender: Closed: Dec 28-Jan 4, Aug 13-15","ILL-Accept:International: LOAN: N/A","ILL-Accept:International: COPY: Yes (via Postal mail Only)","ILL-Accept-method:KERIS=NII ILL linkage(COPY only)","ILL-Payment-method:KERIS=NII Fee Management Service","ILL-Payment-method:International: IFLA Voucher","ILL-Copy-Charge: Black and White: 40 yen per sheet / Color: 70 yen per sheet + postage","ILL-Copy-Delivery-method:Airmail","学外の方もご利用になれます。","研究室所蔵資料の閲覧はできません。事前にOPAC等で所在を確認して下さい","貴重書の閲覧は事前にお問い合わせください。","開館時間: 9:00〜17:00(月〜金曜日)","休館日:土・日曜日, 祝日, 12/29-1/3, 8/13-15","Home-page: http://www.lib.okayama-u.ac.jp/index.html"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003192.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003192#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003192.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岡山大学 附属図書館 資源植物科学研究所分館"
+        },
+        {
+          "@value": "オカヤマダイガク フゾクトショカン シゲンショクブツカガクケンキュウショブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岡大植物研"
+        },
+        {
+          "@value": "オカダイショクブツケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "植物研図"
+      ],
+      "cinii:memberid": "FA003192",
+      "cinii:organizationid": "KI00071X",
+      "cinii:prefcode": "33",
+      "cinii:mextid": "006102",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "岡山大学 附属図書館 資源植物科学研究所分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "710-0046",
+        "v:label": "岡山県倉敷市中央2-20-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-434-1204"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-434-1204"
+        }
+      ],
+      "dc:description": [
+        "ILL-Staff: Miyoshi, Misako",
+        "ILL-Dept: Interlibrary Loan Section",
+        "ILL-Org: Okayama University Institute of Plant Science and Resources Branch Library",
+        "ILL-Address: 2-20-1 Chuo Kurashiki, Japan",
+        "ILL-ZIP: 710-0046",
+        "ILL-Contact1: Tel: +81-86-434-1204 / FAX: +81-86-434-1204 / E-mail: fde1204@adm.okayama-u.ac.jp",
+        "ILL-Contact2: OPAC: http://webcat.lib.okayama-u.ac.jp/mylimedio/search/search-input.do?mode=comp&nqid=1 / Home-Page: http://www.rib.okayama-u.ac.jp/library/index-j.htm",
+        "ILL-Calender: Closed: Dec 28-Jan 4, Aug 13-15",
+        "ILL-Accept:International: LOAN: N/A",
+        "ILL-Accept:International: COPY: Yes (via Postal mail Only)",
+        "ILL-Accept-method:KERIS=NII ILL linkage(COPY only)",
+        "ILL-Payment-method:KERIS=NII Fee Management Service",
+        "ILL-Payment-method:International: IFLA Voucher",
+        "ILL-Copy-Charge: Black and White: 40 yen per sheet / Color: 70 yen per sheet + postage",
+        "ILL-Copy-Delivery-method:Airmail",
+        "学外の方もご利用になれます。",
+        "研究室所蔵資料の閲覧はできません。事前にOPAC等で所在を確認して下さい",
+        "貴重書の閲覧は事前にお問い合わせください。",
+        "開館時間: 9:00〜17:00(月〜金曜日)",
+        "休館日:土・日曜日, 祝日, 12/29-1/3, 8/13-15",
+        "Home-page: http://www.lib.okayama-u.ac.jp/index.html"
+      ]
+    }
+  ]
+}

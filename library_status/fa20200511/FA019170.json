@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019170.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019170#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019170.json"},"foaf:name":[{"@value":"大阪観光大学 図書館"},{"@value":"オオサカカンコウダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"観光大"},{"@value":"カンコウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA019170","cinii:organizationid":"KI011396","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"大阪観光大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"590-0493","v:label":"大阪府泉南郡熊取町大久保南5-3-1"},"v:tel":[{"@type":"v:Tel","@value":"072-453-8222"}],"v:fax":[{"@type":"v:Fax","@value":"072-453-1451"}],"dc:description":["5-3-1 Okubo Minami, Kumatori-cho, Sennan-gun, Osaka 590-0493","Osaka University of Tourism","電話番号:072-453-8222","URL:http://library.tourism.ac.jp/","URL:http://www.tourism.ac.jp/(map)","受付時間:9:00〜17:00","注意事項:資料の所在・開館日等、事前確認をして下さい","複写時間:9:00〜17:00","持参書類:利用許可願","館外貸出:図書館長の許可があれば可","休館日:土曜日、日曜日、国民の祝日、蔵書点検期間(2月27日～3月9日)は、相互利用サービスを休止します。その他臨時に休館の場合あり(HPを参照ください)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019170.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019170#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019170.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪観光大学 図書館"
+        },
+        {
+          "@value": "オオサカカンコウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "観光大"
+        },
+        {
+          "@value": "カンコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA019170",
+      "cinii:organizationid": "KI011396",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪観光大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "590-0493",
+        "v:label": "大阪府泉南郡熊取町大久保南5-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-453-8222"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-453-1451"
+        }
+      ],
+      "dc:description": [
+        "5-3-1 Okubo Minami, Kumatori-cho, Sennan-gun, Osaka 590-0493",
+        "Osaka University of Tourism",
+        "電話番号:072-453-8222",
+        "URL:http://library.tourism.ac.jp/",
+        "URL:http://www.tourism.ac.jp/(map)",
+        "受付時間:9:00〜17:00",
+        "注意事項:資料の所在・開館日等、事前確認をして下さい",
+        "複写時間:9:00〜17:00",
+        "持参書類:利用許可願",
+        "館外貸出:図書館長の許可があれば可",
+        "休館日:土曜日、日曜日、国民の祝日、蔵書点検期間(2月27日～3月9日)は、相互利用サービスを休止します。その他臨時に休館の場合あり(HPを参照ください)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018145.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018145#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018145.json"},"foaf:name":[{"@value":"埼玉県立大学 情報センター"},{"@value":"サイタマケンリツダイガク ジョウホウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"埼県大"},{"@value":"サイケンダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA018145","cinii:organizationid":"KI010597","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"埼玉県立大学 情報センター","v:adr":{"@type":"v:Address","v:postal-code":"343-8540","v:label":"埼玉県越谷市三野宮820"},"v:tel":[{"@type":"v:Tel","@value":"048-973-4122"}],"v:fax":[{"@type":"v:Fax","@value":"048-973-4810"}],"dc:description":["Saitama Prefectural University","820, Sannomiya, Koshigaya-City, Saitama 343-8540","URL:https://www.spu.ac.jp/library/","来館利用担当:情報センター","電話番号:048-973-4122","受付時間:8:30～21:30,土曜日:8:30～18:10(短縮開館期間は9:00～17:00まで)、","日曜日:9:00～17:00(大学休業期間は閉館)","注意事項:学外の方のご利用に関しては本館HP(上記URL)『利用案内』をご覧ください。","複写時間:8:30～閉館15分前まで","休館日:大学休業期間の日曜日、GW、閉学期間、特別整理期間、年末年始、その他大学の定める休日。","期間中はご迷惑をお掛け致しますが、ご理解・ご協力の程、宜しくお願い致します。","=====【お知らせ】=====","2012/02/13より、現物貸借サービスを開始いたしました。","利用方法につきましては、担当までお問い合わせください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018145.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018145#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018145.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "埼玉県立大学 情報センター"
+        },
+        {
+          "@value": "サイタマケンリツダイガク ジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "埼県大"
+        },
+        {
+          "@value": "サイケンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018145",
+      "cinii:organizationid": "KI010597",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "埼玉県立大学 情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "343-8540",
+        "v:label": "埼玉県越谷市三野宮820"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-973-4122"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-973-4810"
+        }
+      ],
+      "dc:description": [
+        "Saitama Prefectural University",
+        "820, Sannomiya, Koshigaya-City, Saitama 343-8540",
+        "URL:https://www.spu.ac.jp/library/",
+        "来館利用担当:情報センター",
+        "電話番号:048-973-4122",
+        "受付時間:8:30～21:30,土曜日:8:30～18:10(短縮開館期間は9:00～17:00まで)、",
+        "日曜日:9:00～17:00(大学休業期間は閉館)",
+        "注意事項:学外の方のご利用に関しては本館HP(上記URL)『利用案内』をご覧ください。",
+        "複写時間:8:30～閉館15分前まで",
+        "休館日:大学休業期間の日曜日、GW、閉学期間、特別整理期間、年末年始、その他大学の定める休日。",
+        "期間中はご迷惑をお掛け致しますが、ご理解・ご協力の程、宜しくお願い致します。",
+        "=====【お知らせ】=====",
+        "2012/02/13より、現物貸借サービスを開始いたしました。",
+        "利用方法につきましては、担当までお問い合わせください。"
+      ]
+    }
+  ]
+}

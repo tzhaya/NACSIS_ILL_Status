@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA026970.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA026970#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA026970.json"},"foaf:name":[{"@value":"京都看護大学 図書館"},{"@value":"キョウトカンゴダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"京看大"},{"@value":"キョウカンダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA026970","cinii:organizationid":"KI015284","cinii:prefcode":"26","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"京都看護大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"604-8845","v:label":"京都市中京区壬生東高田町1-21"},"v:tel":[{"@type":"v:Tel","@value":"075-311-5353"}],"v:fax":[{"@type":"v:Fax","@value":"075-311-5353"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA026970.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA026970#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA026970.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都看護大学 図書館"
+        },
+        {
+          "@value": "キョウトカンゴダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京看大"
+        },
+        {
+          "@value": "キョウカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA026970",
+      "cinii:organizationid": "KI015284",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都看護大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "604-8845",
+        "v:label": "京都市中京区壬生東高田町1-21"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-311-5353"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-311-5353"
+        }
+      ]
+    }
+  ]
+}

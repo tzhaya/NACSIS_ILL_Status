@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014698.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014698#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014698.json"},"foaf:name":[{"@value":"青森公立大学 図書館"},{"@value":"アオモリコウリツダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"青公大"},{"@value":"アオコウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA014698","cinii:organizationid":"KI007854","cinii:prefcode":"02","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"青森公立大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"030-0196","v:label":"青森市合子沢山崎153-4"},"v:tel":[{"@type":"v:Tel","@value":"017-764-1551"}],"v:fax":[{"@type":"v:Fax","@value":"017-764-1591"}],"dc:description":["Aomori Public University Library","153-4,Yamazaki,Goshizawa,Aomori","URL:https://opac.apulib.nebuta.ac.jp","来館利用担当 : 図書館","電話番号:017-764-1551","開館時間:9:00～20:00(春期・夏期・冬期休業期間中は 9:00～17:00) 。変更の場合もあります。詳細はホームページを参照してください。","複写受付時間:9:00～閉館15分前まで","閲覧対象者:18歳以上、高校生不可","閲覧事前連絡:特に必要ありません。","閲覧注記:図書館カウンターに申し出てください。","館外貸出:可(県内在住もしくは県内に通勤通学している方。身分を証明するものをご持参ください)","休館日:日曜日、祝日、年末年始(12/29～1/3)、春期・夏期・冬期休業期間中の土曜日、大学休業日。蔵書点検期間は新聞・雑誌の閲覧、座席の利用のみ可能です。詳細はホームページを参照してください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014698.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014698#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014698.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "青森公立大学 図書館"
+        },
+        {
+          "@value": "アオモリコウリツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "青公大"
+        },
+        {
+          "@value": "アオコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA014698",
+      "cinii:organizationid": "KI007854",
+      "cinii:prefcode": "02",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "青森公立大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "030-0196",
+        "v:label": "青森市合子沢山崎153-4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "017-764-1551"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "017-764-1591"
+        }
+      ],
+      "dc:description": [
+        "Aomori Public University Library",
+        "153-4,Yamazaki,Goshizawa,Aomori",
+        "URL:https://opac.apulib.nebuta.ac.jp",
+        "来館利用担当 : 図書館",
+        "電話番号:017-764-1551",
+        "開館時間:9:00～20:00(春期・夏期・冬期休業期間中は 9:00～17:00) 。変更の場合もあります。詳細はホームページを参照してください。",
+        "複写受付時間:9:00～閉館15分前まで",
+        "閲覧対象者:18歳以上、高校生不可",
+        "閲覧事前連絡:特に必要ありません。",
+        "閲覧注記:図書館カウンターに申し出てください。",
+        "館外貸出:可(県内在住もしくは県内に通勤通学している方。身分を証明するものをご持参ください)",
+        "休館日:日曜日、祝日、年末年始(12/29～1/3)、春期・夏期・冬期休業期間中の土曜日、大学休業日。蔵書点検期間は新聞・雑誌の閲覧、座席の利用のみ可能です。詳細はホームページを参照してください。"
+      ]
+    }
+  ]
+}

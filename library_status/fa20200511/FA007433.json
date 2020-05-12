@@ -1,1 +1,97 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007433.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007433#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007433.json"},"foaf:name":[{"@value":"南山大学 図書館"},{"@value":"ナンザンダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"南山大"},{"@value":"ナンザンダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","アメ","人類","社会","宗教","ラテ","ヨロ","オス","瀬戸","アジ","アジ太"],"cinii:memberid":"FA007433","cinii:organizationid":"KI00330X","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"南山大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"466-8673","v:label":"愛知県名古屋市昭和区山里町18"},"v:tel":[{"@type":"v:Tel","@value":"052-832-3707"}],"v:fax":[{"@type":"v:Fax","@value":"052-833-6986"}],"dc:description":["URL:http://office.nanzan-u.ac.jp/library/ (website)","URL:https://opac.nanzan-u.ac.jp/ (OPAC)","▼来館利用担当: 利用者支援係","▼電話番号: 052-832-3707","▼閲覧対象者: 教職員・学生・その他、本学図書館資料を利用するということが明確な一般利用者(ただし、中学生以下を除く)","▼利用登録: 閲覧・貸出には利用登録が必要です。氏名と住所の両方が確認できる身分証明書をお持ちください。","▼利用時間:授業・定期試験期間: 9:00-22:00(土曜日-20:00,日曜日:10:00-17:00) 授業・定期試験期間以外: 9:00-20:00","▼休館日:図書館Webページ「カレンダー」でご確認ください。","▼館外貸出:可(5冊2週間)※一部資料は貸出不可(詳細は図書館Webページ「利用ガイド」をご覧ください)","▼複写時間: 開館時間中","▼注意事項1: 事前に南山大学図書館OPACを利用して資料を検索し、所蔵館、配置場所、状態を確認してお越しください。","▼注意事項2: OPACでの検索の結果、所蔵館が「図書館」以外の場合(例:「地域研究センター図書室」「社会倫理研究所図書室」など)は、キャンパス内の各種施設(例:アメリカ研究センター、社会倫理研究所など)で所蔵している資料です。本館とは開室状況・利用方法などが異なります。事前に開室、利用方法をご確認ください。URL:http://rci.nanzan-u.ac.jp/rc-ri/","▼注意事項3: OPACでの検索の結果、所蔵館が「学外書庫」の資料は閲覧・貸出不可です。","▼注意事項4: 車での来館はご遠慮ください。大学アクセスマップ:URL:http://www.nanzan-u.ac.jp/Information/access.html"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007433.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007433#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007433.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "南山大学 図書館"
+        },
+        {
+          "@value": "ナンザンダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "南山大"
+        },
+        {
+          "@value": "ナンザンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "アメ",
+        "人類",
+        "社会",
+        "宗教",
+        "ラテ",
+        "ヨロ",
+        "オス",
+        "瀬戸",
+        "アジ",
+        "アジ太"
+      ],
+      "cinii:memberid": "FA007433",
+      "cinii:organizationid": "KI00330X",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "南山大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "466-8673",
+        "v:label": "愛知県名古屋市昭和区山里町18"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-832-3707"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-833-6986"
+        }
+      ],
+      "dc:description": [
+        "URL:http://office.nanzan-u.ac.jp/library/ (website)",
+        "URL:https://opac.nanzan-u.ac.jp/ (OPAC)",
+        "▼来館利用担当: 利用者支援係",
+        "▼電話番号: 052-832-3707",
+        "▼閲覧対象者: 教職員・学生・その他、本学図書館資料を利用するということが明確な一般利用者(ただし、中学生以下を除く)",
+        "▼利用登録: 閲覧・貸出には利用登録が必要です。氏名と住所の両方が確認できる身分証明書をお持ちください。",
+        "▼利用時間:授業・定期試験期間: 9:00-22:00(土曜日-20:00,日曜日:10:00-17:00) 授業・定期試験期間以外: 9:00-20:00",
+        "▼休館日:図書館Webページ「カレンダー」でご確認ください。",
+        "▼館外貸出:可(5冊2週間)※一部資料は貸出不可(詳細は図書館Webページ「利用ガイド」をご覧ください)",
+        "▼複写時間: 開館時間中",
+        "▼注意事項1: 事前に南山大学図書館OPACを利用して資料を検索し、所蔵館、配置場所、状態を確認してお越しください。",
+        "▼注意事項2: OPACでの検索の結果、所蔵館が「図書館」以外の場合(例:「地域研究センター図書室」「社会倫理研究所図書室」など)は、キャンパス内の各種施設(例:アメリカ研究センター、社会倫理研究所など)で所蔵している資料です。本館とは開室状況・利用方法などが異なります。事前に開室、利用方法をご確認ください。URL:http://rci.nanzan-u.ac.jp/rc-ri/",
+        "▼注意事項3: OPACでの検索の結果、所蔵館が「学外書庫」の資料は閲覧・貸出不可です。",
+        "▼注意事項4: 車での来館はご遠慮ください。大学アクセスマップ:URL:http://www.nanzan-u.ac.jp/Information/access.html"
+      ]
+    }
+  ]
+}

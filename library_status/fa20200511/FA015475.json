@@ -1,1 +1,109 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015475.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015475#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015475.json"},"foaf:name":[{"@value":"滋賀県立大学 図書情報センター"},{"@value":"シガケンリツダイガク トショジョウホウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"滋県大"},{"@value":"シケンダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["看護"],"cinii:memberid":"FA015475","cinii:organizationid":"KI008267","cinii:prefcode":"25","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"滋賀県立大学 図書情報センター","v:adr":{"@type":"v:Address","v:postal-code":"522-8533","v:label":"滋賀県彦根市八坂町2500"},"v:tel":[{"@type":"v:Tel","@value":"0749-28-8231"}],"v:fax":[{"@type":"v:Fax","@value":"0749-28-8475"}],"dc:description":["The University of Shiga Prefecture","2500,Hassaka-cho,Hikone,Shiga, 522-8533","URL: https://www.lib.usp.ac.jp/drupal/","開館時間:9:00～20:00 (後期定期試験終了の翌日から3月19日までは9:00～18:00)(休業期間は9:00～17:00)","閲覧事前連絡: 不要です。資料の有無等の確認は電話かFAXでお願いします。","注意事項: コレクション資料および貴重資料の閲覧のために来館される方へ。資料の閲覧は可能ですが、汚れや傷みのひどい資料は閲覧を制限させていただくことがあります。貸出はできません。複写は可能ですが、汚れや傷みのひどい資料は複写をお断りしますので予めご了承ください。デジタルカメラによる撮影はできません。","来館時の持参物: 紹介状は必要ありません。ただし、利用者カード発行を希望する人は免許証等住所確認できるものを持参して下さい。交付手数料は700円です。","館外貸出: カウンターにお尋ねください。","休館日: 土曜日、日曜日、国民の祝日、年末年始(12/28～1/4),  夏季一斉休業などで休館することがありますので、ホームページ(http://www.linc.usp.ac.jp/index.htm)でご確認ください。","ILL-Staff: Komai, Atsumi","ILL-Dept: Interlibrary Loan Service Section","ILL-Org: University of Shiga Prefecture Library","ILL-Address: 2500 Hassaka-cho, Hikone, Shiga, JAPAN","ILL-ZIP: 522-8533","ILL-Contact1: Tel:+81-749-28-8231 / Fax:+81-749-28-8475 / E-mail:tosho@office.usp.ac.jp","ILL-Contact2: OPAC:http://www.lib.usp.ac.jp/mylimedio/search/search-input.do?lang=en / HOME-PAGE:https://www.lib.usp.ac.jp/drupal/","ILL-Calender: Closed: Saturday, Sunday, public holidays, Dec28-Jan4","ILL-Accept: International: LOAN: Yes (traceable courier with insurance only)","ILL-Accept: International: COPY: Yes","ILL-Accept-method: OCLC WSILL: SQH","ILL-Accept-method: KERIS=NII ILL linkage","ILL-Accept-method: International: E-mail","ILL-Payment-method: International: Invoice: Yes","ILL-Payment-method: International: IFLA Voucher: Yes","ILL-Payment-method: International: KERIS=NII Fee Management service: Yes","ILL-Loan-Period: 8 weeks","ILL-Loan-Item-Max: 5","ILL-Loan-Renewal: N/A","ILL-Loan-Charge: 2 IFLA Vouchers per book","ILL-Loan-Charge: KERIS=NII: Postage only","ILL-Loan-Delivery-method: Tracked system","ILL-Non-Circulation-items: Books in deteriorated condition, special collections, refarence collections, journal issues, DVDs, microfilms, microfiches, dissertation.","ILL-Copy-Charge: Half IFLA Voucher per document","ILL-Copy-Charge: KERIS=NII: 35 JPY per sheet & postage, 35 JPY per exposure","ILL-Copy-Delivery-method: Airmail","ILL-Note: We refuse your request for a fixed period in case of there is much number of times of delay."]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015475.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015475#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015475.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "滋賀県立大学 図書情報センター"
+        },
+        {
+          "@value": "シガケンリツダイガク トショジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "滋県大"
+        },
+        {
+          "@value": "シケンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "看護"
+      ],
+      "cinii:memberid": "FA015475",
+      "cinii:organizationid": "KI008267",
+      "cinii:prefcode": "25",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "滋賀県立大学 図書情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "522-8533",
+        "v:label": "滋賀県彦根市八坂町2500"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0749-28-8231"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0749-28-8475"
+        }
+      ],
+      "dc:description": [
+        "The University of Shiga Prefecture",
+        "2500,Hassaka-cho,Hikone,Shiga, 522-8533",
+        "URL: https://www.lib.usp.ac.jp/drupal/",
+        "開館時間:9:00～20:00 (後期定期試験終了の翌日から3月19日までは9:00～18:00)(休業期間は9:00～17:00)",
+        "閲覧事前連絡: 不要です。資料の有無等の確認は電話かFAXでお願いします。",
+        "注意事項: コレクション資料および貴重資料の閲覧のために来館される方へ。資料の閲覧は可能ですが、汚れや傷みのひどい資料は閲覧を制限させていただくことがあります。貸出はできません。複写は可能ですが、汚れや傷みのひどい資料は複写をお断りしますので予めご了承ください。デジタルカメラによる撮影はできません。",
+        "来館時の持参物: 紹介状は必要ありません。ただし、利用者カード発行を希望する人は免許証等住所確認できるものを持参して下さい。交付手数料は700円です。",
+        "館外貸出: カウンターにお尋ねください。",
+        "休館日: 土曜日、日曜日、国民の祝日、年末年始(12/28～1/4),  夏季一斉休業などで休館することがありますので、ホームページ(http://www.linc.usp.ac.jp/index.htm)でご確認ください。",
+        "ILL-Staff: Komai, Atsumi",
+        "ILL-Dept: Interlibrary Loan Service Section",
+        "ILL-Org: University of Shiga Prefecture Library",
+        "ILL-Address: 2500 Hassaka-cho, Hikone, Shiga, JAPAN",
+        "ILL-ZIP: 522-8533",
+        "ILL-Contact1: Tel:+81-749-28-8231 / Fax:+81-749-28-8475 / E-mail:tosho@office.usp.ac.jp",
+        "ILL-Contact2: OPAC:http://www.lib.usp.ac.jp/mylimedio/search/search-input.do?lang=en / HOME-PAGE:https://www.lib.usp.ac.jp/drupal/",
+        "ILL-Calender: Closed: Saturday, Sunday, public holidays, Dec28-Jan4",
+        "ILL-Accept: International: LOAN: Yes (traceable courier with insurance only)",
+        "ILL-Accept: International: COPY: Yes",
+        "ILL-Accept-method: OCLC WSILL: SQH",
+        "ILL-Accept-method: KERIS=NII ILL linkage",
+        "ILL-Accept-method: International: E-mail",
+        "ILL-Payment-method: International: Invoice: Yes",
+        "ILL-Payment-method: International: IFLA Voucher: Yes",
+        "ILL-Payment-method: International: KERIS=NII Fee Management service: Yes",
+        "ILL-Loan-Period: 8 weeks",
+        "ILL-Loan-Item-Max: 5",
+        "ILL-Loan-Renewal: N/A",
+        "ILL-Loan-Charge: 2 IFLA Vouchers per book",
+        "ILL-Loan-Charge: KERIS=NII: Postage only",
+        "ILL-Loan-Delivery-method: Tracked system",
+        "ILL-Non-Circulation-items: Books in deteriorated condition, special collections, refarence collections, journal issues, DVDs, microfilms, microfiches, dissertation.",
+        "ILL-Copy-Charge: Half IFLA Voucher per document",
+        "ILL-Copy-Charge: KERIS=NII: 35 JPY per sheet & postage, 35 JPY per exposure",
+        "ILL-Copy-Delivery-method: Airmail",
+        "ILL-Note: We refuse your request for a fixed period in case of there is much number of times of delay."
+      ]
+    }
+  ]
+}

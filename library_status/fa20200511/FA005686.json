@@ -1,1 +1,102 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA005686.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA005686#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA005686.json"},"foaf:name":[{"@value":"中央大学 図書館 理工学部分館"},{"@value":"チユウオウダイガク トシヨカン リコウガクブブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"中大理"},{"@value":"チユウダイリ","@language":"ja-hrkt"}],"dcterms:hasPart":["理工","数学","地学","物理","化学","電気","精密","経工","都市環境","理語","情報","生命","理人社","理集密","理参考","理集密2","EJ","理体","人間総合"],"cinii:memberid":"FA005686","cinii:organizationid":"KI002293","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"中央大学 図書館 理工学部分館","v:adr":{"@type":"v:Address","v:postal-code":"112-8551","v:label":"東京都文京区春日1-13-27"},"v:tel":[{"@type":"v:Tel","@value":"03-3817-1982"}],"v:fax":[{"@type":"v:Fax","@value":"03-3817-1978"}],"dc:description":["Chuo University Library","1-13-27 Kasuga, Bunkyoku, Tokyo, 112-8551","URL:http://www.chuo-u.ac.jp/library/","受付時間:月—金:9:30-11:30、13:00-16:30","注意事項:当館は一般公開しておりません。当館所蔵資料の利用をご希望の場合は、所属の大学図書館もしくは公共図書館を通してFAXにて事前確認してください。また所蔵確認には時間がかかる場合があります。","注意事項:個人の方からのお問い合わせにはお答えできませんのでご了承ください。","注意事項:車両(二輪車・自転車を含む)での来館はできません。公共交通機関をご利用ください。","持参書類:紹介状(図書館長の公印のあるもの)および身分証明書","複写時間:月—金:9:30-11:30、13:00-16:30","館外貸出:不可","休館日:日曜日、国民の祝日、年末年始、大学の休日、12/25〜1/5"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005686.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005686#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005686.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "中央大学 図書館 理工学部分館"
+        },
+        {
+          "@value": "チユウオウダイガク トシヨカン リコウガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中大理"
+        },
+        {
+          "@value": "チユウダイリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "理工",
+        "数学",
+        "地学",
+        "物理",
+        "化学",
+        "電気",
+        "精密",
+        "経工",
+        "都市環境",
+        "理語",
+        "情報",
+        "生命",
+        "理人社",
+        "理集密",
+        "理参考",
+        "理集密2",
+        "EJ",
+        "理体",
+        "人間総合"
+      ],
+      "cinii:memberid": "FA005686",
+      "cinii:organizationid": "KI002293",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "中央大学 図書館 理工学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "112-8551",
+        "v:label": "東京都文京区春日1-13-27"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3817-1982"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3817-1978"
+        }
+      ],
+      "dc:description": [
+        "Chuo University Library",
+        "1-13-27 Kasuga, Bunkyoku, Tokyo, 112-8551",
+        "URL:http://www.chuo-u.ac.jp/library/",
+        "受付時間:月—金:9:30-11:30、13:00-16:30",
+        "注意事項:当館は一般公開しておりません。当館所蔵資料の利用をご希望の場合は、所属の大学図書館もしくは公共図書館を通してFAXにて事前確認してください。また所蔵確認には時間がかかる場合があります。",
+        "注意事項:個人の方からのお問い合わせにはお答えできませんのでご了承ください。",
+        "注意事項:車両(二輪車・自転車を含む)での来館はできません。公共交通機関をご利用ください。",
+        "持参書類:紹介状(図書館長の公印のあるもの)および身分証明書",
+        "複写時間:月—金:9:30-11:30、13:00-16:30",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、年末年始、大学の休日、12/25〜1/5"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,77 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA020205.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA020205#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA020205.json"},"foaf:name":[{"@value":"飯田女子短期大学 図書館"},{"@value":"イイダジヨシタンキダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"飯田女短"},{"@value":"イイダジヨタン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA020205","cinii:organizationid":"KI012151","cinii:prefcode":"20","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"飯田女子短期大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"395-8567","v:label":"長野県飯田市松尾代田610"},"v:tel":[{"@type":"v:Tel","@value":"0265-53-6962"}],"v:fax":[{"@type":"v:Fax","@value":"0265-53-5576"}],"dc:description":["ILL-Org:Iida Woman's junior College Library","ILL-Address:610Matsuoshiroda, Iida-shi, Nagano-ken, JAPAN","ILL-ZIP:395-8567","URL:http://www.iidawjc.ac.jp/?page_id=3489/(飯田女子短期大学図書館)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020205.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020205#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020205.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "飯田女子短期大学 図書館"
+        },
+        {
+          "@value": "イイダジヨシタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "飯田女短"
+        },
+        {
+          "@value": "イイダジヨタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA020205",
+      "cinii:organizationid": "KI012151",
+      "cinii:prefcode": "20",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "飯田女子短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "395-8567",
+        "v:label": "長野県飯田市松尾代田610"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0265-53-6962"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0265-53-5576"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Iida Woman's junior College Library",
+        "ILL-Address:610Matsuoshiroda, Iida-shi, Nagano-ken, JAPAN",
+        "ILL-ZIP:395-8567",
+        "URL:http://www.iidawjc.ac.jp/?page_id=3489/(飯田女子短期大学図書館)"
+      ]
+    }
+  ]
+}

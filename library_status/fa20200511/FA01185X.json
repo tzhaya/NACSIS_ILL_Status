@@ -1,1 +1,88 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA01185X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA01185X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA01185X.json"},"foaf:name":[{"@value":"東京大学 生産技術研究所 図書室"},{"@value":"トウキョウダイガク セイサンギジュツケンキュウショ トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東大生研"},{"@value":"トウダイセイケン","@language":"ja-hrkt"}],"dcterms:hasPart":["図書","研究部","千葉保存","千葉","研究部(学環)"],"cinii:memberid":"FA01185X","cinii:organizationid":"KI000221","cinii:prefcode":"13","cinii:mextid":"002118","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"東京大学 生産技術研究所 図書室","v:adr":{"@type":"v:Address","v:postal-code":"153-8505","v:label":"東京都目黒区駒場4-6-1"},"v:tel":[{"@type":"v:Tel","@value":"03-5452-6019(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"03-5452-6074"}],"dc:description":["URL:http://www.iis.u-tokyo.ac.jp/~tosho/index.html (website)","URL:http://www.iis.u-tokyo.ac.jp/map/index.html (map)","注意事項: 図書室以外の場所に収蔵されている資料も多いため、確実な利用のためには事前にメール・電話・FAX等でお問い合わせください。","閲覧受付時間: 平日9:30-12:00, 13:00-17:00","休館日: 土曜日・日曜日・国民の祝日・年末年始・本所公開日(6月)・蔵書点検期間","休館日注記: 臨時に閉室することがあります。事前にホームページで開室予定をご確認ください。","ILL-Org:Institute of Industrial Science Library, the University of Tokyo","ILL-Address:4-6-1 Komaba, Meguro-ku, Tokyo, JAPAN","ILL-ZIP:153-8505","ILL-Commun1:Tel:+81-3-5452-6020 / Fax:+81-5452-6074 / E-mail:tosho@iis.u-tokyo.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01185X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01185X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01185X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 生産技術研究所 図書室"
+        },
+        {
+          "@value": "トウキョウダイガク セイサンギジュツケンキュウショ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大生研"
+        },
+        {
+          "@value": "トウダイセイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "研究部",
+        "千葉保存",
+        "千葉",
+        "研究部(学環)"
+      ],
+      "cinii:memberid": "FA01185X",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002118",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東京大学 生産技術研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "153-8505",
+        "v:label": "東京都目黒区駒場4-6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5452-6019(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5452-6074"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.iis.u-tokyo.ac.jp/~tosho/index.html (website)",
+        "URL:http://www.iis.u-tokyo.ac.jp/map/index.html (map)",
+        "注意事項: 図書室以外の場所に収蔵されている資料も多いため、確実な利用のためには事前にメール・電話・FAX等でお問い合わせください。",
+        "閲覧受付時間: 平日9:30-12:00, 13:00-17:00",
+        "休館日: 土曜日・日曜日・国民の祝日・年末年始・本所公開日(6月)・蔵書点検期間",
+        "休館日注記: 臨時に閉室することがあります。事前にホームページで開室予定をご確認ください。",
+        "ILL-Org:Institute of Industrial Science Library, the University of Tokyo",
+        "ILL-Address:4-6-1 Komaba, Meguro-ku, Tokyo, JAPAN",
+        "ILL-ZIP:153-8505",
+        "ILL-Commun1:Tel:+81-3-5452-6020 / Fax:+81-5452-6074 / E-mail:tosho@iis.u-tokyo.ac.jp"
+      ]
+    }
+  ]
+}

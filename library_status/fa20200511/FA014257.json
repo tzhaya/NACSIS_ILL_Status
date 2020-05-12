@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014257.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014257#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014257.json"},"foaf:name":[{"@value":"奈良県立大学 附属図書館"},{"@value":"ナラケンリツダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"奈県大"},{"@value":"ナラケンダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA014257","cinii:organizationid":"KI007490","cinii:prefcode":"29","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"奈良県立大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"630-8258","v:label":"奈良県奈良市船橋町10"},"v:tel":[{"@type":"v:Tel","@value":"0742-93-5294"}],"v:fax":[{"@type":"v:Fax","@value":"0742-93-7455"}],"dc:description":["Nara Prefectural University Library","10, Funabashi-cho, Nara-shi, Nara 630-8258","URL:http://www.narapu.ac.jp/library/","来館利用担当:図書館係","電話番号:0742-93-5294","開館時間:9:00〜20:00 (大学休業中は9:00〜17:00)","注意事項:資料の所在等、事前確認をしてください。","利  用:19歳以上の県内在住・在勤・在学者のみ可。","持参書類:身分証明書","制限事項:館外貸出は一般図書のみ。","休館日:土曜日、日曜日、国民の祝日、本学開学記念日(4月30日)、年末年始(12月28日〜1月4日)、本学入学試験日、図書整理日(毎月第4水曜日)、その他、臨時に休館することがありますので、ホームページ等をご確認ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014257.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014257#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014257.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "奈良県立大学 附属図書館"
+        },
+        {
+          "@value": "ナラケンリツダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "奈県大"
+        },
+        {
+          "@value": "ナラケンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA014257",
+      "cinii:organizationid": "KI007490",
+      "cinii:prefcode": "29",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "奈良県立大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "630-8258",
+        "v:label": "奈良県奈良市船橋町10"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0742-93-5294"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0742-93-7455"
+        }
+      ],
+      "dc:description": [
+        "Nara Prefectural University Library",
+        "10, Funabashi-cho, Nara-shi, Nara 630-8258",
+        "URL:http://www.narapu.ac.jp/library/",
+        "来館利用担当:図書館係",
+        "電話番号:0742-93-5294",
+        "開館時間:9:00〜20:00 (大学休業中は9:00〜17:00)",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "利  用:19歳以上の県内在住・在勤・在学者のみ可。",
+        "持参書類:身分証明書",
+        "制限事項:館外貸出は一般図書のみ。",
+        "休館日:土曜日、日曜日、国民の祝日、本学開学記念日(4月30日)、年末年始(12月28日〜1月4日)、本学入学試験日、図書整理日(毎月第4水曜日)、その他、臨時に休館することがありますので、ホームページ等をご確認ください。"
+      ]
+    }
+  ]
+}

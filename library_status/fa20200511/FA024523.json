@@ -1,1 +1,76 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA024523.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA024523#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA024523.json"},"foaf:name":[{"@value":"孫文記念館文庫"},{"@value":"ソンブンキネンカンブンコ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"孫文記念館"},{"@value":"ソンブンキネンカン","@language":"ja-hrkt"}],"cinii:memberid":"FA024523","cinii:organizationid":"KI014849","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"孫文記念館文庫","v:adr":{"@type":"v:Address","v:postal-code":"655-0047","v:label":"兵庫県神戸市垂水区東舞子町2051"},"v:tel":[{"@type":"v:Tel","@value":"078-783-7172"}],"v:fax":[{"@type":"v:Fax","@value":"078-785-3440"}],"dc:description":["閲覧・レファレンス:毎週水曜日10-16時","利用方法:前日の午後3時までにファックスまたはメールで所在を確認して予約してください。","貸出:貸出は原則としてしませんが、資料によってはできるものもありますのでお問い合わせください。申し込みは大学図書館・公共図書館を通じて行ってください。貸出期間は2週間以内。郵送による貸出は着払いのみ。","複写:料金:モノクロ1枚 40円、 カラー1枚80円。郵送の場合は別途送料が必要です。","複写料金支払い方法:来館時は現金。郵送時は郵便振替または現金書留。","複写対象資料:資料保存の観点から、貴重書、劣化資料など応じられない場合もあります。(著作権法に違反しない範囲)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024523.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024523#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024523.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "孫文記念館文庫"
+        },
+        {
+          "@value": "ソンブンキネンカンブンコ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "孫文記念館"
+        },
+        {
+          "@value": "ソンブンキネンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024523",
+      "cinii:organizationid": "KI014849",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "孫文記念館文庫",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "655-0047",
+        "v:label": "兵庫県神戸市垂水区東舞子町2051"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-783-7172"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-785-3440"
+        }
+      ],
+      "dc:description": [
+        "閲覧・レファレンス:毎週水曜日10-16時",
+        "利用方法:前日の午後3時までにファックスまたはメールで所在を確認して予約してください。",
+        "貸出:貸出は原則としてしませんが、資料によってはできるものもありますのでお問い合わせください。申し込みは大学図書館・公共図書館を通じて行ってください。貸出期間は2週間以内。郵送による貸出は着払いのみ。",
+        "複写:料金:モノクロ1枚 40円、 カラー1枚80円。郵送の場合は別途送料が必要です。",
+        "複写料金支払い方法:来館時は現金。郵送時は郵便振替または現金書留。",
+        "複写対象資料:資料保存の観点から、貴重書、劣化資料など応じられない場合もあります。(著作権法に違反しない範囲)"
+      ]
+    }
+  ]
+}

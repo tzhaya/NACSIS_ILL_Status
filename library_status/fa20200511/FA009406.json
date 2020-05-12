@@ -1,1 +1,56 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009406.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009406#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009406.json"},"foaf:name":[{"@value":"国立国会図書館支部 法務図書館"},{"@value":"コクリツコツカイトシヨカンシブ ホウムトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"法務図"},{"@value":"ホウムト","@language":"ja-hrkt"}],"cinii:memberid":"FA009406","cinii:organizationid":"KI004710","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"国立国会図書館支部 法務図書館","v:adr":{"@type":"v:Address","v:postal-code":"100-8977","v:label":"東京都千代田区霞が関1-1-1"}}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009406.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009406#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009406.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立国会図書館支部 法務図書館"
+        },
+        {
+          "@value": "コクリツコツカイトシヨカンシブ ホウムトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "法務図"
+        },
+        {
+          "@value": "ホウムト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009406",
+      "cinii:organizationid": "KI004710",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立国会図書館支部 法務図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "100-8977",
+        "v:label": "東京都千代田区霞が関1-1-1"
+      }
+    }
+  ]
+}

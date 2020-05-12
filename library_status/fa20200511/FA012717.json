@@ -1,1 +1,78 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012717.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012717#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012717.json"},"foaf:name":[{"@value":"群馬県立図書館"},{"@value":"グンマケンリツトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"群県図"},{"@value":"グンケント","@language":"ja-hrkt"}],"cinii:memberid":"FA012717","cinii:organizationid":"KI007297","cinii:prefcode":"10","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"群馬県立図書館","v:adr":{"@type":"v:Address","v:postal-code":"371-0017","v:label":"群馬県前橋市日吉町1丁目9-1"},"v:tel":[{"@type":"v:Tel","@value":"027-231-3008"}],"v:fax":[{"@type":"v:Fax","@value":"027-235-4196"}],"dc:description":["Gunma Prefectural Library","1-9-1, Hiyoshi-cho, Maebashi-shi, Gunma 371-0017","URL:http://www.library.pref.gunma.jp/","来館利用担当:調査相談室","電話番号:027-231-3008","受付時間:9:00〜19:00(土曜:〜18:00、日曜:〜17:00)","複写時間:開館時間内","休館日:月曜日、月末日、国民の祝日、年末年始、特別整理期間"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012717.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012717#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012717.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "群馬県立図書館"
+        },
+        {
+          "@value": "グンマケンリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "群県図"
+        },
+        {
+          "@value": "グンケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012717",
+      "cinii:organizationid": "KI007297",
+      "cinii:prefcode": "10",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "群馬県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "371-0017",
+        "v:label": "群馬県前橋市日吉町1丁目9-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "027-231-3008"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "027-235-4196"
+        }
+      ],
+      "dc:description": [
+        "Gunma Prefectural Library",
+        "1-9-1, Hiyoshi-cho, Maebashi-shi, Gunma 371-0017",
+        "URL:http://www.library.pref.gunma.jp/",
+        "来館利用担当:調査相談室",
+        "電話番号:027-231-3008",
+        "受付時間:9:00〜19:00(土曜:〜18:00、日曜:〜17:00)",
+        "複写時間:開館時間内",
+        "休館日:月曜日、月末日、国民の祝日、年末年始、特別整理期間"
+      ]
+    }
+  ]
+}

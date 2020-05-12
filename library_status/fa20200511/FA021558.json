@@ -1,1 +1,89 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA021558.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA021558#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA021558.json"},"foaf:name":[{"@value":"山梨英和大学 附属図書館"},{"@value":"ヤマナシエイワダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"山英大"},{"@value":"ヤマエイダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA021558","cinii:organizationid":"KI012923","cinii:prefcode":"19","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"山梨英和大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"400-8555","v:label":"山梨県甲府市横根町888"},"v:tel":[{"@type":"v:Tel","@value":"055-223-6034"}],"v:fax":[{"@type":"v:Fax","@value":"055-223-6035"}],"dc:description":["Yamanashi Eiwa College Library","888, Yokone, Kofu, Yamanashi 400-8555","URL: http://www.yamanashi-eiwa.ac.jp/libra/index.html","休館日:日曜日・祝日・年末年始 臨時休館についてはホームページの開館日程カレンダーをご確認ください。","開館時間:9:00-20:00 (土曜日・休業期間中)9:00-17:00","館外貸出:可(ただし、県内に居住または勤務する16歳以上の者に限る)","持参書類:身分証明のできるもの(学生証・免許証など)","複写受付可否:可","受付方法:NACSIS-ILL、FAX、郵便","複写料金:電子複写白黒@40円/1枚(カラーコピーには対応しておりません。カラーページも白黒複写となります。) マイクロリーダー@50円/1枚","支払方法:郵便振替(後納)  ILL料金相殺サービスには参加しておりません。","貸借受付可否:可(条件等 貸出申請書を提出し、許可を受ける)","受付方法:NACSIS-ILL、FAX、郵便","貸出期間:14日","貸出冊数:3冊以内","支払方法:郵便振替(後納)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021558.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021558#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021558.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山梨英和大学 附属図書館"
+        },
+        {
+          "@value": "ヤマナシエイワダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "山英大"
+        },
+        {
+          "@value": "ヤマエイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA021558",
+      "cinii:organizationid": "KI012923",
+      "cinii:prefcode": "19",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "山梨英和大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "400-8555",
+        "v:label": "山梨県甲府市横根町888"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "055-223-6034"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "055-223-6035"
+        }
+      ],
+      "dc:description": [
+        "Yamanashi Eiwa College Library",
+        "888, Yokone, Kofu, Yamanashi 400-8555",
+        "URL: http://www.yamanashi-eiwa.ac.jp/libra/index.html",
+        "休館日:日曜日・祝日・年末年始 臨時休館についてはホームページの開館日程カレンダーをご確認ください。",
+        "開館時間:9:00-20:00 (土曜日・休業期間中)9:00-17:00",
+        "館外貸出:可(ただし、県内に居住または勤務する16歳以上の者に限る)",
+        "持参書類:身分証明のできるもの(学生証・免許証など)",
+        "複写受付可否:可",
+        "受付方法:NACSIS-ILL、FAX、郵便",
+        "複写料金:電子複写白黒@40円/1枚(カラーコピーには対応しておりません。カラーページも白黒複写となります。) マイクロリーダー@50円/1枚",
+        "支払方法:郵便振替(後納)  ILL料金相殺サービスには参加しておりません。",
+        "貸借受付可否:可(条件等 貸出申請書を提出し、許可を受ける)",
+        "受付方法:NACSIS-ILL、FAX、郵便",
+        "貸出期間:14日",
+        "貸出冊数:3冊以内",
+        "支払方法:郵便振替(後納)"
+      ]
+    }
+  ]
+}

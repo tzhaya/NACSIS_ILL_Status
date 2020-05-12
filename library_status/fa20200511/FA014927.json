@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014927.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014927#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014927.json"},"foaf:name":[{"@value":"広島市立大学 附属図書館"},{"@value":"ヒロシマシリツダイガク フゾクトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"広市大図"},{"@value":"ヒロシダイト","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA014927","cinii:organizationid":"KI00799X","cinii:prefcode":"34","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"広島市立大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"731-3194","v:label":"広島県広島市安佐南区大塚東三丁目4-1"},"v:tel":[{"@type":"v:Tel","@value":"082-830-1508"}],"v:fax":[{"@type":"v:Fax","@value":"082-830-1659"}],"dc:description":["Hiroshima City University Library","3-4-1,Ozuka-higashi,Asaminami-ku,Hiroshima,731-3194","URL:https://www.lib.hiroshima-cu.ac.jp/","電話番号:082-830-1508","受付時間:8:45〜19:00 (休業中 8:45〜17:00)","複写時間:8:45〜19:00 (休業中 8:45〜17:00)","館外貸出:可。但し、広島市内に居住又は通勤・通学する15歳以上(中学生以下を除く)の方に限ります。","制限事項:研究室所蔵資料は利用できません。","休館日:土・日曜日、祝日、8月6日、8月13日、8月14日、9月17日～20日、年末年始、開学記念日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014927.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014927#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014927.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島市立大学 附属図書館"
+        },
+        {
+          "@value": "ヒロシマシリツダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広市大図"
+        },
+        {
+          "@value": "ヒロシダイト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA014927",
+      "cinii:organizationid": "KI00799X",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "広島市立大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "731-3194",
+        "v:label": "広島県広島市安佐南区大塚東三丁目4-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-830-1508"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-830-1659"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima City University Library",
+        "3-4-1,Ozuka-higashi,Asaminami-ku,Hiroshima,731-3194",
+        "URL:https://www.lib.hiroshima-cu.ac.jp/",
+        "電話番号:082-830-1508",
+        "受付時間:8:45〜19:00 (休業中 8:45〜17:00)",
+        "複写時間:8:45〜19:00 (休業中 8:45〜17:00)",
+        "館外貸出:可。但し、広島市内に居住又は通勤・通学する15歳以上(中学生以下を除く)の方に限ります。",
+        "制限事項:研究室所蔵資料は利用できません。",
+        "休館日:土・日曜日、祝日、8月6日、8月13日、8月14日、9月17日～20日、年末年始、開学記念日"
+      ]
+    }
+  ]
+}

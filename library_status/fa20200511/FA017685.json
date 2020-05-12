@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA017685.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA017685#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA017685.json"},"foaf:name":[{"@value":"道都大学 附属図書情報館"},{"@value":"ドウトダイガク フゾクトシヨジヨウホウカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"道都大"},{"@value":"ドウトダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA017685","cinii:organizationid":"KI001337","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"道都大学 附属図書情報館","v:adr":{"@type":"v:Address","v:postal-code":"061-1196","v:label":"北海道北広島市中の沢149"},"v:tel":[{"@type":"v:Tel","@value":"011-372-3111"}],"v:fax":[{"@type":"v:Fax","@value":"011-376-9706"}],"dc:description":["Dohto University Library & Information Center","149, Nakanosawa, Kitahiroshima-shi, Hokkaido 061-1196","URL:http://www.dohto.ac.jp/tosho/index.html","来館利用担当:参考係","電話番号:011-372-3111","受付時間:9:30〜18:00","注意事項:資料の所在等、事前確認をしてください。","持参書類:資料利用依頼書および身分証明書","複写時間:9:30〜18:00","館外貸出:不可","休館日:土曜日・日曜日・祝祭日・春季、夏季、冬季休業中・学園創立記念日(12月15日)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017685.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017685#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017685.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "道都大学 附属図書情報館"
+        },
+        {
+          "@value": "ドウトダイガク フゾクトシヨジヨウホウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "道都大"
+        },
+        {
+          "@value": "ドウトダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017685",
+      "cinii:organizationid": "KI001337",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "道都大学 附属図書情報館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "061-1196",
+        "v:label": "北海道北広島市中の沢149"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-372-3111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-376-9706"
+        }
+      ],
+      "dc:description": [
+        "Dohto University Library & Information Center",
+        "149, Nakanosawa, Kitahiroshima-shi, Hokkaido 061-1196",
+        "URL:http://www.dohto.ac.jp/tosho/index.html",
+        "来館利用担当:参考係",
+        "電話番号:011-372-3111",
+        "受付時間:9:30〜18:00",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:資料利用依頼書および身分証明書",
+        "複写時間:9:30〜18:00",
+        "館外貸出:不可",
+        "休館日:土曜日・日曜日・祝祭日・春季、夏季、冬季休業中・学園創立記念日(12月15日)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,75 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018611.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018611#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018611.json"},"foaf:name":[{"@value":"仁愛女子短期大学 附属図書館"},{"@value":"ジンアイジョシタンキダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"仁愛女短"},{"@value":"ジンアイジョタン","@language":"ja-hrkt"}],"cinii:memberid":"FA018611","cinii:organizationid":"KI010892","cinii:prefcode":"18","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"仁愛女子短期大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"910-0124","v:label":"福井市天池町43-1-1"},"v:tel":[{"@type":"v:Tel","@value":"0776-56-1133"}],"v:fax":[{"@type":"v:Fax","@value":"0776-56-8651"}],"dc:description":["Library of Jin-ai Women's  College","43-1-1,Amaike-cho,Fukui-city,Fukui 910-0124 Japan","URL:http://www.jin-ai.ac.jp/lib/","通常開館時間:月‐金曜日8:30-17:30、土曜日8:30-12:30","休館日:日曜日、国民の祝日、年末年始、その他館長の定める日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018611.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018611#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018611.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "仁愛女子短期大学 附属図書館"
+        },
+        {
+          "@value": "ジンアイジョシタンキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "仁愛女短"
+        },
+        {
+          "@value": "ジンアイジョタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018611",
+      "cinii:organizationid": "KI010892",
+      "cinii:prefcode": "18",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "仁愛女子短期大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "910-0124",
+        "v:label": "福井市天池町43-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0776-56-1133"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0776-56-8651"
+        }
+      ],
+      "dc:description": [
+        "Library of Jin-ai Women's  College",
+        "43-1-1,Amaike-cho,Fukui-city,Fukui 910-0124 Japan",
+        "URL:http://www.jin-ai.ac.jp/lib/",
+        "通常開館時間:月‐金曜日8:30-17:30、土曜日8:30-12:30",
+        "休館日:日曜日、国民の祝日、年末年始、その他館長の定める日"
+      ]
+    }
+  ]
+}

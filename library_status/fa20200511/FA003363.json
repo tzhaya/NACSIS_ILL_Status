@@ -1,1 +1,101 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003363.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003363#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003363.json"},"foaf:name":[{"@value":"香川大学 図書館 医学部分館"},{"@value":"カガワダイガク トショカン イガクブブンカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"香大医分"},{"@value":"カダイイブン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA003363","cinii:organizationid":"KI000764","cinii:prefcode":"37","cinii:mextid":"006503","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"香川大学 図書館 医学部分館","v:adr":{"@type":"v:Address","v:postal-code":"761-0793","v:label":"香川県木田郡三木町大字池戸1750-1"},"v:tel":[{"@type":"v:Tel","@value":"087-891-2085(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"087-840-2051"}],"dc:description":["閲覧担当 :医学系学術情報サービス担当(TEL:087-891-2085)","注意事項 :来館利用についての事前連絡は不要。来館時に利用できる資料は図書館備え付け資料に限る。","持参書類 :「図書館利用証」の発行を希望する場合は、住所の記載された本人と確認できる書類(運転免許証等)が必要","閲覧受付時間 :8:15〜21:00(土曜日・日曜日・祝日10:00〜17:00)(休業中8:15〜20:00(土曜日10:00〜17:00))","複写受付時間 :8:15〜17:15(土曜日・日曜日・祝日不可)","館外貸出可否 :可(事前に「図書館利用証」の発行手続きが必要)","通常開館時間 :8:15〜21:00(土曜日・日曜日・祝日10:00〜17:00)","休業中開館時間:8:15〜20:00(土曜日10:00〜17:00)","休館日 :春季及び夏季休業期間中の日曜日・祝日・年末年始(12/27〜1/4)","Faculty of Medicine Branch, Kagawa University Library","1750-1, Ikenobe, Miki-cho, Kita-gun, Kagawa-ken 761-0793","URL:https://w3.lib.kagawa-u.ac.jp/?page_id=134 (Website)","ILL-Dept:Information Service Section","ILL-ORG:Faculty of Medicine Branch, Kagawa University Library","ILL-Adress:1750-1 Ikenobe, Miki-cho, Kita-gun, Kagawa, JAPAN","ILL-ZIP:761-0793","ILL-Commun1:Tel:+81-87-891-2085 / Fax:+81-87-840-2051 / E-mail:tosho3@med.kagawa-u.ac.jp","ILL-Commun2:OPAC:https://w3.lib.kagawa-u.ac.jp/?page_id=15/ / Home-Page:https://w3.lib.kagawa-u.ac.jp/?page_id=134","ILL-Accept:Foreign:KERIS","ILL-Sched:Closed Dec 27-Jan 4","ILL-Bill:Foreign:KERIS=NII Fee Management Service Only","ILL-Loan-Period:Foreign:Loan:N/A","ILL-Loan-Renew:Foreign:Loan:N/A","ILL-Loan-Charge:Foreign:Loan:N/A","ILL-Non-Circulation:Foreign:Loan:N/A","ILL-Copy-Charge:Phytocopy:35 YEN per sheet / Postage required / Delivery method:Photocopy:via airmail","ILL-NOTE:Only items held at the Library Faculty of Medicine Branch are available;MCRFRM:N/A;FCHE/FCHE:N/A;THESIS:Photocopy:need the author's permission"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003363.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003363#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003363.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "香川大学 図書館 医学部分館"
+        },
+        {
+          "@value": "カガワダイガク トショカン イガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "香大医分"
+        },
+        {
+          "@value": "カダイイブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA003363",
+      "cinii:organizationid": "KI000764",
+      "cinii:prefcode": "37",
+      "cinii:mextid": "006503",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "香川大学 図書館 医学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "761-0793",
+        "v:label": "香川県木田郡三木町大字池戸1750-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "087-891-2085(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "087-840-2051"
+        }
+      ],
+      "dc:description": [
+        "閲覧担当 :医学系学術情報サービス担当(TEL:087-891-2085)",
+        "注意事項 :来館利用についての事前連絡は不要。来館時に利用できる資料は図書館備え付け資料に限る。",
+        "持参書類 :「図書館利用証」の発行を希望する場合は、住所の記載された本人と確認できる書類(運転免許証等)が必要",
+        "閲覧受付時間 :8:15〜21:00(土曜日・日曜日・祝日10:00〜17:00)(休業中8:15〜20:00(土曜日10:00〜17:00))",
+        "複写受付時間 :8:15〜17:15(土曜日・日曜日・祝日不可)",
+        "館外貸出可否 :可(事前に「図書館利用証」の発行手続きが必要)",
+        "通常開館時間 :8:15〜21:00(土曜日・日曜日・祝日10:00〜17:00)",
+        "休業中開館時間:8:15〜20:00(土曜日10:00〜17:00)",
+        "休館日 :春季及び夏季休業期間中の日曜日・祝日・年末年始(12/27〜1/4)",
+        "Faculty of Medicine Branch, Kagawa University Library",
+        "1750-1, Ikenobe, Miki-cho, Kita-gun, Kagawa-ken 761-0793",
+        "URL:https://w3.lib.kagawa-u.ac.jp/?page_id=134 (Website)",
+        "ILL-Dept:Information Service Section",
+        "ILL-ORG:Faculty of Medicine Branch, Kagawa University Library",
+        "ILL-Adress:1750-1 Ikenobe, Miki-cho, Kita-gun, Kagawa, JAPAN",
+        "ILL-ZIP:761-0793",
+        "ILL-Commun1:Tel:+81-87-891-2085 / Fax:+81-87-840-2051 / E-mail:tosho3@med.kagawa-u.ac.jp",
+        "ILL-Commun2:OPAC:https://w3.lib.kagawa-u.ac.jp/?page_id=15/ / Home-Page:https://w3.lib.kagawa-u.ac.jp/?page_id=134",
+        "ILL-Accept:Foreign:KERIS",
+        "ILL-Sched:Closed Dec 27-Jan 4",
+        "ILL-Bill:Foreign:KERIS=NII Fee Management Service Only",
+        "ILL-Loan-Period:Foreign:Loan:N/A",
+        "ILL-Loan-Renew:Foreign:Loan:N/A",
+        "ILL-Loan-Charge:Foreign:Loan:N/A",
+        "ILL-Non-Circulation:Foreign:Loan:N/A",
+        "ILL-Copy-Charge:Phytocopy:35 YEN per sheet / Postage required / Delivery method:Photocopy:via airmail",
+        "ILL-NOTE:Only items held at the Library Faculty of Medicine Branch are available;MCRFRM:N/A;FCHE/FCHE:N/A;THESIS:Photocopy:need the author's permission"
+      ]
+    }
+  ]
+}

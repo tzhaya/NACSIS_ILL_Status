@@ -1,1 +1,101 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002462.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002462#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002462.json"},"foaf:name":[{"@value":"名古屋大学 法学 図書室"},{"@value":"ナゴヤダイガク ホウガク トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"名大法"},{"@value":"メイダイホウ","@language":"ja-hrkt"}],"dcterms:hasPart":["法","法科大学院","法政国際セ","法CA","リーディング","法JaLII","法貴重書群","法日本法セ","法サテライト","法アジア資料"],"cinii:memberid":"FA002462","cinii:organizationid":"KI000491","cinii:prefcode":"23","cinii:mextid":"004304","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"N","v:fn":"名古屋大学 法学 図書室","v:adr":{"@type":"v:Address","v:postal-code":"464-8601","v:label":"名古屋市千種区不老町"},"v:tel":[{"@type":"v:Tel","@value":"052-789-2319(ダイヤルイン)"}],"v:fax":[{"@type":"v:Fax","@value":"052-789-5045"}],"dc:description":["Law Library, Nagoya University","Furo-cho, Chikusa-ku, Nagoya 464-8601","URL:https://www.nul.nagoya-u.ac.jp/law/index.html","来館利用担当:文系総務課 図書グループ(法)","電話番号:052-789-2318,2319","受付時間:9:00〜17:00(月～金曜日)","注意事項:資料の閲覧をご希望の際は、事前に所在等をお問い合わせ下さい。","注意事項:配置場所が「法貴重書群」の資料は、貸出・複写ともに不可です。法学図書室内での閲覧のみ可能、複写は不可です。閲覧をご希望の場合は、事前に閲覧申請書の提出が必要となります。詳細については、お問い合わせ下さい。","注意事項:LOCに「法科大学院」「法CA」「法JaLII」と入っている資料は、ご利用頂けません。","注意事項:車でのご来室はご遠慮ください。","持参書類:所属機関の図書館(室)の紹介状または学生証・身分証明書","館外貸出:不可","休館日:土曜日・日曜日・国民の祝日・年末年始(12/28〜1/4)・夏季一斉休業日・大学入学試験日等","休館日 :臨時休室日は、図書室のウェブサイトでご確認ください。","ILL-Dept:Interlibrary Loan Services","ILL-Org:Nagoya University Library","ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp","ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002462.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002462#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002462.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 法学 図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク ホウガク トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大法"
+        },
+        {
+          "@value": "メイダイホウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "法",
+        "法科大学院",
+        "法政国際セ",
+        "法CA",
+        "リーディング",
+        "法JaLII",
+        "法貴重書群",
+        "法日本法セ",
+        "法サテライト",
+        "法アジア資料"
+      ],
+      "cinii:memberid": "FA002462",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004304",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "名古屋大学 法学 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8601",
+        "v:label": "名古屋市千種区不老町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-789-2319(ダイヤルイン)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-789-5045"
+        }
+      ],
+      "dc:description": [
+        "Law Library, Nagoya University",
+        "Furo-cho, Chikusa-ku, Nagoya 464-8601",
+        "URL:https://www.nul.nagoya-u.ac.jp/law/index.html",
+        "来館利用担当:文系総務課 図書グループ(法)",
+        "電話番号:052-789-2318,2319",
+        "受付時間:9:00〜17:00(月～金曜日)",
+        "注意事項:資料の閲覧をご希望の際は、事前に所在等をお問い合わせ下さい。",
+        "注意事項:配置場所が「法貴重書群」の資料は、貸出・複写ともに不可です。法学図書室内での閲覧のみ可能、複写は不可です。閲覧をご希望の場合は、事前に閲覧申請書の提出が必要となります。詳細については、お問い合わせ下さい。",
+        "注意事項:LOCに「法科大学院」「法CA」「法JaLII」と入っている資料は、ご利用頂けません。",
+        "注意事項:車でのご来室はご遠慮ください。",
+        "持参書類:所属機関の図書館(室)の紹介状または学生証・身分証明書",
+        "館外貸出:不可",
+        "休館日:土曜日・日曜日・国民の祝日・年末年始(12/28〜1/4)・夏季一斉休業日・大学入学試験日等",
+        "休館日 :臨時休室日は、図書室のウェブサイトでご確認ください。",
+        "ILL-Dept:Interlibrary Loan Services",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp",
+        "ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"
+      ]
+    }
+  ]
+}

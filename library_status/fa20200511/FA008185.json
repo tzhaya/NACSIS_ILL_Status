@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008185.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008185#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008185.json"},"foaf:name":[{"@value":"芦屋大学 図書館"},{"@value":"アシヤダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"芦大図書館"},{"@value":"アシダイトショカン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA008185","cinii:organizationid":"KI003820","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"芦屋大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"659-8511","v:label":"兵庫県芦屋市六麓荘町13-22"},"v:tel":[{"@type":"v:Tel","@value":"0797-23-0664"}],"v:fax":[{"@type":"v:Fax","@value":"0797-38-6704"}],"dc:description":["Ashiya University Library","13-22 Rokurokuso-cho Ashiya-shi 659-8511","来館利用担当:","電話番号:0797-23-0664","注意事項:資料の所在等、事前に確認をしてください。車での来館はご遠慮ください。学外者の方は館外貸出は出来ません。","持参書類:紹介状","複写時間:9:00〜16:00","館外貸出:不可","制限事項:貴重図書には閲覧を許可しないものがある。","休館日:日曜日・祝・祭日・年末年始・夏期特別休日・創立記念日(11月1日)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008185.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008185#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008185.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "芦屋大学 図書館"
+        },
+        {
+          "@value": "アシヤダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "芦大図書館"
+        },
+        {
+          "@value": "アシダイトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008185",
+      "cinii:organizationid": "KI003820",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "芦屋大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "659-8511",
+        "v:label": "兵庫県芦屋市六麓荘町13-22"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0797-23-0664"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0797-38-6704"
+        }
+      ],
+      "dc:description": [
+        "Ashiya University Library",
+        "13-22 Rokurokuso-cho Ashiya-shi 659-8511",
+        "来館利用担当:",
+        "電話番号:0797-23-0664",
+        "注意事項:資料の所在等、事前に確認をしてください。車での来館はご遠慮ください。学外者の方は館外貸出は出来ません。",
+        "持参書類:紹介状",
+        "複写時間:9:00〜16:00",
+        "館外貸出:不可",
+        "制限事項:貴重図書には閲覧を許可しないものがある。",
+        "休館日:日曜日・祝・祭日・年末年始・夏期特別休日・創立記念日(11月1日)"
+      ]
+    }
+  ]
+}

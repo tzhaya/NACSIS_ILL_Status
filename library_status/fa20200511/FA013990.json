@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA013990.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA013990#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA013990.json"},"foaf:name":[{"@value":"東京大学 数理科学研究科"},{"@value":"トウキョウダイガク スウリカガクケンキュウカ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東大数理"},{"@value":"トウダイスウリ","@language":"ja-hrkt"}],"dcterms:hasPart":["図書","保存","保存一研","保存基数"],"cinii:memberid":"FA013990","cinii:organizationid":"KI000221","cinii:prefcode":"13","cinii:mextid":"002130","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"東京大学 数理科学研究科","v:adr":{"@type":"v:Address","v:postal-code":"153-8914","v:label":"東京都目黒区駒場3-8-1"},"v:tel":[{"@type":"v:Tel","@value":"03-5465-7005"}],"v:fax":[{"@type":"v:Fax","@value":"03-5465-7015"}],"dc:description":["Graduate School of Mathematical Sciences Library, The University of Tokyo","3-8-1, Komaba, Meguro-ku, Tokyo. 153-8914","URL:http://www.ms.u-tokyo.ac.jp/library/ (website-japanese)","Tel. 03-5465-7005","Fax. 03-5465-7015","開館日、開館時間はHPで事前にご確認ください。","資料の所在、利用の可否は事前にお問い合わせください。","館外貸出可否:否(閲覧、複写のみ)","URL:http://www.ms.u-tokyo.ac.jp/library/english/ (website-english)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA013990.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA013990#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA013990.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 数理科学研究科"
+        },
+        {
+          "@value": "トウキョウダイガク スウリカガクケンキュウカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大数理"
+        },
+        {
+          "@value": "トウダイスウリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "保存",
+        "保存一研",
+        "保存基数"
+      ],
+      "cinii:memberid": "FA013990",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002130",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 数理科学研究科",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "153-8914",
+        "v:label": "東京都目黒区駒場3-8-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5465-7005"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5465-7015"
+        }
+      ],
+      "dc:description": [
+        "Graduate School of Mathematical Sciences Library, The University of Tokyo",
+        "3-8-1, Komaba, Meguro-ku, Tokyo. 153-8914",
+        "URL:http://www.ms.u-tokyo.ac.jp/library/ (website-japanese)",
+        "Tel. 03-5465-7005",
+        "Fax. 03-5465-7015",
+        "開館日、開館時間はHPで事前にご確認ください。",
+        "資料の所在、利用の可否は事前にお問い合わせください。",
+        "館外貸出可否:否(閲覧、複写のみ)",
+        "URL:http://www.ms.u-tokyo.ac.jp/library/english/ (website-english)"
+      ]
+    }
+  ]
+}

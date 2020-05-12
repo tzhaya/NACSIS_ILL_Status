@@ -1,1 +1,76 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004173.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004173#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004173.json"},"foaf:name":[{"@value":"九州歯科大学 附属図書館"},{"@value":"キュウシュウシカダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"九歯大"},{"@value":"キュウシダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA004173","cinii:organizationid":"KI001268","cinii:prefcode":"40","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"九州歯科大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"803-8580","v:label":"北九州市小倉北区真鶴二丁目六番一号"},"v:tel":[{"@type":"v:Tel","@value":"093-582-1131"}],"v:fax":[{"@type":"v:Fax","@value":"093-583-7388"}],"dc:description":["Kyushu Dental University Library","2-6-1,Manazuru,Kokurakita-ku,Kitakyushu-shi 803-8580","URL:http://www.kyu-dent.ac.jp/library/"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004173.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004173#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004173.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "九州歯科大学 附属図書館"
+        },
+        {
+          "@value": "キュウシュウシカダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "九歯大"
+        },
+        {
+          "@value": "キュウシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004173",
+      "cinii:organizationid": "KI001268",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "九州歯科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "803-8580",
+        "v:label": "北九州市小倉北区真鶴二丁目六番一号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "093-582-1131"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "093-583-7388"
+        }
+      ],
+      "dc:description": [
+        "Kyushu Dental University Library",
+        "2-6-1,Manazuru,Kokurakita-ku,Kitakyushu-shi 803-8580",
+        "URL:http://www.kyu-dent.ac.jp/library/"
+      ]
+    }
+  ]
+}

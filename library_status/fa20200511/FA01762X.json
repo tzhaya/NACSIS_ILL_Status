@@ -1,1 +1,95 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA01762X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA01762X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA01762X.json"},"foaf:name":[{"@value":"米子工業高等専門学校 図書館"},{"@value":"ヨナゴコウギヨウコウトウセンモンガツコウ トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"米子高専"},{"@value":"ヨナゴコウセン","@language":"ja-hrkt"}],"cinii:memberid":"FA01762X","cinii:organizationid":"KI010247","cinii:prefcode":"31","cinii:mextid":"603200","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"米子工業高等専門学校 図書館","v:adr":{"@type":"v:Address","v:postal-code":"683-8502","v:label":"鳥取県米子市彦名町4448"},"v:tel":[{"@type":"v:Tel","@value":"0859-24-5028"}],"v:fax":[{"@type":"v:Fax","@value":"0859-24-5269"}],"dc:description":["YONAGO NATIONAL COLLEGE OF TECHNOLOGY","4448, Hikona-cho, Yonago City, Tottori Prefecture, 683-8502","URL:http://www.yonago-k.ac.jp/tosho/","来館利用担当:","電話番号:0859-24-5028","受付時間:8:30〜17:00 (土曜日 10:00〜15:00)","注意事項:夏休み等学生の休業日は土曜日は休館です。臨時に休館する場合がありますので、来館の際は事前に確認してください。","持参書類:身分証明書又は公的機関の発行した証明書","複写時間:9:15〜16:45 (土曜日不可)","館外貸出:1週間 3冊まで","休館日:日曜日、国民の祝日、毎月末日、年末年始","ILL-Staff:","ILL-Dept:Academic Information Affairs","ILL-Org:Library Of Yonago National Collage of Technology","ILL-Adress:4448, Hikona-cho, Yonago-shi,Tottori, Japan","ILL-ZIP:683-8502","ILL-Commun1:fax:+81-859-24-5269 / E-mail:gakujo@yonago-k.ac.jp","ILL-Commun2:http://www.yonago-k.ac.jp/tosho/ , OPAC:http://http://libopac-c.nagaokaut.ac.jp/opac/opac_search.cgi?kslist=032&kscode=&selfcode=032&smode=1","ILL-Accept:OCLC(NII-OCLC ISO ILL Link only):JPYNC","ILL-OCLC-Symbol:JPYNC","ILL-Sched Close:Dec.28-Jan.4","ILL-Bill:OCLC-IMF only","ILL-Loan-Period:Loan N/A","ILL-Copy-Charge:Photocopy:35 YEN per sheet. Postage required."]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01762X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01762X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01762X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "米子工業高等専門学校 図書館"
+        },
+        {
+          "@value": "ヨナゴコウギヨウコウトウセンモンガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "米子高専"
+        },
+        {
+          "@value": "ヨナゴコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA01762X",
+      "cinii:organizationid": "KI010247",
+      "cinii:prefcode": "31",
+      "cinii:mextid": "603200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "米子工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "683-8502",
+        "v:label": "鳥取県米子市彦名町4448"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0859-24-5028"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0859-24-5269"
+        }
+      ],
+      "dc:description": [
+        "YONAGO NATIONAL COLLEGE OF TECHNOLOGY",
+        "4448, Hikona-cho, Yonago City, Tottori Prefecture, 683-8502",
+        "URL:http://www.yonago-k.ac.jp/tosho/",
+        "来館利用担当:",
+        "電話番号:0859-24-5028",
+        "受付時間:8:30〜17:00 (土曜日 10:00〜15:00)",
+        "注意事項:夏休み等学生の休業日は土曜日は休館です。臨時に休館する場合がありますので、来館の際は事前に確認してください。",
+        "持参書類:身分証明書又は公的機関の発行した証明書",
+        "複写時間:9:15〜16:45 (土曜日不可)",
+        "館外貸出:1週間 3冊まで",
+        "休館日:日曜日、国民の祝日、毎月末日、年末年始",
+        "ILL-Staff:",
+        "ILL-Dept:Academic Information Affairs",
+        "ILL-Org:Library Of Yonago National Collage of Technology",
+        "ILL-Adress:4448, Hikona-cho, Yonago-shi,Tottori, Japan",
+        "ILL-ZIP:683-8502",
+        "ILL-Commun1:fax:+81-859-24-5269 / E-mail:gakujo@yonago-k.ac.jp",
+        "ILL-Commun2:http://www.yonago-k.ac.jp/tosho/ , OPAC:http://http://libopac-c.nagaokaut.ac.jp/opac/opac_search.cgi?kslist=032&kscode=&selfcode=032&smode=1",
+        "ILL-Accept:OCLC(NII-OCLC ISO ILL Link only):JPYNC",
+        "ILL-OCLC-Symbol:JPYNC",
+        "ILL-Sched Close:Dec.28-Jan.4",
+        "ILL-Bill:OCLC-IMF only",
+        "ILL-Loan-Period:Loan N/A",
+        "ILL-Copy-Charge:Photocopy:35 YEN per sheet. Postage required."
+      ]
+    }
+  ]
+}

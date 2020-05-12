@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008301.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008301#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008301.json"},"foaf:name":[{"@value":"神戸学院大学 経済学部資料室"},{"@value":"コウベガクインダイガク ケイザイガクブシリョウシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"神院大経"},{"@value":"シンインダイケイ","@language":"ja-hrkt"}],"cinii:memberid":"FA008301","cinii:organizationid":"KI003900","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"神戸学院大学 経済学部資料室","v:adr":{"@type":"v:Address","v:postal-code":"651-2180","v:label":"兵庫県神戸市西区伊川谷町有瀬518番地"},"v:tel":[{"@type":"v:Tel","@value":"078-974-4584(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"078-974-5841"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008301.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008301#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008301.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸学院大学 経済学部資料室"
+        },
+        {
+          "@value": "コウベガクインダイガク ケイザイガクブシリョウシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神院大経"
+        },
+        {
+          "@value": "シンインダイケイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008301",
+      "cinii:organizationid": "KI003900",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神戸学院大学 経済学部資料室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "651-2180",
+        "v:label": "兵庫県神戸市西区伊川谷町有瀬518番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-974-4584(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-974-5841"
+        }
+      ]
+    }
+  ]
+}

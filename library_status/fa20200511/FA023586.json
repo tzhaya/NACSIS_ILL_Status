@@ -1,1 +1,86 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA023586.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA023586#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA023586.json"},"foaf:name":[{"@value":"兵庫医療大学 附属図書館"},{"@value":"ヒョウゴイリョウダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"兵庫医療大"},{"@value":"ヒョウゴイリョウダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA023586","cinii:organizationid":"KI014157","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"兵庫医療大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"650-8530","v:label":"兵庫県神戸市中央区港島1-3-6"},"v:tel":[{"@type":"v:Tel","@value":"078(304)3050"}],"v:fax":[{"@type":"v:Fax","@value":"078(304)2855"}],"dc:description":["Library, Hyogo University of Health Sciences","1-3-6,Minatojima,Chuo-ku,Kobe, Hyogo 650-8530","sotai@huhs.ac.jp","http://www.huhs.ac.jp/index.php/library.html","電話番号:078-304-3050","受付時間:9:00-17:15","注意事項:利用の可否、資料の所在など事前確認をして下さい。","注意事項:学外者の方で利用できるのは、卒業生、閲覧依頼書持参者及び医療従事者の方で、卒業生以外の方は必ず事前連絡が必要です。詳細はホームページでご確認ください。","注意事項:学外者の方は下記休館日に加え、土曜日と本学試験期間中はご利用いただけません。","持参書類:閲覧依頼書、身分証明書","複写時間:9:00-21:00","館外貸出:不可","休館日:日曜日、国民の祝日、夏季一斉休業、創立記念日(11/22)、年末年始(12/28-1/3)、その他図書館長の定めた日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023586.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023586#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023586.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "兵庫医療大学 附属図書館"
+        },
+        {
+          "@value": "ヒョウゴイリョウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "兵庫医療大"
+        },
+        {
+          "@value": "ヒョウゴイリョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA023586",
+      "cinii:organizationid": "KI014157",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "兵庫医療大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "650-8530",
+        "v:label": "兵庫県神戸市中央区港島1-3-6"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078(304)3050"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078(304)2855"
+        }
+      ],
+      "dc:description": [
+        "Library, Hyogo University of Health Sciences",
+        "1-3-6,Minatojima,Chuo-ku,Kobe, Hyogo 650-8530",
+        "sotai@huhs.ac.jp",
+        "http://www.huhs.ac.jp/index.php/library.html",
+        "電話番号:078-304-3050",
+        "受付時間:9:00-17:15",
+        "注意事項:利用の可否、資料の所在など事前確認をして下さい。",
+        "注意事項:学外者の方で利用できるのは、卒業生、閲覧依頼書持参者及び医療従事者の方で、卒業生以外の方は必ず事前連絡が必要です。詳細はホームページでご確認ください。",
+        "注意事項:学外者の方は下記休館日に加え、土曜日と本学試験期間中はご利用いただけません。",
+        "持参書類:閲覧依頼書、身分証明書",
+        "複写時間:9:00-21:00",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、夏季一斉休業、創立記念日(11/22)、年末年始(12/28-1/3)、その他図書館長の定めた日"
+      ]
+    }
+  ]
+}

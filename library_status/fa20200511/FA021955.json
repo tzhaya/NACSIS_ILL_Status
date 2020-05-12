@@ -1,1 +1,72 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA021955.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA021955#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA021955.json"},"foaf:name":[{"@value":"日本薬科大学"},{"@value":"ニホンヤッカダイガク","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日薬大"},{"@value":"ニチヤクダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA021955","cinii:organizationid":"KI013198","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"日本薬科大学","v:adr":{"@type":"v:Address","v:postal-code":"362-0806","v:label":"埼玉県北足立郡伊奈町小室10281"},"v:tel":[{"@type":"v:Tel","@value":"048-721-6469(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"048-721-6529"}],"dc:description":["Library, Nihon Pharmaceutical University","10281 Komuro, Inam-machi, Kitaadachi-gun, Saitama Pre. 362-0806"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021955.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021955#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021955.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本薬科大学"
+        },
+        {
+          "@value": "ニホンヤッカダイガク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日薬大"
+        },
+        {
+          "@value": "ニチヤクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021955",
+      "cinii:organizationid": "KI013198",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本薬科大学",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "362-0806",
+        "v:label": "埼玉県北足立郡伊奈町小室10281"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-721-6469(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-721-6529"
+        }
+      ],
+      "dc:description": [
+        "Library, Nihon Pharmaceutical University",
+        "10281 Komuro, Inam-machi, Kitaadachi-gun, Saitama Pre. 362-0806"
+      ]
+    }
+  ]
+}

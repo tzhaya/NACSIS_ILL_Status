@@ -1,1 +1,94 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA006383.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA006383#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA006383.json"},"foaf:name":[{"@value":"日本大学 芸術学部図書館 (江古田)"},{"@value":"ニホンダイガク ゲイジュツガクブトショカン (エゴタ)","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日大芸江"},{"@value":"ニチダイゲイエ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","写","映","美","音","文","演","放","外","一","体","芸術"],"cinii:memberid":"FA006383","cinii:organizationid":"KI002533","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"日本大学 芸術学部図書館 (江古田)","v:adr":{"@type":"v:Address","v:postal-code":"176-8525","v:label":"東京都練馬区旭丘2-42-1"},"v:tel":[{"@type":"v:Tel","@value":"03-5995-8206・8336"}],"v:fax":[{"@type":"v:Fax","@value":"03-5995-8294"}],"dc:description":["来館利用担当:閲覧係","受付時間9:00〜16:30(土曜日12:30)","注意事項:資料の所蔵等をFAXにて事前確認してください。学科研究室所在の資料に関しまして、謝絶させていただく場合がございますので御了承ください。","持参書類:所属機関の図書館・資料室の紹介状および身分証明書",":図書館間の相互貸借にて貸出可(利用は館内閲覧に限る)","休館日:芸術学部図書館HPの開館日程カレンダーを確認ください","Nihon University College of Art","Ekoda Campus:2-42-1 Asahigaoka, Nerima-ku, Tokyo 176-8525","URL:http://www.art.nihon-u.ac.jp/",""]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006383.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006383#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006383.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 芸術学部図書館 (江古田)"
+        },
+        {
+          "@value": "ニホンダイガク ゲイジュツガクブトショカン (エゴタ)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大芸江"
+        },
+        {
+          "@value": "ニチダイゲイエ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "写",
+        "映",
+        "美",
+        "音",
+        "文",
+        "演",
+        "放",
+        "外",
+        "一",
+        "体",
+        "芸術"
+      ],
+      "cinii:memberid": "FA006383",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本大学 芸術学部図書館 (江古田)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "176-8525",
+        "v:label": "東京都練馬区旭丘2-42-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5995-8206・8336"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5995-8294"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当:閲覧係",
+        "受付時間9:00〜16:30(土曜日12:30)",
+        "注意事項:資料の所蔵等をFAXにて事前確認してください。学科研究室所在の資料に関しまして、謝絶させていただく場合がございますので御了承ください。",
+        "持参書類:所属機関の図書館・資料室の紹介状および身分証明書",
+        ":図書館間の相互貸借にて貸出可(利用は館内閲覧に限る)",
+        "休館日:芸術学部図書館HPの開館日程カレンダーを確認ください",
+        "Nihon University College of Art",
+        "Ekoda Campus:2-42-1 Asahigaoka, Nerima-ku, Tokyo 176-8525",
+        "URL:http://www.art.nihon-u.ac.jp/",
+        ""
+      ]
+    }
+  ]
+}

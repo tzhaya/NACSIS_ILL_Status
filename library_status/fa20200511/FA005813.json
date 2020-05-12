@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA005813.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA005813#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA005813.json"},"foaf:name":[{"@value":"東海大学 付属図書館 札幌図書館"},{"@value":"トウカイダイガク フゾクトショカン サッポロトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"東海大札幌"},{"@value":"トウカイダイサッポロ","@language":"ja-hrkt"}],"cinii:memberid":"FA005813","cinii:organizationid":"KI002329","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"東海大学 付属図書館 札幌図書館","v:adr":{"@type":"v:Address","v:postal-code":"005-8601","v:label":"北海道札幌市南区南沢5条1-1-1"},"v:tel":[{"@type":"v:Tel","@value":"011-571-5111"}],"v:fax":[{"@type":"v:Fax","@value":"011-571-9788"}],"dc:description":["5-1-1-1 Minamisawa, Minami-ku, Sapporo 005-8601","URL:http://www.plib.u-tokai.ac.jp/stosho1.html(Website)","来館利用担当:閲覧係","学外の方の利用については、当館ホームページをご覧ください。(http://www.plib.u-tokai.ac.jp/)","受付時間:9:00〜17:00(土曜日9:00〜16:00)","資料の所在、開館日等を事前に確認してください。","閲覧持参書類:身分を証明するもの","複写受付時間:開館時間と同じ","館外貸出:可","休館日:日曜・祝日・学内の行事日・夏期・冬期休暇中の一定期間","Tokai University Library Sapporo Library"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005813.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005813#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005813.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東海大学 付属図書館 札幌図書館"
+        },
+        {
+          "@value": "トウカイダイガク フゾクトショカン サッポロトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東海大札幌"
+        },
+        {
+          "@value": "トウカイダイサッポロ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005813",
+      "cinii:organizationid": "KI002329",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東海大学 付属図書館 札幌図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "005-8601",
+        "v:label": "北海道札幌市南区南沢5条1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-571-5111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-571-9788"
+        }
+      ],
+      "dc:description": [
+        "5-1-1-1 Minamisawa, Minami-ku, Sapporo 005-8601",
+        "URL:http://www.plib.u-tokai.ac.jp/stosho1.html(Website)",
+        "来館利用担当:閲覧係",
+        "学外の方の利用については、当館ホームページをご覧ください。(http://www.plib.u-tokai.ac.jp/)",
+        "受付時間:9:00〜17:00(土曜日9:00〜16:00)",
+        "資料の所在、開館日等を事前に確認してください。",
+        "閲覧持参書類:身分を証明するもの",
+        "複写受付時間:開館時間と同じ",
+        "館外貸出:可",
+        "休館日:日曜・祝日・学内の行事日・夏期・冬期休暇中の一定期間",
+        "Tokai University Library Sapporo Library"
+      ]
+    }
+  ]
+}

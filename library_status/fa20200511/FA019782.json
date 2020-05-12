@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019782.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019782#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019782.json"},"foaf:name":[{"@value":"大阪経済大学 日本経済史研究所"},{"@value":"オオサカケイザイダイガク ニホンケイザイシケンキュウジョ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"大経大日経史研"},{"@value":"ダイケイダイニッケイシケン","@language":"ja-hrkt"}],"cinii:memberid":"FA019782","cinii:organizationid":"KI00357X","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"大阪経済大学 日本経済史研究所","v:adr":{"@type":"v:Address","v:postal-code":"533-8533","v:label":"大阪府大阪市東淀川区大隅2-2-8"},"v:tel":[{"@type":"v:Tel","@value":"06-6328-2431"}],"v:fax":[{"@type":"v:Fax","@value":"06-6329-9205"}],"dc:description":["Institute for Research in Economic History of Japan, Osaka University of Economics","2-2-8, Osumi, Higashiyodogawaku, Osaka, 533-8533","E-mail:nikkeisi@osaka-ue.ac.jp","URL:http://www.osaka-ue.ac.jp/research/nikkeisi/","電話番号:06-6328-2431","受付時間:月〜金曜日 9:30〜17:00","注意事項:資料の所在等、事前確認をしてください。","注意事項:他大学・研究機関所属の方は、所属機関が発行した紹介状が必要です。","注意事項:車での来館はご遠慮ください。","持参書類:資料利用依頼書(身分を証明するものを携帯してください)","館外貸出:不可","制限事項:貴重書および史料等利用できないものがあります。","休業日:日曜日,祝祭日,創立記念日,夏季・冬季休暇中,入学試験日等"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019782.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019782#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019782.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪経済大学 日本経済史研究所"
+        },
+        {
+          "@value": "オオサカケイザイダイガク ニホンケイザイシケンキュウジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大経大日経史研"
+        },
+        {
+          "@value": "ダイケイダイニッケイシケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019782",
+      "cinii:organizationid": "KI00357X",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪経済大学 日本経済史研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "533-8533",
+        "v:label": "大阪府大阪市東淀川区大隅2-2-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6328-2431"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6329-9205"
+        }
+      ],
+      "dc:description": [
+        "Institute for Research in Economic History of Japan, Osaka University of Economics",
+        "2-2-8, Osumi, Higashiyodogawaku, Osaka, 533-8533",
+        "E-mail:nikkeisi@osaka-ue.ac.jp",
+        "URL:http://www.osaka-ue.ac.jp/research/nikkeisi/",
+        "電話番号:06-6328-2431",
+        "受付時間:月〜金曜日 9:30〜17:00",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "注意事項:他大学・研究機関所属の方は、所属機関が発行した紹介状が必要です。",
+        "注意事項:車での来館はご遠慮ください。",
+        "持参書類:資料利用依頼書(身分を証明するものを携帯してください)",
+        "館外貸出:不可",
+        "制限事項:貴重書および史料等利用できないものがあります。",
+        "休業日:日曜日,祝祭日,創立記念日,夏季・冬季休暇中,入学試験日等"
+      ]
+    }
+  ]
+}

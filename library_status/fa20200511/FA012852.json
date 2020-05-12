@@ -1,1 +1,82 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA012852.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA012852#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA012852.json"},"foaf:name":[{"@value":"四日市大学 情報センター"},{"@value":"ヨッカイチダイガク ジョウホウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"四日市大"},{"@value":"ヨッカイチダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA012852","cinii:organizationid":"KI006986","cinii:prefcode":"24","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"四日市大学 情報センター","v:adr":{"@type":"v:Address","v:postal-code":"512-8512","v:label":"三重県四日市市萱生町1200"},"v:tel":[{"@type":"v:Tel","@value":"059-365-6712"}],"v:fax":[{"@type":"v:Fax","@value":"059-365-6619"}],"dc:description":["閲覧受付時間 :9:00-18:00","閲覧事前連絡 :不要","閲覧持参書類 :紹介状(身分を証明する物を携行のこと)","複写受付時間 :9:00-17:00","館外貸出可否 :可(近隣在住,16歳以上)","貸借注記 :雑誌、禁帯出資料は貸出不可","通常開館時間 :9:00-18:00","休業中開館時間:10:00-16:00","休館日 : 土曜日、日曜日、国民の祝日、入学試験日、入学式、卒業式、大学祭期間、蔵書点検期間(3月後半)、夏季休業(8月中旬 約1週間)、冬季休業(12月28日-1月3日)","Yokkaichi University Information Center","1200, Kayo-cho, Yokkaichi-shi, Mie-ken 512-8512","URL:http://www.yokkaichi-u.ac.jp/tosyo/ (website)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012852.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012852#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012852.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "四日市大学 情報センター"
+        },
+        {
+          "@value": "ヨッカイチダイガク ジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "四日市大"
+        },
+        {
+          "@value": "ヨッカイチダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012852",
+      "cinii:organizationid": "KI006986",
+      "cinii:prefcode": "24",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "四日市大学 情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "512-8512",
+        "v:label": "三重県四日市市萱生町1200"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "059-365-6712"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "059-365-6619"
+        }
+      ],
+      "dc:description": [
+        "閲覧受付時間 :9:00-18:00",
+        "閲覧事前連絡 :不要",
+        "閲覧持参書類 :紹介状(身分を証明する物を携行のこと)",
+        "複写受付時間 :9:00-17:00",
+        "館外貸出可否 :可(近隣在住,16歳以上)",
+        "貸借注記 :雑誌、禁帯出資料は貸出不可",
+        "通常開館時間 :9:00-18:00",
+        "休業中開館時間:10:00-16:00",
+        "休館日 : 土曜日、日曜日、国民の祝日、入学試験日、入学式、卒業式、大学祭期間、蔵書点検期間(3月後半)、夏季休業(8月中旬 約1週間)、冬季休業(12月28日-1月3日)",
+        "Yokkaichi University Information Center",
+        "1200, Kayo-cho, Yokkaichi-shi, Mie-ken 512-8512",
+        "URL:http://www.yokkaichi-u.ac.jp/tosyo/ (website)"
+      ]
+    }
+  ]
+}

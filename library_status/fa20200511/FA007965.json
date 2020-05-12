@@ -1,1 +1,114 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007965.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007965#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007965.json"},"foaf:name":[{"@value":"関西大学 図書館"},{"@value":"カンサイダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"関大"},{"@value":"カンダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["東西研","社学資","図","法学資","経商資","経政研","法学研","人権研","視聴覚","法科院","高槻図","ミューズ図","堺図"],"cinii:memberid":"FA007965","cinii:organizationid":"KI003707","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"関西大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"564-8680","v:label":"大阪府吹田市山手町3-3-35"},"v:tel":[{"@type":"v:Tel","@value":"06-6368-0265"}],"v:fax":[{"@type":"v:Fax","@value":"06-6368-1270"}],"dc:description":["Kansai University Library","3-3-35 Yamate-cho Suita-shi, OSAKA 564-8680 JAPAN","URL:http://opac.lib.kansai-u.ac.jp (Website)","来館利用担当:メインカウンター","電話番号:06-6368-0267(レファレンスカウンター)","受付時間:10:00〜17:00","注意事項:所属大学図書館または最寄の公共図書館を通じてレファレンスカウンター(FAX:06-6368-1280)への事前確認が必要(FAXのみ。国内機関からのメールでの問い合わせは受付しておりません)。電話・FAX等による個人の方からの直接の問い合わせには応じられません。休館日、日・祝日及び休業中[夏季・春季]の土曜日は利用できません。","注意事項:利用可能期間は連続する3日間を最長とします。","持参書類:資料利用依頼書(紹介状)、身分を証明する物","複写受付時間: 10:00〜17:00(月から土曜日、休業中[夏季・春季]は月から金曜日)","館外貸出:不可","制限事項:貴重書・準貴重書及びそれに準ずる資料の利用は、事前に特別閲覧許可願等を提出し、許可を必要とする。","休館日:休業期間中の日曜・祝日、大学の記念日(6/5および11/4ただし授業日の場合は開館)、夏季・冬季の一定期間、入試期間、年度末休館日等 詳細は当館ウェブサイトで確認してください。","ILL-Staff: Shiga, Yamamoto, Endo","ILL-Dept: InterLibrary Loans Division","ILL-Org: Kansai University Library","ILL-Address: 3-3-35 Yamate-cho, Suita-shi, OSAKA, JAPAN","ILL-Zip: 564-8680","ILL-Commun1: Tel : +81-6-6368-0265 / Fax : +81-6-6368-1270","ILL-Commun2: OPAC:http://opac.lib.kansai-u.ac.jp","ILL-Accept: OCLC WorldShare Interlibrary Loan:[YH@]","ILL-Sched: Closed: Aug11-20, Dec27-Jan4, Sunday, National holidays","ILL-Bill: Foreign: OCLC-IFM 、IRC","ILL-Loan-Period: Loan: N/A","ILL-Loan-Renew: Loan: N/A","ILL-Loan-Charge: Loan: N/A","ILL-Non-Circulation: Lone: N/A","ILL-Copy-Charge: Foreign: Postage required. Photocopy: 50 YEN per sheet. Colorcopy: 100 YEN per sheet. Micro 60 YEN per sheet. Delivery method: via Airmail(EMS).","ILL-OCLC-Symbol:YH@"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007965.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007965#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007965.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関西大学 図書館"
+        },
+        {
+          "@value": "カンサイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関大"
+        },
+        {
+          "@value": "カンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "東西研",
+        "社学資",
+        "図",
+        "法学資",
+        "経商資",
+        "経政研",
+        "法学研",
+        "人権研",
+        "視聴覚",
+        "法科院",
+        "高槻図",
+        "ミューズ図",
+        "堺図"
+      ],
+      "cinii:memberid": "FA007965",
+      "cinii:organizationid": "KI003707",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "関西大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "564-8680",
+        "v:label": "大阪府吹田市山手町3-3-35"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6368-0265"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6368-1270"
+        }
+      ],
+      "dc:description": [
+        "Kansai University Library",
+        "3-3-35 Yamate-cho Suita-shi, OSAKA 564-8680 JAPAN",
+        "URL:http://opac.lib.kansai-u.ac.jp (Website)",
+        "来館利用担当:メインカウンター",
+        "電話番号:06-6368-0267(レファレンスカウンター)",
+        "受付時間:10:00〜17:00",
+        "注意事項:所属大学図書館または最寄の公共図書館を通じてレファレンスカウンター(FAX:06-6368-1280)への事前確認が必要(FAXのみ。国内機関からのメールでの問い合わせは受付しておりません)。電話・FAX等による個人の方からの直接の問い合わせには応じられません。休館日、日・祝日及び休業中[夏季・春季]の土曜日は利用できません。",
+        "注意事項:利用可能期間は連続する3日間を最長とします。",
+        "持参書類:資料利用依頼書(紹介状)、身分を証明する物",
+        "複写受付時間: 10:00〜17:00(月から土曜日、休業中[夏季・春季]は月から金曜日)",
+        "館外貸出:不可",
+        "制限事項:貴重書・準貴重書及びそれに準ずる資料の利用は、事前に特別閲覧許可願等を提出し、許可を必要とする。",
+        "休館日:休業期間中の日曜・祝日、大学の記念日(6/5および11/4ただし授業日の場合は開館)、夏季・冬季の一定期間、入試期間、年度末休館日等 詳細は当館ウェブサイトで確認してください。",
+        "ILL-Staff: Shiga, Yamamoto, Endo",
+        "ILL-Dept: InterLibrary Loans Division",
+        "ILL-Org: Kansai University Library",
+        "ILL-Address: 3-3-35 Yamate-cho, Suita-shi, OSAKA, JAPAN",
+        "ILL-Zip: 564-8680",
+        "ILL-Commun1: Tel : +81-6-6368-0265 / Fax : +81-6-6368-1270",
+        "ILL-Commun2: OPAC:http://opac.lib.kansai-u.ac.jp",
+        "ILL-Accept: OCLC WorldShare Interlibrary Loan:[YH@]",
+        "ILL-Sched: Closed: Aug11-20, Dec27-Jan4, Sunday, National holidays",
+        "ILL-Bill: Foreign: OCLC-IFM 、IRC",
+        "ILL-Loan-Period: Loan: N/A",
+        "ILL-Loan-Renew: Loan: N/A",
+        "ILL-Loan-Charge: Loan: N/A",
+        "ILL-Non-Circulation: Lone: N/A",
+        "ILL-Copy-Charge: Foreign: Postage required. Photocopy: 50 YEN per sheet. Colorcopy: 100 YEN per sheet. Micro 60 YEN per sheet. Delivery method: via Airmail(EMS).",
+        "ILL-OCLC-Symbol:YH@"
+      ]
+    }
+  ]
+}

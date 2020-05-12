@@ -1,1 +1,74 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA01681X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA01681X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA01681X.json"},"foaf:name":[{"@value":"津山工業高等専門学校 図書館"},{"@value":"ツヤマコウギョウコウトウセンモンガッコウ トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"津山高専"},{"@value":"ツヤマコウセン","@language":"ja-hrkt"}],"cinii:memberid":"FA01681X","cinii:organizationid":"KI009430","cinii:prefcode":"33","cinii:mextid":"603400","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"津山工業高等専門学校 図書館","v:adr":{"@type":"v:Address","v:postal-code":"708-8509","v:label":"岡山県津山市沼624-1"},"v:tel":[{"@type":"v:Tel","@value":"(0868)24-8213"}],"dc:description":["Tsuyama National College of Technology","624-1, Numa, Tsuyama-shi, Okayama 708-8509","URL:http://www.tsuyama-ct.ac.jp/","学術情報係","0868-24-8213","受付時間:9:00〜17:00","身分を証明するもの。","可(5冊 2週間)","日曜日、国民の祝日、年末年始、春・夏・冬季休業期間中の土曜日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01681X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01681X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01681X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "津山工業高等専門学校 図書館"
+        },
+        {
+          "@value": "ツヤマコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "津山高専"
+        },
+        {
+          "@value": "ツヤマコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA01681X",
+      "cinii:organizationid": "KI009430",
+      "cinii:prefcode": "33",
+      "cinii:mextid": "603400",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "津山工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "708-8509",
+        "v:label": "岡山県津山市沼624-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "(0868)24-8213"
+        }
+      ],
+      "dc:description": [
+        "Tsuyama National College of Technology",
+        "624-1, Numa, Tsuyama-shi, Okayama 708-8509",
+        "URL:http://www.tsuyama-ct.ac.jp/",
+        "学術情報係",
+        "0868-24-8213",
+        "受付時間:9:00〜17:00",
+        "身分を証明するもの。",
+        "可(5冊 2週間)",
+        "日曜日、国民の祝日、年末年始、春・夏・冬季休業期間中の土曜日"
+      ]
+    }
+  ]
+}

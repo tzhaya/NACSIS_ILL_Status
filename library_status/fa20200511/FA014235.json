@@ -1,1 +1,80 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014235.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014235#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014235.json"},"foaf:name":[{"@value":"藤女子大学 図書館 花川館"},{"@value":"フジジヨシダイガク トシヨカン ハナカワカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"藤女大花川館"},{"@value":"フジジヨダイハナカワカン","@language":"ja-hrkt"}],"cinii:memberid":"FA014235","cinii:organizationid":"KI00136X","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"藤女子大学 図書館 花川館","v:adr":{"@type":"v:Address","v:postal-code":"061-3204","v:label":"北海道石狩市花川南4条5丁目"},"v:tel":[{"@type":"v:Tel","@value":"0133-74-8339"}],"v:fax":[{"@type":"v:Fax","@value":"0133-74-8324"}],"dc:description":["Fuji Women's University Library. Hanakawa Lib.","4-5, Hanakawa-Minami, Ishikari, Hokkaido 061-3204","URL:http://www.fujijoshi.ac.jp/library/ (website)","URL:http://www.fujijoshi.ac.jp/guide/access/ (map)","来館利用担当 :花川館参考担当","閲覧受付時間 : 9:30〜16:00(土曜日: 9:30〜12:00)","通常開館時間 : 9:00〜19:00(土曜日: 9:00〜15:00)","休業中開館時間 : 9:00〜16:30(土曜日: 9:00〜12:30)","休館日 :日曜日・国民の祝日・3月下旬・8月中旬・12月下旬〜1月上旬、学園創立記念日(9月28日)・クリスマス(12月25日)・詳細はホームページをご覧ください。","注意事項 :来館の際は開館時間、持参書類等をあらかじめ図書館ホームページでご確認ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014235.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014235#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014235.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "藤女子大学 図書館 花川館"
+        },
+        {
+          "@value": "フジジヨシダイガク トシヨカン ハナカワカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "藤女大花川館"
+        },
+        {
+          "@value": "フジジヨダイハナカワカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014235",
+      "cinii:organizationid": "KI00136X",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "藤女子大学 図書館 花川館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "061-3204",
+        "v:label": "北海道石狩市花川南4条5丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0133-74-8339"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0133-74-8324"
+        }
+      ],
+      "dc:description": [
+        "Fuji Women's University Library. Hanakawa Lib.",
+        "4-5, Hanakawa-Minami, Ishikari, Hokkaido 061-3204",
+        "URL:http://www.fujijoshi.ac.jp/library/ (website)",
+        "URL:http://www.fujijoshi.ac.jp/guide/access/ (map)",
+        "来館利用担当 :花川館参考担当",
+        "閲覧受付時間 : 9:30〜16:00(土曜日: 9:30〜12:00)",
+        "通常開館時間 : 9:00〜19:00(土曜日: 9:00〜15:00)",
+        "休業中開館時間 : 9:00〜16:30(土曜日: 9:00〜12:30)",
+        "休館日 :日曜日・国民の祝日・3月下旬・8月中旬・12月下旬〜1月上旬、学園創立記念日(9月28日)・クリスマス(12月25日)・詳細はホームページをご覧ください。",
+        "注意事項 :来館の際は開館時間、持参書類等をあらかじめ図書館ホームページでご確認ください。"
+      ]
+    }
+  ]
+}

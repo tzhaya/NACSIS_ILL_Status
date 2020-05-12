@@ -1,1 +1,78 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA022506.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA022506#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA022506.json"},"foaf:name":[{"@value":"LEC東京リーガルマインド大学院大学 附属図書館"},{"@value":"レックトウキョウリーガルマインドダイガクインダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"LEC大学"},{"@value":"レックダイガク","@language":"ja-hrkt"}],"dcterms:hasPart":["水道橋"],"cinii:memberid":"FA022506","cinii:organizationid":"KI01337X","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"LEC東京リーガルマインド大学院大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"101-0061","v:label":"東京都千代田区神田三崎町2-2-15"},"v:tel":[{"@type":"v:Tel","@value":"03-3222-5151"}],"v:fax":[{"@type":"v:Fax","@value":"03-3222-5188"}],"dc:description":["開館時間月〜金13:00〜22:00 土・日曜9:15〜20:30(長期休暇中は変更する場合があります。)","","","来校利用は必ず事前に問い合わせの上、当日は身分証および所属機関発行の紹介状を持参のこと","学外者の利用は、閲覧及び複写のみ(館外への貸出不可)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022506.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022506#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022506.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "LEC東京リーガルマインド大学院大学 附属図書館"
+        },
+        {
+          "@value": "レックトウキョウリーガルマインドダイガクインダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "LEC大学"
+        },
+        {
+          "@value": "レックダイガク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "水道橋"
+      ],
+      "cinii:memberid": "FA022506",
+      "cinii:organizationid": "KI01337X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "LEC東京リーガルマインド大学院大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-0061",
+        "v:label": "東京都千代田区神田三崎町2-2-15"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3222-5151"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3222-5188"
+        }
+      ],
+      "dc:description": [
+        "開館時間月〜金13:00〜22:00 土・日曜9:15〜20:30(長期休暇中は変更する場合があります。)",
+        "",
+        "",
+        "来校利用は必ず事前に問い合わせの上、当日は身分証および所属機関発行の紹介状を持参のこと",
+        "学外者の利用は、閲覧及び複写のみ(館外への貸出不可)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004060.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004060#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004060.json"},"foaf:name":[{"@value":"兵庫県立大学 神戸商科学術情報館"},{"@value":"ヒョウゴケンリツダイガク コウベショウカガクジュツジョウホウカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"兵県大神戸商科"},{"@value":"ヒョウケンダイコウベショウカ","@language":"ja-hrkt"}],"cinii:memberid":"FA004060","cinii:organizationid":"KI001177","cinii:prefcode":"28","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"兵庫県立大学 神戸商科学術情報館","v:adr":{"@type":"v:Address","v:postal-code":"651-2197","v:label":"神戸市西区学園西町8-2-1"},"v:tel":[{"@type":"v:Tel","@value":"078-794-5394"}],"v:fax":[{"@type":"v:Fax","@value":"078-794-3880"}],"dc:description":["University of Hyogo LAIC Kobe Campus for Commerce","8-2-1 Gakuennishimachi, Nishi-ku, Kobe-city","URL:http://lib.laic.u-hyogo.ac.jp/laic/4/ (website)","URL:http://www.u-hyogo.ac.jp/access/campus02.html  (map)","来館利用担当:閲覧係","来館日:月〜金 受付時間:9:00〜17:00(複写時間も同じ)","注意事項:所属機関の図書館等を通してご利用下さい。","注意事項:一般の方については、兵庫県内在住、在勤者に公開しています。","注意事項:できれば事前に資料の所在等、開館日を確認してください。","持参書類:身分証明書等、所蔵調査のFAX回答状等。","館外貸出可(一部貸出不可の図書があります)。複写可。","休館日:土曜日、日曜日、国民の祝日・12月28日～1月4日","その他行事等、大学が定めた日に学内に入れない場合があります。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004060.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004060#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004060.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "兵庫県立大学 神戸商科学術情報館"
+        },
+        {
+          "@value": "ヒョウゴケンリツダイガク コウベショウカガクジュツジョウホウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "兵県大神戸商科"
+        },
+        {
+          "@value": "ヒョウケンダイコウベショウカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004060",
+      "cinii:organizationid": "KI001177",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "兵庫県立大学 神戸商科学術情報館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "651-2197",
+        "v:label": "神戸市西区学園西町8-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-794-5394"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-794-3880"
+        }
+      ],
+      "dc:description": [
+        "University of Hyogo LAIC Kobe Campus for Commerce",
+        "8-2-1 Gakuennishimachi, Nishi-ku, Kobe-city",
+        "URL:http://lib.laic.u-hyogo.ac.jp/laic/4/ (website)",
+        "URL:http://www.u-hyogo.ac.jp/access/campus02.html  (map)",
+        "来館利用担当:閲覧係",
+        "来館日:月〜金 受付時間:9:00〜17:00(複写時間も同じ)",
+        "注意事項:所属機関の図書館等を通してご利用下さい。",
+        "注意事項:一般の方については、兵庫県内在住、在勤者に公開しています。",
+        "注意事項:できれば事前に資料の所在等、開館日を確認してください。",
+        "持参書類:身分証明書等、所蔵調査のFAX回答状等。",
+        "館外貸出可(一部貸出不可の図書があります)。複写可。",
+        "休館日:土曜日、日曜日、国民の祝日・12月28日～1月4日",
+        "その他行事等、大学が定めた日に学内に入れない場合があります。"
+      ]
+    }
+  ]
+}

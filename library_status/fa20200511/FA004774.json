@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA004774.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA004774#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA004774.json"},"foaf:name":[{"@value":"女子栄養大学 図書館"},{"@value":"ジヨシエイヨウダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"女栄大"},{"@value":"ジヨエイダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["大図"],"cinii:memberid":"FA004774","cinii:organizationid":"KI001767","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"N","v:fn":"女子栄養大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"350-0288","v:label":"埼玉県坂戸市千代田3-9-21"},"v:tel":[{"@type":"v:Tel","@value":"049-282-3612"}],"v:fax":[{"@type":"v:Fax","@value":"049-283-2126"}],"dc:description":["Library of Kagawa Nutrition University","3-9-21 Chiyoda, Sakado, Saitama 350-0288 Japan","URL:http://www.eiyo.ac.jp/library/","来館利用担当:カウンター係","電話番号:049-282-3612","受付時間:9:00〜21:00(土曜日9:00〜17:00)","注意事項:必ず事前に電話連絡のこと","持参書類:資料利用依頼書(身分を証明する物を携行のこと)","複写時間:9:00〜20:40(土曜日9:00〜16:40)","館外貸出:不可","制限事項:定期試験期間は入館不可(6月下旬〜7月上旬、1月上旬〜下旬)","休館日:日曜・一部の祝祭日・夏季休業中(8月中旬一定期間)・冬季休業中・入学試験日(共通テスト,2月上旬,3月中旬)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004774.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004774#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004774.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "女子栄養大学 図書館"
+        },
+        {
+          "@value": "ジヨシエイヨウダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "女栄大"
+        },
+        {
+          "@value": "ジヨエイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "大図"
+      ],
+      "cinii:memberid": "FA004774",
+      "cinii:organizationid": "KI001767",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "女子栄養大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "350-0288",
+        "v:label": "埼玉県坂戸市千代田3-9-21"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "049-282-3612"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "049-283-2126"
+        }
+      ],
+      "dc:description": [
+        "Library of Kagawa Nutrition University",
+        "3-9-21 Chiyoda, Sakado, Saitama 350-0288 Japan",
+        "URL:http://www.eiyo.ac.jp/library/",
+        "来館利用担当:カウンター係",
+        "電話番号:049-282-3612",
+        "受付時間:9:00〜21:00(土曜日9:00〜17:00)",
+        "注意事項:必ず事前に電話連絡のこと",
+        "持参書類:資料利用依頼書(身分を証明する物を携行のこと)",
+        "複写時間:9:00〜20:40(土曜日9:00〜16:40)",
+        "館外貸出:不可",
+        "制限事項:定期試験期間は入館不可(6月下旬〜7月上旬、1月上旬〜下旬)",
+        "休館日:日曜・一部の祝祭日・夏季休業中(8月中旬一定期間)・冬季休業中・入学試験日(共通テスト,2月上旬,3月中旬)"
+      ]
+    }
+  ]
+}

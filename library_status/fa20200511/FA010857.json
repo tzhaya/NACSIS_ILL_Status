@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA010857.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA010857#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA010857.json"},"foaf:name":[{"@value":"愛知芸術文化センター 愛知県図書館"},{"@value":"アイチゲイジユツブンカセンター アイチケントシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"愛知図"},{"@value":"アイチト","@language":"ja-hrkt"}],"cinii:memberid":"FA010857","cinii:organizationid":"KI006057","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"愛知芸術文化センター 愛知県図書館","v:adr":{"@type":"v:Address","v:postal-code":"460-0001","v:label":"愛知県名古屋市中区三の丸1-9-3"},"v:tel":[{"@type":"v:Tel","@value":"052-212-2323"}],"v:fax":[{"@type":"v:Fax","@value":"052-212-3674"}],"dc:description":["Aichi Arts Center Aichi Prefectural Library","1-9-3 Sannomaru Naka-ku Nagoya Japan 460-0001","URL:http://www.aichi-pref-library.jp/","URL:http://www.aichi-pref-library.jp/access.html","来館利用担当:各階カウンター","電話番号:052-212-2323","受付時間:平日10:00〜20:00、 土・日・祝10:00〜18:00 (但し、児童図書室、視覚障害者資料室は10:00〜18:00)","注意事項:公共交通機関をご利用ください。資料の所在等、事前確認をしてください。","持参書類:「利用カード」作成時に氏名と住所が確認できるもの(運転免許証、学生証、健康保険証)などが必要です。","複写時間:平日10:00〜20:00 土・日・祝10:00〜18:00","館外貸出:一人6冊以内、22日間の貸出を行っています。","制限事項:事前に確認をして下さい。(新聞・雑誌・参考図書など制限あり)","休館日毎週月曜日・毎月第2木曜日(その日が祝日の場合は開館。次の平日に休館)、年末年始(12月28日〜1月4日)、整理期間"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010857.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010857#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010857.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知芸術文化センター 愛知県図書館"
+        },
+        {
+          "@value": "アイチゲイジユツブンカセンター アイチケントシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛知図"
+        },
+        {
+          "@value": "アイチト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010857",
+      "cinii:organizationid": "KI006057",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "愛知芸術文化センター 愛知県図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "460-0001",
+        "v:label": "愛知県名古屋市中区三の丸1-9-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-212-2323"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-212-3674"
+        }
+      ],
+      "dc:description": [
+        "Aichi Arts Center Aichi Prefectural Library",
+        "1-9-3 Sannomaru Naka-ku Nagoya Japan 460-0001",
+        "URL:http://www.aichi-pref-library.jp/",
+        "URL:http://www.aichi-pref-library.jp/access.html",
+        "来館利用担当:各階カウンター",
+        "電話番号:052-212-2323",
+        "受付時間:平日10:00〜20:00、 土・日・祝10:00〜18:00 (但し、児童図書室、視覚障害者資料室は10:00〜18:00)",
+        "注意事項:公共交通機関をご利用ください。資料の所在等、事前確認をしてください。",
+        "持参書類:「利用カード」作成時に氏名と住所が確認できるもの(運転免許証、学生証、健康保険証)などが必要です。",
+        "複写時間:平日10:00〜20:00 土・日・祝10:00〜18:00",
+        "館外貸出:一人6冊以内、22日間の貸出を行っています。",
+        "制限事項:事前に確認をして下さい。(新聞・雑誌・参考図書など制限あり)",
+        "休館日毎週月曜日・毎月第2木曜日(その日が祝日の場合は開館。次の平日に休館)、年末年始(12月28日〜1月4日)、整理期間"
+      ]
+    }
+  ]
+}

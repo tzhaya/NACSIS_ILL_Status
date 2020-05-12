@@ -1,1 +1,87 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016831.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016831#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016831.json"},"foaf:name":[{"@value":"九州ルーテル学院大学 図書館"},{"@value":"キュウシュウルーテルガクインダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"九州ルーテル大"},{"@value":"キュウシュウルーテルダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA016831","cinii:organizationid":"KI009452","cinii:prefcode":"43","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"九州ルーテル学院大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"860-8520","v:label":"熊本市中央区黒髪3-12-16"},"v:tel":[{"@type":"v:Tel","@value":"096-343-2494(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"096-343-0354"}],"dc:description":["KYUSHU LUTHERAN COLLEGE LIBRARY","3-12-16, KUROKAMI, CHUOU-KU, KUMAMOTO-CITY, KUMAMOTO 860-8520","http://klclib.klc.ac.jp/csp/carin/html/TOP.CSP","来館利用担当: 係名無し","096-343-2494","受付時間:開館時間に準じます。サイトのカレンダーで確認してください。","利用者は大学等にご所属の教職員、学生に限らせていただきます。","注意事項:資料の所在は事前に確認してください。","注意事項:車での来学はご遠慮ください。","持参書類:身分証。紹介状はいりません。","利用時間:受付時間に準じます。","館外貸出:不可","制限事項:図書館外の配置資料は利用できません。","休館日:サイトのカレンダーで確認してください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016831.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016831#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016831.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "九州ルーテル学院大学 図書館"
+        },
+        {
+          "@value": "キュウシュウルーテルガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "九州ルーテル大"
+        },
+        {
+          "@value": "キュウシュウルーテルダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA016831",
+      "cinii:organizationid": "KI009452",
+      "cinii:prefcode": "43",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "九州ルーテル学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "860-8520",
+        "v:label": "熊本市中央区黒髪3-12-16"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "096-343-2494(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "096-343-0354"
+        }
+      ],
+      "dc:description": [
+        "KYUSHU LUTHERAN COLLEGE LIBRARY",
+        "3-12-16, KUROKAMI, CHUOU-KU, KUMAMOTO-CITY, KUMAMOTO 860-8520",
+        "http://klclib.klc.ac.jp/csp/carin/html/TOP.CSP",
+        "来館利用担当: 係名無し",
+        "096-343-2494",
+        "受付時間:開館時間に準じます。サイトのカレンダーで確認してください。",
+        "利用者は大学等にご所属の教職員、学生に限らせていただきます。",
+        "注意事項:資料の所在は事前に確認してください。",
+        "注意事項:車での来学はご遠慮ください。",
+        "持参書類:身分証。紹介状はいりません。",
+        "利用時間:受付時間に準じます。",
+        "館外貸出:不可",
+        "制限事項:図書館外の配置資料は利用できません。",
+        "休館日:サイトのカレンダーで確認してください。"
+      ]
+    }
+  ]
+}

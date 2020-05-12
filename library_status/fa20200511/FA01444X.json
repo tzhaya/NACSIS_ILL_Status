@@ -1,1 +1,67 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA01444X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA01444X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA01444X.json"},"foaf:name":[{"@value":"香川県立図書館"},{"@value":"カガワケンリツトシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"香川県図"},{"@value":"カガワケント","@language":"ja-hrkt"}],"cinii:memberid":"FA01444X","cinii:organizationid":"KI007672","cinii:prefcode":"37","cinii:catflag":"N","cinii:illflag":"N","cinii:copyservice":"A","cinii:loanservice":"N","cinii:illstatus":"N","v:fn":"香川県立図書館","v:adr":{"@type":"v:Address","v:postal-code":"761-0393","v:label":"香川県高松市林町2217-19"},"v:tel":[{"@type":"v:Tel","@value":"087-868-0567"}],"v:fax":[{"@type":"v:Fax","@value":"087-868-0607"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01444X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01444X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01444X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "香川県立図書館"
+        },
+        {
+          "@value": "カガワケンリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "香川県図"
+        },
+        {
+          "@value": "カガワケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA01444X",
+      "cinii:organizationid": "KI007672",
+      "cinii:prefcode": "37",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "香川県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "761-0393",
+        "v:label": "香川県高松市林町2217-19"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "087-868-0567"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "087-868-0607"
+        }
+      ]
+    }
+  ]
+}

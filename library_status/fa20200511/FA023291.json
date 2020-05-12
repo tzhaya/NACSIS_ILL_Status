@@ -1,1 +1,68 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA023291.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA023291#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA023291.json"},"foaf:name":[{"@value":"公立大学法人 札幌市立大学 附属図書館 桑園キャンパス"},{"@value":"コウリツダイガクホウジン サッポロシリツダイガク フゾクトショカン ソウエンキャンパス","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"札市大桑"},{"@value":"サツシダイソウ","@language":"ja-hrkt"}],"cinii:memberid":"FA023291","cinii:organizationid":"KI009689","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"公立大学法人 札幌市立大学 附属図書館 桑園キャンパス","v:adr":{"@type":"v:Address","v:postal-code":"060-0011","v:label":"北海道札幌市中央区北11条西13丁目"},"v:tel":[{"@type":"v:Tel","@value":"011-726-2780"}],"v:fax":[{"@type":"v:Fax","@value":"011-726-2791"}]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023291.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023291#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023291.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公立大学法人 札幌市立大学 附属図書館 桑園キャンパス"
+        },
+        {
+          "@value": "コウリツダイガクホウジン サッポロシリツダイガク フゾクトショカン ソウエンキャンパス",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "札市大桑"
+        },
+        {
+          "@value": "サツシダイソウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA023291",
+      "cinii:organizationid": "KI009689",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "公立大学法人 札幌市立大学 附属図書館 桑園キャンパス",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-0011",
+        "v:label": "北海道札幌市中央区北11条西13丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-726-2780"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-726-2791"
+        }
+      ]
+    }
+  ]
+}

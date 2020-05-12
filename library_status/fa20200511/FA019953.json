@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019953.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019953#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019953.json"},"foaf:name":[{"@value":"苫小牧駒澤大学 図書館学術情報センター"},{"@value":"トマコマイコマザワダイガク トショカンガクジュツジョウホウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"苫駒大"},{"@value":"トマコマダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA019953","cinii:organizationid":"KI011997","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"苫小牧駒澤大学 図書館学術情報センター","v:adr":{"@type":"v:Address","v:postal-code":"059-1292","v:label":"北海道苫小牧市錦西町3丁目2-1"},"v:tel":[{"@type":"v:Tel","@value":"0144-61-3311"}],"v:fax":[{"@type":"v:Fax","@value":"0144-61-3336"}],"dc:description":["Tomakomai Komazawa University Library","521-293 Nishikioka, Tomakomai, Hokkaido, 059-1292","URL:http://www.t-komazawa.ac.jp/","電話番号:0144-61-3311(直通)","受付時間:9:00〜17:00(月〜金)","注意事項:ただし業務の都合上、休館又は開館時間を変更する場合もあるため事前確認をしてください","持参書類:身分を証明するもの","複写時間:9:00〜17:00(月〜金)","館外貸出:不可","制限事項:研究室貸出資料等閲覧できないものがあります","休館日:土、日、祝日および本学が定める休業日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019953.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019953#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019953.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "苫小牧駒澤大学 図書館学術情報センター"
+        },
+        {
+          "@value": "トマコマイコマザワダイガク トショカンガクジュツジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "苫駒大"
+        },
+        {
+          "@value": "トマコマダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019953",
+      "cinii:organizationid": "KI011997",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "苫小牧駒澤大学 図書館学術情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "059-1292",
+        "v:label": "北海道苫小牧市錦西町3丁目2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0144-61-3311"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0144-61-3336"
+        }
+      ],
+      "dc:description": [
+        "Tomakomai Komazawa University Library",
+        "521-293 Nishikioka, Tomakomai, Hokkaido, 059-1292",
+        "URL:http://www.t-komazawa.ac.jp/",
+        "電話番号:0144-61-3311(直通)",
+        "受付時間:9:00〜17:00(月〜金)",
+        "注意事項:ただし業務の都合上、休館又は開館時間を変更する場合もあるため事前確認をしてください",
+        "持参書類:身分を証明するもの",
+        "複写時間:9:00〜17:00(月〜金)",
+        "館外貸出:不可",
+        "制限事項:研究室貸出資料等閲覧できないものがあります",
+        "休館日:土、日、祝日および本学が定める休業日"
+      ]
+    }
+  ]
+}

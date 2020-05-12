@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA021897.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA021897#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA021897.json"},"foaf:name":[{"@value":"埼玉県立小児医療センター 図書室"},{"@value":"サイタマケンリツショウニイリョウセンター トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"埼小医"},{"@value":"サイショウイ","@language":"ja-hrkt"}],"cinii:memberid":"FA021897","cinii:organizationid":"KI013154","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"埼玉県立小児医療センター 図書室","v:adr":{"@type":"v:Address","v:postal-code":"330-8777","v:label":"埼玉県さいたま市中央区新都心1番地2"},"v:tel":[{"@type":"v:Tel","@value":"048-601-2274(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"048-601-2275(直通)"}],"dc:description":["※NACSIS-ILL相殺加盟館のみ複写受付 :可","※NACSIS-ILL相殺加盟館以外の機関からの複写は原則受け付けません。 ※FAX申込み:不可","速達:可","複写料金: コピー=モノクロ1枚50円 / カラー1枚100円   OJプリント=モノクロ・カラー1枚50円","※カラー図版を含むカラーページは原則カラーで複写いたします。モノクロコピーをご希望の場合はコメント欄に記載ください。","複写決済方法: ILL文献複写等料金相殺サービスによる。","休館日: 土・日曜日・祝日・年末年始","注意事項:一般の方、個人での利用・複写は受付できません。","注意事項:【要事前連絡】医療関係者、学生の方は所属機関を通して事前連絡をしてください。","持参書類:身分証明書","館外貸出:不可"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021897.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021897#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021897.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "埼玉県立小児医療センター 図書室"
+        },
+        {
+          "@value": "サイタマケンリツショウニイリョウセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "埼小医"
+        },
+        {
+          "@value": "サイショウイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021897",
+      "cinii:organizationid": "KI013154",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "埼玉県立小児医療センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "330-8777",
+        "v:label": "埼玉県さいたま市中央区新都心1番地2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-601-2274(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-601-2275(直通)"
+        }
+      ],
+      "dc:description": [
+        "※NACSIS-ILL相殺加盟館のみ複写受付 :可",
+        "※NACSIS-ILL相殺加盟館以外の機関からの複写は原則受け付けません。 ※FAX申込み:不可",
+        "速達:可",
+        "複写料金: コピー=モノクロ1枚50円 / カラー1枚100円   OJプリント=モノクロ・カラー1枚50円",
+        "※カラー図版を含むカラーページは原則カラーで複写いたします。モノクロコピーをご希望の場合はコメント欄に記載ください。",
+        "複写決済方法: ILL文献複写等料金相殺サービスによる。",
+        "休館日: 土・日曜日・祝日・年末年始",
+        "注意事項:一般の方、個人での利用・複写は受付できません。",
+        "注意事項:【要事前連絡】医療関係者、学生の方は所属機関を通して事前連絡をしてください。",
+        "持参書類:身分証明書",
+        "館外貸出:不可"
+      ]
+    }
+  ]
+}

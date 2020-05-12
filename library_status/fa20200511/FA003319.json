@@ -1,1 +1,89 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA003319.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA003319#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA003319.json"},"foaf:name":[{"@value":"徳島大学 附属図書館"},{"@value":"トクシマダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"徳大"},{"@value":"トクダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA003319","cinii:organizationid":"KI000742","cinii:prefcode":"36","cinii:mextid":"006400","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"徳島大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"770-8507","v:label":"徳島県徳島市南常三島町2-1"},"v:tel":[{"@type":"v:Tel","@value":"088-656-7589"}],"v:fax":[{"@type":"v:Fax","@value":"088-656-9016"}],"dc:description":["閲覧担当係 :利用支援係","通常開館時間 :8:30〜22:00(土曜日・日曜日・祝日 10:00〜17:00)","休業中開館時間:8:30〜17:00(土曜日 10:00〜17:00)","休館日:休業期間中の日曜・祝日,5月の連休,8月の徳島大学夏季一斉休業日,大学祭期間,年末年始(12月28日から翌年1月4日まで),蔵書整理日(毎月第2金曜日の午前中。ただし4・7・1・2月を除く)","ILL-Staff:","ILL-Dept:User Support Section","ILL-Org:Tokushima University Library","ILL-Address:2-1, Minami josanjima-cho, Tokushima-shi, Tokushima Japan","ILL-Zip:770-8507","ILL-Commun1:Fax:+81-88-656-9016/E-mail:tsriyouk@tokushima-u.ac.jp","ILL-Commun2:Home-Page:http://www.lib.tokushima-u.ac.jp/","ILL-Accept:OCLC(NII-OCLC link): JATOK","ILL-Sched Closed:Dec.28-Jan.4","ILL-Bill:Foreign:OCLC-IFM only","ILL-Loan:N/A","ILL-Copy-Charge:Photocopy: 40 YEN per sheet. Postage required.","ILL-Note:Only the items held at Main Library are available","ILL-OCLC-Symbol:JATOK"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003319.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003319#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003319.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "徳島大学 附属図書館"
+        },
+        {
+          "@value": "トクシマダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "徳大"
+        },
+        {
+          "@value": "トクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003319",
+      "cinii:organizationid": "KI000742",
+      "cinii:prefcode": "36",
+      "cinii:mextid": "006400",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "徳島大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "770-8507",
+        "v:label": "徳島県徳島市南常三島町2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-656-7589"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-656-9016"
+        }
+      ],
+      "dc:description": [
+        "閲覧担当係 :利用支援係",
+        "通常開館時間 :8:30〜22:00(土曜日・日曜日・祝日 10:00〜17:00)",
+        "休業中開館時間:8:30〜17:00(土曜日 10:00〜17:00)",
+        "休館日:休業期間中の日曜・祝日,5月の連休,8月の徳島大学夏季一斉休業日,大学祭期間,年末年始(12月28日から翌年1月4日まで),蔵書整理日(毎月第2金曜日の午前中。ただし4・7・1・2月を除く)",
+        "ILL-Staff:",
+        "ILL-Dept:User Support Section",
+        "ILL-Org:Tokushima University Library",
+        "ILL-Address:2-1, Minami josanjima-cho, Tokushima-shi, Tokushima Japan",
+        "ILL-Zip:770-8507",
+        "ILL-Commun1:Fax:+81-88-656-9016/E-mail:tsriyouk@tokushima-u.ac.jp",
+        "ILL-Commun2:Home-Page:http://www.lib.tokushima-u.ac.jp/",
+        "ILL-Accept:OCLC(NII-OCLC link): JATOK",
+        "ILL-Sched Closed:Dec.28-Jan.4",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Loan:N/A",
+        "ILL-Copy-Charge:Photocopy: 40 YEN per sheet. Postage required.",
+        "ILL-Note:Only the items held at Main Library are available",
+        "ILL-OCLC-Symbol:JATOK"
+      ]
+    }
+  ]
+}

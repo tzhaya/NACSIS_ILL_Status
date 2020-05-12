@@ -1,1 +1,81 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA01282X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA01282X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA01282X.json"},"foaf:name":[{"@value":"沖縄県立芸術大学 附属図書・芸術資料館"},{"@value":"オキナワケンリツゲイジュツダイガク フゾクトショ・ゲイジュツシリョウカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"沖芸大"},{"@value":"オキゲイダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA01282X","cinii:organizationid":"KI007016","cinii:prefcode":"47","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"沖縄県立芸術大学 附属図書・芸術資料館","v:adr":{"@type":"v:Address","v:postal-code":"903-8602","v:label":"沖縄県那覇市首里当蔵町1-4"},"v:tel":[{"@type":"v:Tel","@value":"098-882-5038"}],"v:fax":[{"@type":"v:Fax","@value":"098-882-5068"}],"dc:description":["The Library & Museum Okinawa Prefectural University of Arts","1-4, Tonokura, Naha sity, Okinawa 903-8602, Japan","URL:http://www.lib.okigei.ac.jp/lib/lib.html (Website)","URL:https://www.lib.okigei.ac.jp/drupal/ (OPAC)","通常期開館時間: 9:00～20:00(月-金)","休業期開館時間: 9:00～17:00(月-金)","休館日: 土曜日・日曜日・祝祭日・年末年始・本学の定める休業日・その他館長が必要と認める日","館内利用: 可","館外貸出: 可(ただし沖縄県在住の満18歳以上)","注意事項: 館外貸出には利用者カードが必要です。","注意事項: 利用者カードの申請・更新時には公的身分証をご持参ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01282X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01282X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01282X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "沖縄県立芸術大学 附属図書・芸術資料館"
+        },
+        {
+          "@value": "オキナワケンリツゲイジュツダイガク フゾクトショ・ゲイジュツシリョウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "沖芸大"
+        },
+        {
+          "@value": "オキゲイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA01282X",
+      "cinii:organizationid": "KI007016",
+      "cinii:prefcode": "47",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "沖縄県立芸術大学 附属図書・芸術資料館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "903-8602",
+        "v:label": "沖縄県那覇市首里当蔵町1-4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "098-882-5038"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "098-882-5068"
+        }
+      ],
+      "dc:description": [
+        "The Library & Museum Okinawa Prefectural University of Arts",
+        "1-4, Tonokura, Naha sity, Okinawa 903-8602, Japan",
+        "URL:http://www.lib.okigei.ac.jp/lib/lib.html (Website)",
+        "URL:https://www.lib.okigei.ac.jp/drupal/ (OPAC)",
+        "通常期開館時間: 9:00～20:00(月-金)",
+        "休業期開館時間: 9:00～17:00(月-金)",
+        "休館日: 土曜日・日曜日・祝祭日・年末年始・本学の定める休業日・その他館長が必要と認める日",
+        "館内利用: 可",
+        "館外貸出: 可(ただし沖縄県在住の満18歳以上)",
+        "注意事項: 館外貸出には利用者カードが必要です。",
+        "注意事項: 利用者カードの申請・更新時には公的身分証をご持参ください。"
+      ]
+    }
+  ]
+}

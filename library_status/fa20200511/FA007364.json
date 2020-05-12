@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007364.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007364#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007364.json"},"foaf:name":[{"@value":"豊田工業大学 総合情報センター"},{"@value":"トヨタコウギヨウダイガク ソウゴウジヨウホウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"豊工大"},{"@value":"トヨコウダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA007364","cinii:organizationid":"KI003241","cinii:prefcode":"23","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"豊田工業大学 総合情報センター","v:adr":{"@type":"v:Address","v:postal-code":"468-8511","v:label":"愛知県名古屋市天白区久方二丁目12-1"},"v:tel":[{"@type":"v:Tel","@value":"052(809)1743"}],"v:fax":[{"@type":"v:Fax","@value":"052(809)1744"}],"dc:description":["Toyota Technological Institute (TTI)","2-12-1 Hisakata, Tenpaku-ku, Nagoya City, Aichi 468-8511 JAPAN","URL:http://libwww.toyota-ti.ac.jp (website)","URL:http://libwww.toyota-ti.ac.jp/annaizu.htm (map)","来館利用担当:学術情報・メディアグループ","電話番号:052-809-1743","受付時間:8:30-16:30(土曜日-12:00)","注意事項:利用対象者:大学・研究機関等に所属している方","注意事項:所属機関の図書館及び最寄りの公共図書館で所蔵していないことをご確認の上、本学図書館OPAC等で所蔵を確認してください。","注意事項:詳しくは本学図書館のホームページをご覧ください。","持参書類:所属機関の図書館・資料室で発行する利用許可願と身分証明書(学生証・職員証)","複写時間:8:30-16:30(土曜日-12:00)","館外貸出:不可(本学OB/OGおよび相互貸借に限り可)。詳しくはホームページ(http://libwww.toyota-ti.ac.jp/tariyo.htm)をご覧ください。","制限事項:一部閲覧を許可しないものがあります。","休館日:日曜日、国民の休日、開学記念日(1/16)、夏期・冬期の各休業中の一定期間、入学試験日、その他館長が定める日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007364.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007364#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007364.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "豊田工業大学 総合情報センター"
+        },
+        {
+          "@value": "トヨタコウギヨウダイガク ソウゴウジヨウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "豊工大"
+        },
+        {
+          "@value": "トヨコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007364",
+      "cinii:organizationid": "KI003241",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "豊田工業大学 総合情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "468-8511",
+        "v:label": "愛知県名古屋市天白区久方二丁目12-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052(809)1743"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052(809)1744"
+        }
+      ],
+      "dc:description": [
+        "Toyota Technological Institute (TTI)",
+        "2-12-1 Hisakata, Tenpaku-ku, Nagoya City, Aichi 468-8511 JAPAN",
+        "URL:http://libwww.toyota-ti.ac.jp (website)",
+        "URL:http://libwww.toyota-ti.ac.jp/annaizu.htm (map)",
+        "来館利用担当:学術情報・メディアグループ",
+        "電話番号:052-809-1743",
+        "受付時間:8:30-16:30(土曜日-12:00)",
+        "注意事項:利用対象者:大学・研究機関等に所属している方",
+        "注意事項:所属機関の図書館及び最寄りの公共図書館で所蔵していないことをご確認の上、本学図書館OPAC等で所蔵を確認してください。",
+        "注意事項:詳しくは本学図書館のホームページをご覧ください。",
+        "持参書類:所属機関の図書館・資料室で発行する利用許可願と身分証明書(学生証・職員証)",
+        "複写時間:8:30-16:30(土曜日-12:00)",
+        "館外貸出:不可(本学OB/OGおよび相互貸借に限り可)。詳しくはホームページ(http://libwww.toyota-ti.ac.jp/tariyo.htm)をご覧ください。",
+        "制限事項:一部閲覧を許可しないものがあります。",
+        "休館日:日曜日、国民の休日、開学記念日(1/16)、夏期・冬期の各休業中の一定期間、入学試験日、その他館長が定める日"
+      ]
+    }
+  ]
+}

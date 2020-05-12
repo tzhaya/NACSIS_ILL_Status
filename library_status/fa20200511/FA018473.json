@@ -1,1 +1,79 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018473.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018473#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018473.json"},"foaf:name":[{"@value":"広島文化学園大学 広島 坂キャンパス 図書館"},{"@value":"ヒロシマブンカガクエンダイガク ヒロシマ サカキャンパス トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"広文化坂"},{"@value":"ヒロブンカサカ","@language":"ja-hrkt"}],"cinii:memberid":"FA018473","cinii:organizationid":"KI008325","cinii:prefcode":"34","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"広島文化学園大学 広島 坂キャンパス 図書館","v:adr":{"@type":"v:Address","v:postal-code":"731-4312","v:label":"広島県安芸郡坂町平成ヶ浜三丁目3-20"},"v:tel":[{"@type":"v:Tel","@value":"082-884-1209"}],"v:fax":[{"@type":"v:Fax","@value":"082-884-0112"}],"dc:description":["Hiroshima Bunka Gakuen University Hiroshima Saka Campus Library","3-3-20 Heiseigahama, Saka-cho Aki-gun, Hiroshima 731-4312","URL:http://www.hbg.ac.jp/library/libtop.html","来館利用担当 : 閲覧係","受付時間 : 9:00 〜 16:30","持参書類:身分を証明するもの","複写受付時間 : 9:00 〜 16:30","館外貸出 : 不可","休館日 : 土・日曜日, 国民の祝祭日。整理休館日(毎月末日)。8月14・15・16日および12月28日〜翌年1月4日。全学行事日。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018473.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018473#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018473.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島文化学園大学 広島 坂キャンパス 図書館"
+        },
+        {
+          "@value": "ヒロシマブンカガクエンダイガク ヒロシマ サカキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広文化坂"
+        },
+        {
+          "@value": "ヒロブンカサカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018473",
+      "cinii:organizationid": "KI008325",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "広島文化学園大学 広島 坂キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "731-4312",
+        "v:label": "広島県安芸郡坂町平成ヶ浜三丁目3-20"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-884-1209"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-884-0112"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima Bunka Gakuen University Hiroshima Saka Campus Library",
+        "3-3-20 Heiseigahama, Saka-cho Aki-gun, Hiroshima 731-4312",
+        "URL:http://www.hbg.ac.jp/library/libtop.html",
+        "来館利用担当 : 閲覧係",
+        "受付時間 : 9:00 〜 16:30",
+        "持参書類:身分を証明するもの",
+        "複写受付時間 : 9:00 〜 16:30",
+        "館外貸出 : 不可",
+        "休館日 : 土・日曜日, 国民の祝祭日。整理休館日(毎月末日)。8月14・15・16日および12月28日〜翌年1月4日。全学行事日。"
+      ]
+    }
+  ]
+}

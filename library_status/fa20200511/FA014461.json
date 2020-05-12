@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014461.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014461#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014461.json"},"foaf:name":[{"@value":"長岡工業高等専門学校 図書館"},{"@value":"ナガオカコウギョウコウトウセンモンガッコウ トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"長高専"},{"@value":"チョウコウセン","@language":"ja-hrkt"}],"cinii:memberid":"FA014461","cinii:organizationid":"KI007708","cinii:prefcode":"15","cinii:mextid":"601700","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"長岡工業高等専門学校 図書館","v:adr":{"@type":"v:Address","v:postal-code":"940-8532","v:label":"新潟県長岡市西片貝町888"},"v:tel":[{"@type":"v:Tel","@value":"0258-34-9333"}],"v:fax":[{"@type":"v:Fax","@value":"0258-34-9530"}],"dc:description":["Nagaoka National College of Technology Libraly","888, Nishikatakai-machi, Nagaoka-shi, Niigata-ken, 940-8532","URL : http://www.nagaoka-ct.ac.jp/lib/","来館利用担当 : 学生課図書係","電話番号 : 0258-34-9333 FAX 0258-34-9530","E-mail : tosho@nagaoka-ct.ac.jp","受付時間 : 平日 8:30〜21:00 土曜日 9:00〜17:00  長期休業中は平日8:30〜17:00(土曜日閉館)","休館日 : 日曜日、国民の祝日、年末年始。 ホームページに開館カレンダー有。","館外貸出 : 可(一般の方は2週間以内、3冊)","複写時間 : 8:30〜16:30 (土曜日は複写できません。)","注意事項 : 一般の方に開放しています。資料の所在等については事前確認(連絡)いただいたほうが確実です。","持参書類 : 一般の方への貸出は利用者証を発行。利用者証発行には、氏名、住所、生年月日の確認できる身分証明書(運転免許証,保険証,学生証)を持参ください。(発行できる時間は、平日8:30〜17:00の間です)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014461.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014461#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014461.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "長岡工業高等専門学校 図書館"
+        },
+        {
+          "@value": "ナガオカコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "長高専"
+        },
+        {
+          "@value": "チョウコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014461",
+      "cinii:organizationid": "KI007708",
+      "cinii:prefcode": "15",
+      "cinii:mextid": "601700",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "長岡工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "940-8532",
+        "v:label": "新潟県長岡市西片貝町888"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0258-34-9333"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0258-34-9530"
+        }
+      ],
+      "dc:description": [
+        "Nagaoka National College of Technology Libraly",
+        "888, Nishikatakai-machi, Nagaoka-shi, Niigata-ken, 940-8532",
+        "URL : http://www.nagaoka-ct.ac.jp/lib/",
+        "来館利用担当 : 学生課図書係",
+        "電話番号 : 0258-34-9333 FAX 0258-34-9530",
+        "E-mail : tosho@nagaoka-ct.ac.jp",
+        "受付時間 : 平日 8:30〜21:00 土曜日 9:00〜17:00  長期休業中は平日8:30〜17:00(土曜日閉館)",
+        "休館日 : 日曜日、国民の祝日、年末年始。 ホームページに開館カレンダー有。",
+        "館外貸出 : 可(一般の方は2週間以内、3冊)",
+        "複写時間 : 8:30〜16:30 (土曜日は複写できません。)",
+        "注意事項 : 一般の方に開放しています。資料の所在等については事前確認(連絡)いただいたほうが確実です。",
+        "持参書類 : 一般の方への貸出は利用者証を発行。利用者証発行には、氏名、住所、生年月日の確認できる身分証明書(運転免許証,保険証,学生証)を持参ください。(発行できる時間は、平日8:30〜17:00の間です)"
+      ]
+    }
+  ]
+}

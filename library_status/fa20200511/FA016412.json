@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016412.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016412#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016412.json"},"foaf:name":[{"@value":"長崎外国語大学 教育研究メディアセンター"},{"@value":"ナガサキガイコクゴダイガク キョウイクケンキュウメディアセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"長崎外語メ"},{"@value":"ナガサキガイゴメ","@language":"ja-hrkt"}],"cinii:memberid":"FA016412","cinii:organizationid":"KI009168","cinii:prefcode":"42","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"長崎外国語大学 教育研究メディアセンター","v:adr":{"@type":"v:Address","v:postal-code":"851-2196","v:label":"長崎県長崎市横尾3丁目15番1号"},"v:tel":[{"@type":"v:Tel","@value":"095-840-2005"}],"v:fax":[{"@type":"v:Fax","@value":"095-840-2205"}],"dc:description":["URL:http://venus.nagasaki-gaigo.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016412.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016412#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016412.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "長崎外国語大学 教育研究メディアセンター"
+        },
+        {
+          "@value": "ナガサキガイコクゴダイガク キョウイクケンキュウメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "長崎外語メ"
+        },
+        {
+          "@value": "ナガサキガイゴメ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016412",
+      "cinii:organizationid": "KI009168",
+      "cinii:prefcode": "42",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "長崎外国語大学 教育研究メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "851-2196",
+        "v:label": "長崎県長崎市横尾3丁目15番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "095-840-2005"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "095-840-2205"
+        }
+      ],
+      "dc:description": [
+        "URL:http://venus.nagasaki-gaigo.ac.jp"
+      ]
+    }
+  ]
+}

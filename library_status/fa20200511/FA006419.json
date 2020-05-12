@@ -1,1 +1,72 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA006419.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA006419#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA006419.json"},"foaf:name":[{"@value":"日本医科大学 武蔵小杉病院 図書室"},{"@value":"ニホンイカダイガク ムサシコスギビョウイン トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日医大小杉"},{"@value":"ニチイダイコスギ","@language":"ja-hrkt"}],"cinii:memberid":"FA006419","cinii:organizationid":"KI002544","cinii:prefcode":"14","cinii:catflag":"N","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"日本医科大学 武蔵小杉病院 図書室","v:adr":{"@type":"v:Address","v:postal-code":"211-8355","v:label":"神奈川県川崎市中原区小杉町1-396"},"v:tel":[{"@type":"v:Tel","@value":"044-733-5181"}],"v:fax":[{"@type":"v:Fax","@value":"044-711-8325"}],"dc:description":["Nippon Medical School Musashikosugi Hospital Library","1-396 Kosugi Nakahara-ku Kawasaki-shi Japan"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006419.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006419#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006419.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本医科大学 武蔵小杉病院 図書室"
+        },
+        {
+          "@value": "ニホンイカダイガク ムサシコスギビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日医大小杉"
+        },
+        {
+          "@value": "ニチイダイコスギ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006419",
+      "cinii:organizationid": "KI002544",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本医科大学 武蔵小杉病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "211-8355",
+        "v:label": "神奈川県川崎市中原区小杉町1-396"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "044-733-5181"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "044-711-8325"
+        }
+      ],
+      "dc:description": [
+        "Nippon Medical School Musashikosugi Hospital Library",
+        "1-396 Kosugi Nakahara-ku Kawasaki-shi Japan"
+      ]
+    }
+  ]
+}

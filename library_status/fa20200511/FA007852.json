@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA007852.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA007852#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA007852.json"},"foaf:name":[{"@value":"大阪産業大学 綜合図書館"},{"@value":"オオサカサンギョウダイガク ソウゴウトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"阪産大"},{"@value":"ハンサンダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["綜図"],"cinii:memberid":"FA007852","cinii:organizationid":"KI003616","cinii:prefcode":"27","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"大阪産業大学 綜合図書館","v:adr":{"@type":"v:Address","v:postal-code":"574-8530","v:label":"大阪府大東市中垣内3-1-1"},"v:tel":[{"@type":"v:Tel","@value":"072-875-3001"}],"v:fax":[{"@type":"v:Fax","@value":"072-873-1664"}],"dc:description":["OSAKA SANGYO UNIVERSITY LIBRARY","3-1-1 NAKAGAITO, DAITO-SHI, OSAKA 574-8530","URL:http://www.osaka-sandai.ac.jp/lib/","来館利用担当:閲覧係(相互利用担当)","電話番号:072-875-3001","受付時間:9:30〜18:00","注意事項:資料の所在等、事前確認をしてください。","持参書類:資料利用依頼書(身分を証明する物が必要です。)","複写時間:9:30〜18:00","館外貸出:不可","制限事項:貴重図書、特殊資料には閲覧を許可しない物がある。","休館日:日曜日、国民の祝日、年末年始、8月中頃、創立記念日(11月1日)、蔵書点検期間(2月中旬)、入学試験期間、大学祭期間(11月3日前後、1週間)、毎月25日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007852.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007852#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007852.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪産業大学 綜合図書館"
+        },
+        {
+          "@value": "オオサカサンギョウダイガク ソウゴウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪産大"
+        },
+        {
+          "@value": "ハンサンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "綜図"
+      ],
+      "cinii:memberid": "FA007852",
+      "cinii:organizationid": "KI003616",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪産業大学 綜合図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "574-8530",
+        "v:label": "大阪府大東市中垣内3-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-875-3001"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-873-1664"
+        }
+      ],
+      "dc:description": [
+        "OSAKA SANGYO UNIVERSITY LIBRARY",
+        "3-1-1 NAKAGAITO, DAITO-SHI, OSAKA 574-8530",
+        "URL:http://www.osaka-sandai.ac.jp/lib/",
+        "来館利用担当:閲覧係(相互利用担当)",
+        "電話番号:072-875-3001",
+        "受付時間:9:30〜18:00",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:資料利用依頼書(身分を証明する物が必要です。)",
+        "複写時間:9:30〜18:00",
+        "館外貸出:不可",
+        "制限事項:貴重図書、特殊資料には閲覧を許可しない物がある。",
+        "休館日:日曜日、国民の祝日、年末年始、8月中頃、創立記念日(11月1日)、蔵書点検期間(2月中旬)、入学試験期間、大学祭期間(11月3日前後、1週間)、毎月25日"
+      ]
+    }
+  ]
+}

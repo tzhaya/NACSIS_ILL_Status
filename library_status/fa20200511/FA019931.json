@@ -1,1 +1,78 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA019931.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA019931#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA019931.json"},"foaf:name":[{"@value":"北海道武蔵女子短期大学 附属図書館"},{"@value":"ホッカイドウムサシジョシタンキダイガク フゾクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"北海道武蔵短大"},{"@value":"ホッカイドウムサシタンダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA019931","cinii:organizationid":"KI011986","cinii:prefcode":"01","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"北海道武蔵女子短期大学 附属図書館","v:adr":{"@type":"v:Address","v:postal-code":"001-0022","v:label":"北海道札幌市北区北22条西13丁目"},"v:tel":[{"@type":"v:Tel","@value":"011-726-9705"}],"v:fax":[{"@type":"v:Fax","@value":"011-726-9705"}],"dc:description":["Hokkaido  Musashi  Women's  Junior  College  Library","Kita-22, Nishi-13, Kita-ku, Sapporo  001-0022","URL:http://www.musashi-jc.ac.jp/library/","通常開館時間:月-金曜日 9:00-18:00","休館日:土・日曜日、祝日、年末年始、春・夏・冬の休業期間中の定める日、その他休館日があります。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019931.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019931#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019931.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道武蔵女子短期大学 附属図書館"
+        },
+        {
+          "@value": "ホッカイドウムサシジョシタンキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北海道武蔵短大"
+        },
+        {
+          "@value": "ホッカイドウムサシタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA019931",
+      "cinii:organizationid": "KI011986",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北海道武蔵女子短期大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "001-0022",
+        "v:label": "北海道札幌市北区北22条西13丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-726-9705"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-726-9705"
+        }
+      ],
+      "dc:description": [
+        "Hokkaido  Musashi  Women's  Junior  College  Library",
+        "Kita-22, Nishi-13, Kita-ku, Sapporo  001-0022",
+        "URL:http://www.musashi-jc.ac.jp/library/",
+        "通常開館時間:月-金曜日 9:00-18:00",
+        "休館日:土・日曜日、祝日、年末年始、春・夏・冬の休業期間中の定める日、その他休館日があります。"
+      ]
+    }
+  ]
+}

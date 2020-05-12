@@ -1,1 +1,80 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA02203X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA02203X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA02203X.json"},"foaf:name":[{"@value":"国立研究開発法人 産業技術総合研究所 東北センター 図書室"},{"@value":"コクリツケンキュウカイハツホウジン サンギョウギジュツソウゴウケンキュウショ トウホクセンター トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"産総研東北センター"},{"@value":"サンソウケントウホクセンター","@language":"ja-hrkt"}],"cinii:memberid":"FA02203X","cinii:organizationid":"KI013234","cinii:prefcode":"04","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"国立研究開発法人 産業技術総合研究所 東北センター 図書室","v:adr":{"@type":"v:Address","v:postal-code":"983-8551","v:label":"宮城県仙台市宮城野区苦竹四丁目2-1"},"v:tel":[{"@type":"v:Tel","@value":"022-237-5211"}],"v:fax":[{"@type":"v:Fax","@value":"022-236-6839"}],"dc:description":["受付時間:平日9:00-12:00.13:00-14:00(土・日・祝日は受け付けない)","注意事項:資料の所在等、事前に確認をお願いします。","注意事項:個人からの依頼は不可","複写時間:平日のみ9:00-12:00.13:00-14:00","持参書類:身分証明書・学生証、紹介状などをご持参ください。","電子複写料金:白黒40円、カラー40円+手数料1件につき100円(片面、等倍のみ)*直接来館の際は手数料無","館外貸出:不可","制限事項:研究室貸出資料は閲覧できません。","休館日:年末年始、その他臨時休館日","National Institute of Advanced Industrial Science and Techonology,Tohoku Library Office"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA02203X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA02203X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA02203X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 産業技術総合研究所 東北センター 図書室"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン サンギョウギジュツソウゴウケンキュウショ トウホクセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産総研東北センター"
+        },
+        {
+          "@value": "サンソウケントウホクセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02203X",
+      "cinii:organizationid": "KI013234",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立研究開発法人 産業技術総合研究所 東北センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "983-8551",
+        "v:label": "宮城県仙台市宮城野区苦竹四丁目2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-237-5211"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-236-6839"
+        }
+      ],
+      "dc:description": [
+        "受付時間:平日9:00-12:00.13:00-14:00(土・日・祝日は受け付けない)",
+        "注意事項:資料の所在等、事前に確認をお願いします。",
+        "注意事項:個人からの依頼は不可",
+        "複写時間:平日のみ9:00-12:00.13:00-14:00",
+        "持参書類:身分証明書・学生証、紹介状などをご持参ください。",
+        "電子複写料金:白黒40円、カラー40円+手数料1件につき100円(片面、等倍のみ)*直接来館の際は手数料無",
+        "館外貸出:不可",
+        "制限事項:研究室貸出資料は閲覧できません。",
+        "休館日:年末年始、その他臨時休館日",
+        "National Institute of Advanced Industrial Science and Techonology,Tohoku Library Office"
+      ]
+    }
+  ]
+}

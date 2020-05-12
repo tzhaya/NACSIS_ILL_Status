@@ -1,1 +1,75 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA01975X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA01975X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA01975X.json"},"foaf:name":[{"@value":"近畿大学 九州短期大学 図書館"},{"@value":"キンキダイガク キュウシュウタンキダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"近大九短"},{"@value":"キンダイキュウタン","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA01975X","cinii:organizationid":"KI011432","cinii:prefcode":"40","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"近畿大学 九州短期大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"820-8513","v:label":"福岡県飯塚市菰田東1-5-30"},"v:tel":[{"@type":"v:Tel","@value":"0948-22-5726"}],"v:fax":[{"@type":"v:Fax","@value":"0948-24-8591"}],"dc:description":["Library of Kyushu Junior College of Kinki University","1-5-30 Komodahigashi, Iizuka, Fukuoka"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01975X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01975X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01975X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "近畿大学 九州短期大学 図書館"
+        },
+        {
+          "@value": "キンキダイガク キュウシュウタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "近大九短"
+        },
+        {
+          "@value": "キンダイキュウタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA01975X",
+      "cinii:organizationid": "KI011432",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "近畿大学 九州短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "820-8513",
+        "v:label": "福岡県飯塚市菰田東1-5-30"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0948-22-5726"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0948-24-8591"
+        }
+      ],
+      "dc:description": [
+        "Library of Kyushu Junior College of Kinki University",
+        "1-5-30 Komodahigashi, Iizuka, Fukuoka"
+      ]
+    }
+  ]
+}

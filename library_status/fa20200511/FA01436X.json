@@ -1,1 +1,79 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA01436X.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA01436X#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA01436X.json"},"foaf:name":[{"@value":"桐蔭横浜大学 大学情報センター"},{"@value":"トウインヨコハマダイガク ダイガクジヨウホウセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"桐蔭横浜大"},{"@value":"トウインヨコハマダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","ML"],"cinii:memberid":"FA01436X","cinii:organizationid":"KI007592","cinii:prefcode":"14","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"桐蔭横浜大学 大学情報センター","v:adr":{"@type":"v:Address","v:postal-code":"225-8502","v:label":"横浜市青葉区鉄町1614"},"v:tel":[{"@type":"v:Tel","@value":"045-974-5092"}],"dc:description":["Toin University of Yokohama Library","1614, Kurogane-cho, Aoba-ku, Yokohama 225-8503","URL:http://ufinity.toin.ac.jp/ (website)","来館利用担当 :図書課","電話番号 :045-974-5092","受付時間 :9:00〜18:45(土曜日〜18:45)","注意事項 :資料の所在等、事前確認をしてください。","持参書類 :資料利用依頼書および身分を証明するもの。","複写時間 :9:00〜18:45(土曜日〜18:45)","館外貸出 :不可","休館日 :なし(日曜・祝日、年末年始は事務取扱なし)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01436X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01436X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01436X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "桐蔭横浜大学 大学情報センター"
+        },
+        {
+          "@value": "トウインヨコハマダイガク ダイガクジヨウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "桐蔭横浜大"
+        },
+        {
+          "@value": "トウインヨコハマダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "ML"
+      ],
+      "cinii:memberid": "FA01436X",
+      "cinii:organizationid": "KI007592",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "桐蔭横浜大学 大学情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "225-8502",
+        "v:label": "横浜市青葉区鉄町1614"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-974-5092"
+        }
+      ],
+      "dc:description": [
+        "Toin University of Yokohama Library",
+        "1614, Kurogane-cho, Aoba-ku, Yokohama 225-8503",
+        "URL:http://ufinity.toin.ac.jp/ (website)",
+        "来館利用担当 :図書課",
+        "電話番号 :045-974-5092",
+        "受付時間 :9:00〜18:45(土曜日〜18:45)",
+        "注意事項 :資料の所在等、事前確認をしてください。",
+        "持参書類 :資料利用依頼書および身分を証明するもの。",
+        "複写時間 :9:00〜18:45(土曜日〜18:45)",
+        "館外貸出 :不可",
+        "休館日 :なし(日曜・祝日、年末年始は事務取扱なし)"
+      ]
+    }
+  ]
+}

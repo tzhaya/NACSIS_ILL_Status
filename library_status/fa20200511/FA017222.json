@@ -1,1 +1,71 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA017222.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA017222#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA017222.json"},"foaf:name":[{"@value":"独立行政法人 国際交流基金 バンコツク日本文化センター"},{"@value":"ドクリツギヨウセイホウジン コクサイコウリユウキキン バンコツクニホンブンカセンター","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"JF-Bangkok"},{"@value":"JF-Bangkok","@language":"ja-hrkt"}],"cinii:memberid":"FA017222","cinii:organizationid":"KI008700","cinii:prefcode":"153","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"独立行政法人 国際交流基金 バンコツク日本文化センター","v:adr":{"@type":"v:Address","v:label":"10th Fl. Serm-Mit Tower, 159 Sukhumvit21, Bangkok 10110"},"v:tel":[{"@type":"v:Tel","@value":"662-260-8560〜4"}],"v:fax":[{"@type":"v:Fax","@value":"662-260-8565"}],"dc:description":["The Japan Foundation, Japan Cultural Center, Bangkok","10th Fl. Serm-Mit Tower, 159 Sukhumvit21, Bangkok 10110"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017222.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017222#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017222.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 国際交流基金 バンコツク日本文化センター"
+        },
+        {
+          "@value": "ドクリツギヨウセイホウジン コクサイコウリユウキキン バンコツクニホンブンカセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "JF-Bangkok"
+        },
+        {
+          "@value": "JF-Bangkok",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017222",
+      "cinii:organizationid": "KI008700",
+      "cinii:prefcode": "153",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "独立行政法人 国際交流基金 バンコツク日本文化センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:label": "10th Fl. Serm-Mit Tower, 159 Sukhumvit21, Bangkok 10110"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "662-260-8560〜4"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "662-260-8565"
+        }
+      ],
+      "dc:description": [
+        "The Japan Foundation, Japan Cultural Center, Bangkok",
+        "10th Fl. Serm-Mit Tower, 159 Sukhumvit21, Bangkok 10110"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009086.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009086#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009086.json"},"foaf:name":[{"@value":"日本文理大学 図書館"},{"@value":"ニツポンブンリダイガク トシヨカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日文理大"},{"@value":"ニチブンリダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA009086","cinii:organizationid":"KI004528","cinii:prefcode":"44","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"日本文理大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"870-0397","v:label":"大分県大分市一木1727"},"v:tel":[{"@type":"v:Tel","@value":"097-524-2711"}],"v:fax":[{"@type":"v:Fax","@value":"097-593-5166"}],"dc:description":["Nippon Bunri University Library","1727, Ichigi, Oita-city, Oita 870-0397","URL:http://lib.nbu.ac.jp/","利用サービス係","電話番号:097-524-2711(直通)","受付時間:8:30〜20:00(土曜日8:30〜17:00)","注意事項:電話もしくはE-mail等で事前連絡が望ましい","持参書類:身分証明書","複写時間:8:30〜20:00(土曜日8:30〜17:00)","館外貸出:可","制限事項:日曜日、祝日、月1回の定例休館日、学内行事その他による臨時休館日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009086.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009086#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009086.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本文理大学 図書館"
+        },
+        {
+          "@value": "ニツポンブンリダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日文理大"
+        },
+        {
+          "@value": "ニチブンリダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA009086",
+      "cinii:organizationid": "KI004528",
+      "cinii:prefcode": "44",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本文理大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "870-0397",
+        "v:label": "大分県大分市一木1727"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "097-524-2711"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "097-593-5166"
+        }
+      ],
+      "dc:description": [
+        "Nippon Bunri University Library",
+        "1727, Ichigi, Oita-city, Oita 870-0397",
+        "URL:http://lib.nbu.ac.jp/",
+        "利用サービス係",
+        "電話番号:097-524-2711(直通)",
+        "受付時間:8:30〜20:00(土曜日8:30〜17:00)",
+        "注意事項:電話もしくはE-mail等で事前連絡が望ましい",
+        "持参書類:身分証明書",
+        "複写時間:8:30〜20:00(土曜日8:30〜17:00)",
+        "館外貸出:可",
+        "制限事項:日曜日、祝日、月1回の定例休館日、学内行事その他による臨時休館日"
+      ]
+    }
+  ]
+}

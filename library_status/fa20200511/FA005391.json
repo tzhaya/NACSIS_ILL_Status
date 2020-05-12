@@ -1,1 +1,100 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA005391.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA005391#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA005391.json"},"foaf:name":[{"@value":"昭和大学 図書館"},{"@value":"ショウワダイガク トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"昭和大"},{"@value":"ショウワダイ","@language":"ja-hrkt"}],"cinii:memberid":"FA005391","cinii:organizationid":"KI002103","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"昭和大学 図書館","v:adr":{"@type":"v:Address","v:postal-code":"142-8555","v:label":"東京都品川区旗の台1-5-8"},"v:tel":[{"@type":"v:Tel","@value":"03-3784-8042"}],"v:fax":[{"@type":"v:Fax","@value":"03-3784-8287"}],"dc:description":["※在学生の大学構内への立入禁止のため、学外者の来館利用(閲覧・複写)不可 : 3/30(月)～5/31(日) https://www.showa-u.ac.jp/lib/news/nid00001061.html","複写担当係 :相互貸借係","複写受付可否 :可","複写受付窓口 :相互貸借係","FAX受付可否 :可","FAX送信可否 :日本医学図書館協会・日本薬学図書館協議会加盟館のみ送信","複写方法・料金:電子複写(50円)  カラーコピー(EJ版対応不可/100円)","決済方法 :後納","支払方法 :ILL文献複写等料金相殺サービス参加館は相殺、それ以外は郵便振替","振込先 :00160-0-126995  昭和大学図書館","複写注記 :発送はクロネコDM便(速達は旧メール便移行期間後は郵便)","貸借担当係 :相互貸借係","貸借受付可否 :可 ※新型コロナウイルス感染症感染防止対策のため、当面の間貸借受付を停止いたします。","貸借受付窓口 :相互貸借係","貸出期間 :郵送期間を含めて3週間","貸出冊数 :5冊","貸借注記 :付属の視聴覚メディアは貸出不可","閲覧担当係 :相互貸借係","閲覧対象者 :大学の教職員・学生、医療従事者","閲覧事前連絡 :文書・電話等にて連絡のこと","閲覧持参書類 :図書館からの紹介状および身分証明書","閲覧受付時間 :平日9:00-17:00","複写受付時間 :平日9:00-16:00","館外貸出可否 :図書のみ可","閲覧注記 :書庫内立ち入り禁止","通常開館時間 :平日9:00-22:00  土曜日9:00-22:00  日祝日 9:00-17:00","休館日 :創立記念日11月15日、年末年始","Showa University Library","1-5-8, Hatanodai, Shinagawa-ku, Tokyo 142-8555","URL:https://www.showa-u.ac.jp/lib/ (web)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005391.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005391#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005391.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "昭和大学 図書館"
+        },
+        {
+          "@value": "ショウワダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "昭和大"
+        },
+        {
+          "@value": "ショウワダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005391",
+      "cinii:organizationid": "KI002103",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "昭和大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "142-8555",
+        "v:label": "東京都品川区旗の台1-5-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3784-8042"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3784-8287"
+        }
+      ],
+      "dc:description": [
+        "※在学生の大学構内への立入禁止のため、学外者の来館利用(閲覧・複写)不可 : 3/30(月)～5/31(日) https://www.showa-u.ac.jp/lib/news/nid00001061.html",
+        "複写担当係 :相互貸借係",
+        "複写受付可否 :可",
+        "複写受付窓口 :相互貸借係",
+        "FAX受付可否 :可",
+        "FAX送信可否 :日本医学図書館協会・日本薬学図書館協議会加盟館のみ送信",
+        "複写方法・料金:電子複写(50円)  カラーコピー(EJ版対応不可/100円)",
+        "決済方法 :後納",
+        "支払方法 :ILL文献複写等料金相殺サービス参加館は相殺、それ以外は郵便振替",
+        "振込先 :00160-0-126995  昭和大学図書館",
+        "複写注記 :発送はクロネコDM便(速達は旧メール便移行期間後は郵便)",
+        "貸借担当係 :相互貸借係",
+        "貸借受付可否 :可 ※新型コロナウイルス感染症感染防止対策のため、当面の間貸借受付を停止いたします。",
+        "貸借受付窓口 :相互貸借係",
+        "貸出期間 :郵送期間を含めて3週間",
+        "貸出冊数 :5冊",
+        "貸借注記 :付属の視聴覚メディアは貸出不可",
+        "閲覧担当係 :相互貸借係",
+        "閲覧対象者 :大学の教職員・学生、医療従事者",
+        "閲覧事前連絡 :文書・電話等にて連絡のこと",
+        "閲覧持参書類 :図書館からの紹介状および身分証明書",
+        "閲覧受付時間 :平日9:00-17:00",
+        "複写受付時間 :平日9:00-16:00",
+        "館外貸出可否 :図書のみ可",
+        "閲覧注記 :書庫内立ち入り禁止",
+        "通常開館時間 :平日9:00-22:00  土曜日9:00-22:00  日祝日 9:00-17:00",
+        "休館日 :創立記念日11月15日、年末年始",
+        "Showa University Library",
+        "1-5-8, Hatanodai, Shinagawa-ku, Tokyo 142-8555",
+        "URL:https://www.showa-u.ac.jp/lib/ (web)"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,78 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA009960.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA009960#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA009960.json"},"foaf:name":[{"@value":"農業・食品産業技術総合研究機構 西日本農業研究センター 図書室"},{"@value":"ノウギョウ・ショクヒンサンギョウギジュツソウゴウケンキュウキコウ ニシニホンノウギョウケンキュウセンター トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"西日本農研"},{"@value":"ニシニホンノウケン","@language":"ja-hrkt"}],"cinii:memberid":"FA009960","cinii:organizationid":"KI005065","cinii:prefcode":"34","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"農業・食品産業技術総合研究機構 西日本農業研究センター 図書室","v:adr":{"@type":"v:Address","v:postal-code":"721-8514","v:label":"広島県福山市西深津町6丁目12番1号"},"v:tel":[{"@type":"v:Tel","@value":"084-923-4133"}],"v:fax":[{"@type":"v:Fax","@value":"084-923-5219"}],"dc:description":["URL:https://www.naro.affrc.go.jp/introduction/library.html","Western Region Agricultural Research Center, NARO","6-12-1, Nishifukatsu, Fukuyama, Hiroshima 721-8514","電話番号:084-923-4133","受付時間9:00-12:00,13:00-16:00","館外貸出:不可","休館日:土曜日、日曜日、国民の祝日、年末年始(12/28-1/4)","注意事項:来館者は事前連絡の上、身分証を持参してください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009960.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009960#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009960.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "農業・食品産業技術総合研究機構 西日本農業研究センター 図書室"
+        },
+        {
+          "@value": "ノウギョウ・ショクヒンサンギョウギジュツソウゴウケンキュウキコウ ニシニホンノウギョウケンキュウセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "西日本農研"
+        },
+        {
+          "@value": "ニシニホンノウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009960",
+      "cinii:organizationid": "KI005065",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "農業・食品産業技術総合研究機構 西日本農業研究センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "721-8514",
+        "v:label": "広島県福山市西深津町6丁目12番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "084-923-4133"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "084-923-5219"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.naro.affrc.go.jp/introduction/library.html",
+        "Western Region Agricultural Research Center, NARO",
+        "6-12-1, Nishifukatsu, Fukuyama, Hiroshima 721-8514",
+        "電話番号:084-923-4133",
+        "受付時間9:00-12:00,13:00-16:00",
+        "館外貸出:不可",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始(12/28-1/4)",
+        "注意事項:来館者は事前連絡の上、身分証を持参してください。"
+      ]
+    }
+  ]
+}

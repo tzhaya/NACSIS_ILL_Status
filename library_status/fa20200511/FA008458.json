@@ -1,1 +1,89 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA008458.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA008458#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA008458.json"},"foaf:name":[{"@value":"天理大学 附属天理図書館"},{"@value":"テンリダイガク フゾクテンリトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"天理図"},{"@value":"テンリト","@language":"ja-hrkt"}],"dcterms:hasPart":["本館","分館"],"cinii:memberid":"FA008458","cinii:organizationid":"KI004029","cinii:prefcode":"29","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"天理大学 附属天理図書館","v:adr":{"@type":"v:Address","v:postal-code":"632-8577","v:label":"奈良県天理市杣之内町1050"},"v:tel":[{"@type":"v:Tel","@value":"0743-63-9206"}],"v:fax":[{"@type":"v:Fax","@value":"0743-63-7728"}],"dc:description":["Tenri Central Library, Tenri University","Somanouchi-cho 1050, Tenri-shi, Nara 632-8577","URL:http://www.tcl.gr.jp (website)","URL:http://www.tcl.gr.jp/access/acsess.htm (map)","来館利用担当: 閲覧係","電話番号: 0743-63-9206","受付時間: 閉館時間の20分前まで","注意事項: 特別本(貴重書・特別文庫・近世文書等)は事前申込許可制. 「特別本閲覧願」(本館ホームページ中の申請書「PDF文書/HTML文書」のプリントアウトでも可)による閲覧希望2週間前までの申込みを要す","持参書類: 特別本は「閲覧許可証」と印鑑. 一般本は不要","複写時間: 閉館時間の30分前まで","館外貸出: 館が定める保証人がある場合は可. ILLの現物貸借は行わない","閲覧注記: 原則として特別本の内, 国の指定品と代替資料(複製版・デジタル資料・マイクロ資料等)のある資料は閲覧不可. また, その他虫損等で閲覧不可の場合もある. 土・日・祝・振替休日および8月中の特別本の閲覧は行わない","通常開館時間:月曜〜金曜: 9:00〜17:30","休業中開館時間: 土・日・祝・振替休日: 9:00〜16:30","休館日: 4月18・29日, 5月3〜5日, 8月6〜20日, 9月第3月曜日, 10月18・26日, 11月23日, 12月23日, 12月27日〜1月6日, 1月26日, 3月27〜31日, 毎月末. 但し12月は24日, 3月は20日(土・日曜繰り上げ). 曝書期間(不定期10日間)"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008458.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008458#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008458.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "天理大学 附属天理図書館"
+        },
+        {
+          "@value": "テンリダイガク フゾクテンリトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "天理図"
+        },
+        {
+          "@value": "テンリト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館",
+        "分館"
+      ],
+      "cinii:memberid": "FA008458",
+      "cinii:organizationid": "KI004029",
+      "cinii:prefcode": "29",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "天理大学 附属天理図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "632-8577",
+        "v:label": "奈良県天理市杣之内町1050"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0743-63-9206"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0743-63-7728"
+        }
+      ],
+      "dc:description": [
+        "Tenri Central Library, Tenri University",
+        "Somanouchi-cho 1050, Tenri-shi, Nara 632-8577",
+        "URL:http://www.tcl.gr.jp (website)",
+        "URL:http://www.tcl.gr.jp/access/acsess.htm (map)",
+        "来館利用担当: 閲覧係",
+        "電話番号: 0743-63-9206",
+        "受付時間: 閉館時間の20分前まで",
+        "注意事項: 特別本(貴重書・特別文庫・近世文書等)は事前申込許可制. 「特別本閲覧願」(本館ホームページ中の申請書「PDF文書/HTML文書」のプリントアウトでも可)による閲覧希望2週間前までの申込みを要す",
+        "持参書類: 特別本は「閲覧許可証」と印鑑. 一般本は不要",
+        "複写時間: 閉館時間の30分前まで",
+        "館外貸出: 館が定める保証人がある場合は可. ILLの現物貸借は行わない",
+        "閲覧注記: 原則として特別本の内, 国の指定品と代替資料(複製版・デジタル資料・マイクロ資料等)のある資料は閲覧不可. また, その他虫損等で閲覧不可の場合もある. 土・日・祝・振替休日および8月中の特別本の閲覧は行わない",
+        "通常開館時間:月曜〜金曜: 9:00〜17:30",
+        "休業中開館時間: 土・日・祝・振替休日: 9:00〜16:30",
+        "休館日: 4月18・29日, 5月3〜5日, 8月6〜20日, 9月第3月曜日, 10月18・26日, 11月23日, 12月23日, 12月27日〜1月6日, 1月26日, 3月27〜31日, 毎月末. 但し12月は24日, 3月は20日(土・日曜繰り上げ). 曝書期間(不定期10日間)"
+      ]
+    }
+  ]
+}

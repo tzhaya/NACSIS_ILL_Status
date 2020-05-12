@@ -1,1 +1,84 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016274.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016274#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016274.json"},"foaf:name":[{"@value":"重井医学研究所・同附属病院 図書室"},{"@value":"シゲイイガクケンキユウジヨドウフゾクビョウイン トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"重井医研"},{"@value":"シゲイイケン","@language":"ja-hrkt"}],"cinii:memberid":"FA016274","cinii:organizationid":"KI009066","cinii:prefcode":"33","cinii:catflag":"A","cinii:illflag":"N","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"重井医学研究所・同附属病院 図書室","v:adr":{"@type":"v:Address","v:postal-code":"701-0202","v:label":"岡山県岡山市南区山田2117"},"v:tel":[{"@type":"v:Tel","@value":"086-282-5311"}],"v:fax":[{"@type":"v:Fax","@value":"086-282-5315"}],"dc:description":["Shigei Medical Research Institute and Hospital","2117 Yamada, Okayama 701-0202","URL:http://www.shigei.or.jp/smri/index.htm (website)","URL:http://www.shigei.or.jp/smrh (website)","URL:http://www.shigei.or.jp/smrh/map00.htm (map)","来館利用担当:図書担当者","受付時間:9:00-12:30","注意事項:院外の方は図書担当者に必ず事前連絡をお願い致します。","注意事項:資料の所在等、事前確認すること","持参書類:身分証明書","複写時間:9:00-17:00","館外貸出:不可","制限事項:当室の都合もございますので必ず事前にご連絡下さい。","休館日:日曜日、国民の祝日、年末年始、木曜日、土曜日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016274.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016274#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016274.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "重井医学研究所・同附属病院 図書室"
+        },
+        {
+          "@value": "シゲイイガクケンキユウジヨドウフゾクビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "重井医研"
+        },
+        {
+          "@value": "シゲイイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016274",
+      "cinii:organizationid": "KI009066",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "重井医学研究所・同附属病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "701-0202",
+        "v:label": "岡山県岡山市南区山田2117"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-282-5311"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-282-5315"
+        }
+      ],
+      "dc:description": [
+        "Shigei Medical Research Institute and Hospital",
+        "2117 Yamada, Okayama 701-0202",
+        "URL:http://www.shigei.or.jp/smri/index.htm (website)",
+        "URL:http://www.shigei.or.jp/smrh (website)",
+        "URL:http://www.shigei.or.jp/smrh/map00.htm (map)",
+        "来館利用担当:図書担当者",
+        "受付時間:9:00-12:30",
+        "注意事項:院外の方は図書担当者に必ず事前連絡をお願い致します。",
+        "注意事項:資料の所在等、事前確認すること",
+        "持参書類:身分証明書",
+        "複写時間:9:00-17:00",
+        "館外貸出:不可",
+        "制限事項:当室の都合もございますので必ず事前にご連絡下さい。",
+        "休館日:日曜日、国民の祝日、年末年始、木曜日、土曜日"
+      ]
+    }
+  ]
+}

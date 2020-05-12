@@ -1,1 +1,97 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002451.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002451#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002451.json"},"foaf:name":[{"@value":"名古屋大学 教育発達科学 図書室"},{"@value":"ナゴヤダイガク キョウイクハッタツカガク トショシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"名大教"},{"@value":"メイダイキョウ","@language":"ja-hrkt"}],"dcterms:hasPart":["教育","教育和書","教育洋書","教育参考","教育和雑誌","教育洋雑誌","教育教科書"],"cinii:memberid":"FA002451","cinii:organizationid":"KI000491","cinii:prefcode":"23","cinii:mextid":"004303","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"名古屋大学 教育発達科学 図書室","v:adr":{"@type":"v:Address","v:postal-code":"464-8601","v:label":"名古屋市千種区不老町"},"v:tel":[{"@type":"v:Tel","@value":"052-789-2608"}],"v:fax":[{"@type":"v:Fax","@value":"052-789-2609"}],"dc:description":["Library, School of Education/Graduate School of Educational and Human Development, Nagoya University","Furocho, Chikusa-ku, Nagoya 464-8601","URL:https://www.nul.nagoya-u.ac.jp/edu/index.html","来室利用担当:図書係","電話番号:052-789-2608","受付時間:平日:9:00-20:00 土曜日:13:00-17:00 (学生休業期間中は、平日:9:00-17:00 土曜日:閉室)","注意事項:事前連絡は不要ですが、利用の可否につきましては、平日の9時から17時の間にお電話でご確認ください","注意事項:車での来室はご遠慮ください","持参書類:身分証・学生証","館外貸出:不可","閉室日:日曜日、国民の祝日、一斉夏季休暇、年末年始、大学入試センター試験日、名古屋大学入学試験日、その他臨時に閉室する場合があります","ILL-Dept:Interlibrary Loan Services","ILL-Org:Nagoya University Library","ILL-Address:Furo-cho, Chikusa-ku, Nagoya, JAPAN","ILL-Zip:464-8601","ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp","ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002451.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002451#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002451.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 教育発達科学 図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク キョウイクハッタツカガク トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大教"
+        },
+        {
+          "@value": "メイダイキョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "教育",
+        "教育和書",
+        "教育洋書",
+        "教育参考",
+        "教育和雑誌",
+        "教育洋雑誌",
+        "教育教科書"
+      ],
+      "cinii:memberid": "FA002451",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004303",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋大学 教育発達科学 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8601",
+        "v:label": "名古屋市千種区不老町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-789-2608"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-789-2609"
+        }
+      ],
+      "dc:description": [
+        "Library, School of Education/Graduate School of Educational and Human Development, Nagoya University",
+        "Furocho, Chikusa-ku, Nagoya 464-8601",
+        "URL:https://www.nul.nagoya-u.ac.jp/edu/index.html",
+        "来室利用担当:図書係",
+        "電話番号:052-789-2608",
+        "受付時間:平日:9:00-20:00 土曜日:13:00-17:00 (学生休業期間中は、平日:9:00-17:00 土曜日:閉室)",
+        "注意事項:事前連絡は不要ですが、利用の可否につきましては、平日の9時から17時の間にお電話でご確認ください",
+        "注意事項:車での来室はご遠慮ください",
+        "持参書類:身分証・学生証",
+        "館外貸出:不可",
+        "閉室日:日曜日、国民の祝日、一斉夏季休暇、年末年始、大学入試センター試験日、名古屋大学入学試験日、その他臨時に閉室する場合があります",
+        "ILL-Dept:Interlibrary Loan Services",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Address:Furo-cho, Chikusa-ku, Nagoya, JAPAN",
+        "ILL-Zip:464-8601",
+        "ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp",
+        "ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"
+      ]
+    }
+  ]
+}

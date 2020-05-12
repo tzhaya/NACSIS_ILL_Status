@@ -1,1 +1,94 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA015125.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA015125#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA015125.json"},"foaf:name":[{"@value":"実践女子大学 短期大学部 図書館"},{"@value":"ジッセンジョシダイガク タンキダイガクブ トショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"実女短"},{"@value":"ジツジョタン","@language":"ja-hrkt"}],"dcterms:hasPart":["図","日研","英研","食栄研","生福研","図研","国研","生文研","教研","短教セ"],"cinii:memberid":"FA015125","cinii:organizationid":"KI008008","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"実践女子大学 短期大学部 図書館","v:adr":{"@type":"v:Address","v:postal-code":"150-8538","v:label":"東京都渋谷区東1-1-49"},"v:tel":[{"@type":"v:Tel","@value":"03-6450-6830"}],"v:fax":[{"@type":"v:Fax","@value":"03-6450-6831"}],"dc:description":["Jissen Women's Junior College Library","1-1-49, Higashi, Shibuya-ku, Tokyo 150-8538","URL:http://www.jissen.ac.jp/library/ (WEBSITE)","URL:http://www.jissen.ac.jp/access_guide/index.html (MAP)","来館利用担当:閲覧参考係","03-6450-6830","受付時間:10:00〜17:00(平日)10:00〜12:00(土曜)","注意事項:ご自分の所属する図書館、資料室等をとおしてお申し込み下さい。個人からの直接の申込みは受付けておりません。","持参書類:図書館の紹介状、身分証明書","複写時間:10:00〜19:00(平日) 10:00〜16:30(土曜)","館外貸出:不可","休館日:日曜、祝日、年末年始、春・夏・冬期休業の一定期間、書庫整理日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015125.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015125#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015125.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "実践女子大学 短期大学部 図書館"
+        },
+        {
+          "@value": "ジッセンジョシダイガク タンキダイガクブ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "実女短"
+        },
+        {
+          "@value": "ジツジョタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "日研",
+        "英研",
+        "食栄研",
+        "生福研",
+        "図研",
+        "国研",
+        "生文研",
+        "教研",
+        "短教セ"
+      ],
+      "cinii:memberid": "FA015125",
+      "cinii:organizationid": "KI008008",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "実践女子大学 短期大学部 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "150-8538",
+        "v:label": "東京都渋谷区東1-1-49"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-6450-6830"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-6450-6831"
+        }
+      ],
+      "dc:description": [
+        "Jissen Women's Junior College Library",
+        "1-1-49, Higashi, Shibuya-ku, Tokyo 150-8538",
+        "URL:http://www.jissen.ac.jp/library/ (WEBSITE)",
+        "URL:http://www.jissen.ac.jp/access_guide/index.html (MAP)",
+        "来館利用担当:閲覧参考係",
+        "03-6450-6830",
+        "受付時間:10:00〜17:00(平日)10:00〜12:00(土曜)",
+        "注意事項:ご自分の所属する図書館、資料室等をとおしてお申し込み下さい。個人からの直接の申込みは受付けておりません。",
+        "持参書類:図書館の紹介状、身分証明書",
+        "複写時間:10:00〜19:00(平日) 10:00〜16:30(土曜)",
+        "館外貸出:不可",
+        "休館日:日曜、祝日、年末年始、春・夏・冬期休業の一定期間、書庫整理日"
+      ]
+    }
+  ]
+}

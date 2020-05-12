@@ -1,1 +1,145 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA001266.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA001266#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA001266.json"},"foaf:name":[{"@value":"北海道教育大学 附属図書館 旭川館"},{"@value":"ホツカイドウキヨウイクダイガク フゾクトシヨカン アサヒカワカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"北教大旭"},{"@value":"ホツキヨウダイアサヒ","@language":"ja-hrkt"}],"dcterms:hasPart":["英語","技工","地理","教心","理教","数学","物理","化学","生物","地学","障教","幼教","保体","技農","家庭","栄生","保健","看護","書道","美術","生スポ","哲学","生活","生情","計画","応用地理","言語文化","国際理解","地域振興","地域文化","芸文音楽","健康","史学","生活情報","造形","地域化学","地域生物","地域物理","地域地学","生涯学習","社会学","障臨","法政","教育","社教","国語","音楽"],"cinii:memberid":"FA001266","cinii:organizationid":"KI000028","cinii:prefcode":"01","cinii:mextid":"000202","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"北海道教育大学 附属図書館 旭川館","v:adr":{"@type":"v:Address","v:postal-code":"070-8621","v:label":"北海道旭川市北門町9丁目"},"v:tel":[{"@type":"v:Tel","@value":"0166-59-1234"}],"v:fax":[{"@type":"v:Fax","@value":"0166-59-1244"}],"dc:description":["北海道教育大学附属図書館旭川館","〒070-8621 北海道旭川市北門町9丁目","TEL:0166-59-1235, FAX:0166-59-1244","Hokkaido University of Education Asahikawa Library Hokumoncho9, Asahikawa, Hokkaido 070-8621","URL:https://s-opac.sap.hokkyodai.ac.jp/library/?q=asahikawa (website, calendar)","http://www.hokkyodai.ac.jp/asa/access/ (map)","来館利用担当:学術情報グループ","電話番号:0166-59-1235/1236","EMAIL:asa-tosho@j.hokkyodai.ac.jp","開館時間:平日 8:30〜22:00, 土日祝休日 10:00〜17:00","持参書類:身分を証明するもの(現住所の記載された身分証明書, 運転免許証等)","館外貸出可否:可(利用登録, 身分証明書呈示が必要です。)ただし, 参考図書, 雑誌の最新号, 貴重図書, 研究室所蔵図書は貸出できません。","休館日:年末年始, 入学試験日等。その他臨時休館・開館時間の変更は, websiteの開館カレンダーでご確認ください。","ILL-Dept: Reference Services Section","ILL-Org: Hokkaido University of Education, Asahikawa Campus Library","ILL-Address: Hokumoncho9, Asahikawa, Hokkaido, Japan","ILL-Zip: 070-8621","ILL-Commun1: Tel: +81-*********** / Fax: +81-*********** / E-mail: asa-tosho@j.hokkyodai.ac.jp","ILL-Commun2: OPAC:https://s-opac.sap.hokkyodai.ac.jp/mylimedio/search/search-input.do?mode=comp&lang=ja","ILL-Accept:Foreign:KERIS","ILL-Sched: Closed: Dec 28-Jan 3","ILL-Bill: Foreign: KERIS= NII Fee Management Service","ILL-Loan:Foreign:N/A","ILL-Copy-Charge: PHOTOCOPY: 40YEN(mono.)/70YEN(color) per sheet. Postage required. Delivery method: via airmail.","ILL-Note: Copy: We accept requests for all materials in Hokkaido University of Education, Asahikawa as a general rule."]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001266.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001266#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001266.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道教育大学 附属図書館 旭川館"
+        },
+        {
+          "@value": "ホツカイドウキヨウイクダイガク フゾクトシヨカン アサヒカワカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北教大旭"
+        },
+        {
+          "@value": "ホツキヨウダイアサヒ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "英語",
+        "技工",
+        "地理",
+        "教心",
+        "理教",
+        "数学",
+        "物理",
+        "化学",
+        "生物",
+        "地学",
+        "障教",
+        "幼教",
+        "保体",
+        "技農",
+        "家庭",
+        "栄生",
+        "保健",
+        "看護",
+        "書道",
+        "美術",
+        "生スポ",
+        "哲学",
+        "生活",
+        "生情",
+        "計画",
+        "応用地理",
+        "言語文化",
+        "国際理解",
+        "地域振興",
+        "地域文化",
+        "芸文音楽",
+        "健康",
+        "史学",
+        "生活情報",
+        "造形",
+        "地域化学",
+        "地域生物",
+        "地域物理",
+        "地域地学",
+        "生涯学習",
+        "社会学",
+        "障臨",
+        "法政",
+        "教育",
+        "社教",
+        "国語",
+        "音楽"
+      ],
+      "cinii:memberid": "FA001266",
+      "cinii:organizationid": "KI000028",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000202",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北海道教育大学 附属図書館 旭川館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "070-8621",
+        "v:label": "北海道旭川市北門町9丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0166-59-1234"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0166-59-1244"
+        }
+      ],
+      "dc:description": [
+        "北海道教育大学附属図書館旭川館",
+        "〒070-8621 北海道旭川市北門町9丁目",
+        "TEL:0166-59-1235, FAX:0166-59-1244",
+        "Hokkaido University of Education Asahikawa Library Hokumoncho9, Asahikawa, Hokkaido 070-8621",
+        "URL:https://s-opac.sap.hokkyodai.ac.jp/library/?q=asahikawa (website, calendar)",
+        "http://www.hokkyodai.ac.jp/asa/access/ (map)",
+        "来館利用担当:学術情報グループ",
+        "電話番号:0166-59-1235/1236",
+        "EMAIL:asa-tosho@j.hokkyodai.ac.jp",
+        "開館時間:平日 8:30〜22:00, 土日祝休日 10:00〜17:00",
+        "持参書類:身分を証明するもの(現住所の記載された身分証明書, 運転免許証等)",
+        "館外貸出可否:可(利用登録, 身分証明書呈示が必要です。)ただし, 参考図書, 雑誌の最新号, 貴重図書, 研究室所蔵図書は貸出できません。",
+        "休館日:年末年始, 入学試験日等。その他臨時休館・開館時間の変更は, websiteの開館カレンダーでご確認ください。",
+        "ILL-Dept: Reference Services Section",
+        "ILL-Org: Hokkaido University of Education, Asahikawa Campus Library",
+        "ILL-Address: Hokumoncho9, Asahikawa, Hokkaido, Japan",
+        "ILL-Zip: 070-8621",
+        "ILL-Commun1: Tel: +81-*********** / Fax: +81-*********** / E-mail: asa-tosho@j.hokkyodai.ac.jp",
+        "ILL-Commun2: OPAC:https://s-opac.sap.hokkyodai.ac.jp/mylimedio/search/search-input.do?mode=comp&lang=ja",
+        "ILL-Accept:Foreign:KERIS",
+        "ILL-Sched: Closed: Dec 28-Jan 3",
+        "ILL-Bill: Foreign: KERIS= NII Fee Management Service",
+        "ILL-Loan:Foreign:N/A",
+        "ILL-Copy-Charge: PHOTOCOPY: 40YEN(mono.)/70YEN(color) per sheet. Postage required. Delivery method: via airmail.",
+        "ILL-Note: Copy: We accept requests for all materials in Hokkaido University of Education, Asahikawa as a general rule."
+      ]
+    }
+  ]
+}

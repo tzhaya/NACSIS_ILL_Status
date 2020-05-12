@@ -1,1 +1,75 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA016693.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA016693#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA016693.json"},"foaf:name":[{"@value":"国立西洋美術館"},{"@value":"コクリツセイヨウビジユツカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"西美"},{"@value":"セイビ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA016693","cinii:organizationid":"KI009135","cinii:prefcode":"13","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"国立西洋美術館","v:adr":{"@type":"v:Address","v:postal-code":"110-0007","v:label":"東京都台東区上野公園7-7"},"v:tel":[{"@type":"v:Tel","@value":"03-3828-5190"}],"dc:description":["The National Museum of Western Art","7-7, Ueno-koen, Taito-ku, Tokyo, 110-0007","当館の目録作業の都合上、NACSIS Webcatに登録されているのは当館蔵書の一部です。所蔵の確認には当館OPACもご活用ください。","URL:http://www.nmwa.go.jp/jp/html/library.html","来館利用担当:研究資料センター","電話受付時間: 平日(月-金) 10:00-12:00、13:00-16:30","開室日: 火曜日、金曜日 10:00-16:30(事前予約制) 年末年始、特別整理期間は休室","注意事項: 利用者登録制です。事前にホームページ上の利用方法等をよくご確認のうえ、直接当センターまで電話でご連絡ください。"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016693.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016693#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016693.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立西洋美術館"
+        },
+        {
+          "@value": "コクリツセイヨウビジユツカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "西美"
+        },
+        {
+          "@value": "セイビ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA016693",
+      "cinii:organizationid": "KI009135",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立西洋美術館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "110-0007",
+        "v:label": "東京都台東区上野公園7-7"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3828-5190"
+        }
+      ],
+      "dc:description": [
+        "The National Museum of Western Art",
+        "7-7, Ueno-koen, Taito-ku, Tokyo, 110-0007",
+        "当館の目録作業の都合上、NACSIS Webcatに登録されているのは当館蔵書の一部です。所蔵の確認には当館OPACもご活用ください。",
+        "URL:http://www.nmwa.go.jp/jp/html/library.html",
+        "来館利用担当:研究資料センター",
+        "電話受付時間: 平日(月-金) 10:00-12:00、13:00-16:30",
+        "開室日: 火曜日、金曜日 10:00-16:30(事前予約制) 年末年始、特別整理期間は休室",
+        "注意事項: 利用者登録制です。事前にホームページ上の利用方法等をよくご確認のうえ、直接当センターまで電話でご連絡ください。"
+      ]
+    }
+  ]
+}

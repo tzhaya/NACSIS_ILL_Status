@@ -1,1 +1,79 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA014869.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA014869#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA014869.json"},"foaf:name":[{"@value":"日本大学 芸術学部図書館 (所沢)"},{"@value":"ニホンダイガク ゲイジユツガクブトシヨカン (トコロザワ)","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"日大芸所"},{"@value":"ニチダイゲイトコロ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","共","一","外","体"],"cinii:memberid":"FA014869","cinii:organizationid":"KI002533","cinii:prefcode":"11","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"N","cinii:loanservice":"N","cinii:faxservice":"N","cinii:illstatus":"N","v:fn":"日本大学 芸術学部図書館 (所沢)","v:adr":{"@type":"v:Address","v:postal-code":"359-8525","v:label":"埼玉県所沢市中富南4-21"},"v:tel":[{"@type":"v:Tel","@value":"03-5995-8206・8336"}],"v:fax":[{"@type":"v:Fax","@value":"03-5995-8294"}],"dc:description":["2019年4月より、芸術学部図書館(所沢)は芸術学部図書館(江古田)に統合されました。","URL:http://www.art.nihon-u.ac.jp/"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014869.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014869#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014869.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 芸術学部図書館 (所沢)"
+        },
+        {
+          "@value": "ニホンダイガク ゲイジユツガクブトシヨカン (トコロザワ)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大芸所"
+        },
+        {
+          "@value": "ニチダイゲイトコロ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "共",
+        "一",
+        "外",
+        "体"
+      ],
+      "cinii:memberid": "FA014869",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本大学 芸術学部図書館 (所沢)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "359-8525",
+        "v:label": "埼玉県所沢市中富南4-21"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5995-8206・8336"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5995-8294"
+        }
+      ],
+      "dc:description": [
+        "2019年4月より、芸術学部図書館(所沢)は芸術学部図書館(江古田)に統合されました。",
+        "URL:http://www.art.nihon-u.ac.jp/"
+      ]
+    }
+  ]
+}

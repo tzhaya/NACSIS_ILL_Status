@@ -1,1 +1,94 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA013913.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA013913#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA013913.json"},"foaf:name":[{"@value":"江戸川大学 総合情報図書館"},{"@value":"エドガワダイガク ソウゴウジョウホウトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"江大"},{"@value":"エダイ","@language":"ja-hrkt"}],"dcterms:hasPart":["図","短図","専図"],"cinii:memberid":"FA013913","cinii:organizationid":"KI007388","cinii:prefcode":"12","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"江戸川大学 総合情報図書館","v:adr":{"@type":"v:Address","v:postal-code":"270-0198","v:label":"千葉県流山市駒木474"},"v:tel":[{"@type":"v:Tel","@value":"04-7152-9942(直通)"}],"v:fax":[{"@type":"v:Fax","@value":"04-7153-6711(直通)"}],"dc:description":["Edogawa Library and Information Center","URL:https://www.edogawa-u.ac.jp/facility/library/index.html","来館利用担当:相互利用担当","電話番号:04-7152-9942","FAX番号:04-7153-6711","受付時間:9:00〜17:00(月～金)","複写時間:9:00〜17:00(月～金)","来館利用は、事前に連絡してください。持参書類:紹介状(図書館発行),身分証明書。館外貸出不可。","来館の際は公共の交通機関をご利用ください。駐車場の利用はご遠慮いただいております。","複写受付:モノクロのみ","現物貸借:(郵送期間含め)30日、5冊以内、貸出本の館外利用は原則不可。延長は1回まで、2週間。","現物貸借:発送方法/2018年7月発送分よりゆうパックのみでの発送となります。","支払方法:ILL料金相殺サービスのみとなります。原則として非相殺館の受付は不可。","本学卒業論文の取扱 :図書館へ寄贈された論文は閲覧のみ可。複写・貸出は不可。","参考図書、研究室所蔵図書、新着図書、雑誌、製本雑誌、視聴覚資料の貸出不可。","ILL-Org:Edogawa University Library and Information Center","ILL-Address:474, Komagi, Nagareyama-shi, Chiba, Japan","ILL-Zip:270-0198","ILL-Commun1:E-mail:edoill@edogawa-u.ac.jp"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA013913.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA013913#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA013913.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "江戸川大学 総合情報図書館"
+        },
+        {
+          "@value": "エドガワダイガク ソウゴウジョウホウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "江大"
+        },
+        {
+          "@value": "エダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "短図",
+        "専図"
+      ],
+      "cinii:memberid": "FA013913",
+      "cinii:organizationid": "KI007388",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "江戸川大学 総合情報図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "270-0198",
+        "v:label": "千葉県流山市駒木474"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-7152-9942(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-7153-6711(直通)"
+        }
+      ],
+      "dc:description": [
+        "Edogawa Library and Information Center",
+        "URL:https://www.edogawa-u.ac.jp/facility/library/index.html",
+        "来館利用担当:相互利用担当",
+        "電話番号:04-7152-9942",
+        "FAX番号:04-7153-6711",
+        "受付時間:9:00〜17:00(月～金)",
+        "複写時間:9:00〜17:00(月～金)",
+        "来館利用は、事前に連絡してください。持参書類:紹介状(図書館発行),身分証明書。館外貸出不可。",
+        "来館の際は公共の交通機関をご利用ください。駐車場の利用はご遠慮いただいております。",
+        "複写受付:モノクロのみ",
+        "現物貸借:(郵送期間含め)30日、5冊以内、貸出本の館外利用は原則不可。延長は1回まで、2週間。",
+        "現物貸借:発送方法/2018年7月発送分よりゆうパックのみでの発送となります。",
+        "支払方法:ILL料金相殺サービスのみとなります。原則として非相殺館の受付は不可。",
+        "本学卒業論文の取扱 :図書館へ寄贈された論文は閲覧のみ可。複写・貸出は不可。",
+        "参考図書、研究室所蔵図書、新着図書、雑誌、製本雑誌、視聴覚資料の貸出不可。",
+        "ILL-Org:Edogawa University Library and Information Center",
+        "ILL-Address:474, Komagi, Nagareyama-shi, Chiba, Japan",
+        "ILL-Zip:270-0198",
+        "ILL-Commun1:E-mail:edoill@edogawa-u.ac.jp"
+      ]
+    }
+  ]
+}

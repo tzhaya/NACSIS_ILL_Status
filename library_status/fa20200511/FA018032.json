@@ -1,1 +1,83 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA018032.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA018032#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA018032.json"},"foaf:name":[{"@value":"高知赤十字病院 図書室"},{"@value":"コウチセキジユウジビヨウイン トシヨシツ","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"高知日赤"},{"@value":"コウチニツセキ","@language":"ja-hrkt"}],"cinii:memberid":"FA018032","cinii:organizationid":"KI01051X","cinii:prefcode":"39","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"N","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"高知赤十字病院 図書室","v:adr":{"@type":"v:Address","v:postal-code":"780-8562","v:label":"高知県高知市秦南町一丁目4番63-11号"},"v:tel":[{"@type":"v:Tel","@value":"0888-22-1201"}],"v:fax":[{"@type":"v:Fax","@value":"088-820-5516"}],"dc:description":["申込方法: Nacsis ILL , FAX ,郵便","FAX受付可否 :可","複写担当係 :図書室担当者","複写受付時間 :9:00〜17:00(土日祝・5/1 12/29-1/3不可)","複写料金:モノクロ@30  カラー@50  +送料    FAX@30(対応サイズA3まで)","支払方法 :2016.10.1より ILL文献複写等料金相殺サービス。","支払方法:ILL料金相殺サービス。ILL料金相殺サービス非参加機関=後納、銀行振込(請求書の発行はしていません)。","相殺サービス非参加機関の振込先:四国銀行よさこい咲都支店(普通) 0718236 高知赤十字病院院長 浜口伸正(コウチセキジュウジビョウインインチョウ ハマグチノブマサ)  備考に受付番号を記入して下さい。","複写注記 :FAX送付可.速達対応可。ただし、担当が1名のため、即日対応ができない場合があります。FAX・速達をご希望される場合は、必ず事前にご連絡下さい。 15:30以降は、翌日発送になります。","2019/04/01より「ゆうメール」の料金が変更になりました。定形50g以内77円、定形外50g以内86円、定形外100g以内87円、定形外150g以内89円、定形外250g以内90円となりました。","新病院引越のため、2019/04/15～5/10までILLを休止させていただきます。","2019年5月からはカラーコピーが可能になります。","新病院住所  高知県高知市秦南町一丁目4番63-11号"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018032.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018032#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018032.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高知赤十字病院 図書室"
+        },
+        {
+          "@value": "コウチセキジユウジビヨウイン トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高知日赤"
+        },
+        {
+          "@value": "コウチニツセキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018032",
+      "cinii:organizationid": "KI01051X",
+      "cinii:prefcode": "39",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "高知赤十字病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "780-8562",
+        "v:label": "高知県高知市秦南町一丁目4番63-11号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0888-22-1201"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-820-5516"
+        }
+      ],
+      "dc:description": [
+        "申込方法: Nacsis ILL , FAX ,郵便",
+        "FAX受付可否 :可",
+        "複写担当係 :図書室担当者",
+        "複写受付時間 :9:00〜17:00(土日祝・5/1 12/29-1/3不可)",
+        "複写料金:モノクロ@30  カラー@50  +送料    FAX@30(対応サイズA3まで)",
+        "支払方法 :2016.10.1より ILL文献複写等料金相殺サービス。",
+        "支払方法:ILL料金相殺サービス。ILL料金相殺サービス非参加機関=後納、銀行振込(請求書の発行はしていません)。",
+        "相殺サービス非参加機関の振込先:四国銀行よさこい咲都支店(普通) 0718236 高知赤十字病院院長 浜口伸正(コウチセキジュウジビョウインインチョウ ハマグチノブマサ)  備考に受付番号を記入して下さい。",
+        "複写注記 :FAX送付可.速達対応可。ただし、担当が1名のため、即日対応ができない場合があります。FAX・速達をご希望される場合は、必ず事前にご連絡下さい。 15:30以降は、翌日発送になります。",
+        "2019/04/01より「ゆうメール」の料金が変更になりました。定形50g以内77円、定形外50g以内86円、定形外100g以内87円、定形外150g以内89円、定形外250g以内90円となりました。",
+        "新病院引越のため、2019/04/15～5/10までILLを休止させていただきます。",
+        "2019年5月からはカラーコピーが可能になります。",
+        "新病院住所  高知県高知市秦南町一丁目4番63-11号"
+      ]
+    }
+  ]
+}

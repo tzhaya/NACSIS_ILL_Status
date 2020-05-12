@@ -1,1 +1,85 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA013822.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA013822#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA013822.json"},"foaf:name":[{"@value":"帝京科学大学 附属図書館 東京西図書館"},{"@value":"テイキョウカガクダイガク フゾクトショカン トウキョウニシトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"帝京科大東"},{"@value":"テイキョウカダイトウ","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA013822","cinii:organizationid":"KI007413","cinii:prefcode":"19","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"N","cinii:illstatus":"A","v:fn":"帝京科学大学 附属図書館 東京西図書館","v:adr":{"@type":"v:Address","v:postal-code":"409-0193","v:label":"山梨県上野原市八ツ沢2525"},"v:tel":[{"@type":"v:Tel","@value":"0554-63-6914"}],"v:fax":[{"@type":"v:Fax","@value":"0554-63-4432"}],"dc:description":["Library of Teikyo University of Science and Technology","2525 Yatsusawa, Uenohara, Yamanashi 409-0193","URL:http://www.ntu.ac.jp/library/","来館利用担当:図書第2係","電話番号:0554-63-6914","受付時間:9:20〜17:00 (土曜日:9:20〜12:00)","注意事項:事前に電話で資料の所在を確認してください。","持参書類:身分証明書","複写時間:9:20〜17:00 (土曜日:9:20〜12:00)","館外貸出:学外利用者登録をされた方のみ可(図書のみ)","制限事項:研究室所蔵資料は閲覧できない場合があります。","休館日:日曜日,祝日,年末年始,開学記念日(6/29),夏季休業中の1週間,入学試験日"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA013822.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA013822#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA013822.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "帝京科学大学 附属図書館 東京西図書館"
+        },
+        {
+          "@value": "テイキョウカガクダイガク フゾクトショカン トウキョウニシトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "帝京科大東"
+        },
+        {
+          "@value": "テイキョウカダイトウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA013822",
+      "cinii:organizationid": "KI007413",
+      "cinii:prefcode": "19",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "帝京科学大学 附属図書館 東京西図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "409-0193",
+        "v:label": "山梨県上野原市八ツ沢2525"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0554-63-6914"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0554-63-4432"
+        }
+      ],
+      "dc:description": [
+        "Library of Teikyo University of Science and Technology",
+        "2525 Yatsusawa, Uenohara, Yamanashi 409-0193",
+        "URL:http://www.ntu.ac.jp/library/",
+        "来館利用担当:図書第2係",
+        "電話番号:0554-63-6914",
+        "受付時間:9:20〜17:00 (土曜日:9:20〜12:00)",
+        "注意事項:事前に電話で資料の所在を確認してください。",
+        "持参書類:身分証明書",
+        "複写時間:9:20〜17:00 (土曜日:9:20〜12:00)",
+        "館外貸出:学外利用者登録をされた方のみ可(図書のみ)",
+        "制限事項:研究室所蔵資料は閲覧できない場合があります。",
+        "休館日:日曜日,祝日,年末年始,開学記念日(6/29),夏季休業中の1週間,入学試験日"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,98 @@
-{"@context":{"dc":"http://purl.org/dc/elements/1.1/","foaf":"http://xmlns.com/foaf/0.1/","v":"http://www.w3.org/2006/vcard/ns#","dcterms":"http://purl.org/dc/terms/","rdfs":"http://www.w3.org/2000/01/rdf-schema#","cinii":"http://ci.nii.ac.jp/ns/1.0/"},"@id":"http://ci.nii.ac.jp/library/FA002134.json","@graph":[{"@id":"http://ci.nii.ac.jp/library/FA002134#entity","@type":["foaf:Organization","v:VCard"],"foaf:isPrimaryTopicOf":{"@id":"http://ci.nii.ac.jp/library/FA002134.json"},"foaf:name":[{"@value":"富山大学 附属図書館 医薬学図書館"},{"@value":"トヤマダイガク フゾクトショカン イヤクガクトショカン","@language":"ja-hrkt"}],"dcterms:alternative":[{"@value":"富大医薬"},{"@value":"トミダイイヤク","@language":"ja-hrkt"}],"dcterms:hasPart":["図"],"cinii:memberid":"FA002134","cinii:organizationid":"KI000389","cinii:prefcode":"16","cinii:mextid":"008200","cinii:catflag":"A","cinii:illflag":"A","cinii:copyservice":"A","cinii:loanservice":"A","cinii:faxservice":"A","cinii:illstatus":"A","v:fn":"富山大学 附属図書館 医薬学図書館","v:adr":{"@type":"v:Address","v:postal-code":"930-0195","v:label":"富山市杉谷2630"},"v:tel":[{"@type":"v:Tel","@value":"076-434-7165"}],"v:fax":[{"@type":"v:Fax","@value":"076-434-4996"}],"dc:description":["University of Toyama  Medical and Pharmaceutical Library","2630 Sugitani, Toyama, 930-0195 JAPAN","URL:http://www.sugitani.u-toyama.ac.jp/library/ (website)","URL:http://www.sugitani.u-toyama.ac.jp/library/map/ContactAndAccess.html (map)","来館利用担当:図書館利用支援課(杉谷)サービス担当","電話番号:076-434-7165","受付時間:平日:9:00-20:00  土・日:9:00-17:00","注意事項:学外者貸出可","持参書類:紹介状,身分証明書.免許証等","複写時間:9:00-20:00(月-金)","館外貸出:可","制限事項:研究室配置図書には閲覧できないものがある。","休館日:国民の祝日,開学記念日(10月1日),年末年始(12月28日-翌年1月3日) ※詳しくはホームページの開館カレンダーをご覧ください。","ILL-Staff:TANIGUCHI, NISHIMURA,KUGA","ILL-Dept:Medical and Pharmaceutical Library Services Division","ILL-Org:University of Toyama Library, Medical and Pharmaceutical Library","ILL-Address:2630 Sugitani, Toyama, 930-0195 JAPAN","ILL-ZIP:930-0195","ILL-Commun1:Tel:+81-76-434-7165 / FAX:+81-76-434-4996 / E-mail:tservice@adm.u-toyama.ac.jp","ILL-Sched Closed: Dec28-Jan 4","ILL-Loan-Period:4 weeks; up to 5 items per library","ILL-Loan-Renew:none","ILL-Loan-Charge:Postage required / Delivery method:via airmail","ILL-Non-Circulation:mcrfrm, ref, per, news, a-v, special collections, rare"]}]}
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002134.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002134#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002134.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "富山大学 附属図書館 医薬学図書館"
+        },
+        {
+          "@value": "トヤマダイガク フゾクトショカン イヤクガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "富大医薬"
+        },
+        {
+          "@value": "トミダイイヤク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA002134",
+      "cinii:organizationid": "KI000389",
+      "cinii:prefcode": "16",
+      "cinii:mextid": "008200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "富山大学 附属図書館 医薬学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "930-0195",
+        "v:label": "富山市杉谷2630"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "076-434-7165"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "076-434-4996"
+        }
+      ],
+      "dc:description": [
+        "University of Toyama  Medical and Pharmaceutical Library",
+        "2630 Sugitani, Toyama, 930-0195 JAPAN",
+        "URL:http://www.sugitani.u-toyama.ac.jp/library/ (website)",
+        "URL:http://www.sugitani.u-toyama.ac.jp/library/map/ContactAndAccess.html (map)",
+        "来館利用担当:図書館利用支援課(杉谷)サービス担当",
+        "電話番号:076-434-7165",
+        "受付時間:平日:9:00-20:00  土・日:9:00-17:00",
+        "注意事項:学外者貸出可",
+        "持参書類:紹介状,身分証明書.免許証等",
+        "複写時間:9:00-20:00(月-金)",
+        "館外貸出:可",
+        "制限事項:研究室配置図書には閲覧できないものがある。",
+        "休館日:国民の祝日,開学記念日(10月1日),年末年始(12月28日-翌年1月3日) ※詳しくはホームページの開館カレンダーをご覧ください。",
+        "ILL-Staff:TANIGUCHI, NISHIMURA,KUGA",
+        "ILL-Dept:Medical and Pharmaceutical Library Services Division",
+        "ILL-Org:University of Toyama Library, Medical and Pharmaceutical Library",
+        "ILL-Address:2630 Sugitani, Toyama, 930-0195 JAPAN",
+        "ILL-ZIP:930-0195",
+        "ILL-Commun1:Tel:+81-76-434-7165 / FAX:+81-76-434-4996 / E-mail:tservice@adm.u-toyama.ac.jp",
+        "ILL-Sched Closed: Dec28-Jan 4",
+        "ILL-Loan-Period:4 weeks; up to 5 items per library",
+        "ILL-Loan-Renew:none",
+        "ILL-Loan-Charge:Postage required / Delivery method:via airmail",
+        "ILL-Non-Circulation:mcrfrm, ref, per, news, a-v, special collections, rare"
+      ]
+    }
+  ]
+}

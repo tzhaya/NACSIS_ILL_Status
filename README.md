@@ -31,7 +31,7 @@ CiNii Books で提供されている、各参加館のサービスステータ�
 1. CiNiiから参加館データ(例: https://ci.nii.ac.jp/library/FA001007.json )をJSON形式でダウンロード
 2. jq を使用して必要なデータを抽出してcsvに出力。コマンドの例は以下
 
-```cat *.json | jq .'"@graph"' | jq '[.[]."cinii:memberid", .[]."cinii:prefcode", .[]."cinii:catflag", .[]."cinii:illflag", .[]."cinii:copyservice", .[]."cinii:loanservice", .[]."cinii:faxservice", .[]."cinii:illstatus", .[]."v:fn",  .[]."v:adr"."v:label"] | @csv' > list.csv```
+```cat *.json | jq .'"@graph"' | jq '[.[]."cinii:memberid", .[]."cinii:prefcode", .[]."cinii:catflag", .[]."cinii:illflag", .[]."cinii:copyservice", .[]."cinii:loanservice", .[]."cinii:faxservice", .[]."cinii:illstatus", .[]."v:fn",  .[]."v:adr"."v:label"] | @csv' > 20200518.tsv```
 
 3. 出力したファイルを集計
 

@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA013028.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA013028#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA013028.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公益財団法人 国際文化会館"
+        },
+        {
+          "@value": "コウエキザイダンホウジン コクサイブンカカイカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国際文化"
+        },
+        {
+          "@value": "コクサイブンカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA013028",
+      "cinii:organizationid": "KI007322",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "公益財団法人 国際文化会館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "106-0032",
+        "v:label": "東京都港区六本木5-11-16"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3470-3213"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3475-0424"
+        }
+      ],
+      "dc:description": [
+        "THE INTERNATIONAL HOUSE OF JAPAN, INC. LIBRARY",
+        "5-11-16 ROPPONGI, MINATO-KU, TOKYO, 106-0032 JAPAN",
+        "URL:http://www.i-house.or.jp/programs/library/ (Website)",
+        "URL:http://gw.i-house.or.jp/mylimedio/search/search-input.do?lang=ja (Opac)",
+        "来館利用担当:特に担当なし",
+        "電話番号:03-3470-3213",
+        "受付時間:9:00-16:00",
+        "注意事項:資料の所在・利用の可否について、電話等で事前確認をしてください。",
+        "注意事項:車での来館はご遠慮ください。",
+        "閲覧持参書類:当会館会員または他図書館による紹介状または資料利用依頼書",
+        "複写時間:9:00-17:00",
+        "館外貸出:会員および当会館宿泊者以外は不可",
+        "制限事項:原則として利用は当館会員および当会館宿泊者に限られます。会員以外の方の利用に際しては、当会館会員または他図書館による紹介が必要となります。",
+        "ILL-Org: THE INTERNATIONAL HOUSE OF JAPAN, INC. LIBRARY",
+        "ILL-Address: 5-11-16 ROPPONGI, MINATO-KU, TOKYO, JAPAN",
+        "ILL-L-Zip: 106-0032",
+        "ILL-Commun1: Tel:+81-03-3470-3213 / FAX:+81-03-3475-0424 / E-mail:infolib@i-house.or.jp",
+        "ILL-Commun2:OPAChttp://gw.i-house.or.jp/mylimedio/search/search-input.do?lang=en  / Home-Page:http://www.i-house.or.jp/eng/programs/library/"
+      ]
+    }
+  ]
+}

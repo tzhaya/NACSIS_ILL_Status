@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015577.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015577#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015577.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "近畿大学 生物理工学部図書館"
+        },
+        {
+          "@value": "キンキダイガク セイブツリコウガクブトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "近大生"
+        },
+        {
+          "@value": "キンダイセイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "生図"
+      ],
+      "cinii:memberid": "FA015577",
+      "cinii:organizationid": "KI00373X",
+      "cinii:prefcode": "30",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "近畿大学 生物理工学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "649-6493",
+        "v:label": "和歌山県紀の川市西三谷930"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0736-77-3888"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0736-77-4758"
+        }
+      ],
+      "dc:description": [
+        "Kindai University Faculty of Biology-Oriented Science and Technology Library.",
+        "930 Nishimitani, Kinokawa, Wakayama, Japan 649-6493",
+        "https://www.kindai.ac.jp/bost/about/facility/library/",
+        "複写担当係 :相互利用係",
+        "複写受付可否 :可",
+        "FAX受付可否 :不可",
+        "複写方法・料金:電子複写(モノクロ35円、カラー100円)",
+        "決済方法 :後納",
+        "支払方法 :銀行振込・現金書留",
+        "複写注記 :FAXによる複写物の送付は行わない",
+        "貸借担当係 :相互利用係",
+        "貸借受付可否 :可",
+        "貸出期間 :発送日を含め21日間",
+        "貸出冊数 :5冊以内",
+        "貸出注記 :返却は書留郵便のこと",
+        "貸出注記 :雑誌・参考図書・貴重書等は貸出不可",
+        "閲覧担当係 :相互利用係",
+        "閲覧事前連絡 :必ず事前連絡のこと",
+        "閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "閲覧受付時間 :9:30〜16:30(土曜日〜12:00)",
+        "館外貸出可否 :否",
+        "通常開館時間 :9:00〜19:00(土曜日〜17:00)",
+        "休業中開館時間:夏期・冬期 9:00〜17:00(土曜日、祝日 休館)",
+        "休館日 :日曜・祝祭日、創立記念日(11月5日)、学園祭期間(11月上旬)、夏期・冬期休業中の一定期間(詳細は図書館ホームページ https://www.kindai.ac.jp/bost/about/facility/library/ の開館カレンダーを参照)"
+      ]
+    }
+  ]
+}

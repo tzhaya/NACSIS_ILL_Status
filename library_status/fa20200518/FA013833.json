@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA013833.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA013833#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA013833.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "早稲田大学 所沢図書館"
+        },
+        {
+          "@value": "ワセダダイガク トコロザワトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "早大所沢"
+        },
+        {
+          "@value": "ソウダイトコロザワ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "雑誌",
+        "図書"
+      ],
+      "cinii:memberid": "FA013833",
+      "cinii:organizationid": "KI002781",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "早稲田大学 所沢図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "359-1192",
+        "v:label": "埼玉県所沢市三ケ島2-579-15"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-2947-6705"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-2947-6802"
+        }
+      ],
+      "dc:description": [
+        "Tokorozawa Library, Waseda University",
+        "2-579-15, Mikajima, Tokorozawa-shi, Saitama-ken, 359-1192",
+        "URL:http://www.wul.waseda.ac.jp/TOKOROZAWA/index.html (website)",
+        "URL:http://wine.wul.waseda.ac.jp/ (opac)",
+        "URL:http://www.waseda.jp/jp/campus/tokorozawa.html (map)",
+        "",
+        "■訪問利用の受付",
+        "所属大学・機関の図書館(または公共図書館)からの所蔵確認と紹介状が必要です。",
+        "所蔵確認:別置資料があるため、必ず事前にFAXにて所蔵調査申込書を",
+        "送付して所蔵の確認を得てください。",
+        "持参書類:紹介状および身分を証明するものを携行のこと。",
+        "閲覧受付時間:月〜金9:00-17:00(休業中-16:00)",
+        "複写受付時間:月〜金9:00-16:30(休業中-15:30)",
+        "開館日程、開館時間についての詳細はホームページをご覧ください。",
+        "http://www.wul.waseda.ac.jp/TOKOROZAWA/index.html",
+        "",
+        "■複写及び貸借の受付",
+        "いずれの場合も中央図書館にて受け付けいたします。複写方法・料金等の詳細は中央図書館に準拠します。",
+        "",
+        "【お知らせ】",
+        "2011年4月1日よりILLの受付窓口が中央図書館になりました。"
+      ]
+    }
+  ]
+}

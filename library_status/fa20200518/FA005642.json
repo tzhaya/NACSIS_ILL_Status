@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005642.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005642#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005642.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "拓殖大学 八王子図書館"
+        },
+        {
+          "@value": "タクショクダイガク ハチオウジトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "拓大八"
+        },
+        {
+          "@value": "タクダイハチ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005642",
+      "cinii:organizationid": "KI002260",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "拓殖大学 八王子図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "193-0985",
+        "v:label": "東京都八王子市館町815-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-665-1483"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-665-1433"
+        }
+      ],
+      "dc:description": [
+        "Takushoku University Hachioji Library",
+        "815-1,Tatemachi,Hachioji-shi,Tokyo 193-0985",
+        "URL:https://www.takushoku-u.ac.jp/library/(website)",
+        "URL:https://www.takushoku-u.ac.jp/summary/hachioji-campus.html(map)",
+        "来館利用担当 : 閲覧グループ 相互利用係",
+        "電話番号 : 042-665-1483",
+        "FAX : 042-665-1433",
+        "問合受付時間:9:00～18:00(平日)、9:00～15:00(土曜日)",
+        "閲覧受付時間:9:00～19:00(平日)、9:00～16:00(土曜日)",
+        "複写受付時間:9:00～19:30(平日)、9:00～16:30(土曜日)",
+        "注意事項:他大学の教職員・学生及び他機関の方へ",
+        "4月8日(水)～5月31日(日)は図書館を閉館いたします。この間、ILLサービス、所蔵調査等はお受けできません。",
+        "本学は一般公開していないため、事前照会及び資料利用依頼書(紹介状)のない方の閲覧はお断りしています。利用を希望される方は、以下をご確認下さい。",
+        "・所属する大学図書館の資料利用依頼書, 身分証明書(学生証)をご持参下さい。",
+        "・大学以外の機関に所属される方は、所属機関発行の資料利用依頼書, 身分証明書をご持参下さい。",
+        "・それ以外の方は、近隣の公共図書館発行の資料利用依頼書と身分証明書をご持参下さい。",
+        "・利用の申し出は、あらかじめ資料利用依頼書発行機関を通じて行って下さい。",
+        "館外貸出 : 否",
+        "制限事項 : 貴重図書及び破損のおそれのある資料は、閲覧・複写を許可しないことがあります。",
+        "休館日・開館時間については、ホームページまたは電話でご確認下さい。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015271.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015271#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015271.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京工業高等専門学校 図書館"
+        },
+        {
+          "@value": "トウキョウコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東京高専"
+        },
+        {
+          "@value": "トウキョウコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015271",
+      "cinii:organizationid": "KI008143",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "601600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東京工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "193-0997",
+        "v:label": "東京都八王子市椚田町1220-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-668-5117,5681"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-668-5104"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Technology,Tokyo College",
+        "1220-2, Kunugida-machi, Hachioji-shi, Tokyo 193-0997",
+        "URL:http://www.tokyo-ct.ac.jp/lib/tosho-top.htm",
+        "来館利用担当:学生課図書情報係",
+        "電話番号:042-668-5117,668-5250,668-5681",
+        "開館時間:9:00〜19:45 (月曜日〜金曜日) 10:00〜16:45(土曜日)",
+        "受付時間:9:00〜閉館30分前(月曜日〜金曜日) 10:00〜閉館30分前(土曜日)",
+        "入館手続:「一般利用者入館票」に必要事項を記入",
+        "持参書類:健康保険証または運転免許証",
+        "注意事項:一般利用者はカウンターで所定の手続きが必要。貸出希望者は図書館利用者カード交付申請の際に健康保険証または運転免許証が必要。(図書館利用者カードの即日交付は不可) 開館日、開館時間を確認してください。車での来校はご遠慮ください。",
+        "館外貸出:図書館利用者カードの交付を受けた者は館外貸出可",
+        "制限事項:教員室所蔵の図書は閲覧・複写・貸出不可。貴重図書、参考図書、貸出不可。本校学生、本校教員の利用を優先します。",
+        "休館日:日曜日、国民の祝日、年末年始、校長の定めた日"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008425.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008425#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008425.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸国際大学 情報センター(図書館)"
+        },
+        {
+          "@value": "コウベコクサイダイガク ジョウホウセンター(トシヨカン)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神国大"
+        },
+        {
+          "@value": "シンコクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA008425",
+      "cinii:organizationid": "KI004007",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神戸国際大学 情報センター(図書館)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "658-0032",
+        "v:label": "兵庫県神戸市東灘区向洋町中9丁目1番6号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-845-3344"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-845-3355"
+        }
+      ],
+      "dc:description": [
+        "複写担当係 : 相互利用係",
+        "複写方法 : 料金:電子複写(モノクロ:20円均一/カラー:不可)",
+        "支払方法 : ILL料金相殺制度による。非相殺館は後納,郵便為替もしくは切手(1000円以内)",
+        "送付方法 : クロネコDM便による。送料117円(速達は+268円)",
+        "来館利用担当 : 相互利用係",
+        "電話番号 : 078-845-3344",
+        "注意事項 : 来館利用の際は必ず電話にて事前連絡のこと",
+        "持参書類 : 資料利用依頼書、身分証明書",
+        "複写時間 : 通常9:20〜16:30 (夏季休業中は〜15:00)",
+        "館外貸出 : 不可",
+        "休館日 : 日曜日、年末年始、入学式、卒業式、12/25、夏季休業。その他の休館日・開館時間についてはホームページをご確認ください。",
+        "http://www.kobe-kiu.ac.jp/organaization/library.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021966.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021966#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021966.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国士舘大学 鶴川図書館・情報メディアセンター"
+        },
+        {
+          "@value": "コクシカンダイガク ツルカワトショカン・ジョウホウメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国士大鶴川"
+        },
+        {
+          "@value": "コクシダイツルカワ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA021966",
+      "cinii:organizationid": "KI002045",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国士舘大学 鶴川図書館・情報メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "195-8550",
+        "v:label": "東京都町田市広袴1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-736-2341"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-736-5480"
+        }
+      ],
+      "dc:description": [
+        "Kokushikan University Tsurukawa Library and Information Commons",
+        "1-1-1 Hirohakama, Machida-shi, Tokyo 195-8550",
+        "来館利用担当 :閲覧係",
+        "閲覧事前連絡 :事前連絡が望ましい。特に開館日と開館時間については、電話でご確認の上お越しください。",
+        "閲覧持参書類 :図書館長の発行する資料利用願書および身分証明証",
+        "閲覧受付時間 :月曜日～土曜日:9:30〜16:00",
+        "複写受付時間 :月曜日～土曜日:9:30〜16:00",
+        "館外貸出可否:否",
+        "通常開館時間:月曜日～土曜日 8:30～20:00 (短縮開館時:月曜日～土曜日 9:00～17:00)",
+        "休館日:日曜日、国民の祝日、8月11日～16日、年末年始、創立記念日(11月4日)、その他入学試験、学園祭等の学校行事日"
+      ]
+    }
+  ]
+}

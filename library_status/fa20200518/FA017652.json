@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017652.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017652#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017652.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "兵庫県立図書館"
+        },
+        {
+          "@value": "ヒヨウゴケンリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "兵県図"
+        },
+        {
+          "@value": "ヒヨウケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017652",
+      "cinii:organizationid": "KI01027X",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "兵庫県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "673-8533",
+        "v:label": "兵庫県明石市明石公園1-27"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-918-3366(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-918-2500"
+        }
+      ],
+      "dc:description": [
+        "Hyogo Prefectural Library",
+        "1-27, Akashikoen, Akashi-shi, Hyogo 673-8533",
+        "URL:http://www.library.pref.hyogo.jp (website)",
+        "URL:http://www.library.pref.hyogo.jp/shisetsu/index.html (map)",
+        "来館利用担当:調査相談課",
+        "電話番号:078-918-3377",
+        "受付時間:9:30〜18:00",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "注意事項:車での来館は、ご遠慮ください。",
+        "持参書類:貸出には利用カードが必要。",
+        "複写時間:9:30〜18:00",
+        "館外貸出:可(一部には貸出不可の資料あり)",
+        "休館日:毎週月曜日,毎月第3木曜日,年末年始(12月29日から1月3日),特別整理期間(春季に2週間以内)"
+      ]
+    }
+  ]
+}

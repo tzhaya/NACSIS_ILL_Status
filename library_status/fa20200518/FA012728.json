@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012728.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012728#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012728.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "島根県立図書館"
+        },
+        {
+          "@value": "シマネケンリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "島県図"
+        },
+        {
+          "@value": "シマケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012728",
+      "cinii:organizationid": "KI007300",
+      "cinii:prefcode": "32",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "島根県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "690-0873",
+        "v:label": "島根県松江市内中原町52番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0852-22-5725(全般的な問合)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "0852-22-5739(調査・相談)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "0852-22-5742(郷土資料)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0852-22-5728"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "0852-22-3458(調査・相談)"
+        }
+      ],
+      "dc:description": [
+        "Shimane Prefectural Library",
+        "52, Uchinakabara-cho, Matsue-shi, Shimane 690-0873",
+        "URL:http://www.pref.shimane.jp/section/kento",
+        "来館利用担当:参考調査担当者、郷土資料係",
+        "電話番号:0852-22-5739(参) 22-5742(郷)",
+        "受付時間:火曜〜金曜 4月〜9月=9:00〜19:00、10月〜3月=9:00〜18:00、土・日曜 通年=9:00〜17:00",
+        "注意事項:資料の所在等、事前確認して下さい。",
+        "注意事項:館外貸出は、県内在住者または通勤・通学者を対象とし、利用者登録後に貸出します。中国地区公共図書館以外の相互貸借は、規定締結館で所蔵していない資料に限ります。",
+        "持参書類:利用者登録の際に身分証明書が必要です。",
+        "複写時間:火曜〜金曜 4月〜9月=9:00〜19:00、10月〜3月=9:00〜18:00、土・日曜 通年=9:00〜17:00",
+        "館外貸出:可",
+        "制限事項:貴重図書、郷土資料には貸出を許可しないものがあります。",
+        "休館日:日曜日、国民の祝日、月末(日曜日ならば前日)、年末年始、特別整理休館(年2回、それぞれ10日間)"
+      ]
+    }
+  ]
+}

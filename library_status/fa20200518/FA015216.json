@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015216.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015216#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015216.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "清和大学 図書館"
+        },
+        {
+          "@value": "セイワダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "清和大"
+        },
+        {
+          "@value": "セイワダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA015216",
+      "cinii:organizationid": "KI008096",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "清和大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "292-8555",
+        "v:label": "千葉県木更津市東太田3-4-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0438-30-5569"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0438-30-5560"
+        }
+      ],
+      "dc:description": [
+        "電話番号 0438-30-5569",
+        "閲覧受付時間 平日9:00-16:30",
+        "持参書類:紹介状および身分を証明するもの",
+        "当館OPACにて所蔵確認のうえ、電話・FAXでご連絡ください",
+        "館外貸出:不可",
+        "Seiwa University Library",
+        "3-4-5, Higashiohta, Kisarazu-City, Chiba  292-8555"
+      ]
+    }
+  ]
+}

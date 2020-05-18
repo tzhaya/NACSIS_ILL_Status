@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019771.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019771#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019771.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪経済大学 中小企業・経営研究所"
+        },
+        {
+          "@value": "オオサカケイザイダイガク チュウショウキギョウ・ケイエイケンキュウショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大経大中小研"
+        },
+        {
+          "@value": "ダイケイダイチュウショウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019771",
+      "cinii:organizationid": "KI00357X",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪経済大学 中小企業・経営研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "533-8533",
+        "v:label": "大阪府大阪市東淀川区大隅2-2-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6328-2431"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6328-9350"
+        }
+      ],
+      "dc:description": [
+        "Institute of Small Business Research and Business Administration, Osaka University of Economics",
+        "2-2-8, Higashiyodogawa-ku, Osaka 533-8533, Japan",
+        "※中小企業・経営研究所ILL業務は2016年4月1日より全て、図書館(参加組織コード:FA007808)にて受付いたします。",
+        "来館利用担当: 図書館 相互利用係(FA007808)",
+        "電話番号:06-6328-2431(内線:4406)",
+        "受付時間: 図書館(FA007808)利用方法による",
+        "持参書類: 所蔵調査の回答、身分証明書、紹介状(阪神地区協議会加盟館は不要)",
+        "制限事項:休館日: 図書館開館カレンダーによる",
+        "制限事項:貴重書等利用できないものがあります。",
+        "貸借:不可",
+        "複写:可",
+        "閲覧:可",
+        "注意事項: 資料の所在, 開館日・開館時間等は必ず事前確認をしてください。",
+        "注意事項: 他大学・研究機関所属の方は,所属機関が発行した紹介状が必要です。"
+      ]
+    }
+  ]
+}

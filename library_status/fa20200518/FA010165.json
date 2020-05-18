@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010165.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010165#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010165.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "農業・食品産業技術総合研究機構 食品研究部門 図書室"
+        },
+        {
+          "@value": "ノウギョウ・ショクヒンサンギョウギジュツソウゴウケンキュウキコウ ショクヒンケンキュウブモン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "食品部門"
+        },
+        {
+          "@value": "ショクヒンブモン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010165",
+      "cinii:organizationid": "KI005065",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "農業・食品産業技術総合研究機構 食品研究部門 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-8642",
+        "v:label": "茨城県つくば市観音台2-1-12"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-838-7994"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-838-7996(図書室宛)"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.naro.affrc.go.jp/introduction/library.html",
+        "Food Research Institute, NARO",
+        "2-1-12 Kannondai, Tsukuba, Ibaraki 305-8642",
+        "来館利用担当:ILL担当",
+        "受付時間9:00-12:00,13:00-15:30",
+        "館外貸出:不可",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始(12/28-1/4)"
+      ]
+    }
+  ]
+}

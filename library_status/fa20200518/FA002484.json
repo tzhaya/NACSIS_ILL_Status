@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002484.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002484#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002484.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 理学 図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク リガク トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大理"
+        },
+        {
+          "@value": "メイダイリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "理図分",
+        "理物理",
+        "理化学",
+        "理地球",
+        "理臨海",
+        "化測",
+        "遺伝子",
+        "年代測定",
+        "理生命",
+        "理物理研",
+        "理数理",
+        "理数理学生",
+        "理貴重",
+        "理図書",
+        "理参考",
+        "理雑誌",
+        "理AV",
+        "理教科書",
+        "素粒子機構",
+        "理研究室",
+        "理書庫",
+        "理地図室",
+        "理数理雑誌"
+      ],
+      "cinii:memberid": "FA002484",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004306",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "名古屋大学 理学 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8602",
+        "v:label": "名古屋市千種区不老町D3-2(500)"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "閲覧:052-789-2962"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "ILL:052-789-2515"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-789-2832"
+        }
+      ],
+      "dc:description": [
+        "通常開館時間 :9:00〜17:00(月火木)、9:00～20:00(水金)",
+        "休業中開館時間:9:00〜17:00(月火木)、9:00～20:00(水金)",
+        "休館日 :土,日曜日・国民の祝日・年末年始(12/28〜1/4)・夏季一斉休業日",
+        "Science Library, Nagoya University",
+        "Furo-cho, Chikusa-ku, Nagoya 464-8602",
+        "URL:https://www.nul.nagoya-u.ac.jp/",
+        "ILL-Dept:Interlibrary Loan Services",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Commun1:Tel:+81-52-789-2515/FAX:+81-52-789-2832/E-mail:sci@nul.nagoya-u.ac.jp",
+        "ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"
+      ]
+    }
+  ]
+}

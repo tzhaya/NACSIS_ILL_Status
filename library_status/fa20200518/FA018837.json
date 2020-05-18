@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018837.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018837#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018837.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "西武文理大学 図書館"
+        },
+        {
+          "@value": "セイブブンリダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "西武文理大"
+        },
+        {
+          "@value": "セイブブンリダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "1号館",
+        "2号館"
+      ],
+      "cinii:memberid": "FA018837",
+      "cinii:organizationid": "KI011068",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "西武文理大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "350-1336",
+        "v:label": "埼玉県狭山市柏原新田311-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-2954-7575"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-2954-7511"
+        }
+      ]
+    }
+  ]
+}

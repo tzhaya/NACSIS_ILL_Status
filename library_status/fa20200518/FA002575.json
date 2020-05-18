@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002575.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002575#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002575.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "三重大学 医学部図書館"
+        },
+        {
+          "@value": "ミエダイガク イガクブトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "三重大医"
+        },
+        {
+          "@value": "ミエダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "医学科",
+        "看護学科",
+        "附属病院"
+      ],
+      "cinii:memberid": "FA002575",
+      "cinii:organizationid": "KI000538",
+      "cinii:prefcode": "24",
+      "cinii:mextid": "004601",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "三重大学 医学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "514-8507",
+        "v:label": "三重県津市江戸橋2-174"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "059-231-5065"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "059-232-4049"
+        }
+      ]
+    }
+  ]
+}

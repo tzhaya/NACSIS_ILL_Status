@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003771.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003771#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003771.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "横浜市立大学 学術情報センター"
+        },
+        {
+          "@value": "ヨコハマシリツダイガク ガクジュツジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "横市大"
+        },
+        {
+          "@value": "ヨコシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003771",
+      "cinii:organizationid": "KI00101X",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "横浜市立大学 学術情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "236-0027",
+        "v:label": "横浜市金沢区瀬戸22-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-787-2077"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-787-2079"
+        }
+      ],
+      "dc:description": [
+        "Yokohama City University Library & Information center",
+        "22-2, Seto, Kanazawa-ku, Yokohama 236-0027",
+        "URL:http://opac.yokohama-cu.ac.jp/(website)",
+        "URL:http://www.yokohama-cu.ac.jp/access/hakkei_campusmap.html (map)",
+        "来館利用担当: レファレンス担当",
+        "電話番号: 045-787-2076,2077 (土曜日,日曜日は緊急時のみ2075)",
+        "【通常】9:00～21:00(土曜日,日曜日～17:00,日曜は試験期間のみ開館).【休業中】9:00～17:00",
+        "車でのご来館はご遠慮ください",
+        "学生証等の身分証明書.共通閲覧証,所属機関図書館の紹介状,学生・教員以外の方は住所を確認出来るものを持参して下さい.",
+        "【通常】9:00～21:00(土曜日,日曜日～17:00,日曜は試験期間のみ開館).【休業中】9:00～17:00",
+        "制限事項:貴重書等すぐには利用できない資料があります",
+        "休館日: 祝日,夏季・冬季休館,大学休業中の土曜日,日曜日, 詳細はホームページを御覧ください"
+      ]
+    }
+  ]
+}

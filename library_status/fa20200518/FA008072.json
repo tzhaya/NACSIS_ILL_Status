@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008072.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008072#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008072.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "四天王寺大学 図書館"
+        },
+        {
+          "@value": "シテンノウジダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "四天大"
+        },
+        {
+          "@value": "シテンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008072",
+      "cinii:organizationid": "KI003740",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "四天王寺大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "583-8501",
+        "v:label": "大阪府羽曳野市学園前3-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-956-9958"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-956-9832"
+        }
+      ],
+      "dc:description": [
+        "Shitennoji University Library",
+        "3-2-1 Gakuenmae, Habikino, Osaka 583-8501",
+        "来館利用担当:閲覧係",
+        "電話番号:072-956-9958",
+        "受付時間:9:00〜16:00(月〜土曜日)",
+        "注意事項:資料の所在及び開館日などをFAXで事前確認して下さい。学外者の方は館外貸出はできません。",
+        "注意事項:事前確認は閲覧予定日の一週間前までにお願いします。",
+        "持参書類:身分証明書及び依頼状",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可",
+        "制限事項:貴重書には閲覧を許可しないものがある。(恩頼堂文庫については、専用書類での申し込み(郵送)が必要です。)",
+        "休館日:日曜日、国民の祝日、創立記念日(2/22)、卒業式(3月中旬)、入学式(4月上旬)、7・8月中の土曜日及び8月中旬の一定期間(約10日間)・入学試験日・年末年始(12/21頃〜1/6頃)・年度末処理期間",
+        "ILL-Staff:Aki Nishina",
+        "ILL-Dept:ILL Section",
+        "ILL-Org:Shitennoji University",
+        "ILL-Address:3-2-1Gakuenmae,Habikino,Osaka,Japan",
+        "ILL-Zip:583-8501",
+        "ILL-Commun1:Tel:+81-72-956-9958 / Fax:+81-72-956-9832 / E-mail:toshokan@shitennoji.ac.jp",
+        "Commun2:Home-page:http://www.shitennoji.ac.jp/ibu/",
+        "ILL-Accept:Foreign:OCLC:SYMBOL:JAIBU",
+        "ILL-Sched:Closed:Sundays, national holidays, Saturdays during the vacation months, 2nd week and 3rd week in Aug, Dec 28-Jan 5",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Loan-Period:Foreign:6 weeks per item;up to 5 items per library",
+        "ILL-Loan-Renew:Foreign:4 weeks",
+        "ILL-Loan-Charge:Foreign:Postage required;Delivery method:via airmail;No rush service available",
+        "ILL-Non-Circulation:Special collection,mcrfch,ref,per,news,a-v.",
+        "ILL-Copy-Charge:35 YEN per sheet / Postage required / Delivery method: via airmail",
+        "ILL-Note:DIS, THESIS:Photocopy: need the author's permission",
+        "ILL-OCLC-Symbol:JAIBU"
+      ]
+    }
+  ]
+}

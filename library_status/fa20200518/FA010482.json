@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010482.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010482#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010482.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 産業技術総合研究所 中国センター 図書室"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン サンギョウギジュツソウゴウケンキュウショ チュウゴクセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産総研中国センター"
+        },
+        {
+          "@value": "サンソウケンチュウゴクセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA010482",
+      "cinii:organizationid": "KI005713",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立研究開発法人 産業技術総合研究所 中国センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "739-0046",
+        "v:label": "広島県東広島市鏡山3-11-32"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-420-8237"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-423-7820"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Advanced Industrial Science and Technology (AIST), Chugoku Library Office",
+        "3-11-32, kagamiyama, higashihiroshima, Hiroshima, 739-0046, Japan",
+        "URL:http://www.aist.go.jp/ (website)",
+        "URL:http://www.aist.go.jp/chugoku/ (website)",
+        "来館利用担当:中国センター図書担当",
+        "電話番号:082-420-8237",
+        "受付時間:通常 平日 9:00-12:00, 13:00-16:30 (土・日・祝日は受付をいたしません)",
+        "注意事項:資料の所在等、事前確認をお願いします。",
+        "持参書類:身分証明書、学生証、紹介状などを持参ください。",
+        "複写時間:平日のみ 9:00-1200、13:00-16:30",
+        "複写料金:電子複写(モノクロ40円, カラー40円)+手数料1件につき100円+送料実費(平成28年4月1日～カラー料金改定) ※直接来館の場合は手数料は要りません。",
+        "複写注記:原則、カラー図表等はカラーで複写いたします。モノクロのみご希望の場合はコメント欄にその旨を明記してください。",
+        "館外貸出:不可",
+        "制限事項:研究室貸出資料は閲覧できません。",
+        "制限事項:館内での飲食、喫煙、資料の無断持出は禁止です。",
+        "休館日:土曜日, 日曜日, 国民の祝日, 年末年始, 夏季の一定期間"
+      ]
+    }
+  ]
+}

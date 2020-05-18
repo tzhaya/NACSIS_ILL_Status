@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008378.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008378#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008378.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "園田学園女子大学 図書館"
+        },
+        {
+          "@value": "ソノダガクエンジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "園田大"
+        },
+        {
+          "@value": "ソノダダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008378",
+      "cinii:organizationid": "KI003977",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "園田学園女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "661-8520",
+        "v:label": "兵庫県尼崎市南塚口町7-29-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6429-9931"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6429-2822"
+        }
+      ],
+      "dc:description": [
+        "SONODA WOMEN'S UNIVERSITY LIBRARY",
+        "7-29-1, Minamitsukaguchi-cho, Amagasaki, Hyogo 661-8520",
+        "URL:http://lib.sonoda-u.ac.jp/",
+        "来館利用担当:相互利用係",
+        "電話番号:06-6429-9931",
+        "受付時間:9:00〜16:30",
+        "注意事項:必ず文書にて事前連絡のこと",
+        "持参書類:資料利用依頼書・身分を証明する物を携行のこと",
+        "複写時間: 9:00〜16:30",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:日曜日・祝祭日・創立記念日・大学行事日(入学式・卒業式・入学試験日・学園祭等)・その他"
+      ]
+    }
+  ]
+}

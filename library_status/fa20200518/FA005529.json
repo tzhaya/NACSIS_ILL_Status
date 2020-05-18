@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005529.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005529#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005529.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "聖路加国際大学 学術情報センター 図書館"
+        },
+        {
+          "@value": "セイルカコクサイダイガク ガクジュツジョウホウセンター トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "聖路加"
+        },
+        {
+          "@value": "セイルカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA005529",
+      "cinii:organizationid": "KI002205",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "N",
+      "v:fn": "聖路加国際大学 学術情報センター 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "104-0044",
+        "v:label": "東京都中央区明石町10-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5550-2251"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3546-3575"
+        }
+      ],
+      "dc:description": [
+        "St. Luke's International University Library",
+        "10-1, Akashi-cho, Chuo-ku, Tokyo 104-0044",
+        "URL:https://car.luke.ac.jp/",
+        "----------------図書館間相互貸借----------------",
+        "注意事項:所属機関の図書館もしくは公共図書館を通してご依頼ください。個人からの直接のご依頼にはお応えできません。",
+        "複写受付可否:可",
+        "電子ジャーナルの複写:可(契約上ILL提供が認められているものに限る)",
+        "受付方法:NACSIS-ILL、FAX(JMLA/JNLA規定に準じる)",
+        "複写料金:モノクロ50円/枚、カラー100円/枚 ※カラーページはカラーで複写",
+        "送付方法:原則として受付翌日発送。速達ご希望の際も受付当日に発送できない場合があります。",
+        "決済方法: 後納",
+        "支払方法: NII料金相殺サービス、郵便振替",
+        "振込先:00110-5-32157 学校法人 聖路加国際大学",
+        "貸借受付可否:条件付き可 (雑誌・貴重書・参考図書等は貸出不可)",
+        "貸借期間:14日間(配送期間を含む)",
+        "******************************************",
+        "----------------閲覧利用----------------",
+        "利用案内-学外の方 URL:https://car.luke.ac.jp/gakugai/",
+        "注意事項:希望する資料が所属機関や近隣図書館で所蔵しておらず、当館で所蔵している場合のみ、図書館を通じてご相談ください。",
+        "当館所蔵検索 URL:https://lukaco.luke.ac.jp/",
+        "注意事項:所属機関、あるいは近隣図書館で、当館宛の紹介状発行手続きをしてください。相談した図書館経由で、利用を希望する前日までに電話にて来館日をお知らせください。場合により、来館日時の変更をお願いする場合があります。",
+        "",
+        "持参書類: 紹介状(発行から1カ月間有効) 身分証明書",
+        "閲覧利用時間: 月-金 10:00-16:00",
+        "複写方法: カウンターにてお申し込み下さい。モノクロ20円/枚、カラー100円/枚",
+        "館外貸出可否: 否",
+        "休館日:日曜日、国民の祝日に関する法律で規定する休日・大学一斉休暇(8月中旬)・年末年始、このほか学部一般入試日、蔵書点検期間等(詳細はホームページでご確認ください)。",
+        "注意事項: 利用希望の資料に関しては来館前に当館OPAC(るかこ)で利用状況をご確認ください。",
+        "******************************************",
+        "----------------学位論文の利用----------------",
+        "当館「よくある質問 / FAQ」 https://car.luke.ac.jp/faq/ のカテゴリ「図書館間協力 / Inter Library Loan」をご覧ください"
+      ]
+    }
+  ]
+}

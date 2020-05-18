@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020861.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020861#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020861.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京芸術大学 附属図書館 取手分室"
+        },
+        {
+          "@value": "トウキョウゲイジュツダイガク フゾクトショカン トリデブンシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東芸大取手"
+        },
+        {
+          "@value": "トウゲイダイトリデ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "事務室",
+        "分室",
+        "機械工",
+        "金処工",
+        "工芸基",
+        "石材工",
+        "先端芸",
+        "彫刻基",
+        "塗造工",
+        "壁画",
+        "木造工",
+        "木工芸",
+        "鋳造工",
+        "分室書庫",
+        "ガラス"
+      ],
+      "cinii:memberid": "FA020861",
+      "cinii:organizationid": "KI000276",
+      "cinii:prefcode": "08",
+      "cinii:mextid": "002600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京芸術大学 附属図書館 取手分室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "302-0001",
+        "v:label": "茨城県取手市小文間5000"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "050-5525-2643"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0297-73-8085"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Geijutsu Daigaku Toride Library",
+        "5000, Omonma, Toride-shi, Ibaraki-ken 302-0004 Japan",
+        "URL:http://www.lib.geidai.ac.jp/ (website)",
+        "URL:https://www.geidai.ac.jp/access/toride-2 (map)",
+        "来館利用担当: 取手分室",
+        "電話: 050-5525-2643",
+        "受付時間: 9:00-17:00",
+        "学外者の事前連絡: 利用希望資料・日時等の連絡要",
+        "必要書類: 長期利用希望の方は身分証明書",
+        "複写受付時間: 9:00-12:15, 13:15-15:30",
+        "学外者の貸出: 不可",
+        "土曜日・日曜日・祝日・年末年始(12/28-1/4)・本学の開学記念日(10/4)・夏季休業中の1週間・入試期間(2月中の14日間)・図書等整理期間(3月中の14日間)",
+        "注意事項: 研究室所蔵資料は利用の制限あり"
+      ]
+    }
+  ]
+}

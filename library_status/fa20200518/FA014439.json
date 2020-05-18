@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014439.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014439#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014439.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神奈川県立川崎図書館"
+        },
+        {
+          "@value": "カナガワケンリツカワサキトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神県図川崎"
+        },
+        {
+          "@value": "カケントカワサキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "収蔵C"
+      ],
+      "cinii:memberid": "FA014439",
+      "cinii:organizationid": "KI011476",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神奈川県立川崎図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "213-0012",
+        "v:label": "神奈川県川崎市高津区坂戸3-2-1 KSP R&D棟 C-225"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "044-299-7825"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "044-322-8878"
+        }
+      ],
+      "dc:description": [
+        "受付時間:平日 9:30〜19:00 土、祝日:9:30〜17:30",
+        "申込について:複写、貸借サービスはNACSIS ILLでお申し込みください。",
+        "図書館があるのはKSP西棟2階です。",
+        "休館日:毎週日曜日、毎月第2木曜日、年末年始、資料総点検期間(4月上旬)",
+        "検索について:当館所蔵資料のうち外国語雑誌以外の検索は www.klnet.pref.kanagawa.jp/opac/ でお願いいたします。",
+        "支払方法:郵便為替、定額小為替もしくは現金書留にてお願いいたします。また、郵送料金は切手を同封してください。",
+        "URL:http://www.klnet.pref.kanagawa.jp",
+        "移転(2018.4)に伴い、雑誌の所蔵状況に変更がありましたので、利用に当たっては事前にお問合せください。"
+      ]
+    }
+  ]
+}

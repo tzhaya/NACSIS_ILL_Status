@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001914.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001914#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001914.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京農工大学 小金井図書館"
+        },
+        {
+          "@value": "トウキョウノウコウダイガク コガネイトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "農工大小金井"
+        },
+        {
+          "@value": "ノウコウダイコガネイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研"
+      ],
+      "cinii:memberid": "FA001914",
+      "cinii:organizationid": "KI000265",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002502",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京農工大学 小金井図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "184-8588",
+        "v:label": "東京都小金井市中町2-24-16"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-388-7169"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-388-7204"
+        }
+      ],
+      "dc:description": [
+        "Tokyo University of Agriculture and Technology Koganei Library",
+        "2-24-16, Naka-cho, Koganei-shi, Tokyo 184-8588",
+        "URL:https://www.library.tuat.ac.jp/(website)",
+        "URL:https://libwebservice.biblio.tuat.ac.jp/opac/opac_search/ (opac)",
+        "URL:https://www.library.tuat.ac.jp/visitor/access_v (map)",
+        "来館利用担当:小金井図書館情報サービス係",
+        "電話番号:042(388)7169 FAX:042(388)7204",
+        "E-mail:johok@cc.tuat.ac.jp",
+        "開館日、利用方法等の詳細はホームページを御確認ください",
+        "持参書類:特に必要ありません",
+        "注意事項:資料の所在、利用の可否、来館日を事前にE-mail等で御確認ください。(所蔵調査受付時間 8:45-17:00 平日のみ)",
+        "ILL-Staff: Soda Fumiya, Oozeki Reiko",
+        "ILL-Dept: Information Service Section, Koganei Library",
+        "ILL-Org:Tokyo University of Agriculture and Technology Koganei Library",
+        "ILL-Address: 2-24-16 Naka-cho, Koganei-shi, Tokyo JAPAN",
+        "ILL-Zip: 184-8588",
+        "ILL-Contact1:E-mail:johok@cc.tuat.ac.jp",
+        "ILL-Contact2:Online catalogue:https://libwebservice.biblio.tuat.ac.jp/opac/opac_search/",
+        "ILL-Calender:Closed:Dec 28-Jan 4",
+        "ILL-Accept:International:LOAN:N/A",
+        "ILL-Accept:International:COPY:N/A"
+      ]
+    }
+  ]
+}

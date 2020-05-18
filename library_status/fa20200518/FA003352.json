@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003352.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003352#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003352.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "香川大学 図書館"
+        },
+        {
+          "@value": "カガワダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "香大"
+        },
+        {
+          "@value": "カダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "神原文庫"
+      ],
+      "cinii:memberid": "FA003352",
+      "cinii:organizationid": "KI000764",
+      "cinii:prefcode": "37",
+      "cinii:mextid": "006500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "香川大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "760-8525",
+        "v:label": "香川県高松市幸町1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "087-832-1252,1250"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "087-832-1265"
+        }
+      ],
+      "dc:description": [
+        "Kagawa University Library",
+        "1-1, Saiwai-cho, Takamatsu-shi, Kagawa 760-8525",
+        "URL:https://w3.lib.kagawa-u.ac.jp/ (website)",
+        "URL:https://w3.lib.kagawa-u.ac.jp/?page_id=618 (map)",
+        "来館利用担当:学術情報サービス(カウンター)",
+        "電話番号:087-832-1250 メールアドレス: libsabis@ao.kagawa-u.ac.jp",
+        "受付時間:8:30〜22:00(通常期平日) 10:00〜22:00(通常期休日)  8:30〜20:00(休業期平日)",
+        "注意事項:来館利用については,事前連絡が望ましい, 来館利用の範囲は図書館所蔵資料に限る",
+        "神原文庫所蔵資料の閲覧は事前申請必要,メールかFAXでお問い合わせ下さい。",
+        "持参書類:身分証明書",
+        "複写時間:9:00〜16:45",
+        "館外貸出:可(貸出は来館して返却が可能な者に限る)",
+        "制限事項:貴重図書等には貸出を許可しないものがある",
+        "注記:車での来館はご遠慮下さい。",
+        "休館日:休業期間中及び学年末試験終了日から第1学期授業開始前日までの間の土・日曜日,国民の祝日に関する法律に規定する休日,年末年始(12月27日から翌年の1月4日まで),館長が特に必要と認めた日",
+        "ILL-Staff:Nao Hirose",
+        "ILL-Dept:Information Service Section",
+        "ILL-Org:Kagawa University Library",
+        "ILL-Address:1-1 Saiwai-cho, Takamatsu-shi, Kagawa, Japan",
+        "ILL-ZIP:760-8525",
+        "ILL-Commun1:fax:+81-87-832-1265 / e-mail:libsanko@ao.kagawa-u.ac.jp",
+        "ILL-Commun2:OPAC:https://w3.lib.kagawa-u.ac.jp/, Home-Page:https://w3.lib.kagawa-u.ac.jp/, Ariel(e-mail attached):libsanko@ao.kagawa-u.ac.jp",
+        "ILL-Accept:Foreign(1):OCLC(NII-OCLC link):YF@ / Foreign(2):KERIS",
+        "ILL-Sched:Closed Dec.28-Jan.5",
+        "ILL-Bill:Foreign(1):OCLC=OCLC-IFM only / Foreign(2):KERIS=NII Fee Management Service",
+        "ILL-Copy-Charge:PHOTOCOPY:35 YEN per sheet / Postage required / Delivery method:via Ariel, airmail",
+        "ILL-Copy-Non-Circulation:Special collection",
+        "ILL-Loan-Period:Foreign(1):6 weeks / Foreign(2):N/A",
+        "ILL-Loan-Renew:Foreign(1):None / Foreign(2):N/A",
+        "ILL-Loan-Charge:Foreign(1):Postage required / Foreign(2):N/A",
+        "ILL-Loan-Non-Circulation:Special collection, mcrfrm, mcrfch, ref, per, news, a-v., DIS",
+        "ILL-Note:Only items held at the Central Library are available",
+        "ILL-Note:DIS: Photcopy: need the author's permission",
+        "ILL-OCLC-Symbol:YF@"
+      ]
+    }
+  ]
+}

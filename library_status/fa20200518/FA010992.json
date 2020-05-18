@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010992.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010992#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010992.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鳥取県立図書館"
+        },
+        {
+          "@value": "トツトリケンリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "県鳥図"
+        },
+        {
+          "@value": "ケントリト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010992",
+      "cinii:organizationid": "KI006170",
+      "cinii:prefcode": "31",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "鳥取県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "680-0017",
+        "v:label": "鳥取県鳥取市尚徳町101"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0857-26-8155"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0857-22-2996"
+        }
+      ],
+      "dc:description": [
+        "Tottori Prefectural Library",
+        "101, Shotoku-cho, Tottori-shi, 680-0017",
+        "URL:http://www.library.pref.tottori.jp",
+        "来館利用担当:情報相談課",
+        "電話番号:0857-26-8155",
+        "受付時間:9:00〜18:30(5月〜10月9:00〜19:00、土・日・月・祝日9:00〜17:00)",
+        "持参書類:利用者登録時:運転免許証等住所を証明できるもの",
+        "複写時間:9:00〜18:00(5月〜10月9:00〜18:30、土・日・月・祝日9:00〜16:30)",
+        "館外貸出:鳥取県内在住、通勤・通学の方のみ",
+        "制限事項:館外貸出できない資料もある。貴重図書等には閲覧の制限や複写できないものもある。",
+        "休館日:毎月末日、年末年始、特別図書整理期間"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017674.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017674#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017674.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知芸術文化センター 愛知県文化情報センター・アートライブラリー"
+        },
+        {
+          "@value": "アイチゲイジュツブンカセンター アイチケンブンカジョウホウセンター アートライブラリー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛芸ア"
+        },
+        {
+          "@value": "アイゲイア",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017674",
+      "cinii:organizationid": "KI006057",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "愛知芸術文化センター 愛知県文化情報センター・アートライブラリー",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "461-8525",
+        "v:label": "愛知県名古屋市東区東桜1丁目13番2号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-971-5511"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-971-5659"
+        }
+      ],
+      "dc:description": [
+        "Aichi Arts Center. Arts Promotion Service. Art Library",
+        "1-13-2, Higashisakura, Higashi-ku, Nagoya",
+        "URL:http://www.aac.pref.aichi.jp",
+        "来館利用担当:閲覧担当",
+        "電話番号:052-971-5511",
+        "受付時間:平日:10:00〜19:00 土・日・祝日:10:00〜18:00",
+        "注意事項:資料の所在等、事前確認してください。",
+        "持参書類:利用カードの発行を希望される場合は、身分証明書、学生証、免許証、保険証などのいずれかが必要。",
+        "複写時間:平日:10:00〜19:00 土・日・祝日:10:00〜18:00",
+        "館外貸出:可 (ただし、一部不可)",
+        "制限事項:雑誌、CD、DVD、タリカ・コレクション (西洋美術文献)等の館外貸出は不可。",
+        "休館日:毎月曜日 (月曜日が祝日の場合は翌日)、毎月第3火曜日、年末年始、整理期間 (年間15日以内)"
+      ]
+    }
+  ]
+}

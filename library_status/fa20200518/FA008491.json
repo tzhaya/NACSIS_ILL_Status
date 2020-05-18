@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008491.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008491#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008491.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高野山大学 図書館"
+        },
+        {
+          "@value": "コウヤサンダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高野大"
+        },
+        {
+          "@value": "コウヤダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008491",
+      "cinii:organizationid": "KI004051",
+      "cinii:prefcode": "30",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "高野山大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "648-0280",
+        "v:label": "和歌山県伊都郡高野町高野山385"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0736-56-3835"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0736-56-5590"
+        }
+      ],
+      "dc:description": [
+        "休館日:日曜日・国民の祝日・休業日・毎月21日の午前中・第1、3木曜日の午前中・大学祭・年末年始",
+        "Koyasan University",
+        "385, Koya-cho, Ito-gun, Wakayama, Japan 648-0280",
+        "URL:http://www.koyasan-u.ac.jp/library/ (website)",
+        "URL:https://lib-s.koyasan-u.ac.jp/opac4/opac/Top (opac)",
+        "来館利用担当:情報サービス係",
+        "電話番号:0736-56-3835",
+        "受付時間: 9:00〜18:00",
+        "注意事項:メールまたはFAXにて事前連絡",
+        "持参書類:資料利用依頼書 (身分を証明するものを携行のこと) 印鑑・紹介状",
+        "複写時間:9:30〜17:30",
+        "館外貸出:可 (但し、事前に申請が必要)",
+        "制限事項:貴重・寄託・文庫資料は別の規定による",
+        "視聴覚資料の相互貸借は不可"
+      ]
+    }
+  ]
+}

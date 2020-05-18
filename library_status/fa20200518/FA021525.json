@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021525.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021525#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021525.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪千代田短期大学 図書館"
+        },
+        {
+          "@value": "オオサカチヨダタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "千代短"
+        },
+        {
+          "@value": "チヨタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA021525",
+      "cinii:organizationid": "KI012898",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪千代田短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "586-8511",
+        "v:label": "大阪府河内長野市小山田町1685"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0721-50-1350"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0721-50-1350"
+        }
+      ]
+    }
+  ]
+}

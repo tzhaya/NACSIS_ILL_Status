@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014304.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014304#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014304.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "城西国際大学 水田記念図書館"
+        },
+        {
+          "@value": "ジョウサイコクサイダイガク ミズタキネントショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "城西国大"
+        },
+        {
+          "@value": "ジョウサイコクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014304",
+      "cinii:organizationid": "KI007548",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "城西国際大学 水田記念図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "283-8555",
+        "v:label": "千葉県東金市求名1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0475-55-8812"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0475-55-3265"
+        }
+      ],
+      "dc:description": [
+        "Josai International University",
+        "1, Gumyo, Toganeshi, Chiba 283-8555",
+        "URL:http://www.jiu.ac.jp/",
+        "来館利用担当:閲覧担当",
+        "電話番号:0475-55-8812",
+        "受付時間:9:00〜17:00",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:紹介状および身分証明書",
+        "複写時間:9:00〜17:00",
+        "制限事項:閲覧を許可しない資料がある。",
+        "休館日:日曜日、国民の祝日に関する法律に定める休日、創立記念日(4月28日)、毎月第1月曜日"
+      ]
+    }
+  ]
+}

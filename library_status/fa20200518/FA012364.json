@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012364.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012364#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012364.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本女子大学 西生田図書館"
+        },
+        {
+          "@value": "ニホンジョシダイガク ニシイクタトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日女大生田"
+        },
+        {
+          "@value": "ニチジョダイイクタ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館",
+        "研究室"
+      ],
+      "cinii:memberid": "FA012364",
+      "cinii:organizationid": "KI002588",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本女子大学 西生田図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "214-8565",
+        "v:label": "神奈川県川崎市多摩区西生田1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "044-952-6937"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "044-952-6939"
+        }
+      ],
+      "dc:description": [
+        "Japan Women's University Library (Nishi-Ikuta)",
+        "1-1-1, Nishiikuta, Tama-ku, Kawasaki-shi, Kanagawa 214-8565",
+        "URL:http://www.lib.jwu.ac.jp (WEBSITE)",
+        "URL:http://www.jwu.ac.jp/etcpub/map.htm (MAP)",
+        "来館利用担当:参考係",
+        "電話番号:044-952-6937",
+        "受付時間:10:00-16:30 (土曜日 -11:30)",
+        "利用対象者:学外の方は,所属機関の図書館を通してお問い合せください。",
+        "閲覧事前連絡:来館の際には,資料の所在等,所属機関の図書館を通して事前確認をしてください。",
+        "持参書類:資料利用依頼書,身分証明書",
+        "注意事項:車での来館はご遠慮ください。",
+        "複写時間:10:00-19:45(土曜日 -17:45)",
+        "閲覧注記:研究室所蔵資料,貴重書は閲覧を許可しないことがある。",
+        "休館日:日曜日,国民の祝日,夏季,冬季,春季休業期間,入試期間,他"
+      ]
+    }
+  ]
+}

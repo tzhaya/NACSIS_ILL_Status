@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017404.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017404#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017404.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "仙台高等専門学校 名取キャンパス 図書館"
+        },
+        {
+          "@value": "センダイコウトウセンモンガッコウ ナトリキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "仙台高専名取"
+        },
+        {
+          "@value": "センダイコウセンナトリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017404",
+      "cinii:organizationid": "KI009496",
+      "cinii:prefcode": "04",
+      "cinii:mextid": "600700",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "仙台高等専門学校 名取キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "981-1239",
+        "v:label": "宮城県名取市愛島塩手字野田山48"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-381-0353"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-381-0354"
+        }
+      ],
+      "dc:description": [
+        "Sendai National College of Technology. Natori Library",
+        "48 Nodayama Shiote Medeshima Natori Japan 981-1239",
+        "URL:http://www.sendai-nct.ac.jp/natori/library/",
+        "来館利用担当:図書係",
+        "電話番号:022-381-0353",
+        "開館時間:[通常]=9:00-18:00 [休業期]=9:00-17:00",
+        "持参書類:身分証明書",
+        "館外貸出:3冊10日間",
+        "休館日:土・日曜日、国民の休祝日、夏・冬季休業期間の一部、年末年始"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017561.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017561#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017561.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "釧路工業高等専門学校 図書館"
+        },
+        {
+          "@value": "クシロコウギヨウコウトウセンモンガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "釧路高専"
+        },
+        {
+          "@value": "クシロコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017561",
+      "cinii:organizationid": "KI010189",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "600300",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "釧路工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "084-0916",
+        "v:label": "北海道釧路市大楽毛西2-32-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0154-57-7206"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0154-57-6257"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.kushiro-ct.ac.jp/library/",
+        "Otanoshike-nishi 2-32-1, Kushiro-city, Hokkaido 084-0916",
+        "Library of Kushiro National College of Technology",
+        "閲覧担当係:総務課図書係",
+        "閲覧持参書類:学外の方で貸出を希望される方は利用者登録が必要です。身分を証明できるものをご持参ください。",
+        "通常授業期間中の開館時間:平日8:30～20:00,土曜日、定期試験期間の直前と期間中の日曜・祝日8:30～17:00",
+        "長期休業期間中の開館時間:平日8:30～17:00",
+        "休館日:日曜日・祝日(ただし、定期試験期間の直前と期間中の日曜・祝日を除く)、長期休業期間中の土曜日、休業日、年末年始"
+      ]
+    }
+  ]
+}

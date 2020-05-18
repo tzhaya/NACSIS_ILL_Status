@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021412.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021412#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021412.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "松本短期大学 図書館"
+        },
+        {
+          "@value": "マツモトタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "松本短大"
+        },
+        {
+          "@value": "マツモトタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021412",
+      "cinii:organizationid": "KI01280X",
+      "cinii:prefcode": "20",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "松本短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "399-0033",
+        "v:label": "松本市笹賀3118"
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002393.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002393#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002393.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "浜松医科大学 附属図書館"
+        },
+        {
+          "@value": "ハママツイカダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "浜医大"
+        },
+        {
+          "@value": "ハマイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA002393",
+      "cinii:organizationid": "KI000480",
+      "cinii:prefcode": "22",
+      "cinii:mextid": "007900",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "浜松医科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "431-3192",
+        "v:label": "静岡県浜松市東区半田山一丁目20番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "053-435-2171"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "053-435-5140"
+        }
+      ],
+      "dc:description": [
+        "Hamamatsu University School of Medicine Library",
+        "1-20-1, Handayama, Higashi-ku,Hamamatsu, Shizuoka 431-3192",
+        "URL:http://www.hama-med.ac.jp/lib/(website)",
+        "URL:https://www.hama-med.ac.jp/uni_access.html(map)",
+        "来館利用担当:情報サービス係",
+        "電話番号:053-435-2171",
+        "受付時間:9:00〜17:00(現在図書館改修中のため、土・日・祝日は閉館。)",
+        "注意事項:来館のときは「閲覧願」を記入しカウンターに提出してください。",
+        "注意事項:講座所蔵の資料は閲覧できません。ホームページの本学蔵書検索でご確認ください。",
+        "館外貸出:不可",
+        "相互利用による複写受付可否:可",
+        "注意事項:支払い方法を確認の上,お申し込みください。",
+        "複写方法:料金:電子複写 35円・ カラー75円(カラーコピー希望の場合は、複写種別または送付方法に「カラー」と入力してください。*モノクロコピーの指定コメントがない場合は、こちらの判断でカラーコピーを送付します。)",
+        "決済方法:原則的に前納だが後納申請制度あり",
+        "支払い方法:現金書留:後納申請機関=銀行振込",
+        "休館日:国民の祝日・開学記念日(6/7)・年末年始(12/29〜1/3)・夏季及び冬季休業期間中の土・日曜日・夏季一斉休業日",
+        "DDSの送信はメール添付になります。",
+        "複写物の送付はゆうメール(速達は郵送)で地域や混雑状況によっては、日数がかかる場合があります。",
+        "複写物でカラーページがある場合、モノクロコピーの指定コメントがないときは、こちらの判断でカラーコピーを送付します。",
+        "ILL-Org.Hamamatsu University School of Medicine Library",
+        "ILL-Address:1-20-1, Handayama, Higashi-ku,Hamamatsu, Shizuoka,Japan",
+        "ILL-Zip:431-3192",
+        "ILL-Commun1: Tel:+81-53-435-2171/Fax:+81-53-435-5140/E-mail:serv3@hama-med.ac.jp",
+        "ILL-Commun1: Tel:+81-53-435-2171/Fax:+81-53-435-5140/E-mail:serv3@hama-med.ac.jp"
+      ]
+    }
+  ]
+}

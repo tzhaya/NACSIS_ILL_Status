@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020169.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020169#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020169.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北九州学術研究都市学術情報センター"
+        },
+        {
+          "@value": "キタキユウシユウガクジユツケンキユウトシガクジユツジヨウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北九州学情セ"
+        },
+        {
+          "@value": "キタキユウシユウガクジヨウセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "北九州図書"
+      ],
+      "cinii:memberid": "FA020169",
+      "cinii:organizationid": "KI012118",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北九州学術研究都市学術情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "808-0135",
+        "v:label": "北九州市若松区ひびきの1番3号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "093-695-3151"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "093-695-3152"
+        }
+      ],
+      "dc:description": [
+        "開館時間:9:00-20:00",
+        "休館日:館内整理日、年末年始",
+        "Kitakyushu Science and Research Park Media Center",
+        "1-3 Hibikino, Wakamatsu-ku, Kitakyushu, FUKUOKA 808-0135",
+        "URL:http://media-lib.hibikino.ne.jp/"
+      ]
+    }
+  ]
+}

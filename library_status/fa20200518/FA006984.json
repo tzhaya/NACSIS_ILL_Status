@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006984.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006984#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006984.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "フェリス女学院大学 附属図書館"
+        },
+        {
+          "@value": "フェリスジョガクインダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "フェリス"
+        },
+        {
+          "@value": "フェリス",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "山手"
+      ],
+      "cinii:memberid": "FA006984",
+      "cinii:organizationid": "KI002930",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "フェリス女学院大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "245-8651",
+        "v:label": "神奈川県横浜市泉区緑園4-5-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-812-6999(緑園本館)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "045-681-5149(山手分室)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-812-8372(緑園本館)"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "045-681-5188(山手分室)"
+        }
+      ],
+      "dc:description": [
+        "Ferris University Library",
+        "4-5-3, Ryokuen, Izumi-ku, Yokohama-city, Kanagawa 245-8651",
+        "URL:https://www.library.ferris.ac.jp/ (website)",
+        "URL:https://www2.library.ferris.ac.jp/ (OPAC)",
+        "来館利用担当:レファレンス",
+        "電話番号:045-812-6999",
+        "受付時間:通常期平日9:00〜17:00、土曜・休業期9:00～16:00(山手分室 土曜閉室・休業期16:30まで)",
+        "注意事項:事前にご所属の大学図書館または公共図書館を通じて利用資料と来館日をお知らせ下さい。",
+        "注意事項:車での来館はご遠慮下さい。",
+        "注意事項:学外の方には館外貸出しておりません。",
+        "持参書類:紹介状及び身分を証明する物",
+        "複写時間:通常期平日9:00～19:30(山手分室 18:30まで)、土曜・休業期9:00～16:30(山手分室 土曜閉室・休業期16:30まで)",
+        "館外貸出:不可",
+        "休館日:日曜日、祝日、創立記念日(6月1日・ただし授業開講日は開館する)、8月中旬約10日間、大学祭期間、年末年始、入試期間、蔵書点検期間(2月下旬～3月上旬)",
+        "注記:山手分室:〒231-8651 横浜市中区山手町37 TEL.045-681-5149 FAX.045-681-5188"
+      ]
+    }
+  ]
+}

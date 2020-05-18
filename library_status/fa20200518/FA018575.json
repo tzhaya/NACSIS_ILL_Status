@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018575.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018575#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018575.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岐阜聖徳学園大学 岐阜キャンパス図書館"
+        },
+        {
+          "@value": "ギフシヨウトクガクエンダイガク ギフキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岐聖大岐阜"
+        },
+        {
+          "@value": "ギショウダイギフ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018575",
+      "cinii:organizationid": "KI003081",
+      "cinii:prefcode": "21",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "岐阜聖徳学園大学 岐阜キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "500-8288",
+        "v:label": "岐阜市中鶉1-38"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "058-278-0729"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "058-278-4188"
+        }
+      ],
+      "dc:description": [
+        "Gifu Shotoku Gakuen University Gifu Campus Library",
+        "1-38 Nakauzura, Gifu-city, Gifu Pref. 500-8288, Japan",
+        "URL:http://www.shotoku.ac.jp/facilities/library/gifu/",
+        "電話番号 058-278-0729",
+        "受付時間:平日9:00～19:00(通常) 土曜日9:00〜15:00(通常)",
+        "注意事項:開館日、開館時間をご確認の上来館してください。(事前連絡は不要)",
+        "図書館一般開放を行っております。高校生以上および満16歳以上の方の利用ができます。",
+        "初回来館時に身分を証明できるものをご持参ください。利用者登録を行います。",
+        "館外貸出:1人5冊 2週間(図書館間貸出とは異なります)",
+        "E-MAIL:library@gifu.shotoku.ac.jp",
+        "休館日:日曜日、国民の祝日、開学記念日(5/22)、月末図書整理日、蔵書点検期間、その他学内行事による休館",
+        "その他:一部貸出できない資料があります",
+        "その他:事務手続上の理由により、2016年4月1日よりILL文献複写料金の変更を行います(モノクロ:1枚50円均一/カラー:1枚100円均一)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005212.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005212#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005212.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "慶應義塾大学 信濃町メディアセンター"
+        },
+        {
+          "@value": "ケイオウギジユクダイガク シナノマチメデイアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "慶大医"
+        },
+        {
+          "@value": "ケイダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005212",
+      "cinii:organizationid": "KI002001",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "慶應義塾大学 信濃町メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "160-8582",
+        "v:label": "東京都新宿区信濃町35"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5363-3857"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5363-3859"
+        }
+      ],
+      "dc:description": [
+        "Shinanomachi Media Center (Kitasato Memorial Medical Library)",
+        "35, Shinanomachi, Shinjuku-ku, Tokyo 160-8582",
+        "URL:http://www.med.lib.keio.ac.jp/",
+        "来館利用担当:パブリックサービス担当(閲覧)",
+        "電話番号:03-5363-3725",
+        "受付時間:8:45〜21:00(土曜日〜18:00)(日曜日13:00〜18:00)",
+        "受付時間夏季:8:45〜20:00(土曜日〜18:00)",
+        "注意事項:土曜日の相互貸借申込は月曜日(月曜日が休館の場合には火曜日)受付となります。別置資料・雑誌貸出の関係上、事前確認が望ましい。",
+        "注意事項:FAXまたは宅配便取り寄せとなる別置資料あり。",
+        "持参書類:資料利用依頼書および身分を証明する物を携行のこと",
+        "複写時間:8:45〜20:30(土曜日〜17:00)(日曜日13:00〜17:00)",
+        "館外貸出:不可",
+        "制限事項:当館を利用できる方・慶應義塾大学医学部および看護医療学部(厚生女子学院・看護短期大学含む)の卒業生・三四会員 ・医学研究者・医療従事者 ・他大学所属の教職員・学生 ※一般の方は当館を利用できません。 ※慶應義塾大学の医学部・看護医療学部以外の卒業生は一般扱いとなります。ご了承ください。",
+        "休館日:国民の祝日・本学の祝日(4/23・1/10)・12/30〜1/4",
+        "所蔵は、OPACで確認してください。",
+        "電子ジャーナル所蔵タイトルも相互貸借の複写申込みを受け付けします。ただし、契約により対応できないタイトルもあります。タイトルリストはホームページを参照してください。",
+        "ILL-Org:Keio University Shinanomachi Media Center",
+        "ILL-Address:35 Shinanomachi, Shinjuku-ku, Tokyo, Japan",
+        "ILL-Zip:160-8582",
+        "ILL-Dept:Interlibrary Loan Service Department",
+        "ILL-Staff:Yurie Sato , Min Kimu",
+        "ILL-Commun1:Tel:+81-3-5363-3857 / Fax:+81-3-5363-3859",
+        "ILL-Commun2:E-mail: smc-ill-group@keio.jp/ http://www.med.lib.keio.ac.jp/(Home Page)/ http://catalog.lib.keio.ac.jp/index_e.html (OPAC)",
+        "ILL-Accept:Foreign(1): IFLA member",
+        "ILL-Accept:Foreign(2): KERIS",
+        "ILL-Sched:ILL Service Unavailable: Apr.23, Jan.10, Dec.30-Jan.4, Saturdays and Sundays",
+        "(Library Closed: Apr.23, Jan.10, Dec.30-Jan.4)",
+        "ILL-Bill:Foreign(1) IFLA =IFLA Voucher only",
+        "ILL-Bill:Foreign(2) KERIS=NII Fee Management Service only",
+        "ILL-Copy-Charge:Foreign(1) Photocopy: No charge 1-9p / 0.5 IFLA 10-19p / 1IFLA 20-29p / 1.5 IFLA 31-39p",
+        "ILL-Copy-Charge:Foreign(2) Photocopy:55 YEN per sheet.Postage required.",
+        "ILL-Note:Delivery method via airmail",
+        "ILL-Note:No rush service available"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004694.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004694#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004694.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京国際大学 第2キャンパス図書館"
+        },
+        {
+          "@value": "トウキョウコクサイダイガク ダイ2キャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東京国際大2"
+        },
+        {
+          "@value": "トウキョウコクサイダイ2",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004694",
+      "cinii:organizationid": "KI001712",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京国際大学 第2キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "350-1198",
+        "v:label": "埼玉県川越市的場2509"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "049-277-5910"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "049-233-0106"
+        }
+      ],
+      "dc:description": [
+        "Tokyo International University Library (campus 2)",
+        "2509 Matoba Kawagoeshi Saitama 350-1198",
+        "閲覧注記:学外の方は紹介状(所属大学図書館,公共図書館等発行のもの)と所属と住所を証明する物をお持ちください。",
+        "通常開館時間 :9:00〜20:00(土曜日9:00〜17:00)",
+        "休講中開館時間:9:00〜17:30(土曜日9:00〜13:00)",
+        "休館日 : 日曜、祝日、夏期休館、冬期休館、入試期間(2月上旬 )、蔵書点検、大学休業日。",
+        "URL:https://opac.tiu.ac.jp/",
+        "その他: 詳しくはTEL/FAXにておたずね下さい。",
+        "所蔵検索 URL:http://opac.tiu.ac.jp/webopac/topmnu.do"
+      ]
+    }
+  ]
+}

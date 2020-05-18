@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015726.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015726#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015726.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鹿児島県立短期大学 附属図書館"
+        },
+        {
+          "@value": "カゴシマケンリツタンキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鹿県短"
+        },
+        {
+          "@value": "カケンタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館"
+      ],
+      "cinii:memberid": "FA015726",
+      "cinii:organizationid": "KI008584",
+      "cinii:prefcode": "46",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "鹿児島県立短期大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "890-0005",
+        "v:label": "鹿児島市下伊敷1-52-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "099-803-4475(内線501)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "099-803-4473"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016933.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016933#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016933.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "沖縄キリスト教学院 図書館"
+        },
+        {
+          "@value": "オキナワキリストキョウガクイン トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "沖縄キリ学"
+        },
+        {
+          "@value": "オキナワキリガク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016933",
+      "cinii:organizationid": "KI009543",
+      "cinii:prefcode": "47",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "沖縄キリスト教学院 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "903-0207",
+        "v:label": "沖縄県中頭郡西原町字翁長777"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "098-946-1236"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "098-946-1237"
+        }
+      ],
+      "dc:description": [
+        "777,Onaga,Nishihara,Nakagamigun,Okinawa 903-0207",
+        "https://www.ocjc.ac.jp/",
+        "--------閲覧-------",
+        "閲覧事前連絡:事前にFAX等で連絡して下さい。",
+        "閲覧持参書類:閲覧願または所蔵調査依頼のコピー、身分証明書",
+        "閲覧時間:HPカレンダーを参照下さい。",
+        "--------貸借-------",
+        "閉架資料の貸借は特別な場合を除いてお断りしております。",
+        "新着・フェア図書は、学生優先のためILLおよび学外者への貸出は、1カ月後から開始いたします。",
+        "キャリア・資格取得関連コーナー図書の貸出は、学生優先のため学内者のみの貸出となります。",
+        "--------複写-------",
+        "文献複写申込書に記入の上、学内コピー機をご利用下さい。",
+        "両替はしておりません。小銭をご用意下さい。",
+        "-------------------------------",
+        "2018年度 4月1日より、開館日開館時間が変更になりました。",
+        "開館日 : 月～金",
+        "開館時間 : 9:00～19:00",
+        "休館日 : 土・日・祝・本学院の定める祝日"
+      ]
+    }
+  ]
+}

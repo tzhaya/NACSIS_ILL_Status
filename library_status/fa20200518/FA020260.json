@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020260.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020260#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020260.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "横浜市立大学 鶴見キヤンパス図書室"
+        },
+        {
+          "@value": "ヨコハマシリツダイガク ツルミキヤンパストシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "横市大鶴"
+        },
+        {
+          "@value": "ヨコシダイツル",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020260",
+      "cinii:organizationid": "KI00101X",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "横浜市立大学 鶴見キヤンパス図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "230-0045",
+        "v:label": "横浜市鶴見区末広町1-7-29"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-508-7244"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-508-7372"
+        }
+      ],
+      "dc:description": [
+        "職員の不在により、現在はサービスを停止しています。"
+      ]
+    }
+  ]
+}

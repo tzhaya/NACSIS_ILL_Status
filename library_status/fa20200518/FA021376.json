@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021376.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021376#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021376.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "会津大学 短期大学部 附属図書館"
+        },
+        {
+          "@value": "アイヅダイガク タンキダイガクブ フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "会津大短"
+        },
+        {
+          "@value": "アイヅダイタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021376",
+      "cinii:organizationid": "KI013722",
+      "cinii:prefcode": "07",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "会津大学 短期大学部 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "965-8570",
+        "v:label": "福島県会津若松市一箕町大字八幡字門田1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0242-37-2458"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0242-37-2412"
+        }
+      ],
+      "dc:description": [
+        "開館時間: 平日 9:00 - 17:00 【延長開館日は8時30分～20時(学外の方の利用は18時まで)】",
+        "休館日: 土曜日、日曜日、祝日、年末年始、その他図書館長が必要と認めた日",
+        "利用できる方: 原則として満18歳以上で、当館所蔵資料を利用し、学術に関わる調査、研究又は学習を目的とする方",
+        "持参書類: 図書館利用証もしくは氏名、住所等を確認できる書類(運転免許証等)",
+        "館外貸出: 図書館利用証をお持ちの方は5冊以内、2週間以内で、館内に備付けの一般図書(雑誌・指定図書・禁帯出図書は貸出不可)を借りることができます。",
+        "閲覧注記: 図書館内の所蔵資料以外は、利用できませんので、あらかじめご了承ください。",
+        "閲覧注記: 当館所蔵資料を使用しない自習など、場所のみの利用は固くお断りします。",
+        "閲覧注記: 図書館以外の場所は、関係者以外立ち入り禁止です。",
+        "複写受付時間: 開館時間内",
+        "The University of Aizu Junior College Division",
+        "1-1, Kadota, Yahata, Ikki-machi, Aizu-wakamatu, Fukushima, Japan"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004639.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004639#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004639.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "獨協医科大学 図書館"
+        },
+        {
+          "@value": "ドツキヨウイカダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "独協医大"
+        },
+        {
+          "@value": "ドツキヨウイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004639",
+      "cinii:organizationid": "KI001676",
+      "cinii:prefcode": "09",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "獨協医科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "321-0293",
+        "v:label": "栃木県下都賀郡壬生町北小林880"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0282-87-2272"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0282-86-6214"
+        }
+      ],
+      "dc:description": [
+        "* 閲覧・複写について *",
+        "対象者:医療関係者、公的な教育・研究機関の学生・教職員",
+        "本学関係者以外は入館の際、学生証または社員証等の身分証明書をご持参下さい。",
+        "学生証、身分証明書の無い方は入館をお断りすることがございますので、あらかじめご了承下さい。",
+        "閲覧:可",
+        "複写:可 1枚10円(プリペイドカード式)",
+        "貸出:不可",
+        "通常開館時間:平日;9:00-22:00",
+        "土曜日;9:00-19:00",
+        "注意:HP等で開館日の確認をしてから来館して下さい。",
+        "注意:土曜日は相互貸借の受付を休止します。"
+      ]
+    }
+  ]
+}

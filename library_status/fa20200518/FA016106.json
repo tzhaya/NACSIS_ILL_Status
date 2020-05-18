@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016106.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016106#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016106.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高知医療センター"
+        },
+        {
+          "@value": "コウチイリョウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高知医療"
+        },
+        {
+          "@value": "コウチイリョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016106",
+      "cinii:organizationid": "KI00896X",
+      "cinii:prefcode": "39",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "高知医療センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "781-8555",
+        "v:label": "高知県高知市池2125-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-837-3000"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-837-6773"
+        }
+      ],
+      "dc:description": [
+        "Kochi Health Sciences Center",
+        "2125-1, Ike, Kochi-City, Kochi 781-8555",
+        "URL:http://www2.khsc.or.jp",
+        "来館利用担当:図書室図書係",
+        "電話番号:088-837-6772(図書室直通)",
+        "受付時間:8:30〜17:15",
+        "持参書類:不要",
+        "複写時間:8:30〜17:15",
+        "館外貸出:不可",
+        "休館日:土・日曜日、国民の祝日、年末年始"
+      ]
+    }
+  ]
+}

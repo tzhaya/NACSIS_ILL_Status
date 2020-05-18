@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006893.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006893#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006893.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "湘南工科大学 附属図書館"
+        },
+        {
+          "@value": "ショウナンコウカダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "湘南工大"
+        },
+        {
+          "@value": "ショウナンコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006893",
+      "cinii:organizationid": "KI002850",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "湘南工科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "251-8511",
+        "v:label": "神奈川県藤沢市辻堂西海岸1-1-25"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0466-30-0280(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0466-34-4373"
+        }
+      ],
+      "dc:description": [
+        "Shonan Institute of Technology Library",
+        "1-1-25 Tsujidonishikaigan, Fujisawa-shi, Kanagawa-ken, 251-8511 Japan",
+        "URL:https://www.shonan-it.ac.jp/library/",
+        "来館利用担当:カウンター係",
+        "電話番号:0466-30-0280",
+        "受付時間:平日 9:00〜18:45 土曜日 9:00〜16:15 (休業中の開館時間 平日 9:00〜16:15 土曜日 9:00〜12:15)",
+        "注意事項:来館は事前連絡のこと。資料の所在等は事前に確認のこと。",
+        "持参書類:身分を証明するもの[例 : 自動車免許証等]",
+        "複写時間:平日 9:00〜18:45 土曜日 9:00〜16:15(休業中の開館時間 平日 9:00〜16:15 土曜日 9:00〜12:15)",
+        "館外貸出:不可(卒業生、私工大加盟大生、藤沢市民・茅ヶ崎市民などは貸出可)",
+        "休館日:日曜日、国民の祝日、大学創立記念日(4月15日)、夏季、冬季、春季休業日"
+      ]
+    }
+  ]
+}

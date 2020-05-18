@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002713.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002713#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002713.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 附属図書館 宇治分館"
+        },
+        {
+          "@value": "キョウトダイガク フゾクトショカン ウジブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大宇治分館"
+        },
+        {
+          "@value": "キョウダイウジブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "化研",
+        "農宇治地区",
+        "防災研",
+        "エネ研",
+        "図",
+        "生存研"
+      ],
+      "cinii:memberid": "FA002713",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004810",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都大学 附属図書館 宇治分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "611-0011",
+        "v:label": "京都府宇治市五ケ庄"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0774-38-3010"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0774-38-4370"
+        }
+      ],
+      "dc:description": [
+        "Uji Library, Kyoto University",
+        "Gokasho, Uji City, Kyoto, 611-0011",
+        "URL:http://lib.kuicr.kyoto-u.ac.jp/homepage/japanese/index.htm (website)",
+        "来館利用担当 :学術情報掛",
+        "電話番号 :0774-38-3010 FAX番号0774-38-4370",
+        "受付時間 :9:00〜17:00(土日・祝日休館)",
+        "注意事項 :連絡無く来館された場合は、貸出中などで利用できない場合があります。利用日の前日までにご連絡いただけばカウンターに資料の取り置きいたします。",
+        "館外貸出 :否(複写のための一時持出しは可)",
+        "制限事項 :",
+        "休館日 :土曜日・日曜日・国民の祝日・年末年始(12/28〜1/4)・夏季一斉休業日(8月第3週)・創立記念日(6/18)・その他臨時に閉館することがあります",
+        "複写受付(来館せずに申し込む場合):国立情報学研究所が実施するILL文献複写等料金相殺サービス加入機関のみ直接受付。それ以外は附属図書館(FA002611)で受付します。",
+        "※新型コロナウイルスの感染拡大防止のため、2020年4月15日(水)から5月6日(水)まで、休館といたします。それに伴いILLサービスも休止いたします。"
+      ]
+    }
+  ]
+}

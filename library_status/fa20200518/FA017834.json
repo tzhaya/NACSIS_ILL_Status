@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017834.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017834#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017834.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都立大学 図書館 荒川館"
+        },
+        {
+          "@value": "トウキョウトリツダイガク トショカン アラカワカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "都立大荒川"
+        },
+        {
+          "@value": "トリツダイアラカワ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研"
+      ],
+      "cinii:memberid": "FA017834",
+      "cinii:organizationid": "KI001009",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京都立大学 図書館 荒川館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "116-8551",
+        "v:label": "東京都荒川区東尾久7-2-10"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3819-1211"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3892-2248"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.lib.tmu.ac.jp/arakawa.html",
+        "Health Sciences Library,Tokyo Metropolitan University",
+        "7-2-10, Higashi-ogu,Arakawa-ku, Tokyo 116-8551",
+        "来館利用: 利用時間:9:30-21:30(平日) 9:30-17:00(土)",
+        "来館利用: 持参書類:紹介状・学生証(学生の方)",
+        "来館利用: 他大学・専門学校等に所属の方は、所属機関からの事前連絡が必要です。",
+        "相互利用: NACSIS-CAT/ILL非参加館からの依頼は、当館のみの所蔵資料の場合に限ります。",
+        "相互利用:原則として受付翌日に発送(発送は平日のみ・速達を含める)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008844.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008844#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008844.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "産業医科大学 図書館"
+        },
+        {
+          "@value": "サンギョウイカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産医大"
+        },
+        {
+          "@value": "サンイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008844",
+      "cinii:organizationid": "KI004346",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "産業医科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "807-8555",
+        "v:label": "福岡県北九州市八幡西区医生ケ丘1番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "093-691-7212"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "093-692-4876"
+        }
+      ],
+      "dc:description": [
+        "University of Occupational and Environmental Health, Library",
+        "1-1.Iseigaoka Yahatanishi-ku Kitakyushu Fukuoka 807-8555",
+        "http://www.lib.uoeh-u.ac.jp",
+        "電話番号:093-691-7212:FAX:093-692-4876",
+        "受付時間:9:00-22:00( 土曜日は -18:00 )",
+        "複写時間:9:00-17:00",
+        "閲覧対象者:医師または研究者",
+        "事前連絡:電話での問い合わせが望ましい",
+        "持参書類:所属機関の紹介状及び身分証明書",
+        "休館日:日曜・国民の祝日・毎月1日( 休日の場合は翌日 )・開学記念日( 4/28 )・夏期特別休館( 通常8月の第1週 )・年末年始"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011565.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011565#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011565.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公益財団法人 放射線影響研究所 図書室"
+        },
+        {
+          "@value": "コウエキザイダンホウジン ホウシャセンエイキョウケンキュウショ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "放研"
+        },
+        {
+          "@value": "ホウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011565",
+      "cinii:organizationid": "KI006691",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "公益財団法人 放射線影響研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "732-0815",
+        "v:label": "広島県広島市南区比治山公園5番2号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-264-1335"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-261-3172"
+        }
+      ],
+      "dc:description": [
+        "Radiation Effects Research Foundation Library",
+        "5-2 Hijiyama Park, Minami-ku, Hiroshima, 732-0815",
+        "http://www.rerf.or.jp/ (website)",
+        "https://rerf.opac.jp/ (OPAC)",
+        "TEL:082-264-1335 FAX:082-261-3172",
+        "開室時間:8:30～17:00",
+        "休室日:土・日曜日、国民の祝日、年末年始(12/29～1/3)",
+        "閲覧注記:放影研役職員以外の方は、事前連絡のうえご来室をお願いします。",
+        "室外貸出:不可(放影研役職員を除く)",
+        "複写受付時間:9:00～16:30",
+        "複写方法・料金::(白黒 20円/枚 カラー50円/枚) カラーをご希望の際は、コメント欄にご記入下さい。",
+        "決済方法:NII文献複写等料金相殺サービス、NII相殺サービス非参加館・その他:前納",
+        "支払方法::NII文献複写等料金相殺サービス、NII相殺サービス非参加館・その他:銀行振込",
+        "注意事項:お問い合わせは、9:00から16:30までにお願いします。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002043.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002043#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002043.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "一橋大学 経済研究所 資料室"
+        },
+        {
+          "@value": "ヒトツバシダイガク ケイザイケンキュウジョ シリョウシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "一橋経研"
+        },
+        {
+          "@value": "ヒトツバシケイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA002043",
+      "cinii:organizationid": "KI000334",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "003302",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "一橋大学 経済研究所 資料室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "186-8603",
+        "v:label": "東京都国立市中2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-580-8320"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-580-8319"
+        }
+      ],
+      "dc:description": [
+        "Library, Institute of Economic Research, Hitotsubashi University",
+        "2-1, Naka, Kunitachi, Tokyo 186-8603, JAPAN",
+        "URL:http://www.ier.hit-u.ac.jp/library/Japanese/ (WEBSITE)",
+        "電話番号:042-580-8320 / FAX:042-580-8319",
+        "開室時間:9:00-17:00",
+        "持参書類:身分証明書(学生証等)",
+        "複写時間:9:00-16:30",
+        "室外貸出:否",
+        "休室日:土日曜日、祝日、年末年始(12/27-1/4)、学部入学試験日、2020/4/11-6/14、その他業務上特別の事由があるとき"
+      ]
+    }
+  ]
+}

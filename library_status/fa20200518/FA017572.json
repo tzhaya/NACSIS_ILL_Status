@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017572.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017572#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017572.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "八戸工業高等専門学校 図書館"
+        },
+        {
+          "@value": "ハチノヘコウギヨウコウトウセンモンガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "八戸高専"
+        },
+        {
+          "@value": "ハチノヘコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017572",
+      "cinii:organizationid": "KI01019X",
+      "cinii:prefcode": "02",
+      "cinii:mextid": "600500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "八戸工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "039-1192",
+        "v:label": "青森県八戸市大字田面木字上野平16-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0178-27-7225"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0178-27-7333"
+        }
+      ],
+      "dc:description": [
+        "Hachinohe National College of Technology",
+        "16-1 Uwanotai,Tamonoki,Hachinohe City,Aomori Prefecture,Japan 039-1192",
+        "URL:http://www.hachinohe-ct.ac.jp/~tosyo/tos_home.html",
+        "来館利用担当:学生課学生係(図書担当)",
+        "電話番号:0178-27-7225",
+        "開館時間:8:45〜20:00(平日) 10:00〜17:00(土曜日) 8:45〜17:00(春・夏・冬季及び学年末休業期間の平日)",
+        "持参書類:身分証明書",
+        "複写受付時間:8:45〜16:50(土曜日は不可)",
+        "複写方法・料金:電子複写35円/枚(白黒のみ可)",
+        "館外貸出:可",
+        "休館日:日曜日、国民の祝日、12月28日〜1月4日、春・夏・冬季及び学年末長期休業期間の土曜日"
+      ]
+    }
+  ]
+}

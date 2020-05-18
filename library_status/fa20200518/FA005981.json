@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005981.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005981#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005981.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京歯科大学 図書館"
+        },
+        {
+          "@value": "トウキョウシカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東歯大"
+        },
+        {
+          "@value": "トウシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA005981",
+      "cinii:organizationid": "KI002384",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東京歯科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-0061",
+        "v:label": "東京都千代田区神田三崎町2-9-18"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-6380-9553"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-6380-9554"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Dental College Library",
+        "2-9-18, Misaki-cho, Chiyoda-ku, Tokyo, 101-0061",
+        "URL:https://library.tdc.ac.jp/",
+        "来館利用担当:閲覧係",
+        "電話番号:03-6380-9553",
+        "閲覧受付時間:9:00〜17:45 (土曜日 〜12:45)",
+        "注意事項:電話にて事前連絡してください。学外者の方は館外貸出はできません。",
+        "持参書類:紹介状など",
+        "複写受付時間:9:00〜17:45 (土曜日 〜12:45)",
+        "館外貸出:不可",
+        "休館日:第2土曜日、日曜日、祝日、年末年始(12月29日〜1月4日)、本学創立記念日(2月12日)"
+      ]
+    }
+  ]
+}

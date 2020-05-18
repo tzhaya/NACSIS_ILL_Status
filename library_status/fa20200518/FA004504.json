@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004504.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004504#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004504.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東北福祉大学 図書館"
+        },
+        {
+          "@value": "トウホクフクシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東北福大"
+        },
+        {
+          "@value": "トウホクフクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004504",
+      "cinii:organizationid": "KI001552",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "東北福祉大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "981-8522",
+        "v:label": "仙台市青葉区国見1-8-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-717-3309"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-717-3309"
+        }
+      ],
+      "dc:description": [
+        "Tohoku Fukushi University Library",
+        "1-8-1 Kunimi, Aoba-ku, Sendai , Miyagi    Japan   981-8522",
+        "URL:http://www.tfu.ac.jp/",
+        "来館利用担当:閲覧係(Tel&Fax:022-717-3309)",
+        "来館受付時間 : 月-金9:00-19:00、土日祝9:00-16:00",
+        "閲覧事前連絡 : 電話・FAXによる問い合わせが望ましい",
+        "持参書類 : 身分証明書(学生証、職員証、運転免許証等)",
+        "館外貸出 : 不可",
+        "制限事項 : 研究室貸出資料等、閲覧できないものがあります",
+        "休館日 : 春期・夏期・冬期休業中の一定期間",
+        "ILL-Staff : Sugawara yuki , Suzuki jyunpei",
+        "ILL-Dept : ILL Section",
+        "ILL-Org : Tohoku Fukushi University Library",
+        "ILL-Address : 1-8-1 Kunimi , Aoba-ku , Sendai , Miyagi ,  JAPAN",
+        "ILL-ZIP : 981-8522",
+        "ILL-Commun1 : Tel:+81-22-717-3309  /  FAX : +81-22-717-3309 / E-mail : etsuran@tfu-mail.tfu.ac.jp",
+        "ILL-Comnun2 : Home page (OPAC): http://tfulibinfo.tfu.ac.jp/opac/opac_search.cgi",
+        "ILL-Accept: Foreign(1) : OCLC(NII-OCLC link)=JATFU  /  Foreign(2) : KERIS",
+        "ILL-Bill: Foreign(1) : OCLC=OCLC-IFM only  /  Foreign(2) : KERIS=NII Fee Management Service",
+        "ILL-Copy-Charge : Photocopy : 50YEN per sheet  /  Photocopy (color) : 110YEN per sheet  /  +Postage required  /  Delivery method: air-mail",
+        "ILL-Loan-Period : 6weeks",
+        "ILL-Loan-Renew : 2weeks",
+        "ILL-Loan-Charge : Postage required",
+        "ILL-OCLC-Symbol :JATFU"
+      ]
+    }
+  ]
+}

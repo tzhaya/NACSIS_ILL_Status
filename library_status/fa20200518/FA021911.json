@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021911.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021911#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021911.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "テユービンゲン大学 日本文化研究所 図書館"
+        },
+        {
+          "@value": "テユービンゲンダイガク ニホンブンカケンキユウジヨ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "Tuebingen"
+        },
+        {
+          "@value": "テユービンゲン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021911",
+      "cinii:organizationid": "KI013176",
+      "cinii:prefcode": "255",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "テユービンゲン大学 日本文化研究所 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:label": "Seminars fur Japanologie der Universitat Tuebingen, Wilhelmstr. 90, D-72074 Tuebingen, GERMANY"
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016671.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016671#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016671.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "香川短期大学 附属図書館"
+        },
+        {
+          "@value": "カガワタンキダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "香短"
+        },
+        {
+          "@value": "カタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016671",
+      "cinii:organizationid": "KI009328",
+      "cinii:prefcode": "37",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "香川短期大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "769-0201",
+        "v:label": "綾歌郡宇多津町浜一番丁10"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0877-56-7014"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0877-56-7014"
+        }
+      ]
+    }
+  ]
+}

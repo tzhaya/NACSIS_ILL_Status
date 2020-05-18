@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006088.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006088#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006088.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京農業大学 図書館"
+        },
+        {
+          "@value": "トウキョウノウギョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東農大"
+        },
+        {
+          "@value": "トウノウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "資1",
+        "資2",
+        "雑",
+        "指",
+        "教",
+        "文",
+        "部",
+        "厚木"
+      ],
+      "cinii:memberid": "FA006088",
+      "cinii:organizationid": "KI002464",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京農業大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "156-8502",
+        "v:label": "東京都世田谷区桜丘1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5477-2528"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5477-2295"
+        }
+      ],
+      "dc:description": [
+        "Tokyo University of Agriculture",
+        "1-1-1,Sakuragaoka,Setagaya-ku,Tokyo 156-8502",
+        "URL:https://library.nodai.ac.jp/setagaya/ (website)",
+        "URL:https://libopac.nodai.ac.jp (OPAC)",
+        "来館利用担当:相互協力係",
+        "電話番号:03-5477-2528(直通) FAX番号:03-5477-2295",
+        "受付時間:9:00〜16:30(原則土曜日は利用できません)",
+        "来館持参書類:紹介状および身分証明書(学生は学生証)",
+        "注意事項:本学学生の定期試験期や大学入試期間の来館はご遠慮願います。詳細は当館HPをご確認ください。",
+        "注意事項:来館の前に必ず資料の所在、利用希望日時等の事前連絡をしてください。",
+        "休館日:日曜、祝・祭日、春季・夏季休講期の土曜日、夏季・冬季一斉休業期間、入試期間、館内整理日(午前中)",
+        "ILL-Org:Tokyo University of Agriculture",
+        "ILL-Address:1-1-1,Sakuragaoka,Setagaya-ku,Tokyo",
+        "ILL-ZIP:156-8502",
+        "ILL-Commun1:Tel:+81-3-5477-2528 / Fax:+81-3-5477-2295 / E-mail:sanko@nodai.ac.jp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004617.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004617#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004617.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "足利大学 附属図書館"
+        },
+        {
+          "@value": "アシカガダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "足利大"
+        },
+        {
+          "@value": "アシカガダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本城図書館"
+      ],
+      "cinii:memberid": "FA004617",
+      "cinii:organizationid": "KI001654",
+      "cinii:prefcode": "09",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "足利大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "326-8558",
+        "v:label": "栃木県足利市大前町268-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0284-62-0794"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0284-62-9359"
+        }
+      ],
+      "dc:description": [
+        "Ashikaga University Library",
+        "268-1 Omae-cho, Ashikaga-shi, Tochigi 326-8558",
+        "URL:http://www2.ashitech.ac.jp/library/index.html (web)",
+        "URL:http://www2.ashitech.ac.jp/library/index.htmi/ (opac)",
+        "URL:http://www.ashitech.ac.jp/access/access2.html (map)",
+        "URL:mailto:library@ashitech.ac.jp (mail)",
+        "閲覧対象者:学術研究・調査または学習を目的とする方",
+        "閲覧担当係:閲覧係",
+        "閲覧受付時間:8:45〜18:30(土曜日8:45〜16:00)",
+        "閲覧持参書類:所属機関発行の紹介状または身分証明書",
+        "複写受付時間:8:45〜18:30(土曜日8:45〜16:00)",
+        "館外貸出可否:否",
+        "休業期間中開館時間:8:45〜16:15(土曜日8:45〜16:15)",
+        "休館日:日曜日、祝・祭日、春・夏・冬季休業期間中の一定期間、館長が必要と認める日",
+        "注意事項:上記詳細事項はホームページでご確認下さい"
+      ]
+    }
+  ]
+}

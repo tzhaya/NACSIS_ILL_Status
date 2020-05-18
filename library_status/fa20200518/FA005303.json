@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005303.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005303#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005303.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "実践女子大学 図書館"
+        },
+        {
+          "@value": "ジッセンジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "実践女"
+        },
+        {
+          "@value": "ジッセンジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "教養",
+        "国研",
+        "英研",
+        "美研",
+        "食研",
+        "生環研",
+        "教研",
+        "図研",
+        "生文研",
+        "被研",
+        "本間",
+        "桂田",
+        "人社研",
+        "外教セ",
+        "現社研",
+        "言文セ",
+        "現生研"
+      ],
+      "cinii:memberid": "FA005303",
+      "cinii:organizationid": "KI002067",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "実践女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "191-8510",
+        "v:label": "東京都日野市大坂上4-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-585-8830"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-589-7193"
+        }
+      ],
+      "dc:description": [
+        "Jissen Women's University Library",
+        "4-1-1, Osakaue, Hino-shi, Tokyo 191-8510",
+        "URL:http://www.jissen.ac.jp/library/ (WEBSITE)",
+        "URL:http://www.jissen.ac.jp/access_guide/index.html (MAP)",
+        "-------------<  日野キャンパス  >---------------",
+        "〒191-8510 東京都日野市大坂上4-1-1",
+        "来館利用担当:閲覧参考係 TEL042-585-8830 FAX042-589-7193",
+        "所蔵資料はOPACをご確認ください。",
+        "受付時間:10:00〜17:00(平日) 10:00〜11:00,12:00～16:00(土曜)",
+        "注意事項:ご自分の所属する図書館、資料室等をとおしてお申し込み下さい。個人からの直接の申込みは受付けておりません。",
+        "持参書類:図書館の紹介状、身分証明書",
+        "複写時間:10:00〜19:00(平日) 10:00〜16:30(土曜)",
+        "館外貸出:不可",
+        "制限事項:本学の事情により利用できない資料もあります。",
+        "-------------<  渋谷キャンパス  >---------------",
+        "〒150-8538 東京都渋谷区東1-1-49",
+        "来館利用担当:閲覧参考係 TEL03-6450-6830 FAX03-6450-6831",
+        "所蔵資料はOPACをご確認ください。",
+        "受付時間:10:00〜17:00(平日) 10:00〜11:00,12:00～16:00(土曜)",
+        "注意事項:ご自分の所属する図書館、資料室等をとおしてお申し込み下さい。個人からの直接の申込みは受付けておりません。",
+        "持参書類:図書館の紹介状、身分証明書",
+        "複写時間:10:00〜19:00(平日) 10:00〜16:30(土曜)",
+        "館外貸出:不可",
+        "制限事項:本学の事情により利用できない資料もあります。",
+        "文献複写・現物貸借の受付は日野キャンパスにて行っています。渋谷キャンパスから取寄せが必要な資料は発送までにお時間がかかりますのでご了承ください。"
+      ]
+    }
+  ]
+}

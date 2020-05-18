@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015442.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015442#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015442.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岐阜県図書館"
+        },
+        {
+          "@value": "ギフケントシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岐県図"
+        },
+        {
+          "@value": "ギケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館"
+      ],
+      "cinii:memberid": "FA015442",
+      "cinii:organizationid": "KI008245",
+      "cinii:prefcode": "21",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "岐阜県図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "500-8368",
+        "v:label": "岐阜県岐阜市宇佐4-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "058-275-5111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "058-275-5115"
+        }
+      ],
+      "dc:description": [
+        "Gifu Prefectural Library",
+        "4-2-1 Usa, Gifu-shi, Gifu-ken 500-8368",
+        "URL:http://www.library.pref.gifu.jp",
+        "来館利用担当:情報サービス課郷土情報担当",
+        "電話番号:058-275-5111",
+        "受付時間 : 火〜金 10:00-20:00 土日祝 10:00-18:00",
+        "持参書類:なし",
+        "複写時間:火〜金 10:00-19:40土日祝 10:00-17:40",
+        "館外貸出:不可",
+        "制限事項:資料の破損を防ぐため、一部複写禁止のものあり",
+        "休館日:月曜日(月曜日が休日の場合はその翌日) 毎月末日(土、日を除く、月曜日にあたる場合はその翌日も休館) 年末年始(12月28日〜1月4日)"
+      ]
+    }
+  ]
+}

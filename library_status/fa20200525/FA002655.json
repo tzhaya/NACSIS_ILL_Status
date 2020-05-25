@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002655.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002655#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002655.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 法学部 図書室"
+        },
+        {
+          "@value": "キョウトダイガク ホウガクブ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大法"
+        },
+        {
+          "@value": "キョウダイホウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "法科大学院",
+        "公共政策大学院"
+      ],
+      "cinii:memberid": "FA002655",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004803",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都大学 法学部 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8501",
+        "v:label": "京都府京都市左京区吉田本町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-753-3114"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-753-3160"
+        }
+      ],
+      "dc:description": [
+        "Kyoto Univ. Library of Graduate School of Law and Faculty of Law",
+        "Yoshida Hommachi, Sakyo-ku, Kyoto 606-8501",
+        "Faculty of Law and Economics North Bldg. (2nd Floor) , Main Campus",
+        "TEL:075-753-3114  FAX:075-753-3160",
+        "https://www.kulib.kyoto-u.ac.jp/lawlib/ (website)",
+        "http://www.kyoto-u.ac.jp/en/access/campus/main.htm (map)",
+        "法科大学院所蔵資料は、相互利用の対象外",
+        "ILL複写受付可否 :可(他の窓口で受付ける)",
+        "ILL複写受付窓口 :京都大学附属図書館 利用支援掛 相互利用担当(FA002611)",
+        "ILL貸借受付可否 :可(他の窓口で受付ける)",
+        "ILL貸借受付窓口 :京都大学附属図書館 利用支援掛 相互利用担当(FA002611)",
+        "来館利用担当 :図書掛",
+        "事前連絡 :要。あらかじめFAX等書面による所蔵調査をお願いします。",
+        "持参書類 :身分証・利用願",
+        "受付時間 :月-金曜日:9:00-19:45 (土曜日:9:00-16:45)",
+        "館外貸出可否 :否",
+        "開室時間 :月-金曜日:9:00-20:00 (土曜日:9:00-17:00)",
+        "休室日 :日曜日・国民の祝日及び本学創立記念日, 毎月1日の午前中及び15日(1日及び15日が土曜日,日曜日の場合にはその直後の月曜日, 祝日の場合にはその翌日), 学部入学試験期間, 1/1-1/4・3/31-4/3・12/28-12/31, その他図書主任の指定する日",
+        "配置場所が法科大学院の資料は利用できません。",
+        "京都市内の大学等に所属の方の利用は、訪問利用のみ受けつけております。"
+      ]
+    }
+  ]
+}

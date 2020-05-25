@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012375.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012375#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012375.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "野上記念 法政大学 能楽研究所"
+        },
+        {
+          "@value": "ノガミキネン ホウセイダイガク ノウガクケンキユウジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "法大能"
+        },
+        {
+          "@value": "ホウダイノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012375",
+      "cinii:organizationid": "KI002646",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "野上記念 法政大学 能楽研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "102-8160",
+        "v:label": "東京都千代田区富士見2-17-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3264-9815"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3264-9607"
+        }
+      ],
+      "dc:description": [
+        "HOSEI UNIVERSITY INSTITUTE OF NOGAKU STUDIES",
+        "2-17-1, Fujimi, Chiyoda-ku, Tokyo, 102-8160 JAPAN",
+        "URL:http://www.hosei.ac.jp"
+      ]
+    }
+  ]
+}

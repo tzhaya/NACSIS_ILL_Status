@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006204.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006204#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006204.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東洋大学 附属図書館 川越図書館"
+        },
+        {
+          "@value": "トウヨウダイガク フゾクトショカン カワゴエトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東洋大川"
+        },
+        {
+          "@value": "トウヨウダイカワ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "開架",
+        "参考",
+        "逐刊",
+        "貴重書",
+        "マイクロ",
+        "視聴覚",
+        "研工業技術"
+      ],
+      "cinii:memberid": "FA006204",
+      "cinii:organizationid": "KI002511",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東洋大学 附属図書館 川越図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "350-8585",
+        "v:label": "埼玉県川越市鯨井2100"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "049-239-1321"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "049-239-1493"
+        }
+      ],
+      "dc:description": [
+        "Toyo University Kawagoe Library",
+        "2100,Kuzirai,Kawagoe-shi,Saitama",
+        "http://www.toyo.ac.jp/site/library/",
+        "来館利用担当:閲覧担当",
+        "通常開館時間 :8:45〜20:00(土曜日〜16:00)(出納〜17:00)",
+        "利用時間:カウンターは閉館15分前まで",
+        "複写時間:閉館15分前まで",
+        "開館日・開館時間はホームページ(http://www.toyo.ac.jp/site/library/)でご確認ください。",
+        "資料及び利用に関する問い合わせ・申込は所属する図書館・類縁機関(または最寄の公共図書館)を通してご連絡ください。",
+        "文献複写、資料貸借についても図書館を通してご連絡ください。",
+        "ILL-OrgToyo University Kawagoe library",
+        "ILL-Address:2100,Kuzirai,Kawagoe-shi,Saitama",
+        "ILL-ZIP:350-8585",
+        "ILL-Commun1:E-mail:mlka​wagoelibra​@toyo.jp"
+      ]
+    }
+  ]
+}

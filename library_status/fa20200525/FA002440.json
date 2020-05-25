@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002440.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002440#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002440.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 文学 図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク ブンガク トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大文"
+        },
+        {
+          "@value": "メイダイブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "文図書",
+        "文国文",
+        "文中文",
+        "文英文",
+        "文仏文",
+        "文独文",
+        "文哲学",
+        "文心理",
+        "文地理",
+        "文中哲",
+        "文印哲",
+        "文国史",
+        "文東史",
+        "文西史",
+        "文美学",
+        "文考古",
+        "文社会",
+        "文言語",
+        "文古典",
+        "文英語",
+        "文国語",
+        "文留学",
+        "文比較",
+        "文比文",
+        "文電子",
+        "文日文化",
+        "文助手",
+        "文博物館学",
+        "文JIA",
+        "文映像"
+      ],
+      "cinii:memberid": "FA002440",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004302",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋大学 文学 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8601",
+        "v:label": "名古屋市千種区不老町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-789-2209,2208"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-789-2666"
+        }
+      ],
+      "dc:description": [
+        "Library of Humanities, Nagoya University",
+        "Furo-cho, Chikusa-ku, Nagoya, JAPAN",
+        "資料の9割が研究室に配架されており、すぐには利用できない場合があります。 資料閲覧をご希望の際は 文学図書室へ前もってご連絡いただくようお願いいたします。",
+        "閲覧問い合せ先:文学図書室 TEL:052-789-2208/ E-mail:let@nul.nagoya-u.ac.jp",
+        "ILL-Dept:Interlibrary Loan Services",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp",
+        "URL:https://www.nul.nagoya-u.ac.jp/let/ (website)"
+      ]
+    }
+  ]
+}

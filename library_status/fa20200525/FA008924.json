@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008924.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008924#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008924.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福岡大学 図書館 医学部分館"
+        },
+        {
+          "@value": "フクオカダイガク トショカン イガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福岡大医"
+        },
+        {
+          "@value": "フクオカダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008924",
+      "cinii:organizationid": "KI004415",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "福岡大学 図書館 医学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "814-0180",
+        "v:label": "福岡県福岡市城南区七隈7-45-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-801-1011(内)3052"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-862-6930"
+        }
+      ],
+      "dc:description": [
+        "Medical Library, Fukuoka University",
+        "7-45-1,Nanakuma,Jonan-ku,Fukuoka 814-0180",
+        "URL:http://www.lib.fukuoka-u.ac.jp/med/",
+        "電話番号:092-801-1011(3052,3053)",
+        "通常開館時間:8:50-22:00",
+        "複写受付時間:8:50-22:00",
+        "閲覧対象者: 大学・研究機関所属の研究者及び学生、医療従事者(閲覧・複写)",
+        "閲覧持参書類: 学生証または身分証明書(勤務先・住所記載のもの)",
+        "館外貸出:不可",
+        "休館日: 8/15・年末年始(12/29-1/3)"
+      ]
+    }
+  ]
+}

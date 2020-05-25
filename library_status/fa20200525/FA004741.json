@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004741.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004741#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004741.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "城西大学 水田記念図書館"
+        },
+        {
+          "@value": "ジョウサイダイガク ミズタキネントショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "城西大"
+        },
+        {
+          "@value": "ジョウサイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "自然系",
+        "社会系",
+        "数学",
+        "オンライン",
+        "情報系"
+      ],
+      "cinii:memberid": "FA004741",
+      "cinii:organizationid": "KI001745",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "城西大学 水田記念図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "350-0295",
+        "v:label": "埼玉県坂戸市けやき台1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "049-271-7737"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "049-286-8126"
+        }
+      ],
+      "dc:description": [
+        "URL:http://libopac.josai.ac.jp/ (website)",
+        "閲覧担当係    :閲覧係 049-271-7737",
+        "閲覧対象者    :教職員・院生・学生",
+        "閲覧持参書類  :紹介状および身分を証明する物を携行してください。",
+        "閲覧受付時間  :月～金9:00～20:00(夏期休業中は9:00～18:00)、土曜日9:00～18:00、日曜日9:00～16:00",
+        "複写受付時間  :月～金9:00～20:00(夏期休業中は9:00～18:00)、土曜日9:00～18:00、日曜日9:00～16:00",
+        "館外貸出可否  :否",
+        "注意事項:事前にご連絡ください",
+        "休館日 :祝日、夏期休業(2019年8月12日～20日)、年末年始休業(2019年12月29日～2020年1月3日※年内は12月25日15:00が最終受付となります。)、大学入試センター試験日(2020年1月18日、19日)",
+        "ILL-Staff:ILL Section",
+        "ILL-Dept:Interlibrary Loan Section",
+        "ILL-Org:Josai University Mizuta Memorial Library",
+        "ILL-Address:1-1, Keyakidai, Sakado-shi, Saitama, Japan",
+        "ILL-Zip:350-0295",
+        "ILL-Commun1:Tel:+81-49-271-7737 / Fax:+81-49-286-8126 / E-mail:libill@josai.ac.jp",
+        "ILL-Commun2:OPAC:http://libopac.josai.ac.jp/opac/opac_search/ / Home-page:http://libopac.josai.ac.jp",
+        "ILL-Accept:OCLC:KJO",
+        "ILL-Sched:Closed: National holidays of Japan, Closing in summer(usually Aug 13-15), New Year holidays (usually Dec 29-Jan 3), The anniversary of the founding of University (Apr 20)",
+        "ILL-Bill:Foreign:OCLC-IMF only",
+        "ILL-Loan-Period:Foreign:6 weeks per item; up to 5 items per library.",
+        "ILL-Loan-Renew:None",
+        "ILL-Loan-Charge:Postage required. / Delivery method: via airmail",
+        "ILL-Non-Circulation:Mcrfrm, mcrfch, ref, per, news, a-v.",
+        "ILL-Copy-Charge:Photocopy: 50YEN per sheet (monochrome), 100YEN per sheet(color); Postage required / Delivery method : EMS",
+        "ILL-OCLC-Symbol:KJO"
+      ]
+    }
+  ]
+}

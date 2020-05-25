@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003421.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003421#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003421.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高知大学 学術情報基盤図書館 物部分館"
+        },
+        {
+          "@value": "コウチダイガク ガクジュツジョウホウキバントショカン モノベブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高大農"
+        },
+        {
+          "@value": "コウダイノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003421",
+      "cinii:organizationid": "KI000797",
+      "cinii:prefcode": "39",
+      "cinii:mextid": "006701",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "高知大学 学術情報基盤図書館 物部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "783-8502",
+        "v:label": "高知県南国市物部乙200"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-864-5117"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-864-5202"
+        }
+      ],
+      "dc:description": [
+        "200, MONOBE, NANKOKUSHI, KOCHI 783-8502",
+        "URL:http://www.lib.kochi-u.ac.jp/library/nobun/(WEBSITE)",
+        "URL:http://www.lib.kochi-u.ac.jp/library/nobun/riyo/(MAP)",
+        "来館利用担当 :物部分館サービス係",
+        "電話番号 :088-864-5117",
+        "受付時間 :8:30〜20:00(土曜日10:00〜18:00)",
+        "注意事項 :資料の所在等、事前確認をしてください",
+        "持参書類 :身分証明書",
+        "複写時間 :9:00〜16:30(土曜日不可)",
+        "館外貸出 :可",
+        "休館日 :休業中の土曜日・日曜日・国民の祝日・年末年始・物部分館長が必要と認めた日"
+      ]
+    }
+  ]
+}

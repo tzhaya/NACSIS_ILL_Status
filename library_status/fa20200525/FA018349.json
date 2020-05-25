@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018349.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018349#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018349.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "帝塚山学院大学 図書館 泉ヶ丘館"
+        },
+        {
+          "@value": "テヅカヤマガクインダイガク トショカン イズミガオカカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "帝塚院大泉ヶ丘"
+        },
+        {
+          "@value": "テヅカインダイイズミガオカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA018349",
+      "cinii:organizationid": "KI003784",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "帝塚山学院大学 図書館 泉ヶ丘館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "590-0113",
+        "v:label": "大阪府堺市南区晴美台4-2-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-296-1331"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-296-6444"
+        }
+      ],
+      "dc:description": [
+        "Tezukayama Gakuin University Library, Izumigaoka",
+        "4-2-2, Harumidai, Sakai, Osaka 590-0113",
+        "URL:https://www-std01.ufinity.jp/tezukayamagakuin/",
+        "来館利用受付担当 :相互利用係",
+        "閲覧対象者 :大学図書館・公共図書館等発行の紹介状持参の方に限る",
+        "閲覧事前連絡:必ず、紹介状発行機関による事前連絡のこと",
+        "閲覧持参書類:紹介状及び本人と証明できる物",
+        "閲覧受付時間:通常9:00〜17:00(土曜日〜12:50);休業中9:00〜16:50(土曜日〜12:50)",
+        "複写受付時間:通常9:00〜17:00(土曜日〜12:50);休業中9:00〜16:50(土曜日〜12:50)",
+        "館外貸出可否:否",
+        "閲覧注記:車での来館はご遠慮下さい",
+        "休館日 :日曜日・国民の祝日・創立記念日(5/12日)・夏期一斉休暇(8月中旬)・年末年始"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007400.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007400#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007400.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋商科大学 中央情報センター"
+        },
+        {
+          "@value": "ナゴヤショウカダイガク チュウオウジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名商大"
+        },
+        {
+          "@value": "メイショウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007400",
+      "cinii:organizationid": "KI003285",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋商科大学 中央情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "470-0193",
+        "v:label": "愛知県日進市米野木町三ケ峯4-4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0561-73-2111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0561-74-0341"
+        }
+      ],
+      "dc:description": [
+        "Nagoya University of Commerce and Business Administration",
+        "4-4, Sagamine, Komenoki-cho, Nisshin-shi, Aichi 470-0193",
+        "http://www.nucba.ac.jp/research/",
+        "来館利用担当:閲覧係",
+        "電話番号:0561-73-2111(内線21308)",
+        "受付時間:9:00〜17:30",
+        "注意事項:来館の際には、電話で事前連絡ください。",
+        "持参書類:資料利用依頼書(身分を証明する物を携行のこと)",
+        "複写時間:9:00〜17:30",
+        "館外貸出:不可",
+        "制限事項:貴重書については事前に利用手続きが必要となります。(館長の特別許可必要)",
+        "休館日:土曜日・日曜日・祝祭日・年末年始・等"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006000.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006000#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006000.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京慈恵会医科大学 学術情報センター図書館 国領分館"
+        },
+        {
+          "@value": "トウキヨウジケイカイイカダイガク ガクジュツジヨウホウセンタートシヨカン コクリヨウブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "慈恵国領"
+        },
+        {
+          "@value": "ジケイコクリヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006000",
+      "cinii:organizationid": "KI002395",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京慈恵会医科大学 学術情報センター図書館 国領分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "182-8570",
+        "v:label": "東京都調布市国領町8-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3480-1151"
+        }
+      ],
+      "dc:description": [
+        "Kokuryo Library, Academic Information Center, The Jikei University School of Medicine",
+        "8-3-1 Kokuryocho, Chofu-shi, Tokyo 182-8570",
+        "複写受付窓口 : 東京慈恵会医科大学 学術情報センター 図書館(FA005992) 相互貸借係, TEL: 03-3433-1111(ext.2122), FAX: 03-5403-7892",
+        "注意事項 : ILLの受付・問合せ等はすべて上記本館が窓口になっている"
+      ]
+    }
+  ]
+}

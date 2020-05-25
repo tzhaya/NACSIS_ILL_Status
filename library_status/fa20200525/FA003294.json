@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003294.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003294#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003294.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山口大学 図書館 医学部図書館"
+        },
+        {
+          "@value": "ヤマグチダイガク トシヨカン イガクブトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "山口大医"
+        },
+        {
+          "@value": "ヤマグチダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "医分館"
+      ],
+      "cinii:memberid": "FA003294",
+      "cinii:organizationid": "KI000731",
+      "cinii:prefcode": "35",
+      "cinii:mextid": "006301",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "山口大学 図書館 医学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "755-8505",
+        "v:label": "宇部市南小串1丁目1番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0836-22-2143"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0836-29-0003"
+        }
+      ],
+      "dc:description": [
+        "Yamaguchi University Medical Library",
+        "1-1-1,Minami-Kogushi,Ube,Yamaguchi,755-8505,Japan",
+        "URL:http://www.lib.yamaguchi-u.ac.jp/     (website)",
+        "URL:http://www.lib.yamaguchi-u.ac.jp/access/    (map)",
+        "来館利用担当:医学図書係",
+        "電話番号:0836-22-2142",
+        "受付時間:9:00-16:00",
+        "来館利用担当:医学図書係",
+        "注意事項:資料の所在、開館日等は事前に確認してください。",
+        "持参書類:本学発行の図書館利用カードまたは運転免許証・身分証明書・健康保険証のいずれかを持参してください。",
+        "複写時間:9:00-16:30",
+        "館外貸出:一般利用者 図書2冊以内、貸出期間14日以内 (雑誌、研究室貸出図書は不可)",
+        "休館日:ホームページをご覧ください。"
+      ]
+    }
+  ]
+}

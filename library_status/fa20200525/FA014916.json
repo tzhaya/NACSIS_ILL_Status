@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014916.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014916#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014916.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東日本電信電話株式会社 関東病院 図書館"
+        },
+        {
+          "@value": "ヒガシニホンデンシンデンワカブシキガイシヤ カントウビヨウイン トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関東病"
+        },
+        {
+          "@value": "カントウビヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014916",
+      "cinii:organizationid": "KI007989",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "N",
+      "v:fn": "東日本電信電話株式会社 関東病院 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "141-8625",
+        "v:label": "東京都品川区東五反田5-9-22"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3448-6688"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3448-6687"
+        }
+      ],
+      "dc:description": [
+        "NTT Medical Center Tokyo",
+        "5-9-22,Higashi-Gotanda,Shinagawa-ku,Tokyo,141-8625,Japan",
+        "TEL:03-3448-6688 FAX:03-3448-6687",
+        "利用資格:当院職員に限らせていただきます 館外貸出:不可",
+        "休館日:土・日・祝・祭日、年末年始(12月28日-1月5日)",
+        "ILL受付時間:9:00-17:00 (3月20日-31日の期間は受付を中止いたします)",
+        "支払方法: 金融機関の納付書払い(払込手数料なし)",
+        "注意事項: 院外倉庫所蔵分は別置のため複写をお受けできません"
+      ]
+    }
+  ]
+}

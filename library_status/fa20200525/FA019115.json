@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019115.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019115#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019115.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "静岡英和学院大学 図書館"
+        },
+        {
+          "@value": "シズオカエイワガクインダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "静英和大"
+        },
+        {
+          "@value": "シズエイワダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019115",
+      "cinii:organizationid": "KI011330",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "静岡英和学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "422-8545",
+        "v:label": "静岡県静岡市駿河区池田1769"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "054-264-8875"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "054-263-1765"
+        }
+      ],
+      "dc:description": [
+        "Shizuoka Eiwa Gakuin University",
+        "1769, Ikeda, Shizuoka-shi, Shizuoka 422-8005",
+        "URL:http://www.shizuoka-eiwa.ac.jp/life/facilities/library/",
+        "電話番号:054-264-8875",
+        "開館時間:8:45〜17:50",
+        "閉館日・開館時間を事前確認してください。外来者用駐車場が少ないので、車での来館はご遠慮ください。",
+        "持参書類:身分を証明できるもの(学生証・運転免許証等)",
+        "複写時間:8:45〜17:40",
+        "館外貸出:不可(但し、卒業生は可)",
+        "休館日:日曜日・国民の祝日・創立記念日・年末年始・大学の長期休暇中の一定期間等"
+      ]
+    }
+  ]
+}

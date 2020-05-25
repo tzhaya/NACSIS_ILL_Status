@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA026937.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA026937#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA026937.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "千葉県千葉リハビリテーションセンター 図書室"
+        },
+        {
+          "@value": "チバケンチバリハビリテーションセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "千葉リハ"
+        },
+        {
+          "@value": "チバリハ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA026937",
+      "cinii:organizationid": "KI015251",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "千葉県千葉リハビリテーションセンター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "266-0005",
+        "v:label": "千葉県千葉市緑区誉田町1丁目45番2"
+      }
+    }
+  ]
+}

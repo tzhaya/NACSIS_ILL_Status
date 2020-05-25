@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027306.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027306#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027306.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "池坊短期大学 図書館"
+        },
+        {
+          "@value": "イケノボウタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "池坊短大"
+        },
+        {
+          "@value": "イケノボウタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027306",
+      "cinii:organizationid": "KI015397",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "池坊短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "600-8491",
+        "v:label": "京都市下京区四条室町鶏鉾町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-351-8615(直)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-351-8591(共)"
+        }
+      ],
+      "dc:description": [
+        "Ikenobo Junior College Library",
+        "491Niwatoriboko-cho,Shimogyo-ku,Kyoto,600-8491 JAPAN",
+        "URL:http://www.lib-eye.net/ikenobo-c/",
+        "E-mail:library@ikenobo-c.ac.jp",
+        "受付時間:平日10:00～17:00",
+        "注意事項:一般公開は行っておりませんので、所属機関の図書館を通じてお問い合わせ下さい。",
+        "資料の所蔵等につきましては、事前に上記URL等でご確認下さい。",
+        "大学コンソーシアム京都加盟館につきましては利用案内もご参照下さい。",
+        "ご利用に際しては事前に電子メールでご連絡下さい。",
+        "持参書類:閲覧依頼回答(写し)及び身分を証明する物を携行のこと。",
+        "複写時間:平日10:00～17:00 ※コピーはモノクロに限る",
+        "館外貸出:不可",
+        "制限事項:貴重書等、閲覧を制限するものがあります。",
+        "休館日:日曜日、祝日及び本学で定めた休館日"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006113.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006113#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006113.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京理科大学 野田図書館"
+        },
+        {
+          "@value": "トウキヨウリカダイガク ノダトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東理大野"
+        },
+        {
+          "@value": "トウリダイノ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "野図",
+        "理工数学",
+        "理工物理",
+        "理工建築",
+        "理工工化",
+        "理工電情",
+        "理工経営",
+        "理工機械",
+        "理工応生",
+        "理工情報",
+        "理工土木",
+        "基礎工電応工",
+        "基礎工材料工",
+        "基礎工生物工",
+        "保存書庫",
+        "保体科セ",
+        "生命研",
+        "理工教養",
+        "基工教養",
+        "ハンコツク文庫",
+        "特別配置",
+        "薬学部"
+      ],
+      "cinii:memberid": "FA006113",
+      "cinii:organizationid": "KI002486",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京理科大学 野田図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "278-8510",
+        "v:label": "千葉県野田市山崎2641"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-7122-9157"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-7122-4475"
+        }
+      ],
+      "dc:description": [
+        "TOKYO UNIVERSITY OF SCIENCE",
+        "2641,YAMAZAKI,NODA-SHI,CHIBA 278-8510",
+        "https://www.tus.ac.jp/library/",
+        "来館利用担当:閲覧係",
+        "電話番号:04-7122-9157",
+        "FAX:04-7122-4475",
+        "受付時間:9:00〜20:45",
+        "注意事項:電話で問い合せが望ましい。",
+        "持参書類:所属図書館または所属機関発行の紹介状をお持ちください。",
+        "閲覧受付時間:9:00〜20:45(土曜日～16:45)",
+        "複写受付時間:9:00〜20:45(土曜日～16:45)",
+        "館外貸出:否",
+        "通常開館時間 : 9:00〜21:00(土曜〜17:00)",
+        "休館日:日曜日・夏期一斉休暇・冬期一斉休暇 ※詳細はHPの開館カレンダー参照のこと",
+        "学科図書室、研究室所蔵の資料はご利用いただけません"
+      ]
+    }
+  ]
+}

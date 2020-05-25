@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007138.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007138#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007138.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岐阜女子大学 図書館"
+        },
+        {
+          "@value": "ギフジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岐女大"
+        },
+        {
+          "@value": "ギジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007138",
+      "cinii:organizationid": "KI003070",
+      "cinii:prefcode": "21",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "岐阜女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "501-2592",
+        "v:label": "岐阜県岐阜市太郎丸80番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "058-214-9317(直)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "058-229-2222"
+        }
+      ],
+      "dc:description": [
+        "Gifu Women's University Library",
+        "80, Taromaru, Gifu City, Gifu 501-2592",
+        "URL:http://libwww.gijodai.ac.jp/",
+        "URL:http://www.gijodai.ac.jp/map2.html (map)",
+        "来館利用担当:閲覧係 吉田真由美、山口智美、中村理奈子",
+        "電話番号:058-214-9317(直)",
+        "受付時間:開館時間中",
+        "注意事項:事前に必ず電話またはe-mailで問い合わせて下さい。",
+        "持参書類:身分を証明するものを携行のこと",
+        "複写時間:開館時間中",
+        "館外貸出:不可",
+        "制限事項:貴重書の複写は原則として不可",
+        "休館日 :日曜日・国民の祝日・年末年始・入試日・入学式及び卒業式の日。土曜開館日など、詳しくはホームページにて御確認下さい。"
+      ]
+    }
+  ]
+}

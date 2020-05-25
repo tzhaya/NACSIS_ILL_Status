@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022903.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022903#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022903.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "テンプル大学 ジャパンキャンパス図書館"
+        },
+        {
+          "@value": "テンプルダイガク ジャパンキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "テンプル大ジャパン"
+        },
+        {
+          "@value": "テンプルダイジャパン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022903",
+      "cinii:organizationid": "KI025120",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "テンプル大学 ジャパンキャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "154-0004",
+        "v:label": "東京都世田谷区太子堂1-14-29"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5441-9867"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5441-9811"
+        }
+      ],
+      "dc:description": [
+        "Temple University, Japan Campus Library",
+        "",
+        "URL:http://www.tuj.ac.jp/newsite/main/library",
+        "来館利用担当 : レファレンス",
+        "電話番号 : 03-5441-9867",
+        "受付時間 : 9:00〜17:00(月〜金) 12:00〜17:00(土)",
+        "持参書類 : 紹介状、及び身分証明書",
+        "複写時間 : 9:00〜20:00 (月〜木) 9:00〜18:00(金) 12:00〜18:00(土)",
+        "館外貸出 : 不可",
+        "制限事項 :",
+        "休館日 : 日曜日、祝日、年末年始"
+      ]
+    }
+  ]
+}

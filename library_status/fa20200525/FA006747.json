@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006747.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006747#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006747.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "明星大学 日野校舎図書館"
+        },
+        {
+          "@value": "メイセイダイガク ヒノコウシャトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "明星大"
+        },
+        {
+          "@value": "メイセイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "日野",
+        "青梅"
+      ],
+      "cinii:memberid": "FA006747",
+      "cinii:organizationid": "KI002748",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "明星大学 日野校舎図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "191-8506",
+        "v:label": "東京都日野市程久保2-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-591-5104"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-591-7658"
+        }
+      ],
+      "dc:description": [
+        "Meisei-University Hino Campus Library",
+        "2-1-1 Hodokubo Hino-city, TOKYO 191-8506",
+        "URL:http://www.hino.meisei-u.ac.jp/hlibrary/",
+        "来館利用担当:ILL担当",
+        "電話番号:042-591-5104",
+        "受付時間:9:15〜17:00",
+        "注意事項:",
+        "持参書類:身分証明書、資料利用依頼書 (紹介状)",
+        "複写時間:9:15〜17:00",
+        "館外貸出:不可",
+        "制限事項:貴重図書には閲覧を許可しないものがある。",
+        "休館日:日祝日・年末年始・春夏休暇中の一定期間・創立記念日(5月20日)"
+      ]
+    }
+  ]
+}

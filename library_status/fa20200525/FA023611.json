@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023611.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023611#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023611.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都立産業技術高等専門学校 品川キャンパス図書館"
+        },
+        {
+          "@value": "トウキョウトリツサンギョウギジュツコウトウセンモンガッコウ シナガワキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産技高専品川"
+        },
+        {
+          "@value": "サンギコウセンシナガワ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研究室"
+      ],
+      "cinii:memberid": "FA023611",
+      "cinii:organizationid": "KI008223",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京都立産業技術高等専門学校 品川キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "140-0011",
+        "v:label": "東京都品川区東大井1-10-40"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3474-4135"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3471-6338(代表)"
+        }
+      ],
+      "dc:description": [
+        "学外者の閲覧は工学系専門書の利用を目的とした場合に限定しています。",
+        "ILL-Org: Tokyo Metropolitan College of Industrial Thechnology Shinagawa Library",
+        "ILL-Address: 1-10-40 Higashiohi Shinagawa-ku、 Tokyo、 JAPAN",
+        "ILL-ZIP: 140-0011",
+        "ILL-Commun1:Tel:+81-3-3471-6331 /FAX:+81-3-3471-6338 / E-mail:tosho@metro-cit.ac.jp"
+      ]
+    }
+  ]
+}

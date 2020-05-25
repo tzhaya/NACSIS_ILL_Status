@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027383.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027383#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027383.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都国立近代美術館"
+        },
+        {
+          "@value": "キョウトコクリツキンダイビジュツカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京近美"
+        },
+        {
+          "@value": "キョウキンビ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027383",
+      "cinii:organizationid": "KI009135",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "京都国立近代美術館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8344",
+        "v:label": "京都市左京区岡崎円勝寺町26-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-761-4111(代表)"
+        }
+      ],
+      "dc:description": [
+        "The National Museum of Modern Art, Kyoto",
+        "26-1, Okazaki Enshoji-cho, Sakyo-ku, Kyoto, 606-8344",
+        "URL:http://opac.momak.go.jp/",
+        "貸出はできません。郵送複写は行っておりません。",
+        "図書館間現物貸借サービス、複写サービス、FAXサービスは行っておりません。",
+        "資料については事前予約が必要です。",
+        "開室日、開室時間、予約方法については京都国立近代美術館HPでご確認ください。",
+        "NACSIS-Webcatで表示される資料でも閲覧できない場合があります。最新の情報は当館OPACでご確認ください。"
+      ]
+    }
+  ]
+}

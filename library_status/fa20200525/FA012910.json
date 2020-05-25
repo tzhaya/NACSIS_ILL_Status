@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012910.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012910#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012910.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 大学院アジア・アフリカ地域研究研究科"
+        },
+        {
+          "@value": "キョウトダイガク アジア・アフリカチイキケンキュウケンキュウカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大AA研"
+        },
+        {
+          "@value": "キョウダイエーエーケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "グローバル専攻",
+        "アジア専攻",
+        "アフリカ専攻"
+      ],
+      "cinii:memberid": "FA012910",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004834",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "N",
+      "v:fn": "京都大学 大学院アジア・アフリカ地域研究研究科",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8501",
+        "v:label": "京都府京都市左京区吉田本町 総合研究2号館 AA421"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075(753)9638 :グローバル"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "075(753)9638 :アジア専攻"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "075(753)7816 :アフリカ専攻"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075(753)9639 :グローバル"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "075(753)9639 :アジア専攻"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "075(753)7395 :アフリカ専攻"
+        }
+      ],
+      "dc:description": [
+        "--------------------",
+        "(2020.4.10～)<休室中>です。ILLは附属図書館の運用によります。",
+        "--------------------",
+        "Graduate School of Asian and African Area Studies, Kyoto University",
+        "46 Shimoadachi-cho, Yoshida, Sakyo-ku, Kyoto 606-8501",
+        "URL:http://kuline.kulib.kyoto-u.ac.jp/ (注!: 配架場所が分散しているため、OPACでの配架場所確認は絶対必要。特に雑誌は発行年により場所が違う場合あり。)",
+        "来館利用担当:アフリカ専攻図書室(アフリカ専攻所蔵分のみ)",
+        "電話番号:075-753-7816(アフリカ専攻)",
+        "受付時間:9:00-12:00 ; 13:00-17:00",
+        "来館利用担当:アジア専攻図書室(アジア専攻・グローバル専攻所蔵分)",
+        "電話番号:075-753-9638(アジア専攻図書室)",
+        "受付時間:10:00-13:00 ; 14:00-18:00(アジア専攻図書室)",
+        "注意事項:事前に所属機関を通じての所在確認をお願いします",
+        "持参書類:身分証明書および本研究科教職員からの連絡、もしくは所属機関からの紹介状",
+        "複写・貸出不可",
+        "但し身分証明書を預かりの上、一時帯出可",
+        "休館日:土・日・祝日 年末年始・創立記念日・その他"
+      ]
+    }
+  ]
+}

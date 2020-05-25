@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016886.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016886#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016886.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島商船高等専門学校 図書館"
+        },
+        {
+          "@value": "ヒロシマショウセンコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広船"
+        },
+        {
+          "@value": "ヒロセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016886",
+      "cinii:organizationid": "KI009485",
+      "cinii:prefcode": "34",
+      "cinii:mextid": "603600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "広島商船高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "725-0231",
+        "v:label": "広島県豊田郡大崎上島町東野4272-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0846-67-3007"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0846-67-3007"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima National College of Maritime Technology",
+        "4272-1 Higashino, Osakikamijima-Cho, Toyota-Gun, Hiroshima Japan 725-0231",
+        "URL:http://hcmtlib.hiroshima-cmt.ac.jp/",
+        "来館利用担当:学術情報係学術情報係(学術担当)",
+        "電話番号:0846-67-3007",
+        "受付時間:平日8:30〜19:00(春季休業日等学生の休業日は8:30〜17:00)土曜・日曜:10:15〜17:00",
+        "注意事項:一般利用対象者は中学生以上で利用を申し出た方",
+        "持参書類:身分証明書",
+        "複写時間:9:30〜16:00",
+        "館外貸出:可(郵送での貸出は不可)",
+        "制限事項:禁帯出図書及び雑誌の最新号は貸出しません。",
+        "休館日:祝祭日・年末年始・本校一斉休業日"
+      ]
+    }
+  ]
+}

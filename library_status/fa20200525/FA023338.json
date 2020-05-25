@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023338.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023338#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023338.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "アルザス・欧州日本学研究所 図書館"
+        },
+        {
+          "@value": "アルザス・オウシュウニホンガクケンキュウジョ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "CEEJA"
+        },
+        {
+          "@value": "セエジャ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "アルザス"
+      ],
+      "cinii:memberid": "FA023338",
+      "cinii:organizationid": "KI024274",
+      "cinii:prefcode": "257",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "アルザス・欧州日本学研究所 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:label": "8 ROUTE D'AMMERSCHWIHR 68240 KIENTZHEIM - FRANCE"
+      },
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "+33 (0)3 89 23 08 78"
+        }
+      ],
+      "dc:description": [
+        "URL:http://ceeja.tamil.fr"
+      ]
+    }
+  ]
+}

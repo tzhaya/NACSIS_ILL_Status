@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001641.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001641#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001641.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "筑波大学 附属図書館 図書館情報学図書館"
+        },
+        {
+          "@value": "ツクバダイガク フゾクトショカン トショカンジョウホウガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "筑大図情"
+        },
+        {
+          "@value": "ツクダイトジョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA001641",
+      "cinii:organizationid": "KI000174",
+      "cinii:prefcode": "08",
+      "cinii:mextid": "001604",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "筑波大学 附属図書館 図書館情報学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-8550",
+        "v:label": "つくば市春日1-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-859-1200"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-859-1221"
+        }
+      ],
+      "dc:description": [
+        "University of Tsukuba Library, Linbary on Library and Information Science",
+        "1-2 Kasuga,Tsukuba-Shi,Ibaraki-Ken 305-8550",
+        "URL:http://www.tulips.tsukuba.ac.jp/lib/ (WEBSITE)",
+        "URL:http://www.tulips.tsukuba.ac.jp/lib/ja/map/map-tojo (MAP)",
+        "来館利用担当:図情図書館担当",
+        "電話番号:029-859-1200,1232",
+        "受付時間 :開館時間中",
+        "閲覧事前連絡:必要なし。ただし、和装本・貴重書・マイクロ資料の利用については、事前に連絡して下さい。",
+        "館内資料複写受付時間 :開館時間中(マイクロ資料からの複写は平日17:00まで)",
+        "館外貸出可否 :否",
+        "通常開館時間 : 9:00-22:00(土日祝日 10:00-18:00)",
+        "休業中開館時間 : 9:00-17:00(土日祝日:閉館)",
+        "休館日:春季・夏季休業中の土日祝日、年末年始",
+        "休館注記 :その他臨時に休館することがあります。図書館開館カレンダーをご確認ください。",
+        "ILL-Org:University of Tsukuba Library, Library on Library and Information Science",
+        "ILL-Address:1-2 Kasuga,Tsukuba-Shi,Ibaraki-Ken,JAPAN",
+        "ILL:Zip:305-8550",
+        "ILL-Accept: International: LOAN Yes",
+        "ILL-Accept: International: LOAN Traceable courier with insurance Only",
+        "ILL-Accept: International: COPY Yes",
+        "ILL-Accept-method: Korea: KERIS=NII ILL Linkage (COPY only)",
+        "ILL-Accept-method: International: E-mail, FAX, Airmail",
+        "ILL-Payment-method: International: KERIS=NII Fee Management service Yes",
+        "ILL-Payment-method: International: Invoice Yes",
+        "ILL-Payment-method: International: Bank Transfer Yes",
+        "ILL-Payment-method: International: OCLC-IFM N/A",
+        "ILL-Loan-Period: 42 days including mailing period",
+        "ILL-Loan-Item-Max: 5 items per library",
+        "ILL-Loan-Charge: Postage only (JPY)",
+        "ILL-Loan-Delivery-method: Tracked system / No rush service available",
+        "ILL-Non-Circulation-items: Special collection, microform, Reference collection, Journal issues, newspaper, DVDs, dissertation",
+        "ILL-Copy-Charge: 60 JPY per sheet(monochrome) & Postage / 120 JPY per sheet(color) & Postage / 70 JPY per sheet(photocopy from microform) & Postage / No rush service available",
+        "ILL-Copy-Delivery-method: Airmail",
+        "ILL-Note: dissertation: COPY:author's permission required"
+      ]
+    }
+  ]
+}

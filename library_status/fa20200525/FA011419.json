@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011419.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011419#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011419.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "統計研究会 図書館"
+        },
+        {
+          "@value": "トウケイケンキユウカイ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "統計研"
+        },
+        {
+          "@value": "トウケイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011419",
+      "cinii:organizationid": "KI006567",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "統計研究会 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "105-0004",
+        "v:label": "東京都港区新橋1丁目18-16 日本生命ビル"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3591-8496"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3595-2220"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016048.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016048#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016048.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "羽衣国際大学 学術情報センター"
+        },
+        {
+          "@value": "ハゴロモコクサイダイガク ガクジュツジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "羽衣"
+        },
+        {
+          "@value": "ハゴロモ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016048",
+      "cinii:organizationid": "KI008835",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "羽衣国際大学 学術情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "592-8344",
+        "v:label": "大阪府堺市西区浜寺南町1-89-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-265-7000"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-265-7008"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.hagoromo.ac.jp/lib/index.html",
+        "来館利用: 受付時間:9:00〜17:00",
+        "来館利用: 注意事項:資料の所在等、事前連絡をしてください。",
+        "来館利用: 持参書類:身分証明書、各館発行の利用願など。"
+      ]
+    }
+  ]
+}

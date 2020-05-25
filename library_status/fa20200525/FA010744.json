@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010744.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010744#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010744.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宮城県図書館"
+        },
+        {
+          "@value": "ミヤギケントショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宮城県図"
+        },
+        {
+          "@value": "ミヤギケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010744",
+      "cinii:organizationid": "KI00594X",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "宮城県図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "981-3205",
+        "v:label": "宮城県仙台市泉区紫山1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-377-8449"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-377-8492"
+        }
+      ],
+      "dc:description": [
+        "Miyagi Prefectural Library",
+        "1-1-1 Murasakiyama, Izumi-ku, Sendai-shi, Miyagi-ken, 981-3205",
+        "URL:https://www.library.pref.miyagi.jp/ (website)",
+        "URL:https://www.library.pref.miyagi.jp/guide/riyou.html",
+        "来館利用担当:資料奉仕部資料情報班",
+        "電話番号:022-377-8449 / FAX番号:022-377-8492 (新聞雑誌室)",
+        "受付時間:開館時間中",
+        "注意事項:来館の際には資料の所在等をあらかじめご確認ください",
+        "持参書類:特になし",
+        "複写時間:開館時間中",
+        "館外貸出:不可 (雑誌・新聞は館内でのご利用のみになります)",
+        "開館時間:9:00?19:00 (火?土曜日) / 9:00?17:00 (日曜日・祝休日)",
+        "休館日:月曜日,館内整理日,特別整理期間,年末年始 (詳しくは図書館ホームページでご確認ください)",
+        "ILL-Org:Miyagi Prefectural Library",
+        "ILL-Address:1-1-1 Murasakiyama, Izumi-ku, Sendai-shi, Miyagi-ken, JAPAN",
+        "ILL-ZIP:981-3205",
+        "ILL-Commun1:Tel:+81-22-377-8449 / FAX:+81-22-377-8492 / E-mail:chikukan@library.pref.miyagi.jp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008731.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008731#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008731.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "四国大学 附属図書館"
+        },
+        {
+          "@value": "シコクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "四国大"
+        },
+        {
+          "@value": "シコクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008731",
+      "cinii:organizationid": "KI004255",
+      "cinii:prefcode": "36",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "四国大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "771-1192",
+        "v:label": "徳島県徳島市応神町古川字戎子野123-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-665-9917(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-665-9921"
+        }
+      ],
+      "dc:description": [
+        "一般利用対象者:徳島県内在住で、調査・研究・学習を目的とする者、高校生。(中学生以下の方の利用はご遠慮願います。)",
+        "利用時間:開館日(月～金)の9:00～17:20(受付時間～16:30)",
+        "利用注記:11:50〜12:50は受付不可。第3水曜日は10:30から受付。",
+        "利用注記:貴重書庫所蔵資料の閲覧を希望される場合は、1週間以上前にお問い合わせください。",
+        "持参書類:身分を証明する物",
+        "注意事項:個人の方からのお問い合わせにはお答えできません。所属機関の図書館を通してお問い合わせください。",
+        "休館日:土曜日・日曜日・国民の祝日・創立記念日(11月4日)・年末年始(12月28日〜1月4日)・お盆休み(8月12日〜15日)",
+        "非相殺館からの受付を再開いたしました。",
+        "ILL-Staff:Takeichi Yuko",
+        "ILL-Dept:Reference Service Section",
+        "ILL-Org:SHIKOKU UNIVERSITY LIBRARY",
+        "ILL-Address:FURUKAWA, OJIN-CHO, TOKUSHIMA-SHI, TOKUSHIMA, JAPAN",
+        "ILL-Zip:771-1192",
+        "ILL-Communl:Tel:+81-88-665-9917 / Fax:+81-88-665-9921 / E-mail:tosho-2f@shikoku-u.ac.jp",
+        "ILL-Accept:OCLC:JASHK",
+        "ILL-OCLC-Symbol:JASHK",
+        "ILL-Sched:Dec. 28-Jan. 4, Aug. 12-15, Nov. 4, Saturday, Sunday, national holidays of Japan",
+        "ILL-Bill:OCLC-IFM only",
+        "ILL-Loan-Period:None",
+        "ILL-Copy-Charge:Postage required,Photocopy:black-and-white:40 YEN:color:100 YEN"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020293.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020293#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020293.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福島工業高等専門学校"
+        },
+        {
+          "@value": "フクシマコウギヨウコウトウセンモンガツコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福島高専"
+        },
+        {
+          "@value": "フクシマコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA020293",
+      "cinii:organizationid": "KI012220",
+      "cinii:prefcode": "07",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "福島工業高等専門学校",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "970-8034",
+        "v:label": "福島県いわき市平上荒川字長尾30"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0246-46-0959(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0246-46-0748"
+        }
+      ]
+    }
+  ]
+}

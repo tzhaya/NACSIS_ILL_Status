@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA025173.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA025173#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA025173.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 労働者健康安全機構 横浜労災病院 図書室"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジン ロウドウシャケンコウアンゼンキコウ ヨコハマロウサイビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "横浜労災病院図書室"
+        },
+        {
+          "@value": "ヨコハマロウサイビョウイントショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA025173",
+      "cinii:organizationid": "KI015105",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "独立行政法人 労働者健康安全機構 横浜労災病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "222-0036",
+        "v:label": "神奈川県横浜市港北区小机町3211"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-474-8111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-474-8323 (病院代表)"
+        }
+      ],
+      "dc:description": [
+        "Japan Organization of Occupational Health and Safety ,Yokohama Rosai Hospital",
+        "3211 Kozukue-cho,Kohoku-ku,Yokohama,Japan 225-0036",
+        "受付時間:8:15~17:00 (土日祝日、年末年始は担当者不在のため休み)",
+        "複写方法/料金:電子複写/1枚50円(白黒のみ)カラー非対応。特にコメントがなければ、カラーページがあってもモノクロ複写でお送りいたします。",
+        "館外貸出可否:否",
+        "支払方法:ILL文献複写等料金相殺サービス。ILL料金相殺サービス非参加館 銀行振込(三菱東京UFJ銀行)(領収書は発行しません)",
+        "送付方法:郵便(速達可)のみ。FAX送信は不可。",
+        "図書室にFAXがないため相殺非参加館でFAXにて相互利用申込される場合、対応が遅くなる場合があります。ご了承下さい。",
+        "当日に発送出来るのは15:00受付分までです。"
+      ]
+    }
+  ]
+}

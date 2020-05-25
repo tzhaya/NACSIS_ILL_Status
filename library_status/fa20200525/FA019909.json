@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019909.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019909#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019909.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宇都宮短期大学 図書館"
+        },
+        {
+          "@value": "ウツノミヤタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宇都宮短大"
+        },
+        {
+          "@value": "ウツノミヤタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019909",
+      "cinii:organizationid": "KI011964",
+      "cinii:prefcode": "09",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "宇都宮短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "FA019909",
+        "v:label": "栃木県宇都宮市下荒針町長坂3829"
+      }
+    }
+  ]
+}

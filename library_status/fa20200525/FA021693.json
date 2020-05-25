@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021693.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021693#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021693.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "びわこ成蹊スポーツ大学 図書館"
+        },
+        {
+          "@value": "ビワコセイケイスポーツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "びわスポ大"
+        },
+        {
+          "@value": "ビワスポダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021693",
+      "cinii:organizationid": "KI013019",
+      "cinii:prefcode": "25",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "びわこ成蹊スポーツ大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "520-0503",
+        "v:label": "滋賀県大津市北比良1204"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "077-596-8445"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "077-596-8449"
+        }
+      ],
+      "dc:description": [
+        "Biwako Seikei Sport College Library",
+        "1204, Kita-hira, Otsu, Shiga, Japan 520-0503",
+        "URL:http://biwako-seikei.jp/education/library/ (website)",
+        "電話番号:077-596-8445",
+        "閲覧事前連絡:FAX、e-mail等文書での事前連絡が望ましい",
+        "閲覧持参書類:資料利用依頼書・身分証明書",
+        "閲覧受付時間:9:00～17:00",
+        "休館日:土日曜日・国民の祝日・夏季・冬季休業の一定期間・その他大学の定める休日・蔵書点検日"
+      ]
+    }
+  ]
+}

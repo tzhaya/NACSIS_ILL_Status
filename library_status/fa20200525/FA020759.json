@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020759.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020759#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020759.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "前橋赤十字病院 図書室"
+        },
+        {
+          "@value": "マエバシセキジュウジビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "前橋日赤"
+        },
+        {
+          "@value": "マエバシニッセキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020759",
+      "cinii:organizationid": "KI012628",
+      "cinii:prefcode": "10",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "前橋赤十字病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "371-0811",
+        "v:label": "群馬県前橋市朝倉町389-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "027-265-3333"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "027-225-5271"
+        }
+      ],
+      "dc:description": [
+        "Japanese Red Cross Maebashi Hospital",
+        "1-389, Asakuramachi Maebashi-shi, Gunma 371-0811",
+        "複写方法・料金:電子複写:白黒=1枚50円 カラー70円(カラー複写を希望する際は申込時にその旨明示すること)FAX1枚100円",
+        "支払方法 :  ILL料金相殺(非参加館は切手・後納,1000円以上は為替)",
+        "受付時間:9:30〜12:00 13:00〜17:00",
+        "持参書類:身分証明書",
+        "申込方法 : NACSIS-ILL , FAX",
+        "制限事項:利用は医療従事者(教職員・学生含む)のみとなっています。院外貸出はできません。担当者1名のため、事前にご連絡下さい",
+        "休館日:土日曜日、祝日、年末年始、創立記念日 (3月23日)",
+        "担当者1名のためFAX送信は要連絡。土日祝日受付不可。受信可能サイズを明記"
+      ]
+    }
+  ]
+}

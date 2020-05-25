@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016398.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016398#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016398.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 国際交流基金 日本語国際センター 図書館"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジン コクサイコウリュウキキン ニホンゴコクサイセンター トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "JF-日本語セ"
+        },
+        {
+          "@value": "JF-ニホンゴセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016398",
+      "cinii:organizationid": "KI008700",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "独立行政法人 国際交流基金 日本語国際センター 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "330-0074",
+        "v:label": "埼玉県さいたま市浦和区北浦和5-6-36"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-834-1185"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-830-1588"
+        }
+      ],
+      "dc:description": [
+        "The Japan Foundation Japanese-Language Institute, Urawa Library",
+        "5-6-36 Kita-Urawa, Urawa-ku, Saitama-shi, Saitama 330-0074",
+        "URL:https://www.jpf.go.jp/j/urawa/j_library/j_lbrary.html",
+        "URL:https://www.jpf.go.jp/e/urawa/e_library/e_lbrary.html (English)",
+        "電話番号:048-834-1185",
+        "受付時間:10:00-17:30 (電話による問合わせの場合)",
+        "注意事項:貸出サービスを希望する方は来館前に電話で持参書類を確認してください。",
+        "複写時間:11:30-19:00",
+        "休館日:土曜日、日曜日、祝日、毎月最終火曜日、蔵書点検期間、年末年始",
+        "開館時間:11:30-19:00",
+        "ILL-Org: The Japan Foundation Japanese-Language Institute, Urawa, Library",
+        "ILL-Address: 5-6-36 Kita-Urawa, Urawa-ku, Saitama-shi, Saitama, JAPAN",
+        "ILL-ZIP: 330-0074",
+        "ILL-Commun1:Tel:+81-48-834-1185 /FAX:+81-48-830-1588 / E-mail:jfnclib@jpf.go.jp"
+      ]
+    }
+  ]
+}

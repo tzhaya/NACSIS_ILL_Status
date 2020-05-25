@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020384.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020384#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020384.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公益財団法人 日本近代文学館"
+        },
+        {
+          "@value": "コウエキザイダンホウジン ニホンキンダイブンガクカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日本近代文学館"
+        },
+        {
+          "@value": "ニホンキンダイブンガクカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "成田分館"
+      ],
+      "cinii:memberid": "FA020384",
+      "cinii:organizationid": "KI012297",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "公益財団法人 日本近代文学館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "153-0041",
+        "v:label": "東京都目黒区駒場4-3-55"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3468-4181"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3468-4185"
+        }
+      ],
+      "dc:description": [
+        "公益財団法人 日本近代文学館",
+        "TEL:03-3468-4181 FAX:03-3468-4185",
+        "153-0041 東京都目黒区駒場4-3-55",
+        "URL:http://www.bungakukan.or.jp",
+        "<閲覧室の利用>",
+        "閲覧資格:満18歳以上",
+        "午前9時30分-午後4時30分",
+        "閲覧料金 1日1人300円",
+        "閲覧は館内のみ、館外への貸出しはいたしません。",
+        "<資料の複写サービス>",
+        "複写料金:モノクロ1枚100円(維持会・館の会員は60円)、カラー1枚300円(会員は180円)",
+        "複写の申込みは郵便またはFAXでも受け付けます。",
+        "但し当面オンラインでの受付は行いません。",
+        "FAXによる複写資料の送付はいたしません。",
+        "休館日:日曜日,月曜日,第4木曜日,2月・6月の第3週,年末年始",
+        "当館について詳しくお知りになりたい方は当館ホームページをご覧いただくか電話でお問い合わせください。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011033.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011033#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011033.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本貿易振興機構 アジア経済研究所 図書館"
+        },
+        {
+          "@value": "ニホンボウエキシンコウキコウ アジアケイザイケンキユウジヨ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "アジ研"
+        },
+        {
+          "@value": "アジケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "統",
+        "遡",
+        "遡韓",
+        "遡ア",
+        "ジェトロ"
+      ],
+      "cinii:memberid": "FA011033",
+      "cinii:organizationid": "KI006217",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "日本貿易振興機構 アジア経済研究所 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "261-8545",
+        "v:label": "千葉県千葉市美浜区若葉3-2-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "043-299-9713(閲覧、ILL)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "043-299-9716(レファレンス)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "043-299-9734"
+        }
+      ],
+      "dc:description": [
+        "ILL-Staff:Circulation Counter",
+        "ILL-Dept:Circulation Counter",
+        "ILL-Org:Library, Institute of Developing Economies, Japan External Trade Organization",
+        "ILL-Address:3-2-2, Wakaba, Mihama-ku, Chiba-shi, Chiba, Japan",
+        "ILL-ZIP:261-8545",
+        "ILL-Commun1:Tel:81-43-299-9713 / Fax:81-43-299-9734 / E-mail Libser@ide.go.jp",
+        "ILL-Commun2:OPAC:http://opac.jetro.go.jp/  /  Home-page:http://www.ide.go.jp/English/Library/",
+        "ILL:Accept:Foreign(1):OCLC(NII-OCLClink):[JAEJE] / Foreign(2):KERIS",
+        "ILL-Sched:Closed:Saturday(second, forth and fifth), Sunday, public holidays, Dec. 28-Jan. 3",
+        "ILL-Loan-Period:Foreign(1):NA / Foreign(2):NA",
+        "ILL-Loan-Renew:Foreign(1):NA / Foreign(2):NA",
+        "ILL-Loan-Charge:Foreign(1):NA / Foreign(2):NA",
+        "ILL-Loan-Circulation:Foreign(1):NA / Foreign(2):NA",
+        "ILL-Copy-Charge:Foreign Photocopy : 30 yen per sheet [per exposure]. Fee (210 yen) and postage required. Delivery method: via airmail",
+        "International: KERIS=NII Fee Management service (Yes)",
+        "ILL-Note:No book loan.",
+        "ILL-OCLC-Symbol:JAEJE"
+      ]
+    }
+  ]
+}

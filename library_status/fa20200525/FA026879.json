@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA026879.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA026879#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA026879.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪産業労働資料館"
+        },
+        {
+          "@value": "オオサカサンギョウロウドウシリョウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "エル・ライブラリー"
+        },
+        {
+          "@value": "エル・ライブラリー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA026879",
+      "cinii:organizationid": "KI015218",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪産業労働資料館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "540-0031",
+        "v:label": "大阪市中央区北浜東3-14 大阪府立労働センター4階"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6947-7722"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6809-2299"
+        }
+      ],
+      "dc:description": [
+        "Osaka Labor Archive",
+        "3-14,Kitahamahigashi , Tyuo-ku, Osaka 540-0031",
+        "URL:http://shaunkyo.jp/",
+        "電話 06-6947-7722",
+        "図書・雑誌以外にも数万点の文書資料(アーカイブズ資料)を所蔵しています。http://l-library.tosho-rashinban.jp/bibliography/inputで検索してみてください。文書資料は未登録が多いのでOPACでヒットしない場合があります。詳細はメールで lib@shaunkyo.jp までお尋ねください。",
+        "貸出:サポート会員に限る。サポート会員は郵送貸し出しも可",
+        "休館日:日・月曜日、国民の祝日、夏季、年末年始。10月15日",
+        "開館時間:10:00-17:00。毎月第1、第3金曜は20:00まで。"
+      ]
+    }
+  ]
+}

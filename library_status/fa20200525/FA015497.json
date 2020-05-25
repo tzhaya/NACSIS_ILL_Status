@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015497.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015497#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015497.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国際医療福祉大学 大田原キャンパス図書館"
+        },
+        {
+          "@value": "コクサイイリョウフクシダイガク オオタワラキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国医福大"
+        },
+        {
+          "@value": "コクイフクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015497",
+      "cinii:organizationid": "KI008289",
+      "cinii:prefcode": "09",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国際医療福祉大学 大田原キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "324-8501",
+        "v:label": "栃木県大田原市北金丸2600番1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0287-24-3041"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0287-24-3042"
+        }
+      ],
+      "dc:description": [
+        "International University  of Health and Welfare Library",
+        "2600-1 Kitakanemaru Ohtawara-shi Tochigi JAPAN 324-8501",
+        "http://lib.iuhw.ac.jp",
+        "---【学外の方】---",
+        "本学の卒業生、大学院修了生。栃木県に在住または通勤・通学されている方。または、調査・研究を目的とする18才以上の方。",
+        "開館時間: 月～金曜 9:00-20:30 土曜 9:00-17:00(変更することがあります)",
+        "休館日: 日曜日・祝日・夏季(8月中旬)・年末年始・蔵書点検期間(3月下旬)",
+        "館外貸出: 可(卒業生3冊2週間、学外者3冊1週間) 身分証明書が必要",
+        "注意事項: 原則として事前連絡は不要(ただし即日利用できない資料あり)",
+        "---【図書館間相互貸借】---",
+        "ILL可(非相殺館は為替のみ)詳細は下記",
+        "http://plaza.umin.ac.jp/~jmla/jmlalink/ill/A3-036.pdf"
+      ]
+    }
+  ]
+}

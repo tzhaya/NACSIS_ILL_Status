@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018586.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018586#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018586.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "尚絅大学 図書館 本館"
+        },
+        {
+          "@value": "ショウケイダイガク トショカン ホンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "尚絅本"
+        },
+        {
+          "@value": "ショウケイホン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA018586",
+      "cinii:organizationid": "KI013824",
+      "cinii:prefcode": "43",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "尚絅大学 図書館 本館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "862-8678",
+        "v:label": "熊本県熊本市中央区九品寺2丁目6-78"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "096-277-1074"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "096-363-2975"
+        }
+      ],
+      "dc:description": [
+        "Shokei University Library",
+        "2-6-78, Kuhonji, Chuou-ku, Kumamoto-city, 862-8678",
+        "URL http://www.shokei-gakuen.ac.jp/univ/library/ (WEB SITE)",
+        "URL http://library.shokei-gakuen.ac.jp/mylimedio/search/search-input.do?mode=comp (OPAC)",
+        "来館利用担当:図書館職員",
+        "電話番号:096-277-1074",
+        "FAX番号:096-363-2975",
+        "Email:sklib-kuho@shokei-gakuen.ac.jp",
+        "受付時間:9:00～19:00(長期休業中などは開館時間の変更あり)",
+        "卒業生、社会人及び尚絅公開講座受講生の利用については図書館ウェブページをご覧ください。",
+        "高等教育コンソーシアム熊本に加盟する機関の学生および教職員はカウンターにて学生証等の身分証の提示のみで利用できます。(閲覧、複写のみ)",
+        "持参書類:学生証、免許証、保険証等の身分証明書",
+        "複写方法・料金:電子複写(モノクロ:1枚10円、カラー:1枚50円)、ILL料金相殺制度には加盟しておりません。複写資料送付の際合計額を同封いたしますので、後日切手にてお支払いください。その他ご不明な点等お問い合わせください。",
+        "複写時間:平日 9:00～19:00",
+        "(ご来館の場合)3冊を限度として1週間。(ILLの場合)1か月、冊数の制限はありません。期限の延長等、ご相談に応じますのでお問い合わせください。",
+        "(ILLの場合)往復分の送料はご負担ください。(往路分については切手にてお支払いください。)",
+        "制限事項:貴重図書の貸出は行わない。",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始、本学の定める休日"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018382.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018382#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018382.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大英博物館 日本美術部門"
+        },
+        {
+          "@value": "British Museum Department of Japanese Antiquities",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "BM/"
+        },
+        {
+          "@value": "BM",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018382",
+      "cinii:organizationid": "KI010735",
+      "cinii:prefcode": "254",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大英博物館 日本美術部門",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "WC1B 3DG",
+        "v:label": "The British Museum, Great Russell Street, London, United Kingdom"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "+44 (0)1603 597511"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "+44 (0)20 7323 8299"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "+44 (0)1603 625011"
+        }
+      ],
+      "dc:description": [
+        "British Museum, Japanese Section",
+        "Great Russell Street, London WC1B 3DG, UK",
+        "ILL-Org:British Museum, Japanese Section",
+        "ILL-Address:Great Russell Street, London",
+        "ILL-ZIP:WC1B 3DG",
+        "ILL-Commun1:Tel:+44 1603 597 511 /FAX:+44 1603 625 011 / E-mail:a.hirano@sainsbury-institute.org"
+      ]
+    }
+  ]
+}

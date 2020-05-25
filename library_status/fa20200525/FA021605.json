@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021605.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021605#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021605.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島文化学園図書館 広島 長束キャンパス図書館"
+        },
+        {
+          "@value": "ヒロシマブンカガクエントショカン ヒロシマ ナガツカキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広文化長束"
+        },
+        {
+          "@value": "ヒロブンカナガツカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA021605",
+      "cinii:organizationid": "KI008325",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "広島文化学園図書館 広島 長束キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "731-0136",
+        "v:label": "広島県広島市安佐南区長束西3-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "050-3535-1380(直通)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "082-239-5171(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-239-2863"
+        }
+      ],
+      "dc:description": [
+        "受付時間:月～金。閉館30分前まで。開館カレンダーをご確認ください。",
+        "持参書類:学生証,教職員証等,身分を証明できるものを携帯してください。",
+        "URL:http://www.hbg.ac.jp/library/libtop.html",
+        "OPAC:https://lib.hbg.ac.jp/opac/"
+      ]
+    }
+  ]
+}

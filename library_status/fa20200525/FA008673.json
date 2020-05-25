@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008673.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008673#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008673.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福山大学 附属図書館 薬学部分館"
+        },
+        {
+          "@value": "フクヤマダイガク フゾクトシヨカン ヤクガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福山大薬"
+        },
+        {
+          "@value": "フクヤマダイヤク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "薬分"
+      ],
+      "cinii:memberid": "FA008673",
+      "cinii:organizationid": "KI004200",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "福山大学 附属図書館 薬学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "729-0292",
+        "v:label": "広島県福山市学園町1番地三蔵"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "084-936-2114"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "084-930-2005"
+        }
+      ],
+      "dc:description": [
+        "FUKUYAMA UNIVERSITY, FACULTY OF PHARMACY AND PHARMACEUTICAL SCIENCES BRANCH LIBRARY",
+        "SANZO 1, GAKUEN-CHO, FUKUYAMA, HIROSHIMA",
+        "HTTP://LIBAXP.FULIB.FUKUYAMA-U.AC.JP/ (WEBSITE)",
+        "HTTP://WWW.FUKUYAMA-U.AC.JP/GAIYO/ACCESS.HTML (MAP)",
+        "閲覧事前連絡 :電話での問い合わせが望ましい。",
+        "閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "閲覧受付時間 :8:30〜19:30(土曜日〜15:00)",
+        "複写受付時間 :8:30〜19:30(土曜日〜15:00)",
+        "館外貸出可否 :可",
+        "閲覧注記 :館外貸出しは来館の上、申請手続きを行い許可を受けること",
+        "休業中開館時間:8:30〜17:00(土曜日〜12:30)",
+        "休館日 :日曜日・国民の祝日・本学開学記念日(5/15)・年末年始・図書の点検その他の理由による臨時休館日。ホームページ「開館案内(カレンダー)」をご参照ください。"
+      ]
+    }
+  ]
+}

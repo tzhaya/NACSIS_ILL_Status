@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024556.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024556#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024556.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "聖園学園短期大学 図書館"
+        },
+        {
+          "@value": "ミソノガクエンタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "聖園短大"
+        },
+        {
+          "@value": "ミソノタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024556",
+      "cinii:organizationid": "KI014871",
+      "cinii:prefcode": "05",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "聖園学園短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "010-0911",
+        "v:label": "秋田市保戸野すわ町1-58"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "018-864-0869"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "018-862-0789"
+        }
+      ],
+      "dc:description": [
+        "University Library",
+        "1-58 Hodonosuwacho, Akita-shi, Akita-ken, 010-0911 Japan",
+        "URL:http://www.misono-jc.ac.jp/",
+        "URL:http://www.misono-jc.ac.jp/liblary.htm",
+        "電話番号:018-864-0869",
+        "FAX番号:018-862-0789",
+        "受付時間:平日 9:00～18:00",
+        "注意事項:来館は事前連絡の事。資料の所在等は事前に確認の事。",
+        "持参書類:身分、住所を証明する物を携行のこと",
+        "複写時間:平日 9:00～17:45",
+        "休館日:土・日曜日、国民の祝日、大学創立記念日ほか諸行事日、夏季、冬季、春季休業日"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007488.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007488#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007488.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "皇學館大学 附属図書館"
+        },
+        {
+          "@value": "コウガッカンダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "皇学大"
+        },
+        {
+          "@value": "コウガクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA007488",
+      "cinii:organizationid": "KI003343",
+      "cinii:prefcode": "24",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "皇學館大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "516-8555",
+        "v:label": "三重県伊勢市神田久志本町1704"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0596-22-6322(ダイヤルイン)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0596-22-6329"
+        }
+      ],
+      "dc:description": [
+        "複写(モノクロ・2色カラー1枚35円、フルカラー1枚50円。決済は相殺サービス規定による。非相殺館は郵便振替。)",
+        "貸借(1機関10冊まで。発送期間を含め貸出は30日間。ゆうメール簡易書留でご返却ください)",
+        "郵便振替 貸出はゆうメール(簡易書留)、郵送料は依頼側で往復負担",
+        "複写・貸借とも、NACSIS-ILLよりお申し込みください(原則)。",
+        "閲覧(メール又はFAXにて事前照会要。来館時は紹介状及び身分証(学生証など)を持参してください)",
+        "Kogakkan University Library",
+        "1704 Kodakujimoto-cho Ise City, Mie Pref., 516-8555 Japan",
+        "URL:http://www.kogakkan-u.ac.jp/html/library/p01.php"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007229.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007229#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007229.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知学院大学 歯学・薬学図書館情報センター"
+        },
+        {
+          "@value": "アイチガクインダイガク シガク・ヤクガクトショカンジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛院大歯"
+        },
+        {
+          "@value": "アイインダイシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "歯薬図"
+      ],
+      "cinii:memberid": "FA007229",
+      "cinii:organizationid": "KI003139",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知学院大学 歯学・薬学図書館情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8650",
+        "v:label": "愛知県名古屋市千種区楠元町1-100"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-751-2561"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-752-6664"
+        }
+      ],
+      "dc:description": [
+        "Aichi Gakuin University Dental and Pharmaceutiacl Library and Information Center",
+        "1-100,Kusumoto-cho,Chikusa-ku,Nagoya  464-8650",
+        "URL:http://www.slib.aichi-gakuin.ac.jp",
+        "来館利用担当:閲覧係",
+        "電話番号:052-751-2561",
+        "受付時間:9:00〜20:00(土曜日 9:00〜12:00)",
+        "注意事項:事前に電話での問い合わせが望ましい",
+        "持参書類:資料利用依頼書または身分証明書",
+        "複写時間:9:00〜20:00 (土曜日 9:00〜12:00)",
+        "館外貸出:不可",
+        "休館日:日曜日,国民の祝日,夏季休業中の土曜日,8/13〜8/15,創立記念式典日,年末年始(12/27-1/6)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004719.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004719#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004719.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "埼玉医科大学 附属図書館"
+        },
+        {
+          "@value": "サイタマイカダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "埼医大"
+        },
+        {
+          "@value": "サイイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "埼医大図",
+        "埼医大川角",
+        "総合医療センター",
+        "日高"
+      ],
+      "cinii:memberid": "FA004719",
+      "cinii:organizationid": "KI001723",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "埼玉医科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "350-0495",
+        "v:label": "埼玉県入間郡毛呂山町大字毛呂本郷38番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "049-276-1416"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "049-295-9071"
+        }
+      ],
+      "dc:description": [
+        "Saitama Medical University Library",
+        "38 Morohongo, Moroyama, Irumagun, Saitama 350-0495"
+      ]
+    }
+  ]
+}

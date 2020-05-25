@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023939.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023939#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023939.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "洛和会音羽病院 図書室"
+        },
+        {
+          "@value": "ラクワカイオトワビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "音羽病"
+        },
+        {
+          "@value": "オトワビョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA023939",
+      "cinii:organizationid": "KI014372",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "洛和会音羽病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "607-8062",
+        "v:label": "京都府京都市山科区音羽珍事町2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-583-2360"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-583-2360"
+        }
+      ],
+      "dc:description": [
+        "Library of Rakuwakai Otowa Hospital",
+        "2 Otowa Chinji-cho Yamashina-ku, Kyoto Kyoto 607-8062 JAPAN",
+        "URL : http://www.rakuwa.or.jp/otowa/library/index.html",
+        "開館時間 : 8:30〜17:00(月〜金)",
+        "休館日 : 土曜日、日曜日、祝日、年末年始(R1.12.28～R2.1.5)、蔵書点検期間(R1.8.14～16)、その他臨時に休館することがあります。",
+        "注意事項 : 現物貸借は不可",
+        "複写方法・料金 : 電子複写(モノクロ1枚50円、カラー1枚100円)",
+        "複写注記 : NACSIS又は近畿病院図書室協議会に加盟されていない機関からの依頼は、当院のみ所蔵の文献に限定させていただきます。事前に電話連絡をお願いいたします。",
+        "複写注記 : 担当者不在で当日処理できない場合があります。速達の場合は、事前に電話でご確認ください。",
+        "複写注記 : モノクロご希望の場合は、コメント欄にご記入ください。特に記載なき場合、カラーでなければ判別が難しい画像等はカラー複写いたします。"
+      ]
+    }
+  ]
+}

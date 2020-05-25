@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003410.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003410#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003410.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高知大学 学術情報基盤図書館 中央館"
+        },
+        {
+          "@value": "コウチダイガク ガクジュツジョウホウキバントショカン チュウオウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高大"
+        },
+        {
+          "@value": "コウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA003410",
+      "cinii:organizationid": "KI000797",
+      "cinii:prefcode": "39",
+      "cinii:mextid": "006700",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "高知大学 学術情報基盤図書館 中央館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "780-8520",
+        "v:label": "高知市曙町2-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-844-8163"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-844-8164"
+        }
+      ],
+      "dc:description": [
+        "Kochi University Library and Information Technology",
+        "2-5-1 Akebonocho Kochi 780-8520",
+        "URL:http://www.lib.kochi-u.ac.jp (website)",
+        "OPAC:https://opac.kochi-u.ac.jp/drupal",
+        "来館利用担当:総務係(総合案内)",
+        "電話番号:088-844-8731",
+        "通常開館時間:8:30〜21:00(土曜日9:00〜21:00 日曜日9:00〜21:00)",
+        "注意事項:事前に資料の所在、利用の可否を確認してください。研究室所蔵のものは利用できません。",
+        "持参書類:身分証明書",
+        "館外貸出:可",
+        "制限事項:貴重図書には、閲覧を許可しないものもある。",
+        "休館日:国民の祝日及び振替休日・年末年始・館長が必要と認めた日",
+        "ILL-Staff:Kuniyoshi,Ogi",
+        "ILL-Dept: Interlibrary Service Section",
+        "ILL-Org:Kochi Univ. Library",
+        "ILL-Address:2-5-1 Akebono-cho, Kochi, JAPAN",
+        "ILL-ZIP:780-8520",
+        "ILL-Commun1:Tel:+81-88-844-8163 / FAX:+81-88-844-8164 / E-mail:kg07@kochi-u.ac.jp",
+        "ILL-Commun2:OPAC:https://opac.kochi-u.ac.jp/drupal/  Home-Page: http://www.lib.kochi-u.ac.jp/library/chuokan/ EPICWIN (e-mail attached) : asacopy@kochi-u.ac.jp",
+        "ILL-Accept:OCLC(NII-OCLC link only):SYMBOL:J4Q/Foreign(2):KERIS",
+        "ILL-Sched:Closed:Dec 28-Jan 4",
+        "ILL-Bill:Foreign(1):OCLC=OCLC-IFM only/Foreign(2):KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period: 4 weeks",
+        "ILL-Loan-Renew:None",
+        "ILL-Loan-Charge:Postage required.",
+        "ILL-Non-Circulation:Special collection, mcrfrm, mcrfch, ref, per, news, a-v",
+        "ILL-Copy-Charge:Foreign:Photocopy:40 YEN per sheet / Postage required / Delivery method:via airmail, Ariel(EPICWIN)",
+        "ILL-Note:Only the items held at the Main Library are available. MCRFRM:N/A; REF:N/A; A-V:N/A / THESIS:Photocopy need the author's permission",
+        "休業中開館時間:8:30〜20:00(土曜日9:00〜20:00 日曜日 9:00〜20:00)",
+        "ILL-OCLC-Symbol:J4Q"
+      ]
+    }
+  ]
+}

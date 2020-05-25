@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015588.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015588#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015588.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名城大学 附属図書館 都市情報学部分館"
+        },
+        {
+          "@value": "メイジヨウダイガク フゾクトシヨカン トシジヨウホウガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名城大都"
+        },
+        {
+          "@value": "メイジヨウダイト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "都"
+      ],
+      "cinii:memberid": "FA015588",
+      "cinii:organizationid": "KI003332",
+      "cinii:prefcode": "21",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "名城大学 附属図書館 都市情報学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "509-0261",
+        "v:label": "岐阜県可児市虹ケ丘4-3-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0574-69-0152"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0574-69-0156"
+        }
+      ],
+      "dc:description": [
+        "Meijo University Urban Science Library",
+        "4-3-3, Nijigaoka, Kani, Gifu 509-0261 JAPAN",
+        "電話番号:0574-69-0152",
+        "受付時間: 9:00 ～ 16:50",
+        "注意事項:電話にて事前連絡をしてください。",
+        "持参参考書類:所属機関の紹介状(学生証・身分証明書も携帯)",
+        "館外貸出:不可"
+      ]
+    }
+  ]
+}

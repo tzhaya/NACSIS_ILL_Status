@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018600.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018600#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018600.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知県医療療育総合センター 発達障害研究所 図書室"
+        },
+        {
+          "@value": "アイチケンイリョウリョウイクソウゴウセンター ハッタツショウガイケンキュウショ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛知発達障害研"
+        },
+        {
+          "@value": "アイチハッタツショウガイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018600",
+      "cinii:organizationid": "KI010881",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知県医療療育総合センター 発達障害研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "480-0392",
+        "v:label": "愛知県春日井市神屋町713-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0568-88-0811"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0568-88-0829"
+        }
+      ],
+      "dc:description": [
+        "Aichi Developmental Disability Center",
+        "713-8 Kagiya-cho, Kasugai, Aichi 480-0392",
+        "文献複写:図書館からの依頼のみ受付。個人からの依頼は受付不可",
+        "文献複写注意事項:受付方法:NACSIS-ILL、E-mail、FAX、郵送 支払方法=切手前納 送付方法=郵送(FAX送信不可) カラーコピー=不可",
+        "E-mail(ILL):library@inst-hsc.jp",
+        "受付時間:9:00-17:00(発送は平日のみ)",
+        "休館日:土曜、日曜、祝日、年末年始"
+      ]
+    }
+  ]
+}

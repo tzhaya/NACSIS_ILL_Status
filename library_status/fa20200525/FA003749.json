@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003749.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003749#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003749.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高崎経済大学 図書館"
+        },
+        {
+          "@value": "タカサキケイザイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高経大"
+        },
+        {
+          "@value": "タカケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "地科研"
+      ],
+      "cinii:memberid": "FA003749",
+      "cinii:organizationid": "KI000990",
+      "cinii:prefcode": "10",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "高崎経済大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "370-0801",
+        "v:label": "高崎市上並榎町1300"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "027-344-6266"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "027-344-5857"
+        }
+      ],
+      "dc:description": [
+        "Takasaki City University of Economic",
+        "1300 Kaminamie, Takasaki, Gunma, Japan, 370-0801"
+      ]
+    }
+  ]
+}

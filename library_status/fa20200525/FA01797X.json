@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01797X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01797X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01797X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "九州大谷短期大学 図書館"
+        },
+        {
+          "@value": "キユウシユウオオタニタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "九州大谷"
+        },
+        {
+          "@value": "キユウシユウオオタニ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA01797X",
+      "cinii:organizationid": "KI010462",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "九州大谷短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "833-0054",
+        "v:label": "福岡県筑後市蔵数495-1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018633.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018633#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018633.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "川崎医療短期大学 附属図書館"
+        },
+        {
+          "@value": "カワサキイリョウタンキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "川医短大"
+        },
+        {
+          "@value": "カワイタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018633",
+      "cinii:organizationid": "KI010917",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "川崎医療短期大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "701-0194",
+        "v:label": "岡山県倉敷市松島316"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-464-1051(図書館直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-463-4339(事務部と共用)"
+        }
+      ],
+      "dc:description": [
+        "利用時間:(平日)9:00〜16:30 (土)9:00〜12:00",
+        "注意事項:医学・医療・福祉・保育関係施設従事者、大学・短大等の教職員及び学生の方はご利用いただけます。",
+        "持参書類:職員証・学生証等所属・身分を証明するものを持参してください。(運転免許証・保険証・パスポートは不可)",
+        "複写時間:(平日)9:00〜16:30 (土)9:00〜12:00",
+        "複写注記 :  複写サービスは、大学については2011年6月より、原則としてNII-ILLシステム参加館からの受付のみに限らせていただきます。",
+        "複写注記 :  白黒のみ(1枚 40円) 支払方法:郵便振込",
+        "貸借注記 :  貸借サービスは、NII-ILLシステム参加館のみに限らせていただきます。",
+        "館外貸出 : 不可",
+        "休館日:日曜日、国民の祝日、年末年始(2019年12月28日〜2020年1月5日)、創立記念日(6月1日)、夏季休館日(不定)",
+        "年末年始の休館に伴い、2019年12月27日10時～2020年1月6日12時の間、ILL受付業務を停止致します。ご了承ください。",
+        "2019年12月19日(木)～12月20日(金)は図書館システムバージョンアップのため、受付を停止いたします。",
+        "ILL-Org:Kawasaki College of Allied Health Professions Library",
+        "ILL-Address316, Matushima, Kurashiki-shi, Okayama, JAPAN",
+        "ILL-ZIP:701-0194",
+        "ILL-Commun1:Tel:+81-086-464-1051/FAX:+81-086-463-4339/E-mail:tanlib@jc.kawasaki-m.ac.jp",
+        "臨床検査科・放射線技術科・医療保育科改組に伴い、一部の資料について利用をお断りさせていただく場合があります。ご了承下さい。2018年9月25日～(約2年間)"
+      ]
+    }
+  ]
+}

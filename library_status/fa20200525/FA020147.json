@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020147.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020147#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020147.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "専修大学 図書館 生田分館"
+        },
+        {
+          "@value": "センシユウダイガク トショカン イクタブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "専大生"
+        },
+        {
+          "@value": "センダイイク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA020147",
+      "cinii:organizationid": "KI002216",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "専修大学 図書館 生田分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "214-8580",
+        "v:label": "神奈川県川崎市多摩区東三田2-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "044-911-7138"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "044-911-7135"
+        }
+      ],
+      "dc:description": [
+        "Senshu University Library Ikuta Branch",
+        "2-1-1 Higashi-Mita, Tama-ku, Kawasaki-shi, Kanagawa, Japan 214-8580",
+        "URL:http://www.senshu-u.ac.jp/libif/index.html",
+        "来館利用担当:生田分館係",
+        "電話番号:044-911-1276",
+        "利用受付時間:9:00〜16:30(平日)、9:00〜11:30(土曜日)",
+        "注意事項:事前に連絡のこと。",
+        "持参書類:資料利用依頼書(紹介状)及び身分を証明するもの。",
+        "複写受付時間:9:00〜16:30(平日)、9:00〜11:30(土曜日)",
+        "館外貸出:否",
+        "休館日:日曜日、祝祭日、夏期休暇中の土曜日・一斉休暇期間、冬期休暇期間、入学試験期間、入学式(4/5)、大学記念日(10/30)、卒業式(3/22)、開館時間の変更及び臨時開館日・休館日は、ホームページで案内。"
+      ]
+    }
+  ]
+}

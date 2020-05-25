@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01711X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01711X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01711X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "釧路短期大学 附属図書館"
+        },
+        {
+          "@value": "クシロタンキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "釧短大"
+        },
+        {
+          "@value": "センタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA01711X",
+      "cinii:organizationid": "KI009703",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "釧路短期大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "085-0814",
+        "v:label": "釧路市緑ヶ岡1丁目10番42号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0154-41-0131"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0154-41-0322"
+        }
+      ],
+      "dc:description": [
+        "Library of Kushiro Junior College",
+        "10-42, 1-chome, Midorigaoka,Kushiro, Hokkaido 085-0814",
+        "URL:http://www.midorigaoka.ac.jp/kushilib/",
+        "来館利用担当:",
+        "電話番号:(0154)41-0131",
+        "受付時間:月〜金曜日 9:00〜18:00 第1・3・5土曜日 9:00〜13:30",
+        "注意事項:詳細は担当者までお問い合わせ下さい。貸出の際には、身分を証明するものが必要となります。",
+        "休館日:日曜日・国民の祝日・創立記念日 (6月20日) 第2・4 土曜日・冬季休暇中"
+      ]
+    }
+  ]
+}

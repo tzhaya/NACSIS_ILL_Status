@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020056.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020056#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020056.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "秋田県立大学 本荘キャンパス 図書・情報センター"
+        },
+        {
+          "@value": "アキタケンリツダイガク ホンジョウキャンパス トショ・ジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "秋県大本"
+        },
+        {
+          "@value": "アキケンダイホン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研"
+      ],
+      "cinii:memberid": "FA020056",
+      "cinii:organizationid": "KI011079",
+      "cinii:prefcode": "05",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "秋田県立大学 本荘キャンパス 図書・情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "015-0055",
+        "v:label": "秋田県由利本荘市土谷字海老ノ口84-4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0184-27-2049"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0184-27-2185"
+        }
+      ],
+      "dc:description": [
+        "通常期開館時間 :8:30-18:00(試験期間は20:00まで)",
+        "休業期開館時間 :8:30-17:00",
+        "URL :http://www.akita-pu.ac.jp/library",
+        "休館日 :土・日・祝日・年末年始(12/29-1/3)・左記を除く偶数月月末 :夏期8/13-15, 蔵書点検8/25-31"
+      ]
+    }
+  ]
+}

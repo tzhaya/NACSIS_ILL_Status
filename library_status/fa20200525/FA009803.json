@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009803.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009803#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009803.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "農業・食品産業技術総合研究機構 野菜花き研究部門 安濃野菜研究拠点図書室"
+        },
+        {
+          "@value": "ノウギョウ・ショクヒンサンギョウギジュツソウゴウケンキュウキコウ ヤサイカキケンキュウブモン アノウヤサイケンキュウキョテントショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "野菜花き安濃"
+        },
+        {
+          "@value": "ヤサイカキアノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "資料"
+      ],
+      "cinii:memberid": "FA009803",
+      "cinii:organizationid": "KI005065",
+      "cinii:prefcode": "24",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "農業・食品産業技術総合研究機構 野菜花き研究部門 安濃野菜研究拠点図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "514-2392",
+        "v:label": "三重県津市安濃町草生360"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "050-3533-3858"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "059-268-1339"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.naro.affrc.go.jp/introduction/library.html",
+        "Institute of Vegetable and Floriculture Science,NARO",
+        "受付時間9:00-12:00,13:00-15:30",
+        "館外貸出:不可",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始(12/28-1/4)",
+        "注意事項:来館者は事前連絡の上、身分証を持参してください。"
+      ]
+    }
+  ]
+}

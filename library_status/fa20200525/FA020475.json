@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020475.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020475#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020475.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山野美容芸術短期大学 図書館"
+        },
+        {
+          "@value": "ヤマノビヨウゲイジユツタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "山野美容"
+        },
+        {
+          "@value": "ヤマノビヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館"
+      ],
+      "cinii:memberid": "FA020475",
+      "cinii:organizationid": "KI012344",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "山野美容芸術短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "192-0396",
+        "v:label": "東京都八王子市鑓水530"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-677-0111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-677-0234"
+        }
+      ],
+      "dc:description": [
+        "学外の方の利用には所属機関または公共図書館発行の紹介状と身分証が必要です。",
+        "OPAC:http://lib.yamano.ac.jp/",
+        "図書館HP:http://www.yamano.ac.jp/about/facilities/library.html"
+      ]
+    }
+  ]
+}

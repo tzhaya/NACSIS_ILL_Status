@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010926.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010926#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010926.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "地方独立行政法人 大阪産業技術研究所 和泉センター図書室"
+        },
+        {
+          "@value": "チホウドクリツギョウセイホウジン オオサカサンギョウギジュツケンキュウショ イズミセンタートショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大阪技術研"
+        },
+        {
+          "@value": "オオサカギジュツケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA010926",
+      "cinii:organizationid": "KI006115",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "地方独立行政法人 大阪産業技術研究所 和泉センター図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "594-1157",
+        "v:label": "大阪府和泉市あゆみ野2-7-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0725-51-2521"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0725-51-2522"
+        }
+      ]
+    }
+  ]
+}

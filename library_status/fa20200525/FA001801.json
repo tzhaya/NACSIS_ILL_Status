@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001801.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001801#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001801.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 大学院法学政治学研究科 附属近代日本法政史料センター (明治新聞雑誌文庫)"
+        },
+        {
+          "@value": "トウキョウダイガク ダイガクインホウガクセイジガクケンキュウカ フゾクキンダイニホンホウセイシリョウセンター メイジシンブンザッシブンコ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大法近セ明治文庫"
+        },
+        {
+          "@value": "トウダイホウキンセメイジブンコ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA001801",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002135",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 大学院法学政治学研究科 附属近代日本法政史料センター (明治新聞雑誌文庫)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-3171"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-0212"
+        }
+      ],
+      "dc:description": [
+        "Center for Modern Japanese Legal and Political Documents(Meiji Shinbun Zasshi Bunko), Graduate School for Law and Politics, University of Tokyo",
+        "7-3-1 Hongo, Bunkyo-ku, Tokyo  113-0033",
+        "URL:http://www.meiji.j.u-tokyo.ac.jp/ (website)",
+        "URL:http://www.meiji.j.u-tokyo.ac.jp/access_contact.html (access)",
+        "館外貸出: 不可",
+        "制限事項: 資料保護のため閲覧を許可しないものがあります。(復刻版、マイクロ資料等がある場合はそちらをご覧いただきます)",
+        "制限事項:資料保護のため通常の電子複写を許可しない場合があります。(写真撮影(業者委託)をお申し込みいただきます。複製物は業者より後日郵送されます)",
+        "注意事項: 新聞は電子複写できません(復刻版を除く)。マイクロフィルムからの複写または写真撮影(共に業者委託)をお申し込みいただきます。年月日、面数、論題(見出し)が一つでも不明確な場合は受けつけませんので、御了承下さい。又、段数がわかる場合は記入をお願い致します。",
+        "注意事項:ILLシステムによる 「マイクロフィルム」及び「リーダープリンター」方式の複写は2007年4月より料金相殺が適用されなくなりました。ILL申込みの際の支払方式についてはお問い合わせ下さい。",
+        "注意事項:リーダープリンター方式(マイクロ資料からの複写)、劣化資料等のマイクロフィルム方式(写真撮影)による複写は、料金が異りますのでご注意下さい。写真撮影による複写は当文庫への直接申込も可能です(業者委託)。詳しくはお問い合わせ下さい。",
+        "注意事項:所蔵雑誌の目次等は「東京大学法学部附属明治新聞雑誌文庫所蔵雑誌目次総覧」(大空社, 1993-1998)を参照してください。(一部掲載のないものもあります)"
+      ]
+    }
+  ]
+}

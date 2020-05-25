@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024895.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024895#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024895.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "千葉県済生会 習志野病院 図書室"
+        },
+        {
+          "@value": "チバケンサイセイカイ ナラシノビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "千葉済"
+        },
+        {
+          "@value": "チバサイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書室"
+      ],
+      "cinii:memberid": "FA024895",
+      "cinii:organizationid": "KI014929",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "千葉県済生会 習志野病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "275-8580",
+        "v:label": "千葉県習志野市泉町1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "047-473-1281"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "047-478-6601(総務課)"
+        }
+      ],
+      "dc:description": [
+        "複写料金:郵送 白黒コピー1枚50円、カラーコピー1枚100円+送料実費。FAX送信(A4のみ)1枚100円(事前にご連絡ください) 。*恩賜財団済生会の病院・施設図書室は一律10円+送料実費。",
+        "カラーページはお申し出のない限り、カラーで複写いたします。",
+        "個人の方は所属機関の図書館を通じてお申込みください。",
+        "決済方法:相殺サービス(2011年10月開始)/相殺サービス非参加館:後納",
+        "相殺非参加館支払方法:銀行振込 (但し、恩賜財団済生会の病院・施設図書室に限り、小額切手も可)",
+        "閲覧:外部の方の閲覧はできません。"
+      ]
+    }
+  ]
+}

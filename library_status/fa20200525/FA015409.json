@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015409.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015409#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015409.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鹿児島純心女子大学 附属図書館"
+        },
+        {
+          "@value": "カゴシマジュンシンジョシダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鹿児島純心女子大"
+        },
+        {
+          "@value": "カゴシマジュンシンジョシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015409",
+      "cinii:organizationid": "KI008507",
+      "cinii:prefcode": "46",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "鹿児島純心女子大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "895-0011",
+        "v:label": "鹿児島県薩摩川内市天辰町2365番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0996-23-5311"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0996-23-5030"
+        }
+      ],
+      "dc:description": [
+        "Kagoshima Immaculate Heart University Library",
+        "2365 Amatatsu-Cho, Satsuma-Sendai-Shi, Kagoshima 895-0011, Japan",
+        "E-mail: veritas@jundai.k-junshin.ac.jp",
+        "URL:http://www.k-junshin.ac.jp/jundai/library/ (website)",
+        "受付時間: 月-金:9:00-18:00, 土10:00-17:00 (通常)",
+        "受付時間: 月-金:9:00-17:00, 土10:00-15:00 (8月、9月、3月)",
+        "休館日:日曜、祝日、創立記念日(12/8)、年末年始、その他臨時休館することもあります。試験期間中(単位認定試験、入学試験等)は学外の方の利用はできません。",
+        "注意事項:学外の方は図書館ホームページの利用案内をご覧になり、大学の受付で入館手続きを済ませたのち図書館へお越し下さい。",
+        "注意事項:書庫の資料の閲覧は学内者に限りますが、ILLでの対応は行っています。"
+      ]
+    }
+  ]
+}

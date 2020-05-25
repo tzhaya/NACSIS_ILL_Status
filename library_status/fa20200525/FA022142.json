@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022142.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022142#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022142.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 公共政策学大学院"
+        },
+        {
+          "@value": "トウキヨウダイガク コウキヨウセイサクガクダイガクイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大公共"
+        },
+        {
+          "@value": "トウダイコウキヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "法図"
+      ],
+      "cinii:memberid": "FA022142",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 公共政策学大学院",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-3137"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-3200"
+        }
+      ],
+      "dc:description": [
+        "館外貸出: 不可",
+        "University of Tokyo. Department of Public Policy",
+        "7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033",
+        "URL:http://www.lib.j.u-tokyo.ac.jp/ (website)",
+        "来館利用担当: 法学部図書閲覧係",
+        "通常開館時間: 9:00〜17:00(月〜金曜日)",
+        "閲覧受付時間: 9:00〜16:30(月〜金曜日) 17時までに退出してください。",
+        "閲覧事前連絡: 事前の確認が望ましい",
+        "閲覧持参書類: 事前照会回答書と身分証明書・学生証",
+        "休館日: 土曜日・日曜日・国民の祝日・年末年始・入学試験日、書架点検日・その他臨時に閉館することあり",
+        "閲覧注記: 書架点検のため月1回(8月を除く)閉館致します。詳しくはホームページをご覧ください。",
+        "注記: 公共政策学大学院の図書(所在が「公共法図」と表示されるもの)は、法学部研究室図書室にあります。",
+        "複写注記: NACSIS-ILLで東京大学法学部(FA011747)にご依頼ください。郵送・FAXでの複写申込は受け付けません。"
+      ]
+    }
+  ]
+}

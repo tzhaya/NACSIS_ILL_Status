@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014530.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014530#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014530.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "ドイツ-日本研究所 図書室"
+        },
+        {
+          "@value": "ドイツ-ニホンケンキユウジヨ トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "ドイツ日本研"
+        },
+        {
+          "@value": "ドイツニホンケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014530",
+      "cinii:organizationid": "KI007730",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "ドイツ-日本研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "102-0094",
+        "v:label": "東京都千代田区紀尾井町7-1 上智紀尾井坂ビル2階"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3222-5273"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3222-5420"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Deutsches Institut fuer Japanstudien (DIJ)",
+        "ILL-Org:German Institute for Japanese Studies (DIJ)",
+        "ILL-Address:Jochi Kioizaka Bldg. 2F., 7-1 Kioicho, Chiyoda-ku,Tokyo, JAPAN",
+        "ILL-ZIP:102-0094",
+        "Commun1:Tel:+81-3-3222-5273 /FAX:+81-3-3222-5420",
+        "E-Mail:dijbibli@dijtokyo.org",
+        "URL:http://www.dijtokyo.org (website)",
+        "URL:http://dijbib.dijtokyo.org (OPAC)",
+        "Plan:http://www.dijtokyo.org/?page=address.php&menu=1",
+        "開室時間:10:00-16:00(月-金)",
+        "対図書館複写サービス:受付可",
+        "図書館間相互貸借:受付可",
+        "館外貸出:不可(貸出はILLのみ受け付けます)",
+        "所蔵番号に「sekr.」と記載されている図書は貴重書です。閲覧のみ可能です。",
+        "貴重書については事前に連絡して下さい。",
+        "休館日:土・日曜及び祝日、復活祭、クリスマス、年末年始",
+        "当面の間、閲覧室の利用を休止いたします。",
+        "2012年11月1日から図書室の利用は予約制になりました。メールか電話で事前にお知らせ下さい。",
+        "2006年8月末に千代田区紀尾井町7-1上智紀尾井坂ビルに移転いたしました。ビルは上智大学の構内にありますが、研究所への入口は紀尾井坂下からのみとなりますので、分かりにくい時には電話でお問合せ下さい。"
+      ]
+    }
+  ]
+}

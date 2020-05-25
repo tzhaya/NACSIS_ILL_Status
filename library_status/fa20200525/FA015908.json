@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015908.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015908#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015908.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 国際交流基金 ライブラリー"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジン コクサイコウリュウキキン ライブラリー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "JF-本部"
+        },
+        {
+          "@value": "JF-ホンブ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015908",
+      "cinii:organizationid": "KI008700",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "独立行政法人 国際交流基金 ライブラリー",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "160-0004",
+        "v:label": "東京都新宿区四ツ谷4-4-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5369-6086"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5369-6048"
+        }
+      ],
+      "dc:description": [
+        "★ 2019年12月27日から2020年7月中旬(予定)まで休館。休館中は複写/貸借サービスを含む全ての利用者サービス受付不可 ★",
+        "The Japan Foundation Library",
+        "4-4-1, Yotsuya, Shinjuku-ku, Tokyo 160-0004",
+        "URL:http://lib-opac.jpf.go.jp/mylimedio/search/search-input.do",
+        "URL:http://lib-opac.jpf.go.jp/mylimedio/search/search-input.do?lang=en (English)",
+        "電話番号:03-5369-6086/FAX: 03-5369-6048/E-mail: Lib@jpf.go.jp",
+        "受付時間:月〜金 10:00〜19:00",
+        "注意事項:図書館の利用はどなたでもできます。なお、貸出しについては限定していますので、詳細はお問い合わせ下さい。",
+        "複写時間:月〜金 10:00〜19:00",
+        "館外貸出:限定可",
+        "制限事項:貴重書には複写を許可しないものがあります。",
+        "休館日:土曜日、日曜日、国民の祝日、月末最終日、年末年始",
+        "ILL-Org: The Japan Foundation Library",
+        "ILL-Address: 4-4-1, Yotsuya, Shinjuku-ku, Tokyo 160-0004 Japan",
+        "Commun1: Tel: 81-3-5369-6086/FAX: 81-3-5369-6048/E-mail: Lib@jpf.go.jp"
+      ]
+    }
+  ]
+}

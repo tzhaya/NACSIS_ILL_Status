@@ -1,0 +1,130 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002611.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002611#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002611.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 附属図書館"
+        },
+        {
+          "@value": "キョウトダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大"
+        },
+        {
+          "@value": "キョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "環境科学",
+        "保管",
+        "同位元セ",
+        "体育セ",
+        "埋蔵文化",
+        "保診",
+        "財務部",
+        "施設部",
+        "学生部",
+        "BNC",
+        "文",
+        "教",
+        "総博",
+        "産官学セ"
+      ],
+      "cinii:memberid": "FA002611",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004800",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "京都大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8501",
+        "v:label": "京都市左京区吉田本町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-753-2638(依頼)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "075-753-2654(受付)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-753-2650"
+        }
+      ],
+      "dc:description": [
+        "Kyoto University Library",
+        "Yoshida Honmachi, Sakyo-ku, Kyoto 606-8501",
+        "URL:http://www.kulib.kyoto-u.ac.jp/ (website)",
+        "URL:http://www.kulib.kyoto-u.ac.jp/mainlib/contact/index#map (map)",
+        "利用者の範囲:図書館資料の閲覧、検索、複写等を希望される方",
+        "来館利用担当:資料サービス掛",
+        "電話番号:075-753-2632",
+        "受付時間:平日 9:00-22:00 (土曜日・日曜日は10:00-19:00)",
+        "注意事項:利用希望の資料はあらかじめ所蔵調査をお願いします",
+        "車での来館はご遠慮ください",
+        "持参書類:身分証明書(写真付きが望ましい)",
+        "複写時間:平日 9:00-16:45",
+        "館外貸出:不可",
+        "制限事項:貴重書は事前予約制(担当:資料サービス掛(特殊資料担当) TEL: 075-753-2640)",
+        "休館日:年末年始(12月28日～1月5日)、臨時休館。事前にホームページでお確かめください。",
+        "ILL-Staff:International:SAKAMOTO Taku",
+        "ILL-Dept: User Support  Section",
+        "ILL-Org:Kyoto University Library",
+        "ILL-Address:Yoshida Honmachi, Sakyo-ku, Kyoto, Japan",
+        "ILL-Zip:606-8501",
+        "ILL-Contact1:Tel:+81-75-753-2638 / Fax:+81-75-753-2650 / E-mail:sogo660@mail2.adm.kyoto-u.ac.jp",
+        "ILL-Contact2:Online catalogue:http://kuline.kulib.kyoto-u.ac.jp/?page_id=13&lang=english / / Website:http://www.kulib.kyoto-u.ac.jp/mainlib/en/",
+        "ILL-Accept:Calender: Closed: Dec29-Jan3, Jun18",
+        "ILL-Accept:International: LOAN: Yes(Traceable courier with insurance only)",
+        "ILL-Accept:International: COPY: Yes",
+        "ILL-Accept-method:International:E-mail",
+        "ILL-Accept-method:Korea: KERIS=NII ILL linkage (COPY only)",
+        "ILL-Payment-method:International:IFLA Voucher ONLY",
+        "ILL-Payment-method:Korea: KERIS=NII Fee Management service",
+        "ILL-Loan-Period:International:4 weeks per item",
+        "ILL-Loan-Item-Max:5 volumes per library / 3 volumes per one order",
+        "ILL-Loan-Renewal:one time / 2 weeks",
+        "ILL-Loan-Charge:Borrowing libraries should pay the postage costs of both borrowing materials from and returning them to us by registered mail.",
+        "ILL-Loan-Delivery-method:Tracked system",
+        "ILL-Non-Circulation-items:Rare and precious materials, old Japanese books, large-sized books, maps, reference books, periodicals, Books in deteriorated condition, microfilms, microfiches, books published before 1900",
+        "ILL-Copy-Charge:40 JPY per sheet [per exposure] and Postage",
+        "ILL-Copy-Delivery-method:Airmail, E-mail",
+        "ILL-Note:Only the items held at the Main Library and those entrusted to it to lend by the Departmental Libraries are available for loan / Dissertation: COPY: author's permission required"
+      ]
+    }
+  ]
+}

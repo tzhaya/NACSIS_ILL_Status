@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017459.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017459#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017459.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "プール学院短期大学 図書館"
+        },
+        {
+          "@value": "プールガクインタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "プール短大"
+        },
+        {
+          "@value": "プールタンダイトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017459",
+      "cinii:organizationid": "KI010043",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "プール学院短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "590-0114",
+        "v:label": "大阪府堺市南区槇塚台4-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-296-8306"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-296-8306"
+        }
+      ]
+    }
+  ]
+}

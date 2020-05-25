@@ -1,0 +1,121 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005198.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005198#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005198.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "慶應義塾大学 三田メディアセンター"
+        },
+        {
+          "@value": "ケイオウギジユクダイガク ミタメデイアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "慶大三"
+        },
+        {
+          "@value": "ケイダイミタ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005198",
+      "cinii:organizationid": "KI002001",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "慶應義塾大学 三田メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "108-8345",
+        "v:label": "東京都港区三田2-15-45"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5427-1657"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5484-7780"
+        }
+      ],
+      "dc:description": [
+        "1999年以前にNACSIS-CATに登録していた慶應義塾大学メディアセンターの図書の所蔵情報は削除いたしました。(2014.11) 最新の所蔵状況はOPAC (KOSMOS)でご確認ください。",
+        "",
+        "",
+        "URL: https://www.lib.keio.ac.jp/mita/index.html (Website)",
+        "URL: https://search.lib.keio.ac.jp (OPAC (KOSMOS))",
+        "URL: https://www.lib.keio.ac.jp/mita/index.html (Calendar)",
+        "■来館利用について :要事前問合せ",
+        "□OPAC (KOSMOS)に収録されており、請求記号が確認できる図書資料",
+        "→閲覧担当 Fax.03-5484-7780",
+        "□雑誌の所蔵確認、OPAC(KOSMOS)に収録されていない資料",
+        "→レファレンス担当 Fax.03-5427-1665",
+        "□貴重書",
+        "→スペシャルコレクション担当 Fax.03-5427-1474",
+        "■来館利用対象者 :大学学部生以上",
+        "■来館利用時持参書類 :(1)所属機関の図書館または公共図書館発行の紹介状(利用資料名を明記) (2)身分証明書(所属機関発行の身分証、保険証、免許証等。学生は学生証) (3)事前問合せに対する当方の回答書",
+        "■館外貸出可否 :否",
+        "■来館利用注記(1) :必ず事前に所属機関の図書館・公共図書館を通して資料の所在・利用可否等を確認のこと。",
+        "■来館利用注記(2) :遠隔書庫配架資料は事前に出納が必要なため、日程に余裕をもって問合せのこと。",
+        "■来館利用注記(3) :研究室配架資料は利用不可。",
+        "■来館利用注記(4) :複写は資料によって制限あり。",
+        "■授業期間中開館時間:平日8:45-22:00 土曜日8:45-18:00",
+        "■休業期間中開館時間:平日8:45-20:00 土曜日8:45-18:00",
+        "来館利用受付は閉館30分前まで",
+        "複写機の利用は閉館10分前まで",
+        "■休館日:日曜日、国民の祝日、本学の記念日(4/23、1/10)、夏季・冬季休業中の一定期間、三田祭期間(11月下旬)、入試・蔵書点検時(2月中旬〜下旬)",
+        "【お知らせ】入試のため、2月7日(金)13時から2月25日(月)9時までの間、複写・現物に受入を停止させていただきます。",
+        "ILL-Org:Keio University Mita Media Center",
+        "ILL-Address:2-15-45, Mita, Minato-ku, Tokyo, JAPAN",
+        "ILL-Zip:108-8345",
+        "ILL-Dept:Interlibrary Loan Services",
+        "ILL-Commun1:Fax:+81-35484-7780",
+        "ILL-Commun2:E-mail:mmc-ill-group@keio.jp",
+        "URL: https://www.lib.keio.ac.jp/en/mita/index.html (Website)",
+        "URL:https://search.lib.keio.ac.jp (OPAC (KOSMOS))",
+        "ILL-Accept:Foreign(1):GIF-KERIS (Korea/Japan) ILL ID:FA005198",
+        "ILL-Accept:Foreign(2):(OCLC ILL SERVICE) SYMBOL:KEI",
+        "ILL-Accept:Foreign(3):Airmail, E-mail, Faxmile",
+        "ILL-Sched:Closed:Dec.28-Jan.5, Feb.10-25, Aug.10-17",
+        "ILL-Bill:Foreign(1): KERIS=NII Fee Management Service:Yes",
+        "ILL-Bill:Foreign(2): Foreign : OCLC-IFM :Yes",
+        "ILL-Bill:Foreign(3): IFLA Voucher :Yes",
+        "ILL-Loan-Period:1 month per item/up to 3 items per library",
+        "ILL-Loan-Renew:None",
+        "ILL-Loan-Charge:Foreign(2):20IFM per volume",
+        "ILL-Loan-Charge:Foreign(3):2IFLA or 14IRC",
+        "ILL-Non-Circulation: We can lend books with call number beginning with “A",
+        "ILL-Note:Delivery method:via airmail",
+        "ILL-Note:No rush service available",
+        "ILL-Note:Materials need to be used inside the libraries",
+        "ILL-Note:When you send back materials, please use the registered mail",
+        "【Notice】Copy fee will change from March"
+      ]
+    }
+  ]
+}

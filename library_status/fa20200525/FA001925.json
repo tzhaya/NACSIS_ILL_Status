@@ -1,0 +1,164 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001925.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001925#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001925.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京芸術大学 附属図書館"
+        },
+        {
+          "@value": "トウキョウゲイジュツダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東芸大"
+        },
+        {
+          "@value": "トウゲイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "音文芸",
+        "総務課",
+        "会計課",
+        "施設課",
+        "学生課",
+        "美事務",
+        "音事務",
+        "保健セ",
+        "日本画",
+        "油画",
+        "版画",
+        "油技材",
+        "彫刻",
+        "彫金",
+        "鍛金",
+        "鋳金",
+        "漆芸",
+        "陶芸",
+        "染織",
+        "音響研",
+        "映像",
+        "建築",
+        "芸術学",
+        "美学",
+        "美教育",
+        "美解剖",
+        "歴史",
+        "図学",
+        "色彩",
+        "芸基礎",
+        "体育",
+        "写真セ",
+        "古美研",
+        "作曲",
+        "声楽",
+        "オペラ",
+        "ピアノ",
+        "オルガ",
+        "弦楽",
+        "管打",
+        "室内楽",
+        "指揮",
+        "楽理",
+        "音教育",
+        "ソルフ",
+        "邦楽",
+        "一般英",
+        "一般独",
+        "一般仏",
+        "一般伊",
+        "一般国",
+        "日本語",
+        "オケ",
+        "音研セ",
+        "附属高",
+        "小泉室",
+        "音トレ",
+        "デザイン",
+        "保存修",
+        "保存科",
+        "保存シ",
+        "美術館",
+        "演奏セ",
+        "応用音",
+        "言語芸",
+        "古楽",
+        "芸西洋",
+        "芸日東",
+        "芸工芸",
+        "芸情セ",
+        "音環境",
+        "リサーチ(美術)",
+        "リサーチ(音楽)",
+        "リエゾンセンター",
+        "編纂室",
+        "研究室"
+      ],
+      "cinii:memberid": "FA001925",
+      "cinii:organizationid": "KI000276",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京芸術大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "110-8714",
+        "v:label": "東京都台東区上野公園12-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "050-5525-2429(IP電話)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3828-8298(NTT回線)"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Geijutsu Daigaku",
+        "12-8, Ueno Koen, Taito-ku, Tokyo 110-8714 JAPAN",
+        "URL:http://www.lib.geidai.ac.jp/ (website)",
+        "URL:https://www.geidai.ac.jp/access/ueno (map)",
+        "来館利用担当:資料サービス係",
+        "電話:050-5525-2428(IP電話)",
+        "FAX:03-3828-8298",
+        "受付時間:9:00-17:00(平日)",
+        "学外者の事前連絡:閉架の資料は事前にFAXでの連絡が望ましい。",
+        "必要書類:長期利用希望の方は身分証明書",
+        "複写受付時間:9:00-12:30,13:30-15:30(平日)",
+        "学外者の貸出:不可",
+        "休館日:日祝日,年末年始,本学開学記念日(10/4),8月休業中の1週間・3月入試期間中の14日間(ホームページの開館スケジュール参照)",
+        "注意事項:来館前にホームページの「学外者用利用案内」を参照のこと。貴重資料はマイクロ形態資料で閲覧・複写。所蔵場所が「東芸大図」以外の資料は利用制限有り"
+      ]
+    }
+  ]
+}

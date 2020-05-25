@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022641.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022641#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022641.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "前橋工科大学 附属図書館"
+        },
+        {
+          "@value": "マエバシコウカダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "前工大"
+        },
+        {
+          "@value": "マエコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA022641",
+      "cinii:organizationid": "KI013482",
+      "cinii:prefcode": "10",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "前橋工科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "371-0816",
+        "v:label": "前橋市上佐鳥町460-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "027-265-0112"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "027-265-1963"
+        }
+      ],
+      "dc:description": [
+        "Maebashi Institute of Technology Library",
+        "460-1, Kamisatori-machi, Maebashi-shi, Gunma 371-0816",
+        "URL:http://www.maebashi-it.ac.jp/cms/library/",
+        "来館利用担当:図書館窓口",
+        "通常開館時間: 9:00-22:30(月-金), 9:30-18:00(土)",
+        "休業中開館時間: 9:00-17:00(月-金), 土曜休館",
+        "持参書類:氏名・住所及び勤務先・学校等を確認できる書類(運転免許証等)",
+        "複写時間:閉館時間の15分前までに複写申込を済ませてください。",
+        "館外貸出:可(但し、群馬県内に居住・勤務する方及び群馬県内の大学・短大・専門学校等に在学する方に限ります)",
+        "休館日:日曜日・祝日(授業日は開館)・蔵書整理期間・年末年始・入学試験日。※詳しくはHPをご確認ください。",
+        "制限事項:学内専用図書は学外の方には貸出できません。書庫への立ち入りはできませんので、書庫の資料をご利用の際は、窓口にお申し出ください。"
+      ]
+    }
+  ]
+}

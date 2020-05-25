@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001991.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001991#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001991.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "電気通信大学 附属図書館"
+        },
+        {
+          "@value": "デンキツウシンダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "電通大"
+        },
+        {
+          "@value": "デンツウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "開架",
+        "図庫",
+        "参考",
+        "研"
+      ],
+      "cinii:memberid": "FA001991",
+      "cinii:organizationid": "KI000323",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "003200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "電気通信大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "182-8585",
+        "v:label": "東京都調布市調布ケ丘1-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-443-5129"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-484-3554"
+        }
+      ],
+      "dc:description": [
+        "レファレンス担当係 :学術情報サービス係",
+        "閲覧事前連絡 :事前にFAXにて資料の所在、利用の可否を確認することが望ましい",
+        "学外の方は研究室所蔵の資料は利用できません",
+        "閲覧受付時間 :9:00-21:00(土曜日は10:00-16:30)",
+        "複写受付時間 :9:00-21:00(土曜日は10:00-16:30)",
+        "館外貸出可否 :不可",
+        "通常開館時間 :9:00-21:30(土曜日は10:00-17:00)",
+        "休業中開館時間 :9:00-17:00",
+        "休館日 :日曜日・国民の祝日・年末年始・創立記念日(12/8)・蔵書点検日・館内整理日(原則として毎月最終水曜日)・休業期間中の土曜日",
+        "ILL-Dept:Reference & ILL Sec.",
+        "ILL-Org:The University of Electro-Communications Library",
+        "ILL-Address:1-5-1 Chofugaoka, Chofu-shi, Tokyo, JAPAN",
+        "ILL-ZIP:182-8585",
+        "ILL-Commun1:FAX:+81-42-484-3554/E-mail:jservice-k@office.uec.ac.jp",
+        "ILL-Commun2:HP:http://www.lib.uec.ac.jp/",
+        "ILL-Accept:OCLC(NII-OCLC ISO ILL Link only):YV$",
+        "ILL-Sched:Close:Dec 28-Jan 4",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Loan-Period:Loan N/A",
+        "ILL-Loan-Renew:Loan N/A",
+        "ILL-Loan-Charge:Loan N/A",
+        "ILL-Non-Circulation:Loan N/A",
+        "ILL-Copy-Charge:43 yen/sheet. Postage required.",
+        "ILL-Note:Will supply only photocopies. Only the items held at the main library are available",
+        "ILL-Note:DIS/Thesis:Photocopy N/A",
+        "ILL-OCLC-Symbol:YV$"
+      ]
+    }
+  ]
+}

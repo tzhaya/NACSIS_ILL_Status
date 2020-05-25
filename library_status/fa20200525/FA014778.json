@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014778.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014778#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014778.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名桜大学 附属図書館"
+        },
+        {
+          "@value": "メイオウダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名桜大"
+        },
+        {
+          "@value": "メイオウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014778",
+      "cinii:organizationid": "KI007901",
+      "cinii:prefcode": "47",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名桜大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "905-8585",
+        "v:label": "沖縄県名護市字為又1220-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0980-51-1062"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0980-51-1065"
+        }
+      ],
+      "dc:description": [
+        "複写担当係: 情報サービス係",
+        "複写受付可否: 可",
+        "複写受付窓口: 情報サービス係",
+        "FAX受付可否: 可",
+        "複写方法・料金: 電子複写・モノクロ: 30円/1枚  カラー: 60円/1枚",
+        "決済方法: NII料金相殺。相殺未加入館は切手にて(額面指定あり)。",
+        "支払方法:",
+        "振込先:",
+        "複写注記:",
+        "貸借担当係: 情報サービス係",
+        "貸借受付可否: 可",
+        "貸借受付窓口: 情報サービス係",
+        "貸出期間: 30日",
+        "貸出冊数: 2冊以内",
+        "貸借注記: 図書のみ(禁帯出図書を除く) 依頼館送料負担",
+        "閲覧担当係: 情報サービス係",
+        "閲覧対象者: 教職員・学生・一般利用者(閲覧・複写)",
+        "閲覧事前連絡: 不要",
+        "閲覧持参書類: 不要",
+        "閲覧受付時間:  8:45から22:00(土曜日12:00から18:00)",
+        "複写受付時間:  8:45から22:00(土曜日12:00から18:00)",
+        "館外貸出可否: 可(沖縄県内在住者のみ。顔写真3cm×2.5cmおよび県内の現住所を証明できる身分証を持参の事)",
+        "閲覧注記:",
+        "通常開館時間: 8:45から22:00(土曜日12:00から18:00)",
+        "休業中開館時間: 8:45から17:00(土曜日12:00から18:00)",
+        "休館日: 日曜日・国民の祝日・開学記念日(12/21)・夏季一斉休業・年末年始・整理期間",
+        "臨時休館(2020/04/24～05/06)この期間中はILLサービスを停止いたします。"
+      ]
+    }
+  ]
+}

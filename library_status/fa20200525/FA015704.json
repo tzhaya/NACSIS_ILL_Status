@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015704.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015704#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015704.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "聖隷クリストファー大学 図書館"
+        },
+        {
+          "@value": "セイレイクリストファーダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "聖隷ク大"
+        },
+        {
+          "@value": "セイレイクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA015704",
+      "cinii:organizationid": "KI008471",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "聖隷クリストファー大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "433-8558",
+        "v:label": "静岡県浜松市北区三方原町3453"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "053-439-1416"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "053-414-1146"
+        }
+      ],
+      "dc:description": [
+        "Seirei Christopher University Library",
+        "3453, Mikatahara-cho, Hamamatsu-shi, Shizuoka pref. 433-8558",
+        "URL:http://collib.seirei.ac.jp/",
+        "電話番号:053-439-1416",
+        "利用受付時間:平日 8:30-17:30 土曜日 9:00-17:30",
+        "注意事項:資料の所在、開館日等、事前確認をしてください。",
+        "持参書類:資料利用依頼書 (身分を証明する物を携行のこと)",
+        "複写受付時間:平日 9:00-17:30 土曜日 10:00-17:30",
+        "館外貸出:不可",
+        "休館日:創立記念日(5月1日)、入学式、学位記授与式、入試期間ほか大学が定める休日",
+        "ILL料金相殺利用",
+        "他大学発行の研究紀要等に関する文献複写につきましてはご遠慮ください。",
+        "複写料金(モノクロ) 50円/枚",
+        "複写料金(カラー) 70円/枚",
+        "2008年6月1日より複写料金を改定いたしました。",
+        "ゆうメールにて発送しております。速達には対応しておりませんのでご了承ください。",
+        "文献のサイズ変更には対応しておりません。",
+        "都合によりサービスを休止することがあります。",
+        "2015年8月7日(金)～2015年8月30日(日)はシステム入替のため受付を停止します。"
+      ]
+    }
+  ]
+}

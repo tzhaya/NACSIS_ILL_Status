@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023746.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023746#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023746.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "社会福祉法人 恩賜財団 済生会 横浜市東部病院"
+        },
+        {
+          "@value": "シャカイフクシホウジン オンシザイダン サイセイカイ ヨコハマシトウブビョウイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "済生会横浜市東部"
+        },
+        {
+          "@value": "サイセイカイヨコハマシトウブ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書室",
+        "情報コーナー",
+        "各科"
+      ],
+      "cinii:memberid": "FA023746",
+      "cinii:organizationid": "KI014248",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "社会福祉法人 恩賜財団 済生会 横浜市東部病院",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "230-8765",
+        "v:label": "神奈川県横浜市鶴見区下末吉3-6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-576-3000"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-576-3552"
+        }
+      ],
+      "dc:description": [
+        "Saiseikai Yokohamashi Tobu Hospital",
+        "3-6-1,Shimosueyoshi,Tsurumi-ku,Yokohama-shi,Kanagawa,Japan 230-8765",
+        "複写受付:8:30-17:00(発送は平日のみ、速達未対応)",
+        "複写料金:1枚50円(カラー1枚100円)",
+        "相殺サービス不参加です。料金は郵便振込(後納)にてお支払ください。",
+        "注意事項:一般の方、個人での利用はできません。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003079.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003079#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003079.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "奈良教育大学 図書館"
+        },
+        {
+          "@value": "ナラキョウイクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "奈教大"
+        },
+        {
+          "@value": "ナキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003079",
+      "cinii:organizationid": "KI000651",
+      "cinii:prefcode": "29",
+      "cinii:mextid": "005600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "奈良教育大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "630-8528",
+        "v:label": "奈良県奈良市高畑町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0742-27-9137"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0742-27-9147"
+        }
+      ],
+      "dc:description": [
+        "Nara University of Education Library",
+        "Takabatakecho, Nara City, Nara 630-8528",
+        "URL:https://libwww.nara-edu.ac.jp/drupal/"
+      ]
+    }
+  ]
+}

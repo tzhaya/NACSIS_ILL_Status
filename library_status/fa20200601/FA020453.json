@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020453.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020453#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020453.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 北方生物圏フィールド科学センター"
+        },
+        {
+          "@value": "ホッカイドウダイガク ホッポウセイブツケンフィールドカガクセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大北方生物圏"
+        },
+        {
+          "@value": "ホクダイホッポウセイブツケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研究室",
+        "植物園"
+      ],
+      "cinii:memberid": "FA020453",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000119",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北海道大学 北方生物圏フィールド科学センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-0811",
+        "v:label": "札幌市北区北11条西10丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-706-3908"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-706-4945"
+        }
+      ],
+      "dc:description": [
+        "注意事項: 資料の閲覧,文献複写,現物貸借のお申し込みには応じることができません。どうぞご了承ください。"
+      ]
+    }
+  ]
+}

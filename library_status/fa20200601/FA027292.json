@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027292.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027292#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027292.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 ジェンダー・リサーチ・ライブラリ"
+        },
+        {
+          "@value": "ナゴヤダイガク ジェンダー・リサーチ・ライブラリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大GRL"
+        },
+        {
+          "@value": "メイダイGRL",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "GRL"
+      ],
+      "cinii:memberid": "FA027292",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋大学 ジェンダー・リサーチ・ライブラリ",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8601",
+        "v:label": "名古屋市千種区不老町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-747-6981火-土9-16時"
+        }
+      ],
+      "dc:description": [
+        "Gender Research Library, Nagoya University",
+        "Furo-cho, Chikusa-ku, Nagoya, Aichi JAPAN 464-8601",
+        "電話番号: 052-747-6981",
+        "開室時間: 火・水・木・土10:00-17:00 金10:00-20:00",
+        "休室日: 日・月曜日,国民の祝日,年末年始",
+        "*********"
+      ]
+    }
+  ]
+}

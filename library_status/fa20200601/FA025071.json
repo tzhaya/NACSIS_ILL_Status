@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA025071.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA025071#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA025071.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宇部フロンティア大学 短期大学部 図書館"
+        },
+        {
+          "@value": "ウベフロンティアダイガク タンキダイガクブ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宇フ短大部"
+        },
+        {
+          "@value": "ウフタンダイブ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA025071",
+      "cinii:organizationid": "KI015036",
+      "cinii:prefcode": "35",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "宇部フロンティア大学 短期大学部 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "755-8850",
+        "v:label": "山口県宇部市文京町5-40"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0836-35-9519"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0836-34-6595"
+        }
+      ],
+      "dc:description": [
+        "ご利用については、大学図書館へお問い合わせください。0836-38-0524",
+        "短大図書館内で、閲覧・貸出はできません。"
+      ]
+    }
+  ]
+}

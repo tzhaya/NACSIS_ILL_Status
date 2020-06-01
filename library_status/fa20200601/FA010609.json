@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010609.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010609#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010609.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 情報通信研究機構 図書室"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジン ジョウホウツウシンケンキュウキコウ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "情報通研"
+        },
+        {
+          "@value": "ジョウホウツウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA010609",
+      "cinii:organizationid": "KI005815",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "独立行政法人 情報通信研究機構 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "184-8795",
+        "v:label": "東京都小金井市貫井北町4-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-327-6882"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-327-7603"
+        }
+      ]
+    }
+  ]
+}

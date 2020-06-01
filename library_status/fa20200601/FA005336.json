@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005336.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005336#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005336.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "順天堂大学 学術メディアセンター"
+        },
+        {
+          "@value": "ジュンテンドウダイガク ガクジュツメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "順大"
+        },
+        {
+          "@value": "ジュンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館"
+      ],
+      "cinii:memberid": "FA005336",
+      "cinii:organizationid": "KI002089",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "N",
+      "v:fn": "順天堂大学 学術メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-8421",
+        "v:label": "東京都文京区本郷2-1-1 センチュリータワー9階"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5802-1123"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3814-9300"
+        }
+      ],
+      "dc:description": [
+        "≪大学図書館・病院図書室のILLご担当の方へ≫",
+        "【重要】新型コロナウィルス感染拡大防止のためのサービス縮小について(2020.04.08更新)",
+        "当館では、新型コロナウィルス感染拡大防止のための非常事態宣言を受け、下記のとおり運用を変更しております。",
+        "当面、最小限のスタッフでの対応となります。皆様にはご不便をお掛けし申し訳ございませんが、ご理解いただきますようお願い致します。",
+        "[複写]通常より発送までにお時間を要する場合があります。また、場合によって一時的に受付を休止することがあります。",
+        "[貸借]休止とさせていただきます。",
+        "[来館利用(閲覧)]学外からの来館利用はすべて休止とさせていただきます。",
+        "Juntendo University Academic Media Center",
+        "2-1-1 Hongo, Bunkyo-ku Tokyo"
+      ]
+    }
+  ]
+}

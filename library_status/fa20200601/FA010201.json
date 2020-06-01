@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010201.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010201#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010201.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 森林研究・整備機構 森林総合研究所 東北支所"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン シンリンケンキュウ・セイビキコウ シンリンソウゴウケンキュウショ トウホクシショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "森林総研東北"
+        },
+        {
+          "@value": "シンリンソウケントウホク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010201",
+      "cinii:organizationid": "KI005462",
+      "cinii:prefcode": "03",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 森林研究・整備機構 森林総合研究所 東北支所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "020-0123",
+        "v:label": "岩手県盛岡市下厨川字鍋屋敷92-25"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "019-641-2150"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "019-641-6747"
+        }
+      ],
+      "dc:description": [
+        "Tohoku Research Center Forestry and Forest Products Research Institute",
+        "92-25, Shimokuriyagawa Nabeyashiki, Morioka City, Iwate Pref. 020-0123"
+      ]
+    }
+  ]
+}

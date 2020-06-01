@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006623.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006623#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006623.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "武蔵大学 図書館"
+        },
+        {
+          "@value": "ムサシダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "武蔵大"
+        },
+        {
+          "@value": "ムサシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006623",
+      "cinii:organizationid": "KI002668",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "武蔵大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "176-8534",
+        "v:label": "東京都練馬区豊玉上1-26-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5984-3719"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5984-3875"
+        }
+      ],
+      "dc:description": [
+        "Musashi University Library",
+        "1-26-1, Toyotama-kami, Nerima-ku, Tokyo 176-8534",
+        "URL:http://www.musashi.ac.jp/library (website)",
+        "来館利用担当:レファレンス担当",
+        "電話番号:03-5984-3719",
+        "受付時間 月-金 9:00〜16:30 土曜 9:00〜12:30(夏季休館)",
+        "注意事項:資料の所在等,確認をしてからお越し下さい。 学外者の方は必ず所属機関もしくは最寄りの公共図書館を通してお問い合わせ下さい。",
+        "持参書類:所属機関発行の紹介状、身分証明書",
+        "複写時間:通常:月-金 9:00〜20:30 土曜 9:00〜17:30、休業中(夏季・春季) 9:00〜17:30",
+        "館外貸出:不可",
+        "制限事項:貴重図書には閲覧を許可しないものがある。",
+        "休館日:日曜,祝日,冬季休業期間,夏季休業中の土曜,入試期間,蔵書点検期間,年度末館内整備期間,その他別に定められた日"
+      ]
+    }
+  ]
+}

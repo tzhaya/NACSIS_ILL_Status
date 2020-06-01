@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027033.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027033#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027033.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "昭和大学 藤が丘病院 図書室"
+        },
+        {
+          "@value": "ショウワダイガク フジガオカビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "昭和大藤"
+        },
+        {
+          "@value": "ショウワダイフジ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027033",
+      "cinii:organizationid": "KI002103",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "昭和大学 藤が丘病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "227-8501",
+        "v:label": "神奈川県横浜市青葉区藤が丘1-30"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-974-6299"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-974-6687"
+        }
+      ]
+    }
+  ]
+}

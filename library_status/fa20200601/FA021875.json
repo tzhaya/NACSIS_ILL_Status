@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021875.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021875#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021875.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "群馬パース大学 附属図書館"
+        },
+        {
+          "@value": "グンマパースダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "群馬パ大"
+        },
+        {
+          "@value": "グンマパダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "分"
+      ],
+      "cinii:memberid": "FA021875",
+      "cinii:organizationid": "KI013143",
+      "cinii:prefcode": "10",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "群馬パース大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "370-0006",
+        "v:label": "群馬県高崎市問屋町1-7-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "027-388-0300(ダイヤルイン)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "027-365-3367"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.paz.ac.jp/library/",
+        "開館時間: 9:00-21:00(月-金), 9:00-17:00(土曜日・長期休業期間等)",
+        "持参書類: 身分証明書",
+        "休館日: 日曜日、祝日、年末年始、館内整理日、その他入試等学内行事日等(開館日程の詳細は図書館ホームページでご確認ください)",
+        "【注意】駐車場はありません。ご来館の際は公共交通機関をご利用下さい。",
+        "【注意】4号館図書室に配架している資料(「分」扱いの資料)の複写・相互貸借は発送までに時間がかかる場合があります。予めご了承ください。",
+        "【注意】学外利用者の方は4号館図書室の利用はできません。4号館図書室の資料をお求めの場合は事前にお問合せください。",
+        "新型コロナウイルス感染防止のため、当面の間休館とさせていただいております。それに伴い相互貸借の対応が遅れる場合がございます。ご迷惑をおかけしますが予めご了承ください。"
+      ]
+    }
+  ]
+}

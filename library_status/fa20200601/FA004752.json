@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004752.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004752#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004752.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "明海大学 歯学部 メデイアセンター(図書館)"
+        },
+        {
+          "@value": "メイカイダイガク シガクブ メデイアセンター(トシヨカン)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "明海歯"
+        },
+        {
+          "@value": "メイカイシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004752",
+      "cinii:organizationid": "KI001756",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "明海大学 歯学部 メデイアセンター(図書館)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "350-0283",
+        "v:label": "埼玉県坂戸市けやき台1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "049-279-2715 (直)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "049-286-3404"
+        }
+      ],
+      "dc:description": [
+        "Meikai University Media Center, School of Dentistry (Library)",
+        "1-1 Keyakidai, Sakado, Saitama 350-0283 JAPAN",
+        "URL:https://opac-dent.meikai.ac.jp/",
+        "来館利用担当:運用係 (閲覧) 9:00〜20:00",
+        "電話番号:049-279-2716 (運用係直通)",
+        "注意事項:利用にあたって所属する大学図書館等を通じて事前照会をしてください。個人からの問い合わせは受け付けません。",
+        "持参書類:大学図書館等が発行する紹介状もしくは資料利用依頼書、身分を証明するもの(学生証・教職員証等)",
+        "館外貸出:不可",
+        "制限事項:貴重書の複写は不可",
+        "開館時間 :9:00〜22:00(土曜日9:00〜17:00)",
+        "休館日:日曜日・国民の祝日・創立記念日(5/17)・館内整理日(毎月1日,ただし1日が休日および土曜日にあたるときは繰り下げ)・夏期休暇(8/10〜8/17)・年末年始(12/28〜1/7)・蔵書点検期間(3/16〜3/23)"
+      ]
+    }
+  ]
+}

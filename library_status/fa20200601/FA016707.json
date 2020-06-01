@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016707.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016707#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016707.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "沖縄女子短期大学 図書館"
+        },
+        {
+          "@value": "オキナワジヨシタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "沖女短"
+        },
+        {
+          "@value": "オキジヨタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016707",
+      "cinii:organizationid": "KI00934X",
+      "cinii:prefcode": "47",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "沖縄女子短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "901-1304",
+        "v:label": "沖縄県島尻郡与那原町東浜1番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "098(882)9004"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "098(882)8902"
+        }
+      ],
+      "dc:description": [
+        "Okinawa Women's Junior College Library",
+        "405, Kokuba, Naha-shi, Okinawa 902-0075, JAPAN",
+        "開館時間:月-金 9:00-19:00,  第2・4土 9:00-17:00",
+        "休館日:第1・3土, 日, 祝祭日, 年末年始, 慰霊の日(6/23), 学園創立記念日(3/30), 卒業式等",
+        "注意事項:臨時に休館することがあります。HPを確認の上ご来館下さい。",
+        "URL:http://okijo.net/information/library/ (website)"
+      ]
+    }
+  ]
+}

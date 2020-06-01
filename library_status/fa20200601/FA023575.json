@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023575.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023575#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023575.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京未来大学 図書館"
+        },
+        {
+          "@value": "トウキョウミライダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東京未来"
+        },
+        {
+          "@value": "トウキョウミライ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA023575",
+      "cinii:organizationid": "KI014146",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京未来大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "120-0023",
+        "v:label": "東京都足立区千住曙町34-12"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5813-2540"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5813-2529"
+        }
+      ],
+      "dc:description": [
+        "Library of Tokyo Future University",
+        "34-12,Senjuakebono-cho,Adachi-ku,Tokyo 120-0023",
+        "URL:http://www.tokyomirai.ac.jp/",
+        "問い合わせメールアドレス: library@tokyomirai.jp",
+        "来館利用担当:図書館司書",
+        "電話番号:03-5813-2540(内線1202)",
+        "受付時間:10:00～18:00(土日祝日不可)",
+        "持参書類:資料利用依頼書(紹介状)及び身分証明書",
+        "複写時間:10:00～18:00",
+        "館外貸出不可",
+        "休館日:スクーリングのない土・日・祝日、年末年始休業期間"
+      ]
+    }
+  ]
+}

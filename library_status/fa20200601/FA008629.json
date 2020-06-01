@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008629.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008629#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008629.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島女学院大学 図書館"
+        },
+        {
+          "@value": "ヒロシマジョガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広女院大"
+        },
+        {
+          "@value": "ヒロジョインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008629",
+      "cinii:organizationid": "KI004175",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "広島女学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "732-0063",
+        "v:label": "広島県広島市東区牛田東4-13-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-228-0392"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-222-7885"
+        }
+      ],
+      "dc:description": [
+        "複写担当係 :参考",
+        "複写受付可否 :可",
+        "複写方法・料金:電子複写 ・モノクロ40円均一,カラー80円均一,リーダプリンタ40円均一",
+        "複写注記 :原則として論文等にカラーがあった場合はカラー複写します。",
+        "貸借担当係 :参考",
+        "貸借受付可否 :可",
+        "貸出期間 :1カ月",
+        "決済方法 :公費・私費=後納",
+        "支払方法 :ILL料金相殺サービス(ILL0400249)、切手、現金書留",
+        "振込先 :広島女学院大学図書館",
+        "来館利用担当係 :閲覧",
+        "来館利用対象者 :全て",
+        "来館利用 :開館日時をホームページ等でご確認のうえご来館ください。",
+        "来館時持参書類 :身分を証明する物をご持参ください。",
+        "閲覧受付時間 :8:45〜20:00(土曜日8:45〜17:00)",
+        "複写受付時間 :8:45〜19:50(土曜日8:45〜16:50)",
+        "館外貸出可否 :可",
+        "通常開館時間 :8:45〜20:00(土曜日8:45〜17:00)(出納は閉館の10分前迄)",
+        "休業中開館時間:夏季8:45〜17:00(土曜日8:45〜12:00)",
+        "休館日 :日曜日・国民の祝日に関する法律に規定する休日・学院の創立記念日(10/1日)・基督降誕祭(12/25日)・年末年始(12/29〜1/3日)",
+        "長期休業中の休館日はその都度定める。",
+        "館長は特に必要と認めた場合には、臨時に開館もしくは休館し、または開館時間を変更することができる。",
+        "Hiroshima Jogakuin University",
+        "4-13-1 Ushitahigashi, Higashiku, Hiroshima, Japan 732-0063",
+        "URL:http://library.hju.ac.jp",
+        "ILL-STAFF:Sachiko Matsumura",
+        "ILL-Dept:ILL Section",
+        "ILL-Note:Lending :inside in your Library",
+        "ILL-Org:Hiroshima Jogakuin Univ. Library",
+        "ILL-Address:4-13-1, Ushita Higashi, Higashi-ku,Hiroshima, Japan",
+        "ILL-Zip:732-0063",
+        "ILL-Contact1:Tel:+081-082-228-0392/ Fax:081-082-222-7885/ E-mail:libsanko@gaines.hju.ac.jp",
+        "ILL-Contact2:Home-Page:http://library.hju.ac.jp",
+        "ILL-Sched:Closed:Sundays,National Holidays",
+        "ILL-Calender:Peace Memorial Day(August 6),Summer Holidays(August 14-16),Founder's day(October 1),Christmas(December 25),New Year Holidays(December 28-January 4),Entrance Exam's days,Subsequent changes will be posted on Home Page",
+        "ILL-Accept:International:LOAN:Yes(Traceable courier with insurance Only)COPY:Yes(Traceable courier with insurance Only)",
+        "ILL-Accept-method:International:E-mail",
+        "ILL-Payment-method:International:Invoice:Yes International:Bank Transaction:Yes",
+        "ILL-Loan-Period:6 weeks",
+        "ILL-Loarn-Item-Max:no limit items par library",
+        "ILL-Loan-Renewal:4 weeks",
+        "ILL-Loan-Charge:No charge;Postage required.",
+        "ILL-Loan-Delivery-method:Tracked system",
+        "ILL-Non-Circulation-items:Special collection,mcrfrm,mcrfch,ref,per,news",
+        "ILL-Copy-Charge:Postage required,Photocopy:black-and-white:¥40/sheet, color:¥80/sheeet",
+        "ILL-Copy-Delivery-method:Airmail."
+      ]
+    }
+  ]
+}

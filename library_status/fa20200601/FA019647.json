@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019647.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019647#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019647.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本赤十字広島看護大学 図書館"
+        },
+        {
+          "@value": "ニッポンセキジュウジヒロシマカンゴダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日赤広看大"
+        },
+        {
+          "@value": "ニッセキヒロカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019647",
+      "cinii:organizationid": "KI011793",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本赤十字広島看護大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "738-0052",
+        "v:label": "広島県廿日市市阿品台東1番2号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0829-20-2880"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0829-20-2881"
+        }
+      ],
+      "dc:description": [
+        "The Japanese Red Cross Hiroshima College of Nursing Library",
+        "1-2 Ajinadai-Higashi, Hatsukaichi, Hirosima 7380052 Japan",
+        "URL:www.jrchcn.ac.jp",
+        "来館利用担当:図書館",
+        "電話番号:0829-20-2880",
+        "受付時間:9:30〜17:00",
+        "注意事項:一般利用者の利用は9:00〜17:00です。",
+        "持参書類:特になし",
+        "複写時間:9:00〜16:45",
+        "館外貸出:不可",
+        "休館日:土曜日・日曜日、国民の祝日、日本赤十字社創立記念日(5月1日) 年末年始(12月27日〜1月3日)、蔵書点検期間、入学式、学位記授与式、入学試験日、大学祭"
+      ]
+    }
+  ]
+}

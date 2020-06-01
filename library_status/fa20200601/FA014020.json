@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014020.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014020#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014020.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "石川工業高等専門学校 図書館"
+        },
+        {
+          "@value": "イシカワコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "石高専"
+        },
+        {
+          "@value": "イシコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "地下1"
+      ],
+      "cinii:memberid": "FA014020",
+      "cinii:organizationid": "KI007435",
+      "cinii:prefcode": "17",
+      "cinii:mextid": "602000",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "石川工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "929-0392",
+        "v:label": "石川県河北郡津幡町北中条"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "076-288-8015"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "076-288-4130"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Technology (KOSEN), Ishikawa College",
+        "Kitachujo, Tsubata-machi, Ishikawa 929-0392",
+        "URL:http://www.ishikawa-nct.ac.jp/tosyo/ (website)",
+        "URL:http://www.ishikawa-nct.ac.jp/other/access.html (map)",
+        "来館利用担当:学生課図書・情報係",
+        "電話番号:076-288-8015(平日8:30～17:00のみ)",
+        "開館時間:平日8:30〜20:00,土曜日12:30〜16:30(ただし,休業期間中は平日8:30〜17:00のみ)",
+        "休館日:日曜・祝日、年末年始、休業期間中の土曜日、夏季一斉休業期間",
+        "事前連絡:研究室所蔵の資料については事前連絡が望ましい(閲覧不可となる場合があります。)",
+        "持参書類:なし",
+        "館外貸出:以下の利用者については利用券を発行した上で貸出可能 (1)本校卒業生及び元教職員 (2)石川県、富山県及び福井県内に在住する方、またはこれらの県内に所在する事業所又は学校に通勤・通学する方 (3)その他図書館長が許可した方 (貸出対象資料は本館利用規則に準じる。)",
+        "注意事項:学外の方が利用券の発行を希望される場合は、平日の8:30〜17:00にお越しください。",
+        "注意事項:学外の方が利用券の発行を希望される場合は、身分証明書が必要です。",
+        "注意事項:学外の方は、試験期間中等利用が多い場合は利用をご遠慮ください。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008571.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008571#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008571.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "美作大学 図書館"
+        },
+        {
+          "@value": "ミマサカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "美作大"
+        },
+        {
+          "@value": "ミマサカダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008571",
+      "cinii:organizationid": "KI004120",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "美作大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "708-8511",
+        "v:label": "岡山県津山市北園町50"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0868-25-0677"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0868-22-7729"
+        }
+      ]
+    }
+  ]
+}

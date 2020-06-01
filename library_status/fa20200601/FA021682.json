@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021682.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021682#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021682.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "尚美学園大学 メディアセンター"
+        },
+        {
+          "@value": "ショウビガクエンダイガク メディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "尚美学園大"
+        },
+        {
+          "@value": "ショウビガクエンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021682",
+      "cinii:organizationid": "KI013008",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "尚美学園大学 メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "350-1110",
+        "v:label": "埼玉県川越市豊田町1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "049-246-3218"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "049-246-3246"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.shobi-u.ac.jp/mediacenter/",
+        "URL:https://library.shobi-u.ac.jp/drupal/ (OPAC)",
+        "受付時間: 平日 9:00〜17:00",
+        "注意事項: 利用を希望される方は所属の大学図書館または",
+        "公共図書館を通して所蔵調査と事前確認をして下さい。",
+        "個人からの直接のお申込は受け付けておりません。",
+        "館外貸出はおこなっておりませんのでご了承ください。",
+        "ILL-Org: Shobi University Media Center",
+        "ILL-Address: 1-1-1 Toyoda-cho, Kawagoe-shi, Saitama, JAPAN",
+        "ILL-ZIP:350-1110",
+        "ILL-Commun1:E-mail:kg-lib@s.shobi-u.ac.jp"
+      ]
+    }
+  ]
+}

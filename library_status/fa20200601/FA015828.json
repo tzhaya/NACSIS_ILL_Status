@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015828.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015828#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015828.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東洋学園大学 図書館"
+        },
+        {
+          "@value": "トウヨウガクエンダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東洋学大"
+        },
+        {
+          "@value": "トウヨウガクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本郷"
+      ],
+      "cinii:memberid": "FA015828",
+      "cinii:organizationid": "KI008653",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東洋学園大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷1-26-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3811-1862"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3811-3712"
+        }
+      ],
+      "dc:description": [
+        "Toyo Gakuen University Library",
+        "1-26-3 Hongo, Bunkyo-ku, Tokyo, Japan 113-0033",
+        "URL:https://opac.lib.tyg.jp/ (website)",
+        "来館利用担当:レファレンス担当",
+        "電話番号:03-3811-1862",
+        "受付時間:9:00-16:30(土曜日 -12:00)",
+        "注意事項:必ず事前に所属機関の図書館を通して電話連絡をして下さい。",
+        "持参書類:資料閲覧願、身分証明書",
+        "複写時間:9:00-16:30(土曜日 -12:00)",
+        "館外貸出:不可",
+        "休館日:日曜日、祝日、創立記念日、年末年始、学園祭、卒業式、入試、蔵書点検期間など。詳細はホームページなどで確認して下さい。",
+        "ILL-Staff:MATSUZAWA, Tomoko",
+        "ILL-Dept:InterLibrary Service Section",
+        "ILL-Org:Toyo Gakuen University Library",
+        "ILL-Address:1-26-3 Hongo, Bunkyo-ku, Tokyo, Japan",
+        "ILL-ZIP:113-0033",
+        "ILL-Contact1:Tel: +81-3-3811-1862 / FAX: +81-3-3811-3712 / E-mail:tosho-announce@tyg.jp",
+        "ILL-Contact2:Online catalogue:https://opac.lib.tyg.jp/gate?module=search&path=index.do&method=init / Website:https://opac.lib.tyg.jp/",
+        "ILL-Calendar:Closed:Dec 26-Jan 4",
+        "ILL-Accept:International: LOAN:Yes(Traceable courier with insurance Only)",
+        "ILL-Accept:International: COPY:Yes(Traceable courier with insurance Only)",
+        "ILL-Accept-method: International: E-mail: tosho-announce@tyg.jp",
+        "ILL-Payment-method:International: Bank Transaction Only",
+        "ILL-Loan-Period : Foreign : 6 weeks per item",
+        "ILL-Loan-Item-Max: 3",
+        "ILL-Loan-Renewal:one time / 3 weeks",
+        "ILL-Loan-Charge: Postage Only",
+        "ILL-Loan-Delivery-method:Tracked system",
+        "ILL-Non-Circulation-items:Special collection, microfilm, microfiche, reference books, periodicals, news, a-v.",
+        "ILL-Copy-Charge: 30 JPY per sheet and Postage",
+        "ILL-Copy-Delivery-method: Airmail",
+        "ILL-Note"
+      ]
+    }
+  ]
+}

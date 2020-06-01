@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024432.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024432#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024432.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "四條畷学園短期大学 清風図書室"
+        },
+        {
+          "@value": "シジョウナワテガクエンタンキダイガク セイフウトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "四條畷・清風"
+        },
+        {
+          "@value": "シジョウナワテ・セイフウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024432",
+      "cinii:organizationid": "KI013449",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "四條畷学園短期大学 清風図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "574-0001",
+        "v:label": "大阪府大東市学園町6-45"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-876-1321(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-879-7237"
+        }
+      ]
+    }
+  ]
+}

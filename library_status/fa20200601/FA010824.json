@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010824.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010824#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010824.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "富山県立図書館"
+        },
+        {
+          "@value": "トヤマケンリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "富県図"
+        },
+        {
+          "@value": "フケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010824",
+      "cinii:organizationid": "KI006024",
+      "cinii:prefcode": "16",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "富山県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "930-0115",
+        "v:label": "富山県富山市茶屋町206-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "076-436-6812"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "076-436-1893"
+        }
+      ],
+      "dc:description": [
+        "Toyama Prefectural Library",
+        "206-3 Chaya-machi, Toyama City, Toyama, Japan 930-0115",
+        "URL:http://www.tkc.pref.toyama.jp/lib/",
+        "来館利用担当:調査課",
+        "電話番号:076-436-6812",
+        "受付時間:9:00〜19:00 (但し土曜日及び日曜日の開館日は17:00まで)",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:館外貸出の場合は、住所を証明できる身分証明書が必要。",
+        "複写時間:受付時間に同じ",
+        "館外貸出:可",
+        "制限事項:館外貸出は県内に在住、通勤、通学の者に限る。",
+        "毎週月曜日、毎月第4木曜日(館内整理日)、国民の祝日、休日、年末年始(12月28日〜1月4日)、蔵書点検期間"
+      ]
+    }
+  ]
+}

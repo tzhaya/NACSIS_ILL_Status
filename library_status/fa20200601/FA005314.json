@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005314.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005314#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005314.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "芝浦工業大学 豊洲図書館"
+        },
+        {
+          "@value": "シバウラコウギヨウダイガク トヨストシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "芝工大"
+        },
+        {
+          "@value": "シバコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "芝図",
+        "宮図"
+      ],
+      "cinii:memberid": "FA005314",
+      "cinii:organizationid": "KI002078",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "芝浦工業大学 豊洲図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "135-8548",
+        "v:label": "東京都江東区豊洲3-7-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5859-7460"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5859-7461"
+        }
+      ],
+      "dc:description": [
+        "Shibaura Institute of Technology",
+        "3-7-5 Toyosu Koto-ku,Tokyo 135-8584",
+        "URL:http://lib.shibaura-it.ac.jp/ (Website)",
+        "URL:https://library1.shibaura-it.ac.jp/ (OPAC)",
+        "ILL-Staff:Tagawa",
+        "ILL-Dept:Interlibrary Loan Section",
+        "ILL-Org:Shibaura Institute of Technology Toyosu Library",
+        "ILL-Address:3-7-5, Toyosu, Koto-ku, Tokyo, Japan",
+        "ILL-ZIP:135-8548",
+        "ILL-Commun1:Tel:+81-3-5859-7460 / Fax:+81-3-5859-7461 / E-mail:tlib@ow.shibaura-it.ac.jp",
+        "ILL-Accept:ForeignForeign:KERIS",
+        "ILL-Sched:Closed: Sunday , National holidays of Japan , New Year holidays",
+        "ILL-Copy-Charge:PHOTOCOPY:40YEN per sheet / Dlivery method:via airmail",
+        "来館利用担当:閲覧係",
+        "電話番号:03-5859-7460",
+        "受付時間:9:00-22:00",
+        "注意事項:事前連絡が望ましい",
+        "持参資料:紹介状、身分証明証。(私工大懇話会加盟大学は学生証・身分証明書)",
+        "複写時間:9:00-21:30",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の休日、祝日、創立記念日(11月4日)、入学試験日、年末年始、夏季一斉休暇中",
+        "対図書館複写サービス:受付可",
+        "図書館間相互貸借:受付可",
+        "相互貸借による貸出期間:2週間",
+        "ILL-OCLC-Symbol:JASIT"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017754.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017754#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017754.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "昭和大学 長津田校舎 図書室"
+        },
+        {
+          "@value": "シヨウワダイガク ナガツタコウシャ トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "昭和大長"
+        },
+        {
+          "@value": "ショウワダイナガ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017754",
+      "cinii:organizationid": "KI002103",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "昭和大学 長津田校舎 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "226-8555",
+        "v:label": "神奈川県横浜市緑区十日市場町1865"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-985-6508"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-985-7580"
+        }
+      ],
+      "dc:description": [
+        "臨時休室 : 4/1(水)～6/7(日)",
+        "Showa University Nagatsuta Library",
+        "1865, Tokaichiba, Midoriku, Yokohamashi Kanagawaken 226-8555",
+        "URL:http://www.showa-u.ac.jp/lib/nagatsuta/index.html (web)",
+        "URL:http://www.showa-u.ac.jp/about_us/campus/yokohama.html (map)",
+        "来館利用担当:閲覧係",
+        "電話番号:045-985-6508",
+        "受付時間:9:00-17:00",
+        "注意事項:医療従事者・学生・研究者に限る。 資料の所在等、事前確認をしてください。学生利用混雑日は利用をお断りする事があります。",
+        "持参書類:資料利用依頼書、身分証明書",
+        "複写時間:9:00-17:00",
+        "館外貸出:不可",
+        "休館日:土曜日・日曜日・祝日・創立記念日(11/15)・年末年始",
+        "ILL-Org:Showa University Nagatsuta Library",
+        "ILL-Address:1865, Tokaichiba, Midoriku, Yokohamashi Kanagawaken",
+        "ILL-Zip:226-8555",
+        "ILL-Commun1:Tel:+81-45-985-6508"
+      ]
+    }
+  ]
+}

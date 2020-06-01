@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024068.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024068#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024068.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福岡女学院看護大学 図書館"
+        },
+        {
+          "@value": "フクオカジョガクインカンゴダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福女看大"
+        },
+        {
+          "@value": "フクジョカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024068",
+      "cinii:organizationid": "KI014441",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "福岡女学院看護大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "811-3113",
+        "v:label": "福岡県古賀市千鳥1-1-7"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-940-2344"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-940-2340"
+        }
+      ],
+      "dc:description": [
+        "Fukuoka Jogakuin Nursing College",
+        "1-1-7, Chidori, Koga city, Fukuoka, 811-3113",
+        "来館利用担当:閲覧係",
+        "URL:http://www2.fukujo.ac.jp/ns/",
+        "電話番号:092-940-2344",
+        "注意事項:来館利用をご希望の方は必ず事前にご連絡ください。",
+        "館外貸出:不可",
+        "休館日:日曜日,国民の祝日,8/13-15,12/25,12/28-1/5,その他臨時に休館することがあります。",
+        "福岡女学院看護大学紀要 第4~6回はこちらから取得可能です。http://repository.fukujo.ac.jp/dspace/handle/11470/78 検索語にキーワードを入力し取得ください。"
+      ]
+    }
+  ]
+}

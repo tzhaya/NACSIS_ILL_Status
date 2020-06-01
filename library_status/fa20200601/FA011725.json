@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011725.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011725#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011725.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "立正佼成会 付属佼成図書館"
+        },
+        {
+          "@value": "リツシヨウコウセイカイ フゾクコウセイトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "佼成"
+        },
+        {
+          "@value": "コウセイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011725",
+      "cinii:organizationid": "KI006840",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "立正佼成会 付属佼成図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "166-0012",
+        "v:label": "東京都杉並区和田1-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3382-3400"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5341-1811"
+        }
+      ],
+      "dc:description": [
+        "開館時間:9:30〜17:00",
+        "受付時間:9:30〜16:30(請求・貸出・複写)",
+        "休館日:日曜、祝日、6、15、16、26日、年末年始、臨時休館あり",
+        "利用対象者:15歳以上(入館無料。住まいを問わず誰でも可。)",
+        "資料の貸出:利用者カード要。合計3冊で2週間",
+        "貸出不可資料:禁帯出図書・参考図書・逐次刊行物",
+        "利用者カードの発行:都内在住、在勤、在学されている方のみ",
+        "注意事項:該当しない方は複写専用カードを発行(無料)",
+        "持参書類:身分証明書(運転免許証、健康保険証、学生証等)",
+        "URL:http://www.kosei-kai.or.jp/activities/culture/library.html",
+        "お問い合わせはお電話でお願いします。"
+      ]
+    }
+  ]
+}

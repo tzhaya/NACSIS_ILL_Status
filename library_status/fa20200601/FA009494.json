@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009494.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009494#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009494.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "統計数理研究所 図書室"
+        },
+        {
+          "@value": "トウケイスウリケンキュウジョ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "統数研"
+        },
+        {
+          "@value": "トウスウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009494",
+      "cinii:organizationid": "KI004889",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "990600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "統計数理研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "190-8562",
+        "v:label": "東京都立川市緑町10-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "050-5533-8460"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-526-4340"
+        }
+      ],
+      "dc:description": [
+        "The Institute of Statistical Mathematics",
+        "10-3, Midori-chou, Tachikawa, Tokyo, 190-8562, Japan",
+        "URL:http://www.ism.ac.jp/",
+        "BOOK, SERIAL:library@ism.ac.jp",
+        "制限事項:電子ジャーナルの複写受付はしておりません。"
+      ]
+    }
+  ]
+}

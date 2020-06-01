@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021547.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021547#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021547.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "総合地球環境学研究所 図書室"
+        },
+        {
+          "@value": "ソウゴウチキュウカンキョウガクケンキュウジョ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "地球研"
+        },
+        {
+          "@value": "チキュウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "地ア"
+      ],
+      "cinii:memberid": "FA021547",
+      "cinii:organizationid": "KI012912",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "991500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "総合地球環境学研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "603-8047",
+        "v:label": "京都市北区上賀茂本山457-4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-707-2179"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-707-2191"
+        }
+      ],
+      "dc:description": [
+        "Research Institute for Humanity and Nature Library",
+        "457-4 Motoyama, Kamigamo, Kita-ku, Kyoto 603-8047, Japan",
+        "URL:http://opac.chikyu.ac.jp/mylimedio/search/search-input.do(OPAC)",
+        "URL:http://www.chikyu.ac.jp/activities/library/ (Website)",
+        "閲覧事前連絡: 所属機関図書館、公共図書館を通して利用の可否、日時等を確認のこと",
+        "閲覧持参書類: 所属機関・公共図書館発行の紹介状、身分証明書",
+        "館外貸出: 不可 (所内閲覧。ILL貸借の場合は所属機関図書館内閲覧に限る)",
+        "開室日時: 月～金(祝日、年末年始を除く)、9:00～17:00",
+        "制限事項: 研究・調査目的の利用"
+      ]
+    }
+  ]
+}

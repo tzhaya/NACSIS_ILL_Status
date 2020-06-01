@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008560.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008560#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008560.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "ノートルダム清心女子大学 附属図書館"
+        },
+        {
+          "@value": "ノートルダムセイシンジョシダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "ノ清女"
+        },
+        {
+          "@value": "ノセイジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008560",
+      "cinii:organizationid": "KI00411X",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "ノートルダム清心女子大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "700-8516",
+        "v:label": "岡山県岡山市北区伊福町2-16-9"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-252-5260"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-252-5216"
+        }
+      ],
+      "dc:description": [
+        "Notre Dame Seishin University Library",
+        "2-16-9 Ifuku-cho, Okayama-shi, Okayama 700-8516",
+        "URL:http://lib.ndsu.ac.jp/ (ノートルダム清心女子大学附属図書館)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001685.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001685#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001685.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宇都宮大学 附属図書館"
+        },
+        {
+          "@value": "ウツノミヤダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宇大"
+        },
+        {
+          "@value": "ウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA001685",
+      "cinii:organizationid": "KI000185",
+      "cinii:prefcode": "09",
+      "cinii:mextid": "001700",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "宇都宮大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "321-8505",
+        "v:label": "宇都宮市峰町350"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "028-649-5135依頼5134受付"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "028-649-5140"
+        }
+      ],
+      "dc:description": [
+        "Utunomiya University Library",
+        "350, Mine-machi, Utsunomiya 321-8505",
+        "URL:http://www.lib.utsunomiya-u.ac.jp/ (website)",
+        "来館利用担当:利用者サービス係",
+        "電話番号:028-649-5134",
+        "受付時間:9:00〜20:00(休業中:9:00〜17:00)(土曜・日曜・祝日:11:00〜17:00)",
+        "注意事項:原則として事前連絡は不要(ただし即日利用できない資料あり)",
+        "持参書類:身分証明書(学生証)",
+        "複写時間:平日:9:00〜17:00(土曜・日曜・祝日:否)",
+        "館外貸出:可(学外者=5冊2週間)",
+        "制限事項:利用制限資料があります",
+        "休館日:年末年始・臨時休館日"
+      ]
+    }
+  ]
+}

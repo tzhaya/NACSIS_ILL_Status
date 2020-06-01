@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012604.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012604#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012604.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "秀明大学 図書館"
+        },
+        {
+          "@value": "シュウメイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "秀明大"
+        },
+        {
+          "@value": "シュウメイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012604",
+      "cinii:organizationid": "KI007184",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "秀明大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "276-0003",
+        "v:label": "千葉県八千代市大学町1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "047-488-2124"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "047-488-0260"
+        }
+      ],
+      "dc:description": [
+        "Shumei University Library",
+        "1-1, Daigaku-cho, Yachiyo-shi, Chiba 276-0003",
+        "電話番号:047-488-2124",
+        "受付時間:9:00-16:30",
+        "注意事項:資料の所在等、事前確認をしてください。開館日を確認してください。",
+        "持参書類:資料利用依頼書",
+        "複写時間:9:00-17:00",
+        "館外貸出:不可",
+        "休館日:土日曜日、国民の祝日、年末年始、長期休業期間"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007728.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007728#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007728.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "明治国際医療大学 附属図書館"
+        },
+        {
+          "@value": "メイジコクサイイリョウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "明国医大"
+        },
+        {
+          "@value": "メイコクイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA007728",
+      "cinii:organizationid": "KI003514",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "明治国際医療大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "629-0392",
+        "v:label": "京都府南丹市日吉町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0771-72-1182"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0771-72-1185"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.meiji-u.ac.jp/toshokan/ (website)",
+        "↓↓↓↓↓来館利用↓↓↓↓↓",
+        "閲覧事前連絡 :FAXにて所属機関を通して所蔵調査および閲覧日の事前連絡が必要",
+        "閲覧持参書類 :所属機関からの紹介状または閲覧依頼書のコピー、および身分証明書",
+        "閲覧受付時間 :10:00〜17:00",
+        "複写受付時間 :10:00〜17:00",
+        "↓↓↓↓↓相互利用↓↓↓↓↓",
+        "申込方法 :所属機関を通してお申し込み下さい",
+        "複写方法・料金 :電子複写(モノクロ50円・カラー250円)",
+        "複写注記 :カラーページがある場合、指定がない場合は照会せずにカラー複写致します。モノクロ希望の場合は申込時にご記入ください"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017368.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017368#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017368.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島文化学園大学 呉 阿賀キャンパス 図書館"
+        },
+        {
+          "@value": "ヒロシマブンカガクエンダイガク クレ アガキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広文化阿賀"
+        },
+        {
+          "@value": "ヒロブンカアガ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017368",
+      "cinii:organizationid": "KI008325",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "広島文化学園大学 呉 阿賀キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "737-0004",
+        "v:label": "広島県呉市阿賀南2-10-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0823-74-5512"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0823-74-5512"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima Bunka Gakuen University Kure Aga Campus Library",
+        "2-10-3,Agaminami,Kure,Hiroshima 737-0004",
+        "URL:httphttp://www.hbg.ac.jp/library/libtop.html",
+        "来館利用担当:閲覧係",
+        "電話番号:0823-74-5512",
+        "受付時間: 9:00〜17:00",
+        "注意事項:来館の際は事前連絡(電話連絡)を要す。",
+        "持参書類:身分証明書,学生証",
+        "複写時間:9:00〜16:30",
+        "複写料金:1枚30円(カラーコピー不可)",
+        "制限事項:",
+        "休館日:新型コロナウィルス感染拡大、防止のため休館(4/21,4/23,4/25～4/26,4/27～4/29,5/2～5/6、5/9～10、5/15～17)",
+        "休館日:土曜、日曜、祝日、大学行事日、年末(12月26日～1月6日)",
+        "館外貸出:不可",
+        "制限事項:"
+      ]
+    }
+  ]
+}

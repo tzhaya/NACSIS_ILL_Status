@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014508.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014508#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014508.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島大学 図書館 西図書館"
+        },
+        {
+          "@value": "ヒロシマダイガク フゾクトシヨカン ニシトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広大西"
+        },
+        {
+          "@value": "ヒロダイニシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館",
+        "総・日本",
+        "総・広域日本",
+        "総・広域アジア",
+        "総・広域ヨロツパ",
+        "総・広域英米",
+        "総・広域民族",
+        "総・広域比較",
+        "総・広域中国語",
+        "総・社会社会",
+        "総・社会アジア",
+        "総・制作科学",
+        "総・言語英語",
+        "総・言語独語",
+        "総・言語仏語",
+        "総・言語中国語",
+        "総・言語露語",
+        "総・言語西語",
+        "総・言語朝鮮語",
+        "総・行動情報",
+        "総・行動人間",
+        "総・行動保健",
+        "総・行動政策",
+        "総・数理情報",
+        "総・数理基礎",
+        "総・物質基礎",
+        "総・物質自然",
+        "総・自然自然",
+        "総・自然基礎",
+        "生研・環制環予",
+        "総・アクセシビリセ",
+        "総・行動人間行動",
+        "総・行動保健体育",
+        "総・行動政策科学",
+        "総・行動生命科学",
+        "総・人間英語",
+        "総・人間独語",
+        "総・人間仏語",
+        "総・人間中国語",
+        "総・人間露語",
+        "総・人間西語",
+        "総・人間言語",
+        "総・人間人間存在",
+        "総・環境自然",
+        "総・環境物理",
+        "総・社会地理",
+        "総・社会社会文化",
+        "総・社会文化人類",
+        "総・社会科学史",
+        "総・社会ヨロツパ",
+        "総・社会アメリカ",
+        "総・社会独語",
+        "総・社会仏語",
+        "総・地域日本",
+        "総・地域中国",
+        "総・地域アジア",
+        "総・地域ヨロツパ",
+        "総・地域英米",
+        "総・地域研究",
+        "総・地域朝鮮",
+        "総・社会自然",
+        "総・社会留学生",
+        "理・数学(総)",
+        "工・情報コミユ(総)",
+        "リサーチマネージヤー",
+        "西・多読",
+        "総・社会文明(教育社会)",
+        "総・国際共創"
+      ],
+      "cinii:memberid": "FA014508",
+      "cinii:organizationid": "KI000720",
+      "cinii:prefcode": "34",
+      "cinii:mextid": "006205",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "広島大学 図書館 西図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "739-8512",
+        "v:label": "東広島市鏡山一丁目7-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "(082)424-6229"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "(082)424-6223"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima University Library. West Library",
+        "1-7-2, KAGAMIYAMA, HIGASHI-HIROSHIMA, HIROSHIMA 739-8512",
+        "URL:http://www.lib.hiroshima-u.ac.jp/ (WEBSITE)",
+        "URL:http://www.lib.hiroshima-u.ac.jp/maps/scampus.gif (MAP)",
+        "来館利用担当:東広島地区フロア主担当(西図書館)",
+        "電話番号082-424-6229",
+        "受付時間:8:45〜20:45(平日) 10:00〜16:45(土曜日)",
+        "注意事項:資料の所在は事前確認してください",
+        "持参書類:学生証・職員証等の証明書",
+        "複写時間:平日(月-金)8:45〜16:45",
+        "館外貸出:不可",
+        "休館日:日曜日 休業期の土曜日 国民の祝日 年末年始 創立記念日(11/5) 定例清掃日(第2木曜日)"
+      ]
+    }
+  ]
+}

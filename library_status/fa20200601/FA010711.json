@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010711.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010711#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010711.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道立総合研究機構 中央水産試験場"
+        },
+        {
+          "@value": "ホッカイドウリツソウゴウケンキュウキコウ チュウオウスイサンシケンジョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "道総研中水試"
+        },
+        {
+          "@value": "ドウソウケンチュウスイシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010711",
+      "cinii:organizationid": "KI005917",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北海道立総合研究機構 中央水産試験場",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "046-8555",
+        "v:label": "北海道余市郡余市町浜中町238"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0135-23-8705"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0135-23-8720"
+        }
+      ],
+      "dc:description": [
+        "Hokkaido Central Fisheries Experimental Station",
+        "Yoichi, Hokkaido 046-8555, Japan",
+        "URL:http://www.fishexp.pref.hokkaido.jp",
+        "来館利用担当:企画情報室情報課",
+        "電話番号:0135-23-8705",
+        "受付時間:9:00〜17:00",
+        "注意事項:ご来庁の際は図書閲覧の旨を総務課(1階総合窓口) または情報課(2階図書室内)へお申し出下さい。",
+        "持参書類:特になし",
+        "複写時間:複写サービスはしておりません。",
+        "制限事項:特になし",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始、庁舎閉庁の日"
+      ]
+    }
+  ]
+}

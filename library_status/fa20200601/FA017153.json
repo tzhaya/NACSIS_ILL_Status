@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017153.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017153#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017153.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "産業技術短期大学 図書館"
+        },
+        {
+          "@value": "サンギョウギジュツタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産技短大"
+        },
+        {
+          "@value": "サンギタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017153",
+      "cinii:organizationid": "KI009736",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "産業技術短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "661-0047",
+        "v:label": "兵庫県尼崎市西昆陽1丁目27-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6431-7028"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6431-7270"
+        }
+      ],
+      "dc:description": [
+        "College of Industrial Technology",
+        "zip:661-0047 Nishikoya 1-27-1, Amagasaki-shi, Hyogo, Japan",
+        "URL:http://www.sangitan.ac.jp/"
+      ]
+    }
+  ]
+}

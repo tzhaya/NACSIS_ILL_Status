@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA026926.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA026926#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA026926.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宝塚大学 大阪梅田キャンパス図書館"
+        },
+        {
+          "@value": "タカラヅカダイガク オオサカウメダキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宝塚大学梅田"
+        },
+        {
+          "@value": "タカラヅカダイガクウメダ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA026926",
+      "cinii:organizationid": "KI007151",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "宝塚大学 大阪梅田キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "530-0012",
+        "v:label": "大阪府大阪市北区芝田1-13-16"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6376-0853"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6373-4829"
+        }
+      ],
+      "dc:description": [
+        "閲覧受付時間:10:00-16:00(学外者)",
+        "通常開館時間:月-金曜日9:00-20:00 土曜日9:00-17:00",
+        "休業中開館時間:9:00-16:45",
+        "休館日:日曜・祝日、創立記念日、盆休み・年末年始、入学試験日・入学式・卒業式等の大学行事 その他臨時休館日あり",
+        "【利用上注意事項】",
+        "・個人の方からの直接のお問合せはお受けしておりません。",
+        "・利用する資料の特定がない図書館利用は不可。",
+        "・近隣機関の所蔵状況をご確認の上、事前のFAXによる所蔵調査・確認( Tel. 不可 )をして下さい。",
+        "・来館時持参書類:大学図書館等が発行する資料依頼書と身分を証明する物",
+        "・館外貸出:否",
+        "・複写:否",
+        "・配架場所が「研究室」の資料は、閲覧対象ではありません。ご了承ください。"
+      ]
+    }
+  ]
+}

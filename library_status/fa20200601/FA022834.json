@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022834.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022834#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022834.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "武蔵丘短期大学 図書館"
+        },
+        {
+          "@value": "ムサシガオカタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "武蔵丘短大"
+        },
+        {
+          "@value": "ムサシガオカタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022834",
+      "cinii:organizationid": "KI013620",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "武蔵丘短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "355-0154",
+        "v:label": "埼玉県比企郡吉見町南吉見111-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0493-54-5101"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0493-54-6756"
+        }
+      ]
+    }
+  ]
+}

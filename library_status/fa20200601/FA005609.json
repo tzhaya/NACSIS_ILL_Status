@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005609.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005609#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005609.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大東文化大学 60周年記念図書館"
+        },
+        {
+          "@value": "ダイトウブンカダイガク 60シュウネンキネントショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大東大松"
+        },
+        {
+          "@value": "ダイトウダイマツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005609",
+      "cinii:organizationid": "KI002249",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大東文化大学 60周年記念図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "355-8501",
+        "v:label": "埼玉県東松山市大字岩殿560"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0493-31-1532"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0493-31-1531"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当 :閲覧担当",
+        "電話番号 :0493-31-1532",
+        "受付時間 :9:30～16:00",
+        "注意事項 :文書・FAXで問い合わせのこと。",
+        "持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "複写受付時間 :9:30～16:00",
+        "館外貸出可否 :否",
+        "注意事項 :貴重書については事前に手続きが必要です。",
+        "Daito Bunka University 60th Anniversary Commemorative Library",
+        "560 Iwadono, Higashimatsuyama City Saitama Prefecture, Japan 355-8501",
+        "URL:http://www.daito.ac.jp/research/library/ (website )"
+      ]
+    }
+  ]
+}

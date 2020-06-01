@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016897.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016897#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016897.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "仙台高等専門学校 広瀬キャンパス 図書館"
+        },
+        {
+          "@value": "センダイコウトウセンモンガッコウ ヒロセキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "仙台高専広瀬"
+        },
+        {
+          "@value": "センダイコウセンヒロセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016897",
+      "cinii:organizationid": "KI009496",
+      "cinii:prefcode": "04",
+      "cinii:mextid": "600800",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "仙台高等専門学校 広瀬キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "989-3128",
+        "v:label": "宮城県仙台市青葉区愛子中央4-16-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-391-5513(他係と共用)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-391-6144"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Technology, Sendai College Hirose Campus Library",
+        "4-16-1 Ayashi-chuo, Aoba-ku, Sendai-shi, MIYAGI",
+        "URL:http://hirose-web.sendai-nct.ac.jp/library/",
+        "来館利用担当:図書係",
+        "電話番号:022-391-5513(他係と共用)",
+        "注意事項:来館の際は身分証をお持ちください。その他詳細については事前にご確認ください。",
+        "休館日:土曜日及び日曜日、祝日、夏季休業、年末年始"
+      ]
+    }
+  ]
+}

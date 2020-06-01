@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001335.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001335#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001335.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北見工業大学 図書館"
+        },
+        {
+          "@value": "キタミコウギョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北見工大"
+        },
+        {
+          "@value": "キタミコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研",
+        "研2",
+        "研3",
+        "研4",
+        "図2",
+        "図3",
+        "図4",
+        "研5",
+        "研6"
+      ],
+      "cinii:memberid": "FA001335",
+      "cinii:organizationid": "KI000072",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000700",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北見工業大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "090-8507",
+        "v:label": "北見市公園町165番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0157-26-9194"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0157-24-7709"
+        }
+      ],
+      "dc:description": [
+        "Kitami Institute of Technology Library",
+        "165 Koen-cho, Kitami-shi, Hokkaido 090-8507",
+        "URL:http://www.lib.kitami-it.ac.jp/ (website)",
+        "URL:http://webopac.lib.kitami-it.ac.jp/ (opac)",
+        "来館利用担当:利用サービス担当",
+        "Tel:0157-26-9194 / FAX:0157-24-7709 / E-mail:tosyo04@desk.kitami-it.ac.jp",
+        "URL:http://www.lib.kitami-it.ac.jp/guide/riyo/ (利用案内)",
+        "URL:http://www.lib.kitami-it.ac.jp/calendar/ (開館カレンダー)",
+        "通常開館時間:月〜金:9:00〜22:00 / 土・日・祝:10:00〜17:15",
+        "休業中開館時間:月〜金:9:00〜17:00 / 夏季休業期間中の土・日・祝:10:00～17:15(※夏季以外の休業期間中の土日祝は閉館)",
+        "閲覧持参書類:閲覧のみの場合は必要ありません。貸出希望の場合は運転免許証,身分証明書等をご持参のうえ,利用登録を行ってください。",
+        "複写方法・料金:電子複写 モノクロ(@40円), カラー(@65円)",
+        "複写受付時間:月〜金:9:00〜21:30",
+        "館外貸出可否:可 (※利用登録者のみ)",
+        "休館日:休業期間中の日曜日及び土曜日・国民の祝日・年末年始・大学入試センター試験日・第2次入学試験日",
+        "ILL-Dept:Circulation Maintenance Section",
+        "ILL-Org:Kitami Institute of Technology Library",
+        "ILL-Address:165 Koen-cho, Kitami, Hokkaido, JAPAN",
+        "ILL-ZIP:090-8507",
+        "ILL-Commun1:Tel:+81-*********** / FAX:+81-*********** / E-mail:tosyo04@desk.kitami-it.ac.jp",
+        "ILL-Commun2:OPAC:http://webopac.lib.kitami-it.ac.jp/ Home-Page:http://www.lib.kitami-it.ac.jp/english/indexe.html",
+        "ILL-Accept:Foreign(1): OCLC(NII-OCLC link):YI$ / Foreign(2): KERIS",
+        "ILL-Sched:Closed:Dec 28-Jan 4",
+        "ILL-Bill:Foreign(1): OCLC=OCLC-IFM only / Foreign(2): KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period:Foreign(1):  6 weeks; up to 5 items per library / Foreign(2): NA",
+        "ILL-Loan-Renew:Foreign(1): 2 weeks / Foreign(2): NA",
+        "ILL-Loan-Charge:Foreign(1):  Postage required. / Foreign(2): NA",
+        "ILL-Non-Circulation: Thesis, mcrfrm, mcrfch, ref, per, news, a-v.",
+        "ILL-Copy-Charge:Photocopy:40 YEN per sheet. Postage required.",
+        "ILL-Note:Delivery method: photocopy & Loan: via airmail.",
+        "ILL-OCLC-Symbol:YI$"
+      ]
+    }
+  ]
+}

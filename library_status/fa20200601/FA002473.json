@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002473.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002473#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002473.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 経済学 図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク ケイザイガク トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大経"
+        },
+        {
+          "@value": "メイダイケイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "経済",
+        "経研セ"
+      ],
+      "cinii:memberid": "FA002473",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004305",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋大学 経済学 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8601",
+        "v:label": "愛知県名古屋市千種区不老町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-789-2364"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-789-2359"
+        }
+      ],
+      "dc:description": [
+        "Economics Library, Nagoya University",
+        "Furo-cho, Chikusa-ku, Nagoya 464-8601",
+        "URL:https://www.nul.nagoya-u.ac.jp/eco/index-e.html",
+        "ILL-Dept:InterLibrary Loan Services",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp",
+        "ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"
+      ]
+    }
+  ]
+}

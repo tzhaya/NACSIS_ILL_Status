@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027328.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027328#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027328.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "杏林大学 井の頭図書館"
+        },
+        {
+          "@value": "キョウリンダイガク イノカシラトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "杏大井の頭"
+        },
+        {
+          "@value": "キョウダイイノカシラ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "井の頭図"
+      ],
+      "cinii:memberid": "FA027328",
+      "cinii:organizationid": "KI001982",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "杏林大学 井の頭図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "181-8612",
+        "v:label": "東京都三鷹市下連雀5-4-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0422-47-8000"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0422-47-8069"
+        }
+      ],
+      "dc:description": [
+        "申込み:医学図書館様式、私立大学図書館様式など、特に書式は問いません。FAXか郵送でお申し込みください。",
+        "複写方法:電子複写",
+        "特に要望のない場合は、すべて白黒コピーになります。",
+        "料金:[白黒](送料は実費)大学等@50円、営利団体@100円、 [カラー](送料は実費)大学等@100円、営利団体@500円、[FAX](送料は無料)大学等@100円、営利団体@300円",
+        "料金:後払い。支払い方法は現金書留か郵便為替になります。NACSIS‐ILL文献複写等料金相殺サービス加盟館は相殺処理になります。",
+        "文献のFAX送信を希望される場合は著作権許諾を確認の上、必ず事前にTELにて確認願います。",
+        "複写代金の請求書の発行はできません。またお問い合わせいただいても、郵便振替、銀行振込、切手などでのお支払いは受付できません。",
+        "貸出期間 :発送・返却日数を含めて3週間",
+        "貸出冊数 :1機関につき3冊まで",
+        "返却期限内でも必要に応じ、返却を依頼することがあります",
+        "貸出延長は不可",
+        "館外貸出可",
+        "禁帯出図書・大型図書は貸出できません",
+        "発送代金は郵便書留や宅配便の着払い。もしくは現金書留か郵便為替による後払い。NC-ILL相殺加盟館は当館の元払い。",
+        "返送は簡易書留か宅配便で(メール便不可)",
+        "対象は図書のみ",
+        "汚損・破損・紛失の場合は相当代金を弁償していただきます",
+        "ILL-Dept:Interlibrary Loan unit",
+        "ILL-Org:Kyorin University Inokashira Library",
+        "ILL-Address:5-4-1 Simorenjaku, Mitaka, Tokyo, JAPAN",
+        "ILL-ZIP:181-8612",
+        "ILL-Commun1:Tel:+81-*********** / FAX: +81-*********** / Email:ilib@ks.kyorin-u.ac.jp",
+        "ILL-Commun2:OPAC:http://lib.kyorin-u.ac.jp/?page_id=13690 / Home-Page:http://lib.kyorin-u.ac.jp/",
+        "ILL-Sched:Closed Nov 11, Dec 29-Jan 3, etc.",
+        "ILL-Accept:Foreign:KERIS",
+        "ILL-Bill:Foreign:KERIS=NII Fee Management service",
+        "ILL-Loan-Period:Foreign: N/A",
+        "ILL-Non-Circulation:Foreign: N/A",
+        "ILL-Copy-Charge:Photocopy:[black-and-white] Not-for-profit institution 50 YEN per sheet[per exposure], Profit organization 100 YEN per sheet[per exposure]. Postage required.",
+        "ILL-Copy-Charge:Photocopy:[Color]Not-for-profit institution 100 YEN per sheet[per exposure], Profit organization 500 YEN per sheet[per exposure]. Postage required.",
+        "ILL-Copy-Charge:Foreign: Photocopy:Delivery method: via airmail"
+      ]
+    }
+  ]
+}

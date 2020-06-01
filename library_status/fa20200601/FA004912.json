@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004912.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004912#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004912.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "和洋女子大学 メディアセンター"
+        },
+        {
+          "@value": "ワヨウジヨシダイガク メディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "和洋女"
+        },
+        {
+          "@value": "ワヨウジヨ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004912",
+      "cinii:organizationid": "KI001880",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "和洋女子大学 メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "272-8533",
+        "v:label": "千葉県市川市国府台2-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "047-371-1362"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "047-371-1157"
+        }
+      ],
+      "dc:description": [
+        "Wayo Women's University Media Center",
+        "2-3-1 Konodai, Ichikawa-shi, Chibaken, Japan",
+        "URL:http://www.wayo.ac.jp/facilities_campus/media_center/tabid/565/Default.aspx",
+        "来館利用担当:利用サービス係",
+        "電話番号:047-371-1362",
+        "受付時間:9:00-17:00(平日)9:00-14:00(土曜日)",
+        "開館時間:9:00-20:00(平日開講日)9:00-16:00(土曜開講日)",
+        "複写時間:受付時間まで",
+        "閲覧申込:所属する図書館、資料室等を通してお申込ください。図書館、資料室のご担当者様は事前に所蔵調査依頼をFAXにて問い合わせください。",
+        "持参書類:所属図書館等の紹介状、身分証明書",
+        "館外貸出:不可",
+        "制限事項:本学の事情により利用できない資料もあります。",
+        "休館日:日曜・祝日 その他の休館日や長期休業中の開館時間については本館HPカレンダーをご覧ください。"
+      ]
+    }
+  ]
+}

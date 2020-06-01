@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA027361.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA027361#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA027361.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 森林研究・整備機構 森林総合研究所 林木育種センター"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン シンリンケンキュウ・セイビキコウ シンリンソウゴウケンキュウショ リンボクイクシュセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "森総研林育セ"
+        },
+        {
+          "@value": "シンソウケンリンイクセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027361",
+      "cinii:organizationid": "KI005462",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 森林研究・整備機構 森林総合研究所 林木育種センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "319-1301",
+        "v:label": "茨城県日立市十王町伊師3809-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0294-33-7152"
+        }
+      ],
+      "dc:description": [
+        "Forestry and Forest Products Research Institute Forest Tree Breeding Center",
+        "3809-1 Ishi Juo Hitachi Ibaraki 319-1301, JAPAN"
+      ]
+    }
+  ]
+}

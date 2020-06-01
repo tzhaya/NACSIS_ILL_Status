@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003975.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003975#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003975.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪市立大学 学術情報総合センター 医学分館"
+        },
+        {
+          "@value": "オオサカシリツダイガク ガクジュツジョウホウソウゴウセンター イガクブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪市大医"
+        },
+        {
+          "@value": "ハンシダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "分館",
+        "医分"
+      ],
+      "cinii:memberid": "FA003975",
+      "cinii:organizationid": "KI001144",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪市立大学 学術情報総合センター 医学分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "545-0051",
+        "v:label": "大阪府大阪市阿倍野区旭町1-2-7"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6645-3491"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6645-3489"
+        }
+      ],
+      "dc:description": [
+        "Osaka City University Media Center Medical Library",
+        "Asahimachi 1-2-7, Abeno-ku, Osaka 545-0051, Japan",
+        "URL:http://www.med.osaka-cu.ac.jp/medlib/",
+        "館外貸出:不可",
+        "利用者の範囲:学術研究・調査を目的とし、公共図書館等で入手できない専門・学術資料の利用を希望する方",
+        "来館利用担当:学術情報総合センター医学分館",
+        "電話番号:06-6645-3491",
+        "FAX:06-6645-3489",
+        "通常開館時間:9:00-21:00(土曜日10:00-19:00)",
+        "受付時間:月〜金:9:00-20:30 土:10:00-18:30",
+        "注意事項:別置資料(1980年以前の雑誌及び一部単行本)等、即日の利用ができないものもありますので、事前に資料の利用の可否を最寄りの図書館等から、FAX(06-6645-3489)でお問い合わせください。",
+        "持参書類:所属機関の図書館、あるいは公共図書館等からの閲覧依頼状および身分証",
+        "複写時間:月〜金:9:00-20:30 土:10:00-18:30",
+        "制限事項:配置場所が研究室の資料等利用できない資料があります。",
+        "休館日:日祝日。その他の休館日については、医学分館のホームページのカレンダーで確認してください。",
+        "ILL-Org:Osaka City University Media Center Medical Library",
+        "ILL-Address:Asahimachi 1-2-7, Abeno-ku, Osaka, Japan",
+        "ILL-ZIP:545-0051",
+        "ILLCommun1:Tel:+81-6-6645-3491 / FAX:+81-6-6645-3489 / E-mail:medlib@med.osaka-cu.ac.jp"
+      ]
+    }
+  ]
+}

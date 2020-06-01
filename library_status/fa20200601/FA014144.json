@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014144.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014144#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014144.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "早稲田大学 商学研究図書室"
+        },
+        {
+          "@value": "ワセダダイガク ショウガクケンキュウトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "早大商"
+        },
+        {
+          "@value": "ソウダイシヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014144",
+      "cinii:organizationid": "KI002781",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "早稲田大学 商学研究図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "169-8050",
+        "v:label": "東京都新宿区西早稲田1-6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5286-1824"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3202-9204"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.waseda.ac.jp/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019283.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019283#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019283.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高田短期大学 付属図書館"
+        },
+        {
+          "@value": "タカダタンキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高田短大"
+        },
+        {
+          "@value": "タカダタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館",
+        "積層",
+        "閉架"
+      ],
+      "cinii:memberid": "FA019283",
+      "cinii:organizationid": "KI011501",
+      "cinii:prefcode": "24",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "高田短期大学 付属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "514-0115",
+        "v:label": "三重県津市一身田豊野195"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "059-232-2310"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "059-232-6317"
+        }
+      ],
+      "dc:description": [
+        "Takada Junior College",
+        "195, Toyono, Tsu-si, Mie 514-0115",
+        "URL:http://www.takada-jc.ac.jp/",
+        "複写・貸借担当:相互協力担当",
+        "ILL相殺サービスには加入しておりません 文献複写支払方法は切手でお願いします(白黒:10円/枚、カラーB5・A4・B4:50円/枚、カラーA3:80円/枚)",
+        "貸借期間:3週間",
+        "貸借注記:冊子小包(簡易書留)",
+        "電話番号:059-232-2310",
+        "受付時間:8:50〜17:00",
+        "注意事項:資料の所在等、事前確認してください。 開館日を確認してください。",
+        "持参書類:身分証明書またはそれにかわる物",
+        "複写時間:9:00〜16:00",
+        "館外貸出:可",
+        "制限事項:特になし",
+        "休館日:土曜日、日曜日、年末年始、国民の祝日、本学創立記念日"
+      ]
+    }
+  ]
+}

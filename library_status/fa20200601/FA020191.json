@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020191.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020191#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020191.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "ものつくり大学 図書情報センター"
+        },
+        {
+          "@value": "モノツクリダイガク トショジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "もの大"
+        },
+        {
+          "@value": "モノダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図情セ"
+      ],
+      "cinii:memberid": "FA020191",
+      "cinii:organizationid": "KI012140",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "ものつくり大学 図書情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "361-0038",
+        "v:label": "埼玉県行田市前谷333番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-564-3821"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-564-3870"
+        }
+      ],
+      "dc:description": [
+        "Insutitute of Technologists Library",
+        "333 Maeya, Gyoda-city, Saitama 361-0038,Japan",
+        "URL:http://www.iot.ac.jp/ (website)",
+        "URL:http://www.iot.ac.jp/guide/access.shtml (map)",
+        "利用時間:9:30～18:00、試験期間9:30～18:30、短縮開館日10:00～17:00",
+        "休館日:土曜日、日曜日、祝日、夏季休業日、年末年始、本学のカレンダーによる休業日",
+        "ILL-Org:Insutitute of Technologists Library",
+        "ILL-Address:333 Maeya, Gyoda-city, Saitama ,Japan",
+        "ILL-Zip:361-0038",
+        "ILL-Commun1:Tel:+81-48-564-3821 /Fax:+81-48-564-3870 /E-mail:library@iot.ac.jp"
+      ]
+    }
+  ]
+}

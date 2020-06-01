@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001302.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001302#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001302.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "小樽商科大学 附属図書館"
+        },
+        {
+          "@value": "オタルショウカダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "樽大"
+        },
+        {
+          "@value": "タルダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA001302",
+      "cinii:organizationid": "KI00004X",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000400",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "小樽商科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "047-8502",
+        "v:label": "北海道小樽市緑3-5-21"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0134-27-6541"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0134-27-5275"
+        }
+      ],
+      "dc:description": [
+        "Otaru University of Commerce Library",
+        "3-5-21, Midori, Otaru, Hokkaido 047-8502",
+        "URL:http://www.otaru-uc.ac.jp/htosyo1/ (website)",
+        "URL:http://webopac.ih.otaru-uc.ac.jp/ (opac)",
+        "URL:http://www.otaru-uc.ac.jp/htosyo1/annai/kotu.html (map)",
+        "来館利用担当 :利用者支援係",
+        "電話番号 :0134-27-5273",
+        "受付時間 :平日: 8:45-21:30",
+        "受付時間 :土曜: 10:00-19:15",
+        "受付時間 :日曜・祝日: 10:00-16:45",
+        "注意事項 :休業期間中は8:45-16:45 (土日祝: 10:00-16:45)",
+        "注意事項 :開館時間の詳細については当館ホームページのカレンダーを参照のこと",
+        "持参書類 :身分証明書(貸出希望の場合は住所が判るもの)・学生証",
+        "複写時間 :受付時間に同じ(セルフサービス)",
+        "館外貸出 :学外利用者登録が必要(住所などが確認出来る証明書類が必要)",
+        "休館日 :年末年始・その他",
+        "ILL-Staff:Ichiro SHIKANAI",
+        "ILL-Dept:Interlibrary Loan Section,",
+        "ILL-ORG:Otaru University of Commerce Library",
+        "ILL-Adress:midori 3-5-21, Otaru-shi, Hokkaido, Japan",
+        "ILL-ZIP: 047-8502",
+        "ILL-Commun1:fax:+81-*********** / e-mail:lib-unyo@office.otaru-uc.ac.jp",
+        "ILL-Commun2:OPAC:http://opac.ih.otaru-uc.ac.jp/, Home-Page:http://www.otaru-uc.ac.jp/htosyo1/",
+        "ILL-Accept:Foreign:KERIS",
+        "ILL-Sched:Closed Dec.29-Jan.3",
+        "ILL-Bill:Foreign:KERIS=NII Fee Management Service",
+        "ILL-Loan-Period:Foreign:None",
+        "ILL-Loan-Renew:Foreign:None",
+        "ILL-Loan-Charge:Foreign None",
+        "ILL-Loan-Non-Circulation:Foreign:None",
+        "ILL-Loan-Charge:Foreign:None",
+        "ILL-Copy-Charge:PHOTOCOPY:35 YEN per sheet / Postage required / Delivery method:via airmail",
+        "ILL-NOTE:THESIS:Photocopy:need the autor's permission"
+      ]
+    }
+  ]
+}

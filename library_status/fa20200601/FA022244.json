@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022244.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022244#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022244.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "青山学院大学 大学院 法務研究科 ローライブラリー"
+        },
+        {
+          "@value": "アオヤマガクインダイガク ホウムケンキュウカ ローライブラリー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "青学法科"
+        },
+        {
+          "@value": "アオガクホウカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "法科図書"
+      ],
+      "cinii:memberid": "FA022244",
+      "cinii:organizationid": "KI001891",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "青山学院大学 大学院 法務研究科 ローライブラリー",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "150-8366",
+        "v:label": "渋谷区渋谷4-4-25"
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019523.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019523#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019523.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "香川大学 図書館 創造工学部分館"
+        },
+        {
+          "@value": "カガワダイガク トショカン ソウゾウコウガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "香大工分"
+        },
+        {
+          "@value": "カダイコウブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019523",
+      "cinii:organizationid": "KI000764",
+      "cinii:prefcode": "37",
+      "cinii:mextid": "006502",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "香川大学 図書館 創造工学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "761-0396",
+        "v:label": "香川県高松市林町2217番地20"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "087-864-2065"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "087-864-2069"
+        }
+      ],
+      "dc:description": [
+        "Faculty of Engineering Branch, Kagawa University Library",
+        "2217-20, Hayashi-cho, Takamatsu-shi, Kagawa 761-0396",
+        "URL:https://w3.lib.kagawa-u.ac.jp/?page_id=132 (website)",
+        "来館利用担当:工学系サービス担当",
+        "電話番号:087-864-2065",
+        "受付時間:9:00〜20:00(通常期平日), 9:00〜12:30(通常期土曜日), 9:00〜17:15(休業期平日)",
+        "注意事項:来館利用については,事前連絡が望ましい。",
+        "注意事項:来館利用の範囲は図書館所蔵資料に限る。",
+        "持参書類:身分証明書,学生証又はこれに代わるもの。",
+        "館外貸出:可(貸出は,来館して返却が可能な者に限る。)",
+        "制限事項:貴重図書等には貸出を許可しないものがある。",
+        "休館日:日曜日,休業期間中及び学年末試験終了日から4月末日までの間の土曜日,国民の祝日に関する法律に規定する休日,年末年始(12月27日から翌年の1月4日まで),分館長が特に必要と認めた日。"
+      ]
+    }
+  ]
+}

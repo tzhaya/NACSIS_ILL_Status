@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016569.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016569#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016569.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鹿児島工業高等専門学校 図書館"
+        },
+        {
+          "@value": "カゴシマコウギヨウコウトウセンモンガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鹿高専図"
+        },
+        {
+          "@value": "カコウセント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016569",
+      "cinii:organizationid": "KI009237",
+      "cinii:prefcode": "46",
+      "cinii:mextid": "605200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "鹿児島工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "899-5193",
+        "v:label": "鹿児島県霧島市隼人町真孝1460-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0995-42-9006"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0995-42-0350"
+        }
+      ],
+      "dc:description": [
+        "Kagoshima National College of Technology Library",
+        "1460-1 Shinko, Hayato-cho, Kirishima-shi, Kagoshima 899-5193",
+        "URL :http://www.kagoshima-ct.ac.jp/~tosho/intro-library.html"
+      ]
+    }
+  ]
+}

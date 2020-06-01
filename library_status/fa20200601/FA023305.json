@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023305.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023305#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023305.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "刈谷豊田総合病院 図書室"
+        },
+        {
+          "@value": "カリヤトヨタソウゴウビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "刈谷総"
+        },
+        {
+          "@value": "カリヤソウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA023305",
+      "cinii:organizationid": "KI014102",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "刈谷豊田総合病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "448-8505",
+        "v:label": "愛知県刈谷市住吉町5-15"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0566-21-2450(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0566-25-2416(専用)"
+        }
+      ],
+      "dc:description": [
+        "",
+        "複写料金:1枚50円(カラー1枚100円)",
+        "送付方法:郵送",
+        "支払方法:相殺サービス利用。その他機関=銀行振込または郵便為替(切手不可)",
+        "請求書の発行不可",
+        "複写受付時間:月〜金 8:30〜16:30、第1・3土 8:30〜14:00",
+        "休館日:第2・4・5土、日、祝、8/13-15、12/29-1/4",
+        "その他臨時に休室する場合があります",
+        "",
+        "==========================================",
+        "来館利用不可",
+        "一般の方および個人による申込不可",
+        "医療従事者の方は所属機関の図書館を通してお申込ください",
+        "",
+        "==========================================",
+        "<FAXでお申込の機関様へお願い>",
+        "速達を希望される場合は、事前にお電話でご確認ください",
+        "複写代金の振込は【施設名】でお願いいたします(個人名不可)",
+        "=========================================="
+      ]
+    }
+  ]
+}

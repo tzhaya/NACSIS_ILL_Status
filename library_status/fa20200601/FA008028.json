@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008028.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008028#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008028.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "近畿大学 中央図書館"
+        },
+        {
+          "@value": "キンキダイガク チュウオウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "近大"
+        },
+        {
+          "@value": "キンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "中図",
+        "教職",
+        "教養",
+        "法学",
+        "商経",
+        "原研",
+        "労研",
+        "比研",
+        "職研",
+        "環研",
+        "教研",
+        "世研",
+        "短大",
+        "共同",
+        "文芸",
+        "民研",
+        "人研",
+        "理工",
+        "薬学"
+      ],
+      "cinii:memberid": "FA008028",
+      "cinii:organizationid": "KI00373X",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "近畿大学 中央図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "577-8502",
+        "v:label": "大阪府東大阪市小若江3-4-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-4307-3087"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6726-2336"
+        }
+      ],
+      "dc:description": [
+        "学外者の利用については、中央図書館ホームページをご覧下さい。https://www.clib.kindai.ac.jp",
+        "ILL-Staff:Nobutaka",
+        "ILL-Dept:Reference Section",
+        "ILL-Org:Kindai University Central Library",
+        "ILL-Address:3-4-1 Kowakae Higashiosaka Japan",
+        "ILL-ZIP:577-8502",
+        "ILL-Commun1:Tel:+81-6-6721-2332/FAX:+81-6-6726-2336/E-mail:clib-ill@itp.kindai.ac.jp",
+        "ILL-Commun2:OPAC:https://opac.clib.kindai.ac.jp/opac/opac_search.cgi",
+        "ILL-Accept:Foreign(2): KERIS",
+        "ILL-Sched:closed:Aug 8-Aug 20,Dec 25-Jan 5",
+        "ILL-Bill:KERIS=NII Fee Management Service only",
+        "ILL-Non-Corculation:precious materials,maps,reference books,periodicals,microfilms,microfiches,av",
+        "ILL-Copy-Charge:40 YEN per sheet"
+      ]
+    }
+  ]
+}

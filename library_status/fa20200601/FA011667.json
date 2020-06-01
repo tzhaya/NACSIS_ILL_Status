@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011667.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011667#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011667.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本医師会 医学図書館"
+        },
+        {
+          "@value": "ニホンイシカイ イガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "医師会"
+        },
+        {
+          "@value": "イシカイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011667",
+      "cinii:organizationid": "KI006793",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "日本医師会 医学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-8621",
+        "v:label": "東京都文京区本駒込2-28-16"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3942-6492"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3942-6495"
+        }
+      ],
+      "dc:description": [
+        "Medical Library of the Japan Medical Association",
+        "2-28-16, Honkomagome, Bunkyo-ku, Tokyo 113-8621",
+        "URL:http://www.med.or.jp(WEBSITE)",
+        "閲覧受付時間:10:00 - 17:00",
+        "利用対象者:日本医師会会員,事前に館長の閲覧許可を得た方.",
+        "事前にかならず電話確認をしてください.",
+        "持参書類:図書館長による利用紹介状.本人確認ができるもの.",
+        "館外貸出:不可.",
+        "休館日:土曜,日曜,国民の祝日,年末年始.",
+        "一部別置資料があります.",
+        "**来館利用は5月31日まで休止します"
+      ]
+    }
+  ]
+}

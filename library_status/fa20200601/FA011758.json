@@ -1,0 +1,149 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011758.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011758#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011758.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 大学院人文社会系研究科・文学部 図書室"
+        },
+        {
+          "@value": "トウキョウダイガク ダイガクインジンブンシャカイケイケンキュウカ ブンガクブ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大文"
+        },
+        {
+          "@value": "トウダイブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "国文",
+        "国語",
+        "中文",
+        "英文",
+        "仏文",
+        "独文",
+        "スラヴ文",
+        "南欧文",
+        "哲学",
+        "倫理",
+        "心理",
+        "中国思想",
+        "印哲",
+        "日本史",
+        "東史",
+        "西史",
+        "考古",
+        "宗教",
+        "印文",
+        "西洋古典",
+        "社会",
+        "社会心理",
+        "美学",
+        "美史",
+        "言語",
+        "次世代セ",
+        "視教セ",
+        "イスラム",
+        "常呂",
+        "韓国朝鮮",
+        "言語動態",
+        "文化資源",
+        "現文",
+        "死生学セ"
+      ],
+      "cinii:memberid": "FA011758",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002105",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 大学院人文社会系研究科・文学部 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-3718"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-3820"
+        }
+      ],
+      "dc:description": [
+        "◆新型コロナウイルス感染症拡大防止のための利用制限について◆",
+        "◆東京大学所属者以外の方は2020年3月30日(月)～当面の間(終期未定)、ご利用いただけません。詳細は下記URLをご参照ください。http://www.l.u-tokyo.ac.jp/lib/news/2019/1035.html",
+        "閲覧担当係:図書チーム サービス担当",
+        "閲覧対象者:教職員・大学院生・学生等(閲覧と著作権の範囲内での複写のみ)",
+        "どの機関にも所属していない一般の方は、ご連絡先(FAX・e-mail・住所)を明記の上、まずはFAX等文書にてお問い合わせください。",
+        "閲覧事前連絡:要",
+        "資料の大多数は研究室に点在しているので、所属機関の図書館を通じて所在等を必ずFAXで事前確認をしてください。",
+        "閲覧持参書類:身分証明書および当方よりの事前確認(所蔵調査)回答書",
+        "閲覧受付時間:9:00-16:45",
+        "複写受付時間:9:00-17:00",
+        "館外貸出可否:否",
+        "利用可能時間:9:00-17:00",
+        "休館日:土曜日・日曜日・祝祭日・年末年始(12/27-1/4)・東京大学入学試験日・館内整理日(第4水曜9:00-13:00。3月、8月、祝祭日が重なる月を除く) ・その他臨時に決定した日",
+        "電話番号:03-5841-3718",
+        "FAX番号:03-5841-3820",
+        "The University of Tokyo, Graduate School of Humanities and Sociology, Faculty of Letters, Library.",
+        "7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033",
+        "URL: http://www.l.u-tokyo.ac.jp/lib/index.html",
+        "URL: http://www.u-tokyo.ac.jp/campusmap/cam01_05_03_j.html",
+        "ILL-Staff: Yumiko NAITO",
+        "ILL-Dept: Service section",
+        "ILL-Org: Faculty of Letters Library, University of Tokyo",
+        "ILL-Address: 7-3-1 Hongo, Bunkyo-ku, Tokyo, Japan",
+        "ILL-Zip: 113-0033",
+        "ILL-Contact1: fax: +81-3-5841-3820 / e-mail: service@l.u-tokyo.ac.jp",
+        "ILL-Contact2: Online catalog: https://opac.dl.itc.u-tokyo.ac.jp/opac/opac_search/?lang=1",
+        "ILL- Calendar: Closed: Dec27-Jan4",
+        "ILL-Accept: International: LOAN (N/A)",
+        "ILL-Accept: International: COPY (Yes)",
+        "ILL-Accept-method: Korea: KERIS=NII ILL linkage (COPY only)",
+        "ILL-Accept-method: International: E-mail",
+        "ILL-Payment-method: KERIS= NII Fee Management service (Yes)",
+        "ILL-Payment-method: International: Bank Transaction / Invoice (Yes). Early payment is encouraged.",
+        "ILL-Copy-Charge: [black and white] 50 JPY per sheet, [color] 90 JPY per sheet / Postage required",
+        "ILL-Copy-Delivery-method: Korea: KERIS=Airmail",
+        "ILL-Copy-Delivery-method: International: Airmail, Ariel",
+        "ILL-Note: Korea: KERIS=Items held at Faculty of Letters Library are available. Items owned by each department of the Faculty are not available, if same title is held at another library.  Please write Call Number when you order.",
+        "ILL-Note: International: We accept requests from academic  organization only, not from any individuals and corporations.",
+        "ILL-Note: International: We do not accept requests for items that are available from other libraries.",
+        "ILL-Note: International: Please write Call Number when you order.",
+        "ILL-Note: International: We cannot serve copy from E-journal."
+      ]
+    }
+  ]
+}

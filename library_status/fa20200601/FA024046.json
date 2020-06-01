@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024046.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024046#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024046.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "保健医療経営大学 情報メディアセンター 図書館"
+        },
+        {
+          "@value": "ホケンイリョウケイエイダイガク ジョウホウメディアセンター トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "医経大"
+        },
+        {
+          "@value": "イケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024046",
+      "cinii:organizationid": "KI01442X",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "保健医療経営大学 情報メディアセンター 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "835-0018",
+        "v:label": "福岡県みやま市瀬高町高柳960番地4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0944-67-7007"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0944-63-3003"
+        }
+      ],
+      "dc:description": [
+        "College of Healthcare Management Information Media Center Library",
+        "960-1 Takayanagi, Setaka, Miyama, Fukuoka 835-0018"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024793.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024793#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024793.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "埼玉東萌短期大学 附属図書館"
+        },
+        {
+          "@value": "サイタマトウホウタンキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東萌短大"
+        },
+        {
+          "@value": "トウホウタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024793",
+      "cinii:organizationid": "KI014882",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "埼玉東萌短期大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "343-0857",
+        "v:label": "埼玉県越谷市新越谷2-21-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-987-2345"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-989-4550"
+        }
+      ],
+      "dc:description": [
+        "通常開館時間:10:00～18:00(土曜日及び講義のない日:9:00～17:00)",
+        "電話番号:048-987-2345(大学代表)",
+        "FAX番号:048-989-4550(大学代表)",
+        "事前連絡:特定の資料を確実に閲覧したい場合や書庫出納、複写業務、質問などがある場合のみ事前連絡をお願いします",
+        "開館時間・休館日:図書館カレンダーを参照してください http://118.151.113.23/opac4/opac/top",
+        "複写・相互貸借・閲覧担当係:係は特にありません",
+        "ILLシステムでは受付しておりません",
+        "ILL文献複写等料金相殺サービスには参加しておりません",
+        "ILL-Org:Saitama Toho Junior College Library",
+        "ILL-Address:3-85-1 Shichiza-cho,Koshigaya-shi,Saitama,JAPAN",
+        "ILL-ZIP:343-0851",
+        "ILL-Commun1:Tel:+81-048-987-2345 / Fax:+81-048-989-4550 / E-mail:library@saitamatoho.jp",
+        "ILL-Commun2:OPACURL:http://118.151.113.23/jhkweb_JPN/service/ncid_search.asp?ncid=<NCID>"
+      ]
+    }
+  ]
+}

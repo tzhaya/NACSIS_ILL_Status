@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA018804.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA018804#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA018804.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "兵庫県立淡路景観園芸学校 図書館"
+        },
+        {
+          "@value": "ヒヨウゴケンリツアワジケイカンエンゲイガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "淡路景観園芸"
+        },
+        {
+          "@value": "アワジケイカンエンゲイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018804",
+      "cinii:organizationid": "KI011035",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "兵庫県立淡路景観園芸学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "656-1726",
+        "v:label": "兵庫県淡路市野島常盤954-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0799-82-3194(ダイヤルイン)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0799-82-3195"
+        }
+      ],
+      "dc:description": [
+        "Hyogo Prefectural Awaji Lnadscape Planning & Hoticulture Academy",
+        "954-2,Nojimatokiwa,Awaji-shi,Hyogo 656-1726",
+        "URL:http://www.awaji.ac.jp (map)",
+        "電話番号:0799-82-3194",
+        "受付時間:9:00〜15:30",
+        "館外貸出:不可",
+        "休館日:土曜日,日曜日,国民の祝日"
+      ]
+    }
+  ]
+}

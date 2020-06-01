@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01940X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01940X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01940X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 労働者健康安全機構 中国労災病院 図書室"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジン ロウドウシャケンコウアンゼンキコウ チュウゴクロウサイビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中国労"
+        },
+        {
+          "@value": "チュウゴクロウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA01940X",
+      "cinii:organizationid": "KI011603",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "独立行政法人 労働者健康安全機構 中国労災病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "737-0193",
+        "v:label": "広島県呉市広多賀谷1-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0823-72-7171"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0823-74-0371"
+        }
+      ],
+      "dc:description": [
+        "Japan Organization of Occupational Health and Safety Chugoku Rosai Hospital",
+        "1-5-1, Hiro-Tagaya, Kure-shi, Hiroshima 737-0193",
+        "電話番号:0823-72-7171(内線645)",
+        "受付時間:8:30〜15:45   複写時間:8:30〜15:45",
+        "複写受付:可 申込方法:NACSIS-ILL、FAX。",
+        "複写方法・料金:電子複写(モノクロ1枚10円)、FAX料金1枚40円(モノクロ1枚10円+FAX料30円) ※FAXによる文献の送付をご希望の場合は、必ず、事前に電話で係在室をご確認の上、お申込み頂きますようお願い致します!",
+        "当室はILL相殺サービス非加盟館です。支払方法:小額切手(100円未満)",
+        "館外貸出:相談応",
+        "制限事項: 所蔵について…所蔵は基本10年保管となります。「古い文献は廃棄により対応できません」、「バックナンバー10年まで対応可能です」  ※総合医局増設に伴い、3万冊ありました蔵書を大幅に廃棄致しました。廃棄処分後の整理および目録修正を徐々にしておりますが、目録は未完成のためご注意ください!",
+        "休館日:土・日曜日、国民の休日、年末年始。 ※諸事情により暫くの間ILL業務を休止させて頂きます。"
+      ]
+    }
+  ]
+}

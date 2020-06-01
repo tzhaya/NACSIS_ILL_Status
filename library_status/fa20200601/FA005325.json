@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005325.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005325#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005325.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "芝浦工業大学 大宮図書館"
+        },
+        {
+          "@value": "シバウラコウギヨウダイガク オオミヤトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "芝工大宮"
+        },
+        {
+          "@value": "シバコウオオミヤ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "宮図",
+        "シス図"
+      ],
+      "cinii:memberid": "FA005325",
+      "cinii:organizationid": "KI002078",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "芝浦工業大学 大宮図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "337-8570",
+        "v:label": "埼玉県さいたま市見沼区深作307"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-687-5120"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-687-5122"
+        }
+      ],
+      "dc:description": [
+        "Shibaura Institute of Technology Omiya Library",
+        "307,Fukasaku, Minuma-Ku, Saitama-Shi, Saitamaken 337-8570",
+        "URL:http://lib.shibaura-it.ac.jp/ (Website)",
+        "URL:https://library1.shibaura-it.ac.jp/ (OPAC)",
+        "来館利用担当:閲覧係",
+        "電話番号:048-687-5104",
+        "受付時間:9:00〜21:00",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:必ず所属大学図書館発行の紹介状をご持参下さい。(私工大懇話会加盟大学の方は学生証・身分証明書)",
+        "複写時間:9:00〜21:00",
+        "館外貸出:不可",
+        "休館日:日曜日,国民の休日,祝日,創立記念日(11月4日),入学試験日,年末年始,夏季一斉休暇(8月上旬〜中旬)",
+        "対図書館複写サービス:受付可",
+        "図書館間相互貸借:受付可",
+        "相互貸借による貸借期間:2週間"
+      ]
+    }
+  ]
+}

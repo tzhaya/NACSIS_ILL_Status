@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017277.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017277#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017277.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋文理大学 図書情報センター"
+        },
+        {
+          "@value": "ナゴヤブンリダイガク トショジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名文理大"
+        },
+        {
+          "@value": "メイブンリダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "名図"
+      ],
+      "cinii:memberid": "FA017277",
+      "cinii:organizationid": "KI009816",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "名古屋文理大学 図書情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "492-8520",
+        "v:label": "愛知県稲沢市稲沢町前田365"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0587-23-2400"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0587-21-2844"
+        }
+      ],
+      "dc:description": [
+        "Nagoya Bunri University",
+        "365, Maeda, Inazawa-cho, Inazawa-shi, Aichi 492-8520",
+        "URL:http://www.nagoya-bunri.ac.jp/UNIV/index.html",
+        "URL:http://opaci.nagoya-bunri.ac.jp/ (稲沢キャンパス図書館HP)",
+        "URL:http://www.nagoya-bunri.ac.jp/information/access.html (稲沢キャンパスアクセス)",
+        "http://opacn.nagoya-bunri.ac.jp/ (名古屋キャンパス図書館HP)",
+        "http://www.nagoya-bunri.ac.jp/COL/information/access.html (名古屋キャンパスアクセス)",
+        "閲覧担当係 :相互協力係",
+        "受付時間: 9:00〜16:30",
+        "注意事項: 資料の所在等、事前確認をしてください。学外者の方は館外貸出は出来ません。",
+        "持参書類: 紹介状、あるいは身分を証明できるものを必ず携帯して下さい。",
+        "複写時間: 9:00〜16:30",
+        "館外貸出: 不可",
+        "休館日: 土・日曜日、夏季一斉休業(8月中旬)、年末年始、蔵書点検期間中(2月中旬)。詳しくは、ホームページにてご確認ください。"
+      ]
+    }
+  ]
+}

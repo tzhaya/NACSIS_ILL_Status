@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008775.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008775#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008775.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "松山大学 図書館"
+        },
+        {
+          "@value": "マツヤマダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "松山大図"
+        },
+        {
+          "@value": "マツヤマダイト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008775",
+      "cinii:organizationid": "KI004288",
+      "cinii:prefcode": "38",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "松山大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "790-8578",
+        "v:label": "愛媛県松山市文京町4-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "089-926-7208"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "089-922-5657"
+        }
+      ],
+      "dc:description": [
+        "Matsuyama University Library",
+        "4-2, Bunkyo-cho, Matsuyama, Ehime 790-8578",
+        "URL:https://www.matsuyama-u.ac.jp/library/",
+        "来館利用担当:図書館事務室",
+        "電話番号:089-926-7208",
+        "受付時間: 月～土: 9:00-21:45 *開館日はホームページよりご確認ください。",
+        "車での来館はご遠慮下さい。",
+        "持参書類:資料利用依頼書 (身分を証明するものを携行のこと)",
+        "複写時間: 月～土: 9:00-21:45 *開館日はホームページよりご確認ください。",
+        "館外貸出:不可",
+        "制限事項:資料によっては閲覧できない場合があります。",
+        "日曜、祭日、8/10～8/19(夏季休日)、12/27～1/6(冬季休日)、2/15(入学試験)",
+        "ILL-OCLC-Symbol:J3L"
+      ]
+    }
+  ]
+}

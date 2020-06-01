@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007069.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007069#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007069.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福井工業大学 図書館"
+        },
+        {
+          "@value": "フクイコウギヨウダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福井工大"
+        },
+        {
+          "@value": "フクイコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007069",
+      "cinii:organizationid": "KI003015",
+      "cinii:prefcode": "18",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "福井工業大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "910-8505",
+        "v:label": "福井県福井市学園3-6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0776-29-7870"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0776-28-7032"
+        }
+      ],
+      "dc:description": [
+        "Library of the Fukui University of Technology",
+        "3-6-1 gakuen fukui-shi fukui 910-8505 JAPAN"
+      ]
+    }
+  ]
+}

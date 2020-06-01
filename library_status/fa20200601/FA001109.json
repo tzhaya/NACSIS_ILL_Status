@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001109.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001109#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001109.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 大学院工学研究科・工学部図書室"
+        },
+        {
+          "@value": "ホッカイドウダイガク ダイガクインコウガクケンキュウカ・コウガクブトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大工"
+        },
+        {
+          "@value": "ホクダイコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "中央図書",
+        "土木図書",
+        "建築図書",
+        "衛生図書",
+        "資源図書",
+        "精密図書",
+        "電気図書",
+        "電子図書",
+        "応物図書",
+        "原子図書",
+        "数物系図書",
+        "情報図書",
+        "機械図書",
+        "材料・化学系図",
+        "研究室"
+      ],
+      "cinii:memberid": "FA001109",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000107",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道大学 大学院工学研究科・工学部図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-8628",
+        "v:label": "札幌市北区北13条西8丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-706-6166"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-706-7893"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.lib.hokudai.ac.jp/eng/ (website)",
+        "来館利用担当:中央図書担当",
+        "電話番号:011-706-6166",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始",
+        "注意事項:学外の方には館外貸出はできません。",
+        "持参書類:身分証明書又は学生証",
+        "館外貸出:不可",
+        "制限事項:研究室の資料については閲覧できないものがあります。",
+        "ILL-Org:Hokkaido University, Faculty and Graduate School of Engineering",
+        "ILL-Address: Kita 13 Nishi 8, Kita-ku, Sapporo, Japan",
+        "ILL-ZIP: 060-8628",
+        "ILL-Commun1: Tel:+81-11-706-6166 / FAX:+81-11-706-7893 / E-mail:eng@lib.hokudai.ac.jp"
+      ]
+    }
+  ]
+}

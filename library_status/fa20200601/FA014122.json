@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014122.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014122#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014122.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "早稲田大学 社会科学部教員図書室"
+        },
+        {
+          "@value": "ワセダダイガク シヤカイカガクブキヨウイントシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "早大社学"
+        },
+        {
+          "@value": "ソウダイシヤガク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014122",
+      "cinii:organizationid": "KI002781",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "早稲田大学 社会科学部教員図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "169-8050",
+        "v:label": "東京都新宿区西早稲田1-6-1"
+      },
+      "dc:description": [
+        "受付時間:(月)―(金)9:00～21:45(土)9:00～17:45★ただし、夏季・冬季休業期間中は変更あり",
+        "注意事項:各季休業期間中の開室日程および時間については、早稲田大学図書館ホームページ等で確認してください。",
+        "学外者は、事前に所属機関の図書館を通じて、中央図書館訪問利用担当宛てFAXで所蔵確認を行なってください。",
+        "https://www.waseda.jp/library/user/visitors/",
+        "◆------------------------------------------------------",
+        "早稲田大学中央図書館訪問利用担当",
+        "TEL 03-5286-2195FAX 03-5286-2194",
+        "http://www.wul.waseda.ac.jp/CLIB/tol_page3.html",
+        "---------------------------------------------------------◆",
+        "持参書類:1.所属機関発行の紹介状2.身分証明書(1と2をご持参ください)",
+        "複写について:早稲田大学発行のコピーカードのみ<中央図書館でお買い求めのうえ来室ください>",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、年末年始、夏季休業中の一定期間",
+        "★★★事前に手続きがないと入室はできませんのでご注意ください★★★"
+      ]
+    }
+  ]
+}

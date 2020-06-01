@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022619.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022619#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022619.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "埼玉学園大学 情報メディアセンター"
+        },
+        {
+          "@value": "サイタマガクエンダイガク ジョウホウメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "埼学大"
+        },
+        {
+          "@value": "サイガクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022619",
+      "cinii:organizationid": "KI013471",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "埼玉学園大学 情報メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "333-0831",
+        "v:label": "埼玉県川口市木曽呂1510番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-294-2011"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-294-0294"
+        }
+      ],
+      "dc:description": [
+        "Saitama Gakuen University Information Media Center",
+        "URL:http://www.media.saigaku.ac.jp/ (website)"
+      ]
+    }
+  ]
+}

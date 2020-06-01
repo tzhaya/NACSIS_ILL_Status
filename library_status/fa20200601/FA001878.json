@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001878.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001878#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001878.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京外国語大学 附属図書館"
+        },
+        {
+          "@value": "トウキョウガイコクゴダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東外大"
+        },
+        {
+          "@value": "トウガイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "AA",
+        "遡及1",
+        "遡及2",
+        "遡及3",
+        "遡及4",
+        "遡及5",
+        "遡及6",
+        "AA遡及1",
+        "AA遡及2"
+      ],
+      "cinii:memberid": "FA001878",
+      "cinii:organizationid": "KI000243",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002300",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "東京外国語大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "183-8534",
+        "v:label": "東京都府中市朝日町3-11-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-330-5196"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-330-5199"
+        }
+      ],
+      "dc:description": [
+        "The Library Tokyo University of Foreign Studies",
+        "3-11-1,Asahi-cho Fuchu-shi Tokyo 183-8534",
+        "URL:http://www.tufs.ac.jp/library/index-j.html (website)",
+        "URL:http://www.tufs.ac.jp/library/index5-j.html (map)",
+        "来館利用担当:サービス係",
+        "電話番号:042-330-5195  Fax:042-330-5199",
+        "受付時間:授業期間 平日 9:00-21:00  土日 13:00-18:00  授業期間外 平日 9:00-16:30  土日 休館",
+        "注意事項:学外者はカウンターで所定の手続が必要。また館外貸出不可。取り置き希望の場合、所属機関を通してFaxにより事前申込。研究室所蔵の資料については閲覧不可。貴重書の閲覧は平日のみ。",
+        "持参書類:閲覧許可願書",
+        "複写時間:授業期間 平日9:00-21:30 土日13:00-18:30  授業期間外 平日9:00-16:45",
+        "館外貸出:不可",
+        "国民の祝日、年末年始、毎月最終水曜日、蔵書点検のため夏季及び春季休業期間中の一定期間休館する場合がある。",
+        "ILL-Staff:YAMATO, KAMIMURA, TONOOKA",
+        "ILL-Dept:Library Service Section",
+        "ILL-Org:Tokyo University of Foreign Studies Library",
+        "ILL-Adress:3-11-1 Asahi-cho, Fuchu-shi, Tokyo, JAPAN",
+        "ILL-ZIP:183-8534",
+        "ILL-Commun1:TEL:+81-42-330-5196 / FAX:+81-42-330-5199 / E-mail:tosho-service@tufs.ac.jp",
+        "ILL-Commun2:OPAC:http://www-lib.tufs.ac.jp/opac/index.html / HomePage:http://www.tufs.ac.jp/common/library/",
+        "ILL-Accept: Foreign(1): OCLC(NII-OCLC link):JATUF / Foreign(2): KERIS",
+        "ILL-Sched:Closed:Dec 28-Jan 4",
+        "ILL-Bill:Foreign(1):OCLC=OCLC-IFM only / Foreign(2):KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period:Foreign(1):6 weeks; up to 3 items per library / Foreign(2):NA",
+        "ILL-Loan-Renew:Foreign(1):None / Foreign(2):NA",
+        "ILL-Loan-Charge:Foreign(1):Postage. Delivery method: via airmail / Foreign(2):NA",
+        "ILL-Non-Circulation:Special collection, mcrfrm, mcrfch, ref, per, news, a-v, DIS",
+        "ILL-Copy-Charge:Photocopy:35 YEN per sheet / Postage required / Delivery Method:via airmail",
+        "ILL-Note:Only the items held at the Main Library are available",
+        "ILL-OCLC-Symbol:JATUF"
+      ]
+    }
+  ]
+}

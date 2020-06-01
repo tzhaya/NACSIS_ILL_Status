@@ -1,0 +1,172 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007670.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007670#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007670.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "同志社大学 図書館"
+        },
+        {
+          "@value": "ドウシシャダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "同大"
+        },
+        {
+          "@value": "ドウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "英文",
+        "哲学",
+        "心理",
+        "国文",
+        "史学",
+        "美芸",
+        "社会",
+        "神",
+        "法",
+        "経",
+        "商",
+        "化学",
+        "電気",
+        "機械",
+        "人研",
+        "ハ研",
+        "ア研",
+        "スポ健",
+        "図",
+        "図貴",
+        "図同",
+        "図荒",
+        "図植",
+        "図ケ",
+        "図生",
+        "図小",
+        "図愛",
+        "図新",
+        "図蘇",
+        "図譜",
+        "図文",
+        "図法",
+        "図経",
+        "GS科",
+        "図ハ",
+        "図英",
+        "ラ",
+        "理工",
+        "キ文",
+        "図E",
+        "総政",
+        "社史",
+        "図商",
+        "数理",
+        "歴館",
+        "政策",
+        "文情",
+        "司法",
+        "ビジ",
+        "環シ",
+        "情報",
+        "文",
+        "研究",
+        "一神",
+        "図政",
+        "生命",
+        "数シ",
+        "GC",
+        "ILA",
+        "脳科学",
+        "GR",
+        "今H",
+        "DGA",
+        "国際",
+        "高等研"
+      ],
+      "cinii:memberid": "FA007670",
+      "cinii:organizationid": "KI003467",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "同志社大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "602-8580",
+        "v:label": "京都市上京区今出川通烏丸東入"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-251-3980"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-251-3058"
+        }
+      ],
+      "dc:description": [
+        "Doshisha University Library",
+        "Karasuma Higashi-iru, Imadegawa-dori, Kamigyo-ku, Kyoto 602-8580",
+        "URL:http://library.doshisha.ac.jp/ (website)",
+        "URL:http://www.doshisha.ac.jp/information/campus/imadegawa/imadegawa.html (map)",
+        "URL:https://doors.doshisha.ac.jp/ (opac)",
+        "URL:http://library.doshisha.ac.jp/calendar/calendar.html (calendar)",
+        "来館利用担当 : 学術情報課 利用支援係(今出川)",
+        "電話番号 : 075-251-3980(今出川) / FAX : 075-251-3058(今出川)",
+        "注意事項 : 事前連絡要。所属の大学図書館か公共図書館を通すこと。個人の方からのお問い合わせには応じられません。土・日・祝日は利用不可。",
+        "持参書類 : 当館からのFAX回答および学生証、教職員証、本人確認書類。",
+        "館外貸出 : 学外者への館外貸出は原則不可",
+        "制限事項 : 貴重室資料等については利用制限あり",
+        "制限事項 : 図書館以外の研究所・研究室は利用方法、時間が異なります。",
+        "開館時間 : 図書館ホームページ参照",
+        "休館日 : 国民の祝日、GW期間、夏・冬期休暇中の一定期間、創立記念日(11月29日)、キリスト降誕日(12月25日)。 詳細はホームページ参照。",
+        "ILL-Staff: ILL-Staff",
+        "ILL-Dept: InterLibrary Service Section",
+        "ILL-Org: Doshisha University Library (Imadegawa)",
+        "ILL-Address: Karasuma Higashi-iru, Imadegawa-dori, Kamigyo-ku, Kyoto, JAPAN",
+        "ILL-ZIP: 602-8580",
+        "ILL-Contact1: Tel: +81-75-251-3980 / Fax: +81-75-251-3058 / E-mail: ji-ill@mail.doshisha.ac.jp",
+        "ILL-Contact2: OPAC: https://doors.doshisha.ac.jp/?lang=1 / Website: http://library.doshisha.ac.jp/en/",
+        "ILL-Calendar: Closed: National holidays, Apr.29-May.5, The anniversary of the foundation (Nov.29), Christmas day (Dec.25), certain periods in summer and winter holidays",
+        "ILL-Accept: International: LOAN: Yes",
+        "ILL-Accept: International: COPY: Yes",
+        "ILL-Accept-method: International: E-mail",
+        "ILL-Payment-method: International: International Reply Coupon Only",
+        "ILL-Loan-Period: International: 6 weeks per item",
+        "ILL-Loan-Item-Max: International: 5",
+        "ILL-Loan-Renewal: International: N/A",
+        "ILL-Loan-Charge: International: The requesting library bears only the return postage.",
+        "ILL-Loan-Delivery-method: Tracked system",
+        "ILL-Non-Circulation-items: Reference materials, Periodicals, Audio-visual materials, Rare books, Microfilm, Microfiche, Faculty materials",
+        "ILL-Copy-Charge: Black & White: 50 JPY per sheet, Color: 150 JPY per sheet, and Postage",
+        "ILL-Copy-Delivery-method: Airmail Only"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019148.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019148#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019148.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都経済短期大学 図書館"
+        },
+        {
+          "@value": "キョウトケイザイタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京経短"
+        },
+        {
+          "@value": "キョウケイタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "閲覧室",
+        "書庫",
+        "研究室"
+      ],
+      "cinii:memberid": "FA019148",
+      "cinii:organizationid": "KI011363",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都経済短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "610-1195",
+        "v:label": "京都府京都市西京区大枝東長町3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-331-3159"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-331-3330"
+        }
+      ],
+      "dc:description": [
+        "Kyoto College of Economics",
+        "3-1 Higashinaga-cho, Oe Nishikyo-ku, Kyoto",
+        "URL:http://www.kyoto-econ.ac.jp/introduction/library/index.html",
+        "電話番号:075-331-3159",
+        "FAX番号:075-331-3330",
+        "事前連絡:事前にFAXで所蔵調査及び閲覧申込をしてください。",
+        "受付時間:9:00〜17:00",
+        "持参書類:紹介状もしくは共通閲覧証、事前調査の回答書",
+        "館外貸出:不可",
+        "休館日:土、日、祝祭日、その他臨時に休館することがあります。"
+      ]
+    }
+  ]
+}

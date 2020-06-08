@@ -1,0 +1,187 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001889.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001889#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001889.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京学芸大学 附属図書館"
+        },
+        {
+          "@value": "トウキョウガクゲイダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東学大"
+        },
+        {
+          "@value": "トウガクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "独語",
+        "英語",
+        "仏語",
+        "中国古典",
+        "国教",
+        "日本語日文",
+        "地理",
+        "図書館学",
+        "法学",
+        "情報",
+        "経済",
+        "学校教育",
+        "教心",
+        "歴史",
+        "社会",
+        "社教",
+        "哲学",
+        "幼教",
+        "物理",
+        "宇宙地球",
+        "分子化学",
+        "理教",
+        "生命科学",
+        "数学",
+        "美術",
+        "芸術",
+        "技術科教育",
+        "生活",
+        "音楽演劇",
+        "書道",
+        "健康スポーツ",
+        "保健セ",
+        "教実セ",
+        "教総セ",
+        "国際セ",
+        "環教実",
+        "特別支援",
+        "日本語教育",
+        "地域",
+        "国際",
+        "生涯",
+        "社会福祉",
+        "環境",
+        "物質生命",
+        "文化財",
+        "Z",
+        "図雑",
+        "留学セ",
+        "アジア",
+        "数学教育",
+        "技術",
+        "教育創成",
+        "研究室(他)",
+        "理科セ",
+        "養教",
+        "教員連携セ",
+        "次世代教",
+        "特臨セ2号館",
+        "特臨セ1号館",
+        "次世代セ",
+        "ICTセ"
+      ],
+      "cinii:memberid": "FA001889",
+      "cinii:organizationid": "KI000254",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002400",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京学芸大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "184-8501",
+        "v:label": "東京都小金井市貫井北町4-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-329-7224"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-329-7226"
+        }
+      ],
+      "dc:description": [
+        "URL: http://library.u-gakugei.ac.jp/ (日本語版ウェブサイト)",
+        "URL: https://library.u-gakugei.ac.jp/opac/complexsearch (日本語版OPAC)",
+        "----------------------",
+        "複写担当係: 利用者サービス係 (libill@u-gakugei.ac.jp)",
+        "複写受付可否: 可",
+        "複写方法・料金: 電子複写白黒1枚40円、カラー1枚100円",
+        "決済方法: 後納",
+        "支払方法(複写): 「国立情報学研究所ILL文献複写等料金相殺サービス」参加機関=同サービス規定による。その他の機関=1か月分まとめて銀行振り込みのための請求書をお送りします。",
+        "複写物送付方法: 複写物の送付には、通常、普通郵便を用います。",
+        "アドレス(メール添付): libill@u-gakugei.ac.jp",
+        "複写注記: (1)研究室・センター等備付の資料の複写は不可。(2)修士論文の複写には著作権者の許諾が必要です。(3)図書館のマイクロリーダ・プリンターが不調のため、申し訳ないですがマイクロフィルム・マイクロフィッシュの複写はしばらくお引き受けできません。(4)当館に教科書等の記事の複写を依頼される館の方へ。複写箇所が不明の場合には、一旦参考調査をご依頼ください。また、冊数が多い場合には、お時間がかかる場合がありますのでご了承ください",
+        "----------------------",
+        "貸借担当係: 利用者サービス係 (libill@u-gakugei.ac.jp)",
+        "貸借受付可否: 可",
+        "支払方法(貸借): 「国立情報学研究所ILL文献複写等料金相殺サービス」参加機関=同サービス規定による。その他の機関には着払い郵便でお送りします。",
+        "貸出期間: 1か月",
+        "貸出冊数: 12冊",
+        "貸借注記: 貸出不可: 新着図書、当館OPACの「所在」欄に「図書館1F参考図書」・「図書館1階教科書」・「図書館1F視聴覚」と表示のある資料、雑誌、大型本(ゆうメールの範囲を超えるもの)、貴重図書(和装本を含む)、劣化資料、研究室・センター等備付資料、学位論文",
+        "貸借注記: 教科書の貸出期間延長にはお応えできません。また、繁忙期においては、教科書に関わる貸出、文献複写にはお応えできないことがあります。ご了承ください。",
+        "----------------------",
+        "来館利用・所蔵調査担当: サービスカウンター (TEL: 042-329-7223, 7225 / FAX: 042-329-7226)",
+        "連絡先注記: 電話応対は、平日のみ(9〜12,13〜17時)",
+        "事前連絡: 利用したい資料があらかじめ特定している場合は、所属する大学等の図書館を通して事前にお問合せください。(貸出中の場合や、貴重書等利用時間・利用条件に制約のある場合があるため)",
+        "閲覧持参書類: 身分証明書または学生証ならびに当館からの回答の写し",
+        "複写受付時間: 閉館30分前まで",
+        "入館手続: 「学外者利用受付簿」に必要事項を記入",
+        "備考: 施設・研究室等の所蔵資料は利用不可",
+        "開館時間: 授業期:平日8:30〜21:30 土日休11:00〜18:00、休業期:平日8:30〜17:00 土日休11:00〜18:00",
+        "休館日: 12月29日〜1月3日。詳細は図書館ウェブサイトの「開館カレンダー」参照",
+        "交通機関: JR中央線 武蔵小金井駅北口より京王バス小平団地行き約10分 学芸大正門前下車",
+        "----------------------",
+        "ILL-Dept: Reference and Interlibrary Service Officer",
+        "ILL-Staff: Yumi SEGAWA (Ms.)",
+        "ILL-Org: Tokyo Gakugei University Library",
+        "ILL-Address: 4-1-1 Nukuikita-Machi,Koganei-Shi,TOKYO,JAPAN",
+        "ILL-ZIP: 184-8501",
+        "ILL-Calender: Closed: Dec 29-Jan 3",
+        "ILL-Contact1: Tel:+81-42-329-7224 / FAX:+81-42-329-7226 / E-mail:libill@u-gakugei.ac.jp",
+        "ILL-Contact2: OPAC: https://library.u-gakugei.ac.jp/opac/en/complexsearch / Home-page: http://library.u-gakugei.ac.jp/ (Japanese Only)",
+        "ILL-Accept: International: COPY Yes; LOAN Yes",
+        "ILL-Accept-method: OCLC N/A; KERIS-NII ILL Linkage (COPY Only);International:E-Mail",
+        "ILL-Payment-method: International: Invoice N/A; IFLA Voucher Yes; Credit Card N/A; OCLC-IFM N/A; KERIS-NII Fee Management Service Yes; Cheque N/A; International Postal Money Order N/A",
+        "ILL-Note: Only the items held at the Main library are available. For duplicating Master's theses the author's written permission is required.",
+        "ILL-Copy-Charge: 40 JPY per sheet (Monochrome) / 100 JPY per sheet (Color). You should also pay Postage.",
+        "Deliverly method: airmail or Postal EMS sytem",
+        "ILL-Loan-Period: 6 weeks",
+        "ILL-Loan-Item-Max: 12",
+        "ILL-Loan-Renewal: N/A",
+        "ILL-Loan-Charge: Postage only",
+        "ILL-Loan-Deliverly-method: airmail or Postal EMS sytems",
+        "ILL-Non-Circulation-items: Special collections,microform,reference collection,Journal issues,audio-visual materials,newspapers,dissertations and theses",
+        "ILL-NOTE: Only the items held at the Library are available. THESIS:Photocopy: need the author's written permission"
+      ]
+    }
+  ]
+}

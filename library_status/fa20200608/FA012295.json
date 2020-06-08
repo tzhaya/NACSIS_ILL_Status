@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012295.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012295#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012295.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "静岡県立大学 附属図書館 草薙図書館"
+        },
+        {
+          "@value": "シズオカケンリツダイガク フゾクトショカン クサナギトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "静県大草薙"
+        },
+        {
+          "@value": "シズケンダイクサナギ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "小鹿図"
+      ],
+      "cinii:memberid": "FA012295",
+      "cinii:organizationid": "KI006920",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "静岡県立大学 附属図書館 草薙図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "422-8526",
+        "v:label": "静岡県静岡市駿河区谷田52-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "054-264-5800"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "054-264-5899"
+        }
+      ],
+      "dc:description": [
+        "University of Shizuoka Kusanagi Library",
+        "52-1 Yada Suruga-ku Shizuoka-shi Shizuoka 422-8526",
+        "URL:http://www.u-shizuoka-ken.ac.jp/library/",
+        "電話番号:054-264-5800",
+        "受付時間:8:30〜21:00 ただし、講義のない日は16:30まで",
+        "なお、土曜日の開館は授業のある期間に限る",
+        "注意事項:車でのご来館はご遠慮ください。",
+        "持参書類:身分証明書または紹介状",
+        "休館日:日曜日、祝祭日、開学記念日・年末年始(12/28〜1/4)",
+        "その他必要に応じて定める臨時休館日",
+        "ILL-Staff: Reiko Toizumi",
+        "ILL-Dept: InterLibrary Service Section",
+        "ILL-Org: University of Shizuoka Kusanagi Library",
+        "ILL-Address: 52-1 Yada, Suruga-ku, Shizuoka City, Japan",
+        "ILL-ZIP :422-8526",
+        "ILL-Commun1: tel: +81-54-264-5801/ fax: +81-54-264-5899/ e-mail: library@u-shizuoka-ken.ac.jp",
+        "ILL-Commun2: OPAC: http://eng.u-shizuoka-ken.ac.jp/library/search/  Home-Page: http://eng.u-shizuoka-ken.ac.jp/library/",
+        "ILL-Accept: Foreign(1) : OCLC(NII-OCLC link) : [JASHI]",
+        "ILL-Accept: Foreign(2) : KERIS",
+        "ILL-Sched: Closed: Sun., Sat., National holidays, Foundation day, Dec.28-Jan.4",
+        "ILL-Bill: Foreign(1) : OCLC=OCLC-IFM only",
+        "ILL-Bill: Foreign(2) : KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period: Loan:N/A",
+        "ILL-Loan-Renew: Loan:N/A",
+        "ILL-Loan-Charge: Loan: N/A",
+        "ILL-Non-Circulation: Loan:N/A",
+        "ILL-Copy-Charge: Postage required/ Photocopy: 35YEN per sheet(monochrome), 75YEN per sheet(colour). Delivery method: via airmail",
+        "ILL-Note: THESIS: Photocopy: N/A",
+        "ILL-OCLC-Symbol:JASHI"
+      ]
+    }
+  ]
+}

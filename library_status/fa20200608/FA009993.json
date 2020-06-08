@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009993.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009993#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009993.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "農業・食品産業技術総合研究機構 西日本農業研究センター 四国研究拠点図書室"
+        },
+        {
+          "@value": "ノウギョウ・ショクヒンサンギョウギジュツソウゴウケンキュウキコウ ニシニホンノウギョウケンキュウセンター シコクケンキュウキョテントショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "西日本農研四"
+        },
+        {
+          "@value": "ニシニホンノウケンシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009993",
+      "cinii:organizationid": "KI005065",
+      "cinii:prefcode": "37",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "農業・食品産業技術総合研究機構 西日本農業研究センター 四国研究拠点図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "765-8508",
+        "v:label": "香川県善通寺市仙遊町1丁目3番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0877-63-8107"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0877-63-1683"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.naro.affrc.go.jp/introduction/library.html",
+        "Western Region Agricultural Research Center, NARO",
+        "1-3-1 Sen'yu, Zentsuji, Kagawa 765-8508, JAPAN"
+      ]
+    }
+  ]
+}

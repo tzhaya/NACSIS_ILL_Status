@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015566.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015566#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015566.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "松山大学 総合研究所"
+        },
+        {
+          "@value": "マツヤマダイガク ソウゴウケンキュウショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "松山大総研"
+        },
+        {
+          "@value": "マツヤマダイソウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015566",
+      "cinii:organizationid": "KI004288",
+      "cinii:prefcode": "38",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "松山大学 総合研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "790-8578",
+        "v:label": "愛媛県松山市文京町4番地2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "089-926-7266(DI)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "089-925-7111(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "089-922-5415"
+        }
+      ],
+      "dc:description": [
+        "General Research Institute of Matsuyama University",
+        "4-2, Bunkyo-cho, Matsuyama, Ehime, Japan 790-8578",
+        "General Research Institute of Matsuyama University",
+        "4-2, Bunkyo-cho, Matsuyama, Ehime 790-8578",
+        "URL:http://www.matsuyama-u.ac.jp",
+        "来館利用担当:課員",
+        "電話番号:089-925-7111",
+        "受付時間:8:30〜17:45",
+        "注意事項:資料の所在等、事前確認して下さい。 開館日を確認して下さい。",
+        "持参書類:身分証明書",
+        "複写時間:9:00〜16:45(土曜日不可)",
+        "館外貸出:他大学の学生等で所定の手続きを取った場合のみ可",
+        "制限事項:雑誌製本及び有価証券報告書は貸出しを行わない。",
+        "休館日:土曜日、日曜日、国民の祝日、夏休一斉休日、年末年始"
+      ]
+    }
+  ]
+}

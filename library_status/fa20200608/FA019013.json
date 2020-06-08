@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019013.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019013#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019013.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京立正短期大学 図書館"
+        },
+        {
+          "@value": "トウキョウリッショウタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東京立正"
+        },
+        {
+          "@value": "トウキョウリッショウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019013",
+      "cinii:organizationid": "KI011239",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京立正短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "166-0013",
+        "v:label": "東京都杉並区堀ノ内2-41-15"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3316-6854"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5377-7641"
+        }
+      ]
+    }
+  ]
+}

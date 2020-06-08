@@ -1,0 +1,113 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001390.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001390#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001390.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東北大学 附属図書館 北青葉山分館"
+        },
+        {
+          "@value": "トウホクダイガク フゾクトショカン キタアオバヤマブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東北大北"
+        },
+        {
+          "@value": "トウホクダイキタ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "数学",
+        "物理",
+        "化学",
+        "生物",
+        "地質",
+        "岩石",
+        "地理",
+        "天文",
+        "地物",
+        "核理研",
+        "惑星プラズマ",
+        "薬学",
+        "理地震予知",
+        "理植物園"
+      ],
+      "cinii:memberid": "FA001390",
+      "cinii:organizationid": "KI000108",
+      "cinii:prefcode": "04",
+      "cinii:mextid": "001004",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東北大学 附属図書館 北青葉山分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "980-8578",
+        "v:label": "仙台市青葉区荒巻字青葉6番3号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-795-6373"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-795-3753"
+        }
+      ],
+      "dc:description": [
+        "Kita-Aobayama Library,Tohoku University",
+        "6-3 Aoba,Aramaki,Aoba-ku,Sendai,980-8578,JAPAN",
+        "URL:http://www.library.tohoku.ac.jp/kita/",
+        "来館利用担当:整理・運用係",
+        "電話番号:022-795-6372",
+        "閲覧受付時間:9:00〜17:00",
+        "複写受付時間:9:00〜12:00、13:00〜16:30",
+        "館外貸出:否",
+        "制限事項:分館所蔵資料以外は利用不可",
+        "休館日:土曜日・日曜日・国民の祝日(振替休日を含む)・年末年始",
+        "ILL-Dept:Public Service Section",
+        "ILL-Org:Kita-Aobayama Library,Tohoku University",
+        "ILL-Adress:Aoba6-3,Aramaki,Aoba-ku,Sendai,JAPAN",
+        "ILL-ZIP:980-8578",
+        "ILL-Contact1:Fax:+81-22-795-3753/E-mail:klib-s@grp.tohoku.ac.jp",
+        "ILL-Contact2:OPAC:http://www.library.tohoku.ac.jp/opac/",
+        "ILL-Calender:Closed:Dec27-Jan4,Saturdays,Sundays,National Holidays",
+        "ILL-Accept:International:LOAN:N/A",
+        "ILL-Accept:International:COPY:Yes",
+        "ILL-Accept-method:International:E-mail",
+        "ILL-Payment-method:International:International Postal Money Order",
+        "ILL-Copy-Charge:Photocopy:35 JPY per sheet and Postage",
+        "ILL-Copy-Delivery-method:Airmail",
+        "ILL-Note:dissertation:COPY:Yes(author's permission required)",
+        "ILL-Note:We will supply only photocopies.Loan:N/A"
+      ]
+    }
+  ]
+}

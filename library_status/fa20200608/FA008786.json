@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008786.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008786#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008786.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "九州共立大学 附属図書館"
+        },
+        {
+          "@value": "キュウシュウキョウリツダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "九共大"
+        },
+        {
+          "@value": "キュウキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008786",
+      "cinii:organizationid": "KI004299",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "九州共立大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "807-8585",
+        "v:label": "福岡県北九州市八幡西区自由ケ丘1-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "093-693-3036"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "093-603-2260"
+        }
+      ],
+      "dc:description": [
+        "Kyushu Kyoritsu University Library",
+        "1-8, Jiyugaoka, Yahatanishi-ku, Kitakyushu-shi, Fukuoka 807-8585",
+        "URL:http://www3.kyukyo-u.ac.jp/K0005/HP/(website)",
+        "URL:http://www.kyukyo-u.ac.jp/access/(map)",
+        "図書目録メールアドレス:tosho@kyukyo-u.ac.jp",
+        "雑誌目録メールアドレス:zassi@kyukyo-u.ac.jp",
+        "ILLメールアドレス:sougo@kyukyo-u.ac.jp",
+        "カウンターメールアドレス:kaunt@kyukyo-u.ac.jp",
+        "来館利用担当:カウンター係",
+        "電話番号:093-693-3036",
+        "受付時間:9:00〜20:00(土曜日〜17:00)",
+        "紹介状持参(福岡県・佐賀県大学図書館協議会北部地区研究会・九州地区大学図書館協議会加盟館の方は身分証明書または学生証持参)身分証明書",
+        "複写時間:9:00〜20:00(土曜日〜17:00)",
+        "館外貸出:否(北九州市及び近隣に在住・勤務の方のみ可)",
+        "休館日:日曜日、国民の祝日、創立記念日(11月5日)、 8月10日～8月18日、12月27日〜1月5日",
+        "ILL-Staff:Yumiko Uwai",
+        "ILL-Dept:",
+        "ILL-Org:Kyushu Kyoritsu University Library",
+        "ILL-Adress:1-8 Jiyugaoka, Yahatanishi-ku, Kitakyushu-shi, Fukuoka, Japan",
+        "ILL-Zip:807-8585",
+        "ILL-Commun1:fax:+81-093-603-2260 / E-mail:sougo@kyukyo-u.ac.jp",
+        "ILL-Commun2:OPAC:http://opac.lib.kyukyo-u.ac.jp/mylimedio/search/search.do?target=local&mode=comp&category-mgz=1&category-book=1&annex=all&ncid=<NCID>",
+        "ILL-Accept:Forrign:KERIS",
+        "ILL-Sched: CLOSED:Sundays,National Holidays, Aug 10-31, Dec 27-Jan 5",
+        "ILL-Bill:Foreign(2):KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period:loan:N/A",
+        "ILL-Loan-Renew:loan:N/A",
+        "ILL-Loan-Charge:loan:N/A",
+        "ILL-Non-Circulation:Loan N/A",
+        "ILL-Copy-Charge:Photocopy:40 Yen per sheet. Postage required. / Delivery method:via airmail, EMS",
+        "ILL-NOTE:"
+      ]
+    }
+  ]
+}

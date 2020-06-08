@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007003.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007003#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007003.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国際大学 松下図書・情報センター"
+        },
+        {
+          "@value": "コクサイダイガク マツシタトシヨ・ジヨウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国際大"
+        },
+        {
+          "@value": "コクサイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007003",
+      "cinii:organizationid": "KI002952",
+      "cinii:prefcode": "15",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "国際大学 松下図書・情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "949-7277",
+        "v:label": "新潟県南魚沼市国際町777"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "025-779-1450"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "025-779-1185"
+        }
+      ],
+      "dc:description": [
+        "Matsushita Library & Information Center (MLIC), International University of Japan",
+        "Kokusai-cho 777, Minami Uonuma-shi, Niigata 949-7277",
+        "URL: http://www.iuj.ac.jp/library/"
+      ]
+    }
+  ]
+}

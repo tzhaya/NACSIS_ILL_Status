@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014246.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014246#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014246.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "富山県立大学 附属図書館"
+        },
+        {
+          "@value": "トヤマケンリツダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "富県大"
+        },
+        {
+          "@value": "トケンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "射水",
+        "富山"
+      ],
+      "cinii:memberid": "FA014246",
+      "cinii:organizationid": "KI00748X",
+      "cinii:prefcode": "16",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "富山県立大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "939-0398",
+        "v:label": "富山県射水市黒河5180"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0766-56-7500(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0766-56-8103(直通)"
+        }
+      ],
+      "dc:description": [
+        "TOYAMA PREFECTURAL UNIVERSITY LIBRARY",
+        "5180, KUROKAWA, IMIZU-SHI, TOYAMA-KEN 939-0398",
+        "TEL:0766-56-7500",
+        "受付時間:9:00〜17:30 (土曜日 13:00〜16:00)",
+        "注意事項:資料の所在等、電話で事前確認してから来館してください。学外者の方は、学生の試験期間(7月と2月)は混雑しますのでできればご遠慮ください。",
+        "持参書類:学外者利用カード (未登録の場合、身分証明書)",
+        "複写時間:開館時間と同一",
+        "館外貸出:5冊 2週間",
+        "制限事項:雑誌、参考図書、研究室所在の図書の貸出不可",
+        "休館日:日曜日、国民の祝日、年末年始、6月1日(創立記念日)他館長が特に必要と認めた日",
+        "URL:https://www.pu-toyama.ac.jp/library/"
+      ]
+    }
+  ]
+}

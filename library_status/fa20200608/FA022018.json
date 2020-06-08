@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022018.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022018#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022018.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都市大学 等々力キャンパス 図書館"
+        },
+        {
+          "@value": "トウキョウトシダイガク トドロキキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "都市大等々力"
+        },
+        {
+          "@value": "トシダイトドロキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA022018",
+      "cinii:organizationid": "KI002679",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東京都市大学 等々力キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "158-8586",
+        "v:label": "世田谷区等々力8-9-18"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5760-0264"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3702-6464"
+        }
+      ],
+      "dc:description": [
+        "https://www.tcu.ac.jp/",
+        "<<臨時休館>>新型コロナウィルス感染拡大防止のため、来館利用を停止します。",
+        "来館利用受付:図書館・閲覧係",
+        "来館利用注意事項:利用希望資料を特定し、来館希望日を明記して、所属の図書館を通じ事前にFAXで所蔵調査依頼をお送りいただき、資料の所在をご確認ください。",
+        "来館時持参書類:大学図書館等が発行する資料依頼書(紹介状)と身分を証明する物",
+        "館外貸出:否",
+        "通常開館時間:8:30～22:00(土曜日～17:00)"
+      ]
+    }
+  ]
+}

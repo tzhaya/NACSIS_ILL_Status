@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA02130X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA02130X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA02130X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "社団法人 ドイツ「恵光」日本文化センター"
+        },
+        {
+          "@value": "シヤダンホウジン ドイツエコウニホンブンカセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "ドイツ恵光センター"
+        },
+        {
+          "@value": "ドイツエコウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02130X",
+      "cinii:organizationid": "KI012730",
+      "cinii:prefcode": "255",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "社団法人 ドイツ「恵光」日本文化センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:label": "Brueggener Weg 6, 40547 Duesseldorf, GERMANY"
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022062.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022062#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022062.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "千葉科学大学 図書館"
+        },
+        {
+          "@value": "チバカガクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "千科大"
+        },
+        {
+          "@value": "チカダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA022062",
+      "cinii:organizationid": "KI013267",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "千葉科学大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "288-0025",
+        "v:label": "千葉県銚子市潮見町15-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0479-30-4510"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0479-30-4511"
+        }
+      ],
+      "dc:description": [
+        "職員夏期休暇中(8/8～8/21は、文献複写および相互貸借の受付ができません。ご了承ください。)",
+        "Chiba Institute of Science Library",
+        "15-8 Shiomi-Cho Choshi,Chiba 288-0025 JAPAN",
+        "URL:http://www.lib.cis.ac.jp/",
+        "閲覧持参書類:紹介状、身分を証明できるものを携行のこと",
+        "閲覧受付時間 :  9:00〜21:45(土曜日9:00〜17:00/日曜日12:00〜17:00)",
+        "複写受付時間 :  9:00〜17:00",
+        "通常開館時間 :  8:20〜22:00(土曜日9:00〜17:00/日曜日12:00〜17:00)",
+        "閲覧注記 : 初回来館は月〜土の9:00〜17:00",
+        "休館日 :  休業期の土曜日・日曜日及び国民の祝日・8月中旬・年末年始",
+        "年末年始(12/26～1/4は、文献複写および相互貸借の受付ができません。ご了承ください。)",
+        "蔵書点検のため、9月第3週は受付できません。"
+      ]
+    }
+  ]
+}

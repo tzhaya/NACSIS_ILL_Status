@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005653.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005653#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005653.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "玉川大学 教育学術情報図書館"
+        },
+        {
+          "@value": "タマガワダイガク キョウイクガクジュツジョウホウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "玉川大"
+        },
+        {
+          "@value": "タマガワダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005653",
+      "cinii:organizationid": "KI002271",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "玉川大学 教育学術情報図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "194-8610",
+        "v:label": "東京都町田市玉川学園6-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-739-8635"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-739-8647"
+        }
+      ],
+      "dc:description": [
+        "閲覧事前連絡 :必ず電話にて事前連絡のこと(必ず日時の内諾を得ること)",
+        "閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "閲覧対象者:他大学(短期大学を含む)に所属する方",
+        "閲覧受付時間 :9:00〜16:00(土曜日不可)",
+        "学外館外貸出:不可",
+        "複写受付可否:可",
+        "FAX受付可否:可",
+        "複写方法・料金:電子複写(モノクロ50円、カラー120円)",
+        "決済方法 :私費=後納(公費は事務処理上,取扱いが出来ません)",
+        "支払方法 :原則としてNII相殺サービス=相殺サービス規定による,非相殺館は郵便振替",
+        "口座番号 :00160-5-56447",
+        "貸借受付可否 :可",
+        "貸出期間 :30日",
+        "貸出冊数 :3冊",
+        "支払方法 :原則としてNII相殺サービス=相殺サービス規定による,非相殺館は着払い",
+        "貸借注記 :貴重書・参考図書・雑誌・短期貸出資料等は不可",
+        "館外貸出可否 :否",
+        "URL:http://www.tamagawa.ac.jp/library/",
+        "OPACURL:https://lib1.tamagawa.ac.jp/",
+        "ILL-Staff: Takako Mochizuki",
+        "ILL-Dept:Reference Section",
+        "ILL-Org:Tamagawa University Library & Multimedia Resource Center",
+        "ILL-Adress:1-1 Tamagawa Gakuen, 6 chome, Machida,Tokyo, JAPAN",
+        "ILL-Zip:194-8610",
+        "ILL-Contact1: TEL: +81-42-739-8635 / FAX: +81-42-739-8647 / E-mail: ref-ill@lib.tamagawa.ac.jp",
+        "ILL-Contact2: Online catalogue: http://lib1.tamagawa.ac.jp  / Website: http://www.tamagawa.ac.jp/library/",
+        "ILL-Calender: Closed: Aug 24-31, Dec.22-Jan.6",
+        "ILL-Accept: International: LOAN: Yes",
+        "ILL-Accept: International: LOAN: Traceable courier with insurance Only",
+        "ILL-Accept: International: COPY: Yes",
+        "ILL-Accept: International: COPY: Traceable courier with insurance Only",
+        "ILL-Accept-method: International: E-mail",
+        "ILL-Payment-method: International: Invoice: Yes",
+        "ILL-Payment-method: International: Bank Transaction: Yes",
+        "ILL-Payment-method: International: IFLA Voucher: Yes",
+        "ILL-Payment-method: International: Credit Card: N/A",
+        "ILL-Payment-method: International: OCLC-IFM: N/A",
+        "ILL-Loan-Period: 4 weeks",
+        "ILL-Loan-Item-Max: 3",
+        "ILL-Loan-Renew: N/A",
+        "ILL-Loan-Charge: Postage only",
+        "ILL-Loan-Delivery-method: Tracked system",
+        "ILL-Non-Loan-Circulation-items: Spesial collection, Microfilm, Microfish, Reference collection, Journal issues, Audio Visuals, Thesis.",
+        "ILL-Copy-Charge: 50 JPY per sheet and Postage",
+        "ILL-Copy-Delivery-method: Airmail",
+        "ILL-Note: COPY method is photocopy only / Thesis:COPY: N/A"
+      ]
+    }
+  ]
+}

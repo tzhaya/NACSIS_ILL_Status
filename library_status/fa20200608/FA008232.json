@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008232.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008232#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008232.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "甲子園大学 図書館"
+        },
+        {
+          "@value": "コウシエンダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "甲子園"
+        },
+        {
+          "@value": "コウシエン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "大学図",
+        "短大図"
+      ],
+      "cinii:memberid": "FA008232",
+      "cinii:organizationid": "KI003864",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "甲子園大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "665-0006",
+        "v:label": "兵庫県宝塚市紅葉が丘10-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0797-87-8023"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0797-87-8356"
+        }
+      ],
+      "dc:description": [
+        "Koshien University",
+        "10-1,Momijigaoka,Takarazuka-shi,Hyogo,665-0006",
+        "URL:http://www.koshien.ac.jp/aboutus/library/index.html",
+        "URL:http://wlib.koshien.ac.jp/",
+        "TEL:0797-87-8023 / FAX:0797-87-8356",
+        "受付(閲覧・複写等):9:00〜16:30(平日のみ)",
+        "注意事項:資料の所在等、必ず事前確認をしてください。",
+        "館外貸出:不可",
+        "休館日:日曜日・隔週の土曜・国民の祝日・3月3日・学院創立記念日(5月1日)・12月28日〜翌年1月6日・その他館長が必要と認めた日"
+      ]
+    }
+  ]
+}

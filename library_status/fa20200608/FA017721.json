@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017721.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017721#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017721.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "新潟県立大学 図書館"
+        },
+        {
+          "@value": "ニイガタケンリツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "新県大"
+        },
+        {
+          "@value": "シンケンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研"
+      ],
+      "cinii:memberid": "FA017721",
+      "cinii:organizationid": "KI010338",
+      "cinii:prefcode": "15",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "新潟県立大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "950-8680",
+        "v:label": "新潟市東区海老ケ瀬471"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "025-270-9233"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "025-270-5173"
+        }
+      ],
+      "dc:description": [
+        "Library of University of Niigata Prefecture",
+        "471,Ebigase,Higashi-ku,Niigata City,Niigata,Japan 950-8680",
+        "http://www.unii.ac.jp/library/ (website)",
+        "電話番号:025-270-9233",
+        "閲覧対象者:卒業生、新潟県大学図書館協議会加盟の大学等の教職員及び学生、紹介状を持っている方",
+        "閲覧事前連絡:電話等で事前連絡のこと",
+        "館外貸出可否:否",
+        "開館時間:平日8:30～20:00,短縮開館日:9:00～17:00",
+        "休館日:土曜日、日曜日、国民の祝日、12月28日から翌年1月3日",
+        "注記:開館日は図書館カレンダーに定めます。カレンダーは図書館HPで公開しています。",
+        "URL:http://www.unii.ac.jp/library/",
+        "ILL-Staff:Shinobu Watanabe",
+        "ILL-Dept:Academic and Students Affairs Division",
+        "ILL-Org:Library of University of Niigata Prefecture",
+        "ILL-Address:471,Ebigase,Higashi-ku,Niigata City,Niigata,Japan",
+        "ILL-ZIP:950-8680",
+        "ILL-Commun1:Tel:+81-25-270-9233 / Fax:+81-25-270-5173 / E-mail:library@unii.ac.jp",
+        "ILL-Commun2:OPAC:http://library.unii.ac.jp/mylimedio/search/search-input.do?mode=comp&nqid=3 Home-page:http://www.unii.ac.jp/library/",
+        "ILL-Accept:Foreign(1):OCLC(NII-OCLC ISO ILL Link):JANIP",
+        "ILL-Accept:Foreign(2):KERIS",
+        "ILL-Sched:Closed Dec.28-Jan.3,Saturday,Sunday,National Holiday",
+        "ILL-Bill:Foreign(1):OCLC=OCLC-IFM only",
+        "ILL-Bill:Foreign(2):KERIS=NII Fee Management service",
+        "ILL-Loan-Period:6 weeks per item;up to 5 items per library",
+        "ILL-Loan-Charge:Postage required.",
+        "ILL-Loan-Renew:None",
+        "ILL-Non-Circulation:ref,per,news,a-v,rare,serials",
+        "ILL-Copy-Charge:40YEN per sheet.Postage required.",
+        "ILL-Note:Will supply only photocopies. / Materials in the libraries only / THESIS:photocopy:needs the author's permisson / Materials in the libraries only",
+        "ILL-OCLC-Symbol:JANIP"
+      ]
+    }
+  ]
+}

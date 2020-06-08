@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022801.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022801#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022801.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知東邦大学 学術情報センター"
+        },
+        {
+          "@value": "アイチトウホウダイガク ガクジュツジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛知東邦大"
+        },
+        {
+          "@value": "アイチトウホウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "メディア"
+      ],
+      "cinii:memberid": "FA022801",
+      "cinii:organizationid": "KI013595",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知東邦大学 学術情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "465-8515",
+        "v:label": "名古屋市名東区平和が丘3丁目11番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-782-1243"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-782-1097"
+        }
+      ],
+      "dc:description": [
+        "受付時間 : 月曜～金曜 8:50～20:00 土曜(開館の場合)8:50～13:00",
+        "注意事項 : 事前連絡し、資料の所在等を確認してください。",
+        "複写時間 : 平日8:50～20:00 土曜(開館の場合)8:50～13:00",
+        "館外貸出 :教職員・学部生・公開講座受講生・名古屋市名東区又は千種区に居住・勤務する18歳以上の者等 ※登録が必要です。住所・氏名が確認できる公的証明書(免許証等)をご持参ください。",
+        "制限事項 : 研究室備付資料・貴重書・劣化資料等は閲覧・複写ができない場合があります。",
+        "休館日 : 日曜日、国民の祝日およびその振り替え休日、大学開学記念日(5月2日)※夏期・冬期・春期各休業期間中および入試時期は臨時休館があります。詳しくはHPの開館カレンダーをご参照下さい。",
+        "電話番号:052-782-1243",
+        "FAX番号:052-782-1097",
+        "ILL-Org:Aichi Toho University Library & Computer Center",
+        "ILL-Address:3-11, Heiwagaoka, Meito-ku, Nagoya-shi, Aichi JAPAN",
+        "ILL-Zip: 465-8515",
+        "ILL-Commun1: Tel:+81-52-782-1243 / FAX: +81-52-782-1097 / E-mail: library@aichi-toho.ac.jp"
+      ]
+    }
+  ]
+}

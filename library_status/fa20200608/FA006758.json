@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006758.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006758#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006758.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "立教大学 図書館"
+        },
+        {
+          "@value": "リッキョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "立大"
+        },
+        {
+          "@value": "リツダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "保存書庫",
+        "新座"
+      ],
+      "cinii:memberid": "FA006758",
+      "cinii:organizationid": "KI002759",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "立教大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "171-8501",
+        "v:label": "東京都豊島区西池袋3-34-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3985-2629"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3985-3205"
+        }
+      ],
+      "dc:description": [
+        "Rikkyo University Library",
+        "3-34-1, Nishi-Ikebukuro, Toshima-ku, Tokyo 171-8501",
+        "URL:http://library.rikkyo.ac.jp (website)",
+        "URL:http://www.rikkyo.ac.jp/access/ikebukuro/direction/",
+        "来館利用担当:池袋図書館 相互利用担当",
+        "電話番号:03-3985-2629",
+        "注意事項:事前にFAXで所蔵の確認および利用の予約をしてください。",
+        "注意事項:本学所蔵資料は、分散して所蔵しているため確認に時間がかかる場合があります。あらかじめご了承ください。",
+        "持参書類:資料利用依頼書(紹介状)および本人確認のための学生証または勤務員証などを携行のこと",
+        "受付時間:月〜金 8:45〜22:00 (土 〜19:30) 日・祝日 10:00～16:30",
+        "複写時間:月〜金 8:45〜22:20 (土 〜19:50) 日・祝日 10:00〜16:50",
+        "*夏季・冬季等長期休業期間中の開館時間、受付時間等には変更があります。詳細は図書館ホームページ等でご確認ください。",
+        "館外貸出:不可",
+        "制限事項:貴重書・準貴重書の閲覧には所定の手続きが必要です。",
+        "制限事項:7月、12月、1月は繁忙期のため利用をご遠慮いただく場合があります。",
+        "休館日:毎月最終日曜日・年末年始・入試期間・4月上旬・8月中旬・本学の定めた休日",
+        "ILL-Dept:ILL Section, Public Service Division",
+        "ILL-Org:Rikkyo University Library",
+        "ILL-Address:3-34-1, Nishi-Ikebukuro, Toshima-ku, Tokyo",
+        "ILL-Zip:171-8501",
+        "ILL-Commun1:Fax:+81-3-3985-3205 / E-mail:sankou3@grp.rikkyo.ne.jp",
+        "ILL-Commun2:OPAC:http://opac.rikkyo.ac.jp/opac/ / Home-Page:http://www.rikkyo.ac.jp/research/library/",
+        "ILL-Accept:OCLC:YP$",
+        "ILL-Sched:Closed:Feb., Aug., Dec.",
+        "ILL-Bill:Foreign:IFLA vaucher only; OCLC-IFM only for OCLC user via GIF",
+        "ILL-Loan-Period:1 month; up to 5 items per library",
+        "ILL-Loan- Renew:None",
+        "ILL-Loan-Charge:Postage required. Delivery method: via airmail",
+        "ILL-Loan-Circulation:Special collection, ref, per, news, a-v, rare, serials",
+        "ILL-Copy-Charge:Postage required, half-IFLA vaucher per 20p / Delivery method:via airmail",
+        "ILL-Note:Airmail only. Will supply only photocopies",
+        "ILL-Staff:Osamu, HARA, Mr.",
+        "ILL-OCLC-Symbol:YP$"
+      ]
+    }
+  ]
+}

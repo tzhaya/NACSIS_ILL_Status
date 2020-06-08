@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010449.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010449#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010449.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 産業技術総合研究所 関西センター 図書室"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン サンギョウギジュツソウゴウケンキュウショ カンサイセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産総研関西センター"
+        },
+        {
+          "@value": "サンソウケンカンサイセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010449",
+      "cinii:organizationid": "KI005688",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 産業技術総合研究所 関西センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "563-8577",
+        "v:label": "大阪府池田市緑丘1-8-31"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-751-9607"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-751-8396"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Advanced Industrial Science and Technology",
+        "KansaiAIST Kansai 1-8-31 Midorigaoka 1, Ikeda, Osaka, 563-8577",
+        "URL:https://www.aist.go.jp/kansai/",
+        "図書室利用案内:https://unit.aist.go.jp/tkb1/ci/tosyo_riyou.html",
+        "来館利用担当 : 関西センター図書担当",
+        "電話番号 : 072-751-9607",
+        "注意事項 : 資料の所在等、図書室に事前確認をお願いします。",
+        "注意事項 : 個人・企業からの郵送やメール・FAXによる依頼は受付けておりません。",
+        "制限事項 : 館内での飲食、喫煙禁止。",
+        "制限事項 : 研究室貸出資料は閲覧出来ません。",
+        "複写料金 : (白黒1枚40円、カラー1枚40円 )",
+        "手数料1件につき100円 ※直接来館の場合は手数料無し",
+        "カラー図表等はカラーで複写いたします。モノクロをご希望の場合はコメント欄にその旨を明記してください。",
+        "直接来館複写受付時間 : 平日のみ9:30-12:00, 13:00-16:30(土・日・祝日は受付けない)",
+        "休館日 : 土・日・祝日、毎月第3水曜日、年末年始(12/29-1/3)、その他臨時休館日",
+        "館外貸出 : 不可"
+      ]
+    }
+  ]
+}

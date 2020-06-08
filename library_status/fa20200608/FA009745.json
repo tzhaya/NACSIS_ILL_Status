@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009745.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009745#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009745.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "農業・食品産業技術総合研究機構 果樹茶業研究部門 図書室"
+        },
+        {
+          "@value": "ノウギョウ・ショクヒンサンギョウギジュツソウゴウケンキュウキコウ カジュチャギョウケンキュウブモン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "果樹茶"
+        },
+        {
+          "@value": "カジュチャ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA009745",
+      "cinii:organizationid": "KI005065",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "農業・食品産業技術総合研究機構 果樹茶業研究部門 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-8605",
+        "v:label": "茨城県つくば市藤本2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-838-6446"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-838-6434"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.naro.affrc.go.jp/introduction/library.html",
+        "Institute of Fruit Tree and Tea Science, NARO",
+        "2-1 Fujimoto, Tsukuba, Ibaraki 305-8605",
+        "受付時間9:00-12:00,13:00-15:30",
+        "館外貸出:不可",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始(12/28-1/4)",
+        "注意事項:利用に際しては、事前確認をして下さい。",
+        "持参書類:身分証明書",
+        "制限事項:資料により閲覧を許可しないものがある。"
+      ]
+    }
+  ]
+}

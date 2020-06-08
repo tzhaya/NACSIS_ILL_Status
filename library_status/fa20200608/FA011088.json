@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA011088.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA011088#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA011088.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京商工会議所 経済資料センター"
+        },
+        {
+          "@value": "トウキヨウシヨウコウカイギシヨ ケイザイシリヨウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東商"
+        },
+        {
+          "@value": "トウシヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011088",
+      "cinii:organizationid": "KI006261",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京商工会議所 経済資料センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "100-0005",
+        "v:label": "東京都千代田区丸の内2-5-1 丸の内二丁目ビル"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3283-7690"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3211-2437"
+        }
+      ],
+      "dc:description": [
+        "The Tokyo Chamber of Commerce and Industry, Business and Economic Library",
+        "3-2-2, Marunouchi, Chiyoda-ku, Tokyo, 100-0005",
+        "URL:http://www.tokyo-cci.or.jp/",
+        "電話番号:03-3283-7690",
+        "受付時間:9:30〜16:30",
+        "注意事項:入館閲覧料 東商会員無料、一般200円",
+        "持参書類:名刺または身分証明書",
+        "館外貸出:不可",
+        "休館日:土・日・祭・月末日、8月、年末年始"
+      ]
+    }
+  ]
+}

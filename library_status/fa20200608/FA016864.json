@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016864.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016864#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016864.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人国立高等専門学校機構 香川高等専門学校 詫間キャンパス 図書館"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジンコクリツコウトウセンモンガッコウキコウ カガワコウトウセンモンガッコウ タクマキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "香川高専詫間"
+        },
+        {
+          "@value": "カガワコウセンタクマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016864",
+      "cinii:organizationid": "KI009088",
+      "cinii:prefcode": "37",
+      "cinii:mextid": "604100",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "独立行政法人国立高等専門学校機構 香川高等専門学校 詫間キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "769-1192",
+        "v:label": "香川県三豊市詫間町香田551"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0875-83-8508"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0875-83-8508"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当: 学生係",
+        "電話番号:0875-83-8508",
+        "受付時間:8:30〜20:00(月〜金), 10:00〜16:30(土)",
+        "注意事項:資料の所在等, 事前確認してください。",
+        "持参書類:身分証明書, 公的機関の発行した証明書(運転免許証, 健康保険証等)",
+        "複写時間:8:30〜20:00(月〜金), 10:00〜16:30(土),(希望者来館のうえ複写可)",
+        "館外貸出:可",
+        "制限事項:複写は当館所蔵資料に限る。",
+        "休館日 :日曜日, 国民の祝日, 年末年始, 休業期間中の土曜日",
+        "Kagawa National College of Technology at Takuma",
+        "551, Kohda, Takuma-cho, Mitoyo-city, Kagawa 769-1192",
+        "URL:http://www.kagawa-nct.ac.jp/libraryE/ (website)"
+      ]
+    }
+  ]
+}

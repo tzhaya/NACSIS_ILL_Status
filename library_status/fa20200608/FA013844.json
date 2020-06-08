@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA013844.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA013844#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA013844.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "早稲田大学 戸山図書館"
+        },
+        {
+          "@value": "ワセダダイガク トヤマトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "早大戸山"
+        },
+        {
+          "@value": "ソウダイトヤマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "哲学",
+        "東哲",
+        "心理",
+        "社会",
+        "教育",
+        "人文",
+        "日文",
+        "中文",
+        "英文",
+        "仏文",
+        "独文",
+        "露文",
+        "演劇",
+        "文芸",
+        "日史",
+        "東史",
+        "西史",
+        "美術",
+        "考古",
+        "社会・人間",
+        "日語",
+        "図書",
+        "雑誌",
+        "思想・宗教",
+        "文学・言語",
+        "歴史・民俗",
+        "表現・芸術",
+        "本庄駒井文庫"
+      ],
+      "cinii:memberid": "FA013844",
+      "cinii:organizationid": "KI002781",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "早稲田大学 戸山図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "162-8644",
+        "v:label": "東京都新宿区戸山1-24-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5286-0589"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5286-3539"
+        }
+      ],
+      "dc:description": [
+        "Toyama Library, Waseda University Library",
+        "1-24-1, Toyama, Shinjuku-ku, Tokyo 162-8644",
+        "http://www.wul.waseda.ac.jp/TOYAMA/index-j.html (website)",
+        "http://wine.wul.waseda.ac.jp/ (opac)",
+        "http://www.wul.waseda.ac.jp/TOYAMA/gaiyo.html (map)",
+        "来館利用受付",
+        "TEL:03-5286-0589 FAX:03-5286-3539",
+        "受付時間:月〜金9:00-19:00、土9:00-16:00(通常期)",
+        "受付時間:月〜金9:00-18:00(休業中)",
+        "注意事項:資料の所在等、事前確認してください(文書・FAXにて受付)。利用資料は必ず指定してください。ILL複写は中央図書館でのみ受け付けています。",
+        "持参書類:紹介状および身分を証明するものを携行のこと。",
+        "館外貸出:不可",
+        "制限事項:文学学術院には図書館以外にも論系・コース室配架の資料があるので、必ず事前に戸山図書館宛に所蔵及び利用可能日を確認してください。",
+        "開館日程、開館時間についての詳細はホームページをご覧ください。",
+        "http://www.wul.waseda.ac.jp/TOYAMA/index.html"
+      ]
+    }
+  ]
+}

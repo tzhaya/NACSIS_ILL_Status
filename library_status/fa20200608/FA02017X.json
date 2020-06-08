@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA02017X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA02017X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA02017X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都府立図書館"
+        },
+        {
+          "@value": "キョウトフリツトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京都府図"
+        },
+        {
+          "@value": "キョウトフト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02017X",
+      "cinii:organizationid": "KI012129",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "京都府立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8343",
+        "v:label": "京都市左京区岡崎成勝寺町9"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-762-4655"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-762-4653"
+        }
+      ],
+      "dc:description": [
+        "Kyoto Prefectural Library",
+        "9 Okazaki Sheishoji-cho, Sakyo-ku, kyoto 606-8343",
+        "利用案内及び開館日等については、当館HPでご確認下さい。",
+        "URL:http://www.library.pref.kyoto.jp/"
+      ]
+    }
+  ]
+}

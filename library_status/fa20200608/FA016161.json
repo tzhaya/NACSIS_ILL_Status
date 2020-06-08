@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016161.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016161#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016161.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北九州市立総合療育センター 図書室"
+        },
+        {
+          "@value": "キタキユウシユウシリツソウゴウリヨウイクセンター トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北九療育"
+        },
+        {
+          "@value": "キタキユウリヨウイク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016161",
+      "cinii:organizationid": "KI008981",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北九州市立総合療育センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "802",
+        "v:label": "福岡県北九州市小倉南区春ケ丘10-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "093-922-5596"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "093-952-2713"
+        }
+      ]
+    }
+  ]
+}

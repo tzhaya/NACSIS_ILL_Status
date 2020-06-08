@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007014.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007014#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007014.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "新潟薬科大学 附属図書館"
+        },
+        {
+          "@value": "ニイガタヤッカダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "新薬大"
+        },
+        {
+          "@value": "シンヤクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "薬学",
+        "短大",
+        "応用"
+      ],
+      "cinii:memberid": "FA007014",
+      "cinii:organizationid": "KI002963",
+      "cinii:prefcode": "15",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "新潟薬科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "956-8603",
+        "v:label": "新潟県新潟市秋葉区東島265番地1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0250-25-5251"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0250-25-5191"
+        }
+      ],
+      "dc:description": [
+        "閲覧担当係    :閲覧サービス係",
+        "閲覧対象者    :9:00-16:30",
+        "館外貸出:新潟県在住又は勤務する20歳以上の方には貸出を行っています。貸出カードの申請・交付が必要です。身分証のコピーをとらせていただきます。貸出カードは、平日9:00-16:00以外は、即日交付ができません。詳細は当館WEBサイトをご確認ください。",
+        "複写受付時間:平日9:00-21:15、土曜日9:10-16:15(左記と異なる場合もあります。閉館時間の15分前まで受け付けますので、当館WEBサイトで開館時間をご確認の上、お越しください。)",
+        "複写料金:モノクロ1枚30円、カラー1枚80円 お釣りのご用意ができませんので、お釣りの要らないように小銭をご用意の上、お越しください。",
+        "所在調査受付時間:平日9:00-16:30",
+        "持参書類:当館を利用される場合は、必ず身分を証明するものをご持参ください。ご利用の都度、身分証をご提示いただきます。閲覧のみの場合でも身分証が必要です。詳細は、当館WEBサイトの外部利用者案内をご確認ください。",
+        "注意事項:研究室所蔵図書は、閲覧・貸出ができません。その他にも閲覧・貸出を制限する資料があります。",
+        "休館日:当館WEBサイトをご確認ください。",
+        "ILLサービス:図書館からの依頼のみ受付。企業・個人の方への郵送等による複写物の発送、図書の貸出は行っておりません。",
+        "WEBサイトURL:http://nupalsopac.nupals.ac.jp/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005234.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005234#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005234.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "工学院大学 図書館"
+        },
+        {
+          "@value": "コウガクインダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "工学院"
+        },
+        {
+          "@value": "コウガクイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005234",
+      "cinii:organizationid": "KI002012",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "工学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "163-8677",
+        "v:label": "東京都新宿区西新宿1-24-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3340-0133"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5322-8570"
+        }
+      ],
+      "dc:description": [
+        "通常開館時間:9:00〜19:30",
+        "短縮開館時間:夏期/春期休業中10:00〜18:00【8月10～18日,3月14日～4月5日の期間は閉館致します】",
+        "休館日:日曜日(開館する日曜日は学外者の利用不可),国民の祝日,年末年始,創立記念日(10月31日),学祭期間(11月中旬),大学入試日,夏期休暇(8月中旬),蔵書点検期間(3月中旬～31日)。",
+        "ILL-Org:Kogakuin University. Library",
+        "ILL-Address:1-24-2 Nishishinjuku,Shinjuku-ku,Tokyo,JAPAN",
+        "ILL-ZIP:163-8677",
+        "ILL-Commun1:Tel:+81-03-3340-0133/FAX:+81-03-5322-8570/E-mail:toshokan_ill@sc.kogakuin.ac.jp",
+        "URL:https://library.kogakuin.ac.jp/",
+        "開館日・開館時間:事前に図書館ホームページでご確認ください。",
+        "受付時間:開館から閉館30分前まで",
+        "所属する図書館を通して,事前に所蔵確認(FAX)をお願いします。",
+        "持参書類:所属機関発行の紹介状,身分証明証(学生証)",
+        "注意事項:犬目キャンパスの保存書庫に保管していた雑誌は倉庫に移管致しました。倉庫からの取り寄せは週3回(祝日や休館日を除く)の頻度となりますのでご注意ください。"
+      ]
+    }
+  ]
+}

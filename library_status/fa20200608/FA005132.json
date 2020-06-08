@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005132.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005132#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005132.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "共立女子大学 図書館"
+        },
+        {
+          "@value": "キョウリツジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "共立女大"
+        },
+        {
+          "@value": "キョウリツジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "八"
+      ],
+      "cinii:memberid": "FA005132",
+      "cinii:organizationid": "KI001960",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "共立女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-0003",
+        "v:label": "東京都千代田区一ツ橋2-6-1 【2号館4階】"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3237-2630"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3237-2774"
+        }
+      ],
+      "dc:description": [
+        "Kyoritsu Women's University Library",
+        "2-6-1 Hitotsubashi, Chiyoda-ku, Tokyo 101-0003",
+        "URL:http://www.kyoritsu-wu.ac.jp/lib/",
+        "来館利用担当:図書館 閲覧担当",
+        "電話番号:03-3237-2630",
+        "通常 平日9:30〜16:30(利用は17時まで)",
+        "注意事項:閲覧:資料の所在等,事前にFAXで問合せてください。貴重資料については,別途申請手続が必要です。",
+        "注意事項:複写:原則として領収書は発行しません。",
+        "持参書類:所属大学・機関の図書館長から本学図書館長に宛てた紹介状および身分証明書",
+        "複写時間:複写受付時間 :通常 平日9:30〜17:00",
+        "館外貸出:不可",
+        "制限事項:貴重資料には閲覧を許可しないものがあります。",
+        "休館日:その他:ホームページで確認してください。",
+        ""
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008174.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008174#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008174.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "桃山学院大学 附属図書館"
+        },
+        {
+          "@value": "モモヤマガクインダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "桃山大"
+        },
+        {
+          "@value": "モモヤマダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研",
+        "視聴覚",
+        "年史"
+      ],
+      "cinii:memberid": "FA008174",
+      "cinii:organizationid": "KI00381X",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "桃山学院大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "594-1198",
+        "v:label": "大阪府和泉市まなび野1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0725-54-3131(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0725-54-3274"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.andrew.ac.jp/library/ml.htm",
+        "来館利用担当:利用サービス係",
+        "電話番号:0725-54-3131 内2503  <FAX番号下4桁3274…受付および閲覧、3212…依頼>",
+        "受付時間: 9:00〜16:30",
+        "注意事項:利用の可否については、所属の大学図書館か公共図書館を通じて事前照会が必要です。個人から直接のお問い合わせについては受付できません 。 車での来館はご遠慮ください。",
+        "持参書類:資料利用依頼書および身分証明書。",
+        "複写時間: 9:00〜16:30",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:入試・蔵書点検期間(2月)、入学式・卒業式・大学祭期間中、土曜・日曜・国民の祝日、8月中旬の10日間程度(2013年度は8月10日～18日)、12月24日〜1月7日まで、その他臨時に休館の場合あり<HPを参照ください( http://www.andrew.ac.jp/library/ml.htm )>",
+        "参加組織の英文名称:Momoyama Gakuin University",
+        "参加組織の英文住所:1-1 Manabino, Izumi, Osaka 594-1198,Japan",
+        "図書目録担当者電子メールアドレス:tosho-3f@andrew.ac.jp",
+        "雑誌目録担当者電子メールアドレス:tosho-2f@andrew.ac.jp",
+        "ILL担当者電子メールアドレス:etsuran@andrew.ac.jp"
+      ]
+    }
+  ]
+}

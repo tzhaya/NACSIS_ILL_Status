@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022663.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022663#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022663.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都医学総合研究所 図書室"
+        },
+        {
+          "@value": "トウキョウトイガクソウゴウケンキュウジョ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "都医学研"
+        },
+        {
+          "@value": "トイガクケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "オンライン"
+      ],
+      "cinii:memberid": "FA022663",
+      "cinii:organizationid": "KI013507",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京都医学総合研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "156-8506",
+        "v:label": "東京都世田谷区上北沢2-1-6"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5316-3120"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5316-3142"
+        }
+      ],
+      "dc:description": [
+        "来館利用受付:図書室",
+        "閲覧対象者 : 本研究所職員, 東京都職員, その他所長が適当と認めた者",
+        "注意事項:TEL・FAX・Mailなどで所蔵を確認してください。所属機関から事前に利用依頼申請していただき許可後、依頼状と身分証明書をご持参ください。",
+        "閲覧受付時間:平日9:00-17:00",
+        "閲覧注記:複写は不可。",
+        "制限事項:閲覧対象者のうち、調査研究を目的とすることが条件です。",
+        "電話番号:03-5316-3120",
+        "文献複写:図書館間相互協力としてILL文献複写等料金相殺サービス参加館のみ受付。個人からの依頼は不可。",
+        "Tokyo Metropolitan Institute of Medical Science Library",
+        "2-1-6 Kamikitazawa, Setagaya, Tokyo 156-8506",
+        "URL:http://www.igakuken.or.jp/"
+      ]
+    }
+  ]
+}

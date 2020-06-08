@@ -1,0 +1,167 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001980.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001980#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001980.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "お茶の水女子大学 附属図書館"
+        },
+        {
+          "@value": "オチャノミズジョシダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "茶女大"
+        },
+        {
+          "@value": "チャジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "家庭",
+        "庶務",
+        "会計",
+        "施設",
+        "学務",
+        "学生",
+        "保健管理セ",
+        "生活環境セ",
+        "附属学校",
+        "小学",
+        "中学",
+        "高校",
+        "幼稚園",
+        "哲学(旧)",
+        "史学(旧)",
+        "地理(旧)",
+        "英文(旧)",
+        "教育(旧)",
+        "心理(旧)",
+        "舞踊(旧)",
+        "数学",
+        "物理",
+        "化学",
+        "生物",
+        "情報科学",
+        "理学共図",
+        "情報処理セ",
+        "児童",
+        "食物",
+        "被服",
+        "人間文化",
+        "日本語教育",
+        "生活工学",
+        "食物科学",
+        "人間科学",
+        "発達臨床",
+        "生活社会",
+        "生活文化",
+        "哲学",
+        "歴史",
+        "地理",
+        "日文",
+        "中文",
+        "英文",
+        "独文",
+        "仏文",
+        "社会",
+        "教育",
+        "心理",
+        "舞踊",
+        "音楽",
+        "ジェンダ",
+        "RI実験セ",
+        "人類科学",
+        "留学生セ",
+        "人間環境",
+        "食物栄養",
+        "湾岸生物セ",
+        "比較日本セ",
+        "国際教育セ",
+        "生活共図",
+        "情報基盤セ",
+        "生命情報セ",
+        "教育開発セ",
+        "人間発達研",
+        "リーダーシップ研",
+        "子ども学"
+      ],
+      "cinii:memberid": "FA001980",
+      "cinii:organizationid": "KI000312",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "003100",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "お茶の水女子大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "112-8610",
+        "v:label": "東京都文京区大塚2-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5978-5839(ILL)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "03-5978-5840(閲覧)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5978-5933"
+        }
+      ],
+      "dc:description": [
+        "Ochanomizu University Library",
+        "2-1-1, Otsuka, Bunkyo-ku, Tokyo 112-8610",
+        "URL:http://www.lib.ocha.ac.jp (WEBSITE)",
+        "URL:http://www.ocha.ac.jp/en/access/index.html (MAP)",
+        "URL:http://www.lib.ocha.ac.jp/opc/ (OPAC)",
+        "ILL-Staff: INOUE, Rieko / HADANO, Hiroko",
+        "ILL-Dept: Service Section",
+        "ILL-Org: Ochanomizu University Library",
+        "ILL-Address: 2-1-1, Otsuka, Bunkyo-ku, Tokyo, Japan",
+        "ILL-ZIP: 112-8610",
+        "ILL-Commun1 : Tel : +81-3-5978-5839 / Fax: +81-3-5978-5933 / E-mail : lib-ref@cc.ocha.ac.jp",
+        "ILL-Commun2 : OPAC : http://www.lib.ocha.ac.jp/opc/                    Home-page:http://www.lib.ocha.ac.jp/",
+        "ILL-Accept : Foreign(1) :OCLC(NII-OCLC link) :JAOUL /                 Foreign(2) : KERIS",
+        "ILL-Sched :Closed : Dec28-Jan4",
+        "ILL-Bill : Foreign(1) :OCLC=OCLC-IFM only /                               Foreign(2) : KERIS=NII Fee Management Service",
+        "ILL-Copy-Charge PHOTOCOPY :43YEN(black and white)/86YEN(color) per sheet / Postage required / Delivery method  : via airmail",
+        "ILL-Loan-Period:Foreign(1) :6 weeks / Foreign(2) :N/A",
+        "ILL-Loan-Renew:Foreign(1) :2 weeks / Foreign(2) :N/A",
+        "ILL-Loan-Charge:Loan:Foreign(1) : Postage required /                     Foreign(2) :N/A",
+        "ILL-Non-Circulation :Loan:Special collection, mcrfrm, mcrfch, ref, per, news, a-v., DIS, Thesis",
+        "ILL-Note:DIS:Photocopy : need the author's permission /                 Thesis: Photocopy:need the author's permission / MCRFLM: N/A      /  FCHE:N/A",
+        "ILL-OCLC-Symbol:JAOUL"
+      ]
+    }
+  ]
+}

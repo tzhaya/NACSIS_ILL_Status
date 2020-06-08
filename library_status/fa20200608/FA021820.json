@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA021820.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA021820#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA021820.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋芸術大学 附属図書館"
+        },
+        {
+          "@value": "ナゴヤゲイジュツダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名芸大"
+        },
+        {
+          "@value": "メイゲイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "東"
+      ],
+      "cinii:memberid": "FA021820",
+      "cinii:organizationid": "KI003274",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋芸術大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "481-8503",
+        "v:label": "北名古屋市熊之庄古井281"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0568-26-3121"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0568-24-0393"
+        }
+      ],
+      "dc:description": [
+        "Nagoya University of Art Library",
+        "281 Koi, Kumanosho, Kitanagoya, Aichi 481-8503 JAPAN",
+        "電話番号 0568-26-3121",
+        "閲覧受付時間 :9:00～17:30 土曜日 9:00～11:30 休業期間 9:00～15:00",
+        "必ず事前に電話で連絡のこと",
+        "資料利用依頼(閲覧願)、身分を証明できるものを持参のこと",
+        "複写受付時間 :9:00～17:30 土曜日 9:00～11:30 休業期間 9:00～15:00",
+        "館外貸出は不可",
+        "貴重書など、場合によっては利用できない資料があります",
+        "閉館日は、日曜日・大学の休業日・館内整理日(毎月末日もしくは末日にもっとも近い平日)・長期休業期間など"
+      ]
+    }
+  ]
+}

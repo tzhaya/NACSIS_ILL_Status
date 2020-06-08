@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001426.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001426#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001426.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東北大学 附属図書館 農学分館"
+        },
+        {
+          "@value": "トウホクダイガク フゾクトシヨカン ノウガクブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東北大農"
+        },
+        {
+          "@value": "トウホクダイノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "遺伝子"
+      ],
+      "cinii:memberid": "FA001426",
+      "cinii:organizationid": "KI000108",
+      "cinii:prefcode": "04",
+      "cinii:mextid": "001003",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東北大学 附属図書館 農学分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "980-8572",
+        "v:label": "仙台市青葉区荒巻字青葉468-1 青葉山コモンズ内"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-757-4023"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-757-4027"
+        }
+      ],
+      "dc:description": [
+        "TOHOKU UNIVERSITY AGRICULTURAL LIBRARY",
+        "C/O AOBAYAMA COMMONS 468-1 AOBA, ARAMAKI, AOBA-KU, SENDAI 980-0845",
+        "URL:http://www.library.tohoku.ac.jp/agr/index.html (WEBSITE)",
+        "URL:http://www.library.tohoku.ac.jp/agr/access.html (MAP)",
+        "来館利用担当: 図書係",
+        "電話番号: 022-757-4026",
+        "受付時間: 9:00〜16:30",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:特になし",
+        "複写時間:9:00〜16:30",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:土・日曜日・国民の祝日(振替休日を含む)・年末年始(12/28〜1/4)"
+      ]
+    }
+  ]
+}

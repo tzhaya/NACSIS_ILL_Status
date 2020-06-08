@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA013935.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA013935#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA013935.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "新居浜工業高等専門学校 図書館"
+        },
+        {
+          "@value": "ニイハマコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "新専"
+        },
+        {
+          "@value": "ニイセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA013935",
+      "cinii:organizationid": "KI007399",
+      "cinii:prefcode": "38",
+      "cinii:mextid": "604200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "新居浜工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "792-8580",
+        "v:label": "新居浜市八雲町7番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0897-37-7708(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0897-37-7707"
+        }
+      ],
+      "dc:description": [
+        "Niihama National College of Technology",
+        "7-1,Yagumo-cho,Niihama,Ehime 792-8580",
+        "URL:http://www.off.niihama-nct.ac.jp/~tosho-a/",
+        "来館利用担当:図書係",
+        "電話番号:0897-37-7708",
+        "受付時間:9:00〜16:30(土・日を除く)",
+        "持参書類:身分証明書",
+        "複写時間:9:00〜16:30(土・日を除く)",
+        "館外貸出:可",
+        "制限事項:研究室備付図書その他場合によって利用に応じられないことがある",
+        "休館日:日曜日・国民の祝日・年末年始"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003964.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003964#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003964.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪市立大学 学術情報総合センター"
+        },
+        {
+          "@value": "オオサカシリツダイガク ガクジュツジョウホウソウゴウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪市大"
+        },
+        {
+          "@value": "ハンシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "センタ",
+        "教養",
+        "保健",
+        "同和",
+        "法",
+        "経済",
+        "商",
+        "文",
+        "理",
+        "工",
+        "生科",
+        "創",
+        "図"
+      ],
+      "cinii:memberid": "FA003964",
+      "cinii:organizationid": "KI001144",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪市立大学 学術情報総合センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "558-8585",
+        "v:label": "大阪市住吉区杉本3-3-138"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6605-3231"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6605-3252"
+        }
+      ],
+      "dc:description": [
+        "Osaka City University Media Center",
+        "3-3-138, Sugimoto, Sumiyoshi-ku, Osaka 558-8585",
+        "URL:http://libweb.media.osaka-cu.ac.jp/ (website)",
+        "URL:http://www.osaka-cu.ac.jp/info/commons/access.html (map)",
+        "利用者の範囲:学術研究・調査を目的とし、公共図書館等で入手できない専門・学術資料の利用を希望する方。",
+        "来館利用担当:情報サービス部門",
+        "電話番号:06-6605-3250",
+        "FAX番号:06-6605-3252",
+        "来館受付時間:9:00-16:30(月〜金曜日)",
+        "複写受付時間:9:00-16:30(月〜金曜日)",
+        "注意事項:事前に所属機関の図書館、あるいは最寄の公共図書館を通して必ずFAXで所蔵調査(資料の所在、利用の可・否の確認)をしてください。事前に確認した資料のみ閲覧できます。",
+        "研究室備付資料等複写に応じられない場合があります。",
+        "持参書類:所属機関の図書館、あるいは公共図書館等からの閲覧依頼状および身分証。",
+        "館外貸出:不可",
+        "休館日:日祝日。その他の休館日については、ホームページのカレンダーを確認してください。",
+        "その他:大阪市内に在住あるいは在勤されている方は、「図書市民利用制度」をご利用いただけます。詳細については、ホームページを参照するか、情報サービス部門(06-6605-3240)へお尋ねください。"
+      ]
+    }
+  ]
+}

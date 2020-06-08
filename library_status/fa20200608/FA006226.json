@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006226.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006226#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006226.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 総合学術情報センター"
+        },
+        {
+          "@value": "ニホンダイガク ソウゴウガクジュツジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大総情"
+        },
+        {
+          "@value": "ニチダイソウジョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "総情",
+        "教制",
+        "精文",
+        "総科研",
+        "学相",
+        "研究総合",
+        "国際",
+        "法科",
+        "国土"
+      ],
+      "cinii:memberid": "FA006226",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本大学 総合学術情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "359-0003",
+        "v:label": "埼玉県所沢市中富南4-25"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-2996-4521"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-2996-4590"
+        }
+      ],
+      "dc:description": [
+        "Nihon University Center for Information Networking",
+        "25, Nakatomi-minami 4-chome, Tokorozawa-shi, Saitama 359-0003",
+        "来館利用担当:学術情報管理課",
+        "電話番号:04-2996-4521",
+        "受付時間:10:00〜16:30(夏期休暇期間:10:30〜15:30)",
+        "注意事項:資料の所蔵確認を事前にしてください。所蔵調査はメールまたはFAXで受け付けます。閲覧は必ず事前に閲覧時間を連絡してください。",
+        "持参書類:紹介状 (身分を証明するものを携行のこと)",
+        "複写時間:10:00〜16:30(夏期休暇期間:10:30〜15:30)",
+        "館外貸出:不可",
+        "制限事項:貴重書等,閲覧のできない資料や利用条件を制限する資料があります。",
+        "休館日:土曜日・日曜日・祝日および一斉休暇期間・冬期休暇期間・創立記念日(10月4日)・入学式(4月8日)・卒業式(3月25日)・その他大学の指定する日",
+        "夏期休暇期間は現物貸借および文献複写の対応に時間がかかることがあります。当館は文献複写等料金相殺サービスに参加しておりません。",
+        "大学史編纂課所在資料の利用については,大学史編纂課(Tel:04-2996-4571,Fax:04-2996-4592)にお問い合わせください。"
+      ]
+    }
+  ]
+}

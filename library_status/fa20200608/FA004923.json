@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004923.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004923#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004923.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "青山学院大学 図書館"
+        },
+        {
+          "@value": "アオヤマガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "青学青山"
+        },
+        {
+          "@value": "アオガクアオヤマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004923",
+      "cinii:organizationid": "KI001891",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "青山学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "150-8366",
+        "v:label": "東京都渋谷区渋谷4-4-25"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3409-7833"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3407-4472"
+        }
+      ],
+      "dc:description": [
+        "Aoyama Gakuin University",
+        "4-4-25,Shibuya, Shibuya-ku, Tokyo 150-8366 JAPAN",
+        "URL:http://www.agulin.aoyama.ac.jp (website)",
+        "URL:http://www.aoyama.ac.jp/other/access/aoyama.html (map)",
+        "来館利用担当:参考係",
+        "電話番号:03-3409-7833",
+        "受付時間:9:30〜20:00 (土曜日 9:30〜20:00)",
+        "注意事項:資料が学部・学科研究室で所蔵していることがあるので、所属の図書館を通して、電話またはFAXでの問い合わせが望ましい(個人からの問い合わせ不可)。夏期、春期は受付時間が異なりますので、お問い合わせください。",
+        "持参書類:外部資料利用願,身分証明書",
+        "複写受付時間:9:30〜20:00 (土曜日 9:30〜20:00)",
+        "館外貸出:不可"
+      ]
+    }
+  ]
+}

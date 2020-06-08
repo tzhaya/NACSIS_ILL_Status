@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006066.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006066#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006066.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京電機大学 総合メディアセンター 千住センター"
+        },
+        {
+          "@value": "トウキョウデンキダイガク ソウゴウメディアセンター センジュセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "電機大千住"
+        },
+        {
+          "@value": "デンキダイセンジュ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "千葉書庫"
+      ],
+      "cinii:memberid": "FA006066",
+      "cinii:organizationid": "KI002453",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京電機大学 総合メディアセンター 千住センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "120-8551",
+        "v:label": "東京都足立区千住旭町5番"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5284-5371"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5284-5398"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Denki University Multimedia Resource Center & Library Senju Satelite Center",
+        "5, Senjyu-Asahi-cho, Adachi-ku, Tokyo 120-8551",
+        "URL:http://www.mrcl.dendai.ac.jp/",
+        "URL:http://web.dendai.ac.jp/access/tokyosenju.html",
+        "来館利用担当:閲覧担当",
+        "電話番号:03-5284-5377",
+        "受付時間:9:00〜21:00",
+        "注意事項:閲覧・複写の利用は、事前にメール・電話等で連絡して下さい。",
+        "持参書類:閲覧紹介状",
+        "複写時間:9:00〜20:45",
+        "館外貸出:不可",
+        "制限事項:特別コレクションの複写は原則として不可。定期試験中、入学試験中は利用制限あり。",
+        "休館日:日曜日・祝休日・創立記念日(9月11日)・夏季・冬季・春季の各休業中の一定期間"
+      ]
+    }
+  ]
+}

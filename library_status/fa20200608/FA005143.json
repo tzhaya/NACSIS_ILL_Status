@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005143.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005143#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005143.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "慶應義塾大学 薬学メディアセンター"
+        },
+        {
+          "@value": "ケイオウギジュクダイガク ヤクガクメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "慶大薬"
+        },
+        {
+          "@value": "ケイダイヤク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005143",
+      "cinii:organizationid": "KI002001",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "慶應義塾大学 薬学メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "105-8512",
+        "v:label": "東京都港区芝公園1-5-30"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5400-2679"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5400-2690"
+        }
+      ],
+      "dc:description": [
+        "Keio University Information and Media Center for Pharmaceutical Sciences",
+        "1-5-30 Shibakoen, Minato-ku, Tokyo 105-8512",
+        "URL: http://www.pha.lib.keio.ac.jp/ (Website)",
+        "≪学外の方の来館利用≫",
+        "当館所蔵の学術資料の利用を目的とする場合のみ受け付けます。OPACで所蔵をご確認のうえ、利用資料を特定してご来館ください。",
+        "資料の取置をご希望の場合は、事前にお問い合わせください。お問い合わせは、平日 8:45〜18:00 までにお願いいたします。",
+        "電話番号: 03-5400-2679",
+        "利用受付時間: 開館時間内(Webサイトの開館カレンダーをご参照ください)",
+        "注意事項: 必ず薬学メディアセンターのカウンターにて入館手続を行ってください。",
+        "来館持参書類: 本人確認ができる身分証(学生の方は学生証)。大学教職員・学生の方は所属大学の図書館が発行する紹介状もご持参ください。",
+        "館外貸出: 不可",
+        "休館日: 日曜、祝日、本学の記念日(1/10、4/23)、夏季及び冬季休業中の特定期間"
+      ]
+    }
+  ]
+}

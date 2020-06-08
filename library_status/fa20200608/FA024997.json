@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024997.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024997#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024997.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "武蔵野赤十字病院 図書室"
+        },
+        {
+          "@value": "ムサシノセキジュウジビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "武蔵野赤"
+        },
+        {
+          "@value": "ムサシノセキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024997",
+      "cinii:organizationid": "KI014984",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "武蔵野赤十字病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "180-8610",
+        "v:label": "東京都武蔵野市境南町一丁目26番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0422-32-3111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0422-32-3525"
+        }
+      ],
+      "dc:description": [
+        "開館時間は9:00～17:00となります。16:00以降のお申し込みは、翌日発送になる場合があります。",
+        "休館日:土・日曜日、祝日、年末年始(12月29日-1月3日)、創立記念日(5月1日)",
+        "複写料金 : 令和元年12月2日受付・発送分より、料金を変更します。白黒1枚50円→55円・カラー1枚100円→110円。原則白黒複写いたします。カラー複写ご希望の場合は、申し込みの際ご指定ください。",
+        "NII相殺サービス参加機関の決済は、相殺で対応させて頂きます。",
+        "NII相殺サービス不参加機関のお支払は、郵便振替(後納)で対応させて頂きます。"
+      ]
+    }
+  ]
+}

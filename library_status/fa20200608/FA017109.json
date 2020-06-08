@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017109.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017109#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017109.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "富山高等専門学校 図書館情報センター射水"
+        },
+        {
+          "@value": "トヤマコウトウセンモンガッコウ トショカンジョウホウセンターイミズ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "富山高専射水"
+        },
+        {
+          "@value": "トヤマコウセンイミズ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017109",
+      "cinii:organizationid": "KI009204",
+      "cinii:prefcode": "16",
+      "cinii:mextid": "601900",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "富山高等専門学校 図書館情報センター射水",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "933-0293",
+        "v:label": "射水市海老江練合1-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0766-86-5138"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0766-86-5139"
+        }
+      ],
+      "dc:description": [
+        "The Library and Information Center(Imizu)of Toyama National College of Technology",
+        "1-2, Ebie Neriya, Imizu-shi, Toyama 933-0293",
+        "URL:https://www.nc-toyama.ac.jp/library/",
+        "来館利用担当:図書館",
+        "電話番号:0766-86-5138",
+        "受付時間:平日8:30〜19:00 土曜日13:00〜17:00,休業期間8:30〜17:00",
+        "注意事項:開館日、開館時間、資料の所在は事前に確認願います。",
+        "注意事項:研究室等所在図書については,利用に応じられない場合がある。",
+        "持参書類:身分証明書、運転免許証、健康保険証、学生証等身分を証明できるもの",
+        "複写時間:9:00-16:00",
+        "館外貸出:可",
+        "制限事項:館内閲覧のみとする図書有り",
+        "休館日:国民の祝日、日曜日、休業期間中の土曜日、年末年始(12/28から1/4)、図書館情報センター長が必要と認めた日"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA028149.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA028149#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA028149.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "専修大学 図書館 靖国通り分館 (Knowledge Base)"
+        },
+        {
+          "@value": "センシュウダイガク トショカン ヤスクニドオリブンカン (ナレッジ・ベース)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "専大靖分"
+        },
+        {
+          "@value": "センダイヤスブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA028149",
+      "cinii:organizationid": "KI002216",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "専修大学 図書館 靖国通り分館 (Knowledge Base)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-8425",
+        "v:label": "千代田区神田神保町3-8"
+      }
+    }
+  ]
+}

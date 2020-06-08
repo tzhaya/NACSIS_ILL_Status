@@ -1,0 +1,141 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002870.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002870#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002870.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪大学 附属図書館 理工学図書館"
+        },
+        {
+          "@value": "オオサカダイガク フゾクトショカン リコウガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪大理工"
+        },
+        {
+          "@value": "ハンダイリコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "工建土図",
+        "工環境図",
+        "工化系図",
+        "工応物図",
+        "工応生図",
+        "工船海図",
+        "低セ吹田",
+        "工超温図",
+        "産研図",
+        "産研知ア",
+        "産研複知",
+        "産研量発",
+        "産研半プ",
+        "産研精制",
+        "産研機物",
+        "産研ナノ構機",
+        "産研励物",
+        "産研先電",
+        "産研医薬",
+        "産研励分",
+        "接合研図",
+        "レ核融図",
+        "核セ図",
+        "産研量物",
+        "産研総合解セ",
+        "産研試作",
+        "産研技室",
+        "RI総合",
+        "工電情図",
+        "電顕セ",
+        "工生産図",
+        "工風洞",
+        "工材料図",
+        "保全セ",
+        "産研半量",
+        "産研ソフト",
+        "産研バイオ",
+        "産研先材",
+        "産研ナノ機予",
+        "産研生体分子機能",
+        "産研先端ハード",
+        "産研知識科学",
+        "産研量子システム"
+      ],
+      "cinii:memberid": "FA002870",
+      "cinii:organizationid": "KI000593",
+      "cinii:prefcode": "27",
+      "cinii:mextid": "005102",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪大学 附属図書館 理工学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "565-0871",
+        "v:label": "吹田市山田丘2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6879-7187"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "受付"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "06-6879-7188"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "依頼"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6879-7190"
+        }
+      ],
+      "dc:description": [
+        "OSAKA UNIVERSITY SCIENCE AND ENGINEERING LIBRARY",
+        "2-1, Yamada-oka, Suita, Osaka, 565-0871",
+        "URL:https://www.library.osaka-u.ac.jp/rikou/",
+        "来館利用担当:利用支援担当",
+        "利用者の範囲:当館の資料の閲覧を希望される方",
+        "開館時間:9:00-22:00(月-金曜日)10:00-17:00(土-日曜日)10:00-17:00(国が定める休日)、但し、授業休業期は9:00-17:00(月-金曜日)10:00-17:00(土曜日)、日祝閉館",
+        "注意事項:図書館所蔵資料は一部を除き、利用者登録後、貸出可。登録の詳細は以下のURLをご覧ください。https://www.library.osaka-u.ac.jp/membership2/",
+        "注意事項:研究室所蔵の資料は利用不可。 大阪大学蔵書検索(OPAC)でご確認ください。",
+        "TEL:06-6879-7187,  FAX:06-6879-7190",
+        "複写受付時間:平日:9:00-16:45",
+        "休館日:休業時の日曜日、休業時の国が定める休日、年末年始(12/28〜1/4)、本学創立記念日(5/1)",
+        "車での来館はご遠慮ください"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001663.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001663#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001663.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "筑波大学 附属図書館 医学図書館"
+        },
+        {
+          "@value": "ツクバダイガク フゾクトシヨカン イガクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "筑大医"
+        },
+        {
+          "@value": "ツクダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA001663",
+      "cinii:organizationid": "KI000174",
+      "cinii:prefcode": "08",
+      "cinii:mextid": "001602",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "筑波大学 附属図書館 医学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-8575",
+        "v:label": "茨城県つくば市天王台1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-853-3030"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-853-6023"
+        }
+      ],
+      "dc:description": [
+        "University of Tsukuba Library, Medical Library",
+        "1-1-1 Tennodai, Tsukuba-shi, Ibaraki-ken 305-8575",
+        "URL:https://www.tulips.tsukuba.ac.jp/ (WEBSITE)",
+        "https://www.tulips.tsukuba.ac.jp/lib/ja/map/map-igaku (MAP)",
+        "来館利用担当:医学図書館担当",
+        "電話番号:029-853-3256",
+        "受付時間:開館時間中",
+        "複写受付時間:開館時間中",
+        "館外貸出:不可",
+        "休館日:夏季一斉休業日(8月中旬)、年末年始",
+        "ILL-Org:University of Tsukuba Library, Medical Library",
+        "ILL-Address:1-1-1 Tennodai, Tsukuba-shi, Ibaraki-ken",
+        "ILL-Dept:Interlibrary Loan Section",
+        "ILL-Accept:International: LOAN Yes",
+        "ILL-Accept: International: LOAN Traceable courier with insurance Only",
+        "ILL-Accept:International: COPY Yes",
+        "ILL-Accept-method: Korea: KERIS=NII ILL Linkage (COPY only)",
+        "ILL-Accept-method: International: E-mail, FAX, Airmail",
+        "ILL-Payment-method: International: KERIS=NII Fee Management service Yes",
+        "ILL-Payment-method: International: Invoice Yes",
+        "ILL-Payment-method: International: Bank Transfer Yes",
+        "ILL-Payment-method: International: OCLC-IFM N/A",
+        "ILL-Loan-Period: 42 days including mailing period",
+        "ILL-Loan-Item-Max: 5 items per library",
+        "ILL-Loan-Charge: Postage only (JPY)",
+        "ILL-Loan-Delivery-method: Tracked system / No rush service available",
+        "ILL-Non-Circulation-items: Special collection, microform, Reference collection, Journal issues, newspaper, DVDs, dissertation",
+        "ILL-Loan-Period: N/A",
+        "ILL-Loan-Item-Max: N/A",
+        "ILL-Loan-Charge: N/A",
+        "ILL-Loan-Delivery-method: N/A",
+        "ILL-Non-Circulation-items: N/A",
+        "ILL-Copy-Charge: 60 JPY per sheet(monochrome) & postage / 120 JPY per sheet(color) & postage / 70 JPY per sheet(photocopy from microform) & postage / No rush service available",
+        "ILL-Copy-Delivery-method: Airmail",
+        "ILL-Note: dissertation: COPY:author's permission required"
+      ]
+    }
+  ]
+}

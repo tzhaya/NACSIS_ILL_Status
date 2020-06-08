@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA001007.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA001007#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA001007.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 附属図書館"
+        },
+        {
+          "@value": "ホッカイドウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大"
+        },
+        {
+          "@value": "ホクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "スラブ"
+      ],
+      "cinii:memberid": "FA001007",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000100",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-0808",
+        "v:label": "札幌市北区北8条西5丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "ILL担当: 011-706-4095"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "来館利用担当: 011-706-3956"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-746-4595"
+        }
+      ],
+      "dc:description": [
+        "Hokkaido University Library",
+        "Kita-8,Nishi-5,Kita-ku,Sapporo 060-0808",
+        "URL:https://www.lib.hokudai.ac.jp/?ml_lang=ja",
+        "来館利用担当: 利用支援課 (本館閲覧担当)",
+        "電話番号:011-706-3956",
+        "受付時間:9:00〜17:00",
+        "注意事項:原則として事前に電話連絡のこと。",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:身分証明書又は学生証",
+        "複写時間:9:00〜16:30",
+        "館外貸出:可(研究者、道内の一般市民、本学卒業生) 不可(他大学の学生、大学院生)",
+        "制限事項:",
+        "休館日:大学入試センター試験日、全学停電日、12月28日〜1月3日、館長が特に定める日",
+        "ILL-Staff:Nakajo Masaki",
+        "ILL-Dept: Interlibrary Loan Section",
+        "ILL-Org: Hokkaido University Library",
+        "ILL-Address: Kita-8, Nishi-5, Kita-Ku, Sapporo, Hokkaido, Japan",
+        "ILL-Zip: 060-0808",
+        "ILL-Contact1: Tel:+81-11-706-4095 / Fax:+81-11-746-4595 / E-mail:sogo@lib.hokudai.ac.jp",
+        "ILL-Contact2:Online catalogue: http://opac.lib.hokudai.ac.jp/opac/?lang=1 / Website:https://www.lib.hokudai.ac.jp/en/",
+        "ILL-Accept: International: LOAN(Yes) / International: LOAN Traceable courier with insurance Only / International: COPY(Yes) / International: COPY Airmail Only",
+        "ILL-Accept-method: Korea: KERIS=NII ILL linkage (COPY Only) / International: E-mail Only",
+        "ILL-Calender:Closed: Dec 28-Jan 3",
+        "ILL-Payment-method: International: Invoice: N/A",
+        "ILL-Payment-method: International: IFLA Voucher: N/A / International:",
+        "ILL-Payment-method: International: Credit Card: N/A",
+        "ILL-Payment-method: International: OCLC-IFM: N/A",
+        "ILL-Payment-method: International: Bank Transaction: N/A",
+        "ILL-Payment-method: International: KERIS=NII Fee Management service: Yes",
+        "ILL-Loan-Period: 6 weeks",
+        "ILL-Loan-Item-Max: Up to 10 volumes per year",
+        "ILL-Loan-Renewal: N/A",
+        "ILL-Loan-Charge: Please contact us by E-mail",
+        "ILL-Loan-Delivery-method: Tracked system",
+        "ILL-Non-Circulation-items: microfilm, microfiche, Reference collection, DVDs, Newspaper, Journal issues, Special collections, Rare collections, Thesis, dissertation",
+        "ILL-Copy-Charge: Please contact us by E-mail",
+        "ILL-Copy-Delivery-method: Airmail only",
+        "ILL-Note: dissertation: LOAN: N/A; dissertation: COPY: author's permission required / Thesis: LOAN: N/A; Thesis: COPY: author's permission required / All Hokkaido University libraries are included"
+      ]
+    }
+  ]
+}

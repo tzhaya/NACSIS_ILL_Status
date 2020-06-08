@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023087.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023087#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023087.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関西看護医療大学 図書館"
+        },
+        {
+          "@value": "カンサイカンゴイリョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関看大"
+        },
+        {
+          "@value": "カンカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA023087",
+      "cinii:organizationid": "KI01396X",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "関西看護医療大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "656-2131",
+        "v:label": "兵庫県淡路市志筑1456-4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0799-60-1236(直)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0799-60-1237(直)"
+        }
+      ],
+      "dc:description": [
+        "複写受付可否:可",
+        "FAX受付可否:可(文献のFAX送信:否)",
+        "複写方法・料金:電子複写(モノクロ1枚50円,カラー1枚100円)※特に指定のない場合はモノクロ印刷します。",
+        "発送:通常はゆうメールまたは郵便の安い方にて発送します。速達の場合は郵便で発送します。",
+        "複写注記:速達発送可能ですが、当日12:00以降受付分に関しては翌平日開館日の発送になります。",
+        "決済方法:公費・私費=後納 領収書発行不可",
+        "支払方法:ILL文献複写等料金相殺サービス参加館=相殺 その他=銀行振込(支払期限:1カ月以内)",
+        "複写注記:(病院図書室様へ)FAXで複写申込される場合は、フォーマットは特に指定ありませんので、各館のフォーマットもしくは日本看護図書館協会の文献相互利用申込様式(JNLA様式)をご利用下さい。",
+        "複写注記:個人からの複写依頼は受付しておりません。",
+        "土日祝は複写受付業務を行っておりません。平日開館日にお問い合わせください。",
+        "複写注記:本学紀要論文(関西看護医療大紀要)1～11巻は本学リポジトリにて公開しております。「関西看護医療大学KKIリポジトリ」で検索するか、「https://kki.repo.nii.ac.jp/」からご確認下さい。",
+        "貸借注記: 図書の貸出は大学図書館のみとさせていただきます。",
+        "閲覧:事前連絡:あった方が望ましい。",
+        "閲覧持参書類:所蔵調査結果(確認済の場合)・身分証明書等",
+        "閲覧受付時間:平日9:30〜17:30",
+        "館外貸出可否:否",
+        "閲覧その他:他大学・専門学校所属の方で本学図書館を時間外利用されたい場合は、事前に所属機関の図書館(室)より連絡いただき、訪問時に利用内容と期間を記載した紹介状を持参してください。",
+        "休館日:土曜(土曜日は学内利用者のみ)・日曜・祝日・年末年始・創立記念日・蔵書点検期間・その他"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005959.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005959#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005959.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京家政学院大学 附属図書館"
+        },
+        {
+          "@value": "トウキョウカセイガクインダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "家政院大"
+        },
+        {
+          "@value": "カセイインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA005959",
+      "cinii:organizationid": "KI002362",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京家政学院大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "194-0292",
+        "v:label": "東京都町田市相原町2600"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-782-9815"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-782-7980"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Kasei Gakuin University Library",
+        "2600,Aihara-cho,Machida-shi,Tokyo 194-0292",
+        "URL:http://www.kasei-gakuin.ac.jp/library/lib-top.htm (website)",
+        "URL:http://www.kasei-gakuin.ac.jp/library/lib-map.htm (map)",
+        "来館利用担当:閲覧担当",
+        "電話番号:042-782-9815",
+        "受付時間:9:00-16:00",
+        "注意事項:資料の所在等を事前にFAXや文書で確認してください。",
+        "持参書類:資料利用依頼書、身分を証明するもの",
+        "複写時間:9:00-16:00",
+        "館外貸出:可",
+        "制限事項:貴重資料には利用を制限するものがあります。",
+        "休館日:日曜日、祝日、創立記念日(5月21日)、夏季休業中の土曜日、年末年始および入学試験実施日、設備点検期間(2020年8月24日～8月28日まで)",
+        "令和2年6月1日より、短縮開館をいたします。しかし、学内者のみの対応になります。来館でのご利用はできません。"
+      ]
+    }
+  ]
+}

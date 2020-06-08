@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003691.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003691#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003691.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "琉球大学 附属図書館"
+        },
+        {
+          "@value": "リュウキュウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "琉大"
+        },
+        {
+          "@value": "リュウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研究図書",
+        "沖資",
+        "参考"
+      ],
+      "cinii:memberid": "FA003691",
+      "cinii:organizationid": "KI000957",
+      "cinii:prefcode": "47",
+      "cinii:mextid": "007800",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "琉球大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "903-0214",
+        "v:label": "沖縄県中頭郡西原町字千原1番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "098-895-8166(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "098-895-8169(G3)"
+        }
+      ],
+      "dc:description": [
+        "開館時間:開館カレンダーよりご確認ください。 URL:http://www.lib.u-ryukyu.ac.jp/?page_id=922",
+        "学外者の図書館利用については図書館HPよりご確認ください。 URL:http://www.lib.u-ryukyu.ac.jp/?p=5077#4",
+        "注意事項:資料の所在等、WebOPACから事前確認してください。 URL:http://opac.lib.u-ryukyu.ac.jp/opc/",
+        "注意事項:車での来館はご遠慮ください。",
+        "制限事項:研究室貸出図書等は閲覧できません。",
+        "ILL-Commun1:OPAC: http://opac.lib.u-ryukyu.ac.jp/opc/",
+        "ILL-Accept:International: LOAN N/A",
+        "ILL-Accept:International: COPY N/A"
+      ]
+    }
+  ]
+}

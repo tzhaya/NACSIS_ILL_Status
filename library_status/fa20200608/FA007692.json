@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA007692.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA007692#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA007692.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都ノートルダム女子大学 図書館情報センター"
+        },
+        {
+          "@value": "キョウトノートルダムジョシダイガク トショカンジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "ノ女大"
+        },
+        {
+          "@value": "ノジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007692",
+      "cinii:organizationid": "KI003489",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都ノートルダム女子大学 図書館情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-0847",
+        "v:label": "京都府京都市左京区下鴨南野々神町1番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-706-3751"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-706-3752"
+        }
+      ],
+      "dc:description": [
+        "Notre Dame University Academic Information Center Library",
+        "1 Minami-Nonogami-cho Shimogamo, Sakyo-ku Kyoto 606-0847",
+        "URL:http://www.notredame.ac.jp/lib/"
+      ]
+    }
+  ]
+}

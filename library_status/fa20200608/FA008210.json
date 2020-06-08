@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008210.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008210#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008210.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大手前大学・大手前短期大学 図書館"
+        },
+        {
+          "@value": "オオテマエダイガク・オオテマエタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大手前大"
+        },
+        {
+          "@value": "オオテマエダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "史学研究所",
+        "夙川",
+        "伊丹"
+      ],
+      "cinii:memberid": "FA008210",
+      "cinii:organizationid": "KI003842",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大手前大学・大手前短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "662-8552",
+        "v:label": "兵庫県西宮市御茶家所町6-42"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0798-32-5015"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0798-32-5034"
+        }
+      ],
+      "dc:description": [
+        "Otemae University Library",
+        "6-42 Ochayasho-cho Nishinomiya-shi Hyogo-ken, 662-8552, Japan",
+        "URL:http://library.otemae.ac.jp/",
+        "来館利用担当:閲覧担当",
+        "電話番号:0798-32-5015",
+        "受付時間:8:30-19:00(土曜日9:00-16:30)",
+        "持参書類:身分を証明する物を携行すること",
+        "複写時間:8:30-19:00(土曜日9:00-16:30)",
+        "館外貸出:8:30-19:00(土曜日9:00-16:30)",
+        "制限事項:学術的研究を目的とした場合、1人3冊2週間 ただし20才以上",
+        "休館日:日曜日・国民の祝日および本大学で定められた休日",
+        "ILL-Staff:Fujimoto Tadashi",
+        "ILL-Dept:Inter Library Service Section",
+        "ILL-Org:Otemae University Library",
+        "ILL-Address:6-42 Ochayasho-cho Nishinomiya-shi Hyogo-ken, 662-8552, Japan",
+        "ILL-ZIP:662-8552",
+        "ILL-Commun1:TEL:+81-0798-32-5015 / FAX:+81-0798-32-5034 / E-Mail:ill-cell@otemae.ac.jp",
+        "ILL-Commun2:OPAC: https://opac.otemae.ac.jp/ , Home-Page: http://library.otemae.ac.jp/",
+        "ILL-Accept:Foreign(1): OCLC (NII-OCLC link only): JAOTE",
+        "ILL-Accept:Foreign(2): KERIS",
+        "ILL-OCLC-Symbol: JAOTE",
+        "ILL-Sched:Closed: May3-6, Aug10-18, Dec28-Jan5",
+        "ILL-Bill:Foreign(1): OCLC=OCLC-IFM only",
+        "ILL-Bill:Foreign(2): KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period:N/A",
+        "ILL-Loan-Renew:N/A",
+        "ILL-Loan-Charge:N/A",
+        "ILL-Non-Circulation:N/A",
+        "ILL-Copy-Charge:100YEN per sheet. Delivery method:via airmail.",
+        "ILL-Note: photo copy only"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA025151.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA025151#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA025151.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "帝京平成大学 中野キャンパス メディアライブラリーセンター"
+        },
+        {
+          "@value": "テイキョウヘイセイダイガク ナカノキャンパス メディアライブラリーセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "帝京平成中野"
+        },
+        {
+          "@value": "テイキョウヘイセイナカノ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA025151",
+      "cinii:organizationid": "KI006895",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "帝京平成大学 中野キャンパス メディアライブラリーセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "164-8530",
+        "v:label": "東京都中野区中野4-21-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5860-4731"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5860-4732"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当:",
+        "電話番号:03-5860-4731",
+        "受付時間:平日9:00～17:00",
+        "館外貸出:不可",
+        "休館日:日曜日、祝日、年末年始、オープンキャンパス実施日など",
+        "文献複写の個人申込は受け付けておりません。",
+        "ILL-Org: Teikyo Heisei University Nakano Campus Media Library Center",
+        "ILL-Address: 4-21-2 Nakano Nakano-ku、 Tokyo、 JAPAN",
+        "ILL-ZIP: 164-8530",
+        "ILL-Commun1:Tel:+81-3-5860-4731 /FAX:+81-3-5860-4732"
+      ]
+    }
+  ]
+}

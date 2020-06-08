@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA016875.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA016875#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA016875.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸市看護大学 図書館"
+        },
+        {
+          "@value": "コウベシカンゴダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神看大"
+        },
+        {
+          "@value": "シンカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016875",
+      "cinii:organizationid": "KI009474",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神戸市看護大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "651-2103",
+        "v:label": "神戸市西区学園西町3丁目4番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-794-8090"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-794-8088"
+        }
+      ],
+      "dc:description": [
+        "THE LIBRARY OF KOBE CITY COLLEGE OF NURSING",
+        "3-4,GAKUEN NISHIMACHI,NISHIKU,KOBE 651-2103",
+        "HTTP://WWW.KOBE-CCN.AC.JP/ (WEBSITE)",
+        "電話番号:078-794-8090",
+        "受付時間:9:00〜17:00",
+        "注意事項:資料の所在、開館日など、事前確認をしてください。",
+        "注意事項:お車での来館はご遠慮下さい。",
+        "持参書類:大学が発行する「利用許可願」など。下記利用条件参照。",
+        "利用条件:(1)本学卒業生(短期大学部を含む)。(2)神戸市内在住在勤の20歳以上の方。(3)神戸市内の大学、短期大学、専門学校の教職員・学生。(4)神戸市外の看護系大学、短期大学、専門学校の教職員・学生。(5)神戸市外の大学、短期大学の教職員・学生で「図書館利用許可願」を持ってこられた方。",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可",
+        "制限事項:視聴覚コーナー、キャレルコーナーなどの施設は利用できません。",
+        "休館日:(1)土曜日日曜日(2)祝日休日(3)開学記念日6月7日(4)年末年始12月28日〜1月4日(5)図書整理期間8月12日〜8月18日(6)蔵書点検期間(3月末-4月初)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA015293.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA015293#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA015293.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "新潟経営大学 図書館"
+        },
+        {
+          "@value": "ニイガタケイエイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "新経大"
+        },
+        {
+          "@value": "シンケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA015293",
+      "cinii:organizationid": "KI008154",
+      "cinii:prefcode": "15",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "新潟経営大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "959-1321",
+        "v:label": "新潟県加茂市希望ケ丘2909-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0256-53-4522"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0256-53-4533"
+        }
+      ],
+      "dc:description": [
+        "Niigata University of Management Library",
+        "2909-2, Kibogaoka, kamo-shi, Niigata 959-1321",
+        "電話番号:0256-53-4522",
+        "受付時間:平日 9:00-17:00",
+        "注意事項:電話で事前に問い合わせて下さい。",
+        "持参書類:身分証明書",
+        "複写時間:平日 9:00-17:00",
+        "館外貸出:不可",
+        "休館日:土曜,日曜,祝日,創立記念日(9月10日),大学暦に関係する日,年末年 始,8/13-8/16,12/28-1/5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA010405.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA010405#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA010405.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "農業・食品産業技術総合研究機構 農業技術革新工学研究センター 図書室"
+        },
+        {
+          "@value": "ノウギョウ・ショクヒンサンギョウギジュツソウゴウケンキュウキコウ ノウギョウギジュツカクシンコウガクケンキュウセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "革新工学セ"
+        },
+        {
+          "@value": "カクシンコウガクセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010405",
+      "cinii:organizationid": "KI005065",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "農業・食品産業技術総合研究機構 農業技術革新工学研究センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "331-8537",
+        "v:label": "埼玉県さいたま市北区日進町1-40-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-654-7116"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-654-7138"
+        }
+      ],
+      "dc:description": [
+        "Institute of Agricultural Machinery, NARO",
+        "1-40-2 Nissin-cho, Kita-ku, Saitama-city, SAITAMA 331-8537",
+        "受付時間9:00-12:00,13:00-16:00",
+        "館外貸出:不可",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始(12/28-1/4)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006951.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006951#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006951.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "洗足学園音楽大学 洗足こども短期大学 附属図書館"
+        },
+        {
+          "@value": "センゾクガクエンオンガクダイガク センゾクコドモタンキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "洗足音大"
+        },
+        {
+          "@value": "センゾクオンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA006951",
+      "cinii:organizationid": "KI002908",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "洗足学園音楽大学 洗足こども短期大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "213-8580",
+        "v:label": "神奈川県川崎市高津区久本2-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "044-856-2976"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "044-856-2974"
+        }
+      ],
+      "dc:description": [
+        "Senzoku Gakuen College of Music,Library",
+        "2-3-1, Hisamoto, Takatsuku, Kawasaki-si, Kanagawa-ken, 213-8580",
+        "URL:http://www.senzoku.ac.jp",
+        "来館利用担当:図書館事務室",
+        "電話番号:044-856-2976",
+        "受付時間:8:30〜19:00",
+        "注意事項:電話かFAXで事前確認をしてください。学外者が利用する場合は館長の許可が必要です。その場合、本学関係者、及び図書館からの依頼状が必要です。車での来館はご遠慮ください。",
+        "持参書類:図書館長の依頼状、身分証明書",
+        "複写時間:9:00〜18:30",
+        "館外貸出:否",
+        "休館日:日曜日、祝祭日、創立記念日(10/13) その他図書館が必要とする日"
+      ]
+    }
+  ]
+}

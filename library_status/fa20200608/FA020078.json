@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020078.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020078#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020078.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "秋田県立大学 大潟キャンパス 図書・情報センター"
+        },
+        {
+          "@value": "アキタケンリツダイガク  オオガタキャンパス トショ・ジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "秋県大潟"
+        },
+        {
+          "@value": "アキケンダイカタ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020078",
+      "cinii:organizationid": "KI011079",
+      "cinii:prefcode": "05",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "秋田県立大学 大潟キャンパス 図書・情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "010-0444",
+        "v:label": "秋田県南秋田郡大潟村字南2丁目2番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0185-45-2028"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0185-45-2021"
+        }
+      ],
+      "dc:description": [
+        "Akita Prefectural College of Aguriculture",
+        "2-2 Minami, Ogata Village, Akita 010-0444 Japan"
+      ]
+    }
+  ]
+}

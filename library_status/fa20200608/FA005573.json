@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005573.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005573#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005573.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大正大学 附属図書館"
+        },
+        {
+          "@value": "タイショウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大正大"
+        },
+        {
+          "@value": "タイショウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA005573",
+      "cinii:organizationid": "KI002238",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大正大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "170-8470",
+        "v:label": "東京都豊島区西巣鴨3-20-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5394-3028"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5394-3042"
+        }
+      ],
+      "dc:description": [
+        "Taisho University Library",
+        "3-20-1,Nishisugamo,Toshima-ku,Tokyo 170-8470",
+        "URL:http://www.tais.ac.jp/related/tais_library/lib_general/lib_general.html (website)",
+        "URL:https://www.lib.tais.ac.jp/top/index.do?method=open (OPAC)"
+      ]
+    }
+  ]
+}

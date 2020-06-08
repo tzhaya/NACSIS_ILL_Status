@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA002382.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA002382#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA002382.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "静岡大学 附属図書館 浜松分館"
+        },
+        {
+          "@value": "シズオカダイガク フゾクトショカン ハママツブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "静大浜"
+        },
+        {
+          "@value": "シズダイハマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "浜図",
+        "浜研"
+      ],
+      "cinii:memberid": "FA002382",
+      "cinii:organizationid": "KI00047X",
+      "cinii:prefcode": "22",
+      "cinii:mextid": "004201",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "静岡大学 附属図書館 浜松分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "432-8561",
+        "v:label": "静岡県浜松市中区城北3-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "053(478)1394"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "053(478)1392"
+        }
+      ],
+      "dc:description": [
+        "Shizuoka University Library Hamamatsu Branch",
+        "3-5-1, Johoku, Naka-ku, Hamamatsu-shi, Shizuoka-ken, 432-8561, Japan",
+        "URL: https://www.lib.shizuoka.ac.jp",
+        "来館利用担当: 分館サービス係",
+        "電話番号: 053-478-1394",
+        "通常開館時間: 平日9:00-22:00(土・日・祝日・振替休日 10:00-19:00)",
+        "休業中開館時間: 9:00-17:00(土・日・祝日・振替休日 10:00-17:00)",
+        "試験対応期間: 9:00-22:00(土・日・祝日・振替休日 9:00-21:00)",
+        "注意事項: 資料の所在等、事前確認をすること",
+        "注意事項: 土・日・祝日・振替休日の利用は開架資料のみ",
+        "持参書類: 身分証明書・学生証",
+        "館外貸出: 可(図書館配架図書に限る。利用者登録が必要。詳しくはホームページ参照のこと。)",
+        "制限事項: 研究室備付資料については利用に応じられない場合がある",
+        "休館日: 年末年始・その他臨時休館日",
+        "ILL-Dept: Branch Library Service Unit",
+        "ILL-Org: Shizuoka University Library Hamamatsu Branch",
+        "ILL-Adress: 3-5-1, Johoku, Naka-ku, Hamamatsu-shi, Shizuoka-ken, Japan",
+        "ILL-Zip: 432-8561",
+        "ILL-Commun1: Tel: +81-53-478-1394 / FAX: +81-53-478-1392 / E-mail: libh-ill@adb.shizuoka.ac.jp",
+        "ILL-Commun2: OPAC: https//opac.lib.shizuoka.ac.jp/opac/ Home-page: https://www.lib.shizuoka.ac.jp",
+        "ILL-Sched: Close: Dec.28-Jan.4",
+        "ILL-Loan-Period: 6 weeks per item; up to 3 items per library",
+        "ILL-Loan-Renew: N/A",
+        "ILL-Loan-Charge: Postage required. Delivery method: via airmail",
+        "ILL-Copy-Charge: Postage required / Potocopy: 35YEN per sheet(monochrome), 75YEN per sheet(colour). Delivery method: via airmail",
+        "ILL-Note: Only the item held at Hamamatsu Branch library are available."
+      ]
+    }
+  ]
+}

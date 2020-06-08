@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA003873.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA003873#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA003873.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋市立大学 総合情報センター 山の畑分館"
+        },
+        {
+          "@value": "ナゴヤシリツダイガク ソウゴウジョウホウセンター ヤマノハタブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名市大山の畑"
+        },
+        {
+          "@value": "メイシダイヤマノハタ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003873",
+      "cinii:organizationid": "KI001097",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋市立大学 総合情報センター 山の畑分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "467-8501",
+        "v:label": "愛知県名古屋市瑞穂区瑞穂町字山の畑1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-872-5761"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-872-5760"
+        }
+      ],
+      "dc:description": [
+        "参加組織名称:Yamanohata Library, Nagoya City University",
+        "住所:1 Yamanohata, Mizuho-cho, Mizuho-ku, Nagoya 467-8501, JAPAN",
+        "URL:http://www.nagoya-cu.ac.jp/affiliate/library/yamanohata/index.html(website)",
+        "電話番号:052-872-5761",
+        "複写時間:閉館の30分前まで",
+        "利用者の範囲:学術研究・調査を目的とし、公共図書館等で入手できない専門・学術資料の利用を希望する方",
+        "注意事項:資料の所在・貸出状況(当館のOPACで確認可能)等を事前にご確認ください。",
+        "注意事項:車での来館はご遠慮ください。",
+        "持参書類:所属図書館紹介状または運転免許証など身分証明ができるもの",
+        "館外貸出:可(一部制限あり)",
+        "制限事項:研究室貸出中の資料は、事前に問合せがない限り、ご利用できません。",
+        "制限事項:マイクロ資料は、ご利用できません。相互貸借(複写)でお申し込みください。",
+        "休館日 :日曜日・祝日・休業期間中の土曜日・本学開学記念日(10月28日)・年末年始(12月28日-翌1月4日)・蔵書点検期間"
+      ]
+    }
+  ]
+}

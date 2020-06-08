@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA012003.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA012003#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA012003.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 宇宙線研究所 図書室"
+        },
+        {
+          "@value": "トウキョウダイガク ウチユセンケンキュウジョ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大宇研"
+        },
+        {
+          "@value": "トウダイウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書室"
+      ],
+      "cinii:memberid": "FA012003",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "12",
+      "cinii:mextid": "002131",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 宇宙線研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "277-8582",
+        "v:label": "千葉県柏市柏の葉5-1-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-7136-3169,3170"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-7136-3171"
+        }
+      ],
+      "dc:description": [
+        "The Institute for Cosmic Ray Research, University of Tokyo",
+        "5-1-5, Kashiwanoha, Kashiwa-shi, Chiba 277-8582",
+        "URL:http://www.icrr.u-tokyo.ac.jp"
+      ]
+    }
+  ]
+}

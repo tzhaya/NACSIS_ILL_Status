@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004843.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004843#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004843.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国際武道大学 図書館"
+        },
+        {
+          "@value": "コクサイブドウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国武大"
+        },
+        {
+          "@value": "コクブダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004843",
+      "cinii:organizationid": "KI001814",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "国際武道大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "299-5295",
+        "v:label": "千葉県勝浦市新官841番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0470-73-4150(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0470-73-4150"
+        }
+      ],
+      "dc:description": [
+        "International Budo University Library",
+        "841, Shinkan, Katsuura-shi, Chiba 299-5295"
+      ]
+    }
+  ]
+}

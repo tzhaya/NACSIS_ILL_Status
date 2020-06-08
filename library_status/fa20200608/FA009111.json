@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA009111.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA009111#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA009111.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鹿児島国際大学 附属図書館"
+        },
+        {
+          "@value": "カゴシマコクサイダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鹿国大"
+        },
+        {
+          "@value": "カコクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "地研"
+      ],
+      "cinii:memberid": "FA009111",
+      "cinii:organizationid": "KI004550",
+      "cinii:prefcode": "46",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "鹿児島国際大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "891-0197",
+        "v:label": "鹿児島県鹿児島市坂之上8-34-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "099-263-0601"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "099-261-1198"
+        }
+      ],
+      "dc:description": [
+        "The International University of Kagoshima Library",
+        "8-34-1 Sakanoue,Kagoshima-shi,891-0197 JAPAN",
+        "URL:http://www.iuk.ac.jp/tosyokan/index.html",
+        "ILL-Staff : UEHARA Ai",
+        "ILL-Dept : Inter Library Loan service section",
+        "ILL-Org : The International University of Kagoshima Library",
+        "ILL-Address : 8-34-1 Sakanoue, Kagoshima-shi, Kagoshima, JAPAN",
+        "ILL-ZIP : 891-0197",
+        "ILL-Commun1 : Tel : +81-099-263-0732 / Fax : +81-099-261-1198 / E-Mail : tosyokan@ofc.iuk.ac.jp",
+        "ILL-Commun2 : OPAC : http://lbweb.iuk.ac.jp/opc/   Home-Page : http://www.iuk.ac.jp/tosyokan/   Ariel(FTP) : 10.101.1.41",
+        "ILL-Accept : OCLC(NII-OCLC Link) : 〔KK@ 〕",
+        "ILL-Sched : Closed : Dec 28-Jan 4, Aug 13-Aug 15",
+        "ILL-Bill : Foreign : OCLC-IFM only",
+        "ILL-Loan-Period : Loan:N/A",
+        "ILL-Loan-Renew : Loan:N/A",
+        "ILL-Loan-Charge : Loan:N/A",
+        "ILL-Non-Circulation : Loan:N/A",
+        "ILL-Copy-Charge : Postage required ,  PHOTOCOPY : 30 YEN per sheet(per exposure) , MCRFRM/PHOTOCOPY : 30 YEN per sheet(per Exposure), Delivery method : via airmail only",
+        "ILL-NOTE : Will supply only photocopies",
+        "ILL-OCLC-Symbol:KK@"
+      ]
+    }
+  ]
+}

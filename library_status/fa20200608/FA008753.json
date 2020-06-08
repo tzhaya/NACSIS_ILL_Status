@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008753.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008753#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008753.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "徳島文理大学 香川キャンパス附属図書館"
+        },
+        {
+          "@value": "トクシマブンリダイガク カガワキャンパスフゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "徳文大香"
+        },
+        {
+          "@value": "トクブンダイカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "香図"
+      ],
+      "cinii:memberid": "FA008753",
+      "cinii:organizationid": "KI004266",
+      "cinii:prefcode": "37",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "徳島文理大学 香川キャンパス附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "769-2193",
+        "v:label": "香川県さぬき市志度1314-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "087-899-7502(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "087-894-5250"
+        }
+      ],
+      "dc:description": [
+        "Library of Kagawa Campus, Tokushima Bunri University",
+        "1314-1, Shido, Sanuki-shi, Kagawa 769-2193",
+        "URL:http://www.bunri-u.ac.jp/kagawa/ (website)",
+        "来館利用担当:相互貸借係",
+        "電話番号:087-899-7502(直通)",
+        "受付時間:平日9:00-18:00 【休業(春季・夏季・冬季)中9:00-17:00】 土曜日9:00-13:00",
+        "注意事項:学外者の利用は、必ず事前連絡(利用希望資料・利用日時等)をお願いします。初めてご利用の方は、身分証明書(運転免許証等)をお持ちの上、カウンターにお申し出ください。「利用申込書」を記入していただきます。(なお、「利用申込書」の期限は、年度末(3月31日)までです)",
+        "持参書類:身分証明書(運転免許書等)",
+        "館外貸出;不可",
+        "制限事項:(1)一部、閲覧不可の図書もあり (2)地下書庫の入室は不可",
+        "休館日:日曜日、祝日、8月11日〜8月15日、年末年始、その他学内行事等で臨時閉館の場合あり"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022936.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022936#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022936.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "上武大学 附属図書館 分館"
+        },
+        {
+          "@value": "ジョウブダイガク フゾクトショカン ブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "上武分"
+        },
+        {
+          "@value": "ジョウブブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022936",
+      "cinii:organizationid": "KI001698",
+      "cinii:prefcode": "10",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "上武大学 附属図書館 分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "370-1393",
+        "v:label": "群馬県高崎市新町270-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0274-42-1982"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0274-42-1982"
+        }
+      ]
+    }
+  ]
+}

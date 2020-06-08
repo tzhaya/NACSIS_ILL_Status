@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA026948.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA026948#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA026948.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "在英国日本国大使館 広報文化センター図書館"
+        },
+        {
+          "@value": "ザイエイコクニホンコクタイシカン コウホウブンカセンタートショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "JICC"
+        },
+        {
+          "@value": "ジェイアイシーシー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA026948",
+      "cinii:organizationid": "KI015262",
+      "cinii:prefcode": "254",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "在英国日本国大使館 広報文化センター図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "W1J 7JT",
+        "v:label": "101-104 Piccadilly, London, UK"
+      },
+      "dc:description": [
+        "Opening hours: The Library is open from 9:30 to 12:45 and 14:00 to 17:30 (Mondays to Fridays, except Embassy holidays).  For further information, please telephone the Library at 020 7465 6541.",
+        "Loan service: Up to 5 books may be borrowed for a maximum period of 2 weeks.",
+        "For security purposes, we require proof of the borrower's identity and current address as well as an introductory letter from the academic institution, company or other organisation with which the borrower is associated.",
+        "Photocopies: We regret that the Library does not have any photocopying facilities.",
+        "URL:http://www.uk.emb-japan.go.jp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020442.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020442#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020442.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宇宙航空研究開発機構 筑波図書室"
+        },
+        {
+          "@value": "ウチュウコウクウケンキュウカイハツキコウ ツクバトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "JAXA/TKSC"
+        },
+        {
+          "@value": "ジャクサツクバ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020442",
+      "cinii:organizationid": "KI004641",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "宇宙航空研究開発機構 筑波図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-8505",
+        "v:label": "茨城県つくば市千現2-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "050-3362-6267"
+        }
+      ],
+      "dc:description": [
+        "注意事項:事前に利用資料名と来室日を連絡してください。",
+        "来館利用担当:閲覧係",
+        "開館時間:9:30〜17:45 (月-金曜日)",
+        "複写受付時間:9:30〜16:00 (月-金曜日)",
+        "図書室所蔵以外の資料の場合は応じられないことがあります。",
+        "機構外の方は館外貸出できません。",
+        "休館日:土曜日・日曜日・祝日・年末年始",
+        "https://www-std01.ufinity.jp/jaxalib/(website)"
+      ]
+    }
+  ]
+}

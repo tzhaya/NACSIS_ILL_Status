@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004628.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004628#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004628.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "自治医科大学 図書館"
+        },
+        {
+          "@value": "ジチイカダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "自医大"
+        },
+        {
+          "@value": "ジイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004628",
+      "cinii:organizationid": "KI001665",
+      "cinii:prefcode": "09",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "自治医科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "329-0431",
+        "v:label": "栃木県下野市薬師寺3311-160"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0285-58-7057"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0285-44-8357"
+        }
+      ],
+      "dc:description": [
+        "Jichi Medical University Library",
+        "3311-160, Yakushiji, Shimotsuke-shi, Tochigi, 329-0431",
+        "URL:http://www.jichi.ac.jp/toshokan/",
+        "来館利用担当:運用係",
+        "電話番号:0285-58-7057",
+        "受付時間:8:30〜22:00",
+        "注意事項:資料の所在等、事前確認をしてください。また、開館日を確認してください。尚、車での来館はご遠慮ください。",
+        "持参書類:紹介状, 身分証明書",
+        "複写時間:8:30〜22:00",
+        "館外貸出:不可",
+        "制限事項:特になし",
+        "休館日:年末年始、創立記念日(5月14日)"
+      ]
+    }
+  ]
+}

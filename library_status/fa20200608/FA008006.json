@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA008006.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA008006#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA008006.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関西外国語大学 図書館 学術情報センター (中宮)"
+        },
+        {
+          "@value": "カンサイガイコクゴダイガク トショカン ガクジュツジョウホウセンター (ナカミヤ)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関外中宮"
+        },
+        {
+          "@value": "カンガイナカミヤ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008006",
+      "cinii:organizationid": "KI003729",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "関西外国語大学 図書館 学術情報センター (中宮)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "573-1001",
+        "v:label": "大阪府枚方市中宮東之町16-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-805-2801"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-805-2872"
+        }
+      ],
+      "dc:description": [
+        "Kansai Gaidai University Library",
+        "16-1, Nakamiyahigashino-cho, Hirakata-City, Osaka 573-1001Japan",
+        "URL:http://www.kansaigaidai.ac.jp/ (大学ホームページ)",
+        "URL:http://library.kansaigaidai.ac.jp/(OPAC)",
+        "URL:http://library.kansaigaidai.ac.jp/(図書館ホームページ)",
+        "来館利用担当:相互利用係",
+        "電話番号:072-805-2801(代表)",
+        "受付時間: 9:00〜17:00(土曜日 14:00)",
+        "注意事項:所属機関の図書館を通じて、事前に所蔵調査及び開館日・時間等の確認をしてください。",
+        "持参書類:資料利用依頼書・身分証明書",
+        "複写受付時間: 9:00〜20:00 (土曜日 15:00)",
+        "館外貸出:否",
+        "制限事項:複写を制限する場合もある",
+        "休館日:ホームページでご確認ください。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004038.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004038#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004038.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪府立大学 りんくう図書室"
+        },
+        {
+          "@value": "オオサカフリツダイガク リンクウトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪府大り"
+        },
+        {
+          "@value": "ハンフダイリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004038",
+      "cinii:organizationid": "KI001155",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪府立大学 りんくう図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "598-8531",
+        "v:label": "大阪府泉佐野市りんくう往来北1番地の58"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-254-9403"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-254-9403"
+        }
+      ]
+    }
+  ]
+}

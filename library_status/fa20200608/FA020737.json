@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA020737.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA020737#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA020737.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "天使大学 図書館"
+        },
+        {
+          "@value": "テンシダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "天使大"
+        },
+        {
+          "@value": "テンシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA020737",
+      "cinii:organizationid": "KI012606",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "天使大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "065-0013",
+        "v:label": "札幌市東区北13条東3丁目1-30"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-741-1051"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-792-9283"
+        }
+      ],
+      "dc:description": [
+        "Tenshi College Library",
+        "Kita-13, Higashi-3 Higashi-ku, Sapporo Japan",
+        "URL:http://www.tenshi.ac.jp/lib/",
+        "電話番号:011-741-1051(代表)",
+        "閲覧事前連絡:要(電話)",
+        "開館時間:月-金 8:50-21:00 土・日 10:00-17:00 試験期間(学外者利用不可) その他時間変更あり",
+        "閉館日:8月14日-16日、12月8日、12月25日、12月29日-1月7日 入試日 その他閉館日あり",
+        "閲覧利用条件、開館スケジュールはホームページをご覧ください。 http://www.tenshi.ac.jp/lib/",
+        "館内コピー機:(コイン式)白黒10円、カラー40円",
+        "ILL-Org: Tenshi College Library",
+        "ILL-Address: Kita-13, Higashi-3 Higashi-ku, Sapporo Hokkaido, Japan",
+        "ILL-ZIP 065-0013",
+        "ILL-Commun1: Tel:+81-11-741-1051/FAX:+81-11-741-1077/E-mail:lib@tenshi.ac.jp"
+      ]
+    }
+  ]
+}

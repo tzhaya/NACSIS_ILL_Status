@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA004854.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA004854#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA004854.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "淑徳大学 附属図書館 千葉図書館"
+        },
+        {
+          "@value": "シュクトクダイガク フゾクトショカン チバトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "淑徳大千"
+        },
+        {
+          "@value": "シュクトクダイチ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "5号館",
+        "記念館"
+      ],
+      "cinii:memberid": "FA004854",
+      "cinii:organizationid": "KI001825",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "淑徳大学 附属図書館 千葉図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "260-8701",
+        "v:label": "千葉県千葉市中央区大巌寺町200番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "043-265-7335"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "043-265-8084"
+        }
+      ],
+      "dc:description": [
+        "Shukutoku University Library",
+        "200 Daiganji-cho, Chuo-ku, Chiba-shi, Chiba 260-8701 Japan",
+        "URL:http://www.shukutoku.ac.jp/campuslife/library/chiba/",
+        "来館利用担当:閲覧係",
+        "電話番号:043-265-7335",
+        "受付時間:9:00〜20:40",
+        "注意事項:開館時間、資料の所在等、事前確認をしてください。",
+        "持参書類:紹介状又は身分を証明するもの",
+        "複写可能時間:8:45〜20:30",
+        "館外貸出:可 (学外者利用登録をすること)"
+      ]
+    }
+  ]
+}

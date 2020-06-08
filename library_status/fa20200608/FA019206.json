@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA019206.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA019206#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA019206.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "頌栄短期大学 図書館"
+        },
+        {
+          "@value": "ショウエイタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "頌栄"
+        },
+        {
+          "@value": "ショウエイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019206",
+      "cinii:organizationid": "KI011421",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "頌栄短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "658-0065",
+        "v:label": "兵庫県神戸市東灘区御影山手1-18-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-842-7093"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-851-2154"
+        }
+      ],
+      "dc:description": [
+        "Shoei Junior College Library",
+        "1-18-1, Mikageyamate, Higashinada-ku, Kobe 658-0065",
+        "来館利用担当:閲覧係",
+        "電話番号:078-842-7093",
+        "受付時間:8:30〜17:30",
+        "注意事項:開館日、資料の所在等、事前確認をしてください",
+        "複写時間:8:30〜17:30",
+        "館外貸出:可",
+        "休館日:土曜日・日曜日、国民の祝日、年末年始、夏休み"
+      ]
+    }
+  ]
+}

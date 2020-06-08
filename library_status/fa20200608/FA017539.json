@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA017539.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA017539#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA017539.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京純心大学 図書館"
+        },
+        {
+          "@value": "トウキョウジュンシンダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東純大"
+        },
+        {
+          "@value": "トウジュンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017539",
+      "cinii:organizationid": "KI010156",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京純心大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "192-0011",
+        "v:label": "東京都八王子市滝山町2-600"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-692-0326(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-692-5551"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Junshin University Library",
+        "2-600, Takiyama-cho, Hachioji-shi, Tokyo 192-0011",
+        "URL:http://www.t-junshin.ac.jp/univ/gar/ (website)",
+        "URL:http://www.t-junshin.ac.jp/access/ (map)",
+        "来館利用担当:相互協力係",
+        "電話番号:042-692-0326(代)、 FAX:042-692-5551",
+        "受付時間:月〜金 9:00〜16:00、土 9:00〜11:30",
+        "注意事項:資料の所在、利用希望日を事前に確認してください。",
+        "持参書類:所属機関の図書館(室)長が発行した紹介状と身分証明書",
+        "複写時間:月〜金 9:00〜16:30、土 9:00〜12:00",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、クリスマス(12月25日)、本学行事の日、夏・冬・春期休暇中の一定期間",
+        "お知らせ:2020年4月9日(木)より2020年6月28日(日)まで休館いたします。恐れ入りますが、他の図書館をご利用ください。ただし、2020年6月1日(月)より2020年6月26日(金)の月曜から金曜までの10時から15時まで文献複写のみ受付をいたします。"
+      ]
+    }
+  ]
+}

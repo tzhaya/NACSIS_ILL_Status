@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014450.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014450#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014450.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋造形大学 図書館"
+        },
+        {
+          "@value": "ナゴヤゾウケイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名造大"
+        },
+        {
+          "@value": "メイゾウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014450",
+      "cinii:organizationid": "KI007683",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋造形大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "485-8563",
+        "v:label": "愛知県小牧市大字大草字年上坂6004"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0568-79-1255"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0568-47-0361"
+        }
+      ],
+      "dc:description": [
+        "Nagoya Zokei University of Art & Design Library",
+        "6004, Nenjozaka, Okusa, Komaki, Aichi 485-8563 Japan",
+        "http://www.nzu.ac.jp/~lib/ (website)",
+        "来館利用担当:閲覧係",
+        "電話番号:0568-79-1255",
+        "FAX番号:0568-47-0361",
+        "受付時間:9:00〜16:30(平日)",
+        "注意事項:事前連絡の上ご利用ください。",
+        "持参書類:紹介状、身分証明書",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、年末年始、学園創立記念日(6/13)等",
+        "ILL-Org:Nagoya Zokei University of Art & Design Library",
+        "ILL-Address:6004, Nenjozaka, Okusa, Komaki, Aichi, Japan",
+        "ILL-ZIP:485-8563",
+        "ILL-Commun1:Tel:+81-568-79-1255/Fax:+81-568-47-0361/E-mail:goikenz@nzu.ac.jp"
+      ]
+    }
+  ]
+}

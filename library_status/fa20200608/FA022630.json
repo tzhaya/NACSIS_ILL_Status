@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA022630.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA022630#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA022630.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神奈川県立保健福祉大学 実践教育センター 図書室"
+        },
+        {
+          "@value": "カナガワケンリツホケンフクシダイガク ジッセンキョウイクセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神奈川保健福祉大実C"
+        },
+        {
+          "@value": "カナガワホケンフクシダイジツシー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022630",
+      "cinii:organizationid": "KI012989",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神奈川県立保健福祉大学 実践教育センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "241-0815",
+        "v:label": "神奈川県横浜市旭区中尾1-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-366-5869"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-366-5806"
+        }
+      ],
+      "dc:description": [
+        "開室時間: 月〜金曜 8:50-20:00 土曜 8:50-18:15(変更することがあります)",
+        "休室日: 日曜日、祝日、授業を実施しない土曜日、年末年始、蔵書点検期間(3月)",
+        "来室利用の方は、事前にご連絡ください。",
+        "URL: http://jissen.kuhs.ac.jp/library/"
+      ]
+    }
+  ]
+}

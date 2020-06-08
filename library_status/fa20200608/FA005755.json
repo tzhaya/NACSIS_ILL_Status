@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005755.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005755#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005755.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "津田塾大学 図書館"
+        },
+        {
+          "@value": "ツダジュクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "津大"
+        },
+        {
+          "@value": "ツダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "視"
+      ],
+      "cinii:memberid": "FA005755",
+      "cinii:organizationid": "KI002307",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "津田塾大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "187-8577",
+        "v:label": "東京都小平市津田町2-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-342-5136"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-342-5137"
+        }
+      ],
+      "dc:description": [
+        "Tsuda College Library",
+        "2-1-1, Tsuda-machi, Kodaira-shi, Tokyo, 187-8577 Japan",
+        "URL: http://lib.tsuda.ac.jp/  または http://www.tsuda.ac.jp",
+        "来館利用担当: レファレンス係",
+        "電話番号:042-342-5136",
+        "受付時間:平日9:00〜16:00(授業期間中)",
+        "注意事項: 資料の一般公開は、利用者が所属されている機関(主に大学)の図書館および所属のない方は公共図書館の紹介状(資料利用依頼書)を持参した方に利用資料を限定して許可しています。詳しくは、所属機関の図書館またはお近くの公共図書館にて利用したい資料についてご相談ください。また利用したい資料については、必ずそれぞれの図書館より事前の連絡を必要とします。当日の利用は不可。",
+        "持参書類: 資料利用依頼書及び身分証明書(学生証を含む)",
+        "※協定大学間での利用規則は別に定めています。利用者本人が所属されているそれぞれの大学でご確認ください。",
+        "複写時間: 平日9:00〜21:00(授業期間中)",
+        "館外貸出: 原則不可(図書館内での閲覧のみ)",
+        "制限事項: 禁帯出資料、古書、利用が多い資料、図書館書庫(小平キャンパス図書館本館)以外の所在資料、その他本学で支障のある資料は利用不可の場合がある。",
+        "休館日: 日曜日、祝日、春期・夏期・冬期休暇期間の一定期間および土曜日、9月14日(創立記念日)、大学祭、振替休業日(平日)、その他。"
+      ]
+    }
+  ]
+}

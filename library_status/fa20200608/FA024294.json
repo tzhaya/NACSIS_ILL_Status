@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA024294.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA024294#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA024294.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都第二赤十字病院 図書室"
+        },
+        {
+          "@value": "キョウトダイニセキジュウジビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京二赤"
+        },
+        {
+          "@value": "キョウニセキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024294",
+      "cinii:organizationid": "KI014714",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都第二赤十字病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "602-8026",
+        "v:label": "京都市上京区春帯町355-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-231-5171(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-212-7469(直)"
+        }
+      ],
+      "dc:description": [
+        "一般公開はしておりません。資料・文献利用については所属(登録)している図書館を通してお問合せください。"
+      ]
+    }
+  ]
+}

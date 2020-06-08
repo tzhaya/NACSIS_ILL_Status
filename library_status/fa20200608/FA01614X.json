@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA01614X.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA01614X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA01614X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "香川労災病院 図書室"
+        },
+        {
+          "@value": "カガワロウサイビヨウイン トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "香川労災"
+        },
+        {
+          "@value": "カガワロウサイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA01614X",
+      "cinii:organizationid": "KI008904",
+      "cinii:prefcode": "37",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "香川労災病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "763-8502",
+        "v:label": "香川県丸亀市城東町3-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0877-23-3111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0877-23-3124(医局)"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "0877-24-1147(代表)"
+        }
+      ],
+      "dc:description": [
+        "KAGAWA ROSAI HOSPITAL",
+        "3-3-1, Joutoucho, Marugame, Kagawa, 763-8502 Japan",
+        "http://www.kagawaH.rofuku.go.jp/ (website)",
+        "http://www.kagawaH.rofuku.go.jp/syoukai.htm (map)",
+        "来館利用担当:図書室係",
+        "電話番号:0877-23-3111",
+        "受付時間:9:00〜17:15",
+        "注意事項:一人勤務のため在室していない場合もありますので,事前に電話連絡をお願い致します。外部の方は院外貸出は出来ません",
+        "館外貸出:不可",
+        "休館日:土・日曜日,祝日,年末年始"
+      ]
+    }
+  ]
+}

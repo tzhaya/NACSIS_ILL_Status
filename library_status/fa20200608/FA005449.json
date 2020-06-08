@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA005449.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA005449#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA005449.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "白百合女子大学 図書館"
+        },
+        {
+          "@value": "シラユリジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "白百合"
+        },
+        {
+          "@value": "シラユリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA005449",
+      "cinii:organizationid": "KI002147",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "白百合女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "182-8525",
+        "v:label": "東京都調布市緑ケ丘1-25"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3326-5143"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3326-5146"
+        }
+      ],
+      "dc:description": [
+        "Shirayuri College Library",
+        "1-25, Midorigaoka, Chofu-shi, Tokyo 182-8525",
+        "URL:http://www.shirayuri.ac.jp/lib/",
+        "来館利用担当 :閲覧ILL係",
+        "電話番号:03-3326-5143",
+        "閲覧受付時間 : 通常 9:00〜17:00 土曜日10:30〜17:00 休講期間中9:30〜16:00",
+        "複写受付時間 : 通常 9:00〜19:30 土曜日10:30〜17:30 休講期間中9:30〜16:20",
+        "閲覧注記 :貴重書については事前に手続きが必要です。",
+        "閲覧注記 :教科書と教師用指導書の閲覧はしておりません。",
+        "持参書類 :3点(FAX回答書、所属機関図書館作成の紹介状、身分証)",
+        "館外貸出:否",
+        "休館日 :日曜日・国民の祝日・年末年始・その他(入試日・夏期大学事務休業期間・白百合祭(10月下旬)・クリスマス(12月25日))",
+        "注記 : 開館日・開館時間についてはホームページでご確認ください。http://www.shirayuri.ac.jp/lib/"
+      ]
+    }
+  ]
+}

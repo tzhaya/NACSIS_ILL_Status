@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA023837.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA023837#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA023837.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都写真美術館 図書室"
+        },
+        {
+          "@value": "トウキョウトシャシンビジュツカン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "都写美"
+        },
+        {
+          "@value": "トシャビ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA023837",
+      "cinii:organizationid": "KI01434X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京都写真美術館 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "153-0062",
+        "v:label": "東京都目黒区三田1-13-3  恵比寿ガーデンプレイス内"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5422-8280"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3280-0033"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Photographic Art Museum Library",
+        "Yebisu Garden Place, 1-13-3 Mita, Meguro-ku, Tokyo 153-0062",
+        "TEL 03-5422-8280  FAX 03-3280-0033",
+        "館外貸出:不可",
+        "開室日や開室時間は東京都写真美術館HPで確認してください(http://library.topmuseum.jp/)",
+        "業務で資料を使用中の場合があります。電話で確認のうえ来室してください。",
+        "URL: http://topmuseum.jp/",
+        "URL: http://library.topmuseum.jp/"
+      ]
+    }
+  ]
+}

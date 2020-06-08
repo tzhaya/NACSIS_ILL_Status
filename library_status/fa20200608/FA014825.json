@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA014825.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA014825#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA014825.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪府立大学 羽曳野図書センター"
+        },
+        {
+          "@value": "オオサカフリツダイガク ハビキノトショセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪府大羽"
+        },
+        {
+          "@value": "ハンフダイハ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014825",
+      "cinii:organizationid": "KI001155",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪府立大学 羽曳野図書センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "583-8555",
+        "v:label": "大阪府羽曳野市はびきの3-7-30"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-950-2956"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-950-2104"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Habikino Health Sciences Library,Osaka Prefecture University",
+        "ILL-Address:3-7-30,Habikino,Habikino City,Osaka 583-8555,JAPAN",
+        "ILL-Zip:583-8555",
+        "ILL-Commun1:Tel:+81-72-950-2956 / FAX:+81-72-950-2104 / E-mail:habikinolib@ao.osakafu-u.ac.jp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "http://ci.nii.ac.jp/library/FA006907.json",
+  "@graph": [
+    {
+      "@id": "http://ci.nii.ac.jp/library/FA006907#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://ci.nii.ac.jp/library/FA006907.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "相模女子大学 附属図書館"
+        },
+        {
+          "@value": "サガミジョシダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "相模女"
+        },
+        {
+          "@value": "サガミジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006907",
+      "cinii:organizationid": "KI002861",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "相模女子大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "252-0383",
+        "v:label": "神奈川県相模原市南区文京2-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-747-9103"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-743-4916"
+        }
+      ],
+      "dc:description": [
+        "SAGAMI WOMEN'S UNIVERSITY LIBRARY",
+        "2-1-1, Minami-ku Bunkyo, Sagamihara-shi, Kanagawa 252-0383",
+        "URL:http://www.sagami-wu.ac.jp/library/index.html",
+        "来館利用担当:レファレンス担当",
+        "電話番号:042-747-9103",
+        "閲覧受付時間:9:30〜17:00(土曜日〜16:00)",
+        "複写受付時間:9:30〜19:30(土曜日〜16:30)",
+        "注意事項:資料の所在等は事前にFAXにてご確認ください。来館日時は事前にご連絡ください。学外者の方は館外貸出はできません。",
+        "注意事項:マイクロリーダーがないため、マイクロ資料の利用はできません。",
+        "持参書類:紹介状および教職員証または学生証(一般の方は本人確認書類)",
+        "館外貸出:不可",
+        "制限事項:貴重図書の閲覧には別途手続きが必要です。",
+        "休館日:10月18日(創立記念日),学園祭,日曜日,祝日,夏・冬・春季の一定期間",
+        "ILL-Staff:Nao Furukoshi",
+        "ILL-Dept:Reference Section",
+        "ILL-Org:Sagami Women's University Library",
+        "ILL-Adress:2-1-1 Minami-ku Bunkyo,Sagamihara City,Kanagawa,JAPAN",
+        "ILL-Zip:252-0383",
+        "ILL-Commun1:TEL:+81-42-747-9103/FAX:+81-42-743-4916/E-mail:libinfo@isc.sagami-wu.ac.jp",
+        "ILL-Commun2:OPAC:http://lib.sagami-wu.ac.jp/",
+        "ILL-Commun3:Home-Page:http://www.sagami-wu.ac.jp/library/index.html",
+        "ILL-Accept:OCLC(NII-OCLC Link):[JASWU]",
+        "ILL-Sched:Closed:National holidays,The Aniversary of the foundation(Oct.18),certain periods in summer and winter holidays",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Loan-Period:Loan:N/A",
+        "ILL-Loan-Renew:Loan:N/A",
+        "ILL-Loan-Charg:Loan:N/A",
+        "ILL-Non-Circulation:Loan:N/A",
+        "ILL-Copy-Charge:Photocopy:40 YEN per sheet / Postage required / Delivery method:via airmail only",
+        "ILL-Note:copying method is photocopy only",
+        "ILL-OCLC-Symbol:JASWU"
+      ]
+    }
+  ]
+}

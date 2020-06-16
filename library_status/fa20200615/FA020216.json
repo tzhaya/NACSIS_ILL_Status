@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020216.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020216#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020216.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高崎健康福祉大学 図書館"
+        },
+        {
+          "@value": "タカサキケンコウフクシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高崎健大"
+        },
+        {
+          "@value": "タカサキケンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "薬学",
+        "書庫",
+        "保存書庫",
+        "EJ"
+      ],
+      "cinii:memberid": "FA020216",
+      "cinii:organizationid": "KI012162",
+      "cinii:prefcode": "10",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "高崎健康福祉大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "370-0033",
+        "v:label": "群馬県高崎市中大類町37-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "(本館)027-352-1290"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "(薬学)027-352-1180"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "027-353-2055"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "027-352-1118"
+        }
+      ],
+      "dc:description": [
+        "Takasaki University of Health and Welfare Library",
+        "37-1, Nakaorui-machi, Takasaki 370-0033",
+        "URL:http://www.takasaki-u.ac.jp/library/(図書館)",
+        "URL:https://sv2.opac.jp/paop/cgi-bin/index.cgi?LibId=040c8jj(OPAC)",
+        "電話番号:027-352-1290",
+        "受付時間:9:00〜19:00",
+        "休館日:土曜日・日曜日・祝日・年末年始・本学が定める休日",
+        "館外貸出:不可",
+        "一般の学外者の方は、閲覧・複写は可能ですが、貸し出しは不可。卒業生、群馬県大学図書館協会加盟館の学生・教職員(要紹介状)については図書のみ貸し出し可。",
+        "注記事項:資料の所在等事前確認をしてください。また来館時は「学外者利用申請書」に記入をしていただきます。",
+        "持参書類:所属する図書館(機関)の利用依頼書及び身分証明書",
+        "複写時間:9:00〜20:00"
+      ]
+    }
+  ]
+}

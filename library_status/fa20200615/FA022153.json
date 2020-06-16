@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA022153.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA022153#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA022153.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 柏図書館"
+        },
+        {
+          "@value": "トウキョウダイガク カシワトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大柏"
+        },
+        {
+          "@value": "トウダイカシワ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "書庫",
+        "開架",
+        "参考",
+        "数物"
+      ],
+      "cinii:memberid": "FA022153",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 柏図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "277-8584",
+        "v:label": "千葉県柏市柏の葉5-1-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-7136-4224"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-7136-4221"
+        }
+      ],
+      "dc:description": [
+        "The University of Tokyo, Kashiwa Library",
+        "5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8584",
+        "URL:http://www.lib.u-tokyo.ac.jp/ja/library/kashiwa",
+        "来館利用担当:情報サービス係",
+        "電話番号:04-7136-4224",
+        "開館時間:9:00〜21:00(8月、9月、3月は9:00〜17:00)",
+        "持参書類:不要",
+        "休館日:日曜日・祝日・年末年始、毎月第4水曜日ほか(土曜日は学内者および柏図書館友の会会員のみ利用可)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006033.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006033#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006033.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京女子体育大学 附属図書館"
+        },
+        {
+          "@value": "トウキヨウジヨシタイイクダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東女体大"
+        },
+        {
+          "@value": "トウジヨタイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA006033",
+      "cinii:organizationid": "KI002420",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京女子体育大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "186-8668",
+        "v:label": "東京都国立市富士見台4-30-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-572-4131"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-572-4360(直通)"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Women's College of Physical Education",
+        "4-30-1, Fujimidai, Kunitachi-shi, Tokyo, 186-8668",
+        "URL:https://www.twcpelib.opac.jp",
+        "来館利用担当:閲覧係",
+        "電話番号:042-572-4131 (413)",
+        "受付時間:9:15〜16:45(平日) 9:15〜12:45(土曜日)",
+        "注意事項:資料の所在等、事前確認をしてください。車の来館はご遠慮ください。",
+        "持参書類:資料利用依頼書、身分証明書",
+        "複写時間:9:15〜16:45",
+        "館外貸出:不可",
+        "制限事項:資料によっては閲覧できないものもある。",
+        "休館日:日曜日、国民の祝日、入学試験、学園祭、夏休み、冬休みの一部。詳しくはHPのカレンダーを参照のこと。"
+      ]
+    }
+  ]
+}

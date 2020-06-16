@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006292.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006292#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006292.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 理工学部図書館 (駿河台)"
+        },
+        {
+          "@value": "ニホンダイガク リコウガクブトシヨカン スルガダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大理駿"
+        },
+        {
+          "@value": "ニチダイリシユン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "理工駿",
+        "理工駿数",
+        "理工駿物",
+        "理工駿化",
+        "理工駿機",
+        "理工駿電",
+        "理工駿建",
+        "理工駿教",
+        "理工駿土",
+        "理工駿薬",
+        "理工駿共"
+      ],
+      "cinii:memberid": "FA006292",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本大学 理工学部図書館 (駿河台)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-8308",
+        "v:label": "東京都千代田区神田駿河台1-8-14"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3259-0639"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3293-7458"
+        }
+      ],
+      "dc:description": [
+        "Surugadai Library, Nihon University College of Science and Technology",
+        "8-14, Kanda-Surugadai 1chome Chiyodaku, TOKYO 101-8308 JAPAN",
+        "URL:",
+        "来館利用担当:閲覧係",
+        "電話番号:03-3259-0639",
+        "受付時間:9:00〜17:30(土曜日〜16:30)",
+        "注意事項:資料の所在等、事前に確認をしてください。",
+        "持参書類:資料利用依頼書(身分を証明する物を携行のこと)",
+        "複写時間:9:00〜17:30(土曜日〜16:30)",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:日曜日,祝日、創立記念日(10月4日)、春・夏・冬季休業中の一定期間、夏期休業中の土曜日。"
+      ]
+    }
+  ]
+}

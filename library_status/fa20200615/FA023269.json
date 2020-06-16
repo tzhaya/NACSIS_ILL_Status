@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023269.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023269#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023269.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立新美術館"
+        },
+        {
+          "@value": "コクリツシンビジュツカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国新美"
+        },
+        {
+          "@value": "コクシンビ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "美術図"
+      ],
+      "cinii:memberid": "FA023269",
+      "cinii:organizationid": "KI009135",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立新美術館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "106-8558",
+        "v:label": "東京都港区六本木7-22-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-6812-9900(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-6812-8932(美術資料室)"
+        }
+      ],
+      "dc:description": [
+        "The National Art Center, Tokyo",
+        "7-22-2 Roppongi Minato-ku, Tokyo, 106-8558",
+        "美術図(国立新美術館):連絡先",
+        "fax. 03-6812-8932",
+        "貸出はできません。郵送複写は行っておりません。",
+        "図書館間現物貸借サービス、複写サービス、FAXサービスは行っておりません。",
+        "NACSIS-CATで表示される資料でも閲覧できない場合があります。最新の情報は、国立新美術館HPのOPAC(http://opac.nact.jp/mylimedio/search/search-input.do?mode=simp&lang=jp)でご確認ください。",
+        "国立新美術館には、「アートライブラリー」(美術館3階)と「アートライブラリー別館閲覧室」(別館1階)があります。どちらにある資料なのか、所在欄でご確認ください。",
+        "検索結果の所在欄に「国新美(予約)〜」と記載されている資料については事前予約が必要です。",
+        "申し込み方法は所在をクリックすると、予約閲覧申込ページに飛びます。",
+        "それぞれの開室日や開室時間については、国立新美術館HPでご確認ください。",
+        "https://www.nact.jp/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA02696X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA02696X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA02696X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "新潟リハビリテーション大学 図書館"
+        },
+        {
+          "@value": "ニイガタリハビリテーションダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "新潟リハ大"
+        },
+        {
+          "@value": "ニイガタリハダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02696X",
+      "cinii:organizationid": "KI015273",
+      "cinii:prefcode": "15",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "新潟リハビリテーション大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "958-0053",
+        "v:label": "新潟県村上市上の山2-16"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0254-56-8292"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0254-56-8291"
+        }
+      ]
+    }
+  ]
+}

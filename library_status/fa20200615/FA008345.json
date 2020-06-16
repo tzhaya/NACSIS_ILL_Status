@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008345.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008345#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008345.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸松蔭女子学院大学図書館"
+        },
+        {
+          "@value": "コウベシヨウインジヨシガクインダイガクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神戸松蔭"
+        },
+        {
+          "@value": "コウベシヨウイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008345",
+      "cinii:organizationid": "KI003944",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "神戸松蔭女子学院大学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "657-0015",
+        "v:label": "兵庫県神戸市灘区篠原伯母野山町 1-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-882-6125"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-882-2656"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Kobe Shoin Women's University Library / Kobe Shoin Women's College Library",
+        "ILL-Address:1-2-1, Shinohara-Obanoyama-cho, Nada-ku, Kobe",
+        "ILL-ZIP:657-0015",
+        "ILL-Commun1:Tel:+81-78-882-6125 /FAX:+81-78-882-2656 /E-mail:library@shoin.ac.jp",
+        "URL:http://ksw.shoin.ac.jp/lib/  (website)",
+        "URL:http://www.shoin.ac.jp/guide/campus/access/index.html",
+        "利用については、所属機関の図書館、もしくはお近くの図書館にお問い合わせください",
+        "来館利用担当:相互利用係",
+        "受付時間:月曜日-土曜日 9:00-16:30",
+        "注意事項:資料の所在, 開館日, 開館時間等の事前確認をFAXでお願いします。",
+        "注意事項:車での来館はご遠慮ください。",
+        "持参書類:資料利用依頼書および身分証明書。",
+        "複写時間:月曜日-土曜日 9:00-16:30",
+        "館外貸出:不可",
+        "制限事項:貴重書は事前に手続が必要です。",
+        "休館日:日曜日, 祝日, 創立記念日(9/17), 盛夏休暇(8/11-8/17), 8/7-9/25の毎土曜日, クリスマス(12/25), 年末年始(12/27-1/5), その他臨時休館があります。詳しくは図書館カレンダーをご確認ください。"
+      ]
+    }
+  ]
+}

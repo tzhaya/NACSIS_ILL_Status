@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016580.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016580#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016580.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "豊田工業高等専門学校 図書館"
+        },
+        {
+          "@value": "トヨタコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "豊田高専"
+        },
+        {
+          "@value": "トヨタコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016580",
+      "cinii:organizationid": "KI009292",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "602500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "豊田工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "471-8525",
+        "v:label": "愛知県豊田市栄生町2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0565-36-5904"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0565-36-5920"
+        }
+      ],
+      "dc:description": [
+        "Toyota National College of Technology",
+        "2-1 Eisei-cho, Toyota, Aichi, 471-8525",
+        "URL:http:https://www.toyota-ct.ac.jp/student/library2/",
+        "来館利用担当:学生課図書・情報係",
+        "電話番号:0565-36-5904 FAX番号:0565-36-5920",
+        "受付時間:平日8:45〜20:00、 土曜日10:00〜17:00 (ただし、休業期間中は平日8:45〜17:00のみ)",
+        "注意事項:・資料の所在等、事前確認をしてください。研究室の資料は利用できません。 閉館日時を確認して下さい。",
+        "持参書類:身分を証明できるもの",
+        "複写時間:受付時間と同じ",
+        "館外貸出:1人10冊(2019年10月-2020年3月まで試行期間)・2週間",
+        "制限事項:図書館内にある一般資料以外は原則として利用できません。",
+        "休館日:日曜日、祝日 (振替休日を含む)、年末年始、その他臨時休館日"
+      ]
+    }
+  ]
+}

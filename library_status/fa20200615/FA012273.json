@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012273.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012273#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012273.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "筑波大学 附属図書館 大塚図書館"
+        },
+        {
+          "@value": "ツクバダイガク フゾクトショカン オオツカトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "筑大大塚"
+        },
+        {
+          "@value": "ツクダイオオツカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "法科"
+      ],
+      "cinii:memberid": "FA012273",
+      "cinii:organizationid": "KI000174",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "001603",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "筑波大学 附属図書館 大塚図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "112-0012",
+        "v:label": "東京都文京区大塚3-29-1 B1F"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3942-6818"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3942-6821"
+        }
+      ],
+      "dc:description": [
+        "UNIVERSITY OF TSUKUBA LIBRARY, OTSUKA LIBRARY",
+        "3-29-1 OTSUSKA, BUNKYO-KU, TOKYO-TO 112-0012",
+        "URL:https://www.tulips.tsukuba.ac.jp/ (WEBSITE)",
+        "URL:https://www.tulips.tsukuba.ac.jp/lib/ja/map/map-otsuka(MAP)",
+        "来館利用担当:大塚図書館担当",
+        "電話番号:03-3942-6818",
+        "受付時間:開館時間中",
+        "注意事項:車での来館は御遠慮ください。",
+        "複写受付時間:開館時間中",
+        "制限事項:利用資格:制限なし。",
+        "休館日:祝日、年末年始(12月28日〜1月3日)、夏季一斉休業日",
+        "ILL-Org:UNIVERSITY OF TSUKUBA LIBRARY, OTSUKA LIBRARY",
+        "ILL-Address:3-29-1 OTSUSKA, BUNKYO-KU, TOKYO-TO",
+        "ILL-ZIP:112-0012",
+        "ILL-Accept: International: LOAN Yes",
+        "ILL-Accept: International: LOAN Traceable courier with insurance Only",
+        "ILL-Accept: International: COPY Yes",
+        "ILL-Accept-method: Korea: KERIS=NII ILL Linkage (COPY only)",
+        "ILL-Accept-method: International: E-mail, FAX, Airmail",
+        "ILL-Payment-method: International: KERIS=NII Fee Management service Yes",
+        "ILL-Payment-method: International: Invoice Yes",
+        "ILL-Payment-method: International: Bank Transfer Yes",
+        "ILL-Payment-method: International: OCLC-IFM N/A",
+        "ILL-Loan-Period: 42 days including mailing period",
+        "ILL-Loan-Item-Max: 5 items per library",
+        "ILL-Loan-Charge: Postage only (JPY)",
+        "ILL-Loan-Delivery-method: Tracked system / No rush service available",
+        "ILL-Non-Circulation-items: Special collection, microform, Reference collection, Journal issues, newspaper, DVDs, dissertation",
+        "ILL-Copy-Charge: 60 JPY per sheet(monochrome) & Postage / 120 JPY per sheet(color) & Postage / No rush service available",
+        "ILL-Copy-Delivery-method: Airmail",
+        "ILL-Note: dissertation: COPY:author's permission required"
+      ]
+    }
+  ]
+}

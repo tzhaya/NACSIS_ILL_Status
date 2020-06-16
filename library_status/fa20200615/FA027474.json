@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027474.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027474#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027474.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "聖隷佐倉市民病院 図書室"
+        },
+        {
+          "@value": "セイレイサクラシミンビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "聖隷佐倉市民病図"
+        },
+        {
+          "@value": "セイレイサクラシミンビョウト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA027474",
+      "cinii:organizationid": "KI025131",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "聖隷佐倉市民病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "285-8765",
+        "v:label": "千葉県佐倉市江原台2-36-2"
+      },
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "043-486-8696"
+        }
+      ],
+      "dc:description": [
+        "複写料金 : 白黒 1枚 50円 カラー 1枚 100円 送料実費 FAXによる送付は対応しておりません。"
+      ]
+    }
+  ]
+}

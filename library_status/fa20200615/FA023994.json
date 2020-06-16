@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023994.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023994#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023994.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "海洋研究開発機構 横須賀 図書室"
+        },
+        {
+          "@value": "カイヨウケンキュウカイハツキコウ ヨコスカ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "海洋研横須賀"
+        },
+        {
+          "@value": "カイヨウケンヨコスカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "センター"
+      ],
+      "cinii:memberid": "FA023994",
+      "cinii:organizationid": "KI012355",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "海洋研究開発機構 横須賀 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "237-0061",
+        "v:label": "神奈川県横須賀市夏島町2番地15"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "046-867-9973"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "046-867-9975"
+        }
+      ],
+      "dc:description": [
+        "Japan Agency for Marine-Earth Science and Technology Yokosuka Headquarters Library",
+        "2-15 Natsushima-Cho,Yokosuka Kanagawa 237-0061",
+        "http://www.jamstec.go.jp/j/about/access/yokosuka.html (map)",
+        "来館利用担当: 横須賀図書室閲覧係",
+        "電話番号: 046-867-9973",
+        "FAX番号: 046-867-9975",
+        "E-mail: library@jamstec.go.jp",
+        "来館利用対象者: ご所属の図書館ないしはお近くの公共図書館等が発行する、「紹介状」および「身分証明書」をご持参の研究者、学生、一般の方",
+        "事前確認: 必須。ご所属の図書館ないしはお近くの公共図書館等を通じて、利用の可否をお問い合わせください",
+        "来館注意事項1: センター所蔵資料、貴重書、劣化の著しい資料など、一部利用できない資料があります",
+        "来館注意事項2: 電子資料はご利用いただけません",
+        "休館日: 土曜日、日曜日、祝日、その他年末年始など機構の休日",
+        "開館時間: 9:00〜17:30",
+        "複写受付時間: 10:00〜16:30",
+        "複写料金: 電子複写 白黒1枚35円、カラー1枚100円(税込。複写申込書にご記入いただき、職員がコピーいたします)",
+        "複写注意事項: 直接来館以外で複写サービスをご希望の際は、ご所属の図書館ないしはお近くの公共図書館を通じてお申し込みください",
+        "その他: 資料によっては海洋研究開発機構横浜図書館2Fに取り寄せて利用することも可能です(閲覧・複写のみ、紹介状不要、要事前問合せ)",
+        "その他: 海洋研究開発機構横浜図書館2Fは紹介状不要でどなたでもご利用頂けます。サービスの詳細は、HP(http://www.jamstec.go.jp/j/pr/library/index.html)をご確認ください",
+        "ILL-Org: Japan Agency for Marine-Earth Science and Technology Library",
+        "ILL-Address: 2-15 Natsushima-Cho,Yokosuka Kanagawa JAPAN",
+        "ILL-Zip: 237-0061",
+        "ILL-Commun1: Tel:+81-46-867-9973 / FAX:+81-46-867-9975 / E-mail:library@jamstec.go.jp"
+      ]
+    }
+  ]
+}

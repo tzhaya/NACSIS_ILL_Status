@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005937.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005937#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005937.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京音楽大学 付属図書館"
+        },
+        {
+          "@value": "トウキヨウオンガクダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東京音大"
+        },
+        {
+          "@value": "トウキヨウオンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005937",
+      "cinii:organizationid": "KI002340",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東京音楽大学 付属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "171-8540",
+        "v:label": "東京都豊島区南池袋3丁目4番5号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3982-2120"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3982-2870"
+        }
+      ],
+      "dc:description": [
+        "Tokyo College of Music, Library",
+        "3-4-5, Minami-Ikebukuro, Toshima-ku, Tokyo 171-8540",
+        "URL:http://www.tokyo-ondai-lib.jp",
+        "来館利用担当:情報サービス係",
+        "電話番号:03-3982-2120",
+        "受付時間:9:30〜16:30",
+        "注意事項:特定の研究テーマを持っている方に限ります。事前に情報サービス係までご連絡ください。",
+        "持参書類:閲覧願と身分証明書",
+        "複写時間:9:30〜16:30(館員が複写をする必要がある場合、複写物の引渡しは原則として翌日以降となります)楽譜の複写は原則として受け付けておりません。",
+        "館外貸出:否",
+        "休館日:日曜、祝日、創立記念日、芸術祭期間(11月上旬)、入試期間(2月中旬〜下旬)、春季・夏季・冬季休業期間"
+      ]
+    }
+  ]
+}

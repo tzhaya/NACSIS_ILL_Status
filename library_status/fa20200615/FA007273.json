@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007273.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007273#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007273.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "金城学院大学 図書館"
+        },
+        {
+          "@value": "キンジョウガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "金城院"
+        },
+        {
+          "@value": "キンジョウイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007273",
+      "cinii:organizationid": "KI003172",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "金城学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "463-8521",
+        "v:label": "愛知県名古屋市守山区大森二丁目1723番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-798-0180"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-768-1066"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.kinjo-u.ac.jp/contents/access.html (アクセス)",
+        "閲覧担当 :相互協力係",
+        "持参書類 :学生証、職員証、運転免許証、健康保険証等",
+        "注意事項:学外の方の利用詳細についてはホームページでご確認ください。",
+        "------------------------ ILL Overseas Policy ------------------------",
+        "ILL-Staff:Akane Yoshioka",
+        "ILL-Dept:Inter Library Service Section",
+        "ILL-Org: Kinjo Gakuin University Library",
+        "ILL-Address: 2-1723, Omori, Moriyama-ku, Nagoya, Aichi, Japan",
+        "ILL-Zip: 463-8521",
+        "ILL-Commun1:TEL:+81-52-798-0180 / FAX:+81-52-768-1066 /",
+        "ILL-Commun2:Home-Page :https://opc.kinjo-u.ac.jp/",
+        "map:http://www.kinjo-u.ac.jp/japanese/under/traff3.html",
+        "ILL-Accept:OCLC(NII-OCLC Link): K4J",
+        "ILL-Sched:Closed:Sundays,nationalholidays,KGU Foundation day,Aug.13-15,Oct.15,Dec.25-Jan.6",
+        "ILL-Bill:OCLC-IFM only",
+        "ILL-Loan-Period:6 weeks per item / up to 2 items per library",
+        "ILL-Loan-Renew:None.",
+        "ILL-Loan-Charge:Delivery method:via airmail / No rush service available",
+        "ILL-Non-Circulation:Special collection,old Japanese books, mcrfrm,mcrfch,ref,per,news,a-v",
+        "ILL-Copy-Charge:Photocopy:50 YEN per page(Black and White)、 100 YEN per page(color) / Postage required / Will supply only photocopies /Deliverly method:via airmail",
+        "ILL-OCLC-Symbol:K4J"
+      ]
+    }
+  ]
+}

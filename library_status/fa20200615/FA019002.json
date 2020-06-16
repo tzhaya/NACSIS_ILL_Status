@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019002.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019002#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019002.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "開智国際大学 図書館"
+        },
+        {
+          "@value": "カイチコクサイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "開智国際"
+        },
+        {
+          "@value": "カイチコクサイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019002",
+      "cinii:organizationid": "KI011228",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "開智国際大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "277-0005",
+        "v:label": "千葉県柏市柏1225-6"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-7167-8655"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-7163-0096"
+        }
+      ],
+      "dc:description": [
+        "Kaichi International University Library",
+        "1225-6, Kashiwa, Kashiwa-shi, Chiba 277-0005",
+        "通常開館時間 9:00-20:00(授業休業期間は9:00-17:00)",
+        "注意事項/FAX, E-mailにて事前に所蔵を確認して下さい。個人の方からの電話・FAX等による直接の問い合わせには応じられません。",
+        "持参書類/所属機関の紹介状及び身分証明書"
+      ]
+    }
+  ]
+}

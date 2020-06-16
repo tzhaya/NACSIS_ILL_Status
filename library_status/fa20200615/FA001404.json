@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001404.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001404#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001404.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東北大学 附属図書館 医学分館"
+        },
+        {
+          "@value": "トウホクダイガク フゾクトショカン イガクブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東北大医"
+        },
+        {
+          "@value": "トウホクダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "歯図",
+        "加齢研",
+        "医",
+        "歯",
+        "病",
+        "病歯",
+        "医保"
+      ],
+      "cinii:memberid": "FA001404",
+      "cinii:organizationid": "KI000108",
+      "cinii:prefcode": "04",
+      "cinii:mextid": "001001",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東北大学 附属図書館 医学分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "980-8575",
+        "v:label": "仙台市青葉区星陵町1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-717-7981"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-717-7982"
+        }
+      ],
+      "dc:description": [
+        "Tohoku University Medical Library",
+        "1-1, Seiryo-machi, Aoba-ku, Sendai-shi, Miyagi, 980-8575 Japan",
+        "URL:http://www.library.med.tohoku.ac.jp/",
+        "【 重 要 】新型コロナウイルス感染拡大防止による業務縮小により、貸借の受付は中止します。(4/13～終期未定)",
+        "複写は受け付けますが、発送まで、これまでより時間がかかります。",
+        ".",
+        "【 重 要 】改修工事に伴う休館お知らせ",
+        "改修工事のため休館しています。(2019年8月～2020年9月末までの予定)",
+        "学内者向けに、臨時図書室を開設していますが、学外の方の訪問利用はできません。",
+        "そのほか、詳しくはホームページでご確認ください。",
+        "===以下通常時の利用案内===",
+        "来館利用担当:運用係",
+        "電話番号:022-717-7978",
+        "受付時間:平日 9:00〜20:00(3月・8月 9:00-17:00)",
+        "持参書類:特になし。カウンターで受付を行って下さい。",
+        "複写受付時間:平日9:00〜11:30 13:00〜16:30",
+        "館外貸出:可",
+        "貸出注記:身分証等住所がわかるものをお持ち下さい。1回2冊。分館内にある図書(雑誌不可)。貸出期間は14日間、更新不可。",
+        "休館日: 1)土曜日・日曜日 2)祝祭日(振替休日を含む) 3)年末・年始 (12月28日〜1月4日) 4)計画的年次有給休暇付与に関する協定書に定めた日",
+        "ILL-Dpt: Section of Public Service",
+        "ILL-Org: Tohoku University Medical Library",
+        "ILL-Adress: 1-1 Seiryo-Machi Aoba-ku, SENDAI,  JAPAN",
+        "ILL-Zip: 980-8575",
+        "ILL-Contact1: TEL:+81-22-717-7981/ FAX:+81-22-717-7982 / E-mail:mlib-u@grp.tohoku.ac.jp",
+        "ILL-Contact2: Online catalogue:https://opac.library.tohoku.ac.jp/opac/opac_search/?smode=1&lang=1&cmode=0 / Website:http://www.library.med.tohoku.ac.jp/",
+        "ILL-Calender: Closed: Dec28-Jan4, Weekends, National Holidays",
+        "ILL-Accept: International: COPY Yes, LOAN N/A",
+        "ILL-Accept-method: International: E-mail",
+        "ILL-Payment-method: International: International Postal Money Order, Advance payment, Yen-denominated",
+        "ILL-Copy-Charge: Photocopy:35 JPY per sheet and Postage",
+        "ILL-Copy-Delivery-method: Airmail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003942.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003942#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003942.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都府立医科大学 附属図書館"
+        },
+        {
+          "@value": "キヨウトフリツイカダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京府医大"
+        },
+        {
+          "@value": "キヨウフイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "下鴨"
+      ],
+      "cinii:memberid": "FA003942",
+      "cinii:organizationid": "KI001122",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "京都府立医科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "602-0857",
+        "v:label": "京都市上京区清和院口寺町東入中御霊町410"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-212-5404(直)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-212-5405"
+        }
+      ],
+      "dc:description": [
+        "Kyoto Prefectural University of Medicine Library",
+        "410 Nakagoryo-cho Higashiiru Teramachi Seiwainguchi Kamigyo-ku, Kyoto 602-0857",
+        "URL:http://www.f.kpu-m.ac.jp/k/library/ (website)",
+        "+----------- お知らせ-------------+",
+        "必ずポリシーをご確認のうえお申込みください。",
+        "+--------------------------------+",
+        "来館利用担当:閲覧担当",
+        "電話番号:075-212-5403",
+        "受付時間:9:00-20:45(土曜日 10:00-17:45)",
+        "複写時間:9:00-20:45(土曜日 10:00ー17:45)",
+        "複写担当係    :相互貸借担当",
+        "電話番号:075-212-5404",
+        "複写受付可否 :可(速達については14時までに電話で確認の上お申込ください)",
+        "FAX受付可否 :否 (NACSIS-ILL参加館以外はFAXでも可)",
+        "FAX送信可否 :ILL文献複写等料金相殺サービス参加館のみ可。緊急時のみ対応。平日14時まで",
+        "複写料金 : 電子複写 50円/枚(モノクロ)、100円/枚(カラー)",
+        "複写注記 :カラー印刷されている頁はカラー複写になります。モノクロ希望の場合は必ず指定してください。",
+        "複写注記 :個別の要望にはお応えできません(複数件の同時送付、用紙サイズ等)。あらかじめご了承下さい。",
+        "複写注記 :支払方法 :ILL文献複写等料金相殺サービス参加館は相殺、 非参加館・その他は郵便振替",
+        "複写注記 :振込先 :郵便振替 01070-9-6236  名義 :京都府公立大学法人 京都府立医科大学附属図書館",
+        "複写注記 :料金は文献到着後1ケ月以内にご送金ください。通信欄には必ず当館の受付番号をご記入ください",
+        "複写注記 :支払いにおいて請求書等書類の発行はできません。",
+        "注意事項:現物貸借・・条件付き可(逐次刊行物、貴重書、教室所蔵図書等は不可)",
+        "注意事項:複写・・公費扱いは不可",
+        "注意事項:複写・・FAX送信、速達は事前に電話で確認してください。",
+        "注意事項:閲覧事前連絡・・原則として事前に電話・FAXでお知らせ下さい",
+        "持参書類:依頼状",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、年末年始(その他、臨時に閉館することがあります)"
+      ]
+    }
+  ]
+}

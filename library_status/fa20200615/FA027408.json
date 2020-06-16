@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027408.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027408#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027408.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公立大学法人 福知山公立大学 メディアセンター"
+        },
+        {
+          "@value": "コウリツダイガクホウジン フクチヤマコウリツダイガク メディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福公大メディア"
+        },
+        {
+          "@value": "フッコウダイメディア",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "メディア"
+      ],
+      "cinii:memberid": "FA027408",
+      "cinii:organizationid": "KI015411",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "公立大学法人 福知山公立大学 メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "620-0886",
+        "v:label": "福知山市字堀3370"
+      },
+      "dc:description": [
+        "URL:http://www.fukuchiyama.ac.jp"
+      ]
+    }
+  ]
+}

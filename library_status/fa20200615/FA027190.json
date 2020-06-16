@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027190.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027190#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027190.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "豊岡短期大学 図書館"
+        },
+        {
+          "@value": "トヨオカタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "豊岡短大"
+        },
+        {
+          "@value": "トヨオカタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "こども園",
+        "短大"
+      ],
+      "cinii:memberid": "FA027190",
+      "cinii:organizationid": "KI015353",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "豊岡短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "668-8580",
+        "v:label": "兵庫県豊岡市戸牧160番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0796-22-6361(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0796-22-6366(代表)"
+        }
+      ],
+      "dc:description": [
+        "Toyooka Junior College Library",
+        "160, Tobera, Toyooka-city, Hyogo, Japan 668-8580",
+        "URL:http://koutoku.ac.jp/library/",
+        "電話番号 : 0796-22-6361(内線221)",
+        "FAX番号 : 0796-22-6366",
+        "来館利用担当 :相互利用担当",
+        "閲覧対象者 : 教職員・学生(閲覧・複写)",
+        "閲覧事前連絡 : FAXにて利用希望者名、利用希望資料、利用希望日時等を事前照会のこと。(図書館 相互利用担当 FAX: 0796-22-6366",
+        "閲覧持参書類 : 紹介状、閲覧依頼書等(事前照会のFAX回答書の写し可)、及び身分証明書(機関所属者は、学生証等の所属を証明する身分証明書が望ましい。)",
+        "閲覧受付時間 : 月から金曜日 12:00-17:00(土曜日は不可)",
+        "複写受付時間 : 月から金曜日 12:00-17:00",
+        "館外貸出可否 : 可(要,利用者登録;禁帯出資料は除く)",
+        "閲覧注記 :一般の方はお近くの公共図書館を通じてお申込み下さい。",
+        "閲覧注記 : 来館の際は、受付を済ませてから図書館へご来館下さいますよう、お願い致します。",
+        "通常開館時間 : 9:00-17:00 (土曜日 -13:00)",
+        "通常休館日 : 日曜日、国民の祝日、創立記念日(11/5)、夏期休暇中(8/10〜9/30)の土曜日、夏期休業期間、年末年始の休業期間。"
+      ]
+    }
+  ]
+}

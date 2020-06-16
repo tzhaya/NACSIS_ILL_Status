@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA022550.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA022550#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA022550.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "淑徳大学 附属図書館 東京図書館"
+        },
+        {
+          "@value": "シュクトクダイガク フゾクトショカン トウキョウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "淑徳大東京"
+        },
+        {
+          "@value": "シュクトクダイトウキョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA022550",
+      "cinii:organizationid": "KI001825",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "淑徳大学 附属図書館 東京図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "174-0063",
+        "v:label": "東京都板橋区前野町5-5-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3968-2009"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3968-7962"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.shukutoku.ac.jp/campuslife/library/tokyo/"
+      ]
+    }
+  ]
+}

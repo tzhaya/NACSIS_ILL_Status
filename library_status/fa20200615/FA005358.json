@@ -1,0 +1,197 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005358.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005358#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005358.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "上智大学 図書館"
+        },
+        {
+          "@value": "ジョウチダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "上智大"
+        },
+        {
+          "@value": "ジョウチダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "数学",
+        "石油",
+        "生化",
+        "材力",
+        "機力",
+        "流体",
+        "制御",
+        "電気",
+        "生物学",
+        "科学英語",
+        "教育",
+        "心理",
+        "史学",
+        "史専",
+        "英文",
+        "新聞",
+        "人間",
+        "西語",
+        "露語",
+        "葡語",
+        "物理",
+        "キリ研",
+        "東洋研",
+        "中世研",
+        "国際研",
+        "内乱文庫",
+        "イベロ研",
+        "カウンセ研",
+        "正義研",
+        "ヨーロッパ研",
+        "アジア研",
+        "言語研",
+        "言語障害セ",
+        "カナダ研",
+        "ブラジルセ",
+        "キリ文庫",
+        "化学",
+        "機械",
+        "生命研",
+        "哲学",
+        "国文",
+        "独文",
+        "仏文",
+        "社会",
+        "福祉",
+        "体育",
+        "法学",
+        "経済",
+        "英語",
+        "独語",
+        "仏語",
+        "イスパセ",
+        "学部",
+        "書庫",
+        "Ref",
+        "AV",
+        "EU",
+        "貴重",
+        "一般外国語",
+        "生物専",
+        "国際関係研",
+        "アメリカ研",
+        "テレビセ",
+        "カウンセセ",
+        "聖三木",
+        "哲専",
+        "教育専",
+        "国文専",
+        "英文専",
+        "独文専",
+        "仏文専",
+        "新聞専",
+        "社会専",
+        "法専",
+        "経済専",
+        "経済制度専",
+        "言語専",
+        "国際関係専",
+        "機械専",
+        "電気専",
+        "物理専",
+        "化学専",
+        "応用化学専",
+        "音声研",
+        "数学専",
+        "ガルシア",
+        "OECD",
+        "SC",
+        "アジア室",
+        "心理専",
+        "地域研究専",
+        "情報教育セ",
+        "ニポニカ",
+        "法図"
+      ],
+      "cinii:memberid": "FA005358",
+      "cinii:organizationid": "KI00209X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "上智大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "102-8554",
+        "v:label": "東京都千代田区紀尾井町7-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3238-3507"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3238-3114"
+        }
+      ],
+      "dc:description": [
+        "Sophia University Library",
+        "7-1, Kioi-cho, Chiyoda-ku, Tokyo 102-8554",
+        "URL:http://www.sophia.ac.jp",
+        "来館利用担当:情報サービスチーム",
+        "電話番号:03-3238-3507",
+        "FAX番号:03-3238-3114",
+        "Email:lib-tech@sophia.ac.jp(書誌調整)",
+        "Email:lib-ill@sophia.ac.jp(ILL)",
+        "受付時間:9:00〜17:00(平日)",
+        "注意事項:学外者の方は、所属する大学図書館の紹介状が必要。:土曜日,日曜日,祝休日は,学外者の利用は不可。:貸出中または製本中で閲覧できない場合もあるので事前にFaxで連絡があるのが望ましい。または当館のOPACで資料状況をご確認ください。",
+        "持参書類:所属する大学図書館の紹介状及び身分証明書",
+        "複写時間:9:00〜21:00(平日)",
+        "館外貸出:不可",
+        "制限事項:(上記の「注意事項」)",
+        "ILL-Staff:Iwazaki,Yuko",
+        "ILL-Dept:Interlibrary Loan, Information Service Section",
+        "ILL-Org:Sophia University Library",
+        "ILL-Address:7-1 Kioicho, Chiyodaku, Tokyo, JAPAN",
+        "ILL-Zip:102-8554",
+        "ILL-Commun1:Tel:+81-3-3238-3507 / Fax:+81-3-3238-3114 / Email:lib-ill@sophia.ac.jp",
+        "ILL-Accept:OCLC:SUU",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Copy-Charge:Postage required, Photocopy : 1 sheet 50en",
+        "ILL-Note:will supply only photocopies",
+        "ILL-Shed:Closed December 20 - January 4",
+        "ILL-Loan-Period:Loan:N/A",
+        "ILL-Loan-Renew:None",
+        "ILL-Loan-Charge:Loan:N/A",
+        "ILL-Non-Circulation:Loan:N/A",
+        "ILL-OCLC-Symbol:SUU"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005267.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005267#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005267.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国際基督教大学 図書館"
+        },
+        {
+          "@value": "コクサイキリストキョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "ICU"
+        },
+        {
+          "@value": "アイシーユー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA005267",
+      "cinii:organizationid": "KI002034",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国際基督教大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "181-8585",
+        "v:label": "東京都三鷹市大沢3-10-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "複写、貸借 0422-33-3307"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0422-33-3305"
+        }
+      ],
+      "dc:description": [
+        "ILL-STAFF: MINAMI, Kazuko",
+        "ILL-DEPT: Contents Div.",
+        "ILL-Org:INTERNATIONAL CHRISTIAN UNIVERSITY LIBRARY",
+        "ILL-Address: 3-10-2 OSAWA, MITAKA-SHI, TOKYO,JAPAN",
+        "ILL-Zip:181-8585",
+        "来館利用担当:レファレンスサービスセンター",
+        "電話番号:0422-33-3668",
+        "受付時間:9:00〜17:30",
+        "持参書類:紹介状、資料利用依頼書 (身分を証明するものを携行のこと)",
+        "複写時間:9:00〜17:30",
+        "館外貸出:不可",
+        "休館日:国民の祝日、年末年始、大学の定める休日",
+        "ILL-Commun1:Fax:+81-***********/E-mail:libdoc@icu.ac.jp",
+        "ILL-Commun2:OPAC: http://opac.icu.ac.jp/  Home-Page: http://www-lib.icu.ac.jp/"
+      ]
+    }
+  ]
+}

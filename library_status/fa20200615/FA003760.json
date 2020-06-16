@@ -1,0 +1,127 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003760.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003760#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003760.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都立大学 図書館"
+        },
+        {
+          "@value": "トウキョウトリツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "都立大"
+        },
+        {
+          "@value": "トリツダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "物理",
+        "化学",
+        "生物",
+        "自然",
+        "機械",
+        "電気",
+        "土木",
+        "建築",
+        "工化",
+        "教務課",
+        "相談課",
+        "社会",
+        "教育",
+        "哲学",
+        "心理",
+        "歴史",
+        "日文",
+        "中文",
+        "英文",
+        "独文",
+        "福祉",
+        "法政",
+        "経済",
+        "数学",
+        "地理",
+        "体育",
+        "牧野",
+        "人文",
+        "仏文",
+        "法科",
+        "経営",
+        "RI",
+        "小笠原",
+        "理情報",
+        "電情",
+        "材化",
+        "工情報",
+        "AV",
+        "学生",
+        "BS"
+      ],
+      "cinii:memberid": "FA003760",
+      "cinii:organizationid": "KI001009",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京都立大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "192-0397",
+        "v:label": "東京都八王子市南大沢1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-677-2404"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-677-2403"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.lib.tmu.ac.jp/",
+        "利用方法:図書館ウェブサイト「利用案内」をご確認ください",
+        "https://www.lib.tmu.ac.jp/guide/first_time.html",
+        "休館日:図書館ウェブサイト「カレンダー」をご確認ください",
+        "https://www.lib.tmu.ac.jp/",
+        "ILL-Dept:Interlibrary Loan Department",
+        "ILL-Org:Tokyo Metropolitan University Library",
+        "ILL-Address:1-1 Minamiosawa, Hachioji-city, Tokyo, JAPAN",
+        "ILL-ZIP:192-0397",
+        "ILL-Commun1:Tel:+81-426-77-2404 / FAX:+81-426-77-2403 / E-mail:lib2ser@tmu.ac.jp",
+        "ILL-Commun2:OPAC:https://libportal.lib.tmu.ac.jp/?lang=english",
+        "ILL-Bill:Foreign: OCLC-IFM only",
+        "ILL-Copy-Charge:Photocopy: 45 YEN per sheet / Postage required / Delivery method: via airmail.",
+        "ILL-Note: Only the items held at the Central Library are available.",
+        "ILL-OCLC-Symbol:TUV"
+      ]
+    }
+  ]
+}

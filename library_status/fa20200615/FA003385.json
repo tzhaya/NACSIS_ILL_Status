@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003385.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003385#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003385.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛媛大学 図書館 医学部分館"
+        },
+        {
+          "@value": "エヒメダイガク トショカン イガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛媛大医"
+        },
+        {
+          "@value": "エヒメダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003385",
+      "cinii:organizationid": "KI000786",
+      "cinii:prefcode": "38",
+      "cinii:mextid": "006601",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "愛媛大学 図書館 医学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "791-0295",
+        "v:label": "愛媛県東温市志津川"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "089-960-5483"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "089-960-5484"
+        }
+      ],
+      "dc:description": [
+        "Medical Library of Ehime University",
+        "Shitsukawa, Toon, Ehime 791-0295",
+        "URL:http://www.lib.ehime-u.ac.jp/IGAKU/",
+        "来館利用担当:情報サービスチーム",
+        "電話番号 :089-960-5483",
+        "受付時間 :9:00-21:00(土曜9:00-17:00)",
+        "注意事項 :",
+        "持参書類 :貸出希望の場合は住所・氏名を明らかにする書類(身分証明書,運転免許証,健康保険証)",
+        "複写時間 :9:00-17:00(月曜日-金曜日)",
+        "館外貸出 :特別利用証の発行を受けた者は可",
+        "制限事項 :資料は原則として、図書館内に所蔵するものとする",
+        "休館日 :日曜・国民の休日・年末年始(12月28日-1月4日)"
+      ]
+    }
+  ]
+}

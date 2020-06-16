@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024319.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024319#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024319.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島都市学園大学 附属図書館"
+        },
+        {
+          "@value": "ヒロシマトシガクエンダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広都大"
+        },
+        {
+          "@value": "ヒロトダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024319",
+      "cinii:organizationid": "KI014736",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "広島都市学園大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "734-0014",
+        "v:label": "広島県広島市南区宇品西5丁目13-18"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-250-1133 担当 藤野"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-250-1134"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima Cosmopolitan University",
+        "5-13-18, Ujinanishi, Minamiku, Hiroshima, 734-0014, Japan",
+        "URL:http://www.hcu.ac.jp/ (website)",
+        "複写受付方法:ILL不参加館はFAXあるいは郵送受付可。特に書式は問いません。送付先を明記下さい。",
+        "複写料金:1枚30円(モノクロ)、1枚50円(カラー) :判別が難しい場合は、カラーコピーとします。白黒をご希望の場合は、ご連絡ください。",
+        "送付方法:郵送",
+        "料金支払い方法:ILL相殺サービス参加館は料金相殺処理。ILL相殺サービス不参加館は料金分の切手を郵送ください。後納。"
+      ]
+    }
+  ]
+}

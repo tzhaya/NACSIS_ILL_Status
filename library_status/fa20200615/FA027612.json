@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027612.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027612#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027612.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "兵庫県立大学 神戸防災キャンパス学術情報館"
+        },
+        {
+          "@value": "ヒョウゴケンリツダイガク コウベボウサイキャンパスガクジュツジョウホウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "兵県大神戸防災"
+        },
+        {
+          "@value": "ヒョウケンダイコウベボウサイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027612",
+      "cinii:organizationid": "KI001177",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "兵庫県立大学 神戸防災キャンパス学術情報館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "651-0073",
+        "v:label": "神戸市中央区脇浜海岸通1-5-2 人と防災未来センター東館内"
+      }
+    }
+  ]
+}

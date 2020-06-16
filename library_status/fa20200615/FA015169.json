@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015169.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015169#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015169.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知産業大学・短期大学 図書館"
+        },
+        {
+          "@value": "アイチサンギヨウダイガク・タンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛産大"
+        },
+        {
+          "@value": "アイサンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA015169",
+      "cinii:organizationid": "KI008041",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知産業大学・短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "444-0005",
+        "v:label": "愛知県岡崎市岡町字原山12-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0564-48-4591"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0564-48-5113"
+        }
+      ],
+      "dc:description": [
+        "訪問利用担当:閲覧係",
+        "開館時間:9:00〜18:30(平日)",
+        "開館時間:9:00〜17:30(休業中)",
+        "休館日:土曜、日曜、夏季・冬季休業中",
+        "注意事項:利用希望日時、資料について事前連絡をお願いします。",
+        "持参書類:身分証明書または図書館の紹介状",
+        "複写受付時間:閉館30分前",
+        "館外貸出:不可",
+        "制限事項:貴重書・研究室所蔵資料は利用できない場合があります。",
+        "Aichi Sangyo University Library",
+        "12-5, Harayama, Oka-cho, Okazaki-shi, Aichi-ken 444-0005",
+        "URL:http://www.asu.ac.jp/",
+        ""
+      ]
+    }
+  ]
+}

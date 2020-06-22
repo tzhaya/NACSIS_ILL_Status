@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005347.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005347#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005347.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "順天堂大学 さくらキャンパス学術メディアセンター"
+        },
+        {
+          "@value": "ジュンテンドウダイガク サクラキャンパスガクジュツメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "順大さ"
+        },
+        {
+          "@value": "ジュンダイサ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005347",
+      "cinii:organizationid": "KI002089",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "順天堂大学 さくらキャンパス学術メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "270-1695",
+        "v:label": "千葉県印西市平賀学園台1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0476-98-1001"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0476-98-1036"
+        }
+      ],
+      "dc:description": [
+        "Juntendo University Sakura Campus Academic Media Center",
+        "1-1, Hiragagakuendai, Inzai-city, Chiba, Japan 270-1695",
+        "URL:http://www.juntendo.ac.jp/hss/library/",
+        "来館利用担当:閲覧係",
+        "電話番号:0476-98-1001",
+        "受付時間:9:00〜16:30 (土曜日 〜12:30)",
+        "注意事項:事前に電話での問い合わせが望ましい",
+        "持参書類:所属機関の紹介状、もしくは資料利用依頼書",
+        "複写時間:9:00〜21:30 (土曜日 〜12:30)",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:年末年始、創立記念日5月15日、蔵書点検7月末〜8月上旬、毎月第2土曜日、入試"
+      ]
+    }
+  ]
+}

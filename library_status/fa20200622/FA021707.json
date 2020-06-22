@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021707.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021707#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021707.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 大学院地球環境学堂"
+        },
+        {
+          "@value": "キヨウトダイガク ダイガクインチキユウカンキヨウガクドウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大地環"
+        },
+        {
+          "@value": "キヨウダイチカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021707",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "京都大学 大学院地球環境学堂",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8501",
+        "v:label": "京都市左京区吉田本町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-753-5631"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-753-9187"
+        }
+      ],
+      "dc:description": [
+        "Graduate School of Global Environmental Studies, Kyoto University",
+        "Yoshida Honmachi, Sakyoku, Kyoto 606-8501",
+        "来館利用担当:図書室",
+        "電話番号:075-753-5631",
+        "受付時間:10:00〜12:00, 13:00〜17:00(月曜日〜金曜日)",
+        "注意事項:原則として事前に電話等にて連絡のこと",
+        "持参書類:身分証明書、閲覧許可書",
+        "館外貸出:学外者は原則不可",
+        "休館日:土・日曜日・国民の祝日・本学の創立記念日(6月18日)・12月25日〜1月5日・毎月末, 2014年は8月11日(月)～8月15日(金)まで夏季休暇と致します"
+      ]
+    }
+  ]
+}

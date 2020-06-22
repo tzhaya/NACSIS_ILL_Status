@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015362.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015362#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015362.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都立産業技術高等専門学校 荒川キャンパス 図書館"
+        },
+        {
+          "@value": "トウキヨウトリツサンギョウギジュツコウトウセンモンガッコウ アラカワキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産技高専荒川"
+        },
+        {
+          "@value": "サンギコウセンアラカワ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA015362",
+      "cinii:organizationid": "KI008223",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京都立産業技術高等専門学校 荒川キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "116-8523",
+        "v:label": "東京都荒川区南千住8-17-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3801-0145"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3801-9898"
+        }
+      ],
+      "dc:description": [
+        "URL : http://www.metro-cit.ac.jp/library/",
+        "学外者の利用は、工学系専門書の利用を目的とした場合に限定しています。",
+        "詳しくはお問い合わせください。"
+      ]
+    }
+  ]
+}

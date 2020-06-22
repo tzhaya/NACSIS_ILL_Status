@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007240.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007240#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007240.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知学泉大学 岡崎図書館"
+        },
+        {
+          "@value": "アイチガクセンダイガク オカザキトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛学泉岡"
+        },
+        {
+          "@value": "アイガクセンオカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007240",
+      "cinii:organizationid": "KI00314X",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "愛知学泉大学 岡崎図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "444-8520",
+        "v:label": "愛知県岡崎市舳越町上川成28"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0564-34-1209"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0564-34-1270"
+        }
+      ],
+      "dc:description": [
+        "Aichi Gakusen University Okazaki Library",
+        "28 Kami-Kawanari, Hegoshi-cho, Okazaki-shi, Aichi 444-8520",
+        "来館利用担当:参考業務係",
+        "電話番号:0564-34-1209",
+        "受付時間:9:00〜16:00(第1・第3土曜日〜13:00)",
+        "WEBPOLICY:受付時間:9:00〜16:00(第1・第3土曜日〜13:00)",
+        "持参書類:資料利用依頼書、身分証明書",
+        "製本中の資料もあるので、事前に確認ください。",
+        "複写時間:9:00〜18:00(第1・第3土曜日〜14:00)",
+        "館外貸出:不可",
+        "休館日:日曜日・祝日・本学の行事開催日・春期、夏期、冬期休暇期間中の定める日・第2・4・5土曜日",
+        "業務を一時休止する日:2020年6月16日9:30～2020年6月22日 09:30"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA02254X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA02254X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA02254X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都華頂大学・華頂短期大学 図書館"
+        },
+        {
+          "@value": "キョウトカチョウダイガク・カチョウタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京都華頂大"
+        },
+        {
+          "@value": "キョウトカチョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02254X",
+      "cinii:organizationid": "KI013416",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都華頂大学・華頂短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "605-0062",
+        "v:label": "京都市東山区林下町3-456"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-551-1164(直)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-551-1366"
+        }
+      ],
+      "dc:description": [
+        "Kyoto Kacho University and Kacho College Library",
+        "3-456, Rinka-cho, Higashiyama-ku Kyoto 605-0062",
+        "受付時間: 9:00〜17:00",
+        "注意事項:所属機関の図書館を通じて、事前に所蔵調査及び開館日・時間等の確認をしてください。",
+        "持参書類:資料利用依頼書・身分証明書",
+        "館外貸出可否:否",
+        "制限事項:複写を制限する場合もある。"
+      ]
+    }
+  ]
+}

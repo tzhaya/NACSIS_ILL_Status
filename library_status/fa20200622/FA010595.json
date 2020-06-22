@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010595.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010595#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010595.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 海上・港湾・航空技術研究所"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン カイジョウ・コウワン・コウクウギジュツケンキュウジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "海技研"
+        },
+        {
+          "@value": "カイギケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館"
+      ],
+      "cinii:memberid": "FA010595",
+      "cinii:organizationid": "KI005804",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立研究開発法人 海上・港湾・航空技術研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "181-0004",
+        "v:label": "東京都三鷹市新川6-38-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0422-41-3246"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0422-41-3149"
+        }
+      ],
+      "dc:description": [
+        "National Maritime Research Institute",
+        "6-38-1 Shinkawa, Mitaka-shi, Tokyo 181-0004"
+      ]
+    }
+  ]
+}

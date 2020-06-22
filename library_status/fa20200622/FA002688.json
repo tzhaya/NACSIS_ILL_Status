@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002688.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002688#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002688.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 医学図書館"
+        },
+        {
+          "@value": "キヨウトダイガク イガクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大医"
+        },
+        {
+          "@value": "キヨウダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "医図",
+        "医人健",
+        "胸部研",
+        "生医研",
+        "放生研",
+        "RIセ"
+      ],
+      "cinii:memberid": "FA002688",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004806",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "京都大学 医学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8501",
+        "v:label": "京都市左京区吉田近衛町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-753-4316"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-753-4318"
+        }
+      ],
+      "dc:description": [
+        "The Medical Library, Kyoto University",
+        "Yoshida-Konoe-cho, Sakyo-ku, Kyoto",
+        "URL:http://www.lib.med.kyoto-u.ac.jp/ (website)",
+        "URL:http://www.lib.med.kyoto-u.ac.jp/access_map.html (map)",
+        "URL:http://www.lib.med.kyoto-u.ac.jp/guide.html#gakugai (京都大学医学図書館 学外の方向け利用案内)",
+        "来館利用担当:図書掛(閲覧担当)",
+        "電話番号:075-753-4313(医図)",
+        "Fax番号:075-753-4318(医図)",
+        "閲覧事前連絡 :特に必要ありませんが、特定の資料を確実に利用したい場合はFAXで事前にご連絡ください。",
+        "閲覧持参書類 :特に必要ありません。",
+        "図書館利用時間 :(月〜金) 9:00〜21:45、(土)10:00〜15:45",
+        "複写受付時間 :現金による複写は月〜金 9:00〜16:30のみ、土曜日は受付不可。生協コピーカードによる複写は開館時間中可能。",
+        "館外貸出:不可",
+        "閲覧注記 :",
+        "通常開館時間 :(月〜金) 9:00〜22:00 、(土)10:00〜16:00",
+        "休業中開館時間:通常と同じ",
+        "休館日 :日曜日・国民の祝日に関する法律に規定する休日・年末年始(12/28〜1/4)・本学創立記念日(6/18)・医学部解剖体祭実施日",
+        "注意事項:この利用案内は「京大医」に続く表示が「医図」(医学図書館)の場合です。",
+        "注意事項:「京大医」に続く表示が「医人健」のときは、医学部人間健康科学系(旧保健学科・医療技術短期大学部)図書室に直接お問い合わせください。来館利用の場合は必ず事前にご連絡ください。",
+        "電話番号:075-751-3911(医学部人間健康科学系図書室)",
+        "Fax番号:075-751-3911(\"医学部人間健康科学系図書室\" 宛と明記してください。)",
+        "注意事項:「京大医」に続く表示が「医図」、「医人健」以外のときは、必ず事前に医学図書館にお問い合わせください。",
+        "ILL-Org:The Medical Library, Kyoto University",
+        "ILL-Address:Yoshida-Konoe-cho, Sakyo-ku, Kyoto, JAPAN",
+        "ILL-ZIP:606-8501",
+        "ILL-Commun1:Tel:+81-75-753-4313 /FAX:+81-75-753-4318 / E-mail:igakueturan@mail2.adm.kyoto-u.ac.jp"
+      ]
+    }
+  ]
+}

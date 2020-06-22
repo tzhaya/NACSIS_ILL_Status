@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002826.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002826#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002826.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都教育大学 附属図書館"
+        },
+        {
+          "@value": "キョウトキョウイクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京教大"
+        },
+        {
+          "@value": "キョウキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA002826",
+      "cinii:organizationid": "KI000571",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004900",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都教育大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "612-8522",
+        "v:label": "京都市伏見区深草藤森町1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-644-8179(受付)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "075-644-8519(依頼)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-644-8182"
+        }
+      ],
+      "dc:description": [
+        "Kyoto University of Education Library",
+        "1 Fukakusa-Fujinomori-cho Fushimi-ku, Kyoto",
+        "URL:http://lib1.kyokyo-u.ac.jp",
+        "来館利用者担当 :情報サービス担当",
+        "電話番号:075-644-8179",
+        "受付時間 :月〜金 9:00〜20:45 土9:00〜16:45 (休業期:月〜金 9:00〜16:45)",
+        "注意事項 :資料が利用可能かどうか、FAX等で事前確認してください。連絡がないと利用できない資料もあります。ご来館はできるだけ月曜〜金曜 9:00〜17:00にお願いします。",
+        "複写時間 :月〜金 9:00〜20:45 土9:00〜16:45 (休業期:月〜金 9:00〜16:45)",
+        "館外貸出 :一般利用者への貸出については、当館ホームページをご覧ください。",
+        "制限事項 :教科書は貸出しません。他資料も状態によっては閲覧・貸出を制限する場合があります。",
+        "休館日 :日曜日,国民の祝日,年末年始,本学創立記念日(6月1日),館内整理日,夏季一斉休業期間",
+        "ILL-Staff:Yuichi, Kanamori",
+        "ILL-Dept:Information Service Section",
+        "ILL-Org:Kyoto University of Education Library",
+        "ILL-Zip:612-8522",
+        "ILL-Commun1:Tel:+81-75-644-8519 / Fax:+81-75-644-8182 / E-mail:library@kyokyo-u.ac.jp",
+        "ILL-Commun2:OPAC:https://www-std01.ufinity.jp/kyokyolib/",
+        "ILL-Accept:Foreign(1)OCLC(NII-OCLC Link):Symbol:KUOED/Foreign(2):KERIS",
+        "ILL-Sched:Closed:Dec 28-Jan 5",
+        "ILL-Bill:Foreign(1):OCLC-IFM only/Foreign(2):KERIS=NII Fee Management Service",
+        "ILL-Loan-Period:Foreign(1)/(2):NA",
+        "ILL-Copy-Charge:Photocopy:35 YEN per sheet[per exposure]. Postage required. Delivery method:via airmail",
+        "ILL-Address:1 Fukakusa-Fujinomori-cho Fushimi-ku, Kyoto",
+        "ILL-OCLC-Symbol:KUOED"
+      ]
+    }
+  ]
+}

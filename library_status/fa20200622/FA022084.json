@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA022084.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA022084#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA022084.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "九州大学 筑紫図書館"
+        },
+        {
+          "@value": "キュウシュウダイガク チクシトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "九大筑"
+        },
+        {
+          "@value": "キュウダイチク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "健セ"
+      ],
+      "cinii:memberid": "FA022084",
+      "cinii:organizationid": "KI000822",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "九州大学 筑紫図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "816-8580",
+        "v:label": "春日市春日公園6丁目1番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-583-7204"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-583-8801"
+        }
+      ],
+      "dc:description": [
+        "Kyushu University Chikushi Library",
+        "6-1 Kasugakoen, Kasuga, Fukuoka, 816-8580",
+        "URL http://www.lib.kyushu-u.ac.jp/libraries/chikushi",
+        "来館利用担当:図書係",
+        "電話番号:092-583-7020",
+        "FAX:092-583-8801",
+        "持参書類:身分証明書又は学生証",
+        "館外貸出可否:否",
+        "開館時間:(月〜金)8:30〜20:00 (土曜日)10:00〜18:00",
+        "休館日:日・祝日、年末年始、夏季休業(8月中旬の一定期間)",
+        "注意事項:電話・メール等で事前に文献所在と利用可否を確認すること",
+        "注意事項:開館スケジュールの詳細はWebページ上で確認すること"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006306.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006306#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006306.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 医学部図書館"
+        },
+        {
+          "@value": "ニホンダイガク イガクブトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大医"
+        },
+        {
+          "@value": "ニチダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "B2",
+        "B1",
+        "1F",
+        "エレコン"
+      ],
+      "cinii:memberid": "FA006306",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本大学 医学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "173-8610",
+        "v:label": "東京都板橋区大谷口上町30-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3972-8132(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5995-7126"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org : Nihon University School of Medicine",
+        "ILL-Address:30-1 : Oyaguchi-kamicho, Itabashi-ku, Tokyo, JAPAN",
+        "ILL-ZIP : 173-8610",
+        "ILL-Commun1 : Tel:+81-3-3972-8132 /FAX:+81-3-5995-7126 /E-mail:med.lib@nihon-u.ac.jp",
+        "URL : https://www.med.nihon-u.ac.jp/library/index.html",
+        "来館利用担当 : 閲覧係",
+        "閲覧受付時間 : 10:00～17:00",
+        "複写受付時間 : 10:00～17:00",
+        "閲覧注記 : 利用は館内のみの閲覧に限ります。",
+        "事前連絡 : 資料の所蔵状況及び開館日程をHPで御確認のうえ,来館日を特定して,必ず事前に電話又はFAXでお問い合わせください。",
+        "持参書類 : 所属機関図書館等が発行する紹介状及び公的身分証明書(顔写真付が望ましい)を持参してください。",
+        "休館日 : 日曜日,祝日,本学創立記念日(10/4),年末年始,夏期休暇期間の土曜日,分館長が必要と認めるとき(詳細はHPで御確認ください)。",
+        "2019年10月1日受付分から、複写料金を改定いたします。",
+        "2019年10月1日からの複写方法・料金 : 電子複写(モノクロ@57/枚,カラー@113/枚)),コメント欄に指定がない場合は,カラーページはカラーの複写となります。",
+        "支払方法 : ILL文献複写等料金相殺サービスによる相殺です。その他の機関は銀行振込(後納)になります。",
+        "振込先 : 三菱UFJ銀行",
+        "複写注記 : カラーページがある場合は,原則としてカラーで複写します。モノクロ複写を御希望の場合は,コメント欄に「モノクロ希望」と明記してください。",
+        "複写注記 : 電子ジャーナルはA4片面印刷です。",
+        "複写注記 : 当日発送受付は12時まで、速達は15時までとなります。 土曜日の発送はありません。",
+        "複写注記 : 見積書,納品書及び請求書の発行はできません。"
+      ]
+    }
+  ]
+}

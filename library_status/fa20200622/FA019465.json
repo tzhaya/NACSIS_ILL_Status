@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019465.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019465#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019465.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "太成学院大学 メディアセンター(図書館)"
+        },
+        {
+          "@value": "タイセイガクインダイガク メディアセンター(トショカン)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "太成学院大"
+        },
+        {
+          "@value": "タイセイガクインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019465",
+      "cinii:organizationid": "KI011636",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "太成学院大学 メディアセンター(図書館)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "587-8555",
+        "v:label": "大阪府堺市美原区平尾1060番1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-362-3731"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-362-0598"
+        }
+      ],
+      "dc:description": [
+        "閲覧ご希望の方は必ず電話で事前に連絡してください"
+      ]
+    }
+  ]
+}

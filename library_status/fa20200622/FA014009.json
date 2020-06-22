@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014009.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014009#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014009.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北陸先端科学技術大学院大学 附属図書館"
+        },
+        {
+          "@value": "ホクリクセンタンカガクギジュツダイガクインダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北院大"
+        },
+        {
+          "@value": "ホクインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研究科"
+      ],
+      "cinii:memberid": "FA014009",
+      "cinii:organizationid": "KI007424",
+      "cinii:prefcode": "17",
+      "cinii:mextid": "009800",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北陸先端科学技術大学院大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "923-1292",
+        "v:label": "石川県能美市旭台1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0761-51-1191"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0761-51-1199"
+        }
+      ],
+      "dc:description": [
+        "Library, Japan Advanced Institute of Science and Technology",
+        "1-1, Asahidai, Nomi, Ishikawa 923-1292",
+        "URL:http://www.jaist.ac.jp/library/ (website)",
+        "URL:http://www.jaist.ac.jp/top/access/index.html (map)",
+        "来館利用担当 :図書館サービス係",
+        "電話番号 :0761-51-1191",
+        "受付時間 :8:30〜17:15 (土・日曜日, 国民の祝日, 夏季一斉休業期間, 創立記念日[10月1日], 年末年始[12月29日〜1月3日]を除く)",
+        "複写時間 :8:30〜16:30 (土・日曜日, 国民の祝日, 夏季一斉休業期間, 創立記念日[10月1日], 年末年始[12月29日〜1月3日]を除く)",
+        "館外貸出 :可 (図書館利用証の発行を受けられた方のみ)",
+        "注意事項 :図書館利用証の発行を希望される場合は, 氏名・現住所・年齢および学生の場合は在学が確認できる書類(運転免許証, 国民健康保険証, 外国人登録証, 学生証等)を持参のこと",
+        "図書館利用証発行受付時間 :8:30〜17:00 (土・日曜日, 国民の祝日, 夏季一斉休業期間, 創立記念日[10月1日], 年末年始[12月29日〜1月3日]を除く)",
+        "制限事項 :参考図書, 雑誌, 教科書・参考書, 研究室備付図書等は館外貸出不可",
+        "休館日 :なし (土・日曜日, 国民の祝日, 夏季一斉休業期間, 創立記念日[10月1日], 年末年始[12月29日〜1月3日]は職員不在)"
+      ]
+    }
+  ]
+}

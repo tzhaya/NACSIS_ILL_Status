@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019294.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019294#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019294.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "植草学園大学・植草学園短期大学 図書館"
+        },
+        {
+          "@value": "ウエクサガクエンダイガク・ウエクサガクエンタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "植草学園大"
+        },
+        {
+          "@value": "ウエクサガクエンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA019294",
+      "cinii:organizationid": "KI011512",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "植草学園大学・植草学園短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "264-0007",
+        "v:label": "千葉県千葉市若葉区小倉町1639-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "043-233-9322"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "043-239-2649"
+        }
+      ],
+      "dc:description": [
+        "UEKUSA GAKUEN UNIVERSITY & UEKUSA GAKUEN JUNIOR COLLEGE LIBRARY",
+        "1639-3 OGURA-CHO WAKABA-KU CHIBA 264-0007 JAPAN",
+        "http://www.uekusa.ac.jp/school_life/library(website)",
+        "http://www.uekusa.ac.jp/entrance_exam/access(map)",
+        "来館利用担当:図書館",
+        "電話番号:043-233-9322(直通)",
+        "受付時間:平日9:00-17:00 土曜:9:00-13:00",
+        "館外貸出:可(貸出証の発行を受けた方)",
+        "複写時間:平日9:00-17:00 土曜:9:00-13:00",
+        "休館日:日曜日・祝日・夏季一斉休暇・創立記念日・年末年始・大学祭期間",
+        "相互貸借による複写受付可 平日のみ ILL用フォーマットによる申込みをお願いします。",
+        "複写受付時間:9:30-16:30",
+        "決済方法:後納",
+        "相殺参加館は相殺処理 (非参加館は郵便振替)",
+        "振込先 払込機関名:ゆうちょ銀行 千葉松波支店 / 加入者名:学校法人 植草学園 / 口座番号:00290-6-115623"
+      ]
+    }
+  ]
+}

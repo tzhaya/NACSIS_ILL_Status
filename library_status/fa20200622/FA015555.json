@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015555.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015555#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015555.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福岡県立図書館"
+        },
+        {
+          "@value": "フクオカケンリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福岡県図"
+        },
+        {
+          "@value": "フクオカケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015555",
+      "cinii:organizationid": "KI008551",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "福岡県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "812-8651",
+        "v:label": "福岡県福岡市東区箱崎1丁目41-12"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-641-1126(郷土資料課)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-641-1127"
+        }
+      ],
+      "dc:description": [
+        "Fukuoka Prefectural Library",
+        "41-12, Hakozaki 1-chome, Higashi-ku, Fukuoka City, japan",
+        "URL:http://www.fsg.pref.fukuoka.jp/tosho/index_thtm (website)",
+        "URL:http://www.fsg.pref.fukuoka.jp/tosho/tosho3.htm (map)",
+        "来館利用担当:郷土資料課",
+        "電話番号:092-641-1126",
+        "受付時間:9:00〜19:00 (日曜日 9:00〜17:00)",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "複写時間: 9:00〜18:30 (日曜日 9:00〜16:30)",
+        "館外貸出:不可",
+        "休館日:月曜日、図書整理日(毎月末、ただし、土・日曜日に当たる時は開館)、年末年始、創立記念日、特別整理期間"
+      ]
+    }
+  ]
+}

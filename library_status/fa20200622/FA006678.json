@@ -1,0 +1,113 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006678.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006678#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006678.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "明治大学 図書館"
+        },
+        {
+          "@value": "メイジダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "明大"
+        },
+        {
+          "@value": "メイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本",
+        "和",
+        "生",
+        "保",
+        "博",
+        "中野"
+      ],
+      "cinii:memberid": "FA006678",
+      "cinii:organizationid": "KI002715",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "明治大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-8301",
+        "v:label": "東京都千代田区神田駿河台1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3296-4252"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3296-4411"
+        }
+      ],
+      "dc:description": [
+        "Meiji University Library 1-1,Kanda Surugadai Chiyoda-ku, Tokyo, Japan, 101-8301",
+        "URL:http://www.lib.meiji.ac.jp/(website)",
+        "URL:https://www-std01.ufinity.jp/meiji/",
+        "来館利用受付:各図書館・レファレンス係",
+        "来館利用注意事項:利用希望資料を特定し、来館希望日を明記して、所属の図書館を通じ事前にFAXで所蔵調査依頼をお送りいただき、資料の所在をご確認ください。",
+        "来館時持参書類:大学図書館等が発行する資料依頼書(紹介状)と身分を証明する物",
+        "館外貸出:否",
+        "制限事項:マイクロ資料の利用は予め利用日時の指定が必要、1回の利用は1日2時間です",
+        "制限事項:貴重書は事前に「貴重書閲覧申請書」(所定用紙)を提出してください。決裁までに多少時間がかかります。",
+        "制限事項:貴重書、和装本、19世紀までに刊行された洋図書、1955年(昭和30年)頃までに刊行された図書(ただし、図書の状態による)、マイクロ資料(ただし、フィルムの状態による)、CD-ROM等、破損・汚損図書、修理中の図書については、利用を不可とすることもあります。",
+        "通常開館時間:8:30-22:00(土曜日-19:00)、日祝10:00-17:00",
+        "各館電話番号:中央図書館 03-3296-4252、和泉図書館 03-5300-1186、生田図書館 044-934-7948、中野図書館 03-5343-8097",
+        "各館FAX番号:中央図書館 03-3296-4411、和泉図書館 03-5300-1204、生田図書館 044-934-7905、中野図書館03-5343-8100",
+        "ILL-Staff:ILL Section",
+        "ILL-Dept:Central Library",
+        "ILL-Org:Meiji University Library",
+        "ILL-Address:1-1 Kanda Surugadai, Chiyoda-ku, Tokyo, JAPAN",
+        "ILL-Zip:101-8301",
+        "ILL-Contact1:Tel:+81-3-3296-4252 / Fax:+81-3-3296-4411 / E-mail:ill@lib.meiji.ac.jp",
+        "ILL-Contact2:OPAC:http://opac.lib.meiji.ac.jp/ / Website:http://www.lib.meiji.ac.jp/",
+        "ILL-Calender:http://www.lib.meiji.ac.jp/english/calendar/index.html",
+        "ILL-Accept:International:LOAN:Yes(Traceable courier with insurance Only)",
+        "ILL-Accept:International:COPY:Yes",
+        "ILL-Accept-method:International:E-mail(ill@lib.meiji.ac.jp)",
+        "ILL-Accept-method:Korea:KERIS=NII ILL linkage(COPY only)",
+        "ILL-Payment-method:International:IFLA Voucher",
+        "ILL-Payment-method:International:KERIS=NII Fee Management service:Yes",
+        "ILL-Loan-Period:International:1 and half month (46 days) per item",
+        "ILL-Loan-Item-Max:up to 3 items per library",
+        "ILL-Loan-Renewal:2 weeks, only 1 time",
+        "ILL-Loan-Charge:Postage only",
+        "ILL-Loan-Delivery-method:Tracked system",
+        "ILL-Non-Circulation-items:Rare and precious materials, old Japanese books, published before 1900, microfilms, microfiches, CD-ROM, DVD-ROM, Books in deteriorated condition",
+        "ILL-Copy-Charge:50 YEN per sheet and postage",
+        "ILL-Copy-Delivery-method:Airmail only. Ariel not supported."
+      ]
+    }
+  ]
+}

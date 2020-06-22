@@ -1,0 +1,161 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003498.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003498#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003498.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "佐賀大学 附属図書館"
+        },
+        {
+          "@value": "サガダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "佐大"
+        },
+        {
+          "@value": "サダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "図書館",
+        "全学同和",
+        "経済(共通)",
+        "経済(経済)",
+        "経済(管理)",
+        "経済(経営)",
+        "理工(数理)",
+        "理工(物科)",
+        "理工(知能)",
+        "理工(機能)",
+        "理工(機シ)",
+        "理工(電電)",
+        "理工(都市)",
+        "理工(海洋)",
+        "農学(共通)",
+        "農学(生生)",
+        "農学(資源循環)",
+        "農学(生物環境)",
+        "農学(生物資源開発)",
+        "農学(生命化学)",
+        "農学(食糧科学)",
+        "農学(地域社会)",
+        "農学(生物資源制御)",
+        "資源循環フイールドセ",
+        "文教(教育)",
+        "文教(教科)",
+        "文教(理数)",
+        "文教(音楽)",
+        "文教(日ア)",
+        "文教(欧米)",
+        "文教(地域)",
+        "文教(環境)",
+        "文教(健康)",
+        "文教(美工)",
+        "文教(実践)",
+        "文教(同和)",
+        "保健セ",
+        "科技セ",
+        "低平地セ",
+        "海浜セ",
+        "総合情報基盤セ",
+        "全教セ",
+        "全学教育",
+        "EJ",
+        "機器セ",
+        "シンクロ",
+        "ベンチヤ",
+        "放射実験",
+        "海エネ研",
+        "高等教セ",
+        "地域学セ",
+        "経済(地域)",
+        "アグリ創生セ",
+        "経済(経済法学)"
+      ],
+      "cinii:memberid": "FA003498",
+      "cinii:organizationid": "KI000855",
+      "cinii:prefcode": "41",
+      "cinii:mextid": "007200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "佐賀大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "840-8502",
+        "v:label": "佐賀県佐賀市本庄町1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0952-28-8914(依頼)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "0952-28-8905(受付)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0952-28-8910"
+        }
+      ],
+      "dc:description": [
+        "Saga University Library",
+        "1, Honjo-machi, Saga 840-8502",
+        "URL:http://www.lib.saga-u.ac.jp/",
+        "来館利用担当: 利用サービス担当",
+        "電話番号: 0952-28-8905",
+        "受付時間: 月-金曜日 8:30-21:10 土、日曜日、祝日 10:00-19:00",
+        "注意事項: 図書の借用を希望する方は「図書館利用証発行申込書」を提出してください。同時に身分証明書等を提示してください。",
+        "持参書類: 特にありません。",
+        "複写時間: 開館時間内",
+        "館外貸出: 学外の方へは雑誌の貸出はできません。",
+        "制限事項: 貴重書の閲覧は事前に連絡をしてください。",
+        "年末年始(12月28日-1月3日)、8月13日～15日、その他臨時に休館する時があります。",
+        "注意事項:来館利用の詳細については、上記WEB SITEの「利用案内」をご覧ください。",
+        "ILL-Staff:Yoshida Miyuki, Miyachi Yoshiko, Matsuo Tomoko, Minematsu Shiina",
+        "ILL-Dept: Section for Inter-Library Service",
+        "ILL-Org:Saga University Library",
+        "ILL-Adress:1 , Honjo-Machi  , Saga City , Saga , Japan",
+        "ILL-ZIP:840-8502",
+        "ILL-OCLC-Symbol:JASAG",
+        "ILL-Commun1:fax:+81-952-28-8910 / E-Mail: service@lib.saga-u.ac.jp",
+        "ILL-Commun2:OPAC:http://opac.lib.saga-u.ac.jp/  Home-Page:http://www.lib.saga-u.ac.jp/",
+        "ILL-Accept:OCLC:SYMBOL:JASAG",
+        "ILL-Sched: Closed:Dec 28-Jan 3 , Aug 13-15",
+        "ILL-Bill:OCLC-IMF Only",
+        "ILL-Loan-period: 4 week",
+        "ILL-Loan-Renew: 2 week",
+        "ILL-Charge: Loan:Foreign(1):postage ruquied / Foreign(2):N/A",
+        "ILL-Non-Ciruclation:Loan:Special collection , mcrfrm , mcrofch , ref , per , news , a-v ,DIS",
+        "ILL-Copy-Charge:PHOTOCOPY : 40YEN per sheet / postage requied/  Delivary method: via Ariel , airmail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA01452X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA01452X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA01452X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "奈良先端科学技術大学院大学 附属図書館"
+        },
+        {
+          "@value": "ナラセンタンカガクギジユツダイガクインダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "奈院大"
+        },
+        {
+          "@value": "ナインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA01452X",
+      "cinii:organizationid": "KI00772X",
+      "cinii:prefcode": "29",
+      "cinii:mextid": "009900",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "奈良先端科学技術大学院大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "630-0192",
+        "v:label": "奈良県生駒市高山町8916番地の5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0743-72-5104"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0743-72-5016"
+        }
+      ],
+      "dc:description": [
+        "NARA INSTITUTE OF SCIENCE AND TECHNOLOGY.",
+        "8916-5 TAKAYAMA, IKOMA, NARA 630-0101 JAPAN",
+        "URL:http://library.naist.jp/",
+        "来館利用担当:情報サービス・電子図書館係",
+        "電話番号0743-72-5096",
+        "閲覧受付時間:平日9:00〜17:00",
+        "複写時間:平日9:00〜17:00",
+        "館外貸出:不可",
+        "制限事項:利用希望される資料を当館で所蔵しているか当館HPから検索してご確認ください。なお、研究室所蔵資料はご利用いただけません。",
+        "休館日:土曜日、日曜日、国民の祝日に関する法律に規定する休日、創立記念日(10月1日)、年末年始、夏季一斉休業",
+        "--------以下、海外の図書館向けのご案内です--------",
+        "ILL-Staff:Miwako Yokoyama",
+        "ILL-Dept:Service Section",
+        "ILL-Org:Digital Library of Nara Institute of Science and Technology",
+        "ILL-Address:8916-5 Takayama-cho, Ikoma, Nara 630-0192, JAPAN",
+        "ILL-ZIP:630-0192",
+        "ILL-Contact1:Tel:+81-743-72-5104 / FAX:+81-743-72-5016 / E-mail:lib-copy@ad.naist.jp",
+        "ILL-Contact2:OPAC:http://library.naist.jp/mylimedio/search/search-input.do?lang=en / Website:http://library.naist.jp/",
+        "ILL-Calender:Closed:Dec 28-Jan 4",
+        "ILL-Accept:International: Loan N/A",
+        "ILL-Accept:International: COPY Yes",
+        "ILL-Accept-method:Korea: KERIS=NII linkage(COPY only)",
+        "ILL-Payment-method:International: KERIS=NII Fee Management Service Yes",
+        "ILL-Loan-Period:N/A",
+        "ILL-Loan-Item-Max:N/A",
+        "ILL-Loan-Renewal:N/A",
+        "ILL-Loan-Charge:N/A",
+        "ILL-Loan-Delivery-method:N/A",
+        "ILL-Loan-Non-Circulation-items:All materials",
+        "ILL-Copy-Charge:Photocopy:35 YEN per sheet / Postage required",
+        "ILL-Copy-Delivery-method:Airmail",
+        "ILL-Note:THESIS:Photocopy need the author's permission"
+      ]
+    }
+  ]
+}

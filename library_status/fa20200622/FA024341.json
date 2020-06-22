@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024341.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024341#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024341.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "上智大学 目白聖母キャンパス 図書室"
+        },
+        {
+          "@value": "ジョウチダイガク メジロセイボキャンパス トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "上智聖母"
+        },
+        {
+          "@value": "ジョウチセイボ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "書庫",
+        "Ref",
+        "国際"
+      ],
+      "cinii:memberid": "FA024341",
+      "cinii:organizationid": "KI00209X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "上智大学 目白聖母キャンパス 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "161-8550",
+        "v:label": "東京都新宿区下落合4-16-11"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3950-6180(ダイヤルイン)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3950-6183"
+        }
+      ]
+    }
+  ]
+}

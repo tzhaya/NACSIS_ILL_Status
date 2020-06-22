@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016015.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016015#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016015.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国際仏教学大学院大学 附属図書館"
+        },
+        {
+          "@value": "コクサイブツキヨウガクダイガクインダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国際仏教学院"
+        },
+        {
+          "@value": "コクサイブツキヨウガクイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA016015",
+      "cinii:organizationid": "KI008802",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国際仏教学大学院大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "112-0003",
+        "v:label": "東京都文京区春日2-8-9"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5981-5277"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5981-5284"
+        }
+      ],
+      "dc:description": [
+        "International College for Postgraduate Buddhist Studies Library",
+        "2-8-9, Kasuga, Bunkyo-ku, Tokyo,",
+        "112-0003",
+        "URL:http://www.icabs.ac.jp/library/members.htm",
+        "来館利用担当:調査課",
+        "電話番号:03-5981-5277",
+        "受付時間:10:00-17:00(休業中10:00-16:45)",
+        "注意事項:来館利用希望の場合、電話等での事前連絡が必要。学外者には資料の貸出を認めていない。館内での複写の場合はコピーカードの購入が必要。",
+        "持参書類:資料利用依頼書(身分を証明するものを携行のこと)",
+        "複写時間:10:00-18:00(休業中10:00-16:45)",
+        "館外貸出:不可",
+        "制限事項:貴重書など特定資料の中には利用を制限するものもある。",
+        "休館日:土・日曜、国民の祝日、本学創立記念日 (5月18日)、年末年始、蔵書点検日等",
+        "複写担当係:調査課",
+        "申込方法:できるだけNACSIS-ILLでお願いします。Fax・郵便も可(複写申込の場合のみ)。",
+        "複写代金:電子複写1枚白黒40円、カラー80円。別に送料もかかります。",
+        "支払方法:できるだけNACSIS-ILL相殺システムでお願いします。非相殺の場合、切手後納。",
+        "注意事項:当館は、国内の他大学発行の学術雑誌・紀要の複写は原則として受け付けておりませんので、ご注意ください。",
+        "注意事項:複写物発送は月・木曜に限ります(速達不可)。また月・木曜の15:00以降のご依頼は次回の発送になることもありますのでご注意ください。",
+        "貸借担当係:調査課",
+        "貸借受付可否:条件付加(国内のNACSIS-ILL相殺参加館のみ)",
+        "申込方法:NACSIS-ILL",
+        "返送方法:ゆうパックまたは簡易書留のゆうメール",
+        "支払方法:NACSIS-ILL相殺システム(返送料は申込側が負担)",
+        "貸出対象資料:一般図書(請求記号にアルファベット記号が付されていないもの)",
+        "貸出期間:発送・返送に要する配送日数を含め30日以内(延長不可)",
+        "貸出冊数:3冊以内",
+        "貸出条件:申込館の館内のみで閲覧・複写可",
+        "貸出条件:来館が可能な場合は、来館利用をお願いします。",
+        "受付停止期間:休館日"
+      ]
+    }
+  ]
+}

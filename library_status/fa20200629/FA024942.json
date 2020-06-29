@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024942.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024942#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024942.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "武蔵野大学 有明図書館"
+        },
+        {
+          "@value": "ムサシノダイガク アリアケトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "武蔵野大有明"
+        },
+        {
+          "@value": "ムサシノダイアリアケ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024942",
+      "cinii:organizationid": "KI002690",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "武蔵野大学 有明図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "135-8181",
+        "v:label": "東京都江東区有明3-3-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5530-7671"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5530-3823"
+        }
+      ],
+      "dc:description": [
+        "Musashino University Library (Ariake)",
+        "3-3-3, Ariake, Koto-ku,Tokyo 135-8181",
+        "URL:http://www.musashino-u.ac.jp/library/",
+        "来館受付担当:閲覧係",
+        "電話番号:03-5530-7671",
+        "受付時間:10:00〜17:00",
+        "注意事項:資料の所在等、事前確認をしてください。開館日を確認してください。(特に春、夏、冬季の休暇中)",
+        "持参書類:資料利用依頼書(紹介状)及び学生証など身分を証明する書類",
+        "複写時間:10:00〜17:00",
+        "館外貸出:図書館間のみの貸出可。視聴覚資料・参考資料・指定図書は利用できません。",
+        "武蔵野図書館の資料の取り寄せには応じられません。武蔵野図書館にお問合せください。",
+        "複写をする場合には、小銭をご用意ください。(白黒:10円、カラー:40円)",
+        "館内のPCは、蔵書検索(OPAC)用PC以外は利用できません。",
+        "休館日:日曜日、国民の祝日、年末年始 その他図書館の決めた休館日、学生の試験期間は、利用をお断りさせていただくことがございます。"
+      ]
+    }
+  ]
+}

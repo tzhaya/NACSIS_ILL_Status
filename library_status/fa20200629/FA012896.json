@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012896.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012896#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012896.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "青森県立図書館"
+        },
+        {
+          "@value": "アオモリケンリツトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "青県図"
+        },
+        {
+          "@value": "アオケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012896",
+      "cinii:organizationid": "KI006942",
+      "cinii:prefcode": "02",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "青森県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "030-0184",
+        "v:label": "青森市荒川字藤戸119-7"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "017-729-4311(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "017-762-1757(直通)"
+        }
+      ],
+      "dc:description": [
+        "Aomori Prefectural Library",
+        "http://www.plib.pref.aomori.lg.jp/",
+        "貸借受付担当:企画支援課(電話017-739-4211、FAX番号017-739-8353)",
+        "複写受付担当:奉仕課参考郷土室(電話017-729-4311(直通)、FAX番号017-762-1757(直通))",
+        "開館時間:9:00〜19:00",
+        "毎月第4木曜日(祝日と重なった場合は第3木曜日)・4月1日・奇数月第2水曜日・蔵書点検期間(5月25日〜5月28日、11月26日〜12月3日)・年末年始(12月29日〜1月3日)"
+      ]
+    }
+  ]
+}

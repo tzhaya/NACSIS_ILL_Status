@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA02335X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA02335X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA02335X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都医療科学大学 図書館"
+        },
+        {
+          "@value": "キョウトイリョウカガク ダイガク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京医療大"
+        },
+        {
+          "@value": "キョウイリョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02335X",
+      "cinii:organizationid": "KI014135",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "京都医療科学大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "622-0041",
+        "v:label": "南丹市園部町小山東町今北1-3"
+      }
+    }
+  ]
+}

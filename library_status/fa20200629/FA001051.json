@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001051.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001051#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001051.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 経済学研究科・経済学部図書室"
+        },
+        {
+          "@value": "ホッカイドウダイガク ケイザイガクケンキュウカ・ケイザイガクブトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大経"
+        },
+        {
+          "@value": "ホクダイケイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "地研"
+      ],
+      "cinii:memberid": "FA001051",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北海道大学 経済学研究科・経済学部図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-0809",
+        "v:label": "北海道札幌市北区北9条西7丁目 北海道大学 大学院経済学研究院・経済学部図書室"
+      },
+      "dc:description": [
+        "Library, Graduate school of Economics and Business Administration",
+        "Kita 9, Nishi 7, Kita-ku Sapporo, 060-0809 japan",
+        "URL:https://www.lib.hokudai.ac.jp/eco/",
+        "来館利用担当:図書担当",
+        "電話番号:011-706-3167",
+        "E-mail:eco@lib.hokudai.ac.jp",
+        "受付時間:9:00〜17:00",
+        "注意事項:相互利用・ILLの連絡先(011-706-4095)、直接訪問利用時の連絡先(011-706-3167)",
+        "持参書類:本人を確認できるもの(運転免許証、保険証等)",
+        "複写時間:",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:土曜日、日曜日、国民の祝日、12月28日〜1月4日"
+      ]
+    }
+  ]
+}

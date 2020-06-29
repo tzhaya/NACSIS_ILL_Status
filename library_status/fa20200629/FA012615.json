@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012615.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012615#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012615.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京情報大学 情報サービスセンター"
+        },
+        {
+          "@value": "トウキヨウジヨウホウダイガク ジヨウホウサービスセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東京情報大"
+        },
+        {
+          "@value": "トウキヨウジヨウホウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA012615",
+      "cinii:organizationid": "KI007195",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京情報大学 情報サービスセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "265-8501",
+        "v:label": "千葉県千葉市若葉区御成台4-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "043-236-4617"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "043-236-2662"
+        }
+      ],
+      "dc:description": [
+        "電話番号:043-236-4617",
+        "受付時間:9:00〜19:30",
+        "注意事項:開館日の確認をしてください。",
+        "持参書類:身分を証明するもの",
+        "複写時間:9:00〜19:30",
+        "館外貸出:卒業生・退職者/高大連携者/市内・千葉市近隣在住者は可。その他は否",
+        "制限事項:インターネットの利用はできません。",
+        "休館日:土・日・祝日・夏期及び冬期休業中の一定期間・大学祭・入試期間・法人創立記念日3/6・開学記念日11/8",
+        "ILL-Staff:TSUBOI",
+        "ILL-Dept:Library Information Section",
+        "ILL-Org:Tokyo Joho Univ. Information Support Center",
+        "ILL-Address:4-1 Onaridai, Wakaba-ku, Chiba-city, Chiba, JAPAN",
+        "ILL-ZIP:265-8501",
+        "ILL-Commun1:Tel:+81-43-236-4617 / Fax: +81-43-236-2662 /  E-mail:infolib@affrs.tuis.ac.jp",
+        "ILL-Commun2:OPAC: http://www.tuis.ac.jp/library/index.html",
+        "ILL-Accept:Foreign:KERIS",
+        "ILL-Sched:Closed: Dec. 23-Jan 9",
+        "ILL-Bill:Foreign:KERIS=NII Fee Management Service Only",
+        "ILL-Loan-Period:Foreign:30 days per item; up to 3 items per library",
+        "ILL-Loan-Renew:Foreign: 30 days",
+        "ILL-Loan-Charge:Foreign:[request]:Postage required Delivery method: via airmail",
+        "ILL-Non-Circulation:mcrfm, ref, CD-ROM, DVD",
+        "ILL-Copy-Charge:Foreign:Photocopy:[monochrome]:40 YEN per Sheet; [color]:100 YEN per Sheet [per exposure]: Postage required Delivery"
+      ]
+    }
+  ]
+}

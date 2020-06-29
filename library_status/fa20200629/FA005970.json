@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005970.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005970#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005970.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京経済大学 図書館"
+        },
+        {
+          "@value": "トウキョウケイザイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東経大"
+        },
+        {
+          "@value": "トウケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005970",
+      "cinii:organizationid": "KI002373",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京経済大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "185-8502",
+        "v:label": "東京都国分寺市南町1-7-34"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-328-7764"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-328-7777"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Keizai University Library",
+        "1-7-34, Minamicho, Kokubunji-shi, Tokyo 185-8502",
+        "URL:http://www.tku.ac.jp/library/",
+        "来館利用担当:閲覧係",
+        "電話番号:042-328-7764",
+        "受付時間:9:00-19:00",
+        "注意事項:資料の所在等は所属機関を通して事前確認をして下さい。",
+        "注意事項:駐車場がありませんので車での来館はご遠慮下さい。",
+        "注意事項:学外者の方は館外貸出はできません。",
+        "注意事項:開館日はホームページでご確認下さい。",
+        "持参書類:所属機関または公共図書館発行の資料利用依頼書(利用資料名を明記)",
+        "複写時間:9:00-20:00",
+        "館外貸出:不可",
+        "制限事項:貴重書には閲覧を許可しないものがあります。お問い合わせください。",
+        "休館日:日曜日,国民の祝日,年末年始,夏季冬季春季休暇中の一定期間,大学祭,入学試験,蔵書点検,大学あるいは図書館が定めた日",
+        "2014年4月より、複写受付料金を1枚50円に改訂いたします。",
+        "ILL-Staff:Kuze, Yasuko",
+        "ILL-Dept:InterLibary Service Section",
+        "ILL-Org: Tokyo Keizai University Library",
+        "ILL-Address: 1-7-34, Minami-cho, Kokubunji-shi, Tokyo, JAPAN",
+        "ILL-ZIP:185-8502",
+        "ILL-Contact1:Tel:+81-42-328-7764 / FAX:+81-42-328-7777 / e-mail:library@s.tku.ac.jp",
+        "ILL-Contact2:OPAC:https://opac.tku.ac.jp / Home-Page:http://www.tku.ac.jp",
+        "ILL-Calender: Closed: Weekends and Holidays",
+        "ILL-Accept:International:LOAN N/A",
+        "ILL-Accept:International:Copy N/A",
+        "ILL-Accept-method:Korea:KERIS=N/A",
+        "ILL-Payment-method:International:Invoice N/A",
+        "ILL-Payment-method:International:IFLA Voucher N/A",
+        "ILL-Payment-method:International:Credit Card N/A",
+        "ILL-Payment-method:International:OCLC-IMF N/A",
+        "ILL-Payment-method:International:KERIS=NII Fee Management service N/A",
+        "ILL-Loan-Period: 30 days.",
+        "ILL-Loan-Item-Max:10",
+        "ILL-Loan-Renewal: 30 days.",
+        "ILL-Loan-Charge: Postage only",
+        "ILL-Loan-Delivery-method:Tracked system",
+        "ILL-Non-Circulation-items: Special collection, microfilm,microfiche,Reference collection,Journal issues,newspaper,DVDs,Thesis",
+        "ILL-Copy-Charge:50 JPY per sheet & Postage",
+        "ILL-Copy-Delivery-method:via EMS only",
+        "ILL-Note:dissertation:LOAN:N/A",
+        "ILL-Note:dissertation:COPY:author's permission required",
+        "ILL-Note:dissertation:COPY: N/A",
+        "ILL-Note:Thesis:COPY: N/A"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012659.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012659#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012659.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "聖カタリナ大学 附属図書館"
+        },
+        {
+          "@value": "セイカタリナダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "聖カ大"
+        },
+        {
+          "@value": "セイカダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "分館"
+      ],
+      "cinii:memberid": "FA012659",
+      "cinii:organizationid": "KI007231",
+      "cinii:prefcode": "38",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "聖カタリナ大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "799-2496",
+        "v:label": "愛媛県松山市北条660"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "089-993-0751"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "089-993-0435"
+        }
+      ],
+      "dc:description": [
+        "St. Catherine University Library",
+        "660, Hojo, Matsuyamashi, Ehimeken 799-2496",
+        "URL:http://www.catherine.ac.jp",
+        "来館利用担当:閲覧係",
+        "電話番号:089-993-0751(内線1551)",
+        "受付時間:9:00〜17:00(土曜日〜12:00)",
+        "注意事項:電話にて事前連絡をお願いします。",
+        "持参書類:資料利用依頼書(身分を証明する物)",
+        "複写時間:9:00〜17:00(土曜日〜12:00)",
+        "館外貸出:否",
+        "休館日 :日曜日・国民の祝日・年末年始・聖ドミニコの祝日(8月8日)・8月15日前後の1週間・クリスマス(12月25日)"
+      ]
+    }
+  ]
+}

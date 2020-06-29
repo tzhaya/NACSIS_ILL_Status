@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008094.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008094#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008094.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "摂南大学 図書館 枚方分館"
+        },
+        {
+          "@value": "セツナンダイガク トショカン ヒラカタブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "摂大枚"
+        },
+        {
+          "@value": "セツダイヒラ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "分館"
+      ],
+      "cinii:memberid": "FA008094",
+      "cinii:organizationid": "KI003751",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "摂南大学 図書館 枚方分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "573-0101",
+        "v:label": "大阪府枚方市長尾峠町45-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-866-3102"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-868-5553"
+        }
+      ],
+      "dc:description": [
+        "SETSUNAN UNIVERSITY LIBRARY HIRAKATA BRANCH",
+        "45-1,NAGAO-TOGECHO,HIRAKATA,OSAKA,573-0101,JAPAN",
+        "URL:http://www.setsunan.ac.jp/sisetsu/tosho/",
+        "来館利用担当 :奉仕係",
+        "電話番号 :072-866-3102",
+        "受付時間 :9:00〜19:00(土曜日〜17:00)",
+        "注意事項 :FAX(072-868-5553)での問合せが望ましい。",
+        "注意事項 :車での来館はご遠慮下さい。",
+        "持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "複写時間 :9:00〜19:00(土曜日〜17:00)",
+        "館外貸出 :不可",
+        "休館日 :8月中および9月上旬の土曜日・8月中旬(1週間程度)・12月25日頃から1月6日頃まで・学園創立記念日(10月30日)・その他学校行事による"
+      ]
+    }
+  ]
+}

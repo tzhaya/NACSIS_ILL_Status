@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002087.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002087#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002087.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "新潟大学 附属図書館"
+        },
+        {
+          "@value": "ニイガタダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "新大"
+        },
+        {
+          "@value": "シンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA002087",
+      "cinii:organizationid": "KI000356",
+      "cinii:prefcode": "15",
+      "cinii:mextid": "003500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "新潟大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "950-2181",
+        "v:label": "新潟県新潟市西区五十嵐2の町8050"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "025(262)6223【複写】"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "025(262)6841【貸借】"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "025-264-2218"
+        }
+      ],
+      "dc:description": [
+        "Niigata University Library",
+        "8050, Ikarashi 2-no-cho, Nishi-ku, Niigata City 950-2181",
+        "URL:http://www.lib.niigata-u.ac.jp/ (website)",
+        "URL:http://www.lib.niigata-u.ac.jp/services/guides/doc/user_guide_u.pdf (学外者向け案内)",
+        "来館利用担当:情報サービス係",
+        "電話番号:025-262-6221",
+        "開館時間:(授業期間)平日 8:00-22:00、 土・日・祝日 10:00-22:00 / (休業期間)平日 8:30-20:00、土・日・祝日 10:00-17:00",
+        "注意事項:図書館利用カード(磁気)持参者以外は入館票に記入、提出のこと。",
+        "複写時間:上記開館時間に準ずる。",
+        "館外貸出:条件付可(館内配架の一般図書のみ可。一般の方は新潟県在住の18歳以上の方に限る。住所・年齢記載の本人確認書類を提示の上、利用登録。原則として郵送での返却は認めない。)",
+        "制限事項:貴重図書には閲覧を許可しないものがある。",
+        "休館日:夏季一斉休業日、年末年始(12月29日～1月3日)、定期作業停電日、大学入試センター試験日、入学試験日。(上記のwebsiteで開館日カレンダーを確認のこと)",
+        "ILL-Staff:Toshie Nagai",
+        "ILL-Dept:Reference & Interlibrary Loan Section",
+        "ILL-Address:8050, Ikarashi 2-no-cho, Nishi-ku, Niigata City, JAPAN",
+        "ILL-Org:Niigata University Library",
+        "ILL-Commun1:Tel:+81-25-262-6219 / FAX:+81-25-264-2218 / E-mail:c-sougo@lib.niigata-u.ac.jp",
+        "ILL-ZIP:950-2181",
+        "ILL-Commun2:OPAC:http://opac.lib.niigata-u.ac.jp/opc/en / Home-Page:http://www.lib.niigata-u.ac.jp/index_en.html",
+        "ILL-Bill:Foreign:KERIS=NII Fee Management Service only",
+        "ILL-Accept:Foreign:KERIS(NII-KERIS ISO ILL Link only)",
+        "ILL-Loan-Period:Loan:N/A",
+        "ILL-Loan-Renew:Loan:N/A",
+        "ILL-Loan-Charge:Loan:N/A",
+        "ILL-Non-Circulation:mcrfrm, mcrfich, ref, per, news, a-v, special collections, rare, serials",
+        "ILL-Copy-Charge:40YEN per sheet.Postage required.Delivery method:via airmail.",
+        "ILL-Note:Will supply only photocopies. MCRFLM:N/A / FCHE/FCHE:N/A / DIS:Photocopy:need the author's permission / Materials in the libraries only / THESIS:photocopy:needs the author's permission / Materials in the libraries only"
+      ]
+    }
+  ]
+}

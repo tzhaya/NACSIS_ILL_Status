@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007604.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007604#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007604.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都女子大学 図書館"
+        },
+        {
+          "@value": "キョウトジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京女大"
+        },
+        {
+          "@value": "キョウジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "雑誌開",
+        "雑誌自",
+        "雑誌閉2",
+        "雑誌閉1"
+      ],
+      "cinii:memberid": "FA007604",
+      "cinii:organizationid": "KI003401",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "605-8501",
+        "v:label": "京都市東山区今熊野北日吉町35"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-531-7069"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-531-9014"
+        }
+      ],
+      "dc:description": [
+        "Kyoto Women's University Library",
+        "35, Kitahiyoshi-cho, Imakumano, Higashiyama-ku, Kyoto 605-8501",
+        "website:http://www3.kyoto-wu.ac.jp/library/",
+        "OPACURL:http://lib.kyoto-wu.ac.jp/opc/",
+        "来館利用担当:閲覧係",
+        "TEL:075-531-7070  FAX:075-531-9014",
+        "受付時間:9:30～19:00(土/10:00～16:00)、閉講期間/10:00～16:00(土/10:00～16:00)",
+        "注意事項:利用を希望される方は予め所属の大学図書館、あるいは公共図書館を通じてFAXにて所蔵調査および事前照会が必要です。個人からの直接のお問い合わせは受付できません。",
+        "注意事項:貴重書、個人文庫等については必ず事前に照会のこと。利用は院生以上の研究者、当館のみ所蔵の資料に限る(事前に特別閲覧許可願等を提出し、許可を必要とする)",
+        "持参書類:所蔵調査回答、および身分を証明できるものを持参すること。別途所属機関図書館発行の紹介状が必要な場合があります。",
+        "複写受付時間:9:30～19:00(土:10:00～16:00)、休講期間/10:00～16:00(土:10:00～16:00)複写料金の精算は現金のみ、閉館の30分前までに精算を終了すること。",
+        "館外貸出:不可(閲覧・複写のみ)",
+        "開館時間:図書館のホームページをご確認ください。",
+        "休館日:日曜・夏季・冬季休暇中の一定期間・年末年始・および臨時休館日。図書館ホームページの開館カレンダーで確認してください。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006962.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006962#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006962.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鶴見大学 図書館"
+        },
+        {
+          "@value": "ツルミダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鶴見大"
+        },
+        {
+          "@value": "ツルミダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006962",
+      "cinii:organizationid": "KI002919",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "鶴見大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "230-8501",
+        "v:label": "神奈川県横浜市鶴見区鶴見2-1-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-580-8274"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-581-1729"
+        }
+      ],
+      "dc:description": [
+        "Tsurumi University Library",
+        "2-1-3, Tsurumi, Tsurumi-ku, Yokohama City 230-8501",
+        "URL:http://library.tsurumi-u.ac.jp/library/index.html",
+        "来館利用担当:閲覧担当",
+        "電話番号:045-580-8274",
+        "受付時間:9:00〜16:30(平日)",
+        "注意事項:事前連絡にFAXでの問い合わせが必要",
+        "持参書類:所属組織(大学)発行の紹介状および身分証",
+        "複写受付時間:9:00〜16:00(平日)",
+        "通常開館時間:8:50〜20:00(平日)",
+        "館外貸出:否",
+        "制限事項:貴重書の閲覧は事前に別の手続きが必要",
+        "休館日:日曜日・祝祭日・創立記念日(11月21日)、入学・卒業式ほか開館カレンダー参照"
+      ]
+    }
+  ]
+}

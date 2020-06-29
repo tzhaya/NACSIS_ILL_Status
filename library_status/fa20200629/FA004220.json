@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004220.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004220#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004220.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "旭川大学 図書館"
+        },
+        {
+          "@value": "アサヒカワダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "旭大"
+        },
+        {
+          "@value": "キョクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "地"
+      ],
+      "cinii:memberid": "FA004220",
+      "cinii:organizationid": "KI001304",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "旭川大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "079-8501",
+        "v:label": "北海道旭川市永山3条23丁目1番9号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0166-48-3121"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0166-47-7930"
+        }
+      ],
+      "dc:description": [
+        "Asahikawa University Library",
+        "3-Jo, 23-Chome, Nagayama, Aasahikawa, Hokkaido, 079-8501 JAPAN",
+        "URL:http://www.asahikawa-u.ac.jp/",
+        "URL:http://www.asahikawa-u.ac.jp/library/",
+        "来館利用担当: 閲覧担当",
+        "電話番号: 0166-48-3121",
+        "受付時間: 9:00〜20:00",
+        "注意事項:来館希望の場合、事前に電話での問い合わせが望ましい。館外貸出を希望する場合は、文書の提示が条件。閲覧対象者は18才以上であること。",
+        "持参書類: 資料利用依頼書 (身分を証明する物を携行のこと)",
+        "複写時間: 9:00〜19:30",
+        "館外貸出: 可",
+        "制限事項: 5冊以内 (図書のみ)",
+        "休館日: 日曜日、国民の祝日、入学式(2021年4月2日)、開学記念日(2020年11月24日)、夏期・冬期休業期間(8月中旬・年末年始)、蔵書点検期間(8月中旬)、卒業式(2021年3月19日)、年度末整理日(3月末)はサービスを停止させていただきます。"
+      ]
+    }
+  ]
+}

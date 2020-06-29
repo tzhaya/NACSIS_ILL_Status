@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA01266X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA01266X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA01266X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "筑紫女学園大学 附属図書館"
+        },
+        {
+          "@value": "チクシジョガクエンダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "筑女大"
+        },
+        {
+          "@value": "チクジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "大"
+      ],
+      "cinii:memberid": "FA01266X",
+      "cinii:organizationid": "KI007242",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "筑紫女学園大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "818-0192",
+        "v:label": "福岡県太宰府市石坂2-12-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-925-9910"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-925-3318"
+        }
+      ],
+      "dc:description": [
+        "Chikushi Jogakuen University Library",
+        "2-12-1, Ishizaka, Dazaifu, Fukuoka 818-0192",
+        "来館利用担当:閲覧係",
+        "電話番号:092-925-9910",
+        "受付時間:9:00〜17:00(土曜日-14:00)",
+        "注意事項:電話での問い合わせが必要",
+        "持参書類:所属する図書館の紹介状(九州地区大学図書館協議会及び福岡県・佐賀県大学図書館協議会加盟館は除く)、身分を証明するものを携行のこと。",
+        "複写時間:9:00〜16:30 (土曜日-13:00)",
+        "館外貸出:不可",
+        "制限事項:試験期間中は受付けない。",
+        "休館日:定例休館日(1日・16日)、創立記念日(5月13日)、学内行事に伴う休館日(入学式・卒業式・学園祭・入学試験)、本学休業期間(8月13日〜16日・12月29日〜1月5日)、その他図書館業務の都合により臨時休館することがあります。詳細は図書館ホームページでご確認ください。",
+        "【URL】https://www.lib.chikushi-u.ac.jp",
+        "ILL-Org:Chikushi Jogakuen University Library",
+        "ILL-Adress:2-12-1, Ishizaka, Dazaifu, Fukuoka, Japan",
+        "ILL-Zip:818-0192",
+        "ILL-Commun1:tel:+81-92-925-9910 / fax:+81-92-925-3318 / E-mail:toshokan@chikushi-u.ac.jp"
+      ]
+    }
+  ]
+}

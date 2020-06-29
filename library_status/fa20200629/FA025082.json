@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA025082.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA025082#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA025082.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "亀田医療大学 図書館"
+        },
+        {
+          "@value": "カメダイリョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "亀医大"
+        },
+        {
+          "@value": "カメイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA025082",
+      "cinii:organizationid": "KI015047",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "亀田医療大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "296-0001",
+        "v:label": "千葉県鴨川市横渚462"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-7094-5620"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-7094-5621"
+        }
+      ],
+      "dc:description": [
+        "Institute of Health Sciences Tesshoukan, Kameda College of Health Sciences Library",
+        "462, Yokosuka, Kamogawa-shi, Chiba-ken, Japan 296-0001",
+        "【大学HP URL】 http://www.kameda.ac.jp/",
+        "【図書館HP URL】 https://webopac.kameda.ac.jp/",
+        "【図書館問い合わせ】library@kameda.ac.jp",
+        "【通常開館時間】  (月～金) 9:00～22:00  (土) 9:00～17:00",
+        "【休館日】 日曜・祝日・年末年始・蔵書点検日・図書館整理日・長期休業期間中の土曜日・大学指定日",
+        "※ 開館日・開館時間は、図書館HPでご確認ください。",
+        "=======================================================================",
+        "【学外者利用方法】 大学本館2階図書館で利用申請書をご記入ください。入館は閉館時間の30分前まで。",
+        "【持参書類】 身分証",
+        "※詳しくは、図書館HP「利用案内(学外の方)」でご確認ください。",
+        "=======================================================================",
+        "【相互協力受付時間】(月～金) 開館時間中 ※土曜日・休館日の他、担当者不在時は対応できません。今年度の最終受付は3月15日です。。",
+        "【受付方法】 NACSIS-ILL、郵便、E-mail",
+        "【ILL担当(保田・渡邉・立野)】lib-ill@kameda.ac.jp",
+        "【文献複写】 電子複写 モノクロ (1枚 50円) カラー (1枚 100円)",
+        "【現物貸借】 不可",
+        "【送付方法】 郵便(送料実費)",
+        "【支払方法】 NACSIS-ILL参加館は料金相殺、非参加館は銀行振込"
+      ]
+    }
+  ]
+}

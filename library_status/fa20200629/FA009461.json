@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA009461.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA009461#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA009461.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 国立特別支援教育総合研究所"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジン コクリツトクベツシエンキヨウイクソウゴウケンキユウシヨ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "特教研"
+        },
+        {
+          "@value": "トッキョウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009461",
+      "cinii:organizationid": "KI004856",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "独立行政法人 国立特別支援教育総合研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "239-8585",
+        "v:label": "神奈川県横須賀市野比5丁目1番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "046-839-6830"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "046-839-6939"
+        }
+      ],
+      "dc:description": [
+        "来室利用担当: 図書・情報係",
+        "開室時間: 9:00～12:00・13:00～17:00",
+        "休室日: 土曜日・日曜日・国民の祝日・研究所の休業日・その他",
+        "注意事項: 来室予定日時をメール又はFAXにて前日までに連絡すること(電話連絡は不可)",
+        "注意事項: 利用したい資料の所在を事前確認すること",
+        "持参書類: 所属機関の身分証明書"
+      ]
+    }
+  ]
+}

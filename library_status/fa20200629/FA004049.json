@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004049.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004049#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004049.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸市外国語大学 学術情報センター"
+        },
+        {
+          "@value": "コウベシガイコクゴダイガク ガクジュツジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神戸市外大"
+        },
+        {
+          "@value": "コウベシガイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004049",
+      "cinii:organizationid": "KI001166",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神戸市外国語大学 学術情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "651-2187",
+        "v:label": "神戸市西区学園東町9-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-794-8153"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-797-2257"
+        }
+      ],
+      "dc:description": [
+        "Kobe City University of Foreign Studies",
+        "9-1, Gakuen-Higashi-machi, Nishi-ku, Kobe, 651-2187",
+        "URL:http://www.kobe-cufs.ac.jp/library/",
+        "来館利用担当: 学術情報班",
+        "電話番号: 078-794-8153",
+        "受付時間: 9:00-21:00(土曜日10:00-17:30)/ 休暇中 9:00-16:00 (土曜閉館)",
+        "注意事項: 閲覧対象:教職員・大学院生・学生(閲覧・複写)",
+        "持参書類: 所属大学図書館を通じてFAXにて事前確認の上、回答を持参のこと",
+        "複写時間: 9:00-21:30(土曜日10:00-18:00 休暇中は土曜閉館)/9:00-16:30(休暇中)",
+        "館外貸出: 不可(ILL貸出資料は可)",
+        "制限事項: 貴重図書等閲覧できない資料あり",
+        "休館日: 日・祝日、館内整理日(毎月第3木曜日)、蔵書点検期、年末年始、夏季・春季及び冬季休暇中の土曜日",
+        "その他: 神戸市内在住・在勤の方にご利用いただける図書館市民利用制度があります(有料)。利用資格・条件等詳細は当館ウェブサイト等でご確認ください。"
+      ]
+    }
+  ]
+}

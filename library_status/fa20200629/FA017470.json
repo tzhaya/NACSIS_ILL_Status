@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017470.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017470#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017470.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山梨県富士山科学研究所"
+        },
+        {
+          "@value": "ヤマナシケンフジサンカガクケンキュウジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "山梨富士山研"
+        },
+        {
+          "@value": "ヤマナシフジサンケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017470",
+      "cinii:organizationid": "KI010098",
+      "cinii:prefcode": "19",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "山梨県富士山科学研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "403-0005",
+        "v:label": "山梨県富士吉田市上吉田字剣丸尾5597番地の1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0555-72-6202"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0555-72-6183"
+        }
+      ],
+      "dc:description": [
+        "Mount Fuji Research Institute Yamanashi Prefectural Government",
+        "5597-1 Kenmarubi,Kamiyoshida Fujiyoshida,Yamanashi Japan"
+      ]
+    }
+  ]
+}

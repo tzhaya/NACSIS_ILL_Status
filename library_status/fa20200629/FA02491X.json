@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA02491X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA02491X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA02491X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "明治学院大学図書館付属 日本近代音楽館"
+        },
+        {
+          "@value": "メイジガクインダイガクフゾクトショカン ニホンキンダイオンガクカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "明学大日本近代音楽館"
+        },
+        {
+          "@value": "メイガクダイニホンキンダイオンガクカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02491X",
+      "cinii:organizationid": "KI002726",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "明治学院大学図書館付属 日本近代音楽館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "108-8636",
+        "v:label": "東京都港区白金台1-2-37"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5421-5657"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5421-5658"
+        }
+      ]
+    }
+  ]
+}

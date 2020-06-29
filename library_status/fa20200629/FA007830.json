@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007830.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007830#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007830.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪芸術大学 図書館"
+        },
+        {
+          "@value": "オオサカゲイジュツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大芸大"
+        },
+        {
+          "@value": "オオゲイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA007830",
+      "cinii:organizationid": "KI003591",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪芸術大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "585-8555",
+        "v:label": "大阪府南河内郡河南町東山469"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0721-93-3160"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0721-93-6165"
+        }
+      ],
+      "dc:description": [
+        "Osaka University of Arts Library",
+        "469 Higashiyama Kanan-cho, Minami Kawachi-Gun, Osaka 585-8555",
+        "電話番号 :0721-93-3160(直通)",
+        "FAX番号 :0721-93-6165",
+        "受付時間 :9:20〜17:00",
+        "注意事項 :資料の所在等は事前にFAX等で確認して下さい。資料出納の受付は9:20〜18:00(土曜日〜15:30)までです。",
+        "持参資料 :資料利用依頼書(紹介状)",
+        "館外貸出 :不可",
+        "制限事項 :貴重書・準貴重書には閲覧・複写を許可しないものもある。資料の状態により不可の場合あり。",
+        "休館日:日曜祝日,創設者塚本英世記念日(6/21),創立記念日(10/15),学園祭,入試期間,年末年始,蔵書点検期間",
+        "夏季休暇・冬季休暇中・春季休暇中は相互利用サービスを休止。"
+      ]
+    }
+  ]
+}

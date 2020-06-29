@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011780.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011780#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011780.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 理学図書館"
+        },
+        {
+          "@value": "トウキョウダイガク リガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大理"
+        },
+        {
+          "@value": "トウダイリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "物理",
+        "天文",
+        "地球",
+        "化学",
+        "生化",
+        "生物",
+        "植物園"
+      ],
+      "cinii:memberid": "FA011780",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002106",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京大学 理学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-4029"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-8778"
+        }
+      ],
+      "dc:description": [
+        "2020年3月30日(月)～当面の間、臨時閉館いたします。詳細はWebサイトをご覧ください。",
+        "Science Library, The University of Tokyo",
+        "7-3-1, Hongo, Bunkyo-ku, Tokyo 113-0033",
+        "https://www.lib.u-tokyo.ac.jp/ja/library/science",
+        "館外貸出:学外の方には館外貸出をしていません。",
+        "注意事項:コイン式コピー機はありません。",
+        "電話番号:03-5841-4029",
+        "メールアドレス:tosho-riyosha.s★gs.mail.u-tokyo.ac.jp(「★」を「@」に置き換えてください)",
+        "閲覧事前連絡:別置してある資料等がありますので、利用希望資料が決まっている場合は、事前にメールでお問い合わせください。利用の可否等をお知らせいたします。",
+        "当館OPACで所在が「貴重書庫」「植物園」「臨海」の資料のご利用については事前にお問い合わせください。",
+        "注意事項:分類変更作業中のため、CiNiiと本学OPACのデータが一致していないことがあります。資料の所在や状態は本学OPAC(https://opac.dl.itc.u-tokyo.ac.jp/)でご確認ください。",
+        "休館日 :土・日曜日、祝日、年末年始、館内整理日(月末最後の平日)、その他臨時閉室することがあります。",
+        "来館利用以外のサービス(複写・貸借):図書館間相互協力として、NII料金相殺サービス参加館からの依頼のみ受付します。個人からの依頼はお受けできません。"
+      ]
+    }
+  ]
+}

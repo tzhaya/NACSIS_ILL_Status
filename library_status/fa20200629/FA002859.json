@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002859.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002859#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002859.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪大学 附属図書館 生命科学図書館"
+        },
+        {
+          "@value": "オオサカダイガク フゾクトショカン セイメイカガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪大生"
+        },
+        {
+          "@value": "ハンダイセイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "蛋図",
+        "蛋物構",
+        "生命図"
+      ],
+      "cinii:memberid": "FA002859",
+      "cinii:organizationid": "KI000593",
+      "cinii:prefcode": "27",
+      "cinii:mextid": "005101",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪大学 附属図書館 生命科学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "565-0871",
+        "v:label": "吹田市山田丘2-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6879-2407(受付)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "2415(依頼)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6879-2428(受付)"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "2429(依頼)"
+        }
+      ],
+      "dc:description": [
+        "Osaka University Life Sciences Library",
+        ":2-3, Yamada-Oka, Suita, Osaka, 565-0871",
+        "URL:https://www.library.osaka-u.ac.jp/seimei/(利用案内)",
+        "URL:https://www.library.osaka-u.ac.jp/seimei/schedule/(開館スケジュール)",
+        "ILL受付窓口:管理担当",
+        "電話番号:06-6879-2407(平日9:00～17:00)",
+        "依頼方法:NACSIS-ILLにご参加の場合、ILLシステムよりご依頼ください。",
+        "依頼方法:NACSIS-ILLに不参加の場合、依頼用書式を当館Webサイト(https://www.library.osaka-u.ac.jp/ill/)からダウンロードして、郵送またはFAXにてご依頼ください。",
+        "【重要なお知らせ】改修工事に伴うILL受付業務休止について[2020.06.25]",
+        "館内改修工事に伴い、ILL受付業務を下記の期間休止します。",
+        "2020年7月10日(金)～2020年7月17日(金)(予定)",
+        "ご迷惑をお掛けしますが、何卒ご理解ご協力くださいますよう、お願い申し上げます。",
+        "来館利用窓口:利用支援担当",
+        "受付時間:通常開館時間 9:00〜21:00(土曜日及び日曜日10:00〜17:00)",
+        "注意事項:お問い合わせは、平日午前 9時から午後 5時までにお願いします。",
+        "注意事項:車での来館はご遠慮ください。",
+        "持参書類:身分証明書、学生証など",
+        "複写時間:9:00〜16:30(月〜金のみ)",
+        "館外貸出:可(要図書館利用者票、交付方法の詳細は図書館ホームページをご参照ください。)ただし、一般の方の雑誌の貸出はできません。",
+        "制限事項:生命科学図書館所蔵資料に限る。",
+        "休館日:国民の祝日・年末年始(12/28〜1/4)・本学創立記念日(5/1)",
+        "ILL:Staff:Akai,Noriaki",
+        "ILL:Staff:Tokunaga,Tomoko",
+        "ILL:Dept:Reference Section",
+        "ILL:Dept:Circulation & Document Supply Section",
+        "ILL:Org:Osaka University Life Sciences Library",
+        "ILL:Adrress:2-3, Yamada-oka, Suita-City, Osaka, JAPAN",
+        "ILL:ZIP:565-0871",
+        "ILL:Commun1:Fax:+81-6-6879-2428/",
+        "ILL:Commun1:E-mail:ls-ill@library.osaka.u.ac.jp",
+        "ILL:Commun2:OPAC:https://opac.library.osaka-u.ac.jp/opac/opac_search/",
+        "ILL:Commun2:Home-Page:https://www.library.osaka-u.ac.jp/seimei/",
+        "ILL:Commun2:E-mail:ls-ref@library.osaka.u.ac.jp",
+        "ILL:Accept:Foreign:KERIS",
+        "ILL:Accept:NACSIS-ILL",
+        "ILL:Sched:Closed:Dec28-Jan4",
+        "ILL:Bill:Foreign:KERIS=NII Fee Management Service",
+        "ILL:Loan-Period:Loan:N/A",
+        "ILL:Loan-Renew:Loan:N/A",
+        "ILL:Loan-Charge:Loan:N/A",
+        "ILL:Non-Circulation:Loan:N/A",
+        "ILL:Copy-Charge:PHOTOCOPY::50YEN per sheet",
+        "ILL:Copy-Charge:Delivery method:via airmail",
+        "ILL:Note:Will supply only photocopies"
+      ]
+    }
+  ]
+}

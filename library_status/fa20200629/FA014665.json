@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014665.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014665#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014665.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大学共同利用機関法人 人間文化研究機構 国立国語研究所"
+        },
+        {
+          "@value": "ダイガクキョウドウリヨウキカンホウジン ニンゲンブンカケンキュウキコウ コクリツコクゴケンキュウジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国語研"
+        },
+        {
+          "@value": "コクゴケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014665",
+      "cinii:organizationid": "KI007832",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大学共同利用機関法人 人間文化研究機構 国立国語研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "190-8561",
+        "v:label": "東京都立川市緑町10-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-540-4640"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-540-4339"
+        }
+      ],
+      "dc:description": [
+        "ILL受付を再開しました。少人数での対応となるため、当面の間発送にお時間を頂戴することがあります。また、発送は月・水・金曜日に限らせていただいております。",
+        "来室利用担当: 閲覧担当係",
+        "事前連絡: 不要 利用したい資料があらかじめ特定している場合は、事前にお問合せください。",
+        "閲覧持参書類: 特になし",
+        "入室手続: 「利用申込」に必要事項を記入",
+        "貸出: 不可",
+        "複写受付時間: 16:50まで",
+        "開室日・時間: 月-金 9:30-17:00",
+        "休室日: 土曜日,日曜日,祝日,夏季休業(8月の3日間),年末年始(12/28～1/4),毎月最終金曜日(資料整理日) その他臨時に閉室する場合があります。最新の開室日程はHP「開室カレンダー」でご確認ください。",
+        "備考: 貴重書庫及び中央資料庫の資料・マイクロ資料・視聴覚資料・劣化又は破損が著しい資料は閲覧・複写に制限がある場合があります。",
+        "----------------------",
+        "文献複写担当: ILL担当係(文献複写)",
+        "複写方法・料金: 電子複写 1枚35円/リーダープリンター複写(マイクロフィルム資料) 1枚40円/貴重書庫及び中央資料庫の資料の複写 1枚50円/カラー料金 各複写料金に+1枚40円",
+        "送料: 別途徴収",
+        "支払方法(複写): 「国立情報学研究所ILL文献複写等料金相殺サービス」参加機関=同サービス規定による。その他の機関=銀行振込(公費の場合:料金通知とともに複写物送付。請求書到着後2週間以内に指定の銀行口座に振り込みのこと/私費の場合:入金確認後に複写物送付。料金通知後2週間以内に指定の銀行口座に振り込みのこと)",
+        "複写物送付方法: 複写物の送付には、通常、普通郵便を用います。",
+        "複写注記: 貴重書庫及び中央資料庫の資料・マイクロ資料・劣化又は破損が著しい資料は複写に制限がある場合があります。",
+        "----------------------",
+        "貸借担当: ILL担当係(貸借)",
+        "貸出期間: 郵送期間を含め30日間",
+        "貸出冊数: 1機関につき同時に10冊以内",
+        "貸借料金: 送料実費負担(ゆうメール+簡易書留、またはゆうパックにて郵送)",
+        "支払方法(貸借): 「国立情報学研究所ILL文献複写等料金相殺サービス」参加機関=同サービス規定による。その他の機関=着払い",
+        "貸借注記: (1)貸出資料は、ご依頼図書館内のみでご利用ください。(2)貸出不可: 貴重図書、マイクロ資料、参考図書、大型本、逐次刊行物、視聴覚資料、新刊書その他容易に入手できる資料、劣化又は破損が著しい資料",
+        "----------------------",
+        "URL:https://www.ninjal.ac.jp/info/aboutus/library/ (website)",
+        "URL:https://libgw.ninjal.ac.jp/mylimedio/search/search-input.do (OPAC)",
+        "ILL-Org:National Institute for Japanese Language and Linguistics",
+        "ILL-Address:10-2, Midoricho, Tachikawa-city, Tokyo, Japan",
+        "ILL-Zip:190-8561",
+        "ILL-Commun1:Tel:+81-42-540-4640 / Fax:+81-42-540-4339 / E-mail:toshokan@ml.ninjal.ac.jp"
+      ]
+    }
+  ]
+}

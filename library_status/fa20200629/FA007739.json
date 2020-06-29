@@ -1,0 +1,121 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007739.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007739#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007739.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "立命館大学 図書館"
+        },
+        {
+          "@value": "リツメイカンダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "立命館"
+        },
+        {
+          "@value": "リツメイカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "文献",
+        "法",
+        "産",
+        "経",
+        "営",
+        "理工",
+        "研究所",
+        "理工研",
+        "言文研",
+        "教職",
+        "生物地学",
+        "保健体育",
+        "国際",
+        "国地研",
+        "一般教育",
+        "教科研",
+        "基礎",
+        "修学館",
+        "平和",
+        "MDC",
+        "政策",
+        "外国語",
+        "地域研",
+        "国際院",
+        "MDL",
+        "APU",
+        "OIC"
+      ],
+      "cinii:memberid": "FA007739",
+      "cinii:organizationid": "KI003525",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "立命館大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "603-8577",
+        "v:label": "京都府京都市北区等持院北町56-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-465-8158"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-465-8452"
+        }
+      ],
+      "dc:description": [
+        "Ritsumeikan University Main Library",
+        "56-1 Tojiin-Kitamachi, Kitaku, Kyoto 603-8577",
+        "URL:http://www.ritsumei.ac.jp/library/",
+        "閲覧担当係 :図書館サービス課レファレンスカウンター係",
+        "来館利用担当:図書館サービス課",
+        "電話番号:075-465-8217",
+        "開館時間:開講期間中/8:30〜22:00、休暇中/9:00〜19:30(月曜〜金曜)、10:00〜17:00(土、日曜)",
+        "休館日:祝日、その他臨時休業日、詳しくは図書館のホームページ開館スケジュールで確認してください。",
+        "注意事項:利用を希望される方は予め所属の大学図書館,あるいは公共図書館を通じて所蔵調査と事前紹介が必要です。個人からの直接のお問い合わせは受付できません。",
+        "制限事項:貴重書については制限事項あり。図書館以外の研究所・研究室は利用方法、時間が異なります。",
+        "ILL-Dept:InterLibrary Service Section",
+        "ILL-Org:Ritsumeikan University Main Library",
+        "ILL-Address:56-1 Tojiin-Kitamachi, Kitaku, Kyoto 603-8577",
+        "ILL-Zip:603-8577",
+        "ILL-Commun1:Tel:+81-75-465-8158 / Fax:+81-75-465-8219 / E-mail:kicill@st.ritsumei.ac.jp",
+        "ILL-Commun2: OPAC: http://runners.ritsumei.ac.jp/opac/opac_search.cgi/ Home-Page:http://www.ritsumei.ac.jp/library/",
+        "Foreign(2):KERIS",
+        "ILL--Sched:Certain periods in summer and winter holidays",
+        "ILL-Bill:Foreign:International Reply Postal Coupon ;Foreign(2)KERIS NII Fee Management Service",
+        "ILL-Copy-Charge:PHOTOCOPY:40YEN per sheet and postal charge",
+        ":Delivery method:PHOTOCOPY:via EMS is also acceptable"
+      ]
+    }
+  ]
+}

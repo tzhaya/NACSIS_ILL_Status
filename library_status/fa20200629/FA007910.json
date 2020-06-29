@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007910.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007910#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007910.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪体育大学 図書館"
+        },
+        {
+          "@value": "オオサカタイイクダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大体大"
+        },
+        {
+          "@value": "ダイタイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007910",
+      "cinii:organizationid": "KI00365X",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪体育大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "590-0496",
+        "v:label": "大阪府泉南郡熊取町朝代台1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-453-7026"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-453-8822"
+        }
+      ],
+      "dc:description": [
+        "Osaka University of Health and Sport Sciences",
+        "1-1, Asashirodai, Kumatori-cho, Sennan-gun, Osaka 590-0496 JAPAN",
+        "URL:http://lib.ouhs.ac.jp/",
+        "来館利用担当:相互利用係",
+        "電話番号:0724-53-7026",
+        "受付時間: 9:00〜18:00(土曜日〜12:00)",
+        "注意事項:必ず電話にて事前連絡のこと",
+        "持参書類:資料利用依頼書",
+        "複写時間:開館時間内",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:日曜日・国民の祝日・春季休業中(3月1日〜31日)・夏季休業中(7月下旬〜8月31日)・冬季休業中(12月24日頃〜1月8日頃)・大学祭(11月上・中旬)・入試実施期間(11月中旬、2月上・中旬)"
+      ]
+    }
+  ]
+}

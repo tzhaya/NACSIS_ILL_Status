@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011259.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011259#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011259.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国際医学情報センター"
+        },
+        {
+          "@value": "コクサイイガクジヨウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国医情"
+        },
+        {
+          "@value": "コクイジヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011259",
+      "cinii:organizationid": "KI006421",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "国際医学情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "160-0016",
+        "v:label": "東京都新宿区信濃町35番地信濃町煉瓦館2階"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5361-7086"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5361-7150"
+        }
+      ],
+      "dc:description": [
+        "International Medical Information Center (IMIC)",
+        "Shinanomachi Rengakan, 35 Shinanomachi, Shinjuku-ku, Tokyo 160-0016",
+        "URL:http://www.imic.or.jp",
+        "受付窓口:資料サービス担当(TEL:03-5361-7088/FAX:03-5361-7150)",
+        "受付時間:9:00〜16:00",
+        "注意事項:資料の所在は事前に確認してください。",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可",
+        "制限事項:閉架式、閲覧不可",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始、創立記念日(5月1日),夏期一斉休業日"
+      ]
+    }
+  ]
+}

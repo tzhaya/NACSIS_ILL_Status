@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019501.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019501#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019501.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高知リハビリテーション専門職大学 図書館"
+        },
+        {
+          "@value": "コウチリハビリテーションセンモンショクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高知リハ"
+        },
+        {
+          "@value": "コウチリハ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019501",
+      "cinii:organizationid": "KI011680",
+      "cinii:prefcode": "39",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "高知リハビリテーション専門職大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "781-1102",
+        "v:label": "高知県土佐市高岡町乙1139-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-850-2322"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-850-2328"
+        }
+      ],
+      "dc:description": [
+        "Kochi Rehabilitation Institute Library",
+        "1139-3 otu, Takaoka-cho, Tosa-shi, Kochi-ken 781-1102",
+        "URL:http://www.kochi-reha.ac.jp/library.htm",
+        "電話番号:088-850-2322",
+        "受付時間:8:30～18:00(休業期は8:30～17:00)",
+        "休館日:土・日曜日、国民の祝日、12月29日〜1月4日、学園記念日(1月23日)、入学式、蔵書点検期間、入学試験日、卒業式 他",
+        "複写時間:8:30～18:00(休業期は8:30～17:00)"
+      ]
+    }
+  ]
+}

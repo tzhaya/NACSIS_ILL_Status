@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023633.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023633#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023633.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "産業技術大学院大学 附属図書館"
+        },
+        {
+          "@value": "サンギョウギジュツダイガクインダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産技大"
+        },
+        {
+          "@value": "サンギダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA023633",
+      "cinii:organizationid": "KI014190",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "産業技術大学院大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "140-0011",
+        "v:label": "東京都品川区東大井1-10-40"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3472-7831(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3472-2790"
+        }
+      ],
+      "dc:description": [
+        "URL:http://aiit.ac.jp/info.rbz?nd=130&ik=1&pnp=100&pnp=130",
+        "閲覧可否:可",
+        "開館時間:事前にホームページでご確認ください",
+        "注意事項:身分証明書、学生証等を持参下さい",
+        "学外者の利用は、工学系専門書の利用を目的とした場合に限定しています",
+        "詳しくはお問い合わせください"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014428.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014428#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014428.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "千葉県立西部図書館"
+        },
+        {
+          "@value": "チバケンリツセイブトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "千県西図"
+        },
+        {
+          "@value": "チケンセイト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014428",
+      "cinii:organizationid": "KI006002",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "千葉県立西部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "270-2252",
+        "v:label": "千葉県松戸市千駄堀657-7"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "047-385-4648"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "047-384-1371"
+        }
+      ],
+      "dc:description": [
+        "Chiba Prefectural West Library",
+        "657-7, Sendabori, Matsudo-shi, Chiba-ken 270-2252",
+        "来館利用担当:調査課",
+        "電話番号:047-385-4133",
+        "受付時間:開館時間内",
+        "注意事項:複写については著作権法の範囲内で、利用規則に則って実施。",
+        "持参書類:貸出券交付については住所を確認できるもの(身分証明書、免許証、保険証など)",
+        "複写時間:開館時間内",
+        "館外貸出:雑誌は不可。その他については利用規則に則って実施。",
+        "休館日:定期休館日 月曜日(ただし、その日が祝日 及び休日のときは、その直後の平日)館内整理日 毎月第三金曜日(ただし、その日が祝日及び休日のときは、その直前の平日) 年末・年始 12月28日〜1月4日 特別整理期間 春・秋にそれぞれ10日以内。",
+        "開館時間:火曜日〜金曜日 午前9時〜午後7時 土曜日 日曜日 祝日 午前9時〜午後5時"
+      ]
+    }
+  ]
+}

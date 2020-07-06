@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004231.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004231#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004231.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "札幌大学 図書館"
+        },
+        {
+          "@value": "サッポロダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "札大"
+        },
+        {
+          "@value": "サツダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004231",
+      "cinii:organizationid": "KI001315",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "札幌大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "062-8520",
+        "v:label": "札幌市豊平区西岡3条7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011(852)9178"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011(856)8273"
+        }
+      ],
+      "dc:description": [
+        "Sapporo University Library",
+        "3-1, 3-jo 7-chome Nishioka, Toyohira-ku, Sapporo 062-8520",
+        "URL:http://library.sapporo-u.ac.jp/ (website)",
+        "URL:http://www.sapporo-u.ac.jp/univ_guide/access/ (map)",
+        "来館利用担当:情報サービス係 閲覧・参考担当",
+        "電話番号: 閲覧:011(852)9176  相互利用:011(852)9178",
+        "受付時間: 閲覧(月～金): 9:00～19:15、 (土) :9:00～12:45   相互利用(月～金): 9:00～17:00、 (土):9:00～12:45",
+        "注意事項:平日の車での来館はご遠慮下さい。",
+        "持参書類:「身分を証明する物」",
+        "複写時間:(月～金)9:00～19:15  (土)9:00～12:45",
+        "館外貸出:可 (学外利用者登録が必要。身分証明書の他に写真が必要)",
+        "休館日:休日開館日を除く日曜,祝日、夏期休業期間中の一定期間、年末年始の一定期間"
+      ]
+    }
+  ]
+}

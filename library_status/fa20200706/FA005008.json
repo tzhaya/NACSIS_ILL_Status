@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005008.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005008#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005008.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "桜美林大学 図書館"
+        },
+        {
+          "@value": "オウビリンダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "桜美林"
+        },
+        {
+          "@value": "オウビリン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館",
+        "分館"
+      ],
+      "cinii:memberid": "FA005008",
+      "cinii:organizationid": "KI001938",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "桜美林大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "194-0294",
+        "v:label": "東京都町田市常盤町3758"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-797-1426"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-797-6755"
+        }
+      ],
+      "dc:description": [
+        "J. F. Oberlin University Library",
+        "3758 Tokiwa-machi, Machida-shi, Tokyo 194-0294 JAPAN",
+        "URL:http://www.obirin.ac.jp/library/",
+        "来館利用担当 : 情報サービス担当",
+        "電話番号: 042-797-1426",
+        "受付時間: 9:00〜20:30 (月～金曜日)、9:30〜17:30 (土曜日)",
+        "注意事項:事前にご所属機関の図書館、または公共図書館を通じてお問い合わせ下さい",
+        "持参書類:紹介状及び学生証・身分証明書",
+        "複写時間: 9:00〜20:30 (月～金曜日)、9:30〜17:30 (土曜日)",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:日曜日・祝日・年末年始・入学試験日・その他",
+        "【注記】現在新型コロナウイルス感染拡大防止のため休館しています。これを受けILLでは対応が遅くなる可能性がありますので、お急ぎの場合は他館へご依頼くださいますようお願いいたします。",
+        "【注記】新キャンパスへの移管作業に伴い、一部資料(主に芸術文化学群関連資料)が6月下旬(予定)までご利用できません。ご了承ください。"
+      ]
+    }
+  ]
+}

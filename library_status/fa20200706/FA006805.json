@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006805.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006805#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006805.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "早稲田大学 図書館 (中央図書館)"
+        },
+        {
+          "@value": "ワセダダイガク トショカン (チュウオウトショカン)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "早大中央"
+        },
+        {
+          "@value": "ソウダイチュウオウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "雑誌"
+      ],
+      "cinii:memberid": "FA006805",
+      "cinii:organizationid": "KI002781",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "早稲田大学 図書館 (中央図書館)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "169-8050",
+        "v:label": "東京都新宿区西早稲田1-6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5286-2195 [ILL専用]"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5286-2194 [ILL専用]"
+        }
+      ],
+      "dc:description": [
+        "WASEDA UNIVERSITY LIBRARY(CENTRAL LIBRARY)",
+        "1-6-1, Nishiwaseda, Shinjuku-ku, Tokyo 169-8050",
+        "URL:https://www.waseda.jp/library/ (website)",
+        "URL:http://wine.wul.waseda.ac.jp/(opac)",
+        "URL:https://www.waseda.jp/library/libraries/access/ (map)",
+        "■訪問利用の受付",
+        "担当:中央図書館訪問利用担当",
+        "TEL:03-5286-2195 FAX:03-5286-2194",
+        "受付時間:",
+        "授業期間中=月〜金9:00-18:00(土曜日は原則不可。やむを得ぬ場合9:00-12:00)",
+        "休業期間中=月〜金9:00-16:00",
+        "持参書類:",
+        "紹介状(1日1通必要)。利用希望資料名を明記のこと",
+        "(明記されていない場合は利用を認めない)。身分を証明するものを",
+        "携行のこと。",
+        "注意事項:",
+        "必ず事前にFAXによる問い合わせで所蔵の確認のこと。",
+        "館外貸出:不可",
+        "複写受付時間:授業期間中=月〜金9:00-18:30(土9:00-12:30)、休業期間中=月〜金9:00-16:30",
+        "複写方法・料金:",
+        "複写は4階複写・マイクロ資料室へ申込みのこと。電子複写(60円より)",
+        "リーダープリンター(30円より)、マイクロ撮影(基本料200円、1コマ60円より)",
+        "制限事項:",
+        "貴重書閲覧は事前申込みが必要。問合せは特別資料室へ(FAX:03-5286-1761)。",
+        "開館時間:授業期間中=月〜土9:00-22:00 日10:00-17:00、休業期間中=月〜金9:00-20:00",
+        "※開館日程、開館時間についての詳細はホームページをご覧ください。",
+        "https://www.waseda.jp/library/libraries/central/",
+        "■複写および貸借の受付",
+        "NACSIS-ILLにて受付。詳細は、下記ページにてご確認ください。",
+        "http://www.wul.waseda.ac.jp/CLIB/tol_index.html",
+        "複写依頼のための所蔵調査は通常行っておりません。直接NACSIS‐ILLにてお申し込みください。お申し込み頂いた後、掲載の有無を当方で、確認いたします。"
+      ]
+    }
+  ]
+}

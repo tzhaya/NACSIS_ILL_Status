@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006146.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006146#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006146.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東邦大学 医学メデイアセンター大橋病院 図書室"
+        },
+        {
+          "@value": "トウホウダイガク イガクメデイアセンターオオハシビヨウイン トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東邦大橋"
+        },
+        {
+          "@value": "トウホウダイハシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006146",
+      "cinii:organizationid": "KI002497",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東邦大学 医学メデイアセンター大橋病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "153-8515",
+        "v:label": "東京都目黒区大橋2-22-36"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3481-8478"
+        }
+      ],
+      "dc:description": [
+        "Toho University, Medical Media Center, Ohashi Hospital, Library",
+        "2-22-36, Ohashi, Meguro-ku, Tokyo 153-8515",
+        "URL:https://www.mnc.toho-u.ac.jp/mc/",
+        "来館利用担当:カウンター",
+        "電話番号:03-3468-1251 (内線3601,3602)",
+        "受付時間:平日 9:00〜17:00",
+        "注意事項:医療従事者のみ。資料の所在等、事前にお電話で確認の上おいでください。",
+        "館外貸出:不可",
+        "スタッフ不在日:日曜、祝日、第3土曜日、創立記念日(6月10日)、年末年始"
+      ]
+    }
+  ]
+}

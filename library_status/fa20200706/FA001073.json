@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001073.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001073#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001073.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 医学研究科・医学部図書館"
+        },
+        {
+          "@value": "ホッカイドウダイガク イガクケンキュウカ・イガクブトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大医"
+        },
+        {
+          "@value": "ホクダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "分子解剖",
+        "生体構造",
+        "時間生物",
+        "認知行動",
+        "分子生物",
+        "分子医化",
+        "分子病理",
+        "感染制御",
+        "機能薬理",
+        "法医",
+        "環境",
+        "公衆",
+        "呼吸器病態内科",
+        "消化器病態内科",
+        "消化器外科",
+        "腫瘍外科",
+        "運動器再建",
+        "婦人科",
+        "視覚",
+        "小児",
+        "耳鼻",
+        "皮膚",
+        "腎泌尿器外科",
+        "精神",
+        "放射",
+        "侵襲制御",
+        "脳外",
+        "循環病態内科",
+        "附動",
+        "検査",
+        "手術",
+        "附病放射",
+        "輸血",
+        "リハビリ部",
+        "薬剤",
+        "看護",
+        "生体機能",
+        "分子細胞",
+        "細胞薬理",
+        "免疫病態内科",
+        "核医",
+        "病態医科",
+        "形成",
+        "救急",
+        "病理部",
+        "周産母子セ",
+        "神内",
+        "リハビリ",
+        "遺伝子制御",
+        "生体医工",
+        "材料部",
+        "集中治療",
+        "医療情報",
+        "循外",
+        "RI",
+        "機能分子",
+        "循環器外科",
+        "小児外科",
+        "老年保健",
+        "遺伝子治療",
+        "トレーサ",
+        "救急医学",
+        "医療情報学",
+        "周産期医学",
+        "腫瘍内科",
+        "小児発達",
+        "研究室",
+        "研究室図書"
+      ],
+      "cinii:memberid": "FA001073",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000104",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道大学 医学研究科・医学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-8638",
+        "v:label": "札幌市北区北15条西7丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-706-5016(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-706-5080(DI)"
+        }
+      ],
+      "dc:description": [
+        "Hokkaido University Graduate School of Medicine and School of Medicine Library",
+        "North 15, West 7, Kita-ku, Sapporo, 060-8638 Hokkaido, Japan",
+        "URL:http://www.lib.hokudai.ac.jp/modules/tinyd126/",
+        "来館利用担当:図書担当",
+        "開館時間:9:00-22:00 (月-金) (8、9、3月は9:00-17:00 (月-金))",
+        "休館日:土曜日・日曜日・国民の祝日・年末年始(12/28-1/4)、夏期休暇中の一定時期",
+        "持参書類:身分証明書・来館時に一日利用申請書記入",
+        "館外貸出:不可",
+        "制限事項:利用は当館所蔵資料に限る",
+        "注意事項:車での来館はご遠慮ください",
+        "注意事項:NII料金相殺サービス参加館以外からの複写申込の受付窓口は附属図書館相互利用担当(TEL:011-706-4095, FAX:011-746-4595)"
+      ]
+    }
+  ]
+}

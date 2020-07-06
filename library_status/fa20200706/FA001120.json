@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001120.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001120#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001120.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 大学院農学研究科図書室"
+        },
+        {
+          "@value": "ホッカイドウダイガク ダイガクインノウガクケンキュウカトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大農"
+        },
+        {
+          "@value": "ホクダイノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "研究室"
+      ],
+      "cinii:memberid": "FA001120",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000111",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道大学 大学院農学研究科図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-8589",
+        "v:label": "札幌市北区北9条西9丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-706-2803(受付)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "011-706-2802(依頼)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-706-2428"
+        }
+      ],
+      "dc:description": [
+        "来館利用:利用時間:授業期間は9:00-20:00(平日)、休業期間は9:00-17:00(平日)、土日祝祭日は休室",
+        "来館利用:利用範囲:学内者は貸出、閲覧、複写。学外者は閲覧、複写のみ。校費での複写には「複写機使用伝票」が、私費での複写には大学生協のコピーカード(プリペイド)が必要です。",
+        "来館利用:持参書類:学内者は学生証または図書館利用証。学外者は身分証明書。",
+        "来館利用:注意事項:WEBCATで「北大農 図書」と表示されても研究室所蔵資料が多数あります。来館利用の前に必ず北海道大学の蔵書目録で再検索してください。",
+        "来館利用:制限事項:研究室所蔵資料を利用されたい場合は授業期間でも平日10:00-12:00、13:00-16:00に来館してください。資料によっては利用できない場合がありますので予めご了承ください。",
+        "URL:http://www.lib.hokudai.ac.jp/opac/ (北海道大学の蔵書目録)",
+        "相互利用:文献複写:可。ただし、NII料金相殺サービス参加館のみNACSIS-ILLで直接受付。料金相殺できない機関または個人からの申込は北海道大学附属図書館(FA001007)経由で受付。",
+        "相互利用:現物貸借:可。送料は、NII料金相殺サービス参加館は料金相殺。非参加館は着払い。",
+        "相互利用:制限事項:研究室所蔵資料については応じられない場合があります。"
+      ]
+    }
+  ]
+}

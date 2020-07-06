@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008505.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008505#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008505.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岡山商科大学 附属図書館"
+        },
+        {
+          "@value": "オカヤマシヨウカダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岡商大"
+        },
+        {
+          "@value": "オカシヨウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008505",
+      "cinii:organizationid": "KI004062",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "岡山商科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "700-8601",
+        "v:label": "岡山県岡山市北区津島京町2-10-1 岡山商科大学 附属図書館"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-256-6657"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-256-6657"
+        }
+      ],
+      "dc:description": [
+        "OKAYAMA SHOKA UNIVERSITY",
+        "2-10-1, TSUSHIMA KYOMACHI, OKAYAMA CITY 700-8601"
+      ]
+    }
+  ]
+}

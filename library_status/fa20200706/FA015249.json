@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015249.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015249#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015249.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "海上保安大学校 図書館"
+        },
+        {
+          "@value": "カイジヨウホアンダイガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "海保大"
+        },
+        {
+          "@value": "カイホダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015249",
+      "cinii:organizationid": "KI008121",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "海上保安大学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "737-8512",
+        "v:label": "広島県呉市若葉町5番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0823-21-4961"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0823-21-8105"
+        }
+      ],
+      "dc:description": [
+        "Japan Coast Guard Academy Library",
+        "5-1,Wakaba-cho,Kure-shi,Hiroshima,737-8512",
+        "Japan Coast Guard Academy Library",
+        "URL:http://www.jcga.ac.jp/",
+        "来館利用担当:図書館員",
+        "電話番号:0823-21-4961",
+        "受付時間:08:30〜17:00",
+        "注意事項:図書館の一階ブラウジングコーナーと一階開架閲覧室が利用できます。",
+        "注意事項:毎週月曜日、火曜日、木曜日が利用できます。",
+        "持参書類:免許証,学生証等",
+        "複写時間:08:30〜18:30",
+        "館外貸出:可能",
+        "制限事項:一人3冊,15日間",
+        "休館日:土曜日,日曜日,祝祭日,年末年始の休日及び館長が特に定める日",
+        "休館日:土曜日,日曜日,祝祭日,年末年始の休日及び館長が特に定める日"
+      ]
+    }
+  ]
+}

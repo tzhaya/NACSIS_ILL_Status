@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023757.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023757#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023757.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "環太平洋大学 附属図書館"
+        },
+        {
+          "@value": "カンタイヘイヨウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "IPU"
+        },
+        {
+          "@value": "アイピーユー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "第一キャンパス",
+        "第二キャンパス"
+      ],
+      "cinii:memberid": "FA023757",
+      "cinii:organizationid": "KI01426X",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "環太平洋大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "709-0863",
+        "v:label": "岡山県岡山市東区瀬戸町観音寺721"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-201-5012"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-201-5013"
+        }
+      ],
+      "dc:description": [
+        "【休館日】土曜日、日曜日、国民の祝日、年末年始、教職員夏季休業中(8月11日-8月16日)"
+      ]
+    }
+  ]
+}

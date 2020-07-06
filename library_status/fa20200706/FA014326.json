@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014326.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014326#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014326.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神田外語大学 附属図書館"
+        },
+        {
+          "@value": "カンダガイゴダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神田外大"
+        },
+        {
+          "@value": "カンダガイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014326",
+      "cinii:organizationid": "KI007559",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神田外語大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "261-0014",
+        "v:label": "千葉県千葉市美浜区若葉1-4-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "043-273-1192"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "043-275-2783"
+        }
+      ],
+      "dc:description": [
+        "━━━4.WEBPOLICY━━━━━",
+        "Webサイト:https://kuis.libguides.com/",
+        "OPACURL::https://lib-search.kuis.ac.jp/<NCID>",
+        "TEL:043-273-1192",
+        "FAX:043-275-2783",
+        ":",
+        "受付時間:月-金9:00-18:30(休暇期間中は9:30-16:00)、土 9:00-16:30 (休暇期間中は休館)",
+        "休館日:日、祝、10月18日、毎月最終土曜日、春・ 夏・冬季休暇中の一定期間",
+        ":",
+        "注意事項:資料の所在等、メールにて事前にご連絡ください。library@ml.kuis.ac.jp",
+        "持参書類:所属大学図書館等の資料利用依頼書及び身分証明書",
+        ":",
+        "複写時間:月-金 9:00-19:40(休暇期間中は9:30-16:20)、土 9:00-16:50(休暇期間中は休館)",
+        "館外貸出:不可",
+        ":",
+        "ILL-Staff:Tomoyoshi YOSHINO, Shintaro YOSHINO",
+        "ILL-Dept:ILL Unit",
+        "ILL-org:Kanda University of International Studies Library",
+        "ILL-Address:1-4-1, Wakaba, Mihama-ku, Chiba-shi, Chiba Pref. JAPAN",
+        "ILL-Zip:261-0014",
+        "ILL-Commun1:TEL:+81-43-273-1192 / FAX:+81-43-275-2783 / E-mail: library@ml.kuis.ac.jp",
+        "ILL-Commun2:URL:http://kuis.libguides.com/ (website)",
+        "URLhttps://www.kandagaigo.ac.jp/kuis/access/ (map)",
+        "ILL-Accept:Foreign(2): KERIS",
+        "ILL-Bill: Foreign(2):KERIS=NII Fee Management Service Only",
+        "ILL-Copy-Charge:Foreign(2):Photocopy: 35 YEN per sheet [per exposure]. Postage required. Delivery method: via airmail"
+      ]
+    }
+  ]
+}

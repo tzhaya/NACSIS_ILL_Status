@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020114.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020114#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020114.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大島商船高等専門学校 図書館"
+        },
+        {
+          "@value": "オオシマシヨウセンコウトウセンモンガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大島商船"
+        },
+        {
+          "@value": "オオシマシヨウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020114",
+      "cinii:organizationid": "KI012082",
+      "cinii:prefcode": "35",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大島商船高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "742-2193",
+        "v:label": "山口県大島郡周防大島町大字小松1091-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0820-74-5454"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0820-74-5454"
+        }
+      ],
+      "dc:description": [
+        "Oshima National College of Maritime Technology",
+        "1091-1, Komatsu, Suo-Oshima-Cho, Oshima-Gun, Yamaguchi 742-2193, Japan",
+        "URL:http://www.oshima-k.ac.jp/ (website)",
+        "URL:http://www.oshima-k.ac.jp/zentai/ichi.html (map)",
+        "来館利用担当: 企画・図書情報係",
+        "電話番号:0820-74-5521"
+      ]
+    }
+  ]
+}

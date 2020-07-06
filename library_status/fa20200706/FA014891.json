@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014891.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014891#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014891.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "目白大学 岩槻図書館"
+        },
+        {
+          "@value": "メジロダイガク イワツキトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "目白大岩槻"
+        },
+        {
+          "@value": "メジロダイイワツキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014891",
+      "cinii:organizationid": "KI007967",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "目白大学 岩槻図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "339-8501",
+        "v:label": "埼玉県さいたま市岩槻区浮谷320"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-797-2143"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-797-2142"
+        }
+      ],
+      "dc:description": [
+        "Mejiro University Library, Iwatsuki Campus",
+        "320,Ukiya,Iwatsuki-ku,Saitama-shi,Saitama 339-8501",
+        "http://www.mejiro.ac.jp/library/iwatsuki/index.html",
+        "来館利用担当 : 図書グループ",
+        "電話番号 : 048-797-2143",
+        "受付時間 : 9:00〜17:00",
+        "注意事項 : 資料はなるべく所在等の事前確認をしてください。",
+        "OPAC:https://vpn.mejiro.ac.jp/+CSCOE+/logon.html#form_title_text",
+        "持参書類 : 紹介状および身分証明書",
+        "複写時間 : 9:00〜21:00",
+        "館外貸出 : 不可",
+        "休館日 : 土曜・日曜・祝祭日・夏季(1週間程度)・年末年始(12/6～1/3)・入試",
+        "通常開館時間 : 9:00〜21:00",
+        "休業中開館時間 : 事前にご確認ください。"
+      ]
+    }
+  ]
+}

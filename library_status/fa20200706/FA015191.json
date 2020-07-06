@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015191.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015191#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015191.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "新潟国際情報大学 情報センター"
+        },
+        {
+          "@value": "ニイガタコクサイジョウホウダイガク ジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "新国情大情セ"
+        },
+        {
+          "@value": "シンコクジョウダイジョウセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015191",
+      "cinii:organizationid": "KI008074",
+      "cinii:prefcode": "15",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "新潟国際情報大学 情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "950-2292",
+        "v:label": "新潟市西区みずき野3-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "025-239-3760"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "025-264-3001"
+        }
+      ],
+      "dc:description": [
+        "Niigata University of International and Information Studies",
+        "3-1-1, Mizukino, Nishi-ku, Niigata-shi, Niigata 950-2292",
+        "URL:http://www.nuis.ac.jp",
+        "BOOK, SERIAL:library@nuis.ac.jp",
+        "電話番号:025-239-3760",
+        "受付時間:9:00〜19:45(土曜日〜16:45)",
+        "注意事項:休講中は平日の開館時間が9:00〜18:00となり,土曜日は閉館となります。",
+        "持参資料:身分証明書(現住所が確認できるもの)",
+        "複写時間:9:00〜19:45",
+        "館外貸出:可(新潟県内在住で18才以上の者に限る)",
+        "休館日:日曜日,国民の祝日,創立記念日,夏期の一斉閉校日,年末年始(12月27日〜1月6日),休業期間中の土曜日",
+        ""
+      ]
+    }
+  ]
+}

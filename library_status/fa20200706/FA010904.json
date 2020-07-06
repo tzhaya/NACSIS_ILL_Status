@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010904.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010904#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010904.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "地方独立行政法人 大阪健康安全基盤研究所 天王寺センター図書室"
+        },
+        {
+          "@value": "チホウドクリツギョウセイホウジン オオサカケンコウアンゼンキバンケンキュウショ テンノウジセンタートショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大阪健安研天セ"
+        },
+        {
+          "@value": "オオサカケンアンケンテンセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010904",
+      "cinii:organizationid": "KI006137",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "地方独立行政法人 大阪健康安全基盤研究所 天王寺センター図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "543-0026",
+        "v:label": "大阪市天王寺区東上町8-34"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6771-3082"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6772-0676 (庶務課)"
+        }
+      ],
+      "dc:description": [
+        "Osaka Institute of Public Health Tennoji Center Library",
+        "8-34, Tojo-cho, Tennoji-ku Osaka, Japan 543-0026",
+        "===============",
+        "図書室の訪問利用について",
+        "===============",
+        "開室時間: 平日9時30分〜12時・13時〜16時 (臨時休室あり)",
+        "注意事項: 事前に必要情報(※)を連絡してください(連絡先は、お問い合わせ先を参照してください)",
+        "注意事項: (※)氏名、連絡先、来室日時、資料情報(雑誌名、巻号数、ページ数等)",
+        "閲覧: 可",
+        "複写: 可 (有料 / モノクロのみ)",
+        "貸出: 不可",
+        "URL: http://www.iph.osaka.jp/s004/library.html",
+        "お問い合わせ先: [メール] tosho@iph.osaka.jp [TEL] 06-6771-3082 [FAX] 06-6772-0676"
+      ]
+    }
+  ]
+}

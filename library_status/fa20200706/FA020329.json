@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020329.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020329#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020329.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公立鳥取環境大学 情報メディアセンター"
+        },
+        {
+          "@value": "コウリツトットリカンキョウダイガク ジョウホウメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鳥取環境大"
+        },
+        {
+          "@value": "トットリカンキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020329",
+      "cinii:organizationid": "KI012231",
+      "cinii:prefcode": "31",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "公立鳥取環境大学 情報メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "689-1111",
+        "v:label": "鳥取県鳥取市若葉台北1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0857-38-6730"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0857-38-6734"
+        }
+      ],
+      "dc:description": [
+        "Tottori University Of Environmental Studies",
+        "1-1 Wakabadai-kita, Tottori City, Tottori Prefecture, Japan 689-1111",
+        "URL:http://www.kankyo-u.ac.jp/media (website)",
+        "開館時間:9:00-19:00(平日)、9:00-15:00(土曜)、9:00-17:00(休業期の平日)",
+        "休館日:日曜・祝祭日、年末年始、毎月末日、学生休業期の土曜日、夏季一斉休業日",
+        "臨時に休館する場合もありますので、来館前に開館カレンダーをご確認ください。",
+        "持参書類:学生証、免許証等の本人確認ができるもの",
+        "館外貸出:可(利用登録の手続きが必要です。) 禁帯出本、雑誌の最新号、視聴覚資料は貸出不可。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023644.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023644#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023644.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "四日市看護医療大学 図書館"
+        },
+        {
+          "@value": "ヨッカイチカンゴイリョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "四看医大"
+        },
+        {
+          "@value": "ヨンカンイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA023644",
+      "cinii:organizationid": "KI014204",
+      "cinii:prefcode": "24",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "四日市看護医療大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "512-8045",
+        "v:label": "四日市市萱生町1200"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "059-340-0705"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "059-361-1401(大学事務局)"
+        }
+      ],
+      "dc:description": [
+        "一般利用時間:平日9:00-17:00・土曜日10:00-18:00",
+        "休館日:国民の祝日、入学試験日、入学式、卒業式、蔵書点検期間、夏季休業、冬季休業、オープンキャンパス",
+        "閲覧事前連絡:要",
+        "閲覧持参書類:紹介状(身分を証明する物を携行のこと)",
+        "館外貸出可否:可(県内の看護・医療・福祉等に従事する者)",
+        "ILLについて (個人の方の申し込みは不可)",
+        "申込方法: NACSIS-ILL/FAX(059-361-1401)FAX受信機が館外にあるため、お急ぎの場合は電話にてご連絡ください",
+        "URL:http://www.y-nm.ac.jp/(website)",
+        "ILL-Org: Yokkaichi Nursing and Medical Care University Library",
+        "ILL-Address: 1200 kayo-cho, Yokkaichi-shi,  Mie, JAPAN",
+        "ILL-ZIP: 512-8045",
+        "ILL-Commun1:E-mail:tosyo@y-nm.ac.jp"
+      ]
+    }
+  ]
+}

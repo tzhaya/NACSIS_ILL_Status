@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012750.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012750#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012750.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪府立中之島図書館"
+        },
+        {
+          "@value": "オオサカフリツナカノシマトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪府中之島"
+        },
+        {
+          "@value": "ハンフナカノシマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "森田"
+      ],
+      "cinii:memberid": "FA012750",
+      "cinii:organizationid": "KI007071",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪府立中之島図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "530-0005",
+        "v:label": "大阪府大阪市北区中之島1丁目2-10"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6203-0474"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6203-4913"
+        }
+      ],
+      "dc:description": [
+        "Osaka Prefectural Nakanoshima Library",
+        "1-2-10, Nakanoshima, Kita-ku, Osaka-city, Osaka 530-0005",
+        "URL:http://www.library.pref.osaka.jp/",
+        "来館利用担当:ビジネス支援課、大阪資料・古典籍課",
+        "電話番号:06-6203-0474(代)",
+        "受付時間:9:00〜20:00(土は9:00〜17:00)",
+        "注意事項:ビジネス支援と大阪関係の地域資料および古典籍中心の図書館としてリニューアルしましたので、資料の所在等、事前確認してください。特に,大阪府立中央図書館との区別に要注意。",
+        "注意事項:駐車場はありませんので、車での来館はご遠慮下さい。",
+        "持参書類:身分証明書(利用者カード登録時に必要)",
+        "複写時間:9:00〜19:30(土は9:00〜16:30)",
+        "館外貸出:可(大阪府内に在住、通勤、通学及び近畿圏に在住の人)",
+        "制限事項:和装書、昭和29年以前刊行のものは貸出不可",
+        "休館日:日曜日・国民の祝日及び国民の休日・年末年始・3,6,10月の第二木曜日"
+      ]
+    }
+  ]
+}

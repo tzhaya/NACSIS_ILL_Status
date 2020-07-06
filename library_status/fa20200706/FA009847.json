@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA009847.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA009847#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA009847.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "農業・食品産業技術総合研究機構 果樹茶業研究部門 金谷茶業研究拠点図書室"
+        },
+        {
+          "@value": "ノウギョウ・ショクヒンサンギョウギジュツソウゴウケンキュウキコウ カジュチャギョウケンキュウブモン カナヤチャギョウケンキュウキョテントショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "果樹茶金谷"
+        },
+        {
+          "@value": "カジュチャカナヤ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "企資"
+      ],
+      "cinii:memberid": "FA009847",
+      "cinii:organizationid": "KI005065",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "農業・食品産業技術総合研究機構 果樹茶業研究部門 金谷茶業研究拠点図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "428-8501",
+        "v:label": "静岡県島田市金谷猪土居2769"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0547-45-4429"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0547-46-2169"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.naro.affrc.go.jp/introduction/library.html",
+        "Institute of Fruit Tree and Tea Science, NARO",
+        "2769, Kanaya,Shimada,Shizuoka, 428-8501",
+        "来館利用担当:図書室",
+        "受付時間9:00-12:00,13:00-15:30",
+        "館外貸出:不可",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始(12/28-1/4)",
+        "注意事項:来館者は事前に連絡のうえ、身分を証明できるものを持参して下さい。"
+      ]
+    }
+  ]
+}

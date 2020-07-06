@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012444.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012444#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012444.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "椙山女学園大学 日進図書館"
+        },
+        {
+          "@value": "スギヤマジョガクエンダイガク ニッシントショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "椙山大日進"
+        },
+        {
+          "@value": "スギヤマダイニッシン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA012444",
+      "cinii:organizationid": "KI003183",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "椙山女学園大学 日進図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "470-0136",
+        "v:label": "愛知県日進市竹の山3丁目2005番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0561-74-1392"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0561-74-0495"
+        }
+      ],
+      "dc:description": [
+        "Sugiyama Jogakuen University Nisshin Library",
+        "3-2005, Takenoyama, Nisshin, Aichi 470-0136",
+        "URL:http://www.sugiyama-u.ac.jp/lib/",
+        "来館利用担当: 閲覧担当係",
+        "電話番号: 0561-74-1392",
+        "受付時間:平日 9:00～17:00 土曜 9:00～13:00",
+        "注意事項:利用依頼書(紹介状など)および身分証明書をサービスカウンターに提出して、ご利用ください。車での来館はご遠慮ください。",
+        "持参書類:利用依頼書(紹介状など)および身分証明書",
+        "複写時間:平日 9:00〜16:00 土曜 9:00〜13:00",
+        "館外貸出:不可",
+        "制限事項:貴重書は、事前に館長宛に文書での問合せが必要",
+        "制限事項:所在が88号館の資料は複写不可",
+        "休館日:日曜日・国民の祝日・創立記念日(6月1日)・夏季休業中(8月中旬)・大学祭(10月中旬)・冬季休業中・入試実施日・春季休業中(3/31)"
+      ]
+    }
+  ]
+}

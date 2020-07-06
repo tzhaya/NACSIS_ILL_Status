@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007080.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007080#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007080.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山梨学院大学 総合図書館"
+        },
+        {
+          "@value": "ヤマナシガクインダイガク ソウゴウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "梨院大"
+        },
+        {
+          "@value": "ナシインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA007080",
+      "cinii:organizationid": "KI003026",
+      "cinii:prefcode": "19",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "山梨学院大学 総合図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "400-8575",
+        "v:label": "山梨県甲府市酒折二丁目4-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "055-224-1250"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "055-224-1386"
+        }
+      ],
+      "dc:description": [
+        "YamanashiGakuin University Library",
+        "2-4-5,Sakaori,Kofushi,Yamanashi,JAPAN",
+        "URL:http://www.ygu.ac.jp/lib/",
+        "来館利用担当:閲覧係",
+        "電話番号:055-224-1250",
+        "受付時間:通常 : 9:00-19:30 9月,2月:9:00-16:30 土曜日,8月: 9:30-16:00",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "注意事項:校友(本学教職員であった者及び、本大学、短期大学、大学院を卒業した者)、山梨県内に居住または勤務する18歳以上の者(高校生は除く)については身分を証明するもの(学生証、免許証など)の提示により学外者利用許可証を発行する。",
+        "持参書類:身分を証明するもの(学生証、免許証、など)",
+        "複写時間:9:00から閉館30分前まで。",
+        "館外貸出:学外者利用許可証を持参した者は可。",
+        "制限事項:貸出の延長は認められない。",
+        "注意事項:休館日:日曜日, 国民の祝日, 年末年始(12/28-1/7), 創立記念日(6/3), 夏季休暇中(8/4-16), 3月(蔵書点検期間)",
+        "ILL-Staff:akaike,kyoko,  kisimoto,nozomi",
+        "ILL-Dept:Inter-library Service Section",
+        "ILL-Org:YamanashiGakuin University Library",
+        "ILL-Address:2-4-5,Sakaori,Kofushi,Yamanashi,JAPAN",
+        "ILL-Zip:400-8575",
+        "ILL-Commun1:Tel:+81-055-224-1250 / Fax:+81-055-224-1386 / E-mail:yulius@ygu.ac.jp",
+        "ILL-Commun2:Opac:https://opac.ygu.ac.jp/mylimedio/top.do",
+        "ILL-Commun2:URL:http://www.ygu.ac.jp/lib/",
+        "ILL-Accept:Foreign(1):OCLC: Symbil:YGN",
+        "ILL-Sched:Closed:Dec.28-Jan.7,Apr.28-May.6, Aug.7-16",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Loan-Period:6 weeks per volume ; up to 5 items per library",
+        "ILL-Loan-Renew:None",
+        "ILL-Loan-Charge:Postage required",
+        "ILL-Non-Circulation:mcrform,mcrfich,reference book,periodicals,newspaper,audio-visual material,",
+        "ILL-Copy-Charge:PHOTOCOPY:40 Yen per sheet. Postage requied.",
+        "ILL-Note:Delivery method:via airmail",
+        "ILL-Note:When you send back materials, please use the registered mail",
+        "ILL-OCLC-Symbol:YGN"
+      ]
+    }
+  ]
+}

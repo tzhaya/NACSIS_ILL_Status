@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019614.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019614#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019614.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京農業大学 農学部図書館"
+        },
+        {
+          "@value": "トウキョウノウギョウダイガク ノウガクブトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東農大農"
+        },
+        {
+          "@value": "トウノウダイノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "農",
+        "畜"
+      ],
+      "cinii:memberid": "FA019614",
+      "cinii:organizationid": "KI002464",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京農業大学 農学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "243-0034",
+        "v:label": "神奈川県厚木市船子1737"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "046-270-6222"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "046-270-6223"
+        }
+      ],
+      "dc:description": [
+        "Tokyo University of Agriculture Library of the Faculity of Agriculture",
+        "1737 Funako, Atsugi-shi, Kanagawa 243-0034",
+        "URL:http://library.nodai.ac.jp/atsugi/",
+        "Mail:aglibill@nodai.ac.jp",
+        "来館利用担当: 農学部図書館",
+        "電話番号:046-270-6222  FAX番号:046-270-6223",
+        "閲覧受付時間: 9:00〜16:00(土・日・祝日は利用できません)",
+        "持参書類: 紹介状(身分を証明するものを携行のこと)",
+        "注意事項:電話、FAX等で問い合わせし、日時の内諾を得ておくこと",
+        "休館日: 土曜日、日曜日、祝祭日、その他大学で定めた日"
+      ]
+    }
+  ]
+}

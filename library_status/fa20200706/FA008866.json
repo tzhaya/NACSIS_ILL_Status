@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008866.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008866#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008866.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本経済大学 図書館・情報センター"
+        },
+        {
+          "@value": "ニホンケイザイダイガク トショカン・ジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日経大"
+        },
+        {
+          "@value": "ニッケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "渋図",
+        "神三図"
+      ],
+      "cinii:memberid": "FA008866",
+      "cinii:organizationid": "KI004368",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本経済大学 図書館・情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "818-0197",
+        "v:label": "福岡県太宰府市五条3-11-25"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-921-9816(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-921-9810"
+        }
+      ]
+    }
+  ]
+}

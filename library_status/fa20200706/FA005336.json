@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005336.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005336#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005336.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "順天堂大学 学術メディアセンター"
+        },
+        {
+          "@value": "ジュンテンドウダイガク ガクジュツメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "順大"
+        },
+        {
+          "@value": "ジュンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館"
+      ],
+      "cinii:memberid": "FA005336",
+      "cinii:organizationid": "KI002089",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "順天堂大学 学術メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-8421",
+        "v:label": "東京都文京区本郷2-1-1 センチュリータワー9階"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5802-1123"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3814-9300"
+        }
+      ],
+      "dc:description": [
+        "≪大学図書館・病院図書室のILLご担当の方へ≫",
+        "※※当面の間、学外からの来館利用はすべて休止とさせていただきます。",
+        "※※相互貸借(文献複写等)は受付しておりますが、発送が遅れる場合があります。",
+        "Juntendo University Academic Media Center",
+        "2-1-1 Hongo, Bunkyo-ku Tokyo"
+      ]
+    }
+  ]
+}

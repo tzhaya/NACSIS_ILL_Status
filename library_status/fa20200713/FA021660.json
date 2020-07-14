@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021660.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021660#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021660.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神奈川県立保健福祉大学 附属図書館"
+        },
+        {
+          "@value": "カナガワケンリツホケンフクシダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神奈川保健福祉大"
+        },
+        {
+          "@value": "カナガワホケンフクシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "附属図"
+      ],
+      "cinii:memberid": "FA021660",
+      "cinii:organizationid": "KI012989",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "神奈川県立保健福祉大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "238-8522",
+        "v:label": "横須賀市平成町1-10-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "046-828-2540"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "046-828-2542"
+        }
+      ]
+    }
+  ]
+}

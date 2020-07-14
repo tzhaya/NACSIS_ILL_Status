@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016682.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016682#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016682.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "長野工業高等専門学校 図書館"
+        },
+        {
+          "@value": "ナガノコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "野専"
+        },
+        {
+          "@value": "ヤセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016682",
+      "cinii:organizationid": "KI009339",
+      "cinii:prefcode": "20",
+      "cinii:mextid": "602200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "長野工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "381-8550",
+        "v:label": "長野県長野市徳間716"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "026-295-7005"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "026-295-7108"
+        }
+      ],
+      "dc:description": [
+        "Nagano National College of Technology",
+        "716 Tokuma, Nagano City, 381-8550",
+        "URL:http://www.nagano-nct.ac.jp/guide/library/info/index.php",
+        "来館利用担当: 学生課図書係",
+        "電話番号:026-295-7005",
+        "受付時間:8:30-20:00 土曜日9:30-17:00(長期休業中 8:30-17:00 土曜日 休館)",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:身分を証明するもの",
+        "休館日:日曜日、国民の祝日、長期休業中の土曜日、年末年始、卒業式の日、その他校長が必要と認めた日"
+      ]
+    }
+  ]
+}

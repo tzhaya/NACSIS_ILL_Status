@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003454.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003454#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003454.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "九州大学 中央図書館"
+        },
+        {
+          "@value": "キュウシュウダイガク チュウオウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "九大中央"
+        },
+        {
+          "@value": "キュウダイチュウオウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003454",
+      "cinii:organizationid": "KI000822",
+      "cinii:prefcode": "40",
+      "cinii:mextid": "006900",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "九州大学 中央図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "819-0395",
+        "v:label": "福岡市西区元岡744 (イーストゾーン)"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-802-6274"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-802-2479"
+        }
+      ],
+      "dc:description": [
+        "Kyushu University Library",
+        "744, Motoka, Nishi-ku, Fukuoka-shi, Fukuoka, 819-0395",
+        "URL:https://www.lib.kyushu-u.ac.jp/ (website)",
+        "URL:https://www.lib.kyushu-u.ac.jp/ja/libraries/central/locations (access)",
+        "来館利用担当:資料サービス係",
+        "電話番号:092-802-2480",
+        "FAX :092-802-2479",
+        "注意事項:貴重書については事前に閲覧の申込みをして下さい。",
+        "複写時間:平日 9:00～21:45、土曜・日曜・祝祭日 10:00～17:45",
+        "持参書類:学生証、身分証明書",
+        "館外貸出:不可",
+        "休館日 :ホームページの年間スケジュールで確認して下さい。",
+        "ILL-Staff:Takatoshi Koyanagi",
+        "ILL-Dept:Section of Document Delivery Service",
+        "ILL-Org:Kyushu University Library",
+        "ILL-Adress:744, Motoka, Nishi-ku, Fukuoka-shi, Fukuoka, Japan",
+        "ILL-Zip:819-0395",
+        "ILL-Commun1:tel:+81-92-802-2482 / fax:+81-92-802-2479 / E-mail:toubunken@jimu.kyushu-u.ac.jp",
+        "ILL-Commun2:OPAC:http://catalog.lib.kyushu-u.ac.jp/en / Home-Page:https://www.lib.kyushu-u.ac.jp/en",
+        "ILL-Accept:Foreign(1):OCLC:SYMBOL:JAKUC",
+        "ILL-Accept:Foreign(2):KERIS",
+        "ILL-Sched: CLOSED:Dec 28-Jan 4",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Loan-Period:Loan N/A",
+        "ILL-Loan-Renew:Loan N/A",
+        "ILL-Loan-Charge:Loan N/A",
+        "ILL-Non-Circulation:Loan N/A",
+        "ILL-Copy-Charge1:PHOTOCOPY:50 Yen per sheet for ILL-charge offset service institutions",
+        "ILL-Copy-Charge2:PHOTOCOPY:50 Yen per sheet for counterpart institutions for international academic cooperation",
+        "ILL-Copy-Charge:PHOTOCOPY:60 Yen per sheet. Postage required. / Delivery method:via arimail, Ariel.",
+        "ILL-Note:Only the items held at the Central Library are available.",
+        "ILL-OCLC-Symbol:JAKUC"
+      ]
+    }
+  ]
+}

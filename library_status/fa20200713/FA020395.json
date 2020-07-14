@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020395.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020395#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020395.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 大学院情報理工学系研究科"
+        },
+        {
+          "@value": "トウキョウダイガク ダイガクインジョウホウリコウガクケイケンキュウカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大情理工"
+        },
+        {
+          "@value": "トウダイジョウリコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "CS図",
+        "CS研",
+        "数理情(工物計)",
+        "シス情(工物計)",
+        "電子情(工電気図)",
+        "電子情研(工電気)",
+        "知能機(工機械図)",
+        "知能機研(工機械)",
+        "創造情報"
+      ],
+      "cinii:memberid": "FA020395",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 大学院情報理工学系研究科",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-8656",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03(5841)6016"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03(5841)6004"
+        }
+      ],
+      "dc:description": [
+        "Graduate School of Information Science and Technology, The University of Tokyo",
+        "7-3-1, Hongo, Bunkyo-ku, Tokyo 113-8656",
+        "URL:http://library.t.u-tokyo.ac.jp/ (website)",
+        "注意事項: 資料は各号館図書室で分散所蔵しています。「東大情理工」のあとに表示される「CS」「シス情」などが所蔵している図書室を表します。「CS～」→理7号館図書室、「知能機～」「電子情～」→工2号館図書室、「数理情」「シス情」「創造情報」→工6号館図書室",
+        "注意事項: 資料についてのお問い合わせは該当の図書室にお願いいたします(メール、FAX、電話)。連絡先一覧 http://library.t.u-tokyo.ac.jp/liblist.php",
+        "受付時間: 9:30～12:30,13:30～17:30 (工2号館図書室 9:30～17:30)",
+        "来室時持参書類: 大学・研究機関所属者: 学生証または所属機関の身分証明書。それ以外の方: お名前・ご住所の確認ができるもの",
+        "注意事項: 貸出中等で利用できない場合がありますので、事前に利用資料名と来室希望日をメールやFAX等でご連絡ください。",
+        "館外貸出: 学外の方へは館外貸出をしていません。",
+        "制限事項: 研究室備付資料は利用できません。",
+        "土・日曜日、祝日、年末年始(12/27～1/5)、夏期一斉休業日 (詳細⇒http://library.t.u-tokyo.ac.jp/)"
+      ]
+    }
+  ]
+}

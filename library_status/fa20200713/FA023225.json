@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023225.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023225#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023225.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岐阜医療科学大学 図書館"
+        },
+        {
+          "@value": "ギフイリョウカガクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岐阜医療大"
+        },
+        {
+          "@value": "ギフイリョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "関"
+      ],
+      "cinii:memberid": "FA023225",
+      "cinii:organizationid": "KI014077",
+      "cinii:prefcode": "21",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "岐阜医療科学大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "501-3892",
+        "v:label": "岐阜県関市市平賀字長峰795-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0575-22-9401"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0575-23-0884"
+        }
+      ],
+      "dc:description": [
+        "Gifu University of Medical Science Library",
+        "休館日:日曜日・国民の祝日・本学一斉休暇期間・本学行事日・図書館整理期間・図書館長が臨時に決めた日(詳しくはホームページのカレンダーをご覧ください)2020/5/1～2020/5/11の間は相互貸借業務を休止させていだきます。",
+        "開館時間:月〜金曜日9:20〜20:30 (土曜日9:20〜19:00)",
+        "持参書類:身分証明書"
+      ]
+    }
+  ]
+}

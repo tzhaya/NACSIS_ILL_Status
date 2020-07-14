@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA013855.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA013855#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA013855.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "女子美術大学 杉並図書館"
+        },
+        {
+          "@value": "ジョシビジュツダイガク スギナミトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "女美大杉"
+        },
+        {
+          "@value": "ジョビダイスギ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA013855",
+      "cinii:organizationid": "KI002136",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "女子美術大学 杉並図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "166-8538",
+        "v:label": "東京都杉並区和田1-49-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5340-4514"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5340-4546"
+        }
+      ],
+      "dc:description": [
+        "Joshibi University of Art and Design(Joshibi), Joshibi Junior College of Art and Design(Joshibi)",
+        "1-49-8,Wada,Suginami-ku,Tokyo 166-8538",
+        "URL:http://www1.joshibi.ac.jp/library/ (website)",
+        "複写受付可否 :可",
+        "FAX受付可否 :可",
+        "複写方法・料金:電子複写(白黒1枚30円 カラー1枚200円)",
+        "支払方法 :銀行振込",
+        "貸借受付可否 :可",
+        "貸出期間 :1ヶ月",
+        "貸出冊数 :10冊",
+        "貸借本は館内閲覧でご利用下さい。",
+        "送料決済方法: ゆうパック着払いの発送となります。(2016年度より学内事情により切手の扱いを中止しました)",
+        "制限事項: 展覧会カタログは、関東圏内の展覧会会期終了後に貸し出しを開始します。関東圏外の場合は全ての会期終了後に貸し出しを開始します。",
+        "当館は非相殺館です。相殺館はなるべく相殺館への依頼を優先でお願いいたします。",
+        "閲覧事前連絡 :図書館が杉並・相模原の2ケ所に分かれました 資料の所蔵先を確認のうえ来館下さい",
+        "閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "閲覧受付時間 :9:10〜16:50(土曜日〜14:00)",
+        "複写受付時間 :9:10〜17:40(土曜日〜14:40)",
+        "館外貸出可否 :否",
+        "通常開館時間 :8:40〜19:50(土曜日〜16:50),通常の授業がない日は9:10〜16:50(土曜日〜14:50)",
+        "休業中開館時間:春季・夏季・冬季9:10〜16:50(土曜日〜14:50)",
+        "休館日 : 図書館HPの杉並開館カレンダーをご覧下さい。不明な点はお問い合わせ下さい。",
+        "年末年始、夏期一斉休業、年度末、蔵書点検、年度開始直後は、ILL業務を休止します。",
+        "臨時閉館に際し、女子美術大学図書館の「文献複写」と「現物貸借」の取り扱いを当面の間停止いたします。ご迷惑をおかけしますが、何卒ご了承下さい。"
+      ]
+    }
+  ]
+}

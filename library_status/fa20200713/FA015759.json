@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015759.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015759#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015759.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "秋田公立美術大学 附属図書館"
+        },
+        {
+          "@value": "アキタコウリツビジュツダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "秋美大"
+        },
+        {
+          "@value": "アキビダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015759",
+      "cinii:organizationid": "KI008482",
+      "cinii:prefcode": "05",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "秋田公立美術大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "010-1632",
+        "v:label": "秋田県秋田市新屋大川町12-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "018-888-8106"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "018-888-8107"
+        }
+      ],
+      "dc:description": [
+        "複写・貸借・閲覧の問合せ先 : TEL 018-888-8106",
+        "複写_方法 ・料金 : 電子複写 ・モノクロ:35円/枚,  カラー:75円/枚",
+        "複写_決済方法 : ILL文献複写等料金相殺サービス(H25.8.1開始)",
+        "複写_支払方法 : ILL文献複写等料金相殺サービス(H25.8.1開始)",
+        "複写_注記 : カラーコピーをご希望の際はお知らせください。",
+        "貸借_期間 : 1か月(発送日から返却受領日まで)",
+        "貸借_決済方法 : ILL文献複写等料金相殺サービス",
+        "貸借_支払方法 : ILL文献複写等料金相殺サービス",
+        "貸借_注記 : 貸出条件等についてはお問い合わせください。",
+        "閲覧_学外者の入館 : カウンターでお申し込みください。",
+        "閲覧_持参書類 : 不要",
+        "閲覧_受付時間 : 開館時間内",
+        "閲覧_開館時間 : 通常期 8:30～20:00,長期休業期間 8:30～17:00",
+        "閲覧_休館日 : 土・日曜日,国民の休日,年末年始",
+        "Akita University of Art, Library",
+        "Akita University of Art",
+        "2-23 Okawa-machi, Akita-city, Akita 010-1632",
+        "URL:http://www.akibi.ac.jp/"
+      ]
+    }
+  ]
+}

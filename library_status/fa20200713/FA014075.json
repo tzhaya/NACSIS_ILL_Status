@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014075.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014075#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014075.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "九州工業大学 附属図書館 情報工学部分館"
+        },
+        {
+          "@value": "キュウシュウコウギョウダイガク フゾクトショカン ジョウホウコウガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "九工大情分"
+        },
+        {
+          "@value": "キュウコウダイジョウブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014075",
+      "cinii:organizationid": "KI000844",
+      "cinii:prefcode": "40",
+      "cinii:mextid": "007101",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "九州工業大学 附属図書館 情報工学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "820-8502",
+        "v:label": "福岡県飯塚市川津680-4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0948-29-7542"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0948-29-7543"
+        }
+      ],
+      "dc:description": [
+        "Library of Faculty of Computer Science and Systems Engineering, Kyushu Institute of Technology",
+        "680-4, Kawazu, Iizuka, Fukuoka 820-8502",
+        "URL:http://www.lib.kyutech.ac.jp/libi/ (website)",
+        "URL:http://www.kyutech.ac.jp/information/map/ (map)",
+        "来館利用担当:図書係",
+        "電話番号:0948-29-7541",
+        "閲覧受付時間:8:30〜20:00(土曜日11:00〜19:00)(休業期間中9:30〜17:00、土曜日休館)",
+        "注意事項:事前に開館時間の確認が望ましい",
+        "休館日:日曜日・国民の祝日・年末年始(12/28〜1/4)・開学記念日(5/28)・休業中の土曜日・夏季一斉休業期間(8/13～8/15)"
+      ]
+    }
+  ]
+}

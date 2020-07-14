@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023972.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023972#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023972.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知医療学院短期大学"
+        },
+        {
+          "@value": "アイチイリョウガクインタンキダイガク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛知医療短大"
+        },
+        {
+          "@value": "アイチイリョウタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA023972",
+      "cinii:organizationid": "KI014408",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知医療学院短期大学",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "452-0931",
+        "v:label": "愛知県清須市一場519"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-409-3311(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-400-6413"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.yuai.ac.jp/library/index.html",
+        "閲覧受付時間:月曜日～金曜日:9:00～19:15 土曜日:9:00～17:00",
+        "閲覧事前連絡:電話でご連絡をお願いいたします。",
+        "休館日:日曜日、秋休み(11月)、年末年始、蔵書点検(3月)、その他の休館日は開館カレンダーでご確認下さい。https://aichi-ig-opac.limedio.ricoh.co.jp/drupal/",
+        "〒452-0931 愛知県清須市一場519番地",
+        "電話番号: 052-409-3311(代表)",
+        "Library of AICHI Medical College for Physical and Occupational Therapy",
+        "519 Ichiba,kiyosu,Aichi,Japan 452-0931",
+        "aichi@yuai.ac.jp"
+      ]
+    }
+  ]
+}

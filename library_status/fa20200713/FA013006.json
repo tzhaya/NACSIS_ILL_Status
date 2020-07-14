@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA013006.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA013006#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA013006.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "ロンドン大学 SOAS図書館"
+        },
+        {
+          "@value": "ロンドンダイガク ソアストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "SOAS"
+        },
+        {
+          "@value": "ソアス",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA013006",
+      "cinii:organizationid": "KI005010",
+      "cinii:prefcode": "254",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "ロンドン大学 SOAS図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:label": "The Library, School of Oriental and African Studies (SOAS), University of London, Thornhaugh Street Russel Square London, WC1H OXG, UNITED KINGDOM"
+      },
+      "dc:description": [
+        "ILL-Commun2:http://www.soas.ac.uk/library/using/services/interlib/external/"
+      ]
+    }
+  ]
+}

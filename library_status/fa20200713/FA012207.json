@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012207.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012207#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012207.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国際日本文化研究センター"
+        },
+        {
+          "@value": "コクサイニホンブンカケンキュウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日文研"
+        },
+        {
+          "@value": "ニチブンケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012207",
+      "cinii:organizationid": "KI006862",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "990700",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国際日本文化研究センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "610-1192",
+        "v:label": "京都市西京区御陵大枝山町3丁目2番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-335-2066"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-335-2093"
+        }
+      ],
+      "dc:description": [
+        "The International Research Center for Japanese Studies",
+        "3-2, Goryo Oeyama-cho, Nishikyo-ku, Kyoto 610-1192 Japan",
+        "URL:http://www.nichibun.ac.jp/",
+        "来館利用担当:資料利用係",
+        "電話番号:075-335-2066",
+        "受付時間:9:00〜17:00",
+        "注意事項:大学図書館・公共図書館を通じて、利用の可否等、事前確認のこと(E-mail:riyou@nichibun.ac.jp ; Fax:075‐335-2093)",
+        "持参書類:所属機関の紹介状、身分証明書等",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可",
+        "制限事項:研究目的の利用に限る",
+        "休館日:日曜日、国民の祝日、年末年始",
+        "ILL-Dept:Library Use Section",
+        "ILL-Org:International Research Center for Japanese Studies Library",
+        "ILL-Address:3-2, Goryo Oeyama-cho, Nishikyo-ku, Kyoto, JAPAN",
+        "ILL-Zip:610-1192",
+        "ILL-Contact1:Tel+81-75-335-2066/FAX:+81-75-335-2093/E-mail:riyou@nichibun.ac.jp",
+        "ILL-Contact2:OPAC:http://tosho1n.nichibun.ac.jp/",
+        "ILL-Contact2:Home-Page:http://library.nichibun.ac.jp/en/guide/ill_order.html",
+        "ILL-Calender:Closed: Dec 28-Jan 4",
+        "ILL-Accept:International: LOAN, Traceable courier with insurance only, In-house use only",
+        "ILL-Accept:International: COPY, Yes",
+        "ILL-Accept-method:International: E-mail(riyou@nichibun.ac.jp); FAX; OCLC; and etc. please ask us.",
+        "ILL-Accept-method:International: OCLC: WSILL: IRCJS",
+        "ILL-OCLC-Symbol:IRCJS",
+        "ILL-Payment-method: International OCLC-IFM Yes; and etc. please ask us",
+        "ILL-Note:Each case is handled on an individual basis. Please contact us: riyou@nichibun.ac.jp / http://library.nichibun.ac.jp/en/guide/ill_order.html"
+      ]
+    }
+  ]
+}

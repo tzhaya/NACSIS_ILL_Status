@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016809.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016809#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016809.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "豊橋創造大学 附属図書館"
+        },
+        {
+          "@value": "トヨハシソウゾウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "創造大"
+        },
+        {
+          "@value": "ソウゾウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016809",
+      "cinii:organizationid": "KI00942X",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "豊橋創造大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "440-8511",
+        "v:label": "愛知県豊橋市牛川町字松下20-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "050-2017-2105"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "050-2017-2115"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当:閲覧・参考係",
+        "電話番号:050-2017-2105",
+        "受付時間:9:00-19:45(土曜日:16:45)",
+        "注意事項:開館時間等事前にご確認ください.",
+        "持参書類:身分を証明する物",
+        "複写時間:9:00-20:00(土曜日:17:00)",
+        "館外貸出:可(利用登録要)",
+        "制限事項:参考図書,雑誌など貸出を許可しないものがあります.",
+        "休館日:日曜日,国民の祝日,全学休業期間(8/13-15,9/1,年末年始),臨時休館日",
+        "Library of Toyohashi SOZO University",
+        "20-1, Matsushita, Ushikawa-cho, Toyohashi-shi, Aichi 440-8511",
+        "URL:http://www.sozo.ac.jp (website)"
+      ]
+    }
+  ]
+}

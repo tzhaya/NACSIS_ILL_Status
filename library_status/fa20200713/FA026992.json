@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA026992.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA026992#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA026992.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "武庫川女子大学 附属図書館 甲子園会館分室"
+        },
+        {
+          "@value": "ムコガワジョシダイガク フゾクトショカン コウシエンカイカンブンシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "武庫女築"
+        },
+        {
+          "@value": "ムコジョチク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "建築"
+      ],
+      "cinii:memberid": "FA026992",
+      "cinii:organizationid": "KI003999",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "武庫川女子大学 附属図書館 甲子園会館分室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "663-8121",
+        "v:label": "兵庫県西宮市戸崎町1-13"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0798-67-0094"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0798-67-0094"
+        }
+      ],
+      "dc:description": [
+        "Mukogawa Women's University Koshien Hall Branch Library",
+        "1-13, Tosaki-cho, Nishinomiya, Hyogo 663-8121",
+        "URL : http://www.mukogawa-u.ac.jp/",
+        "TEL 0798-67-0094 FAX 0798-67-0094",
+        "館外貸出可否 : 否",
+        "制限事項 : 建築学科図書資料室および研究所等の資料は利用不可",
+        "休室日 : 土曜日/日曜日/国民の祝日/創立記念日(2/25)/夏季・春季休暇および年末年始",
+        "ILL-Org : Mukogawa Women's University Koshien Hall Branch Library",
+        "ILL-Address : 1-13, Tosaki-cho, Nishinomiya, Hyogo, JAPAN",
+        "ILL-ZIP : 663-8121",
+        "ILL-Commun1 : Tel : +81-798-67-0094 / FAX : +81-798-67-0094"
+      ]
+    }
+  ]
+}

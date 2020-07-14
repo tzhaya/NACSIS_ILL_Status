@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014064.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014064#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014064.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "学習院女子大学 図書館"
+        },
+        {
+          "@value": "ガクシュウインジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "学習院女大"
+        },
+        {
+          "@value": "ガクシュウインジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "日文",
+        "国コミ",
+        "語学",
+        "環境",
+        "留学セ",
+        "共通",
+        "司書",
+        "院",
+        "学部",
+        "英コミ",
+        "学芸員"
+      ],
+      "cinii:memberid": "FA014064",
+      "cinii:organizationid": "KI007468",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "学習院女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "162-8650",
+        "v:label": "東京都新宿区戸山3-20-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3203-1977"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3203-7184"
+        }
+      ],
+      "dc:description": [
+        "Gakushuin Women's College Library",
+        "3-20-1,Toyama,Shinjuku-ku,TOKYO,JAPAN,162-8650",
+        "URL:http://www.gwc.gakushuin.ac.jp/library/index.html (website)",
+        "URL:http://www.gwc.gakushuin.ac.jp/about/access.html (map)",
+        "URL:https://glim-sr.glim.gakushuin.ac.jp/?page_id=176 (OPAC)",
+        "来館利用担当:閲覧・レファレンス・サービス担当",
+        "電話番号:03-3203-1977",
+        "閲覧受付時間:9:00〜16:00(土曜日〜12:00)。但し受付後は20:00(土曜日は18:00)まで利用可",
+        "注意事項:近隣機関の所蔵状況をご確認のうえ、事前の所蔵調査・確認( Tel. 不可 )をしてください。 また、ご利用の際は時間に余裕を見てご来館ください。",
+        "閲覧持参書類:所属機関発行の資料利用依頼書(紹介状)及び身分証",
+        "複写受付時間:9:00〜20:00(土曜日〜18:00)",
+        "閲覧制限事項:オンラインDB、CD-ROM等の電子媒体資料、マイクロ資料等再生機器を要する資料は学内利用者に限定。",
+        "館外貸出:不可",
+        "休館日:日曜・祝日・開学記念日(5/15)・夏期休業中の土曜日・開院記念日(10/17)・冬期休業期間(12/25頃〜1/7頃)・一般入学試験日(2月上旬、下旬)・蔵書点検期間(2月下旬〜3月上旬)・卒業式(3/19)。ただし前記の日が休日開講日に該当する場合は開館します。",
+        "休業中等の開館時間:春・冬期および補講期間:8:50〜16:30(土曜日8:50〜12:00),夏期:8:50〜16:30(土曜日休館)",
+        "ILL-Org:Gakushuin Women's College Library",
+        "ILL-Address:3-20-1,Toyama,Shinjuku-ku,TOKYO,JAPAN",
+        "ILL-Zip:162-8650",
+        "ILL-Commun1:E-mail:wlib-ref@gakushuin.ac.jp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017142.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017142#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017142.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東海大学 付属図書館 高輪図書館"
+        },
+        {
+          "@value": "トウカイダイガク フゾクトショカン タカナワトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東海大高輪"
+        },
+        {
+          "@value": "トウカイダイタカナワ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017142",
+      "cinii:organizationid": "KI002329",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東海大学 付属図書館 高輪図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "108-8619",
+        "v:label": "東京都港区高輪2-3-23"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5475-7152"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5475-7160"
+        }
+      ],
+      "dc:description": [
+        "Tokai University Takanawa Library",
+        "2-3-23, Takanawa, Minato-ku, Tokyo 108-8619",
+        "URL:http://www.tcc.u-tokai.ac.jp/tlibrary/toshokantop.htm",
+        "来館利用担当:利用係",
+        "電話番号:03-5475-7152 (直通)",
+        "閲覧対象者 : 教職員・大学院生・学生(閲覧・複写)",
+        "事前連絡事項 : 電話・FAXなどでの問合せが望ましい",
+        "閲覧持参書類 : 資料利用依頼書(身分を証明できる物を携帯のこと)",
+        "閲覧受付時間 : 9:00〜18:30(土曜日〜15:30)",
+        "複写受付時間 : 閉館10分前まで",
+        "館外貸出:否",
+        "閲覧注記 : 学外者個人の直接申込には応じられません。利用の可否については所属の大学か公共図書館を通じての事前照会が必要です",
+        "通常開館時間 : 9:00〜19:00(土曜日〜18:00)",
+        "休業中開館時間 : 9:00〜17:00(土曜日〜16:00、夏期は土曜日休館)",
+        "休館日 : 日曜日・祝祭日・大学休業日・年度末",
+        "学外者の方の利用については、当館ホームページをご覧ください"
+      ]
+    }
+  ]
+}

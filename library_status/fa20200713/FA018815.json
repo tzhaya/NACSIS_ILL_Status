@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018815.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018815#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018815.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "沖縄県立看護大学 附属図書館"
+        },
+        {
+          "@value": "オキナワケンリツカンゴダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "沖看大"
+        },
+        {
+          "@value": "オキカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018815",
+      "cinii:organizationid": "KI011046",
+      "cinii:prefcode": "47",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "沖縄県立看護大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "902-8513",
+        "v:label": "沖縄県那覇市与儀1-24-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "098-833-8806"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "098-833-5134"
+        }
+      ],
+      "dc:description": [
+        "通常開館時間: 月-金8:30-21:00 土・日11:00-19:00",
+        "休業中開館時間: 月-金8:30-17:00",
+        "休館日: 国民の祝日・創立記念日(5/15)・慰霊の日(6/23)・年末年始・入学試験日・整理期間・その他館長が認めた日",
+        "開館日・開館時間についてはホームページに掲載",
+        "閲覧可否:可",
+        "館外貸出可否:可(県内在住者)貸出制限有",
+        "URL:http://www.okinawa-nurs.ac.jp/lib/libindex.html"
+      ]
+    }
+  ]
+}

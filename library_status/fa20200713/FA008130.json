@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008130.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008130#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008130.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "帝塚山学院大学 図書館 狭山館"
+        },
+        {
+          "@value": "テヅカヤマガクインダイガク トショカン サヤマカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "帝塚院大狭山"
+        },
+        {
+          "@value": "テヅカインダイサヤマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008130",
+      "cinii:organizationid": "KI003784",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "帝塚山学院大学 図書館 狭山館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "589-8585",
+        "v:label": "大阪府大阪狭山市今熊2丁目1823"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-365-1980"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-366-4113"
+        }
+      ],
+      "dc:description": [
+        "Tezukayama Gakuin University Library, Sayama",
+        "2-1823, Imakuma, Osakasayama, Osaka 589-8585",
+        "URL:http://www.lib.tezuka-gu.ac.jp",
+        "来館利用受付担当 :相互利用係",
+        "閲覧対象者 :大学図書館、公共図書館等発行の紹介状持参の方に限る。",
+        "閲覧事前連絡:必ず、紹介状発行機関による事前連絡のこと。",
+        "閲覧持参書類:紹介状及び本人と証明できる物",
+        "閲覧受付時間:通常9:00〜19:00(月〜金) 9:00〜12:50(土);休業中9:00〜16:50(月〜金) 9:00〜12:50(土)",
+        "複写受付時間:通常9:00〜19:00(月〜金) 9:00〜12:50(土);休業中9:00〜16:50(月〜金) 9:00〜12:50(土)",
+        "館外貸出可否:否",
+        "閲覧注記:車での来館はご遠慮下さい。",
+        "休館日:日曜日・国民の祝日・創立記念日(5/12)・夏期大学一斉休業期間(8/10〜8/18)・年末年始(12/28〜1/5)"
+      ]
+    }
+  ]
+}

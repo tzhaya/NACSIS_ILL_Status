@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011962.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011962#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011962.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 東洋文化研究所 図書室"
+        },
+        {
+          "@value": "トウキョウダイガク トウヨウブンカケンキュウショ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大東文"
+        },
+        {
+          "@value": "トウダイトウブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "文セ"
+      ],
+      "cinii:memberid": "FA011962",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002115",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京大学 東洋文化研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-5893"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-1389"
+        }
+      ],
+      "dc:description": [
+        "Library, Institute for Advanced Studies on Asia, University of Tokyo",
+        "7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033",
+        "URL:http://www.ioc.u-tokyo.ac.jp/~library/",
+        "来館利用担当:整理・サービス担当",
+        "開室時間:9:20～16:50",
+        "出納受付時間:9:20～11:50, 13:00～16:00",
+        "複写受付時間:9:20～16:30",
+        "閉室日:土曜日、日曜日、毎月第2水曜日、国民の祝日、年末年始、夏季休業日、その他臨時に決定した日(ホームページでご確認ください)",
+        "持参書類:身分証明書・学生証",
+        "注意事項:当図書室は閉架式です。上記の出納受付時間内に、備え付けの図書請求票にご記入の上、カウンターにご提出ください。",
+        "注意事項:館外貸出はしておりません。",
+        "2020年3月2日(月)から臨時閉室いたします。再開室日は未定です。"
+      ]
+    }
+  ]
+}

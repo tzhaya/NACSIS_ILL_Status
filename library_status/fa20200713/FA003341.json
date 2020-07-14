@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003341.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003341#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003341.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鳴門教育大学 附属図書館"
+        },
+        {
+          "@value": "ナルトキョウイクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鳴教大"
+        },
+        {
+          "@value": "ナルキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003341",
+      "cinii:organizationid": "KI000753",
+      "cinii:prefcode": "36",
+      "cinii:mextid": "009500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "鳴門教育大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "772-8502",
+        "v:label": "鳴門市鳴門町高島字中島748番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-687-6156"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-687-6171"
+        }
+      ],
+      "dc:description": [
+        "Naruto University of Education Library",
+        "748, Nakashima, Takashima, Naruto-cho, Naruto-shi 772-8502",
+        "website:URL:http://www.naruto-u.ac.jp/library/",
+        "map:URL:http://www.naruto-u.ac.jp/access.html",
+        "来館利用担当:学術情報サービス係",
+        "電話番号:088-687-6156",
+        "受付時間:通常期:8:45〜21:00(土曜日、日曜日、祝日 10:00〜17:00)",
+        "受付時間:休業期:8:45〜17:00(平日のみ)",
+        "注意事項:休業期=春期、夏期、冬期および学年末休業期間",
+        "持参書類:身分証明書等",
+        "複写時間:開館時間中(上記受付時間と同じ)",
+        "館外貸出:可",
+        "制限事項:貸出禁止資料有",
+        "休館日:休業期間中の土曜日、日曜日、国民の祝日・年末年始(12/28〜1/4)、大学入試センター試験日、学校教育学部一般選抜試験日、全学一斉休業日"
+      ]
+    }
+  ]
+}

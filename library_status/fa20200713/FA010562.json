@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010562.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010562#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010562.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 産業技術総合研究所 つくば西 図書室"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン サンギョウギジュツソウゴウケンキュウショ ツクバニシ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産総研つくば西"
+        },
+        {
+          "@value": "サンソウケンツクバニシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA010562",
+      "cinii:organizationid": "KI00578X",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立研究開発法人 産業技術総合研究所 つくば西 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-8569",
+        "v:label": "茨城県つくば市小野川16-1 つくば西"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-861-5321"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-861-5047"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba West Library Office",
+        "16-1, Onogawa, Tsukuba, Ibaraki 305-8569",
+        "http://www.aist.go.jp/ (website)",
+        "https://unit.aist.go.jp/tkb1/ci/tosyo_riyou.html (図書室利用案内)",
+        "書庫整理作業のため、2020年1月6日～しばらくの間休室いたします。",
+        "お問い合わせはつくば第7図書室(電話番号:029-861-3605)までお願いいたします。"
+      ]
+    }
+  ]
+}

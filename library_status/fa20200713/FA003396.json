@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003396.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003396#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003396.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛媛大学 図書館 農学部分館"
+        },
+        {
+          "@value": "エヒメダイガク トシヨカン ノウガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛媛大農"
+        },
+        {
+          "@value": "エヒメダイノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003396",
+      "cinii:organizationid": "KI000786",
+      "cinii:prefcode": "38",
+      "cinii:mextid": "006602",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "愛媛大学 図書館 農学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "790-8566",
+        "v:label": "愛媛県松山市樽味3-5-7"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "089-946-9914"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "089-947-2466"
+        }
+      ],
+      "dc:description": [
+        "Agricultural Library of Ehime University",
+        "5-7,3-chome, Tarumi, Matsuyama,790-8566",
+        "http://www.lib.ehime-u.ac.jp/AGRLIB/INDEX.HTML",
+        "来館利用担当:情報サービス",
+        "電話番号 :089-946-9914",
+        "受付時間 :9:00-16:30",
+        "持参書類 :住所・氏名を明らかにする書類(身分証明書,運転免許証,健康保険証)",
+        "複写時間 :9:00-12:00, 13:00-16:30(月-金のみ)",
+        "館外貸出 :特別利用証の交付を受けた者は館外貸出可",
+        "制限事項 :利用できる資料は原則として図書館内に所蔵するものとする",
+        "休館日 :日曜・国民の休日・休業中の土曜・年末年始"
+      ]
+    }
+  ]
+}

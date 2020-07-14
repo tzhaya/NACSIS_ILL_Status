@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020158.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020158#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020158.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "多摩大学 アクティブ・ラーニングセンター 湘南キャンパス図書館"
+        },
+        {
+          "@value": "タマダイガク アクティブ・ラーニングセンター ショウナンキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "多摩大湘南"
+        },
+        {
+          "@value": "タマダイショウナン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA020158",
+      "cinii:organizationid": "KI010145",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "多摩大学 アクティブ・ラーニングセンター 湘南キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "252-0805",
+        "v:label": "神奈川県藤沢市円行802番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0466-83-7929"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0466-83-7922"
+        }
+      ],
+      "dc:description": [
+        "Tama University School of Grobal Studies Library",
+        "802 Engyo,Fujisawa-shi,Kanagawa-ken 252-0805",
+        "MAP https://www.tama.ac.jp/info/guide_shonan.html",
+        "来館利用担当:閲覧係",
+        "電話番号:0466-83-7929",
+        "FAX:0466-83-7922",
+        "受付時間:9:00-17:00",
+        "注意事項:所属大学図書館または最寄の公共図書館を通じて事前確認が必要。電話・FAX等による個人の方からの直接の問い合わせには応じられません。休館日、日・祝日及び休業中[夏季・春季]の土曜日は利用できません。",
+        "持参書類:所属図書館発行の紹介状、及び身分を証明する物",
+        "館外貸出:不可",
+        "休館日:日曜日.国民の祝祭日.メモリアルデー(1月16日).夏季・冬季・学年末休業期間中の特定日(ホームページを参照).",
+        "文献複写・相互貸借サービスの個人による申込は受付しておりません。所属図書館を通じて申込ください。",
+        "ILL-Org: Tama University School of Grobal Studies Library",
+        "ILL-Address: 802 Engyo,Fujisawa-shi,Kanagawa-ken JAPAN",
+        "ILL-ZIP: 252-0805",
+        "ILL-Commun1:Tel:+81-466-83-7929 /FAX:+81-466-83-7922/ E-mail:sgs-lib@gr.tama.ac.jp"
+      ]
+    }
+  ]
+}

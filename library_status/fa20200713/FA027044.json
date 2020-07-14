@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027044.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027044#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027044.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋記念病院 図書室"
+        },
+        {
+          "@value": "ナゴヤキネンビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名記念"
+        },
+        {
+          "@value": "ナキネン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027044",
+      "cinii:organizationid": "KI015309",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋記念病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "468-8520",
+        "v:label": "愛知県名古屋市天白区平針4-305"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-804-1111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-804-5823"
+        }
+      ]
+    }
+  ]
+}

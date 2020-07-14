@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008414.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008414#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008414.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "武庫川女子大学 附属図書館 薬学分館"
+        },
+        {
+          "@value": "ムコガワジョシダイガク フゾクトショカン ヤクガクブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "武庫女薬"
+        },
+        {
+          "@value": "ムコジョヤク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "薬分"
+      ],
+      "cinii:memberid": "FA008414",
+      "cinii:organizationid": "KI003999",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "武庫川女子大学 附属図書館 薬学分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "663-8179",
+        "v:label": "兵庫県西宮市甲子園九番町11-68"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0798-45-9935"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0798-41-2791"
+        }
+      ],
+      "dc:description": [
+        "Mukogawa Women's University Pharmaceutical Science Branch Library",
+        "複写担当係 : 相互利用係 InterLibrary Service Section",
+        "11-68, Koshien-kyuban-cho, Nishinomiya, Hyogo 663-8179, Japan",
+        "URL : http//www.mukogawa-u.ac.jp/",
+        "複写受付可否 : 可",
+        "FAX受付可否 : 可",
+        "料金 : モノクロ1枚35円 カラー1枚50円 相殺サービス加盟",
+        "料金 : 相殺未参加の場合: 郵便振替 (振込先 01190-3-36400 : 武庫川女子大学附属図書館)",
+        "貸借受付可否 : 可",
+        "貸借対象資料 : 分館所蔵図書(参考図書・雑誌を除く) 送料は借用館負担",
+        "貸出期間 : 発送日を含め20日間",
+        "貸出冊数 : 6冊以内",
+        "来館閲覧対象者 : 教職員・大学院学生・学生等(閲覧・複写)",
+        "来館利用 : 所蔵調査など事前連絡をして日時を確認・内諾を得ておくこと",
+        "来館持参書類 : 事前所蔵調査書・資料利用依頼書(身分を証明する物を携行のこと)",
+        "来館閲覧受付時間 : 9:00〜16:00(月〜土)",
+        "来館複写受付時間 : 9:00〜19:30(月〜土)",
+        "学外者館外貸出可否 : 否",
+        "通常開館時間 : 月〜土曜日 9:00〜20:00",
+        "休館 : 日曜日、国民の祝日、長期休暇中の土・日曜日、年末年始、夏季と学年末休暇の一定期間"
+      ]
+    }
+  ]
+}

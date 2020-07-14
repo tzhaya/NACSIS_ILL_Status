@@ -1,0 +1,147 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003647.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003647#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003647.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鹿児島大学 附属図書館"
+        },
+        {
+          "@value": "カゴシマダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "鹿大"
+        },
+        {
+          "@value": "カダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "中央図",
+        "法法学",
+        "法経済",
+        "法人文",
+        "教国語",
+        "教社会",
+        "教数学",
+        "教理科",
+        "教音楽",
+        "教美術",
+        "教体育",
+        "教健康",
+        "教技術",
+        "教家政",
+        "教英語",
+        "教障児",
+        "教教育",
+        "教心理",
+        "教地域",
+        "教国際",
+        "教実践",
+        "理数学",
+        "理物理",
+        "理生命",
+        "理地球",
+        "工機械",
+        "工電気",
+        "工化学",
+        "工建築",
+        "工海洋",
+        "工情報",
+        "工生体",
+        "農生産",
+        "農資源",
+        "農環境",
+        "農獣医",
+        "農農場",
+        "連大",
+        "共同施設",
+        "共通教育",
+        "法科院",
+        "エナノ融合",
+        "エナノ生体",
+        "院臨床心理",
+        "教職院"
+      ],
+      "cinii:memberid": "FA003647",
+      "cinii:organizationid": "KI000935",
+      "cinii:prefcode": "46",
+      "cinii:mextid": "007700",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "鹿児島大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "890-0065",
+        "v:label": "鹿児島市郡元1-21-35"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "099-285-7440"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "099-259-3442"
+        }
+      ],
+      "dc:description": [
+        "Kagoshima University Library",
+        "1-21-35,Korimoto,Kagoshima 890-0065",
+        "URL:https://www.lib.kagoshima-u.ac.jp/",
+        "来館利用担当:資料サービス係",
+        "電話番号:099-285-7435",
+        "受付時間:平日 8:30-21:30, 土・日 10:00-18:00",
+        "注意事項:資料の所在等.事前確認をしてください。車での来館はご遠慮ください。",
+        "持参書類:学生証・身分証明書又は閲覧願等",
+        "複写時間:平日 8:30-21:20, 土・日 10:00-17:50",
+        "館外貸出:可",
+        "制限事項:学外者の方は図書館所在の資料のみ閲覧・複写・館外貸出できます。館外貸出の場合は利用者登録が必要です。",
+        "休館日:国民の祝日,年末年始,大学記念日(11/15)",
+        "ILL-Staff:Reference Section",
+        "ILL-Dept:Inter-Library Loan Section",
+        "ILL-Org:Kagoshima University Library",
+        "ILL-Address:1-21-35 Korimoto, Kagoshima-shi, Kagoshima, Japan",
+        "ILL-Zip:890-0065",
+        "ILL-Contact1:Tel:+81-99-285-7440 / Fax:+81-99-259-3442 / E-mail:joho@lib.kagoshima-u.ac.jp",
+        "ILL-Contact2:Online Catalog: http://catalog.lib.kagoshima-u.ac.jp/opc/ / Website: https://www.lib.kagoshima-u.ac.jp/en",
+        "ILL-Calendar:Closed: Dec. 28-Jan. 3",
+        "ILL-Accept:International: COPY: Yes",
+        "ILL-Accept-method:Korea: KERIS=NII ILL linkage (COPY only) / International: E-mail",
+        "ILL-Payment-method:International: KERIS=NII Fee Management Service: Yes / International: Bank Transaction",
+        "ILL-Copy-Charge:Black-and-white: 40 JPY per sheet & Postage / Color: 80 JPY per sheet & Postage",
+        "ILL-Copy-Delivery-method:Airmail",
+        "ILL-NOTE:Will supply only photocopies",
+        "ILL-NOTE:Bank transfers will only be accepted when all bank costs including the charges for the transaction will be paid by the customer",
+        "ILL-NOTE:Only the items held at the Main Library are available",
+        "ILL-NOTE:ILL-OCLC-Symbol was YG@ (until Feb 2018)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006940.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006940#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006940.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "聖マリアンナ医科大学 医学情報センター"
+        },
+        {
+          "@value": "セイマリアンナイカダイガク イガクジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "聖マ医"
+        },
+        {
+          "@value": "セイマイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA006940",
+      "cinii:organizationid": "KI002894",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "聖マリアンナ医科大学 医学情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "216-8511",
+        "v:label": "神奈川県川崎市宮前区菅生2-16-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "044-977-8111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "044-977-9835"
+        }
+      ],
+      "dc:description": [
+        "St. Marianna University School of Medicine Medical Information Center",
+        "2-16-1 Sugao, Miyamae-ku, Kawasaki, Kanagawa, JAPAN",
+        "URL:http://mic.marianna-u.ac.jp/",
+        "閲覧担当  : カウンター係",
+        "電話番号 : 044-977-8111 (内)4870, 4871",
+        "閲覧受付時間 : 8:30-17:00",
+        "閲覧事前連絡 : 平日8:30-17:00に電話連絡のこと",
+        "閲覧持参書類 : 紹介状または閲覧願、および身分証明書",
+        "複写受付時間 : 月-金 8:30-16:00",
+        "館外貸出 : 不可",
+        "通常開館時間 : 月-金 8:30-22:00、土・日曜祝日 9:00-17:00",
+        "休館日: 開学記念日の振替日(10月第2土曜日)、年末年始(12月28日～1月3日)、その他"
+      ]
+    }
+  ]
+}

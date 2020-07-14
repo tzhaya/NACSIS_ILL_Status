@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012025.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012025#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012025.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 総合研究博物館"
+        },
+        {
+          "@value": "トウキョウダイガク ソウゴウケンキュウハクブツカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大総博"
+        },
+        {
+          "@value": "トウダイソウハク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012025",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002129",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京大学 総合研究博物館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-2803(博物館事務室)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-8451"
+        }
+      ],
+      "dc:description": [
+        "The University Museum, The University of Tokyo",
+        "7-3-1, Hongo, Bunkyo-ku, Tokyo, 113-0033 JAPAN",
+        "URL:http://www.um.u-tokyo.ac.jp",
+        "来館利用担当:東京大学研究協力部総合研究博物館グループ",
+        "電話番号:03-5841-2803(",
+        "受付時間:火・木 10:00〜15:30(12:00〜13:00は除く)",
+        "注意事項:事前連絡のこと",
+        "持参書類:紹介状、学生証、身分証明書のいずれか",
+        "館外貸出:不可",
+        "休館日:土曜日・日曜日・祝日・振替休日・年末年始・入学試験日",
+        "開室日の利用は博物館事務室へ事前連絡のこと"
+      ]
+    }
+  ]
+}

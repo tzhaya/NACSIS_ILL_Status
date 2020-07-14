@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014279.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014279#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014279.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道情報大学 図書館"
+        },
+        {
+          "@value": "ホツカイドウジヨウホウダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北情大"
+        },
+        {
+          "@value": "ホクジヨウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA014279",
+      "cinii:organizationid": "KI007515",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道情報大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "069-8585",
+        "v:label": "北海道江別市西野幌59-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-385-3778(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-385-4419"
+        }
+      ],
+      "dc:description": [
+        "Hokkaido Information University Library",
+        "59-2 Nishinopporo Ebetsu Hokkaido Japan 069-8585",
+        "URL:http://www.do-johodai.ac.jp/library/index.php",
+        "来館利用担当: 図書館事務室",
+        "電話番号: 011-385-3778",
+        "受付時間: 9:00-18:45(長期休暇時は9:00-17:30 土曜は10:00-15:45)",
+        "注意事項: 来館される場合は、HP等で開館日・来館時間等を事前にご確認下さい。",
+        "持参書類: 身分証明書",
+        "複写時間: 9:00-19:00(長期休暇時は9:00-17:45 土曜は10:00-16:00)",
+        "館外貸出: 可(利用登録が必要。雑誌及び禁帯出図書は不可)",
+        "制限事項: 研究室所蔵資料は利用不可",
+        "休館日:日曜日、祝日、年末年始、入試期間、本学の一斉休暇日等"
+      ]
+    }
+  ]
+}

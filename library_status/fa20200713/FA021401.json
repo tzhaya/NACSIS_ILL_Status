@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021401.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021401#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021401.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "星美学園短期大学 図書館"
+        },
+        {
+          "@value": "セイビガクエンタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "星美短大"
+        },
+        {
+          "@value": "セイビタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA021401",
+      "cinii:organizationid": "KI012796",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "星美学園短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "115-8524",
+        "v:label": "東京都北区赤羽台4-2-14"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3906-0056(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5993-1600(代)"
+        }
+      ],
+      "dc:description": [
+        "Seibi Gakuen College Library",
+        "4-2-14, Akabanedai, Kita-ku, Tokyo 115-8524",
+        "URL:http://www.seibi.ac.jp/college/library"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006339.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006339#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006339.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 工学部図書館"
+        },
+        {
+          "@value": "ニホンダイガク コウガクブトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大工"
+        },
+        {
+          "@value": "ニチダイコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "工",
+        "図"
+      ],
+      "cinii:memberid": "FA006339",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "07",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本大学 工学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "963-8642",
+        "v:label": "福島県郡山市田村町徳定字中河原1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "024-956-8642"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "024-956-8869"
+        }
+      ],
+      "dc:description": [
+        "The Library, College of Engineering, Nihon University",
+        "1, Nakagawara, Tokusada, Tamura-machi, Koriyama, Fukushima-ken 963-8642",
+        "URL : https://www.ce.nihon-u.ac.jp/library/"
+      ]
+    }
+  ]
+}

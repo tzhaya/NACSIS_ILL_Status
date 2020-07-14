@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018702.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018702#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018702.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "横浜市立大学 市民総合医療センター 図書室"
+        },
+        {
+          "@value": "ヨコハマシリツダイガク シミンソウゴウイリョウセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "横市大病"
+        },
+        {
+          "@value": "ヨコシダイビョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018702",
+      "cinii:organizationid": "KI00101X",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "横浜市立大学 市民総合医療センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "232-0024",
+        "v:label": "横浜市南区浦舟町 4-57"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-261-5656"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-261-4342"
+        }
+      ],
+      "dc:description": [
+        "YOKOHAMA CITY UNIVERSITY MEDICAL CENTER LIBRARY",
+        "4-57 URAFUNE-CHO MINAMI-KU YOKOHAMA 232-0024 JAPAN",
+        "電話番号 045-261-5656(内線2490)",
+        "FAX 045-261-4342",
+        "学外者の閲覧利用 : 不可",
+        "開館時間:9:00-18:00",
+        "館外貸出:不可",
+        "休館日:土曜日,日曜日,祝日,年末年始,その他",
+        "ILL:複写可、貸借不可",
+        "複写受付に関するご案内:https://opac.yokohama-cu.ac.jp/drupal/?q=ill_out"
+      ]
+    }
+  ]
+}

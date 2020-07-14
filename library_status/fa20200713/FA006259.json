@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006259.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006259#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006259.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 経済学部図書館"
+        },
+        {
+          "@value": "ニホンダイガク ケイザイガクブトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大経"
+        },
+        {
+          "@value": "ニチダイケイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006259",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本大学 経済学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-8360",
+        "v:label": "東京都千代田区神田三崎町1-3-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3219-3334"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3219-3796"
+        }
+      ],
+      "dc:description": [
+        "The Library, College of Economics, Nihon University",
+        "1-3-2, Kanda Misaki-cho 1-chome, Chiyoda-ku, Tokyo 101-8360",
+        "URL:https://www.eco.nihon-u.ac.jp/library/",
+        "来館利用担当:図書館カウンター",
+        "電話番号:03-3219-3334",
+        "FAX番号:03-3219-3796",
+        "来館受付時間:9:00～18:00(月～金) 9:00～15:00(土)※夏季・春季休暇期間は変更があります",
+        "来館注意事項: FAXで事前に問い合わせのこと",
+        "来館持参書類:資料利用依頼書(身分を証明する物を携行のこと)",
+        "館内コピー機利用可能時間: 閉館時間の30分前まで",
+        "館外貸出:不可",
+        "開館日,開館時間は図書館ウェブサイトをご確認ください",
+        "貸借・複写・閲覧注記 :指定図書や参考図書等利用に制限のある資料があります"
+      ]
+    }
+  ]
+}

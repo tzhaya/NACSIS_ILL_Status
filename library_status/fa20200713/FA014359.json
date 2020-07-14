@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014359.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014359#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014359.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東洋英和女学院大学 図書館"
+        },
+        {
+          "@value": "トウヨウエイワジョガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東洋英女"
+        },
+        {
+          "@value": "トウヨウエイジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014359",
+      "cinii:organizationid": "KI007581",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東洋英和女学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "226-0015",
+        "v:label": "神奈川県横浜市緑区三保町32"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-922-0301"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-921-7815"
+        }
+      ],
+      "dc:description": [
+        "Toyo Eiwa University Library",
+        "Address: 32 Mihocho, Midori-ku, Yokohama-shi, Kanagawa 226-0015",
+        "URL:http://www.toyoeiwa.ac.jp/daigaku/shisetsu/library/index.html",
+        "電子ジャーナルの複写可(契約上ILL提供が認められているものに限る)",
+        "事前連絡: 要(FAX)",
+        "持参資料: 紹介状 および 身分証明書",
+        "開館時間: 月-金 8:50-20:00 休暇期間等は時間短縮します。詳細はホームページでご確認ください。",
+        "休館日: 土曜日、日曜日、祝祭日、年末年始、創立記念日(11月6日)、学院・大学の行事の日、夏期・冬期・春期休暇中の一定期間、入学試験日",
+        "閲覧受付時間:平日 9:00-18:00  利用時間:平日9:00-20:00",
+        "",
+        "館外貸出: 不可",
+        "注記: 車での来館はご遠慮ください。"
+      ]
+    }
+  ]
+}

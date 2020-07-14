@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004093.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004093#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004093.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "奈良県立医科大学 附属図書館"
+        },
+        {
+          "@value": "ナラケンリツイカダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "奈医大"
+        },
+        {
+          "@value": "ナイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004093",
+      "cinii:organizationid": "KI001199",
+      "cinii:prefcode": "29",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "奈良県立医科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "634-8523",
+        "v:label": "奈良県橿原市四条町840"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0744-22-3051"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0744-23-3273"
+        }
+      ],
+      "dc:description": [
+        "Nara Medical University Library",
+        "840 Shijo-cho,Kashihara-shi,Nara 634-8523",
+        "URL:http://www.naramed-u.ac.jp/lib/ (website)",
+        "URL:http://www.naramed-u.ac.jp/access/index.html (map)",
+        "電話番号:0744-22-3051 内線:2294",
+        "受付時間:9:00〜18:00(但し、8/1〜8/31=9:00〜17:00)",
+        "来館利用担当:情報サービス担当",
+        "注意事項:他部局の所蔵も多いので、事前に確認してください。",
+        "持参書類:身分証明書",
+        "館外貸出:不可",
+        "複写のための時間は来館受付時間に同じ",
+        "休館日:土曜日・日曜日・祝日・12/26〜1/5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014472.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014472#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014472.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関東学院大学 図書館 小田原分館"
+        },
+        {
+          "@value": "カントウガクインダイガク トショカン オダワラブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関東院大小"
+        },
+        {
+          "@value": "カントウインダイショウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA014472",
+      "cinii:organizationid": "KI002839",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "関東学院大学 図書館 小田原分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "250-0042",
+        "v:label": "神奈川県小田原市荻窪1162-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-786-7025(本館)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-785-9572(本館)"
+        }
+      ],
+      "dc:description": [
+        "KANTO GAKUIN UNIVERSITY LIBRARY, ODAWARA BRANCH",
+        "1162-2,OGIKUBO,ODAWARA,KANAGAWA 250-0042",
+        "URL: https://kgulibrary.kanto-gakuin.ac.jp/ (WEBSITE)",
+        "来館利用不可 ※本館(金沢八景キャンパス)へ取寄せての利用は可能です。(要事前連絡・紹介状持参)",
+        "電話: 045-786-7025(本館)"
+      ]
+    }
+  ]
+}

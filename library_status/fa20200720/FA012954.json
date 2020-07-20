@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012954.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012954#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012954.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "ブリティッシュ・ライブラリー"
+        },
+        {
+          "@value": "ブリティッシュ・ライブラリー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "BL/"
+        },
+        {
+          "@value": "BL",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "APAC",
+        "SRIS"
+      ],
+      "cinii:memberid": "FA012954",
+      "cinii:organizationid": "KI00950X",
+      "cinii:prefcode": "254",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "ブリティッシュ・ライブラリー",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:label": "The British Library, 96 Euston Road, London, NW1 2DB, UNITED KINGDOM"
+      },
+      "dc:description": [
+        "The British Lbirary, Japanese Studies",
+        "To register for a Reader Pass, identification and proof of address are required. See the link.",
+        "閲覧パス申請方法、及び必須事項について、リンクウェブサイト参照のこと。",
+        "URL:http://www.bl.uk/reshelp/inrrooms/stp/register/stpregister.html (website)"
+      ]
+    }
+  ]
+}

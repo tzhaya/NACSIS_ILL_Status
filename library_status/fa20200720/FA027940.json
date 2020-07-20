@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027940.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027940#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027940.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "津島市民病院 図書室"
+        },
+        {
+          "@value": "ツシマシミンビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "津島市病"
+        },
+        {
+          "@value": "ツシマシビョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027940",
+      "cinii:organizationid": "KI025481",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "津島市民病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "496-8537",
+        "v:label": "津島市橘町3丁目73番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0567-28-5151(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0567-28-5053(共用)"
+        }
+      ],
+      "dc:description": [
+        "支払方法:小額切手(後納) 、ILL相殺サービス非加盟館です。",
+        "複写料金:モノクロ1枚20円、カラー1枚100円",
+        "担当者不在で即日対応できない場合があります。お急ぎの場合は、事前に電話でご確認ください。",
+        "担当者在室時間:月～金 10時～15時"
+      ]
+    }
+  ]
+}

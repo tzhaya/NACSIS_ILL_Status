@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010777.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010777#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010777.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "栃木県立図書館"
+        },
+        {
+          "@value": "トチギケンリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "栃県図"
+        },
+        {
+          "@value": "トチケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "調査"
+      ],
+      "cinii:memberid": "FA010777",
+      "cinii:organizationid": "KI005972",
+      "cinii:prefcode": "09",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "栃木県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "320-0027",
+        "v:label": "栃木県宇都宮市塙田1-3-23"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "028-622-5111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "028-624-7855"
+        }
+      ],
+      "dc:description": [
+        "Tochigi Prefectural Library",
+        "1-3-23, Hanawada, Utsunomiya-shi, Tochigi 320-0027",
+        "来館利用担当:調査相談課",
+        "電話番号:028-622-5112",
+        "電話番号:028-622-5112",
+        "受付時間:9:00〜19:00(土・日は9:00〜17:00)",
+        "注意事項:車での来館はご遠慮下さい。県内在住者又は通勤・通学者は館外貸出ができます。",
+        "持参書類:館外利用券を作る方は免許証・保険証など",
+        "複写時間:受付時間に同じ",
+        "館外貸出:可",
+        "休館日:月曜日、第4木曜日、年末年始、特別整理期間(年2回)"
+      ]
+    }
+  ]
+}

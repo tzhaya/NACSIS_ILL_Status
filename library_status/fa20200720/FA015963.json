@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015963.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015963#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015963.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "久留米工業高等専門学校 図書館"
+        },
+        {
+          "@value": "クルメコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "久留米高専"
+        },
+        {
+          "@value": "クルメコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015963",
+      "cinii:organizationid": "KI008766",
+      "cinii:prefcode": "40",
+      "cinii:mextid": "604500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "久留米工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "830-8555",
+        "v:label": "久留米市小森野一丁目1番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0942-35-9384"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0942-35-9319(学生課)"
+        }
+      ],
+      "dc:description": [
+        "Kurume National College of Thechnology",
+        "1-1-1 Komorino, Kurume City, Fukuoka 830-8555",
+        "来館利用担当:学術情報係",
+        "電話番号:0942-35-9306",
+        "受付時間:平日9:00-20:00,土曜日9:00-17:00(休業期間9:00-17:00)",
+        "注意事項:資料の所在等は、事前に電話等でお問合せください。学外者の利用については、一般利用規則に基づくこととします。",
+        "持参書類:身分証明書、健康保険証、運転免許証、学生証等身分が確認できる書類等",
+        "複写時間:複写は不可",
+        "館外貸出:「図書館利用手続き」者は貸出可",
+        "制限事項:閲覧室内の資料に限る。",
+        "休館日:日曜日、国民の祝日、開校記念日(4月18日)、年末・年始(12月28日-1月4日)"
+      ]
+    }
+  ]
+}

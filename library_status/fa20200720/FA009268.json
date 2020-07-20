@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA009268.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA009268#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA009268.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "独立行政法人 大学入試センター 図書室"
+        },
+        {
+          "@value": "ドクリツギョウセイホウジン ダイガクニユウシセンター トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大学入試センター"
+        },
+        {
+          "@value": "ダイガクニュウシセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009268",
+      "cinii:organizationid": "KI00470X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "独立行政法人 大学入試センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "153-8501",
+        "v:label": "東京都目黒区駒場2-19-23"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5478-1235"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5478-1297"
+        }
+      ],
+      "dc:description": [
+        "The National Center for Univ. Entrance Examinations",
+        "2-19-23 Komaba, Meguro-ku, Tokyo, 153-8501, Japan",
+        "URL:http://www.dnc.ac.jp",
+        "来館利用担当:総務課研究支援係",
+        "電話番号:03-5478-1235(ダイヤルイン)",
+        "受付時間:9:30〜17:00",
+        "注意事項:本センターが試験実施機関であることから施設への立ち入り及び資料の閲覧に関して、制限があるため利用する場合、事前に承認が必要。(どちらかというと立ち入り不可)",
+        "持参書類:身分証明書",
+        "複写時間:",
+        "館外貸出:不可",
+        "休館日:土・日曜日、国民の祝日、年末年始(12月28日〜1月4日)、創立記念日(5月2日)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001164.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001164#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001164.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 大学院水産科学研究科・水産学部図書室"
+        },
+        {
+          "@value": "ホッカイドウダイガク ダイガクインスイサンカガクケンキュウカ・スイサンガクブトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大水"
+        },
+        {
+          "@value": "ホクダイスイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "研究室",
+        "資料室",
+        "保存庫"
+      ],
+      "cinii:memberid": "FA001164",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000109",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道大学 大学院水産科学研究科・水産学部図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "041-8611",
+        "v:label": "北海道函館市港町3-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0138-40-5611"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0138-40-5587"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Hokkaido University, Library, Faculty of Fisheries Sciences, Graduate School of Fisheries Sciences, School of Fisheries Sciences",
+        "ILL-Address:3-1-1, Minato-cho, Hakodate, Hokkaido 041-8611, Japan",
+        "URL:https://www.lib.hokudai.ac.jp/fish/",
+        "開館時間:9:00〜20:00(学生の休業期間中は9:00〜17:00)",
+        "休館日:土曜日, 日曜日, 国民の祝日, 年末年始",
+        "持参書類:身分を証明できるもの",
+        "館外貸出可否:可(ただし学内者及び図書館利用証の交付を受けた者に限る)",
+        "相互利用:文献複写:可。NII料金相殺サービス参加館のみNACSIS-ILLで直接受付。非参加館からの申込は北海道大学附属図書館利用支援課相互利用担当経由で受付。",
+        "相互利用:現物貸借:可。送料は、NII料金相殺サービス参加館は相殺。非参加館は切手または着払い。"
+      ]
+    }
+  ]
+}

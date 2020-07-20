@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010234.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010234#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010234.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 森林研究・整備機構 森林総合研究所 九州支所"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン シンリンケンキュウ・セイビキコウ シンリンソウゴウケンキュウショ キュウシュウシショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "森林総研九州"
+        },
+        {
+          "@value": "シンリンソウケンキュウシュウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA010234",
+      "cinii:organizationid": "KI005462",
+      "cinii:prefcode": "43",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 森林研究・整備機構 森林総合研究所 九州支所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "860-0862",
+        "v:label": "熊本県熊本市中央区黒髪4-11-16"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "096-343-3168"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "096-344-5054"
+        }
+      ],
+      "dc:description": [
+        "Kyushu Research Center, Forestry and Forest Products Research Institute",
+        "4-11-16, Kurokami, chuo-ku, Kumamoto 860-0862",
+        "URL:https://www.ffpri.affrc.go.jp/kys/",
+        "来館利用担当:図書室",
+        "電話番号:096-343-3168",
+        "受付時間:9:00-16:00(ただし、12:00-13:00は不可)",
+        "注意事項:一般の方は、貸出および複写はできません。",
+        "館外貸出:不可",
+        "休館日:土日、国民の休日、年末年始"
+      ]
+    }
+  ]
+}

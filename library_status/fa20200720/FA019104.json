@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019104.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019104#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019104.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "佐久大学 図書館"
+        },
+        {
+          "@value": "サクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "佐久大"
+        },
+        {
+          "@value": "サクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA019104",
+      "cinii:organizationid": "KI01132X",
+      "cinii:prefcode": "20",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "佐久大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "385-0022",
+        "v:label": "長野県佐久市岩村田2384"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0267-68-6680(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0267-68-6687(代表)"
+        }
+      ]
+    }
+  ]
+}

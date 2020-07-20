@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008990.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008990#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008990.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "長崎総合科学大学 附属図書館"
+        },
+        {
+          "@value": "ナガサキソウゴウカガクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "長総大"
+        },
+        {
+          "@value": "チョウソウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008990",
+      "cinii:organizationid": "KI004470",
+      "cinii:prefcode": "42",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "長崎総合科学大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "851-0193",
+        "v:label": "長崎県長崎市網場町536"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "095-838-5142(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "095-838-2072"
+        }
+      ],
+      "dc:description": [
+        "Library of Nagasaki Institute of Applied Science",
+        "536 Aba-machi, Nagasaki-City, Nagasaki 851-0193",
+        "URL:https://opac.lib.nias.ac.jp/drupal/ (website)"
+      ]
+    }
+  ]
+}

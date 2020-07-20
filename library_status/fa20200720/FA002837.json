@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002837.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002837#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002837.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都工芸繊維大学 附属図書館"
+        },
+        {
+          "@value": "キョウトコウゲイセンイダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京工繊"
+        },
+        {
+          "@value": "キョウコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "応用化学系図書室",
+        "情報科学センター",
+        "生体・高分子図書室",
+        "図書館和雑誌",
+        "図書館洋雑誌",
+        "貴重図書室",
+        "白書年鑑コーナー",
+        "新聞コーナー",
+        "研究室備付",
+        "電子ジャーナル"
+      ],
+      "cinii:memberid": "FA002837",
+      "cinii:organizationid": "KI000582",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "005000",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "京都工芸繊維大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8585",
+        "v:label": "京都市左京区松ケ崎橋上町1番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-724-7191"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-724-7180"
+        }
+      ],
+      "dc:description": [
+        "Kyoto Institute of Technology Library",
+        "Hashigami-cho, Matsugasaki, Sakyo-ku, Kyoto 606-8585",
+        "URL:http://www.lib.kit.ac.jp(HP学外者利用案内ページは改訂中)",
+        "URL:http://www.kit.ac.jp/01/01_110000.html(map)",
+        "注意事項 :特定資料の閲覧を希望する場合は、所属機関の図書館または公共図書館を通して、事前にFAXにて所蔵調査および閲覧依頼の照会をお願いいたします。",
+        "持参書類 :閲覧依頼書回答の写し,身分証",
+        "館外貸出 :不可",
+        "通常開館時間 :9:00〜21:00(土曜日10:00〜17:00)",
+        "休業中開館時間:9:00〜17:00(土曜日 休館)",
+        "休館日 :日曜日・国民の祝日・年末年始(12/28〜1/4)・休業期間中の土曜日・その他臨時に休館することがある(開館日程・時間は当館ホームページで見ることができる)。",
+        "ILL-Staff:",
+        "ILL-Dept: Interlibrary Loan Service Section",
+        "ILL-Org: Kyoto Institute of Technology Library",
+        "ILL-Address: 1, Matsugasaki Hashikamicho, Sakyo-ku Kyoto-shi, Kyoto, Japan",
+        "ILL-ZIP: 606-8585",
+        "ILL-Commun1: Tel:+81-75-724-7191 / FAX:+81-75-724-7180 / E-mail:library@jim.kit.ac.jp",
+        "ILL-Commun2: OPAC:http://opac.lib.kit.ac.jp/webopac/, Home-Page:http://www.lib.kit.ac.jp/",
+        "ILL-Accept:Foreign:OCLC(NII-OCLC Link ILL Link only): KITLI",
+        "ILL-OCLC-Symbol: KITLI",
+        "ILL-Sched: holiday, Mid August(During Bon week), Year-end and New Year season",
+        "ILL-Bill: Foreign:OCLC-IFM only",
+        "ILL-Loan-Period: N/A",
+        "ILL-Loan-Renew: N/A",
+        "ILL-Loan-Charge: N/A",
+        "ILL-Non-Circulation: N/A",
+        "ILL-Copy-Charge: Photocopy: 35 YEN per sheet. Delivery method: via airmail",
+        "ILL-Note: photo copy only"
+      ]
+    }
+  ]
+}

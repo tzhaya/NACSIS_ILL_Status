@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008899.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008899#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008899.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "中村学園大学 図書館"
+        },
+        {
+          "@value": "ナカムラガクエンダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中村大"
+        },
+        {
+          "@value": "ナカムラダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008899",
+      "cinii:organizationid": "KI004390",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "中村学園大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "814-0198",
+        "v:label": "福岡県福岡市城南区別府5-7-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-851-2573"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-841-7762"
+        }
+      ],
+      "dc:description": [
+        "Nakamura Gakuen University Library",
+        "5-7-1, Befu, Jonan-ku, Fukuoka 814-0198",
+        "URLhttp://www.nakamura-u.ac.jp/library/(website)",
+        "URL:http://www.nakamura-u.ac.jp/access.html(map)",
+        "来館利用担当:閲覧係",
+        "電話番号:092-851-2573 (直通)・092-851-2531 (代表) (EX:343)",
+        "受付時間:9:00〜17:00",
+        "注意事項:資料の所在等、事前に確認してください。開館日、開館時間を確認して来館ください。学外者への館外貸出をいたしておりません。",
+        "持参書類:身分証明書",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日 :日曜日・国民の祝日・第2,第4土曜日・本学創立記念日(5月17日)・定例休館日(毎月月末)・学園祭・入試期間・8月13日〜15日前後・年末年始(12月28日〜1月5日)前後・入学式・卒業式"
+      ]
+    }
+  ]
+}

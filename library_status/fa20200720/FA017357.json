@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017357.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017357#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017357.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "筑波学院大学 附属図書館"
+        },
+        {
+          "@value": "ツクバガクインダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "筑波学院大"
+        },
+        {
+          "@value": "ツクバガクインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017357",
+      "cinii:organizationid": "KI010021",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "筑波学院大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-0031",
+        "v:label": "茨城県つくば市吾妻3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-858-4820"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-858-7399"
+        }
+      ],
+      "dc:description": [
+        "Tsukuba Gakuin University Library",
+        "3-1 Azuma, Tsukuba-shi, Ibaraki 305-0031",
+        "URL:http://www.tsukuba-g.ac.jp/library/library_top.html",
+        "来館利用担当:閲覧・参考",
+        "電話番号:029-858-4820",
+        "受付時間:月〜金:9:00〜17:00",
+        "受付時間:土曜日:9:00〜12:00",
+        "注意事項:",
+        "持参資料:身分を証明するもの",
+        "複写時間:上記受付時間",
+        "館外貸出:可 (身分書の提示と登録票に記入のこと)",
+        "制限事項:18歳以上(高校生を除く)",
+        "***** 本学紀要についてはPDFで全文を公開していますので、当館のHPをご利用ください。 *****",
+        "休館日 :日曜日、国民の祝日、創立記念日(5月21日)",
+        "休館日 :年末年始(12月26日〜1月6日)",
+        "休館日 :夏季休業中の土曜日及び学内施設点検期間",
+        "ILL- Tsukuba Gakuin University Library",
+        "ILL-Address:3-1 Azuma, Tsukuba-shi, Ibaraki JAPAN",
+        "ILL-ZIP:305-0031",
+        "ILL-ZIP:305-0031",
+        "ILL-ZIP:305-0031"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018870.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018870#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018870.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋柳城女子大学・名古屋柳城短期大学 図書館"
+        },
+        {
+          "@value": "ナゴヤリュウジョウジョシダイガク・ナゴヤリュウジョウタンキダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名柳大"
+        },
+        {
+          "@value": "メイリュウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018870",
+      "cinii:organizationid": "KI011115",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋柳城女子大学・名古屋柳城短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "466-0034",
+        "v:label": "名古屋市昭和区明月町2-54"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-841-2635"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-841-2697"
+        }
+      ],
+      "dc:description": [
+        "Nagoya Ryujo (St. Mary's) College",
+        "2-54,Meigetsu,Showa-ku,Nagoya 466-0034",
+        "Telephone:(+81)52-841-2635 Facsimile:(+81)52-841-2697",
+        "来館利用担当: 閲覧係",
+        "電話番号: 052-841-2635",
+        "URL:http://ryujo.opac.jp/",
+        "開館時間( 通 常 ): 9:00〜19:00",
+        "開館時間(休業中): 9:00〜17:00",
+        "休館日: 土曜日・日曜日・祝祭日、春季・夏季・冬季休業中の一定期間 その他館長が必要と認める日",
+        "注意事項: 学外来館者の範囲については、電話でお問い合せください。",
+        "注意事項: 来館する場合は、17時までに必ず事前連絡してください。事前連絡のない場合は利用をお断りすることがあります。",
+        "注意事項: 学外者(卒業生を除く)の方の館外貸出はできません。",
+        "制限事項: 貴重図書等、閲覧を許可しないものがあります。(事前許可制)",
+        "持参書類: 利用紹介状(身分を証明するものを携行のこと)"
+      ]
+    }
+  ]
+}

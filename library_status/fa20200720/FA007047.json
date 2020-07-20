@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007047.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007047#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007047.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "金沢工業大学 ライブラリーセンター"
+        },
+        {
+          "@value": "カナザワコウギヨウダイガク ライブラリーセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "金工大"
+        },
+        {
+          "@value": "キンコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007047",
+      "cinii:organizationid": "KI002996",
+      "cinii:prefcode": "17",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "金沢工業大学 ライブラリーセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "921-8501",
+        "v:label": "石川県野々市市扇が丘7-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "076-294-6682"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "076-248-6189"
+        }
+      ],
+      "dc:description": [
+        "複写担当係 :業務課学習支援係",
+        "複写受付可否 :可",
+        "複写受付窓口 :",
+        "FAX受付可否 :可(注:文献のFAX送信についてはご相談ください)",
+        "複写方法・料金:電子複写(白黒:50円/1枚 カラー:100円/1枚)",
+        "決済方法 :ILL料金相殺サービス加入機関=料金相殺、未加入機関=後納",
+        "支払方法 :ILL料金相殺サービス加入機関=ILL料金相殺サービスによる会計処理による、未加入機関=銀行振込、郵便振替",
+        "振込先 :請求時連絡",
+        "複写注記 :業務集中時受付を停止する場合があります。",
+        "貸借担当係 :業務課学習支援係",
+        "貸借受付可否 :可",
+        "貸借受付窓口 :",
+        "貸出期間 :2週間",
+        "貸出冊数 :10冊",
+        "館外貸出:不可",
+        "貸借注記 :",
+        "閲覧担当係 :業務課学習支援係",
+        "閲覧対象者 :",
+        "閲覧事前連絡 :事前連絡必要",
+        "閲覧持参書類 :「資料利用依頼書(紹介状)」と身分を証明するもの",
+        "閲覧受付時間 :9:00〜17:00(土曜日〜12:30)",
+        "複写受付時間 :9:00〜21:30(土曜日〜16:30)",
+        "館外貸出可否 :否",
+        "閲覧注記 :複写はコイン式コピー機によるサービス(1枚10円)",
+        "閲覧注記 :資料の所在等、事前確認をして下さい。",
+        "通常開館時間 :8:30〜22:00(土曜日〜17:00)(出納〜21:30)",
+        "休業中開館時間:8:30〜17:00(土曜日〜13:00)(出納〜16:30)",
+        "休館日:創立記念日(6月1日)・事情によりあらかじめ掲示する日",
+        "注記:2020年4月13日(月)～当面の間、ILL受付を停止いたします。",
+        "Kanazawa Institute of Technology Library Center",
+        "7-1 Ohgigaoka Nonoichi Ishikawa 921-8501, Japan",
+        "URL:http://www.kanazawa-it.ac.jp/kitlc/",
+        "URL:http://www.kanazawa-it.ac.jp/about-kit/where.html (map)"
+      ]
+    }
+  ]
+}

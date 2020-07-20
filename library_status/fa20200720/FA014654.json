@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014654.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014654#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014654.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宮崎公立大学 附属図書館"
+        },
+        {
+          "@value": "ミヤザキコウリツダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宮公大"
+        },
+        {
+          "@value": "ミヤコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA014654",
+      "cinii:organizationid": "KI007821",
+      "cinii:prefcode": "45",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "宮崎公立大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "880-8520",
+        "v:label": "宮崎県宮崎市船塚1丁目1番地2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0985-20-4814"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0985-20-4806"
+        }
+      ],
+      "dc:description": [
+        "=====来館利用について=====",
+        "URL:http://www.miyazaki-mu.ac.jp/library/ (図書館ホームページ)",
+        "開館時間:平日 9:00-20:00 ([休業期間中]9:00-17:00)",
+        "休館日:土曜日、日曜日、祝日、年末年始(12/29-1/3)",
+        "※その他の休館日/開館日・開館時間等は、図書館HPより開館カレンダーをご確認ください。",
+        "閲覧受付時間:9:00-20:00 ([休業期間中]9:00-17:00)",
+        "閲覧注記:研究室配置図書については利用不可",
+        "複写受付時間:9:00-20:00 ([休業期間中]9:00-17:00)",
+        "複写注記;館内の複写機はコイン式です(領収書類の発行は不可)。",
+        "館外貸出、利用上の注意等の詳細は図書館HPの利用案内「学外の方の利用について」をお読みください。",
+        "来館利用担当:企画総務課企画係附属図書館",
+        "ILL-Org: Miyazaki Municipal University",
+        "ILL-Address: 1-1-2, Funatsuka, Miyazaki-shi, Miyazaki, JAPAN",
+        "ILL-ZIP: 880-8520",
+        "ILL-Commun1: Tel:+81-985-20-4814 /FAX:+81-985-20-4806 /E-mail:lib@miyazaki-mu.ac.jp"
+      ]
+    }
+  ]
+}

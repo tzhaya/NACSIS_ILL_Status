@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027805.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027805#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027805.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "滋賀県立琵琶湖博物館"
+        },
+        {
+          "@value": "シガケンリツビワコハクブツカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "琵琶博"
+        },
+        {
+          "@value": "ビワハク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA027805",
+      "cinii:organizationid": "KI025415",
+      "cinii:prefcode": "25",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "滋賀県立琵琶湖博物館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "525-0001",
+        "v:label": "草津市下物町1091"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0775684836"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0775684850"
+        }
+      ],
+      "dc:description": [
+        "Lake Biwa Museum",
+        "1091 Oroshimo, Kusatsu, Shiga 525-0001",
+        "https://www.biwahaku.jp/",
+        "図書検索:https://www.lib-eye.net/biwahaku/servlet/Index?findtype=1",
+        "=======================================================",
+        "来館利用 WEBPOLICY:=======================================================",
+        "=======================================================",
+        "利用時間:博物館の開館日 9:30～16:30",
+        "閲 覧 :可",
+        "複 写 :可 (有料/モノクロのみ)",
+        "貸 出 :不可",
+        "電話番号:077-568-4836 / E-mail : library@biwahaku.jp",
+        "図書室は「おとなのディスカバリー」内にございます。",
+        "質問コーナーカウンターにて図書利用の旨お伝えください。",
+        "※図書利用のみの場合は入館料無料(総合案内で手続き必要)",
+        "=======================================================",
+        "文献複写",
+        "=======================================================",
+        "複写料金:1枚10円(モノクロのみ)",
+        "決済方法:前納(※NII相殺サービス不参加)",
+        "支払い方法:",
+        "・申込内容を確認後、コピー料金と郵送料をお知らせいたします。",
+        "・合計金額を定額小為替および切手にて郵送してください。",
+        "・入金を確認でき次第、複写物をお送りいたします。",
+        "=======================================================",
+        "滋賀県立琵琶湖博物館",
+        "〒525-0001 滋賀県草津市下物町1091",
+        "TEL: 077-568-4811 / FAX: 077-568-4850",
+        "休館日・開館時間など詳しくは当館ホームページをご覧ください。",
+        "======================================================="
+      ]
+    }
+  ]
+}

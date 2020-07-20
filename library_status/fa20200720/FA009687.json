@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA009687.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA009687#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA009687.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "農林水産省 農林水産研究情報総合センター"
+        },
+        {
+          "@value": "ノウリンスイサンショウ ノウリンスイサンケンキュウジョウホウソウゴウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "農水情セ"
+        },
+        {
+          "@value": "ノウスイジヨウセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "情セ"
+      ],
+      "cinii:memberid": "FA009687",
+      "cinii:organizationid": "KI005054",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "農林水産省 農林水産研究情報総合センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-8601",
+        "v:label": "茨城県つくば市観音台2-1-9"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-838-7284"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-838-7364"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当:情報管理係",
+        "電話番号:029-838-7284",
+        "受付時間:9:00-12:00、13:00-16:30",
+        "注意事項:一般の方は,貸出および複写はできません。",
+        "館外貸出:不可",
+        "新型コロナウイルス対策のため、現在、書架及び閲覧スペースへは入れません。",
+        "配架場所「1F」「3F」の資料は係員が出納します。閲覧希望の方は来館時にカウンターにお申し出下さい。",
+        "休館日:土日,国民の休日,年末年始",
+        "URL:https://opac.cc.affrc.go.jp/",
+        "ILL-Org: Agriculture, Forestry and Fisheries Research Information Technology Center (AFFRIT)",
+        "ILL-Address:2-1-9, Kannondai, Tsukuba, Ibaraki, JAPAN",
+        "ILL-ZIP:305-8601",
+        "ILL-Commun1: Tel:+81-29-838-7284 /FAX:+81-29-838-7364 /E-mail:ref-cc@ml.affrc.go.jp"
+      ]
+    }
+  ]
+}

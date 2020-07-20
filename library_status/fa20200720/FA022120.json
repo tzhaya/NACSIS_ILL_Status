@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA022120.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA022120#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA022120.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 桂図書館"
+        },
+        {
+          "@value": "キョウトダイガク カツラトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大桂"
+        },
+        {
+          "@value": "キョウダイカツラ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "桂電気系",
+        "桂化学系",
+        "桂建築系",
+        "桂地球系",
+        "桂物理系",
+        "図",
+        "図BNC"
+      ],
+      "cinii:memberid": "FA022120",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "京都大学 桂図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "615-8530",
+        "v:label": "京都府京都市西京区京都大学桂"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-383-2344"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-383-3576"
+        }
+      ],
+      "dc:description": [
+        "Katsura Library, Kyoto University",
+        "Kyoto-Daigaku-Katsura, Nishikyo-ku, Kyoto 615-8530",
+        "URL:http://www.t.kyoto-u.ac.jp/lib/ja (website)",
+        "URL:http://www.kulib.kyoto-u.ac.jp/modules/map/index.php?content_id=13 (map)",
+        "電話番号:075-383-2344",
+        "EMAIL: 090stosho@mail2.adm.kyoto-u.ac.jp",
+        "受付時間:9:00-17:00",
+        "注意事項:閲覧に際しては、資料の所在等を事前に確認してください。",
+        "館外貸出:学外者の方への館外貸出はできません。",
+        "制限事項:次に該当する資料には、閲覧できないものがあります。:「情報公開法」に定める公開対象外情報が記載された資料/非公開を条件に寄贈または寄託されている資料/破損や汚損のおそれがある資料/現在利用中の資料",
+        "制限事項:資料の複写及び閉架資料、貴重資料の閲覧には、所定の手続きが必要です。",
+        "休室日:土曜日・日曜日・国民の祝日・年末年始・本学創立記念日(6月18日)・8月第3週の月曜日から水曜日・その他",
+        "ILL-Org:Katsura Library, Kyoto University",
+        "ILL-Address:Kyoto-Daigaku-Katsura, Nishikyo-ku, Kyoto",
+        "ILL-Zip:615-8530",
+        "ILL-Commun1:Tel:+81-75-383-3571 / Fax:+81-75-383-3576 / E-mail:090stosho@mail2.adm.kyoto-u.ac.jp"
+      ]
+    }
+  ]
+}

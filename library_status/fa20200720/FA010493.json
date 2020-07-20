@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010493.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010493#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010493.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 産業技術総合研究所 四国センター 図書室"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン サンギョウギジュツソウゴウケンキュウショ シコクセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産総研四国センター"
+        },
+        {
+          "@value": "サンソウケンシコクセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010493",
+      "cinii:organizationid": "KI005724",
+      "cinii:prefcode": "37",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立研究開発法人 産業技術総合研究所 四国センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "761-0395",
+        "v:label": "香川県高松市林町2217番14"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "087-869-3511"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "087-869-3553"
+        }
+      ]
+    }
+  ]
+}

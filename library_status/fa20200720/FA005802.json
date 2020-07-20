@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005802.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005802#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005802.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東海大学 付属図書館"
+        },
+        {
+          "@value": "トウカイダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東海大湘南"
+        },
+        {
+          "@value": "トウカイダイショウナン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "中央",
+        "11",
+        "12",
+        "13"
+      ],
+      "cinii:memberid": "FA005802",
+      "cinii:organizationid": "KI002329",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東海大学 付属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "259-1292",
+        "v:label": "神奈川県平塚市北金目四丁目1番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0463-58-1211"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0463-50-2459"
+        }
+      ],
+      "dc:description": [
+        "Tokai University Library",
+        "4-1-1, Kitakaname, Hiratsuka-shi, Kanagawa 259-1292",
+        "URL:https://library.time.u-tokai.ac.jp/ (website)",
+        "来館利用担当 :利用係(中央図書館、11号館分館、12号館分館、13号館分館)",
+        "電話番号 :0463-58-1211 (内 2731、2753、2761、2741)",
+        "FAX番号 :0463-50-2459(中央)、0463-50-2040(11号館)",
+        "0463-50-2042(12号館)、0463-50-2043(13号館)",
+        "閲覧事前連絡 :電話・FAXで事前確認してください。(資料の所在、日時等)",
+        "閲覧持参書類 :資料利用依頼書(身分を証明するものを携行のこと)",
+        "閲覧受付時間 :9:00〜17:00(土曜日9:00〜16:00)",
+        "複写受付時間 :閉館10分前まで",
+        "館外貸出可否 :否",
+        "閲覧注記 :貴重図書・特別図書については、事前に別途利用手続きが必要です。また利用可能時間が通常とは異なりますので、ご了承ください。",
+        "閲覧注記 :湘南校舎には4館ありますので、申込時には所蔵館名を明示してください",
+        "閲覧注記 :学外者個人からの直接申込には応じられません。利用の可否については所属の大学図書館か公共図書館を通じての事前照会が必要です",
+        "通常開館時間 :9:00〜22:00(土曜日9:00〜19:00)",
+        "休業中開館時間 :9:00〜17:00(土曜日は9:00〜16:00、夏期は土曜日休館)",
+        "休館日 :日曜日・祝祭日・大学休業日・年度末",
+        "学外者の方の利用については、当館ホームページをご覧ください。(https://library.time.u-tokai.ac.jp/?page_id=121)",
+        "ILL-Staff:",
+        "ILL-Dept:",
+        "ILL-Org:Tokai University Library",
+        "ILL-Address:4-1-1, Kitakaname, Hiratsuka, Kanagawa,JAPAN",
+        "ILL-Zip:259-1292",
+        "ILL-Commun1:Tel:+81-463-58-1211 / Fax:+81-463-50-2459 / E-mail:lib01@tsc.u-tokai.ac.jp",
+        "ILL-Commun2:OPAC:https://library.time.u-tokai.ac.jp/ (website)",
+        "ILL-Accept:Foreign:OCLC(NII-OCLC ISO ILL Link only):TOK",
+        "ILL-Sched:Closed:early February, mid-August",
+        "ILL-Bill:Foreign: OCLC-IFM only",
+        "ILL-Copy-Charge:Photocopy: 50 YEN per sheet / Postage required / Delivery method: via airmail",
+        "ILL-Note:Only the items held at the Main Library are available / Delivery method: Photocopy: via airmail only, Ariel not supported",
+        "ILL-OCLC-Symbol:TOK"
+      ]
+    }
+  ]
+}

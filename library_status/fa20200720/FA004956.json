@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004956.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004956#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004956.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "亜細亜大学 図書館"
+        },
+        {
+          "@value": "アジアダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "亜大"
+        },
+        {
+          "@value": "アダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004956",
+      "cinii:organizationid": "KI001905",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "亜細亜大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "180-8629",
+        "v:label": "東京都武蔵野市境5-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0422-36-3282"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0422-36-3297"
+        }
+      ],
+      "dc:description": [
+        "Asia University Library",
+        "5-8 Sakai, Musashino-shi, Tokyo 180-8629",
+        "URL:https://www.asia-u.ac.jp/library/",
+        "来館利用担当:レファレンス",
+        "平日9:00～16:30",
+        "注意事項:資料の所在等、事前確認して下さい。",
+        "注意事項:お問い合わせは所属の大学図書館を通してご連絡下さい。個人の方からのお問い合わせにはお答えできませんのでご了承下さい",
+        "持参書類:資料利用依頼書(身分を証明するものを携行のこと)",
+        "新型コロナウイルス感染拡大への対応で当面の間外部利用者の来館は不可。開館状況等は図書館HPにて確認のこと。休館日:日曜日・祝日(授業日等を除く)、夏季一斉休暇期間、創立記念日(11/4)、年末年始、夏季休暇期間及び2・3月の土曜日、大学入試期間、館内整備期間(8月下旬～9月上旬及び年度末)、その他(臨時休館日等) 詳細は図書館ホームページでご確認下さい。"
+      ]
+    }
+  ]
+}

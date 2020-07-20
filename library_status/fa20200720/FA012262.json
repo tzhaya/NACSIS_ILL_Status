@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012262.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012262#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012262.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知大学 名古屋図書館"
+        },
+        {
+          "@value": "アイチダイガク ナゴヤトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛大名"
+        },
+        {
+          "@value": "アイダイメイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA012262",
+      "cinii:organizationid": "KI003117",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知大学 名古屋図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "453-8777",
+        "v:label": "愛知県名古屋市中村区平池町4丁目60番6"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-564-6115"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-564-6215"
+        }
+      ],
+      "dc:description": [
+        "Aichi University Nagoya Library",
+        "4-60-6,Hiraike-cho,Nakamura-ku,Nagoya-shi,Aichi-ken 453-8777",
+        "URL:http://library.aichi-u.ac.jp/",
+        "URL:http:///library.aichi-u.ac.jp/"
+      ]
+    }
+  ]
+}

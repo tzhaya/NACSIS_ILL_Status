@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016649.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016649#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016649.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宮崎産業経営大学 附属図書館"
+        },
+        {
+          "@value": "ミヤザキサンギョウケイエイダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宮産経大"
+        },
+        {
+          "@value": "ミヤサンケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016649",
+      "cinii:organizationid": "KI009226",
+      "cinii:prefcode": "45",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "宮崎産業経営大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "880-0931",
+        "v:label": "宮崎県宮崎市古城町丸尾100番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0985-52-3205"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0985-50-4699"
+        }
+      ],
+      "dc:description": [
+        "Miyazaki Sangyo-keiei University Library",
+        "100 Maruo, Furujo-cho, Miyazakicity, Miyazaki 880-0931 Japan"
+      ]
+    }
+  ]
+}

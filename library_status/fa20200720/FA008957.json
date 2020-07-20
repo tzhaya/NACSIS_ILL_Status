@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008957.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008957#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008957.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "九州国際大学 図書館"
+        },
+        {
+          "@value": "キュウシュウコクサイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "九国大"
+        },
+        {
+          "@value": "キュウコクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008957",
+      "cinii:organizationid": "KI004448",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "九州国際大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "805-8512",
+        "v:label": "福岡県北九州市八幡東区平野1-6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "093-662-8305"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "093-662-8339"
+        }
+      ],
+      "dc:description": [
+        "Kyushu International University Library",
+        "1-6-1 Hirano Yahata-Higashi-Ku Kitakyushu 805-8512 Japan",
+        "URL:http://www.kiu.ac.jp/",
+        "URL:http://www.kiu.ac.jp/academicpursuits/library/",
+        "E-mail:lib-admin@kiu.ac.jp",
+        "来館利用担当:カウンター",
+        "電話番号:093-662-8305",
+        "受付時間:9:00〜16:45",
+        "注意事項:資料の所在、開館日を確認して下さい。",
+        "持参書類:身分証明書",
+        "複写時間:9:00〜16:45",
+        "館外貸出:本学図書館ホームページを参照のこと。",
+        "制限事項",
+        "日曜日・国民の祝日・入学式・創立記念日(5/1)・8月中旬・年末年始"
+      ]
+    }
+  ]
+}

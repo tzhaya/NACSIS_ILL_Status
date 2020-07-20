@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008083.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008083#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008083.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "摂南大学 図書館"
+        },
+        {
+          "@value": "セツナンダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "摂大"
+        },
+        {
+          "@value": "セツダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館"
+      ],
+      "cinii:memberid": "FA008083",
+      "cinii:organizationid": "KI003751",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "摂南大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "572-8508",
+        "v:label": "大阪府寝屋川市池田中町17-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-839-9112"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-838-3833"
+        }
+      ],
+      "dc:description": [
+        "Setsunan University Library",
+        "17-8, Ikeda-nakamati, Neyagawa, Osaka, 572-8508, Japan",
+        "URL:http://www.setsunan.ac.jp/",
+        "閲覧担当 : 奉仕係",
+        "電話番号 : 奉仕係直通 072-839-9112   図書館代表 072-839-9111",
+        "来館利用 : 閲覧と複写のみ可  貸出は不可",
+        "開館時間 : (月〜金) 9:00〜19:30  (土)   9:00〜17:00",
+        "複写時間 : (月〜金) 9:00〜19:00  (土)   9:00〜16:30",
+        "利用手続 : 1Fで入館受付後、3Fで利用依頼書を提出してください。",
+        "持参書類 : 身分を証明するもの。所属機関、図書館発行の利用依頼書。",
+        "所蔵調査 : 資料の所蔵を図書館HPのOPACで事前に調査してください。",
+        "注意事項 : 事前にFAXで確認してください。(FAX 072-838-3833)",
+        "注意事項 : 研究室配備などのために利用できない場合があります。",
+        "休館日 : 2020年度 : 日祝日,創立記念日(10/30)",
+        "休館日 : 夏期休業(8/9～8/17)",
+        "休館日 : 冬期休業(12/26～1/4)",
+        "休館日 : その他(11/18,19,1/16,23,2/9,10)",
+        "注意事項 : 開館日、開館時間を図書館HPで確認してください。",
+        "注意事項 : 車での来館はご遠慮ください。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005664.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005664#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005664.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "多摩美術大学 図書館"
+        },
+        {
+          "@value": "タマビジユツダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "多摩美"
+        },
+        {
+          "@value": "タマビ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA005664",
+      "cinii:organizationid": "KI002282",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "多摩美術大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "192-0394",
+        "v:label": "東京都八王子市鑓水2丁目1723"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-676-8611"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-679-5640"
+        }
+      ],
+      "dc:description": [
+        "Tama Art University Library",
+        "2-1723 Yarimizu, Hachioji, Tokyo, Japan 192-0394",
+        "URL:http://library.tamabi.ac.jp/",
+        "来館利用担当:参考係",
+        "電話番号:042-676-8611(内線982)",
+        "受付時間:開館～16:00まで (入館受付。開館時間はホームページを参照)",
+        "注意事項:事前に所属機関の図書館を通じて所蔵調査および来館利用のための照会を行ってください。",
+        "持参書類:紹介状・身分証(学生証・教職員証)",
+        "複写時間:開館～閉館30分前まで",
+        "館外貸出:否",
+        "休館日:ホームページ(http://library.tamabi.ac.jp/)を参照"
+      ]
+    }
+  ]
+}

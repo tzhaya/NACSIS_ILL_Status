@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA025195.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA025195#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA025195.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京理科大学 葛飾図書館"
+        },
+        {
+          "@value": "トウキョウリカダイガク カツシカトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東理大葛"
+        },
+        {
+          "@value": "トウリダイカツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "葛図",
+        "工学建築",
+        "工学機械",
+        "工学電気",
+        "基礎工電応工",
+        "基礎工材料工",
+        "基礎工生物工"
+      ],
+      "cinii:memberid": "FA025195",
+      "cinii:organizationid": "KI002486",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京理科大学 葛飾図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "125-8585",
+        "v:label": "東京都葛飾区新宿6丁目3番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5876-1541"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5876-1660"
+        }
+      ],
+      "dc:description": [
+        "Tokyo University of Science Library",
+        "6-3-1, Niijuku, Katsushika-ku, Tokyo 125-8585",
+        "URL:https://www.tus.ac.jp/library/ (website)",
+        "来館利用担当者 : 閲覧係",
+        "電話番号 : 03-5876-1541(内線 : 4106)",
+        "FAX : 03-5876-1660",
+        "閲覧受付時間 9:00〜21:30(土曜日 11:00〜18:30)",
+        "注意事項:必ず1週間程度前に連絡のこと。 *詳細はHPの図書館案内を参照",
+        "持参書類:所属図書館または所属機関発行の紹介状をお持ちください。",
+        "閲覧受付時間 : 9:00〜21:30(土曜日 11:00〜18:30)",
+        "複写受付時間 : 9:00〜21:30(土曜日 11:00〜18:30)",
+        "館外貸出可否 : 否",
+        "通常開館時間 : 9:00〜22:00(土曜 11:00〜19:00)",
+        "制限事項 :学科図書室、研究室所蔵の資料はご利用いただけません",
+        "休館日:日曜日・夏期一斉休暇・冬期一斉休暇 *詳細はHPの開館カレンダーを参照"
+      ]
+    }
+  ]
+}

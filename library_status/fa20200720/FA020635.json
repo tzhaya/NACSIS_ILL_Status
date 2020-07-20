@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020635.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020635#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020635.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "ベルリン日独センター"
+        },
+        {
+          "@value": "ベルリンニチドクセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "JDZB/"
+        },
+        {
+          "@value": "JDZB",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "BIBL",
+        "DOK"
+      ],
+      "cinii:memberid": "FA020635",
+      "cinii:organizationid": "KI012504",
+      "cinii:prefcode": "255",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "ベルリン日独センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:label": "Japanisch-Deutsches Zentrum Berlin, Saargemuender Str. 2,  14195 Berlin, Germany"
+      },
+      "dc:description": [
+        "ILL-Org:Japanisch-Deutsches Zentrum Berlin (JDZB)",
+        "Tel: +49 (0)30 839 07 167",
+        "E-mail:bibliothek@jdzb.de",
+        "URL: http://www.jdzb.de/bibliothek/allgemein/",
+        "URL(日本語): http://www.jdzb.de/jp/library/allgemein/",
+        "Öffnungszeiten: Dienstag und Mittwoch 12:00-18:00 ; Donnerstag 10:00-18:00. An Feiertagen sowie während der Sommerpause und zum Jahreswechsel geschlossen.",
+        "Anmeldung: Ausleihe der Medien nur mit gültigen Benutzerausweis (Erstellung kostenfrei) ; persönliche Anmeldung unter Vorlage a.) eines gültigen Personalausweises oder b.) eines gültigen Reisepasses und einer Meldebestätigung",
+        "Für die Erstellung eines Benutzerausweises für Kinder und Jugendliche unter 17. Lebensjahr ist eine schriftliche Erlaubnis eines Erziehungsberechtigten notwendig",
+        "Ausleihe: Bücher: 4Wochen + 2 Mal Verlängerung à 4 Wochen möglich ; DVDs und CDs: 4 Wochen keine Verlängerung",
+        "Weitere Informationen entnehmen Sie bitte der Website unserer Bibliothek",
+        "",
+        "開館時間: 火曜と水曜 12:00-18:00 ; 木曜 10:00-18:00 休館日: 祝祭日、夏の日独センターの休館期間、年末年始",
+        "利用申請: 書籍、DVD、CD等の貸出には図書館利用証明カードの申請(無料)が必須です。申請には 1.有効なドイツ政府発行の身分証明書、または 2.有効なパスポートと住民登録証明、のどちらかが必要です。",
+        "17歳未満の申請者は親権者および法的代理人の利用許可書が必用になります。",
+        "書籍の貸出は通常4週間で、更に4週間ずつ2回の延長が可能です。DVDとCDは4週間の貸出が可能で、延長は受け付けておりません。",
+        "その他の詳細情報については当館ウェブサイトを御覧ください。"
+      ]
+    }
+  ]
+}

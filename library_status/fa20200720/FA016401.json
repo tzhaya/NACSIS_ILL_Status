@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016401.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016401#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016401.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "木更津工業高等専門学校"
+        },
+        {
+          "@value": "キサラヅコウギヨウコウトウセンモンガツコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "木高専"
+        },
+        {
+          "@value": "キコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA016401",
+      "cinii:organizationid": "KI009940",
+      "cinii:prefcode": "12",
+      "cinii:mextid": "601500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "木更津工業高等専門学校",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "292-0041",
+        "v:label": "千葉県木更津市清見台東2-11-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0438-30-4009"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0438-30-4010"
+        }
+      ],
+      "dc:description": [
+        "Kisarazu National College of Technology",
+        "2-11-1 Kiyomidaihigashi, Kisarazu-shi, Chiba 292-0041",
+        "URL:http://www.kisarazu.ac.jp/lib/",
+        "電話番号:0438-30-4009"
+      ]
+    }
+  ]
+}

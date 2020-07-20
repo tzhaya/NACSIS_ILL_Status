@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027576.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027576#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027576.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岩手保健医療大学 図書館"
+        },
+        {
+          "@value": "イワテホケンイリョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岩手保健医療大"
+        },
+        {
+          "@value": "イワテホケンイリョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館"
+      ],
+      "cinii:memberid": "FA027576",
+      "cinii:organizationid": "KI025266",
+      "cinii:prefcode": "03",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "岩手保健医療大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "020-0045",
+        "v:label": "岩手県盛岡市盛岡駅西通1丁目6番30号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "019-606-7030"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "019-606-7031"
+        }
+      ],
+      "dc:description": [
+        "通常開館時間 :9:00～20:00",
+        "休業中開館時間:9:00～17:00",
+        "※学外者のご利用は9:00～17:00までとさせていただきます。",
+        "休館日 :土曜日、日曜日、国民の祝日、大学開学記念日、図書等整理日(毎月末日・土日祝日に当たる場合には、その前の平日)、年末年始の休業日",
+        "注記 :開館日、開館時間は電話にてお問合せください。",
+        "Iwate University of Health and Medical Sciences",
+        "1-6-30 Moriokaekinishidouri, Morioka-shi, Iwate-ken, 020-0045 Japan",
+        "http://www.iwate-uhms.ac.jp",
+        "担当者不在で対応が遅くなる場合がございます。ご了承ください。"
+      ]
+    }
+  ]
+}

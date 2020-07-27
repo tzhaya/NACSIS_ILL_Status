@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019625.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019625#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019625.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公立はこだて未来大学 情報ライブラリー"
+        },
+        {
+          "@value": "コウリツハコダテミライダイガク ジョウホウライブラリー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "未来大"
+        },
+        {
+          "@value": "ミライダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019625",
+      "cinii:organizationid": "KI011771",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "公立はこだて未来大学 情報ライブラリー",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "041-8655",
+        "v:label": "函館市亀田中野町116-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0138-34-6360"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0138-34-6362"
+        }
+      ],
+      "dc:description": [
+        "Media Library, Future University Hakodate",
+        "116-2, Kamedanakano-cho, Hakodate-shi, Hokkaido 041-8655",
+        "URL:https://library.fun.ac.jp/",
+        "来館利用担当:情報ライブラリー",
+        "電話番号:0138-34-6360",
+        "開館時間:8:45〜18:30(休業期間中は17:30)",
+        "持参書類:紹介状または身分を証明できるもの",
+        "館外帯出:条件付きで可",
+        "制限事項:館外貸出は、函館市・北斗市・七飯町に在住・在学・在勤する方のみ可",
+        "休館日:土曜および日曜日、国民の休日、年末年始、入学試験日等"
+      ]
+    }
+  ]
+}

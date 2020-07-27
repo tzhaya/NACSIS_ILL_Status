@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016026.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016026#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016026.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "熊本高等専門学校 八代キャンパス 図書館"
+        },
+        {
+          "@value": "クマモトコウトウセンモンガッコウ ヤツシロキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "熊本高専八代地区"
+        },
+        {
+          "@value": "クマモトコウセンヤツシロチク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "機械電気",
+        "情報電子",
+        "土木建築",
+        "生物工学",
+        "一般",
+        "図"
+      ],
+      "cinii:memberid": "FA016026",
+      "cinii:organizationid": "KI008813",
+      "cinii:prefcode": "43",
+      "cinii:mextid": "605400",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "熊本高等専門学校 八代キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "866-8501",
+        "v:label": "熊本県八代市平山新町2627"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0965-53-1213"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0965-53-1213(要電話)"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Technology, Kumamoto College Yatsushiro campus",
+        "2627 HIRAYAMA-SHINMACHI, YATSUSHIRO KUMAMOTO, 866-8501",
+        "URL:https://kumamoto-nct.ac.jp/general/library.html",
+        "来館利用担当:学術情報係",
+        "電話番号:0965-53-1213",
+        "受付時間:8:30-17:00",
+        "資料の所在等、事前確認してください。",
+        "持参書類:身分証明書",
+        "館外貸出:可(図書館内資料に限る。ただし、禁帯出図書および雑誌は除く)",
+        "制限事項:定期試験期間(試験前1週間～試験終了日)は学外の方の利用はできません。",
+        "休館日:土曜、日曜、祝日、お盆、年末年始",
+        ":複写方法・料金:電子式複写・モノクロ(A3版以下) 1枚 35円 + 郵送料",
+        ":支払方法:ILL文献複写等料金相殺サービスの規則による。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010802.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010802#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010802.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "千葉県立中央図書館"
+        },
+        {
+          "@value": "チバケンリツチユウオウトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "千県図中央"
+        },
+        {
+          "@value": "チケントチユウオウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010802",
+      "cinii:organizationid": "KI006002",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "千葉県立中央図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "260-8660",
+        "v:label": "千葉県千葉市中央区市場町11-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "043-222-0116"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "043-225-8355"
+        }
+      ],
+      "dc:description": [
+        "Chiba Prefectural Central Library",
+        "11-1, Ichibacho, Chuo-ku, Chiba-shi 260-8660",
+        "来館利用担当:読書推進課・ちば情報課",
+        "電話番号:043-222-0116",
+        "受付時間:火曜日〜金曜日 9:00〜19:00、土曜日・日曜日・祝日・休日 9:00〜17:00",
+        "注意事項:資料の所在等、事前に確認をして下さい。",
+        "持参書類:不要",
+        "複写時間:開館時間内",
+        "館外貸出:不可",
+        "休館日:月曜日(ただし、祝日・休日にあたる場合はその翌日)、 第3金曜日(ただし、祝日・休日にあたる場合はその前日)、12月28日〜1月4日、特別整理期間(10日以内)"
+      ]
+    }
+  ]
+}

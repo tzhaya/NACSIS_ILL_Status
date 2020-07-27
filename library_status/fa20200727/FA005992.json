@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005992.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005992#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005992.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京慈恵会医科大学 学術情報センター"
+        },
+        {
+          "@value": "トウキョウジケイカイイカダイガク ガクジュツジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "慈恵大"
+        },
+        {
+          "@value": "ジケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA005992",
+      "cinii:organizationid": "KI002395",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東京慈恵会医科大学 学術情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "105-8461",
+        "v:label": "東京都港区西新橋3-25-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3433-1111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5403-7864"
+        }
+      ],
+      "dc:description": [
+        "Academic Information Center, The Jikei University School of Medicine",
+        "3-25-8 Nishi-Shinbashi, Minato-ku, Tokyo, Japan",
+        "URL:http://www.jikei.ac.jp/academic/micer/",
+        "来館利用担当:情報サービス係",
+        "電話番号:03-3433-1111(内線2125)",
+        "臨時休館(2020年5月6日まで)",
+        "利用資格:大学・学校などの在籍者、医療関係者のみ利用可",
+        "持参書類:所属先図書館発行の利用願および身分証明書",
+        "館外貸出:不可",
+        "ILL-Org: Academic Information Center, The Jikei University School of Medicine",
+        "ILL-Address: 3-25-8 Nishi-Shinbashi, Minato-ku, Tokyo, Japan",
+        "ILL-ZIP: 105-8461",
+        "ILL-Commun1: Tel+81-3-3433-1111(ext. 2125) /FAX+81-3-5403-7864 /E-mai: libill@ jikei.ac.jp (Please delete space after@)"
+      ]
+    }
+  ]
+}

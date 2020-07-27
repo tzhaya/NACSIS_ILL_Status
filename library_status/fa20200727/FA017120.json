@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017120.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017120#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017120.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岐阜工業高等専門学校 図書館"
+        },
+        {
+          "@value": "ギフコウギヨウコウトウセンモンガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岐阜高専"
+        },
+        {
+          "@value": "ギフコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017120",
+      "cinii:organizationid": "KI009714",
+      "cinii:prefcode": "21",
+      "cinii:mextid": "602300",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "岐阜工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "501-0495",
+        "v:label": "本巣市上真桑2236-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "058-320-1225"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "058-320-1224"
+        }
+      ],
+      "dc:description": [
+        "ILL文献複写等料金相殺サービスに参加",
+        "National Institute of Technology,Gifu College",
+        "2236-2 Kamimakuwa, Motosu City, Gifu 501-0495,JAPAN",
+        "URL:http://www.gifu-nct.ac.jp/tosho/index2.html (website)",
+        "来館利用担当: 学生課 図書・情報係",
+        "電話番号:058-320-1225",
+        "受付時間:8:30-20:00(平日),9:00-16:00(土曜日)",
+        "注意事項:ご来館の節は、受付時間をWEBカレンダーでご確認の上お越し下さい",
+        "持参書類:学外の方が利用者カードの発行を希望される場合は身分証明書が必要",
+        "複写時間:受付時間に同じ",
+        "館外貸出:可(禁帯出図書は不可)",
+        "制限事項:本校図書館の一般利用に関する要項による",
+        "休館日:日曜日,国民の祝日,休業期間中及び閉寮中の土曜日,一斉休業期間"
+      ]
+    }
+  ]
+}

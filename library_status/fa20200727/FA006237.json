@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006237.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006237#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006237.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 文理学部図書館"
+        },
+        {
+          "@value": "ニホンダイガク ブンリガクブトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大文理"
+        },
+        {
+          "@value": "ニチダイブンリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "文理",
+        "哲",
+        "史",
+        "国",
+        "中",
+        "英",
+        "独",
+        "社",
+        "教",
+        "体",
+        "心",
+        "地",
+        "地球",
+        "数情",
+        "物",
+        "化",
+        "総",
+        "語",
+        "学",
+        "人",
+        "自",
+        "情",
+        "参",
+        "地数",
+        "相理",
+        "別",
+        "TR",
+        "社福",
+        "閲",
+        "新",
+        "大",
+        "A",
+        "B",
+        "C"
+      ],
+      "cinii:memberid": "FA006237",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本大学 文理学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "156-8550",
+        "v:label": "東京都世田谷区桜上水3-25-40"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5317-9280"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3329-1673"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.chs.nihon-u.ac.jp/library/",
+        "ILL複写サービス:受付可 [注]個人からの依頼は受付けない",
+        "ILL貸借サービス:受付可(ただし,古典籍・和装本・雑誌・参考資料,および資料状態の悪いものは不可) [注]個人からの依頼は受付けない",
+        "相互貸借による貸出期間:2週間〜1ヶ月(郵送期間を含む)",
+        "Nihon University, College of Humanities and Sciences Library.",
+        "3-25-40 Sakura-josui, Setagaya-ku, Tokyo 156-8550"
+      ]
+    }
+  ]
+}

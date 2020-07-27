@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024818.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024818#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024818.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "アジア・アフリカ 図書館"
+        },
+        {
+          "@value": "アジア・アフリカ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "アジアアフリカ図"
+        },
+        {
+          "@value": "アジアアフリカト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024818",
+      "cinii:organizationid": "KI014907",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "アジア・アフリカ 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:label": "〒181-0004 東京都三鷹市新川5-14-16"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0422-44-4640"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0422-46-5107"
+        }
+      ]
+    }
+  ]
+}

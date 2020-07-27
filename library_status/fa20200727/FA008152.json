@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008152.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008152#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008152.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "阪南大学 図書館"
+        },
+        {
+          "@value": "ハンナンダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪南大"
+        },
+        {
+          "@value": "ハンナンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008152",
+      "cinii:organizationid": "KI003809",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "阪南大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "580-8502",
+        "v:label": "大阪府松原市天美東5-4-33"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-332-1224"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-335-7741"
+        }
+      ],
+      "dc:description": [
+        "5-4-33, Amami Higashi, Matsubara-shi, Osaka",
+        "URL:http://www.hannan-u.ac.jp/",
+        "ILL-Staff:Yagura Takahiro",
+        "ILL-Dept:Reference Section",
+        "ILL-Org:Hannan University Library",
+        "ILL-Address:5-4-33,Amami-Higashi,Matsubara-shi,Osaka,Japan",
+        "ILL-ZIP:580-8502",
+        "ILL-Commun1:Tel.+81-72-332-1224/Fax.+81-72-335-7741/e-mail.libmstr@hannan-u.ac.jp",
+        "ILL-Commun2:OPAC:http://hu-lb01.hannan-u.ac.jp/Home-Page:http://www.hannan-u.ac.jp/lib",
+        "ILL-Accept:Foreign(1):OCLC(NII-OCLCLink):JAHAN",
+        "ILL-Accept:Foreign(2):KERIS",
+        "ILL-Sched:Closed:Aug10-18,Dec26-Jan8",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Loan-Period : 6 weeks per item ; up to 5 items per library",
+        "ILL-Loan-Renew : 2weeks",
+        "ILL-Loan-Charge : Postage required/Delivery method : via airmail/No rush service available",
+        "ILL-Non-Circulation : Special collection, microform, microfiche, reference book, periodicals, newspaper, audio-visual material",
+        "ILL-Copy-Charge : Photocopy : 35 YEN per sheet/Postage required/Delivery method : via airmail/no rush service available",
+        "ILL-Note : Microfirm:N/Microfiche:N/Materials in the libraries only",
+        "ILL-OCLC-Symbol:JAHAN"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016955.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016955#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016955.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大分県立芸術文化短期大学 附属図書館"
+        },
+        {
+          "@value": "オオイタケンリツゲイジュツブンカタンキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大分芸文短"
+        },
+        {
+          "@value": "オオイタゲイブンタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016955",
+      "cinii:organizationid": "KI009565",
+      "cinii:prefcode": "44",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大分県立芸術文化短期大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "870-0833",
+        "v:label": "大分県大分市上野丘東1-11"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "097-545-4235"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "097-545-4235"
+        }
+      ],
+      "dc:description": [
+        "OITA PREFECTURAL COLLEGE OF ARTS AND CULTURE LIBRARY",
+        "1-11 UENOGAOKA-HIGASHI OITA 870-0833",
+        "URL:http://www.oita-pjc.ac.jp/library/",
+        "来館利用担当:図書館管理グループ",
+        "電話・FAX番号:097-545-4235",
+        "開館時間:9:00-19:00(春・夏・冬期休業期間は9:00-17:00)",
+        "休館日:土・日曜日・祝日・年末年始(12/28-1/3)",
+        "館外貸出:可(利用登録には身分証明書が必要)"
+      ]
+    }
+  ]
+}

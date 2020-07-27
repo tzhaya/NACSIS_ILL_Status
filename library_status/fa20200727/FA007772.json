@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007772.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007772#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007772.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪医科大学 図書館"
+        },
+        {
+          "@value": "オオサカイカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪医大"
+        },
+        {
+          "@value": "ハンイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "専門",
+        "教養"
+      ],
+      "cinii:memberid": "FA007772",
+      "cinii:organizationid": "KI003547",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪医科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "569-8686",
+        "v:label": "高槻市大学町2-7"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-684-7077(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-683-2155"
+        }
+      ],
+      "dc:description": [
+        "Osaka Medical College Library",
+        "2-7 Daigaku-machi Takatsuki-shi, Osaka 569-8686 Japan",
+        "URL:http://www.osaka-med.ac.jp/~tosho/",
+        "一般の方のご利用はお断りしています。大学等の研究者、医療関係者の方は、所属機関の図書館等の紹介状が必要です。必ず事前にお問い合わせの上ご利用ください。",
+        "閲覧受付時間:平日9:00〜17:00"
+      ]
+    }
+  ]
+}

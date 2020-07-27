@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019374.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019374#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019374.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "産業能率大学 自由が丘キャンパス図書館"
+        },
+        {
+          "@value": "サンギョウノウリツダイガク ジユウガオカキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "産能自由が丘"
+        },
+        {
+          "@value": "サンノウジユウガオカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "地下",
+        "雑誌1",
+        "雑誌2",
+        "図書",
+        "紀要",
+        "図"
+      ],
+      "cinii:memberid": "FA019374",
+      "cinii:organizationid": "KI002872",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "産業能率大学 自由が丘キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "158-8630",
+        "v:label": "東京都世田谷区等々力6-39-15"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3704-7653"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3704-2900"
+        }
+      ],
+      "dc:description": [
+        "Sanno College Library",
+        "6-39-15, Todoroki, Setagaya-ku, Tokyo, 158-8630",
+        "URL:http://www.sanno.ac.jp/index.html (website)",
+        "電話番号:03-3704-7653",
+        "閲覧受付時間:月〜金曜日 9:00〜17:00 土曜日 10:30〜16:00",
+        "注意事項: 一般公開は行っておりません。大学関係者については事前に所蔵確認をいただいた資料の閲覧は可能です。その場合は所属大学発行の資料利用依頼書が必要となりますので所属大学の図書館を通して事前にお申し込みください。",
+        "複写受付時間:月〜金曜日 9:00〜17:00 土曜日 10:30〜16:00",
+        "館外貸出:不可",
+        "休館日:日曜祝日、夏季の一定期間、年末年始、休業中の土曜日など。詳細は当館のホームページをご覧ください。"
+      ]
+    }
+  ]
+}

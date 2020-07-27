@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011747.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011747#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011747.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 法学部"
+        },
+        {
+          "@value": "トウキョウダイガク ホウガクブ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大法"
+        },
+        {
+          "@value": "トウダイホウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011747",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002101",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京大学 法学部",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-3137"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-3200"
+        }
+      ],
+      "dc:description": [
+        "The University of Tokyo, Faculty of Law Library",
+        "7-3-1 Hongo,Bunkyo-ku,Tokyo 113-0033",
+        "URL:http://www.lib.j.u-tokyo.ac.jp/ (website)",
+        "来館利用担当: 図書閲覧チーム",
+        "通常開館時間: 9:00〜17:00 (月〜金曜日)",
+        "閲覧受付時間: 9:00〜16:30 (月〜金曜日) 17時までに退出してください。",
+        "閲覧事前連絡: 事前の確認が望ましい",
+        "休館日: 土曜日・日曜日・国民の祝日・年末年始・入学試験日・書架点検日・その他臨時に閉館することあり",
+        "閲覧注記: 書架点検のため月1回(8月を除く)閉館致します。詳しくはホームページをご覧ください。",
+        "複写注記: 郵送・FAXでの複写申込は受け付けません。NACSIS-ILLにてご依頼ください。"
+      ]
+    }
+  ]
+}

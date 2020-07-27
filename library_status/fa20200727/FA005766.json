@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005766.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005766#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005766.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "帝京大学 図書館"
+        },
+        {
+          "@value": "テイキョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "帝京大"
+        },
+        {
+          "@value": "テイキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005766",
+      "cinii:organizationid": "KI002318",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "帝京大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "192-0395",
+        "v:label": "東京都八王子市大塚359"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-678-3315"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-674-8876"
+        }
+      ],
+      "dc:description": [
+        "Teikyo University Library",
+        "359, Otsuka, Hachioji-shi, Tokyo 192-0395",
+        "URL:http://appsv.main.teikyo-u.ac.jp/tosho/tos.html",
+        "来館利用担当: 学修・情報サービスチーム",
+        "電話番号: 042-678-3315",
+        "受付時間: 9:00〜17:00(土曜日〜12:00)",
+        "注意事項: 外部保管資料もあるため、FAXで事前連絡をしてください。",
+        "注意事項: 紹介状が必要です。紹介状は、所属の大学、資料室、及び最寄りの公共図書館にご相談ください。尚、身分の確認をさせていただく場合がありますので、身分証明書をご持参ください。",
+        "注意事項: コピーには100円以下の小銭をご用意ください。",
+        "持参書類: 紹介状、身分証明書",
+        "休館日: 日曜日、国民の祝日、入学試験日、年末年始、春期/夏期休業中の一定期間、入学式、卒業式、大学祭期間等",
+        "注記 :入試その他でILL受付を休止する事があります。長期休暇中は週1回程度の受付となります。速達はご遠慮ください。",
+        "注記:当面の間、新型コロナウイルス感染拡大の状況を受け、学外者の利用を制限しております。紹介状などでの訪問利用はできません。"
+      ]
+    }
+  ]
+}

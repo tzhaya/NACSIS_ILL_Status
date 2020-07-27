@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010697.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010697#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010697.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道立図書館"
+        },
+        {
+          "@value": "ホツカイドウリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北海図"
+        },
+        {
+          "@value": "ホクカイト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010697",
+      "cinii:organizationid": "KI005892",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北海道立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "069-0834",
+        "v:label": "北海道江別市文京台東町41番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-386-8521"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-386-6906"
+        }
+      ],
+      "dc:description": [
+        "Hokkaido Prefectural Library",
+        "41, Higashi-machi, Bunkyodai, Ebetsu-shi, Hokkaido 069-0834",
+        "来館利用担当:奉仕部奉仕課(一般資料)、北方資料室(北方資料)",
+        "電話番号:011-386-8521",
+        "受付時間:9:00〜17:00",
+        "持参書類:氏名と現住所が確認できるもの(個人の貸出の場合のみ)",
+        "複写時間9:00〜17:00",
+        "館外貸出:可",
+        "制限事項:参考図書・貴重書・逐次刊行物の最新号等の貸出は行わない。",
+        "休館日:月曜日、毎月末日(末日が国民の祝日・土・日・月曜日の場合はその直前の平日)、国民の祝日、年末年始(12月27日から翌年1月5日)"
+      ]
+    }
+  ]
+}

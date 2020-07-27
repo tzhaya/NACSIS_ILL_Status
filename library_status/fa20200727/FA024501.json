@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024501.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024501#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024501.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京工科大学 メディアセンター (蒲田図書館)"
+        },
+        {
+          "@value": "トウキョウコウカダイガク メディアセンター カマタトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東工科大蒲田"
+        },
+        {
+          "@value": "トウコウカダイカマタ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024501",
+      "cinii:organizationid": "KI007785",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京工科大学 メディアセンター (蒲田図書館)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "144-8535",
+        "v:label": "東京都大田区西蒲田5-23-22"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3732-8417"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3732-8418"
+        }
+      ],
+      "dc:description": [
+        "Tokyo University of Technology",
+        "5-23-22 Nishikamata, Ota-ku, Tokyo 144-8535",
+        "https://www.teu.ac.jp/lib/",
+        "-----",
+        "新型コロナウイルス感染症対策に伴い、学外の方のキャンパス入構をお断りしております。",
+        "-----",
+        "図書館間現物貸借 (対 : NACSIS-ILL相殺サービス非加盟図書館)",
+        "各機関ご使用の書式で、メールまたはFAX等でお申込みください。",
+        "期間 : 発送日を含め30日、 5冊以内",
+        "料金支払 : 往復送料実費、切手後納 (資料返送時に往路送料を切手で同封)",
+        "発送 : ゆうメール+簡易書留、またはゆうパック",
+        "※本学OPACで所在が「視聴覚資料」「参考図書」「研究室」、及び雑誌・製本雑誌は貸借サービス対象外です。",
+        "※雑誌増刊号のうち、図書扱いの資料(資料IDがついているもの)は貸出可。",
+        "-----",
+        "図書館間複写提供 (対 : NACSIS-ILL相殺サービス非加盟図書館)",
+        "各機関ご使用の書式で、メールまたはFAX等でお申込みください。",
+        "料金支払 : モノクロ1枚 40円 (※希望時のみ、カラー1枚80円) + 郵便送料、切手後納",
+        "※紙資料から複写のみ受付可、複写物は郵送で提供します。カラー複写を希望する場合は記載して下さい。"
+      ]
+    }
+  ]
+}

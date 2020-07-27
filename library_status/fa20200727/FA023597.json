@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023597.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023597#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023597.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "群馬医療福祉大学 図書館"
+        },
+        {
+          "@value": "グンマイリョウフクシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "群福大"
+        },
+        {
+          "@value": "グンフクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "藤分",
+        "前分"
+      ],
+      "cinii:memberid": "FA023597",
+      "cinii:organizationid": "KI014168",
+      "cinii:prefcode": "10",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "群馬医療福祉大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "371-0823",
+        "v:label": "群馬県前橋市川曲町191-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "027-253-0294"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "027-254-0294(代表)"
+        }
+      ],
+      "dc:description": [
+        "Gunma University of Health and Welfare Library",
+        "191-1 Kawamagari-machi, Maebashi-shi, Gunma 371-0823",
+        "URL:http://www.shoken-gakuen.ac.jp/library/",
+        "来館利用者担当:",
+        "電話番号:027-253-0294(内線150)",
+        "受付時間:9:00~17:00(土日祝祭日を除く)",
+        "注意事項:所属する図書館(機関)を通じて、事前にお問い合わせ下さい。",
+        "持参書類:所属する図書館(機関)の紹介状及び身分証明証",
+        "複写時間:9:00~17:00(土日祝祭日を除く)",
+        "館外貸出:不可",
+        "制限事項:定期試験期間中の学外者の利用はお断りいたします。",
+        "制限事項:各分館(藤岡分館/前橋プラザ分館)所蔵の資料については利用の制限があります。事前に本館(前橋キャンパス)にお問い合わせ下さい。",
+        "休館日:行事のある土曜日,日曜日,祝日,年末年始,その他本学が定める日"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015158.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015158#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015158.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛媛県立医療技術大学 図書館"
+        },
+        {
+          "@value": "エヒメケンリツイリョウギジュツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛媛医技大"
+        },
+        {
+          "@value": "エヒメイギダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA015158",
+      "cinii:organizationid": "KI008030",
+      "cinii:prefcode": "38",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "愛媛県立医療技術大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "791-2101",
+        "v:label": "愛媛県伊予郡砥部町高尾田543番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "089-960-0061"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "089-960-0061"
+        }
+      ],
+      "dc:description": [
+        "Ehime Prefectural University of Health Sciences Library",
+        "543,Takooda,Tobe-cho,Iyo-gun,Ehime-ken 791-2101",
+        "電話番号:089-960-0061",
+        "URL:http://www.epu.ac.jp/library/index.html",
+        "利用時間:9:00-21:00",
+        "注意事項:入館時に所定の手続きをしてください。",
+        "注意事項:車で来館の場合は、必ず運動場横の駐車場をご利用ください。",
+        "注意事項:ホームページ内の学外者への利用案内、開館時間案内をご覧ください。",
+        "複写時間:利用時間の30分前までに申込みをしてください。",
+        "館外貸出:利用規定に定める範囲で可",
+        "日曜日,祝日,年末年始,蔵書点検 他"
+      ]
+    }
+  ]
+}

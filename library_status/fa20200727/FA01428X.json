@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA01428X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA01428X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA01428X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東北芸術工科大学 図書館"
+        },
+        {
+          "@value": "トウホクゲイジュツコウカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東北芸工大"
+        },
+        {
+          "@value": "トウホクゲイコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "東北文化研"
+      ],
+      "cinii:memberid": "FA01428X",
+      "cinii:organizationid": "KI007526",
+      "cinii:prefcode": "06",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東北芸術工科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "990-9530",
+        "v:label": "山形県山形市上桜田三丁目4番5号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "023-627-2044(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "023-627-2085"
+        }
+      ],
+      "dc:description": [
+        "Tohoku University of Art & Design, Library",
+        "3-4-5, Kamisakurada, Yamagata, Japan 990-9530",
+        "http://www.tuad.ac.jp/library/ (Website)",
+        "学外者への館外貸出し不可。",
+        "来館利用に際しては受付で閲覧申込書への記入をお願いいたします。",
+        "浅田文庫の利用に際しては、必ず事前のお問い合わせを願います。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014111.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014111#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014111.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "早稲田大学 法律文献情報センター"
+        },
+        {
+          "@value": "ワセダダイガク ホウリツブンケンジヨウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "早大法文セ"
+        },
+        {
+          "@value": "ソウダイホウブンセ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014111",
+      "cinii:organizationid": "KI002781",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "早稲田大学 法律文献情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "169-8050",
+        "v:label": "東京都新宿区西早稲田1-6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5286-1805"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5286-1846"
+        }
+      ],
+      "dc:description": [
+        "Waseda University. Center for Legal Resources",
+        "1-6-1, Nishiwaseda, Shinjuku-ku, Tokyo169-8050",
+        "URL:http://www.waseda.ac.jp/",
+        "電話番号:03-5286-1805",
+        "受付時間:月〜土:9:00〜17:00",
+        "注意事項:1.閉室時間は各季授業休止期間は変更となる。2:学外者の利用は利用者所属館の紹介状が必要。3:別置資料(特に外国雑誌)があるのでFAXで確認要 4:早稲田大学図書館ホームページの中に詳細あり(図書館・図書室→図書館・図書室一覧)",
+        "持参書類:紹介状及び身分証明書",
+        "複写時間:開室時間内",
+        "館外貸出:否",
+        "休室日:図書館のホームページ参照"
+      ]
+    }
+  ]
+}

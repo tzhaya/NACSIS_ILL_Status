@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020511.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020511#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020511.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "奈良学園大学 図書館 登美ヶ丘分館"
+        },
+        {
+          "@value": "ナラガクエンダイガク トショカン トミガオカブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "奈学登"
+        },
+        {
+          "@value": "ナガクト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020511",
+      "cinii:organizationid": "KI004040",
+      "cinii:prefcode": "29",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "奈良学園大学 図書館 登美ヶ丘分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "631-8524",
+        "v:label": "奈良県奈良市中登美ヶ丘3丁目15-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0742-93-5433"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0742-95-9850"
+        }
+      ],
+      "dc:description": [
+        "通常開館時間 :8:30〜20:00(土曜日〜17:00) 休業中開館時間:8:30〜18:00(土曜日〜13:00)",
+        "休館日 :日・祝,夏期・冬期・春期休暇の一定期間,入試期間,その他大学が定める期間",
+        "Naragakuen University Tomigaoka Library",
+        "3-15-1 Nakatomigaoka, Nara-city, Nara 631-8524",
+        "URL:http://www.naragakuen-u.jp/library/"
+      ]
+    }
+  ]
+}

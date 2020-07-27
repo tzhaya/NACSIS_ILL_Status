@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012171.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012171#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012171.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 生物資源科学部 図書館"
+        },
+        {
+          "@value": "ニホンダイガク セイブツシゲンカガクブ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大生物資源"
+        },
+        {
+          "@value": "ニチダイセイブツシゲン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "植物",
+        "農化",
+        "獣医",
+        "動物",
+        "食経",
+        "森林",
+        "海洋",
+        "環工",
+        "食科",
+        "国際",
+        "応生",
+        "教",
+        "短農",
+        "短生",
+        "地研",
+        "資"
+      ],
+      "cinii:memberid": "FA012171",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本大学 生物資源科学部 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "252-0880",
+        "v:label": "神奈川県藤沢市亀井野1866"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0466-84-3851"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0466-84-3855"
+        }
+      ],
+      "dc:description": [
+        "複写担当係:相互貸借係",
+        "FAX受付可否:可(但し文献のFAX送付は不可)",
+        "電子ジャーナルからの複写は行っておりません。",
+        "個人・一般企業・病院図書室・医局からの申込みは受付致しておりません。",
+        "複写方法・料金:電子複写(白黒40円均一,カラーA3 80円,カラーB4以下 50円)※カラー頁はカラーで複写いたします。モノクロ複写をご希望の場合はコメント欄にご明記ください。",
+        "決済方法:私費=後納",
+        "支払方法:相殺加盟館-相殺、相殺非参加館-銀行振込",
+        "複写注記:1度に大量(10件など)の複写申込は受付いたしかねます。",
+        "複写注記:金曜日午後以降の受付分は翌週月曜日に発送いたします。 速達依頼の際はご注意ください。",
+        "複写注記:見積書・納品書・請求書は発行できません。 領収書は発行できます。",
+        "貸借担当係:相互貸借係",
+        "貸借受付可否:可(禁帯出図書/雑誌/学位論文は不可)",
+        "貸出期間:2週間",
+        "貸借注記 :送料:相殺加盟館は相殺、非参加館は着払いになります。",
+        "閲覧担当係 :相互貸借係",
+        "閲覧事前連絡 :事前にFAXで問い合わせのこと。紹介状発行の際には『図書館相互協力便覧/国公私立大学図書館協力会 3 訪問利用』を必ず参照ください。",
+        "閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "館外貸出可否 :否",
+        "通常開館時間 :",
+        "休業中開館時間:",
+        "休館日 :日曜日・国民の祝日・本学創立記念日(10/4)・夏季休暇期間の土曜日および一定期間・冬季休暇の一定期間",
+        "URL:https://brslib.nihon-u.ac.jp/opac/opac_search/"
+      ]
+    }
+  ]
+}

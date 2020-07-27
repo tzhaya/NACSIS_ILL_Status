@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011055.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011055#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011055.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "秩父宮記念スポーツ図書館"
+        },
+        {
+          "@value": "チチブノミヤキネンスポーツトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "スポ図"
+        },
+        {
+          "@value": "スポト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011055",
+      "cinii:organizationid": "KI006239",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "秩父宮記念スポーツ図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "120-0005",
+        "v:label": "東京都足立区綾瀬6-11-17"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5849-5400"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3629-1660"
+        }
+      ],
+      "dc:description": [
+        "Prince Chichibu Memorial Sports Library",
+        "6-11-17, Ayase, Adachi-ku, Tokyo 120-0005",
+        "電話番号:03-5849-5400",
+        "FAX番号:03-3629-1660",
+        "2019年8月1日より閲覧(事前予約制)、複写、ILL、簡易レファレンスサービスを再開いたします。",
+        "来館利用担当:図書係",
+        "開館日:木曜日(事前予約制) ご来館の際は開館カレンダーをご確認ください。事前に電話またはFAXでご連絡ください。",
+        "開館時間: 10:00-16:00",
+        "受付時間(資料請求・複写申込):開館時間内",
+        "制限事項: 資料の館外貸出は行っておりません。所蔵調査や参考質問につきましては、FAXで申し込みください。複写の申込みは郵便またはFAXでも受け付けます。FAXによる複写物の送付はいたしません。当館について詳しくお知りになりたい方は当館ホームページをご覧いただくか電話でお問い合わせください。"
+      ]
+    }
+  ]
+}

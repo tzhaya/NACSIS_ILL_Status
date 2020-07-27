@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007717.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007717#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007717.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "佛教大学 附属図書館"
+        },
+        {
+          "@value": "ブッキョウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "佛教大"
+        },
+        {
+          "@value": "ブッキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA007717",
+      "cinii:organizationid": "KI003503",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "佛教大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "603-8301",
+        "v:label": "京都府京都市北区紫野北花ノ坊町96"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-491-2141(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-495-5722"
+        }
+      ],
+      "dc:description": [
+        "閲覧担当:総合カウンター 参考調査担当",
+        "閲覧事前連絡:要(FAXでの問い合わせ)",
+        "閲覧持参書類:閲覧依頼書回答(写し)及び身分を証明する物を携行のこと。貴重資料・準貴重資料は別途手続き要。",
+        "学部資料室所蔵資料・別館保管資料につきましては、資料確認に時間を要します。",
+        "閲覧依頼 受付時間:9:00〜18:00",
+        "通常開館時間:9:00〜20:00",
+        "授業開講期間外開館時間:9:00〜17:00",
+        "休館日:月例休館日・年末年始 その他は図書館ホームページをご確認ください。",
+        "BUKKYO UNIVERSITY LIBRARY",
+        "96,Kitahananobo-cho,Murasakino,Kitaku,Kyoto,JAPAN",
+        "URL:http://www.bukkyo-u.ac.jp/facilities/library/"
+      ]
+    }
+  ]
+}

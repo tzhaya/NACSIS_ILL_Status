@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004355.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004355#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004355.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "酪農学園大学 附属図書館"
+        },
+        {
+          "@value": "ラクノウガクエンダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "酪農大"
+        },
+        {
+          "@value": "ラクノウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "資",
+        "研"
+      ],
+      "cinii:memberid": "FA004355",
+      "cinii:organizationid": "KI001439",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "酪農学園大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "069-8501",
+        "v:label": "北海道江別市文京台緑町582"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-388-4142(ダイヤルイン)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "011-386-1111(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-386-4038"
+        }
+      ],
+      "dc:description": [
+        "Rakuno Gakuen University Library",
+        "582, Bunkyodai-Midorimachi, Ebetsu, Hokkaido 069-8501",
+        "URL: http://library.rakuno.ac.jp (website)",
+        "URL: http://www.rakuno.ac.jp/gaiyou/access.html (map)",
+        "来館利用担当: 情報サービス係",
+        "電話番号: 011-388-4141",
+        "受付時間: 9:00-16:30(土曜日-12:00)",
+        "注意事項: 資料の所在等,事前に問合せ・確認下さい。",
+        "注意事項: 試験期間等により利用できない場合があります。事前に問合せ・確認下さい。",
+        "注意事項: 開館日・開館時間を事前に問合せ・確認下さい。",
+        "持参書類: 住所・資格が確認できるもの(身分証明書等)",
+        "複写時間: 開館時間中",
+        "館外貸出: 可",
+        "制限事項: 利用者登録をしていただく",
+        "休館日: 日曜日・祝祭日・本学規定の休日"
+      ]
+    }
+  ]
+}

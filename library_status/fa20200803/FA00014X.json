@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA00014X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA00014X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA00014X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪市立大学 都市研究プラザ"
+        },
+        {
+          "@value": "オオサカシリツダイガク トシケンキユウプラザ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪市大都市"
+        },
+        {
+          "@value": "ハンシダイトシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "都市"
+      ],
+      "cinii:memberid": "FA00014X",
+      "cinii:organizationid": "KI001144",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪市立大学 都市研究プラザ",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "558-8585",
+        "v:label": "大阪市住吉区杉本3-3-138"
+      },
+      "dc:description": [
+        "事前に所属機関の図書館、あるいは最寄の公共図書館を通して必ずFAXで所蔵調査(資料の所在、利用の可否の確認)をしてください。事前に確認した資料のみ閲覧できます。貸出はできません。お問い合わせ・所蔵調査は学術情報総合センター情報サービス部門(TEL06-6605-3250 FAX06-6605-3252)までお願いします。"
+      ]
+    }
+  ]
+}

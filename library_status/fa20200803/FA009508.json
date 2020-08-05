@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA009508.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA009508#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA009508.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立女性教育会館 女性教育情報センター"
+        },
+        {
+          "@value": "コクリツジョセイキョウイクカイカン ジョセイキョウイクジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "女性館"
+        },
+        {
+          "@value": "ジョセイカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009508",
+      "cinii:organizationid": "KI00489X",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "国立女性教育会館 女性教育情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "355-0292",
+        "v:label": "埼玉県比企郡嵐山町菅谷728番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0493-62-6195"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0493-62-6721"
+        }
+      ],
+      "dc:description": [
+        "National Women's Education Center(NWEC)",
+        "728 Sugaya,Ranzan-machi,Hiki-gun,Saitama 355-0292,Japan",
+        "URL:http://www.nwec.jp/ (website)",
+        "開室時間 : 9:00-17:00",
+        "休室日:会館休館日,年末年始",
+        "複写受付可否:可",
+        "複写料金:白黒1枚35円"
+      ]
+    }
+  ]
+}

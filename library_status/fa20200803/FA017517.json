@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017517.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017517#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017517.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関西福祉大学 図書館"
+        },
+        {
+          "@value": "カンサイフクシダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関福大"
+        },
+        {
+          "@value": "カンプクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017517",
+      "cinii:organizationid": "KI010134",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "関西福祉大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "678-0255",
+        "v:label": "兵庫県赤穂市新田380-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0791-46-2506"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0791-46-2535"
+        }
+      ],
+      "dc:description": [
+        "THE LIBRARY OF KUSW",
+        "380-3,shinden,ako-shi,hyogo 678-0255",
+        "URL:http://www.kusw.ac.jp/general/affiliated/library(Website)",
+        "URL:http://libweb.kusw.ac.jp/CARINWEBOPAC.HTM (OPAC)",
+        "電話番号:0791-46-2506",
+        "休館日:websiteより「本日の開館時間」→「卒業生・一般」をご確認ください。",
+        "開館時間等の変更はwebsiteの「トピックス」よりご確認ください。"
+      ]
+    }
+  ]
+}

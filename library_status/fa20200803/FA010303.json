@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010303.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010303#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010303.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 水産研究・教育機構 西海区水産研究所"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン スイサンケンキュウ・キョウイクキコウ セイカイクスイサンケンキュウショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "西海水研"
+        },
+        {
+          "@value": "セイカイスイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "八重山"
+      ],
+      "cinii:memberid": "FA010303",
+      "cinii:organizationid": "KI005575",
+      "cinii:prefcode": "42",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 水産研究・教育機構 西海区水産研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "851-2213",
+        "v:label": "長崎県長崎市多以良町1551-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "095-860-1605(直通)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "095-860-1600(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "095-850-7767"
+        }
+      ],
+      "dc:description": [
+        "Seikai National Fisheries Research Institute, Fisheries Research Agency",
+        "1551-8, Taira-machi, Nagasaki-shi, Nagasaki 851-2213",
+        "URL:http://www.snf.affrc.go.jp (website)",
+        "来館利用担当:情報係",
+        "電話番号:095-860-1605",
+        "受付時間:9:00〜17:00",
+        "注意事項:資料の所蔵等を事前確認してください。",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可",
+        "休館日:土、日曜日、国民の祝日、年末年始(12/28~1/4)"
+      ]
+    }
+  ]
+}

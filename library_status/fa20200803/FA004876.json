@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004876.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004876#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004876.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "千葉工業大学 附属図書館"
+        },
+        {
+          "@value": "チバコウギョウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "千工大"
+        },
+        {
+          "@value": "チコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "芝図",
+        "津図"
+      ],
+      "cinii:memberid": "FA004876",
+      "cinii:organizationid": "KI001847",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "千葉工業大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "275-0016",
+        "v:label": "千葉県習志野市津田沼2-17-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "047-478-0239(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "047-478-0256"
+        }
+      ],
+      "dc:description": [
+        "2-17-1, Tsudanuma, Narashino-shi, Chiba 275-0016",
+        "URL:http://www.it-chiba.ac.jp/support/library/index.html"
+      ]
+    }
+  ]
+}

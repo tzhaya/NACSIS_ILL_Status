@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014494.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014494#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014494.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "二松學舎大学 附属図書館(柏)"
+        },
+        {
+          "@value": "ニショウガクシャダイガク フゾクトショカン(カシワ)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "二松柏"
+        },
+        {
+          "@value": "ニショウカシワ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014494",
+      "cinii:organizationid": "KI002522",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "二松學舎大学 附属図書館(柏)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "277-8585",
+        "v:label": "千葉県柏市大井2590"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-7191-8758"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-7191-6405"
+        }
+      ],
+      "dc:description": [
+        "NISHOGAKUSHA UNIVERSITY LIBRARY (KASHIWA)",
+        "2590 Ooi,kashiwa-shi,Chiba-ken",
+        "複写担当係: 相互協力係",
+        "複写受付可否: 可",
+        "複写受付方法: NACSIS-ILL・郵便・FAX",
+        "複写受付様式: NACSIS-ILL・私立大学図書館協会様式・往復はがき",
+        "複写方法・料金: 電子複写(40円均一), リーダープリンタ(1コマ40円)",
+        "複写送付方法: 郵送",
+        "複写決済方法: 後納(ILL料金相殺サービス未加入館)",
+        "複写料金受領方法: 切手",
+        "複写注記:和書・漢籍等の貴重書は電子複写不可",
+        "貸借担当係 :相互協力係",
+        "貸借受付可否: 可",
+        "貸借受付方法 :NACSIS-ILL・郵便・FAX",
+        "貸借料金:送料実費",
+        "貸借決済方法:後納(ILL料金相殺サービス未加入館)",
+        "貸借受領方法:切手",
+        "貸出期間: 3週間(発送期間を含む)",
+        "貸出冊数: 3冊",
+        "貸借注記: 貴重書・参考図書など貸出に応じられない資料があります。",
+        "貸借注記: 返却はゆうメール・書留郵便・または宅配便を使用してください。",
+        "貸借注記: 経費は返却時に切手を同封してください。",
+        "貸借注記: 依頼館での館内利用となります。申込者への館外貸出不可。",
+        "訪問利用担当係: 閲覧係",
+        "訪問利用対象者: 学生、大学院生、教職員、その他館長が許可する者",
+        "訪問利用事前連絡: FAX等で所蔵を確認のうえ、来館予定日時をお知らせください。",
+        "訪問利用持参書類: 資料利用依頼書(紹介状)・身分証明書",
+        "訪問利用受付時間: 9:15〜16:00",
+        "訪問利用複写受付時間: 9:15〜16:00",
+        "開館時間: 月曜日～土曜日9:15〜16:30",
+        "休館日: 日曜日、国民の祝日、夏期・冬期・春期休業中の一定期間、創立記念日(10月10日)、 その他館長が特に定めた日",
+        "開館日及び開館時間についてはホームページをご確認ください。",
+        "ILL注記 :<休館期間が、変更になりました。>2020年3月26日～2020年7月31日(九段)(柏)は閉館いたします。",
+        "ILL注記 :2020年8月8日(土)9:00～8月19日(水)9:00の期間においてILL受付を停止いたします。"
+      ]
+    }
+  ]
+}

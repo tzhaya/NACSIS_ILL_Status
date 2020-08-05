@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011474.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011474#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011474.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本化学会 化学情報センター"
+        },
+        {
+          "@value": "ニッポンカガクカイ カガクジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "化学会"
+        },
+        {
+          "@value": "カガクカイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "化情セ"
+      ],
+      "cinii:memberid": "FA011474",
+      "cinii:organizationid": "KI006614",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本化学会 化学情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-0062",
+        "v:label": "東京都千代田区神田駿河台1-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3292-6171"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3292-6319"
+        }
+      ],
+      "dc:description": [
+        "The Chemical Society of Japan, The Chemistry Library",
+        "5, Kanda-Surugadai 1-Choume, Chiyodaku, Tokyo, 101 JAPAN",
+        "URL:http://www.csj.jp/library/index.html"
+      ]
+    }
+  ]
+}

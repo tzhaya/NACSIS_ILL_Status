@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018418.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018418#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018418.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "帝京大学 福岡医療技術学部 附属図書館"
+        },
+        {
+          "@value": "テイキョウダイガク フクオカイリョウギジュツガクブ フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "帝大福医"
+        },
+        {
+          "@value": "テイダイフクイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018418",
+      "cinii:organizationid": "KI002318",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "帝京大学 福岡医療技術学部 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "836-8505",
+        "v:label": "福岡県大牟田市岬町6番22号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0944-57-1429(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0944-88-8519"
+        }
+      ],
+      "dc:description": [
+        "Library, Faculty of Medical Technology Teikyo University, Fukuoka",
+        "4-3-124 Shinkattachimachi, Omuta, Fukuoka 836-8505"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA022947.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA022947#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA022947.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 図書館 三軒茶屋キャンパス分館"
+        },
+        {
+          "@value": "ニホンダイガク トショカン サンゲンヂャヤキャンパスブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大三茶"
+        },
+        {
+          "@value": "ニチダイサンチャ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA022947",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本大学 図書館 三軒茶屋キャンパス分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "154-0002",
+        "v:label": "東京都世田谷区下馬3-34-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-6453-1691"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-6453-1695"
+        }
+      ],
+      "dc:description": [
+        "The Library, Sangenjaya Campus, Nihon University",
+        "3-34-1, Shimouma, Setagaya-ku, Tokyo",
+        "URL : http://www.nihon-u.ac.jp/risk_management/library/",
+        "URL : http://www.nihon-u.ac.jp/sports_sciences/library/",
+        "来館利用担当 : 相互利用係",
+        "電話番号 : 03-6453-1691",
+        "FAX番号 : 03-6453-1695",
+        "受付時間 : 平日9:00〜21:00(土曜日〜14:00)",
+        "注意事項 (1) : 18歳以上の資料閲覧目的でのみ利用可。",
+        "注意事項 (2) : 来館希望日の開館日・開館時間についてはホームページのカレンダーを確認のこと。",
+        "持参書類 : 年齢(18歳以上)を証明する公的身分証明書。",
+        "複写時間 : 平日9:00〜21:00(土曜日〜14:00)",
+        "休館日 : 日曜日、国民の祝日,本学創立記念日(10/4)、休業期間の土曜日および夏季・冬季休暇の一定期間、その他図書館長が必要と認めるとき"
+      ]
+    }
+  ]
+}

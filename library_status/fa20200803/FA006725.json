@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006725.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006725#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006725.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "明治薬科大学 図書館"
+        },
+        {
+          "@value": "メイジヤッカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "明薬大"
+        },
+        {
+          "@value": "メイヤクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006725",
+      "cinii:organizationid": "KI002737",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "明治薬科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "204-8589",
+        "v:label": "東京都清瀬市野塩2-522-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-495-8605"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-495-8604"
+        }
+      ],
+      "dc:description": [
+        "MEIJI PHARMACEUTICAL UNIVERSITY",
+        "2-522-1 NOSHIO, KIYOSE-SHI, TOKYO 204-8589 JAPAN",
+        "URL: https://www.my-pharm.ac.jp/ (大学)",
+        "URL: https://kensaku.my-pharm.ac.jp/drupal/ (図書館)",
+        "来館利用担当:カウンター係",
+        "電話番号:042-495-8605",
+        "受付時間:9:00-16:30",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "閲覧事前連絡 :必要(FAXでお申込みください)",
+        "持参書類:紹介状",
+        "試験期間(7,9,12,1月)は学外利用者のご利用は中止しております。",
+        "複写時間:9:00-16:30",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、第2土曜日、長期休暇中の一定期間、創立記念日、入学試験日"
+      ]
+    }
+  ]
+}

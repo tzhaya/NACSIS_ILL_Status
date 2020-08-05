@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA000106.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA000106#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA000106.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京工業大学 附属図書館"
+        },
+        {
+          "@value": "トウキョウコウギョウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東工大岡"
+        },
+        {
+          "@value": "トウコウダイオカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館",
+        "数学",
+        "物理",
+        "研究室",
+        "数理計算",
+        "土木建築",
+        "経営工学",
+        "社会工学",
+        "学科図書室",
+        "電子ジャーナル"
+      ],
+      "cinii:memberid": "FA000106",
+      "cinii:organizationid": "KI000287",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002800",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京工業大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "152-8550",
+        "v:label": "東京都目黒区大岡山2-12-1 (L-1)"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5734-2092"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5734-3330"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Institute of Technology Library",
+        "2-12-1(L-1) Ookayama, Meguro-ku, Tokyo 152-8550",
+        "URL:https://www.libra.titech.ac.jp/ (Website)",
+        "URL:https://www.titech.ac.jp/maps/index.html (maps)",
+        "URL:https://topics.libra.titech.ac.jp/ (OPAC)",
+        "来館利用担当:利用支援グループカウンター担当(03-5734-2097)",
+        "開館日・利用時間:ホームページで確認ください。",
+        "注意事項:ホームページの利用案内を事前に確認のうえ来館ください。",
+        "注意事項:事前に資料の所在、利用の可否を確認ください。資料の取り置きはいたしません。",
+        "注意事項:有効期限が記載されている本人確認書類(学生証、職員証・社員証、健康保険証、運転免許証、マイナンバーカード、パスポート、在留カード、当館発行の「貸出カード」のいずれか)をご持参ください。",
+        "文献複写:図書館間相互協力としてのみ受付。個人からの依頼は不可。",
+        "図書館間現物貸借:参考図書、貴重書、雑誌、会議録、学位論文、研究室貸出資料、視聴覚資料は貸出対象外",
+        "ILL-Staff:Interlibrary Loan Section",
+        "ILL-Dept:Library Services Group",
+        "ILL-Org:Tokyo Institute of Technology Library",
+        "ILL-Address:2-12-1(L-1), Ookayama, Meguro-ku, Tokyo, Japan",
+        "ILL-ZIP:152-8550",
+        "ILL-Contact1:Tel:+81-3-5734-2092 / Fax:+81-3-5734-3330 / E-mail:ill@libra.titech.ac.jp",
+        "ILL-Contact2:OPAC:https://topics.libra.titech.ac.jp/en / Home-page:https://www.libra.titech.ac.jp/en",
+        "ILL-Accept:International:LOAN N/A COPY KERIS only",
+        "ILL-Calender:Closed:Dec 27-Jan 5",
+        "ILL-Accept-method:KERIS=NII ILL Linkage(COPY Only)",
+        "ILL-paymen-method:KERIS=NII Fee Management Service",
+        "ILL-Loan-Period:N/A",
+        "ILL-Loan-Item-Max:N/A",
+        "ILL-Loan-Renewal:N/A",
+        "ILL-Loan-Charge:N/A",
+        "ILL-Loan-Delivery-method:N/A",
+        "ILL-Non-Circulation-items:N/A",
+        "ILL-Copy-Charge:40 JPY per sheet and Postage",
+        "ILL-Copy-Delivery-method:Airmail",
+        "ILL-Note:DIS:Photocopy:need the author's permission  / Not accept requests for out-library materials / MCRFLM:N/A / FCHE/FCHE:N/A",
+        "ILL-OCLC-Symbol:YT#"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017506.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017506#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017506.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北翔大学 図書館"
+        },
+        {
+          "@value": "ホクショウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北翔大"
+        },
+        {
+          "@value": "ホクショウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA017506",
+      "cinii:organizationid": "KI010123",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "北翔大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "069-8511",
+        "v:label": "北海道江別市文京台23"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-387-3908"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-387-4758"
+        }
+      ],
+      "dc:description": [
+        "Hokusho University Library",
+        "23, Bunkyodai, Ebetsu-shi, Hokkaido 069-8511",
+        "URL:https://lib.hokusho-u.ac.jp/drupal/",
+        "対図書館複写サービス:受付可",
+        "図書館間相互貸借:受付可",
+        "相互貸借による貸出期間:郵送期間を含め30日間",
+        "注意事項:事前に電話でお問い合わせください。",
+        "持参書類:所属機関発行の資料利用依頼書 (身分を証明する物を携行のこと)",
+        "複写時間:受付時間と同じ。",
+        "館外貸出:北海道地区大学図書館協議会相互利用サービス加盟館所属の方のみ可",
+        "休館日:日曜, 祝日, 学園創立記念日(9月5日), 夏季・冬季休業中の一定期間, 大学祭等の行事日",
+        "2019年11月12日(火)から15日(金)まで、担当者が研修で不在のため受付業務を停止させていただきます。18日(月)の午前から再開予定です。",
+        "ILL-Dept:Library",
+        "ILL-Org:Hokusho University",
+        "ILL-Address:23, Bunkyodai, Ebetsu-shi, Hokkaido",
+        "ILL-ZIP:069-8511",
+        "ILL-Commun1:Tel:+81-11-387-3908 / Fax:+81-11-387-4758 / E-mail: library@hokusho-u.ac.jp",
+        "ILL-Commun2:OPAC:http://lib.hokusho-u.ac.jp/mylimedio/search/search-input.do Home-Page:https://lib.hokusho-u.ac.jp/drupal/",
+        "ILL-Accept: Foreign: KERIS only",
+        "ILL-Sched:Closed: Dec28-Jan 6",
+        "ILL-Bill:Foreign: NII Free Management Service",
+        "ILL-Loan-Period: Foreign: None",
+        "ILL-Loan-Renew: None",
+        "ILL-Loan-Charge: Foreign: None",
+        "ILL-Loan-Non-Circulation: Foreign: None",
+        "ILL-Copy-Charge: Photocopy: 30 YEN per sheet / Postage required"
+      ]
+    }
+  ]
+}

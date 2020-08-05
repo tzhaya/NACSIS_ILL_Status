@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017765.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017765#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017765.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "松江市立病院 図書室"
+        },
+        {
+          "@value": "マツエシリツビヨウイン トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "松市病"
+        },
+        {
+          "@value": "マツシビヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017765",
+      "cinii:organizationid": "KI010349",
+      "cinii:prefcode": "32",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "松江市立病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "690-8509",
+        "v:label": "島根県松江市乃白町32-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0852-60-8000"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0852-60-8005"
+        }
+      ],
+      "dc:description": [
+        "平成22年9月18日～9月30日の期間、休館のためILLの対応はできません。",
+        "ILLの依頼をされる際は、電話で事前にお問い合わせをお願いします。"
+      ]
+    }
+  ]
+}

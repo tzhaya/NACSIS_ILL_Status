@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007105.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007105#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007105.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "松本歯科大学 図書館"
+        },
+        {
+          "@value": "マツモトシカダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "松歯大"
+        },
+        {
+          "@value": "マツシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研",
+        "図"
+      ],
+      "cinii:memberid": "FA007105",
+      "cinii:organizationid": "KI003048",
+      "cinii:prefcode": "20",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "松本歯科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "399-0781",
+        "v:label": "長野県塩尻市広丘郷原1780"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0263-51-2131"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0263-52-6597"
+        }
+      ],
+      "dc:description": [
+        "Matsumoto Dental University Library",
+        "1780, Gobara, Hirooka, Shiojiri-shi, Nagano-ken, 399-0781",
+        "URL:http://www.mdu.ac.jp/library/index.html",
+        "来館利用担当係 :閲覧係",
+        "電話番号:0263-52-3100(内線6115)",
+        "通常開館時間 :8:30〜19:00(土曜日8:30〜12:30)",
+        "臨時に開館時間が変更となるので事前に問い合わせが望ましい",
+        "休館日 :毎月第4金曜日午前中・日曜日・祝祭日・夏期休業期間中(8月上旬〜中旬)・冬季休業期間中(12月下旬〜1月上旬)・創立記念日(1月29日)・ファウンダーズデイ(1月14日)",
+        "来館事前連絡:電話で問い合わせが望ましい",
+        "来館持参書類:所属組織の図書館の紹介状(ある場合)、身分を証明する物を携行のこと。(医師・歯科医師の方で貸出を受ける場合は、医師・歯科医師の身分を証明書するものを提示し「利用者証」の発行を受ける。2回目以降は「利用者証」を持参。)",
+        "来館注記:入館時に「図書館閲覧申込書」の記入。身分を証明できるものを提示。",
+        "館外貸出可否 :可(医師・歯科医師の方のみ。図書のみ5冊まで2週間。)",
+        "複写受付可否 :可",
+        "FAX受付可否 :可",
+        "複写方法・料金:電子複写(白黒30円/枚,カラー50円/枚)・FAX送信(50円均一)",
+        "決済方法 :私費=後納",
+        "支払方法 :郵便振替",
+        "振込先 :郵便振替=00540-1-3945 松本歯科大学図書館相互貸借係",
+        "貸借担当係 :相互貸借係",
+        "電話番号:0263-51-2124",
+        "貸借受付可否 :可",
+        "貸出期間 :2週間",
+        "貸出冊数 :5冊以内",
+        "貸借注記 :資料によっては貸借不可",
+        "・・・・以下、海外の図書館向けのご案内です・・・・・",
+        "ILL-Staff:Shiho Nagai",
+        "ILL-Dept:Interlibrary Loan Sec.",
+        "ILL-Org:Matsumoto Dental University Library",
+        "ILL-Address:1780,Gobara,Hirooka,Shiojiri-shi,Nagano,Japan",
+        "ILL-ZIP:399-0781",
+        "ILL-Commun1:Tel :+81-263-52-3100(2124) / FAX:+81-263-52-6597 E-mail:info_lib@po.mdu.ac.jp",
+        "ILL-Commun2:OPAC:http://www.mdu.ac.jp/library/reference.html HOME-Page:http://www.mdu.ac.jp/library/index.html",
+        "ILL-Sched:Closed:Dec 23-Jan 6",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Loan-Period:None",
+        "ILL-Loan-Renew:None",
+        "ILL-Loan-Charge: Loan:N/A",
+        "ILL-Non-Circulation:Loan:N/A",
+        "ILL-Copy-Charge:PHOTOCOPY:mono30YEN per sheet, color50YEN per sheet / Postage required / Deliberly method:via airmail.",
+        "ILL-Accept:OCLC:YK@",
+        "ILL-OCLC-Symbol:YK@"
+      ]
+    }
+  ]
+}

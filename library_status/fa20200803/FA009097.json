@@ -1,0 +1,138 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA009097.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA009097#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA009097.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "別府大学 附属図書館"
+        },
+        {
+          "@value": "ベップダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "別府大"
+        },
+        {
+          "@value": "ベップダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "1F閲覧室",
+        "2F閲覧室",
+        "3F閲覧室",
+        "積層書庫1層",
+        "積層書庫2層",
+        "積層書庫3層",
+        "4F書庫",
+        "5F書庫",
+        "1号館2F書庫",
+        "1号館3F書庫",
+        "大分校図書室",
+        "英文学研究室",
+        "史学科研究室",
+        "芸術文化学科研究室",
+        "一般教育研究室",
+        "博物館",
+        "日本語別科",
+        "教職課程",
+        "仲嶺研究室",
+        "古文書室",
+        "L.L.教室",
+        "大学院図書室",
+        "文化財学科図書室",
+        "書道研究室",
+        "商経科研究室",
+        "食物専攻研究室",
+        "生活文化科研究室",
+        "初等教育科研究室",
+        "幼児教育研究センター",
+        "介護福祉士",
+        "大分校LL教室",
+        "教務課",
+        "学生談話室",
+        "就職相談室",
+        "総務課",
+        "健康センター",
+        "看護専門学校図書室",
+        "大分校移転準備室",
+        "中国史研究室",
+        "英語科演習室",
+        "人間関係学科研究室",
+        "国文学科研究室",
+        "2号館1F書庫",
+        "国文学科演習室",
+        "33号資料室",
+        "食物栄養学科",
+        "食物栄養学部研究室",
+        "地域総合学科研究室",
+        "保育科研究室",
+        "大学院心理学",
+        "衛藤研究室",
+        "保育科図書室",
+        "博物館館長室",
+        "食物バイオ学科研究室"
+      ],
+      "cinii:memberid": "FA009097",
+      "cinii:organizationid": "KI004539",
+      "cinii:prefcode": "44",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "別府大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "874-8501",
+        "v:label": "大分県別府市大字北石垣82"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0977-66-9633"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0977-66-9632"
+        }
+      ],
+      "dc:description": [
+        "Beppu University Library",
+        "82 Kita-ishigaki, Beppu-shi, Oita 874-8501",
+        "URL:https://ufinity.beppu-u.ac.jp/",
+        "来館利用担当:閲覧係",
+        "電話番号:0977-66-9633",
+        "受付時間:9:00〜19:00(土曜日〜13:00)",
+        "持参書類:資料利用依頼書(身分を証明するものを携行のこと)",
+        "複写時間:9:00〜19:00 (土曜日〜13:00)",
+        "館外貸出:不可",
+        "休館日:日曜、祭日、夏季特別休暇、年末年始休暇",
+        "注記:春季・冬季休業については事前に確認のこと"
+      ]
+    }
+  ]
+}

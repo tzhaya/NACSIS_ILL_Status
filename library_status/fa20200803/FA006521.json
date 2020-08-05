@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006521.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006521#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006521.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本体育大学 図書館"
+        },
+        {
+          "@value": "ニツポンタイイクダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日体大"
+        },
+        {
+          "@value": "ニツタイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "体研",
+        "分館",
+        "保医"
+      ],
+      "cinii:memberid": "FA006521",
+      "cinii:organizationid": "KI002602",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本体育大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "158-8508",
+        "v:label": "東京都世田谷区深沢7-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5706-0906"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5706-0913"
+        }
+      ],
+      "dc:description": [
+        "Nippon Sport Science University Library",
+        "7-1-1, Fukasawa, Setagaya-ku, Tokyo 158-8508",
+        "来館利用担当:閲覧係",
+        "電話番号:03-5706-0906",
+        "受付時間:8:45〜22:00(土曜日8:45〜19:00)",
+        "8月5日(水)～16日(日)まで大学郵便事情及び夏季一斉休暇のためILLの業務を停止いたします。",
+        "注意事項:",
+        "所蔵の確認について",
+        "・所蔵調査や参考質問につきましては、FAXやメールで申し込みください。",
+        "事前連絡について",
+        "・開館日・開館時間につきましては、あらかじめホームページの開館予定表でご確認ください。",
+        "持参書類:現住所が確認できる身分証明書(運転免許証、健康保険証等)をご持参ください。",
+        "制限事項:貴重書等特別扱いの資料は、当日の請求による利用、土曜日・特別開館日(日曜日・祝日等)の利用はできません。試験期などは学内利用者を優先し、ご利用をお断りする場合があります。",
+        "休館日:日曜日・祝日(授業休業期間)、開学記念日(9.20)、年末年始"
+      ]
+    }
+  ]
+}

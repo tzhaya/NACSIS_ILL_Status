@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024148.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024148#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024148.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "石巻赤十字病院 図書室"
+        },
+        {
+          "@value": "イシノマキセキジュウジビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "石巻日赤"
+        },
+        {
+          "@value": "イシノマキニッセキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024148",
+      "cinii:organizationid": "KI01450X",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "石巻赤十字病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "986-8522",
+        "v:label": "宮城県石巻市蛇田字西道下71番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0225-21-7220"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0225-96-0122"
+        }
+      ],
+      "dc:description": [
+        "Jpanese Red Cross Ishinomaki Hospital",
+        "71, Azanisimichishita , Hebita , Ishinomaki , Miyagi , 986-8522 , JAPAN"
+      ]
+    }
+  ]
+}

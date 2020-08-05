@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005427.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005427#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005427.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "昭和薬科大学 図書館"
+        },
+        {
+          "@value": "シヨウワヤツカダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "昭薬大"
+        },
+        {
+          "@value": "シヨウヤクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005427",
+      "cinii:organizationid": "KI002125",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "昭和薬科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "194-8543",
+        "v:label": "東京都町田市東玉川学園3-3165"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-721-1522"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-721-1589"
+        }
+      ],
+      "dc:description": [
+        "Library, Showa Pharmaceutical University",
+        "3-3165, Higashitamagawagakuen, Machida-shi, Tokyo 194-8543"
+      ]
+    }
+  ]
+}

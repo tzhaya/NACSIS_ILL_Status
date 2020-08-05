@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024931.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024931#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024931.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "社会福祉法人 恩賜財団 東京都済生会中央病院"
+        },
+        {
+          "@value": "シャカイフクシホウジン オンシザイダン トウキョウトサイセイカイチュウオウビョウイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東京都済生会中央"
+        },
+        {
+          "@value": "トウキョウトサイセイカイチュウオウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書室",
+        "各科"
+      ],
+      "cinii:memberid": "FA024931",
+      "cinii:organizationid": "KI014940",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "社会福祉法人 恩賜財団 東京都済生会中央病院",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "108-0073",
+        "v:label": "東京都港区三田1-4-17"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3451-8211"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3451-0484"
+        }
+      ],
+      "dc:description": [
+        "Saiseikai Central Hospital",
+        "1-4-17,Mita,Minato-ku,Tokyo,Japan 108-0073",
+        "複写受付:9:00-17:00(発送は平日のみ)",
+        "複写料金:白黒1枚50円カラー1枚100円サイズはA3まで。白黒コピー優先。",
+        "ILL可の電子ジャーナルがある場合、電子ジャーナルからの印刷を優先します。",
+        "送付は通常の場合メール便となります。",
+        "速達の発送は14時までに受け付けたものは当日、それ以降は翌日以降の発送になります。",
+        "当図書室はNacsis-ILL相殺サービス参加館です。Nacsis-ILL非相殺館は1か月以内に郵便振替(後納)にてお支払いください。",
+        "Nacsis不参加病院図書室は当院からも複写依頼ができるよう申込書に所属ネットワークと貴図書室の所蔵目録URLを記載してください。",
+        "注意事項:一般の方、個人での利用はできません。"
+      ]
+    }
+  ]
+}

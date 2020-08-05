@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018542.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018542#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018542.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都市大学 横浜キャンパス 図書館"
+        },
+        {
+          "@value": "トウキョウトシダイガク ヨコハマキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "都市大横浜"
+        },
+        {
+          "@value": "トシダイヨコハマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018542",
+      "cinii:organizationid": "KI002679",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京都市大学 横浜キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "224-8551",
+        "v:label": "神奈川県横浜市都筑区牛久保西3-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-910-2546"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-910-2603"
+        }
+      ],
+      "dc:description": [
+        "Tokyo City University Yokohama Campus Library",
+        "3-3-1, Ushikubonishi, Tsuzuki-ku, Yokohama-shi, Kanagawa, 224-8551",
+        "URL:https://library.tcu.ac.jp/ (website)",
+        "URL:https://www.tcu.ac.jp/access/index.html (map)",
+        "閲覧時間 :開館時間内",
+        "複写利用時間:閉館時間10分前まで",
+        "閲覧事前連絡 : 事前にFAXで問い合わせしてください。",
+        "来館時持参書類: 資料利用依頼書(身分を証明するものを携行のこと)",
+        "休業中開館時間 :春・冬期 9:00〜17:00(土曜日〜12:00) 夏期 9:00〜16:00(土曜日〜12:00)",
+        "注意事項 :開館日を確認して来館してください。",
+        "ILL-Org:Tokyo City University Yokohama Campus Library",
+        "ILL-Address:3-3-1, Ushikubonishi, Tsuzuki-ku, Yokohama-shi, Kanagawa, Japan",
+        "ILL-ZIP:224-8551",
+        "ILL-Commun1:Tel:+81-45-910-2529 / Fax:+81-45-910-2603 / E-mail:yclib@tcu.ac.jp"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016070.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016070#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016070.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "苫小牧工業高等専門学校 図書館"
+        },
+        {
+          "@value": "トマコマイコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "苫小牧高専"
+        },
+        {
+          "@value": "トマコマイコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016070",
+      "cinii:organizationid": "KI008857",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "600200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "苫小牧工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "059-1275",
+        "v:label": "北海道苫小牧市字錦岡443"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0144-67-8907"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0144-67-4951"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Technology, Tomakomai College",
+        "443 Nishikioka Tomakomai Hokkaido"
+      ]
+    }
+  ]
+}

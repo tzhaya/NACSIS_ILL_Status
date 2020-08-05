@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007659.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007659#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007659.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都橘大学 図書館"
+        },
+        {
+          "@value": "キョウトタチバナダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "橘大"
+        },
+        {
+          "@value": "タチバナダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA007659",
+      "cinii:organizationid": "KI003456",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都橘大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "607-8175",
+        "v:label": "京都府京都市山科区大宅山田町34番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-574-4147"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-574-4124"
+        }
+      ],
+      "dc:description": [
+        "Kyoto Tachibana University Library",
+        "34 Yamada-cho Oyake Yamashina-ku Kyoto 607-8175",
+        "URL:http://www.tachibana-u.ac.jp/library/ (website)",
+        "URL:http://www.tachibana-u.ac.jp/about/campus/access.html (map)",
+        "来館利用担当:閲覧係",
+        "電話番号:075-574-4147",
+        "受付時間:8:45〜19:30(土曜日〜16:15)",
+        "注意事項:FAXによる事前連絡が望ましい",
+        "持参書類:閲覧依頼回答(写し)及び身分を証明する物を携行のこと。貴重資料は別途手続き要。",
+        "複写時間:",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:日曜日・祝休日,夏季休業期間(8月中旬),大学祭(10月),入試日,冬季休業期間(年末年始),蔵書点検期間",
+        "ILL-Staff:NAKAMURA Takahito",
+        "ILL-Dept:Reference Service Section",
+        "ILL-Org:Kyoto Tachibana Univ. Library",
+        "ILL-Address:34 Yamada-cho, Oyake, Yamashina-ku, Kyoto, Japan",
+        "ILL-ZIP:607-8175",
+        "ILL-Commun1:Tel:+81-75-574-4118 /FAX:+81-75-574-4124 /E-mail:reference@tachibana-u.ac.jp",
+        "ILL-Commun2:OPAC:https://www-std01.ufinity.jp/tachibana/?page_id=13 /Home-Page:http://www.tachibana-u.ac.jp/library",
+        "ILL-Accept:Foreign:KERIS",
+        "ILL-Sched:Closed:Sunday, Aug8–Aug17, Dec27-Jan5",
+        "ILL-Bill:Foreign:KERIS=NII Fee Management service",
+        "ILL-Loan-Period:None",
+        "ILL-Loan-Renew:Loan: N/A",
+        "ILL-Loan-Charge: Loan: N/A",
+        "ILL-Non-Circulation: N/A",
+        "ILL-Copy-Charge:MCRFRM/PHOTOCOPY: 40 YEN per sheet[per exposure]. Postage required. Delivery method: via airmail [EMS]."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004413.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004413#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004413.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岩手医科大学 附属図書館"
+        },
+        {
+          "@value": "イワテイカダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岩医大"
+        },
+        {
+          "@value": "イワイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004413",
+      "cinii:organizationid": "KI001494",
+      "cinii:prefcode": "03",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "岩手医科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "020-8505",
+        "v:label": "岩手県盛岡市内丸19番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "019-611-8006"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "019-625-8030"
+        }
+      ],
+      "dc:description": [
+        "Iwate Medical University Library",
+        "19-1 Uchimaru, Morioka, Iwate, 020-8505",
+        "URL:http://www.lib.iwate-med.ac.jp/index.html (website)",
+        "電話番号:019-611-8006(ダイヤルイン内線2129/2303)",
+        "運用係",
+        "閲覧対象 :本学職員・学生、OB、医療従事者等",
+        "閲覧持参書類 :身分証明書",
+        "複写 受付可否:可(プリペイドカード方式 1,000円)",
+        "館外貸出可否 :可",
+        "通常開館時間 :9:00-22:00(土曜日 -17:00)",
+        "休館日 :日曜祝祭日、第2・3・5土曜日、年末年始12/30〜1/3,その他臨時休館あり",
+        "岩手医科大学附属図書館 矢巾図書館への複写申込は、内丸図書館 相互貸借係で受付致します。",
+        "ILL複写料金:白黒1枚50円、カラー1枚100円 ※「カラー希望」と明記されていない場合は、白黒で送付します。",
+        "ILL支払い方法 :郵便振込(相殺参加機関は相殺処理)",
+        "【お知らせ】メインキャンパスの変更により、2019年9月17日(火)より、午後2時30分までに受付したお申込みについて当日発送とさせていだたきます。(お申込み内容によっては、当日発送できない場合がございます。)",
+        "【臨時休館のお知らせ】2020年8月4日(火)～6日(木)臨時休館のため、サービスを休止します。臨時休館中のお申込みは、翌開館日以降の対応となります。ご不便をおかけしますがご了承願います。"
+      ]
+    }
+  ]
+}

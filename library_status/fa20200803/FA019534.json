@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019534.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019534#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019534.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "和歌山工業高等専門学校 図書館"
+        },
+        {
+          "@value": "ワカヤマコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "和歌山高専"
+        },
+        {
+          "@value": "ワカヤマコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019534",
+      "cinii:organizationid": "KI011705",
+      "cinii:prefcode": "30",
+      "cinii:mextid": "603100",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "和歌山工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "644-0023",
+        "v:label": "和歌山県御坊市名田町野島77"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0738-29-8217"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0738-29-8219"
+        }
+      ],
+      "dc:description": [
+        "Library of National Institute of Technology(KOSEN), Wakayama college",
+        "77,Noshima,Nada-cho,Gobo-Shi,Wakayama-Ken 644-0023,Japan",
+        "URL:http://www.wakayama-nct.ac.jp",
+        "来館利用担当:図書係",
+        "電話番号:0738-29-8217",
+        "開館時間:月曜日〜金曜日 9:00〜21:00",
+        "注意事項:本校図書館の設置目的は、本校の教育・研究にあります。従って、",
+        "持参書類:本人の確認ができるもの",
+        "複写時間:9:00〜16:00(月〜金曜日)",
+        "館外貸出:1人3冊・2週間以内(雑誌も含む)",
+        "貸出できない資料",
+        "休館日:日曜日、祝日(振替休日を含む)"
+      ]
+    }
+  ]
+}

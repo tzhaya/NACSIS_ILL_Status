@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007320.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007320#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007320.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "中京大学 豊田図書館"
+        },
+        {
+          "@value": "チユウキヨウダイガク トヨタトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中京大豊"
+        },
+        {
+          "@value": "チユウキヨウダイトヨ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007320",
+      "cinii:organizationid": "KI003208",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "中京大学 豊田図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "470-0393",
+        "v:label": "愛知県豊田市貝津町床立101"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0565-46-1246"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0565-46-1295"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Chukyo University Toyota Library",
+        "ILL-Address:Tokodachi 101,Kaizu-cho,Toyota-shi,Aichi-ken JAPAN",
+        "ILL-ZIP:470-0393",
+        "ILL-Commun1:Telephone:(+81)565-46-1211 Facsimile:(+81)565-46-1295",
+        "URL:https://www.chukyo-u.ac.jp/ (中京大学トップページ)",
+        "URL:https://www.chukyo-u.ac.jp/extension/library/ (中京大学図書館トップページ)",
+        "来館利用担当:閲覧係",
+        "電話番号:0565-46-1246(図書館直通)",
+        "開館時間等:ホームページにて確認して下さい。",
+        "開館時間:開講期間 平日*****9:00〜20:30",
+        "開館時間:開講期間 土曜日***9:00〜17:30",
+        "持参書類:紹介状(身分を証明する物を携行のこと)",
+        "閲覧・複写出納時間:閉館30分前まで",
+        "館外貸出:可(年度内有効の利用証作成)",
+        "制限事項:貴重図書には閲覧を許可しないものがあります(事前許可制)",
+        "休館日:日曜日・国民の祝日・その他大学で定めた休業日",
+        "休館日:8月土曜日(定期試験予備日を除く)・蔵書点検期間",
+        "休館日:入試"
+      ]
+    }
+  ]
+}

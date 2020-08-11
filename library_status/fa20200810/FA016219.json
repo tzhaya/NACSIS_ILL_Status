@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016219.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016219#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016219.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "静岡赤十字病院 図書室"
+        },
+        {
+          "@value": "シズオカセキジュウジビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "静岡赤"
+        },
+        {
+          "@value": "シズオカセキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016219",
+      "cinii:organizationid": "KI009011",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "静岡赤十字病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "420-0853",
+        "v:label": "静岡県静岡市葵区追手町8番2号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "054-254-4311(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "054-272-6983(図書室)"
+        }
+      ],
+      "dc:description": [
+        "Japanese Red Cross Shizuoka Hospital Library",
+        "8-2, Otemachi, Aoi-ku, Shizuoka-shi, Shizuoka 420-0853",
+        "URL:http://www.jrc-lib.jp/library/shizuoka",
+        "電話番号:054-254-4311(代表)  FAX番号:054-272-6983(図書室)",
+        "受付時間:9:00〜14:00(土曜日不可)集配時間制限のため、14:00以降は翌日の処理となります。",
+        "FAX受付時間:9:00～14:00",
+        "複写対応時間:9:00〜12:00,13:00～14:00",
+        "支払方法:ILL料金相殺サービス適応、非参加機関=後納、銀行振込(請求書の発行はできません)。",
+        "複写料金:電子複写白黒・カラー1枚50円、冊子体複写白黒1枚50円、カラー1枚100円",
+        "FAX送信:可(要事前電話連絡)1枚100円(複写50円+FAX50円)",
+        "速達対応:可(要事前電話連絡 CiNiiを確認の上申し込まれる場合は、不在の場合もありますので電話にてご確認ください)",
+        "館外貸出:不可",
+        "休館日:土日曜日、祝日、年末年始、創立記念日 (5月1日)",
+        "注意事項:一般の方、個人での利用、複写はお受けできません。医療関係者、学生の方は所属図書館を通して事前予約をしてください。"
+      ]
+    }
+  ]
+}

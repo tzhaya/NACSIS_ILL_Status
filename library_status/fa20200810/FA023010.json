@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023010.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023010#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023010.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名寄市立大学 図書館"
+        },
+        {
+          "@value": "ナヨロシリツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名寄市大"
+        },
+        {
+          "@value": "ナヨロシダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA023010",
+      "cinii:organizationid": "KI01388X",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "名寄市立大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "096-8641",
+        "v:label": "北海道名寄市西4条北8丁目1番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "01654-8-7671"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "01654-3-9101"
+        }
+      ],
+      "dc:description": [
+        "8月7日まで担当者不在のため複写・貸借受付をお休みします。",
+        "今のところ短縮時間で運営しております。今後変更がありましたらこちらでお知らせいたします。(2020.4.24)",
+        "Nayoro City University Library / Nayoro City University Junior College Library",
+        "URL:https://webopac.nayoro.ac.jp/(名寄市立大学図書館)",
+        "複写担当係:司書係",
+        "複写受付可否:可",
+        "複写受付窓口:司書係",
+        "複写方法・料金:電子複写 白黒1枚30円・カラー1枚50円",
+        "複写送付方法:クロネコDM便を利用します。",
+        "速達での送付は対応いたしかねます。",
+        "申込方法:NACSIS-ILL、FAX、電子メール",
+        "複写支払方法:ILL料金相殺サービスによる。その他の場合は切手(後納)。",
+        "複写注記等:担当者のシフトの都合上発送は翌日以降となります。土日・祝日は発送しておりません。ご了承ください。",
+        "貸借担当係:司書係",
+        "貸借受付可否:条件付可(雑誌・参考図書・視聴覚資料・所在が研究室のものは貸出できない場合があります)",
+        "貸借期間:発送日を含め1ヵ月",
+        "貸借注記等:ゆうメール(簡易書留)、ゆうパック",
+        "閲覧担当者:司書係",
+        "閲覧対象者:本学教職員・学生、本学退職教職員・卒業生、北海道内大学図書館相互利用サービス参加館による対象者、その他一般利用者",
+        "事前連絡:資料の有無をご確認の上、事前にご連絡ください(電話、FAX、電子メール)",
+        "持参資料:身分を証明するもの又は図書館長の紹介状",
+        "館外貸出し可否:条件付可(北海道内大学図書館相互利用サービス参加館による対象者、その他一般利用者)",
+        "開館時間:9:00 - 21:00  (長期休業中は9:00 - 17:00)",
+        "休館日:日曜日・国民の祝祭日・年末年始(12月31日 - 1月5日)",
+        "ILL-Org:Nayoro CIty University Library",
+        "ILL-Address:1Kita-8, Nishi-4, Nayoro, Hokkaido, Japan",
+        "ILL-Zip:096-8641",
+        "ILL-Commun1:Tel:+81-1654-8-7671 / Fax:+81-1654-3-9101 / E-mail:library3@nayoro.ac.jp"
+      ]
+    }
+  ]
+}

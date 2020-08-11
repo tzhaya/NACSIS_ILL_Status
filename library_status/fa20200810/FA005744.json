@@ -1,0 +1,61 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005744.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005744#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005744.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "中央大学 保健体育研究所"
+        },
+        {
+          "@value": "チユウオウダイガク ホケンタイイクケンキユウシヨ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中大保"
+        },
+        {
+          "@value": "チユウダイホ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005744",
+      "cinii:organizationid": "KI002293",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "中央大学 保健体育研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "192-0393",
+        "v:label": "東京都八王子市東中野742番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0426-74-3911"
+        }
+      ]
+    }
+  ]
+}

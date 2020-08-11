@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016922.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016922#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016922.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高知工科大学 附属情報図書館"
+        },
+        {
+          "@value": "コウチコウカダイガク フゾクジヨウホウトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高知工大"
+        },
+        {
+          "@value": "コウチコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016922",
+      "cinii:organizationid": "KI009532",
+      "cinii:prefcode": "39",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "高知工科大学 附属情報図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "782-8502",
+        "v:label": "高知県香美市土佐山田町宮ノ口185"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0887-57-2010"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0887-57-2002"
+        }
+      ],
+      "dc:description": [
+        "Kochi University of Technology",
+        "185, Miyanokuchi, Tosayamada-cho, Kami-shi, Kochi 782-8502",
+        "URL:http://www.kochi-tech.ac.jp/library/",
+        "電話番号:0887-57-2010",
+        "受付時間:8:30〜19:00(土曜〜17:00)",
+        "持参書類:身分の証明になるもの(健康保険証、免許証、学生証等)",
+        "複写時間:8:30〜19:00(土曜〜17:00)",
+        "館外貸出:可",
+        "研究室所蔵・教室所蔵資料は閲覧できないものもあるので、事前に確認すること",
+        "研究室所蔵・教室所蔵資料は館外貸出不可",
+        "休館日:日曜日、国民の祝日、開学記念日(11月7日)、年末年始、夏季休館、その他、",
+        "ILL-Staff:Rumi, Hashimoto",
+        ":ILL-Dept: Interlibrary Service Section",
+        "ILL-Org:Kochi University of Technology.Library",
+        "ILL-Address:185, Miyanokuchi, Tosayamada-cho, Kami-shi, Kochi, JAPAN",
+        "ILL-ZIP:782-8502",
+        "ILL-Commun1:Tel:+81-887-57-2010 / FAX:+81-887-57-2002 / E-mail:library@ml.kochi-tech.ac.jp",
+        "ILL-Commun2:OPAChttp://www.kochi-tech.ac.jp/library/;Home-Page: http://www.kochi-tech.ac.jp/library/",
+        "ILL-Accept:OCLC (NII-OCLC link):SYMBOL",
+        "ILL-Sched:Closed:Dec 28-Jan 4",
+        "ILL-Bill:Foreign: OCLC-IFM only",
+        "ILL-Loan:N/A",
+        "ILL-Copy-Charge:Foreign:Photocopy:40YEN per sheet / Postage required / Delivery method:via airmail",
+        "ILL-Note:THESIS: Photocopy: need the author's permission. Delivery method: Photocopy: via airmail",
+        "ILL-OCLC-Symbol:K4T"
+      ]
+    }
+  ]
+}

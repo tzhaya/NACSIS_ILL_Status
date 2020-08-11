@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018757.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018757#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018757.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "一関工業高等専門学校"
+        },
+        {
+          "@value": "イチノセキコウギョウコウトウセンモンガッコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "一関高専"
+        },
+        {
+          "@value": "イチノセキコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA018757",
+      "cinii:organizationid": "KI011002",
+      "cinii:prefcode": "03",
+      "cinii:mextid": "600600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "一関工業高等専門学校",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "021-8511",
+        "v:label": "岩手県一関市萩荘字高梨"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0191-24-4706"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0191-24-4530"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Technology , Ichinoseki College",
+        "Takanashi Hagisho Ichinoseki Iwate Japan 021-8511",
+        "URL:http://www.ichinoseki.ac.jp/tosho/index.html",
+        "来館利用担当:図書係",
+        "電話番号:0191-24-4706",
+        "開館時間:[平日]:8:50-19:00  [土曜日]:11:00-16:00[休業期間]:8:50-17:00",
+        "持参書類:身分証明書、運転免許証、健康保険証、学生証等身分を証明できるもの",
+        "館外貸出:4冊、14日間",
+        "制限事項:研究室備付資料はご利用できません。ご了承ください。",
+        "休館日:日曜日、国民の祝日、休業期間中の土曜日、夏季休業期間中の一部の期間、年末年始(12月27日～1月3日)、蔵書点検期間 ※休館日についてはホームページにて随時お知らせします。",
+        "注意事項:ILL文献複写等料金相殺サービス参加館以外からの文献複写、相互貸借の依頼は受け付けておりません。",
+        "OPAC URL:https://libopac3-c.nagaokaut.ac.jp/opac/opac_search/?kscode=006"
+      ]
+    }
+  ]
+}

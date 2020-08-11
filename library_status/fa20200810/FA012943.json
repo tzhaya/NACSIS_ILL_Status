@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012943.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012943#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012943.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立情報学研究所"
+        },
+        {
+          "@value": "コクリツジョウホウガクケンキュウジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "情報研"
+        },
+        {
+          "@value": "ジョウホウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "書庫",
+        "開架",
+        "参考",
+        "研究室"
+      ],
+      "cinii:memberid": "FA012943",
+      "cinii:organizationid": "KI900018",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "991100",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "国立情報学研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-8430",
+        "v:label": "東京都千代田区一ツ橋2-1-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-4212-2142"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-4212-2180"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Informatics",
+        "2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo 101-8430",
+        "来館利用担当:図書室",
+        "電話番号:03(4212)2142",
+        "受付時間:平日9:00-17:30",
+        "URL:http://www.nii.ac.jp/about/library/(国立情報学研究所 図書室)",
+        "URL:http://www.nii.ac.jp/ (国立情報学研究所)",
+        "URL:http://www.nii.ac.jp/about/access/ (map)",
+        "事前連絡:研究室資料は必ず事前にご連絡ください。図書室資料についても、所在等を必ず事前にご確認ください。",
+        "持参書類: 身分証明書または学生証",
+        "館外貸出: 不可",
+        "制限事項: 研究室資料等、閲覧・貸出を許可しない場合があります。",
+        "休室日: 土曜、日曜、祝祭日、年末年始、研究所の定める夏季一斉休業日、その他臨時の休室日",
+        "ILL-Dept:Library",
+        "ILL-Org:National Institute of Informatics",
+        "ILL-Address:2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo, JAPAN",
+        "ILL-ZIP:101-8430",
+        "WEBPOLICY:ILL-Accept-method:Korea: KERIS=NIIILL linkage (COPY only)",
+        "ILL-Commun1:Fax.+81-3-4212-2180 / E-mail:library@nii.ac.jp",
+        "ILL-Sched:Closed:Dec27-Jan5,Saturdays,Sundays,National Holidays",
+        "ILL-Bill:Foreign KERIS=NII Fee Management Service",
+        "ILL-Loan-Period:Loan:N/A",
+        "ILL-Loan-Renew:Loan:N/A",
+        "ILL-Loan-Charge:Loan:N/A",
+        "ILL-Non-Circulation:Loan:N/A",
+        "ILL-Copy-Charge:Photocopy:35YEN per sheet. (For photocopy of color pages are available with request, 100YEN per sheet.)",
+        "ILL-OCLC-Symbol:NINFO"
+      ]
+    }
+  ]
+}

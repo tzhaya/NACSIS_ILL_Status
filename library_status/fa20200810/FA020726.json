@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020726.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020726#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020726.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "奈良県立万葉文化館"
+        },
+        {
+          "@value": "ナラケンリツマンヨウブンカカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "万葉館"
+        },
+        {
+          "@value": "マンヨウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020726",
+      "cinii:organizationid": "KI012592",
+      "cinii:prefcode": "29",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "奈良県立万葉文化館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "634-0103",
+        "v:label": "奈良県高市郡明日香村飛鳥10番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0744-54-1850"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0744-54-1852"
+        }
+      ],
+      "dc:description": [
+        "Nara Prefecture Complex of Man'yo Culture",
+        "Asuka 10, Asuka Village Takaichi County Nara Prefecture Japan",
+        "URL:http://www.manyo.jp (website)",
+        "URL:http://www.manyo.jp/access/index.html (map)",
+        "来館利用担当:万葉図書・情報室",
+        "電話番号:0744-54-1850",
+        "受付時間:10:00〜17:30(入館は17:00まで)",
+        "注意事項:万葉図書・情報室は無料で御利用いただけます。",
+        "複写時間:10:00〜17:30(入館は17:00まで)",
+        "館外貸出:不可",
+        "休館日:毎週月曜日(月曜日が祝日の場合は翌日)、年末年始(12月28日〜1月4日)、展示替日"
+      ]
+    }
+  ]
+}

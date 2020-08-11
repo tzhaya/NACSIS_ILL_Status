@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018098.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018098#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018098.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島国際大学 図書館"
+        },
+        {
+          "@value": "ヒロシマコクサイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広国大"
+        },
+        {
+          "@value": "ヒロコクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "三図"
+      ],
+      "cinii:memberid": "FA018098",
+      "cinii:organizationid": "KI010564",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "広島国際大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "739-2695",
+        "v:label": "広島県東広島市黒瀬学園台555-36"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0823-70-4504"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "0823-70-4906"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0823-70-4514"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "0823-70-4907"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima International University",
+        "555-36, Gakuendai, Kurose, Higashihiroshimashi, Hiroshima 739-2695",
+        "URL:http://www.hirokoku-u.ac.jp/library/index.html"
+      ]
+    }
+  ]
+}

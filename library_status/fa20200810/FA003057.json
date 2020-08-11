@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003057.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003057#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003057.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸大学 附属図書館 経済経営研究所図書館"
+        },
+        {
+          "@value": "コウベダイガクフゾクトショカン ケイザイケイエイケンキュウジョトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神大経研"
+        },
+        {
+          "@value": "シンダイケイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "センター"
+      ],
+      "cinii:memberid": "FA003057",
+      "cinii:organizationid": "KI00063X",
+      "cinii:prefcode": "28",
+      "cinii:mextid": "005410",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神戸大学 附属図書館 経済経営研究所図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "657-8501",
+        "v:label": "兵庫県神戸市灘区六甲台町2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-803-7025"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-803-7274"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org: Research Institute for Economics & Business Administration (RIEB) Library , Kobe University",
+        "ILL-Address: 2-1, Rokkodai cho, Nada-ku, Kobe, JAPAN",
+        "ILL-ZIP: 657-8501",
+        "ILL-Commun1: Tel:+81-78-803-7025 /FAX:+81-78-803-7274 /E-mail:tosyo@rieb.kobe-u.ac.jp",
+        "http://www.rieb.kobe-u.ac.jp/liaison/index-j.html (center)",
+        "https://lib.kobe-u.ac.jp/libraries/list/rieb/ (tosyo)",
+        "http://www.rieb.kobe-u.ac.jp/rieblib/map.pdf (map)",
+        "来館利用担当:経済経営研究所図書係",
+        "電話番号:078-803-7025",
+        "受付時間:9:00-12:15, 13:00-17:00",
+        "注意事項:資料の所在等, 事前確認をしてください。神戸大学蔵書検索OPACでもご確認ください。配架場所「企業資料総合センター」の場合は企業資料総合センター(電話番号078-803-7272、E-mail:center@rieb.kobe-u.ac.jp)に直接お問い合わせください。",
+        "複写時間:9:00-12:00, 13:00-16:30",
+        "館外貸出:不可",
+        "休館日:土・日曜日, 祝日, 年末年始12/28-1/4, 前期日程2/25, 後期日程3/12, 本学創立記念日5/15, 夏季休業日",
+        "持参書類:身分証明書"
+      ]
+    }
+  ]
+}

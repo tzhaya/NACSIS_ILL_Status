@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017710.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017710#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017710.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "益田赤十字病院"
+        },
+        {
+          "@value": "マスダセキジユウジビヨウイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "益田日赤"
+        },
+        {
+          "@value": "マスダニツセキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017710",
+      "cinii:organizationid": "KI010327",
+      "cinii:prefcode": "32",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "益田赤十字病院",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "698-8501",
+        "v:label": "島根県益田市乙吉町イ103-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0856-22-1480"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0856-22-3991(秘書室)"
+        }
+      ],
+      "dc:description": [
+        "Masuda Red Cross Hospital",
+        "1-103-1, Otoyoshi, Masuda, Shimane, 698-8501, JAPAN",
+        "来館利用担当:庶務課(図書室)",
+        "電話番号:0856-22-1480 (内線510)",
+        "受付時間:8:20〜17:00",
+        "持参書類:身分証明書",
+        "複写時間:8:20〜17:00",
+        "休館日:日曜日、祝祭日、土曜日、創立記念日(5/1)、12/29〜1/3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018280.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018280#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018280.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関東短期大学 松平記念図書館"
+        },
+        {
+          "@value": "カントウタンキダイガク マツダイラキネントシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関東短"
+        },
+        {
+          "@value": "カントウタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018280",
+      "cinii:organizationid": "KI013755",
+      "cinii:prefcode": "10",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "関東短期大学 松平記念図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "374-8555",
+        "v:label": "群馬県館林市大谷町625番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0276-74-6463"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0276-74-6512"
+        }
+      ],
+      "dc:description": [
+        "Matsudaira Memorial Library of kanto Junior College",
+        "625, Oya-cho, Tatebayashi-shi, Gunma 374-8555",
+        "来館利用担当:閲覧係",
+        "電話番号:0276-74-6463",
+        "受付時間:月曜～金曜日 9:00〜17:00",
+        "注意事項:要事前連絡(所属する図書館、資料室等をとおしてお申し込み下さい)",
+        "持参書類:身分証明書(利用許可願)",
+        "館外貸出不可",
+        "制限事項:土曜日・試験期間中は受付けません",
+        "休館日:日曜,国民の祝日,夏季一斉休暇期間(8月中旬頃)年末年始,学校行事日"
+      ]
+    }
+  ]
+}

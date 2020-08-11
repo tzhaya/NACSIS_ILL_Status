@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010336.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010336#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010336.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 水産研究・教育機構 増養殖研究所(玉城)"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン スイサンケンキュウ・キョウイクキコウ ゾウヨウショクケンキュウショ(タマキ)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "増養殖玉城"
+        },
+        {
+          "@value": "ゾウヨウショクタマキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "旧玉城"
+      ],
+      "cinii:memberid": "FA010336",
+      "cinii:organizationid": "KI005597",
+      "cinii:prefcode": "24",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 水産研究・教育機構 増養殖研究所(玉城)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "519-0423",
+        "v:label": "三重県度会郡玉城町昼田224-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0596-58-6418"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0596-58-6418"
+        }
+      ]
+    }
+  ]
+}

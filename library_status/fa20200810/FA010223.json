@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010223.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010223#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010223.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 森林研究・整備機構 森林総合研究所 四国支所"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン シンリンケンキュウ・セイビキコウ シンリンソウゴウケンキュウショ シコクシショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "森林総研四国"
+        },
+        {
+          "@value": "シンリンソウケンシコク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010223",
+      "cinii:organizationid": "KI005462",
+      "cinii:prefcode": "39",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 森林研究・整備機構 森林総合研究所 四国支所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "780-8077",
+        "v:label": "高知県高知市朝倉西町2丁目915"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-844-1121"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-844-1130"
+        }
+      ],
+      "dc:description": [
+        "Shikoku Research Center Forestry and Forest Products Research Institute",
+        "2-915, Asakuranishimachi, Kochi, 780-8077",
+        "http://www.ffpri-skk.affrc.go.jp",
+        "閲覧を希望される方は、事前にご連絡願います。",
+        "電話番号:088-844-1121",
+        "休館日:土日、国民の休日、年末年始"
+      ]
+    }
+  ]
+}

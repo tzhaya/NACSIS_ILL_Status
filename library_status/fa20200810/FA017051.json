@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017051.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017051#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017051.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "熊本高等専門学校 熊本キャンパス 図書館"
+        },
+        {
+          "@value": "クマモトコウトウセンモンガッコウ クマモトキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "熊本高専熊本"
+        },
+        {
+          "@value": "クマモトコウセンクマモト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017051",
+      "cinii:organizationid": "KI008813",
+      "cinii:prefcode": "43",
+      "cinii:mextid": "604900",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "熊本高等専門学校 熊本キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "861-1102",
+        "v:label": "熊本県合志市須屋2659-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "096-242-6019"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "096-242-3821"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Technology,Kumamoto College,kumamoto Campus Libarary",
+        "2659-2, Suya, Koshi City, Kumamoto, Japan, 〒861-1102",
+        "URL:https://www.kumamoto-nct.ac.jp",
+        "図書係",
+        "096-242-6019",
+        "受付時間:9:00〜17:00",
+        "入館に際して身分を証明するもの。",
+        "一般貸出、可(5冊 2週間)。当館には複写機はありませんので、来館複写には対応しておりません。",
+        "開館日・休館日:ホームページの「図書館カレンダー」でご確認ください。https://kumamoto-nct.ac.jp/general/library/kumamoto/k-calendar.html)",
+        "休館日:日曜・祝祭日、春季・夏季・冬季休業中の土曜日、一斉休業日、年末・年始、その他図書館長が指定する日",
+        "開館時間:前期4月～9月:平日:8:30-20:00、 土曜日:12:00-17:00(長期休業期間・祝祭日は除く)",
+        "開館時間:後期10月～3月:平日:8:30-19:00、 土曜日:12:00-17:00(長期休業期間・祝祭日は除く)",
+        "開館時間:長期休業中:平日:8:30-17:00 (土曜・日曜・祝祭日、一斉休業日、年末・年始、その他図書館長が指定する日を除く)"
+      ]
+    }
+  ]
+}

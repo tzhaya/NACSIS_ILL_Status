@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA009370.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA009370#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA009370.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 物質・材料研究機構"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン ブッシツ・ザイリョウケンキュウキコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "NIMS"
+        },
+        {
+          "@value": "ニムス",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "並木",
+        "桜",
+        "千現"
+      ],
+      "cinii:memberid": "FA009370",
+      "cinii:organizationid": "KI004776",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 物質・材料研究機構",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-0047",
+        "v:label": "茨城県つくば市千現1丁目2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-859-2053(直)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-859-2400"
+        }
+      ],
+      "dc:description": [
+        "National Institute for Materials Science",
+        "1-2-1, Sengen, Tsukuba, Ibaraki 305-0047",
+        "URL:https://library.nims.go.jp",
+        "来館利用担当: 統合型材料開発・情報基盤部門 材料データプラットフォームセンター 図書チーム",
+        "",
+        "受付時間:9:00〜11:30,13:30〜16:30",
+        "注意事項:資料の所在等、一般利用者は必ず事前にメールまたは電話連絡などでご確認ください。当日、複写物のお渡しは出来ません。",
+        "持参書類:身分証明書、または筑波研究学園都市研究機関等連絡協議会発行 「図書資料共通利用券」",
+        "館外貸出:不可",
+        "休館日:土・日曜、国民の祝日、年末年始、夏季休暇"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012739.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012739#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012739.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "作新学院大学 図書館"
+        },
+        {
+          "@value": "サクシンガクインダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "作新大"
+        },
+        {
+          "@value": "サクシンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "院",
+        "書",
+        "研",
+        "事",
+        "開"
+      ],
+      "cinii:memberid": "FA012739",
+      "cinii:organizationid": "KI007107",
+      "cinii:prefcode": "09",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "作新学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "321-3295",
+        "v:label": "栃木県宇都宮市竹下町908"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "028-670-3652"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "028-670-3619"
+        }
+      ],
+      "dc:description": [
+        "Sakushin Gakuin University Library",
+        "908,Takeshitamachi,Utunomiya-shi,Tochigi 321-3295",
+        "URL:http://www.sakushin-u.ac.jp/library/",
+        "URL:http://www.sakushin-u.ac.jp/library/"
+      ]
+    }
+  ]
+}

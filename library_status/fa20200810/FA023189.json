@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023189.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023189#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023189.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 国立成育医療研究センター 図書館"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン コクリツセイイクイリョウケンキュウセンター トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国成育医"
+        },
+        {
+          "@value": "コクセイイクイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA023189",
+      "cinii:organizationid": "KI014066",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 国立成育医療研究センター 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "157-8535",
+        "v:label": "東京都世田谷区大蔵2-10-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3416-0181(代表)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "03-5494-7120*4030"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5494-7137"
+        }
+      ],
+      "dc:description": [
+        "National Center for Child Health and Development Library",
+        "2-10-1  Okura,  Setagaya-ku,  Tokyo  157-8535",
+        "複写受付可否: 可",
+        "複写方法・料金: 電子複写モノクロ1枚50円/カラー1枚80円  FAX送信1枚100円(至急時のみ、要事前連絡、送信サイズA4)",
+        "カラー複写をご希望の場合はお知らせください。",
+        "決済方法: 後払い(公費不可)",
+        "支払方法:相殺参加館は相殺(2014年10月1日より相殺制度に参加しました)。相殺非参加館は銀行振込 :三菱東京UFJ銀行",
+        "15:30以降のお申し込みは、翌日発送になる可能性があります。",
+        "来館利用時間: 10:30-16:30",
+        "注意事項: 事前連絡の上、ご来館ください。",
+        "注意事項: 所属機関・大学図書館等の紹介のある者のみ利用可",
+        "持参書類: 身分証明書、紹介状",
+        "館外貸出: 不可",
+        "休館日: 土日、祝日、年末年始"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA01789X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA01789X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA01789X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岩手県立大学 宮古短期大学部 附属図書館"
+        },
+        {
+          "@value": "イワテケンリツダイガク ミヤコタンキダイガクブ フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宮古短大"
+        },
+        {
+          "@value": "ミヤコタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA01789X",
+      "cinii:organizationid": "KI013857",
+      "cinii:prefcode": "03",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "岩手県立大学 宮古短期大学部 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "027-0039",
+        "v:label": "岩手県宮古市河南1-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0193-64-2230"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0193-64-2234"
+        }
+      ],
+      "dc:description": [
+        "Iwate Prefectural University Miyako College",
+        "1-5-1, Kanan, MiyakoCity, Iwate 027-0039",
+        "URL:http://www-myk.iwate-pu.ac.jp/sisetu/sindex.html",
+        "来館利用担当:図書館",
+        "電話番号:0193-64-2230",
+        "受付時間:9:00〜18:00",
+        "注意事項:開館日を確認してください。 (都合により臨時休館日を設ける場合があります。)",
+        "持参書類:身分証明書",
+        "複写時間:9:00〜18:00",
+        "館外貸出:可 (利用許可手続後の利用となります。)",
+        "制限事項:視聴覚資料のほか館長が指定した図書は館外貸出しできません。学外利用者への館外貸出しは、2冊、2週間までとします。",
+        "休館日:土日祝日、 年末年始 (12月29日から1月3日まで)"
+      ]
+    }
+  ]
+}

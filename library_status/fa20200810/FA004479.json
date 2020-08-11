@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004479.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004479#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004479.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東北学院大学 多賀城キャンパス図書館"
+        },
+        {
+          "@value": "トウホクガクインダイガク タガジョウキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東院大多"
+        },
+        {
+          "@value": "トウインダイタ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004479",
+      "cinii:organizationid": "KI001530",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東北学院大学 多賀城キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "985-8537",
+        "v:label": "宮城県多賀城市中央1-13-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-368-1206"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-368-0777"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org: TOHOKU GAKUIN UNIVERSITY TAGAJO CAMPUS LIBRARY",
+        "ILL-Address: 1-13-1,CHUO,TAGAJO",
+        "ILL-ZIP: 985-8537",
+        "ILL-Commun1: E-mail: tjl-ref@mail.tohoku-gakuin.ac.jp",
+        "URL: https://www.lib.tohoku-gakuin.ac.jp/",
+        "来館利用担当: 閲覧係",
+        "受付時間: 開館時間から閉館の1時間前まで",
+        "持参書類: 身分証明書",
+        "館外貸出: 可(条件つき)",
+        "制限事項: 試験に伴い、利用できない期間があります。図書館HPをご確認のうえ、ご来館ください / 礼拝時間(10:20～10:45)は窓口業務を停止します",
+        "休館日: 日曜・祝休日、創立記念日(5月15日)、大学全休期間、入学試験期間、図書館が必要と認めた日(ホームページの図書館カレンダー参照)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023054.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023054#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023054.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "学校法人 常磐会学園"
+        },
+        {
+          "@value": "ガツコウホウジン トキワカイガクエン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "常磐会学園"
+        },
+        {
+          "@value": "トキワカイガクエン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "短大",
+        "四大"
+      ],
+      "cinii:memberid": "FA023054",
+      "cinii:organizationid": "KI013937",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "学校法人 常磐会学園",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "547-0031",
+        "v:label": "大阪市平野区平野南4-6-7"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6709-3170"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6709-0626"
+        }
+      ],
+      "dc:description": [
+        "Tokiwakai Gakuen Library",
+        "4-6-7, Hiranominami, Hirano-ku, Osaka-shi, Osaka 547-0031",
+        "閲覧担当係 :図書館ILL係",
+        "閲覧事前連絡 :要。FAXでの問い合わせが望ましい。",
+        "閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "閲覧受付時間 :9:00〜17:00(土曜日〜13:00)",
+        "複写受付時間 :9:00〜16:45(土曜日〜12:45)",
+        "館外貸出可否 :否",
+        "閲覧注記 :",
+        "通常開館時間 :9:00〜19:00(土曜日〜17:00)",
+        "休業中開館時間 :9:00〜17:00(土曜日〜13:00)",
+        "休館日 :日曜日・国民の祝日・夏期休暇・年末年始・蔵書点検等",
+        "URL:http://tokiwakai-library.jp/"
+      ]
+    }
+  ]
+}

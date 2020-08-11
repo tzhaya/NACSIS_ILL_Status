@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA028105.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA028105#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA028105.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "埼玉県立がんセンター 図書館"
+        },
+        {
+          "@value": "サイタマケンリツガンセンター トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "埼がん"
+        },
+        {
+          "@value": "サイガン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA028105",
+      "cinii:organizationid": "KI025572",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "埼玉県立がんセンター 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "362-0806",
+        "v:label": "埼玉県北足立郡伊奈町小室780"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-722-1111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-722-1128"
+        }
+      ],
+      "dc:description": [
+        "平日 9:00-1700 ILL受付は16:00までといたします。16時以降の受付は翌開館日の処理となります。",
+        "休館日:土・日・祝日、年末年始(12月28日-1月3日)、図書館長の定めた日",
+        "FAX送信可否:可(送信はA4のみ)",
+        "2020.1.1より ILL文献複写等料金相殺サービス",
+        "支払方法:ILL料金相殺サービス。ILL料金相殺サービス非参加機関=後納、郵便振替",
+        "複写料金:モノクロ1枚50円、カラー1枚100円、FAX送信1枚100円",
+        "DDSおよびFAX送信は緊急時のみお受けいたします(病院のみ)。事前にJAACC(CCC)の委託著作物であることを確認の上、コメント欄に明記してください。",
+        "別置資料につきましては通常より時間がかかります。",
+        "年度末について : ILL非相殺館の複写は2月末まで受け付けます。複写料金は3月15日までに振り込みをお願いいたします。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015624.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015624#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015624.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知県立大学 守山キャンパス図書館"
+        },
+        {
+          "@value": "アイチケンリツダイガク モリヤマキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛県大看護"
+        },
+        {
+          "@value": "アイケンダイカンゴ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015624",
+      "cinii:organizationid": "KI001075",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知県立大学 守山キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "463-8502",
+        "v:label": "愛知県名古屋市守山区上志段味字東谷"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-778-7147"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-736-1504"
+        }
+      ],
+      "dc:description": [
+        "Aichi Prefectural College of Nursing & Health Library",
+        "Aza-Togoku, Kamishidami, Moriyama-ku, Nagoya-shi, Aichi  463-8502",
+        "URL:https://www.nrs.aichi-pu.ac.jp/library/",
+        "電話番号 : 052-778-7147",
+        "持参資料 : 身分証明証",
+        "開館時間 : 9:00-20:00(月-金), 9:00-17:00(土曜日・長期休業期間等)",
+        "休館日 : 日曜日・国民の祝日。年末年始。毎月第1火曜日。館内整理期間(夏季・春季)。※詳細はホームページのカレンダーをご覧ください"
+      ]
+    }
+  ]
+}

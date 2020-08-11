@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008618.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008618#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008618.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島修道大学 図書館"
+        },
+        {
+          "@value": "ヒロシマシュウドウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広修道"
+        },
+        {
+          "@value": "ヒロシュウドウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA008618",
+      "cinii:organizationid": "KI004164",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "広島修道大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "731-3195",
+        "v:label": "広島県広島市安佐南区大塚東一丁目1番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-830-1113 (直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-830-1964"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima Shudo University",
+        "1-1-1, Ozukahigashi, Asaminami-ku, Hiroshima",
+        "URL:https://library.shudo-u.ac.jp/top/",
+        "来館担当者:情報サービス係",
+        "電話番号:082-830-1112, 082-830-1113(相互利用専用)",
+        "受付時間: 8:45-20:30(土曜日・日曜日10:00-16:00 *土曜日・日曜日開館は授業期のみ)",
+        "持参書類:資料利用依頼書または身分・住所が特定できるもの 郵便振替 01390-7-4851広島修道大学",
+        "複写時間: 8:45-20:30(土曜日・日曜日10:00-16:00 *土曜日・日曜日開館は授業期のみ)",
+        "館外貸出:可",
+        "制限事項:",
+        "休館日:休業期の土曜日・日曜日、国民 の祝日、整理休館日、開学記念日(11月4日、日曜日・休日の場合は翌日)、年末年始",
+        "ILL-Staff: Yukiko Yasuda, Mariko Arita",
+        "ILL-Dept: Reference and Information Service",
+        "ILL-Org: Hiroshima Shudo University Library",
+        "ILL-Address: 1-1-1, Ozukahigashi, Asaminami-ku, Hiroshima, JAPAN",
+        "ILL-ZIP: 731-3195",
+        "ILL-Commun1: Tel:+81-82-830-1112 / FAX:+81-82-830-1327 / E-mail:ill@js.shudo-u.ac.jp",
+        "ILL-Commun2: Home-Page:https://library.shudo-u.ac.jp/top/",
+        "ILL-Sched: Closed: Dec 29-Jan 3",
+        "ILL-Loan-Period: 6 weeks per item",
+        "ILL-Loan-Renew: 2 weeks",
+        "ILL-Loan-Charge: Postage Required",
+        "ILL-Non-Circulation: Special collection, mcrfrm, mcrfch, ref, per, news, a-v",
+        "ILL-Copy-Charge: Postage required / Photocopy:40 YEN per sheet / Delivery method:via airmail only",
+        "ILL-Note: Lending:inside in your library / FCHE/FCHE:N/A",
+        "ILL-OCLC-Symbol:J2Z"
+      ]
+    }
+  ]
+}

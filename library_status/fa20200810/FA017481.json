@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017481.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017481#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017481.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "県立広島大学 三原学術情報センター図書館"
+        },
+        {
+          "@value": "ケンリツヒロシマダイガク ミハラガクジュツジョウホウセンタートショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "県広大三原"
+        },
+        {
+          "@value": "ケンヒロダイミハラ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017481",
+      "cinii:organizationid": "KI001213",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "県立広島大学 三原学術情報センター図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "723-0053",
+        "v:label": "三原市学園町1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0848-60-1130"
+        }
+      ],
+      "dc:description": [
+        "開館時間:平日9:00〜21:30,土曜日12:00〜18:00,長期休業中は平日9:00〜20:30(土曜日は休館)",
+        "注意事項:自動車での来館はできるだけ控えてください。",
+        "館外貸出:可 (ただし広島県内に居住・勤務・通学する者で、本人確認・住所確認が必要です。)",
+        "休館日:土曜日(授業期間中を除く)、日曜日、祝日、開学記念日、図書整理日(毎月末日)、年末年始 (12月28日から1月4日)、臨時休館日(その都度掲示した日)",
+        "ILL-Staff:librarian",
+        "ILL-Dept:Interlibrary Loan Section",
+        "ILL-Org:Prefectural University of Hiroshima Mihara Campus Library",
+        "ILL-Adress:1-1 Gakuen-cho, Mihara-shi, Hiroshima, Japan",
+        "ILL-Zip:723-0053",
+        "ILL-Commun1:Tel:+81-848-60-1130 / FAX:+81-848-60-1138 / E-mail:toshokan@pu-hiroshima.ac.jp",
+        "ILL-Accept:Foreign(1):OCLC(NII-OCLC link):J9H / Foreign(2):KERIS",
+        "ILL-Sched:Closed:Dec 28-Jan 4",
+        "ILL-Bill:Foreign(1):OCLC=OCLC-IFM only / Foreign(2):KERIS= NII Fee Management Service only",
+        "ILL-Loan-Period:None",
+        "ILL-Loan-Renew:Loan: N/A",
+        "ILL-Loan-Charge:Loan:N/A",
+        "ILL-Loan-Circulation:Loan: N/A",
+        "ILL-Non-Circulation:Loan: N/A",
+        "ILL-Copy-Charge:Photocopy: 35 YEN per sheet. Postage required. Delivery method: via airmail.",
+        "ILL-Note:Only the items held at the Mihara Campus Library are available.",
+        "ILL-OCLC-Symbol:J9H",
+        "URL:http://www.pu-hiroshima.ac.jp/site/toshokan/ (website)"
+      ]
+    }
+  ]
+}

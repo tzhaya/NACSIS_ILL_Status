@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003181.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003181#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003181.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岡山大学 附属図書館 鹿田分館"
+        },
+        {
+          "@value": "オカヤマダイガク フゾクトシヨカン シカタブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岡大鹿"
+        },
+        {
+          "@value": "オカダイシカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "鹿田図",
+        "6100000",
+        "6200000",
+        "6400000",
+        "6500000",
+        "6600000",
+        "岡大医",
+        "岡大医病",
+        "岡大歯",
+        "岡大歯病",
+        "岡大医短",
+        "岡大医医",
+        "岡大医保",
+        "岡大医歯院",
+        "学部"
+      ],
+      "cinii:memberid": "FA003181",
+      "cinii:organizationid": "KI00071X",
+      "cinii:prefcode": "33",
+      "cinii:mextid": "006101",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "岡山大学 附属図書館 鹿田分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "700-8558",
+        "v:label": "岡山市北区鹿田町2-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-235-7053"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-235-7432"
+        }
+      ],
+      "dc:description": [
+        "",
+        "(個人の方へ)郵送等による文献複写、現物貸借について、個人の方からの直接のご依頼はお受けしておりません。お手数ですがお近くの公共図書館を通じてお申し込みください。大学等にご所属の方はご所属機関の図書館を通じてお申し込みください。",
+        "(図書館関係者の方へ):",
+        "ILL-Dept:Shikata branch library Section",
+        "ILL-Org: Okayama University Library, Shikata Branch Library",
+        "ILL-Address: 5-1 Shikatacho 2-chome, Kita-ku, Okayama, Japan",
+        "ILL-ZIP: 700-8558",
+        "ILL-Commun1: Fax:+81-86-235-7053 / E-mail: fcg7053@adm.okayama-u.ac.jp",
+        "ILL-Commun2: OPAC: http://webcat.lib.okayama-u.ac.jp/mylimedio/search/search-input.do?mode=comp&nqid=1 / Home-Page: http://www.lib.okayama-u.ac.jp / MAP: http://www.lib.okayama-u.ac.jp/access/access_shikata.html",
+        "URL:http://www.okayama-u.ac.jp/tp/access/access_5.html (access)",
+        "来館利用担当:鹿田分館グループ",
+        "電話番号:086-235-7053",
+        "電話受付時間:平日9:00-17:00",
+        "注意事項:自家用車での来館はご遠慮ください。",
+        "持参書類:身分証明書をご持参ください。",
+        "閲覧受付時間:開館時間に同じ(レファレンスは17:00まで対応可)",
+        "複写受付時間:開館時間に同じ",
+        "開館予定:http://www.lib.okayama-u.ac.jp/services/hours.html",
+        "館外貸出:不可",
+        "制限事項:利用の範囲は図書館所蔵資料に限ります。貴重書(古医書集成)の利用を希望する場合は、事前連絡(電話orメールorFAX)が必要です。",
+        "書庫資料は職員が出納します。平日9:00-16:30までに出納請求票に記入の上、カウンターへ申し出てください。",
+        "休館日:国民の祝日・年末年始・館内整理日(原則第4木曜日)・日曜日 ※必ず開館予定表をご参照ください。"
+      ]
+    }
+  ]
+}

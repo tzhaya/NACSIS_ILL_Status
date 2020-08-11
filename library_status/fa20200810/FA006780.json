@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006780.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006780#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006780.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "立正大学図書館 熊谷図書館"
+        },
+        {
+          "@value": "リッショウダイガクトショカン クマガヤトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "立正大熊"
+        },
+        {
+          "@value": "リッショウダイクマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "熊谷"
+      ],
+      "cinii:memberid": "FA006780",
+      "cinii:organizationid": "KI00276X",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "立正大学図書館 熊谷図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "360-0194",
+        "v:label": "埼玉県熊谷市万吉1700"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-536-6017"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-536-7430"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.ris.ac.jp/library/",
+        "URL:http://www.ris.ac.jp/library/",
+        "URL:http://www.ris.ac.jp/library/",
+        "Rissho University Library Kumagaya Library",
+        "1700, Magechi, Kumagaya-shi 360-0194",
+        "URL:http://www.ris.ac.jp/library/",
+        "来館利用担当 :閲覧係",
+        "電話番号:048-536-6017",
+        "受付時間:10:00〜16:00(月〜金)",
+        "持参書類:資料利用依頼書(身分を証明する物を携行の事)",
+        "複写時間:10:00〜16:00(月〜金)",
+        "館外貸出:否",
+        "休館日:日曜日, 国民の祝日, 本学で定めた日, その他学園行事日等(ホームページでご確認ください)",
+        "ILL-Staff:ILL-Staff",
+        "ILL-Dept:Interlibrary Services Team, Section of Academic Information",
+        "ILL-Org:Rissho University Library Kumagaya Library",
+        "ILL-Address:1700 Magechi, Kumagaya-shi, Saitama, JAPAN",
+        "ILL-ZIP:360-0194",
+        "ILL-Contact1:Tel:+81-48-536-6017 / FAX:+81-48-536-7430 / E-mail:klib@ris.ac.jp",
+        "ILL-Contact2:OPAC:http://opac.ris.ac.jp/Home-Page:http://www.ris.ac.jp/library/",
+        "ILL-Calendar:Closed: March 16-31, August 11-19, December 26-January 4",
+        "ILL-Accept:International:LOAN:N/A",
+        "ILL-Accept:International:COPY:Yes",
+        "ILL-Accept-method:International:E-mail",
+        "ILL-Payment-method:International:Invoice:Yes",
+        "ILL-Loan-Period:N/A",
+        "ILL-Loan-Item-Max:N/A",
+        "ILL-Loan-Renewal:N/A",
+        "ILL-Loan-Charge:N/A",
+        "ILL-Loan-Delivery-method:N/A",
+        "ILL-Non-Circulation-items:N/A",
+        "ILL-Copy-Charge:40 JPY per sheet & Postage",
+        "ILL-Copy-Delivery-method:Airmail"
+      ]
+    }
+  ]
+}

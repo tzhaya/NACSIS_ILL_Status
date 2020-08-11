@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA02718X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA02718X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA02718X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "静岡県立こども病院 図書室"
+        },
+        {
+          "@value": "シズオカケンリツコドモビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "静県こ"
+        },
+        {
+          "@value": "シズケンコ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02718X",
+      "cinii:organizationid": "KI015342",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "静岡県立こども病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "420-8660",
+        "v:label": "静岡県静岡市葵区漆山860"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "054-247-6251(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "054-248-4763(直通)"
+        }
+      ],
+      "dc:description": [
+        "申込方法:NACSIS-ILL 郵便 FAX",
+        "複写支払方法:ILL文献複写等料金相殺サービス規定による。このサービスを利用しない機関=後納の場合は請求書による銀行振込。月末締めで病院総務課より請求書を発送する。",
+        "振込・送金先:地方独立行政法人静岡県立病院機構",
+        "複写料金 モノクロ@50円、カラー@100円",
+        "複写受付時間:8:30～14:45(郵便集配15:00) 土、日曜日、祝日は受け付けない,担当者不在等で予告なく受付を終了する場合もある。"
+      ]
+    }
+  ]
+}

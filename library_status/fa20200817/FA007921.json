@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007921.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007921#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007921.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪電気通信大学 図書館"
+        },
+        {
+          "@value": "オオサカデンキツウシンダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪電大"
+        },
+        {
+          "@value": "ハンデンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007921",
+      "cinii:organizationid": "KI003660",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪電気通信大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "572-8530",
+        "v:label": "大阪府寝屋川市初町18-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-824-1143"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-820-4550"
+        }
+      ],
+      "dc:description": [
+        "Osaka Electro-Communication University Library",
+        "18-8 Hatsucho, Neyagawa, Osaka, Japan 572-8530",
+        "URL:http://www.lib.osakac.ac.jp",
+        "閲覧担当係 :相互利用係",
+        "閲覧事前連絡 :事前の問い合わせが望ましい。",
+        "閲覧持参書類 :資料利用依頼書(身分を証明する物を携行のこと)",
+        "館外貸出可否 :直接来館の場合は不可(館外貸出はILLを通してのみ可)",
+        "その他 :休館日開館時間の詳細はホームページを参照ください。",
+        "ILL受付方法:NACSIS-ILL・FAX・郵便(様式自由)",
+        "ILL支払方法:相殺・郵便振替(後納)・貸借は返送時に切手を同封、または発送時にゆうパック着払い。"
+      ]
+    }
+  ]
+}

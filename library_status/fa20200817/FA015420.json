@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015420.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015420#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015420.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "茨城県立医療大学 附属図書館"
+        },
+        {
+          "@value": "イバラキケンリツイリョウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "茨城医療大"
+        },
+        {
+          "@value": "イバラキイリョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015420",
+      "cinii:organizationid": "KI008529",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "茨城県立医療大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "300-0394",
+        "v:label": "茨城県稲敷郡阿見町阿見4669-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-840-2105"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-840-2303"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Ibaraki Prefectural University of Health Sciences Library",
+        "ILL-Address:4669-2, Ami, Ami-machi, Inashiki-gun, Ibaraki-ken ,JAPAN",
+        "ILL-ZIP:300-0394",
+        "ILL-Commun1:Tel:+81-029-840-2105/FAX:+81-029-840-2303/ E-mail:etsuran@ipu.ac.jp",
+        "OPACURL:http://webopac.ipu.ac.jp/CARIN/CARINOPACLINKForCiNiiBooks.HTM?ncid=<NCID>",
+        "URL:http://www.lib.ipu.ac.jp (website)",
+        "URL:http://www.ipu.ac.jp/article/14150679.html (map)",
+        "来館利用担当:閲覧担当",
+        "電話番号 :029-840-2105",
+        "開館時間 :平日 9:00〜22:00, 土曜日及び日曜日並びに各季休業期間中 9:00〜17:00",
+        "注意事項 :当館は相殺サービス非参加館です。文献複写を依頼の際はhttp://www.lib.ipu.ac.jp/guide/another_lib.htm をご覧ください。",
+        "館外貸出 :不可",
+        "休館日 :国民の祝日及び休日、開学記念日(5月29日)、年末年始(12月28日〜1月4日)、蔵書点検日",
+        "URL:http://www.lib.ipu.ac.jp/calender.pdf (calendar)",
+        "複写物発送業者の都合により長期休業期間は複写物の発送が出来ない期間があります。",
+        "電子ジャーナルの複写は受付できません。また、複写物の発送が毎週火曜日及び金曜日のみのため速達不可です。"
+      ]
+    }
+  ]
+}

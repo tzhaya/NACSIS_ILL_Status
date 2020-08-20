@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006168.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006168#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006168.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "桐朋学園大学 附属図書館"
+        },
+        {
+          "@value": "トウホウガクエンダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "桐朋"
+        },
+        {
+          "@value": "トウホウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "オケアカ",
+        "大学院大"
+      ],
+      "cinii:memberid": "FA006168",
+      "cinii:organizationid": "KI002500",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "桐朋学園大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "182-0021",
+        "v:label": "東京都調布市調布ヶ丘3-3-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-444-3194"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-490-5564"
+        }
+      ],
+      "dc:description": [
+        "Library of Toho-Gakuen School of Music",
+        "3-3-5, Chofugaoka, Chofu-shi, Tokyo 182-0021",
+        "URL:https://www.toho-lib.com/ (website)",
+        "URL:https://www.toho-lib.com/accessmap (map)",
+        "来館利用担当::図書館事務課 サービス担当",
+        "電話番号:042-444-3194",
+        "受付時間:9:30〜18:00",
+        "注意事項:メールあるいはFAXで資料の事前確認をしてください。",
+        "注意事項:車での来館はご遠慮ください。",
+        "注意事項:館内にセルフコピー機はありません。カウンターで申し込まれた複写物の引渡しは翌開館日の9時半以降です。郵送も可。なお、楽譜の複写は受け付けておりません。",
+        "持参書類:顔写真と現住所を確認するための本人確認書類(運転免許証、パスポート、学生証、社員証、住民基本台帳カード)",
+        "複写時間:",
+        "館外貸出:当日貸出",
+        "制限事項:",
+        "休館日:日曜・祝日、7月下旬〜8月末、12月下旬〜1月上旬"
+      ]
+    }
+  ]
+}

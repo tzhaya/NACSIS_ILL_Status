@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA022583.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA022583#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA022583.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "四條畷学園大学・短期大学 北条図書館"
+        },
+        {
+          "@value": "シジョウナワテガクエンダイガク・タンキダイガク ホウジョウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "四條畷・北条"
+        },
+        {
+          "@value": "シジョウナワテ・ホウジョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "リハ",
+        "短大"
+      ],
+      "cinii:memberid": "FA022583",
+      "cinii:organizationid": "KI013449",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "四條畷学園大学・短期大学 北条図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "574-0011",
+        "v:label": "大阪府大東市北条4丁目10‐25"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-876-6171"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-878-5155"
+        }
+      ],
+      "dc:description": [
+        "Shijonawate Gakuen University・Junior College  Houjou Library",
+        "5-11-10, Houjou, Daitou-shi, Osaka 574-0011",
+        "tosyo-h@jc.shijonawate-gakuen.ac.jp",
+        "電話番号:072-876-6171",
+        "四條畷学園大学 URL:http://un.shijonawate-gakuen.ac.jp/",
+        "四條畷学園短期大学 URL:http://jc.shijonawate-gakuen.ac.jp/",
+        "2020/4/15～2020/5/6の期間は、休館とさせて頂きます。ILL業務は停止しております。ご了承ください。",
+        "2020/8/8～2020/8/16の期間は夏期休暇で休館しているため、ILL業務は停止しております。ご了承ください。",
+        "受付時間:月-金 9:00 - 16:30",
+        "休館日:日曜日、祝祭日、振替休日、夏期休暇・年末年始などで変更になる場合は、その都度通知します。",
+        "複写料金:モノクロ:35円、カラー:70円",
+        "貸借貸出期間:20日以内、貸出冊数:3冊以内",
+        "一般の方のご利用はお断りしております。",
+        "大学、短期大学等の研究機関に所属される教職員・学生は、",
+        "図書館からの事前連絡、紹介状発行などが必要です。所属研究機関の図書館等にお問い合わせください。",
+        "利用できるサービス:来館閲覧",
+        "持参書類:紹介状,身分証明書等"
+      ]
+    }
+  ]
+}

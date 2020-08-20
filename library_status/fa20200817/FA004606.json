@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004606.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004606#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004606.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "流通経済大学 図書館"
+        },
+        {
+          "@value": "リュウツウケイザイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "流経大"
+        },
+        {
+          "@value": "リュウケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004606",
+      "cinii:organizationid": "KI001643",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "流通経済大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "301-8555",
+        "v:label": "茨城県龍ケ崎市120"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0297-60-1160"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0297-64-9066"
+        }
+      ],
+      "dc:description": [
+        "RYUTSU KEIZAI UNIVERSITY LIBRARY",
+        "URL:http://lib.rku.ac.jp/",
+        "来館利用の際は、 事前に電話またはFAXで問い合わせし,日時も内諾を得ておくこと。持参書類: 紹介状(図書館発行), 身分証明書。館外貸出不可。",
+        "※貴重書閲覧には、別途手続きが必要です。お問い合わせください。",
+        "複写受付: モノクロのみ",
+        "現物貸借:3週間(送付期間含む), 3冊, 送料実費 ※貴重書・雑誌・参考図書・マイクロ資料・視聴覚資料等は不可"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001299.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001299#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001299.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "室蘭工業大学 附属図書館"
+        },
+        {
+          "@value": "ムロランコウギョウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "室工大"
+        },
+        {
+          "@value": "ムロコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "機械",
+        "情セ",
+        "保セ",
+        "建設",
+        "情報",
+        "電電",
+        "材料",
+        "応化",
+        "地域",
+        "人間・社会",
+        "数理",
+        "言語",
+        "工",
+        "EJ(ILL可)",
+        "EJ(ILL不可)"
+      ],
+      "cinii:memberid": "FA001299",
+      "cinii:organizationid": "KI000039",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000300",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "室蘭工業大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "050-8585",
+        "v:label": "北海道室蘭市水元町27番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0143-46-5189"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0143-46-5196"
+        }
+      ],
+      "dc:description": [
+        "Muroran Institute of Technology Library",
+        "27-1 Mizumoto-cho, Muroran, Hokkaido, JAPAN, 050-8585",
+        "URL:http://www.lib.muroran-it.ac.jp/ (Website)",
+        "URL:http://svopac.lib.muroran-it.ac.jp/webopac/ (OPAC)",
+        "来館利用担当:運用係",
+        "TEL:0143-46-5189",
+        "FAX:0143-46-5196",
+        "E-mail:unyo@mmm.muroran-it.ac.jp",
+        "受付時間:<通常授業期間> 月～金9:00～21:00,土・日10:00～17:00",
+        "受付時間:<長期休業期間> 月～金9:00～17:00,土・日10:00～17:00",
+        "注意事項:長期休業期間(夏期・冬期・春期)の詳しい日時については,当館のウェブサイトでご確認ください。",
+        "持参書類: 閲覧のみの場合は不要",
+        "複写時間:月〜金 9:00〜17:00",
+        "館外貸出:可(但し,運転免許証,保険証,学生証等を提示のうえ,利用者登録が必要。)",
+        "閲覧は,原則として,図書館内所蔵資料に限る。",
+        "休館日:国民の祝日,年末年始(12/28〜1/4)",
+        "ILL-Dept:Operating Section",
+        "ILL-Org:Muroran Institute of Technology Library",
+        "ILL-Address:27-1, Mizumoto-cho, Muroran-Shi, Hokkaido, JAPAN",
+        "ILL-Zip:050-8585",
+        "ILL-OCLC-Symbol:YL#",
+        "ILL-Commun1:Tel:+81-143-46-5189 / FAX:+81-143-46-5196 / E-mail: unyo@mmm.muroran-it.ac.jp",
+        "ILL-Commun2:OPAC:http://svopac.lib.muroran-it.ac.jp/webopac/ Home-Page:http://www.lib.muroran-it.ac.jp",
+        "ILL-Accept:OCLC:SYMBOL",
+        "ILL-Sched:Closed:Dec 28-Jan 4, Saturdays and Sundays, National Holidays",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Copy-Charge:Photocopy:42 YEN per sheet, Postage required / Delivery method:via airmail",
+        "ILL-Note:Will supply only photocopies"
+      ]
+    }
+  ]
+}

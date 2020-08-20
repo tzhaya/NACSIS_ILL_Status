@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012433.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012433#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012433.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知学泉大学 豊田図書館"
+        },
+        {
+          "@value": "アイチガクセンダイガク トヨタトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛学泉豊"
+        },
+        {
+          "@value": "アイガクセントヨ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA012433",
+      "cinii:organizationid": "KI00314X",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "愛知学泉大学 豊田図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "471-8532",
+        "v:label": "愛知県豊田市大池町汐取1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0565-35-7097"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0565-35-1003"
+        }
+      ],
+      "dc:description": [
+        "Aichi Gakusen University Toyota Library",
+        "1 Shiotori, Ohike-cho, Toyota-shi, Aichi 471-8532",
+        "http://www.gakusen.ac.jp/library/",
+        "通常開館時間 :9:00〜18:00(土曜日9:00〜14:00)",
+        "休館日 :日曜日・祝日・本学の行事開催日・春期、夏期、冬期休暇中の定める日",
+        "館外貸出:可(学外利用者登録が必要)",
+        "持参書類 :紹介状および身分を証明する物"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006485.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006485#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006485.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本獣医生命科学大学 付属図書館"
+        },
+        {
+          "@value": "ニホンジュウイセイメイカガクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日獣大"
+        },
+        {
+          "@value": "ニチジュウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006485",
+      "cinii:organizationid": "KI002577",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "日本獣医生命科学大学 付属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "180-8602",
+        "v:label": "東京都武蔵野市境南町1-7-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0422-31-4151"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0422-33-2035"
+        }
+      ],
+      "dc:description": [
+        "Nippon Vetarinary and Life Science University",
+        "1-7-1 Kyounancho, Musashino-shi, Tokyo 180-8602",
+        "http://www2.nvlu.ac.jp",
+        "来館利用担当:閲覧係",
+        "電話番号:0422-31-4151",
+        "閲覧受付時間:9:00〜17:00",
+        "注意事項:事前連絡要。開館日の確認をして下さい。(臨時閉館日があります)",
+        "注意事項:緊急事態宣言中につき、平日午後のみ開館しております。外部利用者の受付は中止中です。",
+        "持参書類:身分証明書、紹介状(所属機関の発行するもの)",
+        "文献複写受付時間:10:00〜16:00(土曜日は受付不可)",
+        "館外貸出:不可",
+        "制限事項:貴重書、その他(破損の恐れのあるもの)",
+        "休館日:日曜日・国民の祝日・年末年始・創立記念日(5月10日)・臨時休館",
+        "文献複写受付は委託業者の都合により、申込日によっては発送までに多少お時間がかかることがあります。",
+        "一度のお申込は、できるだけ5件まででお願いいたします。",
+        "2020年は8/28-9/6が夏季閉館期間です。図書館システム移行作業のため、各種サービスを停止いたします。ご了承ください。",
+        "図書館システム移行作業のため、ILL業務を8月21日金曜正午でいったん停止いたします。再開については別途告知します。"
+      ]
+    }
+  ]
+}

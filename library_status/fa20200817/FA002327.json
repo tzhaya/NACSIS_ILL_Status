@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002327.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002327#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002327.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "信州大学 附属図書館 農学部図書館"
+        },
+        {
+          "@value": "シンシュウダイガク フゾクトショカン ノウガクブトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "信大農"
+        },
+        {
+          "@value": "シンダイノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA002327",
+      "cinii:organizationid": "KI000458",
+      "cinii:prefcode": "20",
+      "cinii:mextid": "004004",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "信州大学 附属図書館 農学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "399-4598",
+        "v:label": "長野県上伊那郡南箕輪村8304"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0265-77-1316"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0265-77-1317"
+        }
+      ],
+      "dc:description": [
+        "AGRICULTURAL LIBRARY, SHINSHU UNIVERSITY",
+        "8304, MINAMIMINOWA, NAGANO, JAPAN 399-4598",
+        "URL:http://www.shinshu-u.ac.jp/institution/library/agriculture/ (website)",
+        "URL:http://www.shinshu-u.ac.jp/institution/library/agriculture/access.html (map)",
+        "URL:https://www-lib.shinshu-u.ac.jp/opc/ (OPAC)",
+        "来館利用担当:図書係",
+        "電話番号:0265-77-1316",
+        "受付時間:8:45-17:00",
+        "注意事項:資料の所在等、原則として事前確認してください。",
+        "持参書類:身分を証明できるもの",
+        "複写時間:8:45-17:00",
+        "館外貸出:可(18歳以上の方 但し高校生は除く)",
+        "制限事項:研究室所蔵資料(図書および雑誌)の閲覧、複写はできません。",
+        "休館日:日曜日、国民の祝日、夏季休館、年末年始、その他業務上必要な時",
+        "ILL-Staff: Hanyuu and Iijima",
+        "ILL-Dept: Library Section",
+        "ILL-Org: Agricultural Library, Shinshu Univ.",
+        "ILL-Address: 8304 Minamiminowa, Nagano, Japan",
+        "ILL-ZIP:399-4598",
+        "ILL-Commun1: E-mail notosho@shinshu-u.ac.jp",
+        "ILL-Comuun2: OPAC:http://www-lib.shinshu-u.ac.jp/opc/",
+        "ILL-Accept: Foreign:OCLC(NII-OCLClink): JPSAL",
+        "ILL-OCLC-Symbol: JPSAL",
+        "ILL-Sched:Closed: Saturdays, Sundays, National Holidays, Dec 28-Jan 4",
+        "ILL-Bill: OCLC-IFM only",
+        "ILL-Copy-Charge: Photocopy:35 YEN (or 80 YEN for color copy) per sheet / Postage required / Delivery method:via airmail",
+        "ILL-Note: Only the items held at the Agricultural Library are available",
+        "ILL-Note: Will supply only photocopies",
+        "ILL-Note: DIS:Photocopy: author's permission required / THESIS:Photocopy: author's permission required"
+      ]
+    }
+  ]
+}

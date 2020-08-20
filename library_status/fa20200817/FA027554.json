@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027554.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027554#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027554.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪工業大学 図書館 梅田分館"
+        },
+        {
+          "@value": "オオサカコウギョウダイガク トショカン ウメダブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪工大梅田"
+        },
+        {
+          "@value": "ハンコウダイウメダ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "分館"
+      ],
+      "cinii:memberid": "FA027554",
+      "cinii:organizationid": "KI003605",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪工業大学 図書館 梅田分館",
+      "v:adr": {
+        "@type": "v:Address"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6147-6295"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6147-6325"
+        }
+      ],
+      "dc:description": [
+        "Osaka Institute of Technology Library",
+        "1-45, Kita-ku, Osaka-shi, Osaka 530-8568",
+        "電話番号 : 06-6147-6295",
+        "開館時間 : 平日9:00〜20:00 (土曜日9:00〜17:00)",
+        "夏期休業中開館時間 : 10:00〜17:00",
+        "春期休業中開館時間 : 9:00〜17:00",
+        "休 館 日 : 日曜日・国民の祝日・夏期休業中の土曜日および8月中旬(1週間程度)・創立記念日(10/30)・年末年始",
+        "そ の 他 : 休館日・開館時間の詳細はホームページを参照ください",
+        "URL:http://www.oit.ac.jp/japanese/toshokan/index.html",
+        "e-mail:OIT.Tosho11@josho.ac.jp"
+      ]
+    }
+  ]
+}

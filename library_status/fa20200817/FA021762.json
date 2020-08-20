@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021762.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021762#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021762.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "千里金蘭大学 付属図書館"
+        },
+        {
+          "@value": "センリキンランダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "千里金蘭"
+        },
+        {
+          "@value": "センリキンラン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図1",
+        "図2",
+        "図3"
+      ],
+      "cinii:memberid": "FA021762",
+      "cinii:organizationid": "KI013063",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "千里金蘭大学 付属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "565-0873",
+        "v:label": "大阪府吹田市藤白台5-25-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6872-7472"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6872-7728"
+        }
+      ],
+      "dc:description": [
+        "開館日: URL:http://libunix.kinran.ac.jp/opac4/opac/Calendar"
+      ]
+    }
+  ]
+}

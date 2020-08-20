@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012637.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012637#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012637.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋外国語大学・名古屋学芸大学 図書館"
+        },
+        {
+          "@value": "ナゴヤガイコクゴダイガク・ナゴヤガクゲイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名外大・名学芸大"
+        },
+        {
+          "@value": "メイガイダイ・メイガクゲイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "中央",
+        "東海研"
+      ],
+      "cinii:memberid": "FA012637",
+      "cinii:organizationid": "KI00721X",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋外国語大学・名古屋学芸大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "470-0188",
+        "v:label": "愛知県日進市岩崎町竹ノ山57"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0561-75-1726"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0561-74-2869・75-1727"
+        }
+      ],
+      "dc:description": [
+        "Nagoya University of Foreign Studies Library",
+        "57 Takenoyama, Iwasaki, Nisshin, Aichi 470-0188",
+        "URL:http://library.nakanishi.ac.jp/ (website)",
+        "URL:https://www.nufs.ac.jp/outline/access/ (map)",
+        "電話番号:0561-75-1726",
+        "受付時間:9:00〜16:30 (平日) 9:00〜12:00 (土)",
+        "注意事項:資料の所在等、事前確認をして下さい。",
+        "持参書類:所属大学を証明する物(学生証等)を携行のこと",
+        "複写時間:9:30〜16:30 (平日) 9:30〜12:00 (土)",
+        "館外貸出:不可",
+        "休館日:日祝日, その他特に指定する日",
+        "お知らせ :平成19年4月1日より電子複写料金を50円均一に改定致します。"
+      ]
+    }
+  ]
+}

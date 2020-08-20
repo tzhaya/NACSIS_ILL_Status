@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004934.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004934#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004934.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "青山学院大学 万代記念図書館(相模原分館)"
+        },
+        {
+          "@value": "アオヤマガクインダイガク マンダイキネントショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "青学相模原"
+        },
+        {
+          "@value": "アオガクサガミハラ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004934",
+      "cinii:organizationid": "KI001891",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "青山学院大学 万代記念図書館(相模原分館)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "252-5258",
+        "v:label": "相模原市中央区淵野辺5-10-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-759-6027"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-759-6043"
+        }
+      ],
+      "dc:description": [
+        "AOYAMA GAKUIN UNIVERSITY MANDAI MEMORIAL LIBRARY",
+        "5-10-1, FUCHINOBE, CHUO-KU, SAGAMIHARA-SHI, KANAGAWA-KEN 252-5258",
+        "URL:https://www.agulin.aoyama.ac.jp/",
+        "来館利用担当:参考業務担当",
+        "電話番号:042-759-6027",
+        "受付時間:平日:9:00〜19:30, 土曜日9:00〜16:30",
+        "来館利用注意事項:利用資料を特定の上、所属図書館を通じてFAXで来館日時と資料の所在確認をしてください。利用者個人からの紹介には応じられません。",
+        "注意事項:原則として一般の方の利用は認めていません。探している資料がお近くの公共図書館、国立国会図書館でも所蔵がなく、本学図書館に所蔵していることが明らかな場合にのみ受け付けます。",
+        "来館時持参書類:所属館発行の資料利用依頼書(紹介状)、学生証あるいは身分証明書",
+        "複写時間:平日:9:00〜19:30, 土曜日:9:00〜16:30",
+        "館外貸出:不可",
+        "制限事項:研究室等別置図書は閲覧できない場合があります。",
+        "休館日:日曜日, 祝日, 夏期一斉休業日(8月14日〜8月20日), 年末・年始(12月25日〜1月5日)"
+      ]
+    }
+  ]
+}

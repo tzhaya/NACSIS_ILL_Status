@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA000150.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA000150#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA000150.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "明治学院大学 横浜校舎 図書館"
+        },
+        {
+          "@value": "メイジガクインダイガク ヨコハマコウシヤ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "明学大横浜"
+        },
+        {
+          "@value": "メイガクダイヨコハマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研究",
+        "国際",
+        "体育",
+        "共同",
+        "別分",
+        "他"
+      ],
+      "cinii:memberid": "FA000150",
+      "cinii:organizationid": "KI002726",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "明治学院大学 横浜校舎 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "244-8539",
+        "v:label": "神奈川県横浜市戸塚区上倉田町1518"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-863-2037"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-863-2189"
+        }
+      ],
+      "dc:description": [
+        "通常開館時間 :8:45〜20:50(土曜日〜19:00)",
+        "休館日 :日曜日・祝日・創立記念日(11/1)・キリスト降誕祭(12/25) ※休講期間中の開館時間・開館日についてはホームページに掲載します。",
+        "URL :http://www.meijigakuin.ac.jp/library/ (website)",
+        "URL :http://www.meijigakuin.ac.jp/access/(map)",
+        "URL :http://mgopac.meijigakuin.ac.jp/opac/opac_search.cgi(OPAC)",
+        "来館利用担当 :利用サービス・電子情報課(横浜)",
+        "注意事項 :当館は一般公開しておりません。当館の所蔵資料を利用したい場合には、図書館間相互協力制度(ILL)により、閲覧、複写物の送付、現物貸借のサービスを行っておりますので、所属する大学・機関の図書館にご相談ください。個人から直接のお問い合せには応じられませんのでご了承ください。",
+        "持参書類 :紹介状(身分を証明するものを携行のこと)",
+        "Org :Meiji Gakuin University Yokohama Campus Library",
+        "Dept :InterLibrary Service Section",
+        "Address :1518, Kamikurata-cho, Totsukaku, Yokohama-shi, Kanagawa-ken, JAPAN",
+        "ZIP :244-8539",
+        "Tel :+81-45-863-2037 / Fax:+81-45-863-2189",
+        "E-mail :yokoun@mguad.meijigakuin.ac.jp"
+      ]
+    }
+  ]
+}

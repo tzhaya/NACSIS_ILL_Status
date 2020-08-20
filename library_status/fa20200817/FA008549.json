@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008549.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008549#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008549.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "就実大学 図書館"
+        },
+        {
+          "@value": "シュウジツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "就大"
+        },
+        {
+          "@value": "シュウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "1"
+      ],
+      "cinii:memberid": "FA008549",
+      "cinii:organizationid": "KI004109",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "就実大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "703-8258",
+        "v:label": "岡山県岡山市中区西川原1-5-22"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-271-8134,8135"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-271-8275"
+        }
+      ],
+      "dc:description": [
+        "Shujitsu University Library",
+        "1-5-22 Nishigawara, Naka-ku, Okayama-shi, Okayama 703-8258",
+        "URL:http://www.shujitsu.ac.jp/category/toshokan"
+      ]
+    }
+  ]
+}

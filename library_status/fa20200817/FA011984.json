@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011984.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011984#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011984.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 史料編纂所 図書室"
+        },
+        {
+          "@value": "トウキョウダイガク シリョウヘンサンジョ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大史料"
+        },
+        {
+          "@value": "トウダイシリョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA011984",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002128",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京大学 史料編纂所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-5962"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-8425"
+        }
+      ],
+      "dc:description": [
+        "University of Tokyo, Historiographical Institute",
+        "7-3-1, Hongo, Bunkyo-ku, Tokyo 113-0033",
+        "URL:http://www.hi.u-tokyo.ac.jp/index-j.html",
+        "来館利用担当:史料・図書サービスチーム",
+        "電話番号:03-5841-5962",
+        "受付時間:9:15〜16:30(11:50〜13:00は返却のみ受付。書庫内史料・図書の出納請求は16:15まで)",
+        "注意事項:一般利用者は閲覧申請書を事前に送付のこと",
+        "持参書類:【2019年度より変更になりました】http://www.hi.u-tokyo.ac.jp/tosho/etsuran.html",
+        "複写時間:9:15〜16:30",
+        "館外貸出:不可",
+        "制限事項:貴重書には事前申請を必要とするものがあります。http://www.hi.u-tokyo.ac.jp/tosho/etsuran.html#kichosho",
+        "休館日:工事等に伴い臨時閉室となることがあります。ホームページの開室カレンダーをご覧ください。https://www.hi.u-tokyo.ac.jp/tosho/2020calendar.html"
+      ]
+    }
+  ]
+}

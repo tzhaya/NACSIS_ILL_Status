@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003793.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003793#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003793.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "金沢美術工芸大学 附属図書館"
+        },
+        {
+          "@value": "カナザワビジュツコウゲイダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "金美大"
+        },
+        {
+          "@value": "カナビダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "MU"
+      ],
+      "cinii:memberid": "FA003793",
+      "cinii:organizationid": "KI001020",
+      "cinii:prefcode": "17",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "金沢美術工芸大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "920-8656",
+        "v:label": "金沢市小立野5丁目11番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "076-262-3504"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "076-220-2801(MU)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "076-262-2264"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "076-220-2806(MU)"
+        }
+      ],
+      "dc:description": [
+        "複写担当係    :相互利用係",
+        "複写受付可否  :可",
+        "FAX受付可否   :不可",
+        "複写方法・料金:電子複写 1枚10円 (カラーコピー1枚50円)",
+        "決済方法      :私費=前納",
+        "支払方法      :現金書留",
+        "複写注記      :LOCに\"MU\"と表示されている資料は下記を参照してください",
+        "貸借担当係    :相互利用係",
+        "貸借受付可否  :可",
+        "貸出期間      :3週間(郵送期間を含む)",
+        "貸出冊数      :3冊",
+        "貸借注記      :LOCに\"MU\"と表示されている資料は下記を参照してください",
+        "閲覧担当係    :相互利用係",
+        "閲覧対象者    :教職員・大学院生・学生・市民",
+        "閲覧事前連絡  :事前に電話等で連絡してください",
+        "閲覧持参書類  :閲覧許可願書,身分証明書・学生証",
+        "閲覧受付時間  :8:45〜19:00(土曜日9:00〜15:00)",
+        "複写受付時間  :8:45〜19:00(土曜日9:00〜15:00)",
+        "館外貸出可否  :否",
+        "閲覧注記      :LOCに\"MU\"と表示されている資料は下記を参照してください",
+        "通常開館時間  :8:45〜19:00(土曜日9:00〜15:00)",
+        "休館日        :日曜日・国民の祝日・開学記念日(11/7)・本学所定の休日(夏季,冬季,春季の休業)",
+        "注記          :本学所定の休日(夏季,冬季,春季の休業)、入試等に合わせて開館日の変更があります",
+        "注記          :\"金美大 MU\"と表示される資料は、金沢21世紀美術館の所蔵です。資料の館外への貸出は行っておりません。ご来館時の複写は可能です。(郵送、FAX等による提供は行っておりません。)閲覧等については、事前にお問い合わせください(金美大OPAC)https://www-std01.ufinity.jp/kanabi/",
+        "注記          :◎問い合わせ先 : 金沢21世紀美術館 学芸課 図書資料担当 (TEL 076-220-2801)"
+      ]
+    }
+  ]
+}

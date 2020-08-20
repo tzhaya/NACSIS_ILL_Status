@@ -1,0 +1,111 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006827.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006827#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006827.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "麻布大学 附属学術情報センター"
+        },
+        {
+          "@value": "アザブダイガク フゾクガクジュツジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "麻布大"
+        },
+        {
+          "@value": "アザブダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研",
+        "EJ-Sp",
+        "EJ-Bl",
+        "EJ-Wi",
+        "EJ-SD",
+        "EJ",
+        "EJ-UB",
+        "EJ-BO",
+        "EJ-KG",
+        "EJ-ACS",
+        "EJ-OUP",
+        "EJ-CUP",
+        "eB_ILL可",
+        "eB_ILL不可"
+      ],
+      "cinii:memberid": "FA006827",
+      "cinii:organizationid": "KI002792",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "麻布大学 附属学術情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "252-5201",
+        "v:label": "神奈川県相模原市中央区淵野辺1-17-71"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-754-7111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-776-3059"
+        }
+      ],
+      "dc:description": [
+        "Azabu University Center for Science Information Services",
+        "1-17-71, Fuchinobe, Chuo-ku, Sagamihara-shi, Kanagawa-ken 252-5201 JAPAN",
+        "URL:http://turf.azabu-u.ac.jp/ (website)",
+        "URL:http://www.azabu-u.ac.jp/ (map)",
+        "ILL-Staff:Kitamura Takeshi",
+        "ILL-Dept:ILL Section Library",
+        "ILL-Org:Azabu Univ. Center Sci. Info. Serv",
+        "ILL-Address:1-17-71, Fuchinobe, Chuo-ku, Sagamihara-shi, Kanagawa-ken, JAPAN",
+        "ILL-Zip:252-5201",
+        "ILL-Contact1:FAX:+81-42-776-3059 / E-Mail:sougo@azabu-u.ac.jp",
+        "ILL-Contact2:OPAC: http://turf.azabu-u.ac.jp/mylimedio/search/search-input.do?lang=en/ Home-Page:https://turf.azabu-u.ac.jp",
+        "ILL-Calender:Closed:Aug/12-Aug/18 Dec/28-Jan/7",
+        "ILL-Accept:International: LOAN  N/A , International: COPY Yes",
+        "ILL-Accept-method:Korea: KERIS=NII ILL linkage (COPY only)International: E-mail",
+        "ILL-Payment-method:International: Invoice: N/A  International: IFLA Voucher: Yes   International: Credit Card: N/A   International: KERIS=NII Fee  Management service Yes",
+        "ILL-Loan-Period:N/A",
+        "ILL-Loan-Item- Max:N/A",
+        "ILL-Loan-Renewal:N/A",
+        "ILL-Loan-Charge:N/A",
+        "ILL-Loan- Delivery-method:N/A",
+        "ILL-Non-Circulation-items:N/A",
+        "ILL-Copy-Charge:$10 per exposure Korea: KERIS: 50YEN per sheet & Postage",
+        "ILL-Copy- Delivery-method:Airmail",
+        "ILL-Note:We do not accept requests from individual persons. Thesis: Please use the repository to browse the thesis. https://az.repo.nii.ac.jp/"
+      ]
+    }
+  ]
+}

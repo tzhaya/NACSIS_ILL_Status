@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007171.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007171#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007171.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "常葉大学 附属図書館(瀬名)"
+        },
+        {
+          "@value": "トコハダイガク フゾクトショカン(セナ)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "常葉大瀬名"
+        },
+        {
+          "@value": "トコハダイセナ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007171",
+      "cinii:organizationid": "KI003106",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "常葉大学 附属図書館(瀬名)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "420-0911",
+        "v:label": "静岡県静岡市葵区瀬名一丁目22番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "054-261-4499"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "054-263-1164"
+        }
+      ],
+      "dc:description": [
+        "Tokoha University Library",
+        "1-22-1 Sena,Aoi-ku, Shizuoka City 420-0911,Japan",
+        "URL:http://www.tokoha-u.ac.jp/library/sena/index.html",
+        "URL:http://www.tokoha-u.ac.jp/university/campus/shizuoka-sena/index.html",
+        "来館利用担当:閲覧係",
+        "電話番号:054-261-4499",
+        "受付時間:9:00〜17:00",
+        "注意事項:資料の所在等、事前確認をして下さい",
+        "注意事項:長期休暇中の開館時間・休館日等については、お問い合わせ下さい",
+        "持参資料:身分を証明するものと、できれば紹介館発行の閲覧依頼書",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可",
+        "制限事項:館内資料のみ",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始、学園行事挙行の日",
+        ""
+      ]
+    }
+  ]
+}

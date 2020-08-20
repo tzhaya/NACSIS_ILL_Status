@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008356.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008356#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008356.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸親和女子大学 附属図書館"
+        },
+        {
+          "@value": "コウベシンワジヨシダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神戸親和"
+        },
+        {
+          "@value": "コウベシンワ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008356",
+      "cinii:organizationid": "KI003955",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "神戸親和女子大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "651-1111",
+        "v:label": "兵庫県神戸市北区鈴蘭台北町7-13-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-591-3595(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-592-9517"
+        }
+      ],
+      "dc:description": [
+        "Kobe Shinwa Women's University Library",
+        "7-13-1, Suzurandai-kitamachi, Kita-ku, Kobe, 651-1111",
+        "URL:http://www.kobe-shinwa.ac.jp/facilities/library/",
+        "来館利用担当:相互利用係",
+        "電話番号:078-591-3595(直通)",
+        "受付時間:9:00-16:00(月-金)",
+        "注意事項:事前に「所蔵調査及び閲覧依頼書」をFAXで送付",
+        "持参書類:身分を証明する物を携行のこと",
+        "複写時間:9:00-17:00(月-金)",
+        "館外貸出:否",
+        "休館日:日曜日・祝日・学園創立記念日(10月25日)・大学開学記念日(6月6日)・大学行事日(入学式・卒業式・入学試験日等)・夏期・冬期休業中の一定期間・その他"
+      ]
+    }
+  ]
+}

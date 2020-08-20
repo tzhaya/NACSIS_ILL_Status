@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024476.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024476#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024476.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "帝京科学大学 附属図書館 千住図書館"
+        },
+        {
+          "@value": "テイキョウカガクダイガク フゾクトショカン センジュトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "帝京科大千"
+        },
+        {
+          "@value": "テイキョウカダイセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024476",
+      "cinii:organizationid": "KI007413",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "N",
+      "v:fn": "帝京科学大学 附属図書館 千住図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "120-0045",
+        "v:label": "東京都足立区千住桜木2-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-6910-3705"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-6910-3801"
+        }
+      ],
+      "dc:description": [
+        "Library of Teikyo University of Science",
+        "2-2-1 Senjusakuragi, Adachi-ku, Tokyo 120-0045",
+        "http://www.ntu.ac.jp/library/"
+      ]
+    }
+  ]
+}

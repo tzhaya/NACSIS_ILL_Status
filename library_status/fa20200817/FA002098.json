@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002098.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002098#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002098.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "新潟大学 附属図書館 旭町分館"
+        },
+        {
+          "@value": "ニイガタダイガク フゾクトシヨカン アサヒマチブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "新大旭"
+        },
+        {
+          "@value": "シンダイアサヒ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "旭分",
+        "旭研"
+      ],
+      "cinii:memberid": "FA002098",
+      "cinii:organizationid": "KI000356",
+      "cinii:prefcode": "15",
+      "cinii:mextid": "003501",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "新潟大学 附属図書館 旭町分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "951-8525",
+        "v:label": "新潟市中央区旭町通1番町754番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "025-227-0695(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "025-227-1431"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.lib.niigata-u.ac.jp/Bunkan/ (website)",
+        "URL:http://www.lib.niigata-u.ac.jp/access/index_md.html (map)",
+        "URL:http://www.lib.niigata-u.ac.jp/services/guides/doc/user_guide_u_md.pdf (一般市民向け利用案内)",
+        "来館利用担当:医歯学図書館係(閲覧担当)",
+        "電話番号:025-227-0694",
+        "休館日:作業停電日(5月第3土曜日)、本学夏季一斉休業日(8/11-8/15)、年末年始(12/28-1/3) ※詳細はホームページの開館カレンダーでご確認ください。",
+        "入館:2階入口よりお入りください。図書館利用カードをお持ちでない方は、カウンターで「外来者来館記録票」をご記入ください。",
+        "複写:上記開館時間中、1階と3階のコインコピー機をご利用ください。(備え付けの「文献複写申込書」にご記入ください。)",
+        "館外貸出:図書館利用カードの交付を受けた方は、館内配架の一般図書を貸出できます。(冊数:5冊以内、期間:14日以内)",
+        "図書館利用カード申請方法(一般市民):新潟県内在住の18歳以上の希望される方に図書館利用カードを交付します。現住所、生年月日のわかる証明書(運転免許証、健康保険証等)をご持参の上、カウンターで申請を行ってください。",
+        "注意事項:貴重資料等の利用についてはカウンターの職員にお申し出ください。(平日8:30-12:00、13:00-17:00)"
+      ]
+    }
+  ]
+}

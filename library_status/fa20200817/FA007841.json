@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007841.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007841#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007841.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪工業大学 図書館"
+        },
+        {
+          "@value": "オオサカコウギョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪工大"
+        },
+        {
+          "@value": "ハンコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "中央"
+      ],
+      "cinii:memberid": "FA007841",
+      "cinii:organizationid": "KI003605",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪工業大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "535-8585",
+        "v:label": "大阪府大阪市旭区大宮5-16-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6954-4108"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6953-9499"
+        }
+      ],
+      "dc:description": [
+        "Osaka Institute of Technology Library",
+        "5-16-1, Omiya, Asahi-ku, Osaka 535-8585",
+        "URL:http://www.oit.ac.jp/japanese/toshokan/ (WEBSITE)",
+        "来館利用担当:相互利用係",
+        "電話番号:(TEL)06-6954-4108 (FAX)06-6953-9499",
+        "受付時間:9:00～20:00(土曜日～18:00)",
+        "注意事項:所属大学図書館または公共図書館を通じて事前に所蔵調査などの確認が必要",
+        "持参書類:資料利用依頼書+学生証など身分を証明するもの",
+        "複写時間:9:00〜20:00(土曜日〜18:00)",
+        "館外貸出:不可",
+        "制限事項:「研究室」「知財文献保管庫」の資料は利用できない場合があります",
+        "休館日:日祝日、創立記念日(10月30日)、夏期休暇中の土曜日および8月中旬(1週間程度)、年末年始",
+        "e-mail:OIT.Tosho@josho.ac.jp"
+      ]
+    }
+  ]
+}

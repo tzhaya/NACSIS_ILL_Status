@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015781.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015781#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015781.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "兵庫大学 附属図書館"
+        },
+        {
+          "@value": "ヒョウゴダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "兵庫大"
+        },
+        {
+          "@value": "ヒョウゴダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015781",
+      "cinii:organizationid": "KI008631",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "兵庫大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "675-0195",
+        "v:label": "兵庫県加古川市平岡町新在家2301番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "079-427-9981"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "079-427-9996"
+        }
+      ],
+      "dc:description": [
+        "HYOGO UNIVERSITY LIBRARY",
+        "2301, SHINZAIKE, HIRAOKA-CHO, KAKOGAWA-SHI, HYOGO, JAPAN, 675-0101",
+        "URL          : http://arena.hyogo-dai.ac.jp/lib/",
+        "来館利用担当 : 相互協力担当",
+        "電話番号     : 079-427-9981",
+        "受付時間     : 9:00〜17:00(土曜日 9:00〜15:00)",
+        "注意事項     : 電話または文書で日時や資料の所蔵確認のため、事前連絡が必要",
+        "持参書類     : 資料利用依頼書、学生証(身分を証明するもの)",
+        "複写時間     : 9:00〜17:00(土曜日 9:00〜15:00)",
+        "館外貸出     : 不可",
+        "休館日       : 創立記念日(6月10日)、日曜日・国民の祝日、入試期間"
+      ]
+    }
+  ]
+}

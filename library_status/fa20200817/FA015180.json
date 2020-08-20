@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015180.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015180#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015180.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸市立中央図書館"
+        },
+        {
+          "@value": "コウベシリツチュウオウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神市図"
+        },
+        {
+          "@value": "シンシト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "開",
+        "庫",
+        "郷",
+        "貴",
+        "旧"
+      ],
+      "cinii:memberid": "FA015180",
+      "cinii:organizationid": "KI008063",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神戸市立中央図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "650-0017",
+        "v:label": "神戸市中央区楠町7丁目2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-341-6737"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-371-3354"
+        }
+      ],
+      "dc:description": [
+        "Kobe Chuo Municipal Library",
+        "7-2-1 Kusunoki-cho, Chuo-ku, Kobe-shi, Hyogo-ken 650-0017",
+        "URL:http://www.city.kobe.lg.jp/information/institution/institution/library/top/",
+        "来館利用担当:調査相談係",
+        "電話番号:078-341-6737",
+        "受付時間:9:15〜20:00(火〜土), 9:15〜18:00(日・祝休日)",
+        "注意事項:資料の所在等、事前確認をしてください。",
+        "持参書類:事前にお問い合わせ下さい。",
+        "複写時間:9:15〜19:30(火〜土), 9:15〜17:30(日・祝休日)",
+        "館外貸出:神戸市立図書館条例施行規則による",
+        "制限事項:貴重資料等には閲覧を許可しないものがある",
+        "休館日:月曜日(祝日・休日の場合は開館、直後の祝日・休日でない日を休館)、館内整理日、年末年始、蔵書点検期間"
+      ]
+    }
+  ]
+}

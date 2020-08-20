@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015340.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015340#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015340.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東日本国際大学 図書館"
+        },
+        {
+          "@value": "ヒガシニツポンコクサイダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東日大"
+        },
+        {
+          "@value": "トウニチダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "東洋研"
+      ],
+      "cinii:memberid": "FA015340",
+      "cinii:organizationid": "KI008201",
+      "cinii:prefcode": "07",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東日本国際大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "970-8567",
+        "v:label": "福島県いわき市平鎌田字寿金沢37番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0246-35-0416"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0246-41-7025"
+        }
+      ],
+      "dc:description": [
+        "『いわき短期大学』と共有の図書館です.",
+        "ILL料金相殺サービスに参加しておりません.",
+        "*** 文献複写 ***",
+        "複写方法 :電子複写",
+        "複写料金 :30円(白黒のみ)",
+        "決済方法 :後納",
+        "支払方法 :小額切手でお支払をお願いいたします。",
+        "支払期日 :経理の都合上、複写物到着後2週間以内のお支払いをお願いしております.",
+        "*** 相互貸借 ***",
+        "貸出期間 :30日",
+        "貸出冊数 :2冊",
+        "現物貸借料金:原則として、ゆうパック着払いで発送しています。別途希望がある場合は、ご連絡ください。",
+        "貸借注記 :貸出更新不可.",
+        "貸借注記 :逐次刊行物・禁帯出図書・指定図書・AV資料・研究室所蔵資料は貸出対象外です。",
+        "*** 館内閲覧 ***",
+        "閲覧事前連絡:電話連絡",
+        "持参書類 :依頼状及び、身分証明書等",
+        "*開館時間 :8:30〜19:00(月〜金),〜13:00(土)",
+        "*当面の間、新型コロナウィルス感染拡大防止のため平日は17:00閉館、土曜日は休館となっております。",
+        "休館日 :日曜,祝日,年末年始,その他.",
+        "2020年8月13日から16日は、お盆休みのため休館いたします。",
+        "HIGASHI NIPPON INTERNATIONAL UNIVERSITY LIBRARY",
+        "37, SUGANEZAWA, KAMATA, TAIRA, IWAKI-SHI, FUKUSHIMA 970-8567",
+        "URL:http://www.shk-ac.jp/lab/library/visitor/visitor01.htmll"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027678.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027678#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027678.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "新潟食料農業大学 図書館"
+        },
+        {
+          "@value": "ニイガタショクリョウノウギョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "新潟食農大"
+        },
+        {
+          "@value": "ニイガタショクノウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "新",
+        "胎"
+      ],
+      "cinii:memberid": "FA027678",
+      "cinii:organizationid": "KI025313",
+      "cinii:prefcode": "15",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "新潟食料農業大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "959-2702",
+        "v:label": "胎内市平根台2416"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0254-28-9852"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0254-28-9853"
+        }
+      ]
+    }
+  ]
+}

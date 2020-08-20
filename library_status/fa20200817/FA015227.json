@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015227.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015227#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015227.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "比治山大学 図書館"
+        },
+        {
+          "@value": "ヒジヤマダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "比治山大"
+        },
+        {
+          "@value": "ヒジヤマダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015227",
+      "cinii:organizationid": "KI00810X",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "比治山大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "732-8509",
+        "v:label": "広島県広島市東区牛田新町4丁目1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-229-8838(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-229-8838(直通)"
+        }
+      ],
+      "dc:description": [
+        "HIJIYAMA UNIVERSITY LIBRARY",
+        "4-1-1, USHITA-SHINMACHI, HIGASHI-KU, HIROSHIMA CITY, 732-8509"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008607.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008607#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008607.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島工業大学 附属図書館"
+        },
+        {
+          "@value": "ヒロシマコウギョウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広工大"
+        },
+        {
+          "@value": "ヒロコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館",
+        "工電子",
+        "工電気",
+        "工機械",
+        "工土木",
+        "工建築",
+        "工経営",
+        "基礎",
+        "一般",
+        "その他"
+      ],
+      "cinii:memberid": "FA008607",
+      "cinii:organizationid": "KI004153",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "広島工業大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "731-5193",
+        "v:label": "広島県広島市佐伯区三宅2-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-921-4219"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-921-8958"
+        }
+      ],
+      "dc:description": [
+        "Hiroshima Institute of Technology",
+        "2-1-1 Miyake,Saekiku,Hiroshima 731-5193 Japan",
+        "URL:http://www.it-hiroshima.ac.jp/library/",
+        "来館利用担当:閲覧係",
+        "電話番号:082-921-3121(内線2701,2721)",
+        "受付時間:9:00〜21:00(土曜日〜12:30)",
+        "注意事項:資料の所在,開館日等,事前確認をしてください。",
+        "複写時間:9:00〜21:00(土曜日〜12:30)",
+        "館外貸出可否:否",
+        "休業中受付時間,複写時間:9:00〜17:00(土曜日〜12:30)",
+        "休館日:日曜日・国民の祝日・創立記念日(2/23)・8/6,14〜16日・12/28〜1/4・毎月末・夏休み中の土曜日",
+        "ILL-Staff:ILL-staff",
+        "ILL-Dept:ILL-kakari",
+        "ILL-Org:Hiroshima Institute of Technology Library",
+        "ILL-Address:2-1-1, Miyake, Saeki-ku, Hiroshima-shi, Japan",
+        "ILL-ZIP731-5193",
+        "ILL-Commun1:Tel:+81-82-921-4193",
+        "ILL-Accept:Foreign:OCLC(NII-OCLC link):YD$",
+        "ILL-Bill:Foreign:OCLC=OCLC-IFM only",
+        "ILL-Copy-Charge:PHOTOCOPY:35YEN per sheet / Postage required / Delivery method: via airmail",
+        "ILL-OCLC-Symbol:YD$"
+      ]
+    }
+  ]
+}

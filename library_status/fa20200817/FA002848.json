@@ -1,0 +1,170 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002848.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002848#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002848.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪大学 附属図書館 総合図書館"
+        },
+        {
+          "@value": "オオサカダイガク フゾクトショカン ソウゴウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪大総"
+        },
+        {
+          "@value": "ハンダイソウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "言英語",
+        "言独語",
+        "言仏語",
+        "言露語",
+        "言古典語",
+        "言中国語",
+        "文資",
+        "文文芸",
+        "文国文",
+        "文英文",
+        "文仏文",
+        "文独文",
+        "文臨哲",
+        "文中哲",
+        "文印哲",
+        "文西洋史",
+        "文美学",
+        "文美史1",
+        "文美史2",
+        "文音楽",
+        "文演劇",
+        "文英語",
+        "法資",
+        "経資",
+        "社研資",
+        "言語文化",
+        "言語情報",
+        "文日本学",
+        "文留相",
+        "文人地",
+        "文日本語",
+        "言大学院",
+        "文日本史",
+        "文比文学",
+        "文中文",
+        "国際資",
+        "言朝鮮語",
+        "理資",
+        "理数図",
+        "文哲史",
+        "文現思",
+        "文アート",
+        "文共生",
+        "文文環境",
+        "文言生態",
+        "図理系雑"
+      ],
+      "cinii:memberid": "FA002848",
+      "cinii:organizationid": "KI000593",
+      "cinii:prefcode": "27",
+      "cinii:mextid": "005100",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪大学 附属図書館 総合図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "560-0043",
+        "v:label": "豊中市待兼山町1ー4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6850-5068(相互利用)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "06-6850-5070(参考調査)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6850-5069(相互利用)"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "06-6850-5069(参考調査)"
+        }
+      ],
+      "dc:description": [
+        "Osaka University Main Library",
+        "1-4, Machikaneyama-cho, Toyonaka City, OSAKA, 560-0043",
+        "URL:https://www.library.osaka-u.ac.jp",
+        "URL:https://www.library.osaka-u.ac.jp/sougou/access.php (map)",
+        "URL:https://opac.library.osaka-u.ac.jp (OPAC)",
+        "来館利用担当 :フロアサービス",
+        "電話番号 :06-6850-5067",
+        "閲覧受付時間 :8:00-21:45(土・日10:00-18.45、祝日10:00-16:45)",
+        "休業中閲覧受付時間 :9:00-18:45(土・日10:00-16:45)",
+        "注意事項 :利用を希望する資料の有無及び利用の可否は事前にご確認ください(参考調査担当FAX:06-6850-5069)。",
+        "館外貸出 :可(要図書館利用者票、交付方法の詳細は図書館ホームページをご参照ください。)",
+        "制限事項: ★総合図書館★の所蔵資料のみ来館利用していただけます(大阪大学蔵書検索OPACでご確認ください。配架場所「総合図○○」の資料です)。貴重図書の利用については、事前に承認を得て下さい。★研究室所蔵資料は原則としてご利用いただけません。★",
+        "制限事項: 1～2月および7～8月の試験期間中(前後含む。)は入館いただけないことがありますので、図書館ホームページをご参照ください。",
+        "休館日 :授業休業中の国民の祝日・年末年始(12/28-1/4)、大阪大学記念日(5/1)・書架整理日(詳細は図書館ホームページをご参照ください)、 その他、臨時休館・開館時間の変更をする場合があります。",
+        "------------ 以下、海外の図書館向けのご案内です ------------",
+        "ILL-Staff:Kishimoto, Madoka",
+        "ILL-Dept:ILL Section, User Support Division",
+        "ILL-Org:Osaka University Main Library",
+        "ILL-Address:1-4, Machikaneyama-cho, Toyonaka-City, Osaka, JAPAN",
+        "ILL-Zip:560-0043",
+        "ILL-Contact1:Fax:+81-6-6850-5069 / E-mail:sg-ill[at]library.osaka-u.ac.jp",
+        "ILL-Contact2:OPAC:https://opac.library.osaka-u.ac.jp / Home-Page:https://www.library.osaka-u.ac.jp",
+        "ILL-Calender:Closed:Dec.28-Jan.4",
+        "ILL-Accept:International: LOAN: Yes(Traceable courier with insurance Only)",
+        "ILL-Accept:International: COPY: Yes",
+        "ILL-Accept-method: International: E-mail",
+        "ILL-Accept-method: Korea: KERIS=NII Linkage(COPY only)",
+        "ILL-Patment-method: Internatioal: Invoice: N/A",
+        "ILL-Patment-method: Internatioal: IFLA Voucher: Yes",
+        "ILL-Patment-method: Internatioal: Credit Cardr: N/A",
+        "ILL-Patment-method: Internatioal: OCLC-IMF: N/A",
+        "ILL-Patment-method: Internatioal: KERIS=NII Fee Management service: Yes",
+        "ILL-Loan-Period: 6 weeks",
+        "ILL-Loan-Item-Max: 3",
+        "ILL-Loan-Renewal: N/A",
+        "ILL-Loan-Charge: Postage only",
+        "ILL-Loan-Delivery-method: EMS",
+        "ILL-Non-Circulation-items: Special collection, rare books, microfilm, microfiche, Referenc collection, Journal issues, newspaper, DVDs, dissertation",
+        "ILL-Copy-Charge: 50 JPY per sheet and Postage",
+        "ILL-Copy-Delivery-method: Airmail",
+        "ILL-Note: Only the items held at the Main Library are available.",
+        "ILL-Note: dissertation: COPY: need the author's permission."
+      ]
+    }
+  ]
+}

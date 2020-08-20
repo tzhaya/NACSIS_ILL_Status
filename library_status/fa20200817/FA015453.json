@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015453.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015453#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015453.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "筑波技術大学 附属図書館 聴覚障害系図書館"
+        },
+        {
+          "@value": "ツクバギジュツダイガク フゾクトショカン チョウカクショウガイケイトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "筑技大聴"
+        },
+        {
+          "@value": "ツクギダイチョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015453",
+      "cinii:organizationid": "KI007763",
+      "cinii:prefcode": "08",
+      "cinii:mextid": "304301",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "筑波技術大学 附属図書館 聴覚障害系図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-8520",
+        "v:label": "茨城県つくば市天久保4-3-15"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-858-9330,9331"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-858-9419"
+        }
+      ],
+      "dc:description": [
+        "Tsukuba University of Technology, Library of Hearing Impaired Division",
+        "Amakubo 4-3-15, Tsukuba 305-8520, JAPAN",
+        "URL:http://library.k.tsukuba-tech.ac.jp/a/ (website)",
+        "来館利用担当: 図書係",
+        "電話番号: 029-858-9330,9331",
+        "開館時間: 8:50-20:30(月-金), 12:30-16:30(土), [休業期間中: 9:00-17:00(月-金), 土・日・祝日休館]",
+        "休館日: 日曜日、国民の休日、年末年始(12月27日〜翌年1月5日)、全学一斉休業日(8月)",
+        "注意事項: 学外の方に対しての館外貸出はおこなっていません。",
+        "注意事項: 図書館内に両替機はありません。",
+        "電話での問い合わせは、月～金の9時から17時の間のみとさせていただきます。"
+      ]
+    }
+  ]
+}

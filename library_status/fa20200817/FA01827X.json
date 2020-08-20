@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA01827X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA01827X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA01827X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山梨県立大学 図書館"
+        },
+        {
+          "@value": "ヤマナシケンリツダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "梨県大"
+        },
+        {
+          "@value": "ナシケンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA01827X",
+      "cinii:organizationid": "KI010677",
+      "cinii:prefcode": "19",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "山梨県立大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "400-0035",
+        "v:label": "甲府市飯田5-11-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "055-224-5340"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "055-224-5379"
+        }
+      ],
+      "dc:description": [
+        "◆閲覧対象者: 山梨県内在住・在勤の学生・一般(16歳以上。調査・研究を目的とするもの)",
+        "◆閲覧持参書類: 学生証・免許証などの住所の分かる身分証明証",
+        "◆通常開館時間: 9:00-19:00(夏季休業・春季休業は9:00-17:00)",
+        "◆休館日: 土曜、日曜、祭日、年末年始、年度末から入学式の前日まで、図書館蔵書点検・整理期間、館長が指定した日",
+        "◆URL:http://www.yamanashi-ken.ac.jp/",
+        "◆相殺サービス未参加館(県内公共図書館を除く)の文献複写・相互貸借のFAXでの受付は、所蔵が当館のみの資料と、当学発行のものに限ります。",
+        "◆ILL-Org: Yamanashi Prefectural University Library",
+        "◆ILL-Address: 5-11-1 Iida、 Kofu-shi、 Yamanashi、 JAPAN",
+        "◆ILL-ZIP: 400-0035",
+        "◆ILL-Commun1: Tel:+81-055-224-5340 / FAX:+81-055-224-5379 / E-mail:iidalib@yamanashi-ken.ac.jp"
+      ]
+    }
+  ]
+}

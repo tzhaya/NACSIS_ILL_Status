@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003002.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003002#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003002.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸大学 附属図書館 総合図書館 国際文化学図書館"
+        },
+        {
+          "@value": "コウベダイガク フゾクトシヨカン ソウゴウトショカン コクサイブンカガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神大総合国際"
+        },
+        {
+          "@value": "シンダイソウゴウコクサイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003002",
+      "cinii:organizationid": "KI00063X",
+      "cinii:prefcode": "28",
+      "cinii:mextid": "005407",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神戸大学 附属図書館 総合図書館 国際文化学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "657-8501",
+        "v:label": "神戸市灘区鶴甲1-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-803-7351"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-803-7355"
+        }
+      ],
+      "dc:description": [
+        "閲覧担当係    :総合・国際文化学情報サービス係",
+        "閲覧持参書類  :資料利用願・学生証または身分証明書",
+        "閲覧事前連絡  :事前連絡が望ましい",
+        "閲覧受付時間  :9:00〜21:00(土曜日は10:00〜17:30)",
+        "複写受付時間  :9:00〜17:00(土曜日を除く)",
+        "通常開館時間: 8:45〜21:30(土曜日は10:00〜18:00)",
+        "休業中開館時間:8:45〜17:00(土曜日は休館)",
+        "休館日        :日曜日・国民の祝日・年末年始・本学創立記念日(5/15※2019年のみ開館)。休業中については別に定めます。",
+        "URL:https://lib.kobe-u.ac.jp/ (website)",
+        "ILL-Staff:Ai Itabashi",
+        "ILL-Dept:Information Service Section",
+        "ILL-Org:Kobe University General Library / Library for Intercultural Studies",
+        "ILL-Address:1-2-1 Tsurukabuto, Nada-ku Kobe, Japan",
+        "ILL-ZIP: 657-8501",
+        "ILL-Contact1:TEL:+81-78-803-7351 / FAX:+81-78-803-7355 / EMAIL:glibsvc@lib.kobe-u.ac.jp",
+        "ILL-Contact2:Online catalogue:https://op.lib.kobe-u.ac.jp/opac/opac_search/?smode=1&lang=1 / Website:https://lib.kobe-u.ac.jp/en/ / International ILL:",
+        "ILL-Calender:Closed: Dec 28-Jan 4",
+        "ILL-Accept: International: LOAN Yes (Traceable courier with insurance Only)",
+        "ILL-Accept: International: COPY Yes",
+        "ILL-Accept-method:International: E-mail",
+        "ILL-Payment-method:International: Invoice N/A",
+        "ILL-Payment-method:International: IFLA Voucher Yes",
+        "ILL-Payment-method:International: Credit Card N/A",
+        "ILL-Payment-method:International: OCLC-IFM N/A",
+        "ILL-Loan-Period: 6 weeks",
+        "ILL-Loan-Item-Max: 3",
+        "ILL-Loan-Renewal: N/A",
+        "ILL-Loan-Charge: Postage only",
+        "ILL-Loan-Delivery-method: EMS",
+        "ILL-Non-Circulation-items:Special Collection, microfilm, microfische, Reference collection, Periodicals, AV, Dissertation, Thesis",
+        "ILL-Copy-Charge:1 IFLA Voucher for first 15 monochrome pages. Additional 0.5 IFLA Voucher for each 15 monochrome pages.  1 IFLA Voucher for first 7 color pages. Additional 0.5 IFLA Voucher for each 7 color pages.",
+        "ILL-Copy-Delivery-method: SAL",
+        "ILL-Note:Dissertation, Thesis: COPY: need the author's permission."
+      ]
+    }
+  ]
+}

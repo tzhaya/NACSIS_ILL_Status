@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001685.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001685#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001685.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宇都宮大学 附属図書館"
+        },
+        {
+          "@value": "ウツノミヤダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宇大"
+        },
+        {
+          "@value": "ウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA001685",
+      "cinii:organizationid": "KI000185",
+      "cinii:prefcode": "09",
+      "cinii:mextid": "001700",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "宇都宮大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "321-8505",
+        "v:label": "宇都宮市峰町350"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "028-649-5134"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "028-649-5140"
+        }
+      ],
+      "dc:description": [
+        "Utsunomiya University Library",
+        "350, Mine-machi, Utsunomiya 321-8505",
+        "URL: http://www.lib.utsunomiya-u.ac.jp/"
+      ]
+    }
+  ]
+}

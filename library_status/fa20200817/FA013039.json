@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA013039.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA013039#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA013039.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "静岡理工科大学 附属図書館"
+        },
+        {
+          "@value": "シズオカリコウカダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "静理工大"
+        },
+        {
+          "@value": "シズリコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA013039",
+      "cinii:organizationid": "KI007344",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "静岡理工科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "437-8555",
+        "v:label": "静岡県袋井市豊沢2200-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0538-45-0231"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0538-45-0230"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Shizuoka Institute of Science and Technology",
+        "ILL-Address: 2200-2,Toyosawa,Fukuroi,Shizuoka,Japan",
+        "ILL-Zip:437-8555",
+        "ILL-Commun1:Tel:+81-538-45-0231 /FAX:+81-538-45-0230 / E-mail:tosyokan@sist.ac.jp",
+        "URL:http://www.sist.ac.jp/lib/",
+        "来館利用担当:閲覧係",
+        "電話番号:0538-45-0231",
+        "受付時間:09:00〜18:00",
+        "持参書類:特になし",
+        "複写時間:09:00〜18:00",
+        "館外貸出: 不可",
+        "休館日: 土・日曜日,国民の祝日,夏期休館(2020年8月8日～8月16日),年末年始(2020年12月26日～2021年1月3日),館長が臨時に定めた日"
+      ]
+    }
+  ]
+}

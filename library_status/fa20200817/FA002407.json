@@ -1,0 +1,160 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002407.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002407#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002407.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 附属図書館"
+        },
+        {
+          "@value": "ナゴヤダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大"
+        },
+        {
+          "@value": "メイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "中央館",
+        "中央学3F",
+        "中央学S",
+        "中央図4F",
+        "中央図S",
+        "中央教職",
+        "中央参",
+        "中央貴",
+        "中央M",
+        "中央AV",
+        "中央雑",
+        "中央東洋",
+        "中央地方",
+        "中央官報",
+        "中央参白",
+        "中央博論",
+        "中央索",
+        "中央特形",
+        "中央科研",
+        "中央新",
+        "中央新縮",
+        "中央準貴",
+        "中央高教セ",
+        "中央博物館",
+        "EJ",
+        "中央長谷川",
+        "中央開発室",
+        "中央産学官",
+        "中央研推進",
+        "中央図1F",
+        "中央保存",
+        "中央参1F",
+        "中央参画室",
+        "中央学留学",
+        "中央BR",
+        "中央語学教材",
+        "国際機構",
+        "中央就職",
+        "中央5F閉架",
+        "中央ICT"
+      ],
+      "cinii:memberid": "FA002407",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004300",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "名古屋大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8601",
+        "v:label": "名古屋市千種区不老町B3-2(790)"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0527893678/ILL3682"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-789-3694"
+        }
+      ],
+      "dc:description": [
+        "Nagoya University Library",
+        "B3-2(790), Furo-cho, Chikusa-ku, Nagoya 464-8601",
+        "URL:https://www.nul.nagoya-u.ac.jp (website)",
+        "URL:https://www.nul.nagoya-u.ac.jp/guide/map/map.html",
+        "===== 閲覧 =====",
+        "来館利用担当:閲覧係",
+        "電話番号:052-789-3678",
+        "受付開館時間:平日は8:00〜22:00, 土・日・祝日は8:45〜22:00",
+        "注意事項:車での来館はお断りしています。",
+        "注意事項:土・日・祝日のサービスは、開架資料の閲覧に限ります。",
+        "注意事項:貴重書・準貴重書の利用については、事前に照会してください。",
+        "保存書庫資料(「中央保存」)は、書庫がある建物の改修工事に伴い、2018年5月10日(木)の13時より出納を中止します。請求記号の末尾に「5F」と記載がある資料については、引続きご利用できます。",
+        "注意事項:ホームページ上でお知らせする最新の案内も併せてご覧ください。",
+        "閲覧手続き:資料閲覧目的の方は、受付で閲覧申込書(学外者用)に記入のうえ入館できます。",
+        "複写受付時間:窓口対応は平日8:30〜16:45のみ(早朝・夜間,土曜日,日曜日,祝日は休止)、ただし領収書発行のないコイン式及びプリペイドカード式複写機は、開館時間中利用可能です。",
+        "館外貸出可否:中央図書館利用証持参の学外者には一部資料貸出可。その他は所属機関(公共図書館も含む)を通して相互貸借で一部資料貸出可。詳細は調査支援係(052-789-3682)にお問合せください。",
+        "休館日:年末年始ほか(詳細はホームページでご確認ください)",
+        "===== ILLサービス =====",
+        "図書館からの依頼のみ受付可",
+        "複写・貸借担当:調査支援係(ILL文献複写等料金相殺サービスを利用しない機関からの複写受付は、原則として中央図書館調査支援係が全学の窓口です)",
+        "電話052-789-3682/3683(平日8:30-17:15対応、 夜間・土・日・祝日は休止) FAX052-789-3694",
+        "申込方法・料金・決済方法:詳細は、当館ホームページ(「名古屋大学の資料の取り寄せ(図書館間相互貸借)」)をご覧ください。",
+        "URL:https://www.nul.nagoya-u.ac.jp/guide_c/guide/visitor.html#ILL",
+        "===== Lending Policy for International Libraries =====",
+        "ILL-Staff:M. ITO, M. ISHIKAWA, T. HIRATE, K. KOBAYASHI and A. HISADA",
+        "ILL-Dept:Reference & ILL Section",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Address:B3-2(790) Furo-cho, Chikusa-ku, Nagoya, JAPAN",
+        "ILL-Zip:464-8601",
+        "ILL-Contact1:Tel:+81-52-789-3682 / FAX:+81-52-789-3694 / E-mail:sogo@nul.nagoya-u.ac.jp",
+        "ILL-Contact2:Online catalogue:https://opac.nul.nagoya-u.ac.jp/ Website:https://www.nul.nagoya-u.ac.jp/ E-mail with PDF files: tsien@nul.nagoya-u.ac.jp",
+        "ILL-Calender:Closed: Dec 28-Jan 4",
+        "ILL-Accept:International: LOAN (Yes) / International: LOAN Traceable courier with insurance Only / International: COPY (Yes) / International: COPY Traceable courier withinsurance Only",
+        "ILL-Accept-method:Korea: KERIS=NII ILL linkage (COPY only) / International: E-mail",
+        "ILL-Payment-method:International: Invoice (N/A) / International: IFLA Voucher (Yes) / International: Credit Card (N/A) / International: OCLC-IFM (N/A) / International:KERIS=NII Fee Management service (Yes)",
+        "ILL-Loan-Period:Foreign: 6 weeks per volum.",
+        "ILL-Loan-Item-Max:5",
+        "ILL-Loan-Renewal:International:2 weeks",
+        "ILL-Loan-Charge:International:Postage only",
+        "ILL-Loan-Delivery-method:Tracked system",
+        "ILL-Non-Circulation-items:Special collection, microfilm, microfiche, Reference collection, Journal issues, Newspapers, DVDs, Thesis, Reports of Grants-in-Aid for Scientific Research <KAKENHI>.",
+        "ILL-Copy-Charge:35 JPY for monochrome printing / 105 JPY for color printing per sheet & Postage",
+        "ILL-Copy-Delivery-method:via Airmail, Express Mail Service, Ariel",
+        "ILL-Note:Only the items held at the Central Library are available as a general rule.",
+        "ILL-Note: dissertation: LOAN: N/A",
+        "ILL-Note: dissertation: COPY: author's permission required to copy more than half of all pages",
+        "ILL-Note: Thesis: LOAN: N/A"
+      ]
+    }
+  ]
+}

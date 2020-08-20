@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001798.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001798#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001798.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 駒場図書館"
+        },
+        {
+          "@value": "トウキョウダイガク コマバトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大養"
+        },
+        {
+          "@value": "トウダイヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "駒場図",
+        "自図",
+        "アメ",
+        "其他",
+        "人",
+        "外",
+        "社",
+        "広域生命",
+        "広域広シ",
+        "駒博",
+        "超域文化",
+        "言語情報",
+        "地域文化",
+        "DESK",
+        "HSP",
+        "UTCMES"
+      ],
+      "cinii:memberid": "FA001798",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002109",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 駒場図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "153-8902",
+        "v:label": "東京都目黒区駒場3-8-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5454-6093(ILL担当)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5454-6105"
+        }
+      ],
+      "dc:description": [
+        "The University of Tokyo, Komaba Library",
+        "3-8-1Komaba, Meguro-ku, Tokyo 153-8902",
+        "URL:https://www.lib.u-tokyo.ac.jp/ja/library/komaba (ホームページ)",
+        "URL:https://www.lib.u-tokyo.ac.jp/ja/library/komaba/user-guide/calendar (開館日程)",
+        "URL:https://opac.dl.itc.u-tokyo.ac.jp/ (OPAC)",
+        "★大学等研究機関にご所属の方は、所属機関の図書館・図書室から、情報サービス担当にお問い合わせください",
+        "★特にご所属機関の無い一般の方は、駒場図書館ホームページの「図書館を使う-一般の方」URL:https://www.lib.u-tokyo.ac.jp/ja/library/komaba/user-guide/outside/public をご覧になり、事前に利用者サービス担当宛に利用申請をしてください",
+        "●受付時間:(大学・研究機関等の教職員および大学院生の場合)開館時間中 / (学部学生および一般の方場合) 月〜金曜日 9:00〜17:00 の閲覧",
+        "●閲覧対象者:教職員・大学院生・学生等 (閲覧・複写のみ)",
+        "●注記事項1: 駒場図書館所蔵資料は以下のように表示-CiNii Books「東京大学 駒場図書館-駒場図」、東大OPAC「駒場図」。一部出納制の資料もあるので、駒場図書館ホームページで確認のこと。配架表示がそのほかの研究室所蔵資料については、所属機関図書館から必ず事前に所在の確認及び利用の可否を問い合わせてください",
+        "●注意事項2:所蔵図書館名が「東京大学 駒場図書館-自図」「東京大学 駒場図書館-アメ」の資料の利用は以下に直接おたずねください",
+        "--「東京大学 駒場図書館-自図」大学院総合文化研究科自然科学図書室 TEL: 03-5454-6107 FAX: 03-5454-6089",
+        "--「東京大学 駒場図書館-アメ」大学院総合文化研究科附属アメリカ太平洋地域研究センター図書室 TEL: 03-5454-6161  FAX: 03-5454-4509",
+        "●注意事項3:車での来館は御遠慮ください",
+        "●持参書類: 大学・研究機関等の教職員・大学院生の場合は職員証・学生証 /  学部学生の場合は学生証と、事前申請に対して駒場図書館より返信した電子メールを印刷した紙、または、はがき",
+        "●複写:閉館10分前まで。複写申込書を記入の上、館内の複写機を利用のこと。両替機がないため小銭を用意してください",
+        "●館外貸出:不可",
+        "●制限事項:貴重書・劣化資料等は複写を制限することがあります",
+        "●開館時間および閉館日: 駒場図書館ホームページ開館日程URL:https://www.lib.u-tokyo.ac.jp/ja/library/komaba/user-guide/calendar で確認してください。",
+        "-----------------------------------",
+        "ILL-Staff: Mayuko Murao",
+        "ILL-Dept: Interlibrary Loan Section",
+        "ILL-Org: University of Tokyo, Komaba Library",
+        "ILL-Address: 3-8-1 Komaba, Meguro-ku, Tokyo, JAPAN",
+        "ILL-ZIP: 153-8902",
+        "ILL-Commun1: Tel: +81-3-5454-6100 / Fax: +81-3-5454-6105 / E-mail: cill@lib.c.u-tokyo.ac.jp",
+        "ILL-Commun2:OPAC:https://opac.dl.itc.u-tokyo.ac.jp/opac/opac_search/?lang=1",
+        "ILL-Commun2:Home-Page:https://www.lib.u-tokyo.ac.jp/ja/library/komaba",
+        "ILL-Sched:Closed:Dec.28-Jan.4",
+        "ILL-Accept:Foreign:KERIS",
+        "ILL-Bill:Foreign:KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period:Loan:N/A",
+        "ILL-Loan-Renew:Loan:N/A",
+        "ILL-Loan-Charge:Loan:N/A",
+        "ILL-Non-Circulation:Loan:N/A",
+        "ILL-Copy-Charge:Photocopy: 50 YEN (black and white)/90 YEN (color) per sheet, Postage required, Delivery method:via Airmail",
+        "ILL-Note:DIS:Photocopy:author's permission required"
+      ]
+    }
+  ]
+}

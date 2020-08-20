@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020544.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020544#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020544.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本赤十字豊田看護大学 学術情報センター・図書館"
+        },
+        {
+          "@value": "ニッポンセキジュウジトヨタカンゴダイガク ガクジュツジョウホウセンター トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日赤豊大"
+        },
+        {
+          "@value": "ニッセキトヨダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020544",
+      "cinii:organizationid": "KI012413",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本赤十字豊田看護大学 学術情報センター・図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "471-8565",
+        "v:label": "豊田市白山町七曲12-33"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0565-36-5119"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0565-37-7897"
+        }
+      ],
+      "dc:description": [
+        "Library,Japanese Red Cross Toyota College of Nursing",
+        "12-33 Nanamagari Hakusan-cho Toyota-shi 471-8565",
+        "URL:https://rctoyota.opac.jp/opac/top",
+        "URL:http://www.rctoyota.ac.jp/access/index.html",
+        "開館時間:9:00-22:00(土曜、長期休業期間等9:00-17:00)但し、学外の方の利用は19時までです。また学外の方は土曜日の利用はできません。当面の間、学外の方の利用をお断りしております。詳しくは大学ホームページをご覧下さい。",
+        "事前連絡:電話で問い合わせが望ましい",
+        "持参書類:所属機関図書館の紹介状、及び身分証明書",
+        "館外貸出:不可",
+        "休館日:日曜日、国民の祝日、日本赤十字社創立記念日(5月1日)、12月28日〜1月4日、及び整理休館日(詳しくはOPACのカレンダー参照)",
+        "8月11日(火)から9月26日(土)9:00-17:00の開館の予定です。8月15(土)は休館です。学外の方の利用は当面の間、受け付けておりません。ご了承願います。8月13日(木)～15日(土)ILL受付を休止いたします。"
+      ]
+    }
+  ]
+}

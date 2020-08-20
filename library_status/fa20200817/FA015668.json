@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015668.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015668#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015668.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福山平成大学 附属図書館"
+        },
+        {
+          "@value": "フクヤマヘイセイダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福山平成大"
+        },
+        {
+          "@value": "フクヤマヘイセイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015668",
+      "cinii:organizationid": "KI008449",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "福山平成大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "720-0001",
+        "v:label": "広島県福山市御幸町上岩成正戸117-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "084-972-5001(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "084-972-7771(図書館宛明記)"
+        }
+      ],
+      "dc:description": [
+        "Fukuyama Heisei University",
+        "117-1 Kamiiwanari, Miyuki-cho, Fukuyama-shi, Hiroshima 720-0001",
+        "URL:https://library.heisei-u.ac.jp/top/index.do?method=open (website)",
+        "E-Mail:library@heisei-u.ac.jp",
+        "電話番号 :084-972-5011(内線9102・9104)",
+        "受付時間 :8:30-17:00",
+        "注意事項 :免許証・保険証等,身分を証明するものをご持参ください。本学の定期試験期間は,利用をご遠慮いただくことがあります。",
+        "持参書類 :身分証明書",
+        "複写時間 :8:30-17:00",
+        "館外貸出 :可 (3冊以内,到着日より2週間以内)",
+        "制限事項 :",
+        "休館日 :土曜日(振替授業日は除く)・日曜日・国民の祝日に関する法律に規程する休日・本学開学記念日(5/15)・年末年始・図書の点検・その他の理由による臨時休館",
+        "2020/8/8  - 2020/8/10  及び 2020/8/13 - 2020/8/16 は盆休のためILL業務を停止いたします。"
+      ]
+    }
+  ]
+}

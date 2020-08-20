@@ -1,0 +1,122 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001379.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001379#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001379.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東北大学 附属図書館"
+        },
+        {
+          "@value": "トウホクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東北大"
+        },
+        {
+          "@value": "トウホクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館",
+        "教養",
+        "文学",
+        "日文研",
+        "教育",
+        "法学",
+        "経済",
+        "応情研",
+        "大計セ",
+        "サイクロ",
+        "情教セ",
+        "学生部",
+        "保健セ",
+        "川渡セ",
+        "農場",
+        "国連",
+        "OECD",
+        "EU"
+      ],
+      "cinii:memberid": "FA001379",
+      "cinii:organizationid": "KI000108",
+      "cinii:prefcode": "04",
+      "cinii:mextid": "001000",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "N",
+      "v:fn": "東北大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "980-8576",
+        "v:label": "仙台市青葉区川内27-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-795-5941"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-795-5949(G3)"
+        }
+      ],
+      "dc:description": [
+        "TOHOKU UNIVERSITY LIBRARY",
+        "URL: http://www.library.tohoku.ac.jp/(WEBSITE)",
+        "閲覧対象者 :教職員・学生(閲覧・複写)、学外(閲覧・複写。下記参照)",
+        "閲覧担当係 :閲覧係(メイン・カウンター022-795-5943)",
+        "閲覧事前連絡 :所属機関の図書館や最寄りの公共図書館を通じた事前連絡により資料を取置くことが可能(5冊まで)",
+        "閲覧持参書類 :必要なし",
+        "閲覧受付時間 :開館時間と同じ",
+        "複写受付時間 :8:30〜16:30(月〜金曜日)",
+        "閲覧館外貸出可否 :可(貸出証の発行を受けた方)",
+        "通常開館時間 :8:00〜22:00(土、日曜日、祝日 10:00〜22:00)",
+        "休館日 :年末年始 他",
+        "ILL-Dept:Reference Section",
+        "ILL-Org:Tohoku Univ. Main Library",
+        "ILL-Adress:27-1Kawauchi, Aoba-ku, Sendai Miyagi JAPAN",
+        "ILL-Zip:980-8576",
+        "ILL-Commun1:Tel:+81-22-795-5941/FAX:+81-22-795-5949/E-mail:ref@grp.tohoku.ac.jp",
+        "ILL-Commun2:OPAC:https://opac.library.tohoku.ac.jp/opac/opac_search/",
+        "ILL-Sched:Closed:Dec28-Jan4,Weekends,National Holidays",
+        "ILL-Accept: Korea: COPY only",
+        "ILL-Accept: International: LOAN Yes COPY Yes",
+        "ILL-Accept-method: Korea: KERIS=NII ILL linkage",
+        "ILL-Accept-method: International: Email: ref@grp.tohoku.ac.jp",
+        "ILL-Payment: Korea: KERIS=NII Fee Management Service only",
+        "ILL-Payment: International: International Postal Money Order, Advance payment, Yen-denominated",
+        "ILL-Loan-Delivery-method: Mail service",
+        "ILL-Copy-Delivery-method: Airmail",
+        "ILL-Copy-Note:If the material contains objects which needs color to be recognised, we will copy them with color.",
+        "ILL-Loan-Period: Korea: N/A",
+        "ILL-Loan-Period: International: Loan:6weeks per item; up to 2 volumes",
+        "ILL-Non-Circulation:Loan:mcfrm, mcrfch, ref, news, a-v, special collections, rare, serials, items not held at Main Library",
+        "ILL-Note:Only the items held at the Main Library are available,FCHE/FCHE:\"N/A\",MCRFRM/PHTOCPY:N/A,MCRFLM:N/A"
+      ]
+    }
+  ]
+}

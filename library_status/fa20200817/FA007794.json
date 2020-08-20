@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007794.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007794#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007794.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪学院大学 図書館"
+        },
+        {
+          "@value": "オオサカガクインダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪学大"
+        },
+        {
+          "@value": "ハンガクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007794",
+      "cinii:organizationid": "KI003569",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "564-8511",
+        "v:label": "大阪府吹田市岸部南2-36-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6381-8434"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6381-8448"
+        }
+      ],
+      "dc:description": [
+        "Osaka Gakuin University Library (OGU)",
+        "2-36-1,Kishibeminami,Suita-City,Osaka 564-8511",
+        "URL:https://www.osaka-gu.ac.jp/",
+        "来館利用担当:閲覧係",
+        "電話番号:06-6381-8434",
+        "受付時間:9:00〜20:00",
+        "注意事項:資料の所在等事前確認をしてください。",
+        "注意事項:車での来館はご遠慮ください。",
+        "持参書類:紹介状および身分証明書",
+        "複写時間:9:00〜20:00",
+        "館外貸出:否",
+        "制限事項:試験期間等混雑時は閲覧をご遠慮願います。",
+        "制限事項:貴重図書には閲覧を許可しないものがあります。",
+        "休館日:日曜日・国民の祝日・創立記念日(6/2)・夏季休暇・年末年始",
+        "注記 :開館日の詳細については、大阪学院大学HP内の図書館/開館スケジュール (https://www.osaka-gu.ac.jp/library/)を参照して下さい。"
+      ]
+    }
+  ]
+}

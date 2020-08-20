@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019793.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019793#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019793.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "尚絅学院大学 図書館"
+        },
+        {
+          "@value": "ショウケイガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "尚絅学院大"
+        },
+        {
+          "@value": "ショウケイガクインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019793",
+      "cinii:organizationid": "KI011862",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "尚絅学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "981-1295",
+        "v:label": "宮城県名取市ゆりが丘4-10-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-381-3440"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-381-3441"
+        }
+      ],
+      "dc:description": [
+        "尚絅学院大学 図書館",
+        "〒981-1295 宮城県名取市ゆりが丘4-10-1",
+        "TEL: 022-381-3440, FAX: 022-381-3441",
+        "ILL-Staff: ILL Staff",
+        "ILL-Dept: ILL Section",
+        "ILL-Org: Shokei Gakuin University Library",
+        "ILL-Adress: 4-10-1 Yurigaoka, Natori, Miyagi, JAPAN",
+        "ILL-ZIP: 981-1295",
+        "ILL-Commun1: FAX:+81-22-381-3441 / E-mail: library@shokei.ac.jp",
+        "ILL-Commun2: Home-Page: http://libwww.shokei.ac.jp/",
+        "ILL-Accept: Foreign: OCLC: JASKU",
+        "ILL-OCLC-Symbol: JASKU",
+        "ILL-Sched: Closed: Sundays, National Holidays, year ends and New Year holidays, and other holidays of University events",
+        "ILL-Bill: OCLC-IFM only",
+        "ILL-Loan-Period: N/A",
+        "ILL-Loan-Renew: N/A",
+        "ILL-Loan-Charge: N/A",
+        "ILL-Non-Circulation: N/A",
+        "ILL-Copy-Charge: Photocopy: 40 YEN per sheet / Delivery method: via airmail",
+        "ILL-Note: copy of rare books is not allowed"
+      ]
+    }
+  ]
+}

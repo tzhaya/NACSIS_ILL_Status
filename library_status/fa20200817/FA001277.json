@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001277.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001277#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001277.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道教育大学 附属図書館 釧路館"
+        },
+        {
+          "@value": "ホツカイドウキヨウイクダイガク フゾクトシヨカン クシロカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北教大釧"
+        },
+        {
+          "@value": "ホクキヨウダイセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA001277",
+      "cinii:organizationid": "KI000028",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000203",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道教育大学 附属図書館 釧路館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "085-8580",
+        "v:label": "釧路市城山1-15-55"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0154-44-3243(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0154-44-3244"
+        }
+      ],
+      "dc:description": [
+        "HOKKAIDO UNIVERSITY OF EDUCATION, KUSHIRO CAMPUS LIBRARY",
+        "1-15-55, SHIROYAMA, KUSHIRO-CITY, HOKKAIDO. 085-8580",
+        "URL:https://s-opac.sap.hokkyodai.ac.jp/library/",
+        "来館利用担当:情報サービス担当",
+        "電話番号:0154-44-3243 (問い合わせは平日9:00～17:00が望ましい)",
+        "開館時間:平日 8:30〜22:00 土日祝日 10:00〜17:00",
+        "持参書類:特にありません。貸出希望の方は,現住所の記載された身分証明(運転免許証,健康保険証等)をお持ちください。",
+        "注意事項:図書館内所蔵資料のみ利用できます。研究室所蔵資料は利用できません。",
+        "館外貸出可否:可(本人持参による返却が可能な場合)。ただし,参考図書,貴重図書,研究室所蔵資料,教科書・教師用指導書は貸出できません。",
+        "制限事項:学外者の貸出等について,別途条件があります。",
+        "休館日:年末年始,入学試験日。その他,行事や資料整理等による臨時休館があります(不定期)。"
+      ]
+    }
+  ]
+}

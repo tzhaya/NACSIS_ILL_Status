@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001845.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001845#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001845.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 農学生命科学図書館"
+        },
+        {
+          "@value": "トウキョウダイガク ノウガクセイメイカガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大農"
+        },
+        {
+          "@value": "トウダイノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "講座",
+        "施設",
+        "生セ",
+        "アセ"
+      ],
+      "cinii:memberid": "FA001845",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002107",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東京大学 農学生命科学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-8657",
+        "v:label": "東京都文京区弥生1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-5425"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-5428"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.lib.a.u-tokyo.ac.jp/ (Website)",
+        "URL:http://www.lib.a.u-tokyo.ac.jp/lib/about.html (map)",
+        "URL:http://opac.dl.itc.u-tokyo.ac.jp/ (OPAC)",
+        "利用担当:情報サービス担当",
+        "電話番号:03-5841-5427",
+        "通常期開館時間 :月-金 8:30-22:45(学外者の入館受付は20:00まで), 土 12:00-17:00(その他、短縮開館期等当館ホームページの開館日カレンダーで確認してください)",
+        "注意事項:所蔵情報の詳細は東大OPACにてご確認ください。",
+        "館外貸出:不可",
+        "休館日:冬季休業中・夏季休業中・春季休業中の土曜日,日曜日,国民の祝日・休日,年末年始(12/27〜1/5),館内整備日(毎月末日ただし休日または土曜日にあたる場合はその前日)など。(当館ホームページの開館日カレンダーで確認してください)",
+        "ILL-Org:University Library for Agricultural and Life Sciences, The University of Tokyo",
+        "ILL-Address:1-1-1 Yayoi, Bunkyo-ku, Tokyo, JAPAN",
+        "ILL-Zip:113-8657",
+        "ILL-Commun1:Tel:+81-3-5841-5425 /FAX:+81-3-5841-5428 / E-mail:aglib@lib.a.u-tokyo.ac.jp"
+      ]
+    }
+  ]
+}

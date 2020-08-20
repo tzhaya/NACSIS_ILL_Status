@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA009213.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA009213#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA009213.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立遺伝学研究所 図書室"
+        },
+        {
+          "@value": "コクリツイデンガクケンキュウショ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "遺伝研"
+        },
+        {
+          "@value": "イデンケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA009213",
+      "cinii:organizationid": "KI004652",
+      "cinii:prefcode": "22",
+      "cinii:mextid": "990500",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立遺伝学研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "411-8540",
+        "v:label": "静岡県三島市谷田1111"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "055-981-6718(直)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "055-981-6715"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Genetics",
+        "1111, Yata, Mishima-shi, Shizuoka 411-8540",
+        "URL:http://www.nig.ac.jp"
+      ]
+    }
+  ]
+}

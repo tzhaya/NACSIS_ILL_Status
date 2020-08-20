@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027204.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027204#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027204.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "(地独)総合病院 国保旭中央病院 図書室"
+        },
+        {
+          "@value": "(チドク)ソウゴウビョウイン コクホアサヒチュウオウビョウイン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "旭中央病"
+        },
+        {
+          "@value": "アサヒチュウオウビョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "病棟",
+        "書庫",
+        "図/第2"
+      ],
+      "cinii:memberid": "FA027204",
+      "cinii:organizationid": "KI015364",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "(地独)総合病院 国保旭中央病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "289-2511",
+        "v:label": "千葉県旭市イ-1326"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0479-63-8111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0479-60-1210"
+        }
+      ],
+      "dc:description": [
+        "Asahi General Hospital",
+        "I-1326, Asahi-Shi, Chiba, 289-2511, JAPAN",
+        "FAX:0479-60-1210(図書室直通)",
+        "※NACSIS-ILL非加盟館からの申込みも受付け致します",
+        "当院所蔵確認済みであれば、事前連絡は不要です",
+        "当院HP(下記リンク)ご参照の上、FAXをお送りください",
+        "利用案内:http://www.hospital.asahi.chiba.jp/lib/guide-ill.html",
+        "所蔵雑誌目録:http://sfx8.usaco.co.jp/hac/az"
+      ]
+    }
+  ]
+}

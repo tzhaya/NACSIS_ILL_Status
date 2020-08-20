@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012670.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012670#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012670.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "石巻専修大学 図書館"
+        },
+        {
+          "@value": "イシノマキセンシュウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "石巻専大"
+        },
+        {
+          "@value": "イシノマキセンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "開架",
+        "参考",
+        "文庫",
+        "書庫1",
+        "大型",
+        "貴重",
+        "MF",
+        "書庫2",
+        "書庫3",
+        "研究室",
+        "WEB",
+        "書庫4"
+      ],
+      "cinii:memberid": "FA012670",
+      "cinii:organizationid": "KI007253",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "石巻専修大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "986-8580",
+        "v:label": "宮城県石巻市南境新水戸1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0225-22-7718"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0225-22-7875"
+        }
+      ],
+      "dc:description": [
+        "<><><><><>利用案内<><><><><>",
+        "閲覧受付時間:9:00〜17:30",
+        "開館時間:9:00〜19:30",
+        "複写受付時間 :9:00〜17:30",
+        "館外貸出可否 :可",
+        "持参書類:身分証明書または資料利用依頼書",
+        "閲覧注記:資料の所在等、事前に確認してください。",
+        "休館日:土曜日・日曜日・祝日・創立記念日(9月16日)・入学式(4月4日)・卒業式(3月20日)",
+        "休館日:夏期一斉休暇(ホームページ開館カレンダー参照)",
+        "休館日:冬期休暇(ホームページ開館カレンダー参照)",
+        "休館日:蔵書点検(ホームページ開館カレンダー参照)",
+        "休館日:そのほかに臨時休館になることがあります。",
+        "受付休止期間:保守作業のための受付休止については、現在未定。",
+        "長期休暇中の開館時間:春期休暇(ホームページ開館カレンダー参照) 9:00〜17:30",
+        "長期休暇中の開館時間:夏期休暇(ホームページ開館カレンダー参照) 9:00〜15:00",
+        "Ishinomaki Senshu University Library",
+        "1,Shinmito,Minamisakai,Ishinomaki-shi,MIYAGI 986-8580 JAPAN",
+        "URL:http://www.senshu-u.ac.jp/ishinomaki/ilibif/lib.html",
+        "EMAIL:lib@isenshu-u.ac.jp",
+        "来館利用担当係:閲覧係"
+      ]
+    }
+  ]
+}

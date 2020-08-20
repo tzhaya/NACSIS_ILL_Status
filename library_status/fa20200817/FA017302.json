@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017302.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017302#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017302.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公立大学法人 三重県立看護大学 メディアコミュニケーションセンター 附属図書館"
+        },
+        {
+          "@value": "コウリツダイガクホウジン ミエケンリツカンゴダイガク メディアコミュニケーションセンター フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "三重看大"
+        },
+        {
+          "@value": "ミエカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017302",
+      "cinii:organizationid": "KI010010",
+      "cinii:prefcode": "24",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "公立大学法人 三重県立看護大学 メディアコミュニケーションセンター 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "514-0116",
+        "v:label": "三重県津市夢が丘1丁目1番地の1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "059-233-5608"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "059-233-5668"
+        }
+      ],
+      "dc:description": [
+        "Mie Prefectural College of Nursing Library",
+        "1-1-1,Yumegaoka, Tsu-shi, Mie 514-0116",
+        "URL:http://www.mcn.ac.jp/library/",
+        "電話番号: 059-233-5608",
+        "開館時間: 平日 9:00-21:00、土曜日 9:00-17:00、(本学学生の実習期間を除く長期休業中  9:00-17:00)",
+        "休館日:日曜日・祝祭日・館内整理日・開学記念日(5/8)・年末年始・特別整理期間 (その他必要に応じて臨時休館することがあります)",
+        "注意事項:その他詳細については当館ホームページにてご確認ください。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011532.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011532#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011532.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本生物科学研究所 小淵沢分室"
+        },
+        {
+          "@value": "ニホンセイブツカガクケンキユウシヨ コブチザワブンシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日生研小"
+        },
+        {
+          "@value": "ニツセイケンコ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011532",
+      "cinii:organizationid": "KI006658",
+      "cinii:prefcode": "19",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本生物科学研究所 小淵沢分室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "408-0041",
+        "v:label": "山梨県北巨摩郡小淵沢町上笹尾3331-114"
+      }
+    }
+  ]
+}

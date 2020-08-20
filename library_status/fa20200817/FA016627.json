@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016627.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016627#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016627.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東洋大学 附属図書館 板倉図書館"
+        },
+        {
+          "@value": "トウヨウダイガク フゾクトショカンイタクラトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東洋大板"
+        },
+        {
+          "@value": "トウヨウダイイタ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "開架",
+        "参考",
+        "書庫",
+        "逐刊",
+        "貴重書室",
+        "マイクロ",
+        "視聴覚",
+        "研国際地域",
+        "研生命科学"
+      ],
+      "cinii:memberid": "FA016627",
+      "cinii:organizationid": "KI002511",
+      "cinii:prefcode": "10",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東洋大学 附属図書館 板倉図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "374-0193",
+        "v:label": "群馬県邑楽郡板倉町泉野1-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0276-82-9061"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0276-82-9804"
+        }
+      ],
+      "dc:description": [
+        "Toyo University Itakura Library",
+        "1-1-1 Izumino,Itakura-machi,Oura-gun,Gunma 374-0193",
+        "https://www.toyo.ac.jp/library/top/",
+        "来館利用担当:閲覧担当",
+        "通常開館時間 :9:45〜19:00(土曜日〜16:00)(出納〜18:45)",
+        "利用時間:カウンターは閉館15分前まで",
+        "複写時間:閉館15分前まで",
+        "館外貸出:不可",
+        "開館日・開館時間はホームページ(https://www.toyo.ac.jp/library/top/)でご確認ください。",
+        "資料及び利用に関する問い合わせ・申込は所属する図書館・類縁機関(または最寄の公共図書館)を通してご連絡ください。",
+        "文献複写、資料貸借についても図書館を通してご連絡ください。",
+        "ILL-Org:Toyo University Itakura Library",
+        "ILL-Address:1-1-1 Izumino,Itakura-machi,Oura-gun,Gunma",
+        "ILL-ZIP:374-0193",
+        "ILL-Commun1:E-mail:mlitalib@toyo.jp"
+      ]
+    }
+  ]
+}

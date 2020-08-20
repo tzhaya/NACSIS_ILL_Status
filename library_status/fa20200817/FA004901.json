@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004901.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004901#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004901.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "麗澤大学 図書館"
+        },
+        {
+          "@value": "レイタクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "麗沢大"
+        },
+        {
+          "@value": "レイタク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "和B1",
+        "和1F",
+        "和2F",
+        "岩文",
+        "岩新",
+        "中新",
+        "講学",
+        "講新",
+        "丸善",
+        "参考",
+        "和雑",
+        "洋雑",
+        "中雑",
+        "紀要",
+        "新聞",
+        "AV",
+        "英研",
+        "独研",
+        "中研",
+        "日研",
+        "比文",
+        "図",
+        "高"
+      ],
+      "cinii:memberid": "FA004901",
+      "cinii:organizationid": "KI00187X",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "麗澤大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "2778686",
+        "v:label": "千葉県柏市光ケ丘2-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-7173-3683"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-7173-3689"
+        }
+      ],
+      "dc:description": [
+        "Reitaku University Library",
+        "2-1-1, Hikarigaoka, Kashiwa-shi, Chiba-ken 277-8686",
+        "URL:https://library.reitaku-u.ac.jp/library/(website)",
+        "URL:https://library.reitaku-u.ac.jp/library/?q=ja/information_03(guide)"
+      ]
+    }
+  ]
+}

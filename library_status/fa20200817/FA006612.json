@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006612.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006612#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006612.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "星薬科大学 図書館"
+        },
+        {
+          "@value": "ホシヤッカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "星薬大"
+        },
+        {
+          "@value": "ホシヤクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006612",
+      "cinii:organizationid": "KI002657",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "星薬科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "142-8501",
+        "v:label": "東京都品川区荏原2-4-41"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5498-5827"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5702-3907"
+        }
+      ],
+      "dc:description": [
+        "Library,Hoshi University",
+        "2-4-41,Ebara,Shinagawa-ku,Tokyo 142-8501",
+        "URL:https://library.hoshi.ac.jp/ (website)",
+        "URL:http://www.hoshi.ac.jp/site/gaiyou/map.php (map)",
+        "----------------来館利用について----------------",
+        "来館利用担当:閲覧係",
+        "Tel: 03-5498-5827",
+        "Fax: 03-5702-3907",
+        "閲覧事前連絡: 必ず電話にて事前連絡のこと",
+        "閲覧受付時間: 9:00〜16:30(土曜日 9:00〜11:30)",
+        "複写受付時間: 9:00〜16:30(土曜日 9:00〜11:30)",
+        "通常開館時間: 9:00〜21:30(土曜日 9:00〜12:00)",
+        "休業中開館時間: 9:00〜16:30(土曜日休館)",
+        "休館日: 日曜日,国民の祝日,大学が定めた休日・休暇"
+      ]
+    }
+  ]
+}

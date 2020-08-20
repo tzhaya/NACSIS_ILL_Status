@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008709.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008709#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008709.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東亜大学 附属図書館"
+        },
+        {
+          "@value": "トウアダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東亜大"
+        },
+        {
+          "@value": "トウアダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "学部",
+        "大学院"
+      ],
+      "cinii:memberid": "FA008709",
+      "cinii:organizationid": "KI004233",
+      "cinii:prefcode": "35",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東亜大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "751-8503",
+        "v:label": "山口県下関市一の宮学園町2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "083-257-5111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "083-257-5195"
+        }
+      ],
+      "dc:description": [
+        "Library of University of East Asia",
+        "2-1, Ichinomiyagakuen-cho, Shimonoseki, Yamaguchi 751-8503",
+        "URL:https://www.toua-u.ac.jp/東亜大学附属図書館",
+        "来館利用担当:来館利用担当",
+        "電話番号:083-257-5111",
+        "受付時間:9:00〜17:00",
+        "注意事項:資料の所在、開館日等、事前に確認して下さい。2008年4月から市民への図書貸出をはじめました。",
+        "持参書類:資料利用依頼書(身分証明書携行)",
+        "通常期開館時間:月〜金曜日:9:00〜20:00",
+        "館外貸出:可",
+        "制限事項:一部図書は閲覧を許可しないものがある。",
+        "休館日:日曜日、祝祭日、第3土曜日、8/9〜8/19(夏季休暇)、11/14(創立記念日)、12/27〜1/6(年末年始休暇)、その他、詳しくは図書館ホームページの開館カレンダーで確認して下さい。→https://sv1.opac.jp/aop/cgi-bin/calendar.cgi?LibId=178qbw7"
+      ]
+    }
+  ]
+}

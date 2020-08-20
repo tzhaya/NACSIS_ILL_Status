@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020001.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020001#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020001.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪工業大学 図書館 枚方分館"
+        },
+        {
+          "@value": "オオサカコウギョウダイガク トショカン ヒラカタブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪工大分館"
+        },
+        {
+          "@value": "ハンコウダイブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "情報"
+      ],
+      "cinii:memberid": "FA020001",
+      "cinii:organizationid": "KI003605",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大阪工業大学 図書館 枚方分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "573-0196",
+        "v:label": "大阪府枚方市北山1-79-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-866-5312"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-866-8312"
+        }
+      ],
+      "dc:description": [
+        "持参書類 : 「資料閲覧依頼状」および「身分が証明できるもの(学生証等)」",
+        "Osaka Institute of Technology Library",
+        "1-79-1, Kitayama, Hirakata-shi, Osaka 573-0196",
+        "利用担当 : 奉仕係",
+        "電話番号 : 072-866-5312",
+        "開館時間 : 平日9:00〜19:00 (土曜日9:00〜17:00)",
+        "夏期休業中開館時間 : 10:00〜17:00",
+        "春期休業中開館時間 : 9:00〜17:00",
+        "休 館 日 : 日曜日・国民の祝日・夏期休業中の土曜日および8月中旬(1週間程度)・創立記念日(10/30)・年末年始",
+        "そ の 他 : 休館日・開館時間の詳細はホームページを参照ください",
+        "制限事項 : 研究室所蔵資料には閲覧できないものもあります",
+        "一般利用 : 近隣住民(20歳以上の大阪府下にお住まいの方および京都府京田辺市・八幡市にお住まいの方)の利用については『利用登録証』発行の為、印鑑・顔写真2枚・本人確認書類(運転免許証・健康保険証・住民票等) および初年度のみ登録料1,000円が必要",
+        "URL:http://www.oit.ac.jp/japanese/toshokan/index.html",
+        "e-mail:OIT.Tosho08@josho.ac.jp"
+      ]
+    }
+  ]
+}

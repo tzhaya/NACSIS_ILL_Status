@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001346.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001346#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001346.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "弘前大学 附属図書館"
+        },
+        {
+          "@value": "ヒロサキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "弘大"
+        },
+        {
+          "@value": "ヒロダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館"
+      ],
+      "cinii:memberid": "FA001346",
+      "cinii:organizationid": "KI000083",
+      "cinii:prefcode": "02",
+      "cinii:mextid": "000800",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "弘前大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "036-8560",
+        "v:label": "青森県弘前市文京町1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0172-39-3163(DI)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "0172-36-2111(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0172-39-3171"
+        }
+      ],
+      "dc:description": [
+        "Hirosaki University Library",
+        "1 Bunkyo-cho, Hirosaki-shi, Aomori 036-8560",
+        "URL:http://www.ul.hirosaki-u.ac.jp/",
+        "閲覧担当係:附属図書館情報サービスグループ情報サービス担当",
+        "閲覧対象者:教職員・大学院生・学生・市民(閲覧・複写・貸出)",
+        "閲覧持参書類:身分証明書または学生証",
+        "閲覧受付時間:平日 9:00-22:00 土・日10:00-17:00 祝日休館(ただし長期休業期は平日 9:00-17:00 土・日・祝 休館)",
+        "複写受付時間:9:00-16:30 (土・日・祝日は不可)",
+        "館外貸出:可(利用登録後)",
+        "休館日:休業期の土・日、国民の祝日、年末年始(12/28-1/4)、夏季一斉休業期(お盆)",
+        "ILL-Org:Hirosaki University Library",
+        "ILL-Address:1, Bunkyo-cho, Hirosaki, Aomori, JAPAN",
+        "ILL-Zip:036-8560",
+        "ILL-Commun1:Tel:+81-172-39-3163 / Fax:+81-172-39-3171 / E-mail:jm3163@hirosaki-u.ac.jp (not for copy request)",
+        "ILL-Commun2:OPAC:http://opc.ul.hirosaki-u.ac.jp/opc/ Home-Page:http://www.ul.hirosaki-u.ac.jp /",
+        "ILL-Sched:Closed:Dec. 28-Jan. 4",
+        "ILL-Copy-Charge:35 JPY(monochrome)/70 JPY(color) per sheet & Postage",
+        "ILL-Note:Will supply only photocopies."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA025162.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA025162#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA025162.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "常葉大学 附属図書館(水落)"
+        },
+        {
+          "@value": "トコハダイガク フゾクトショカン(ミズオチ)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "常葉大水落"
+        },
+        {
+          "@value": "トコハダイミズオチ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA025162",
+      "cinii:organizationid": "KI003106",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "常葉大学 附属図書館(水落)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "420-0831",
+        "v:label": "静岡県静岡市葵区水落町1-30"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "054-297-3221"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "054-297-3223"
+        }
+      ],
+      "dc:description": [
+        "Tokoha University Library(Mizuochi)",
+        "Mizuochi 1-30 Aoi-ku Shizuoka-shi shizuoka 420-0831 JAPAN",
+        "URL:http://www.tokoha-u.ac.jp/library/index.html(website)",
+        "来館利用担当 :相互利用係",
+        "電話番号: 054-297-3221",
+        "受付時間: 平日9:00〜20:30、土曜日9:00～14:30",
+        "注意事項: 開館日の確認をしてください。学外者の方は館外貸出はできません。",
+        "注意事項: お車でのご来館はご遠慮ください。",
+        "持参書類: 身分証(運転免許証、所属する大学の身分証等)または紹介状",
+        "複写時間: 平日9:00〜20:30、土曜日9:00～14:30",
+        "館外貸出: 不可",
+        "制限事項:",
+        "休館日: 日曜日・祝日、全学的行事挙行日、年末年始、その他臨時休館日"
+      ]
+    }
+  ]
+}

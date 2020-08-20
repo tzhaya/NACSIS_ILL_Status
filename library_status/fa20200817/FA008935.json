@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008935.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008935#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008935.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福岡工業大学 附属図書館"
+        },
+        {
+          "@value": "フクオカコウギョウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福岡工大"
+        },
+        {
+          "@value": "フクオカコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書館"
+      ],
+      "cinii:memberid": "FA008935",
+      "cinii:organizationid": "KI004426",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "福岡工業大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "811-0295",
+        "v:label": "福岡県福岡市東区和白東3-30-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-606-0691"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-606-7389"
+        }
+      ],
+      "dc:description": [
+        "Fukuoka Institute of Technology",
+        "3-30-1, Wajirohigashi, Higashiku, Fukuoka 811-0295",
+        "URL:http://www.lib.fit.ac.jp/",
+        "来館利用担当:閲覧係",
+        "電話番号:092-606-0691",
+        "受付時間:9:00-20:00",
+        "注意事項:資料の所在等事前確認が望ましい。開館日、貸出等については、ホームページ参照のこと",
+        "持参書類:身分を証明するもの",
+        "複写時間:開館時間中",
+        "館外貸出:利用者カード交付者のみ可",
+        "制限事項:雑誌 AV資料の貸出は不可",
+        "休館日:日曜日、祝祭日、夏季休業、年末年始休業、開学記念日 (11/5)、その他館長が特別に認めた日(ホームページ参照)"
+      ]
+    }
+  ]
+}

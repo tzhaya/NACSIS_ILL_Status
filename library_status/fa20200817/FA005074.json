@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005074.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005074#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005074.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北里大学 教養図書館"
+        },
+        {
+          "@value": "キタサトダイガク キョウヨウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北里養"
+        },
+        {
+          "@value": "キタサトヨウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005074",
+      "cinii:organizationid": "KI00195X",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北里大学 教養図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "2520373",
+        "v:label": "神奈川県相模原市南区北里1-15-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-778-8005"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-778-9234"
+        }
+      ],
+      "dc:description": [
+        "Library of Liberal Arts and Sciences Kitasato University",
+        "1-15-1, Kitasato, Minami-ku, Sagamihara-shi, Kanagawa 252-0373 JAPAN",
+        "電話番号:042-778-8005",
+        "URL:https://www.kitasato-u.ac.jp/clas/jimu/library/kyouyoutosyokann/libindex.html",
+        "閲覧(来館利用)担当係:閲覧係",
+        "閲覧対象者:大学・研究機関所属者",
+        "閲覧の際は必ず電話にて事前連絡のこと(別置資料は閲覧不可)",
+        "閲覧持参書類:共通閲覧証, 紹介状(身分証明書携行)",
+        "閲覧受付時間:9:00〜18:30(土曜日〜12:30)",
+        "複写受付時間:9:00〜18:00(土曜日〜12:00)",
+        "通常開館時間:9:00〜19:00(土曜日〜13:00)",
+        "休業中開館時間:9:00〜17:00(土曜日〜13:00)",
+        "休館日:日曜日・第2,4土曜日・祝日・本学の記念日・蔵書点検・夏期休暇・年末年始"
+      ]
+    }
+  ]
+}

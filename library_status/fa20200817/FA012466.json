@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012466.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012466#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012466.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "近畿大学 農学部図書館"
+        },
+        {
+          "@value": "キンキダイガク ノウガクブトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "近大農"
+        },
+        {
+          "@value": "キンダイノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "食研",
+        "農図",
+        "農総研"
+      ],
+      "cinii:memberid": "FA012466",
+      "cinii:organizationid": "KI00373X",
+      "cinii:prefcode": "29",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "近畿大学 農学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "631-8505",
+        "v:label": "奈良県奈良市中町3327-204"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0742-43-1639"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0742-43-5161"
+        }
+      ],
+      "dc:description": [
+        "LIBRARY, FACULTY OF AGRICULTURE, KINDAI UNIVERSITY",
+        "3327-204,NAKAMACHI,NARA-CITY,NARA 631-8505",
+        "URL:https://www.kindai.ac.jp/agriculture/",
+        "受付時間:9:00〜18:30(土曜日〜16:30)",
+        "注意事項:当館は一般の方に公開をしておりません。大学・研究機関等の教職員・院生・学生の方の利用は、所属機関の図書館を通じてお申込みください。(複写・閲覧とも)",
+        "持参書類:資料利用依頼書・身分証明書",
+        "複写時間:9:00〜18:30(土曜日〜16:30)",
+        "館外貸出:不可",
+        "休館日:日曜・祝祭日、夏季・冬季休業中の一定期間、創立記念日(11/5)、その他(開館情報は当館ホームページでご確認いただけます。)",
+        "夏期休暇に伴うILL停止のお知らせ;夏期休暇に伴い8月7日(金)～8月16日(日)の期間ILLサービスを停止いたします。また、8月6日(木)午後以降の依頼受付分については8月17日(月)以降の対応となります。"
+      ]
+    }
+  ]
+}

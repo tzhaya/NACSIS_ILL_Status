@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010041.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010041#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010041.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "農林水産省 農林水産政策研究所"
+        },
+        {
+          "@value": "ノウリンスイサンショウ ノウリンスイサンセイサクケンキュウショ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "政策研"
+        },
+        {
+          "@value": "セイサクケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010041",
+      "cinii:organizationid": "KI005360",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "農林水産省 農林水産政策研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "100-0013",
+        "v:label": "東京都千代田区霞が関3-1-1 中央合同庁舎第4号館"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-6737-9014"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-6737-9600"
+        }
+      ],
+      "dc:description": [
+        "Policy Research Institute, Ministry of Agriculture, Forestry and Fisheries",
+        "Central Government Building No.4 3-1-1, Kasumigaseki, Chiyoda-ku, Tokyo, 100-0013",
+        "URL:ref-primaff@ml.affrc.go.jp",
+        "URL:http://www.maff.go.jp/primaff/ (ホームページ)",
+        "来館利用担当:企画広報室",
+        "電話番号:03-6737-9014",
+        "受付時間:10:00〜12:00 , 13:00〜16:30",
+        "注意事項:受付カウンターで入館手続きを行ってください",
+        "持参書類:無",
+        "複写時間:不可",
+        "館外貸出:不可",
+        "制限事項:貴重図書の一部閲覧制限あり",
+        "休館日:土、日、国民の休日及び年末年始 (12月28日〜1月4日)"
+      ]
+    }
+  ]
+}

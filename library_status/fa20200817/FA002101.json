@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002101.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002101#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002101.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "長岡技術科学大学 附属図書館"
+        },
+        {
+          "@value": "ナガオカギジュツカガクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "長岡技大"
+        },
+        {
+          "@value": "ナガオカギダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA002101",
+      "cinii:organizationid": "KI000367",
+      "cinii:prefcode": "15",
+      "cinii:mextid": "008400",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "長岡技術科学大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "940-2188",
+        "v:label": "新潟県長岡市上富岡町1603-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0258-47-9262"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0258-47-9060"
+        }
+      ],
+      "dc:description": [
+        "Nagaoka University of Technology Library",
+        "1603-1 Kami-tomioka, Nagaoka-shi, Niigata 940-2188",
+        "URL:http://lib.nagaokaut.ac.jp/",
+        "OPACURL:https://libopac3-c.nagaokaut.ac.jp/opac/opac_openurl?kscode=000&ncid=<NCID>",
+        "来館利用担当:図書情報係",
+        "電話番号:0258-47-9264",
+        "受付時間:平日9:00-21:00 土日 9:00-17:00",
+        "持参書類:身分証明書等",
+        "館外貸出:可(18歳以上の者、または高等専門学校の学生に限ります)",
+        "制限事項:雑誌、視聴覚資料、貴重図書、参考図書等、貸出できないものがあります",
+        "休館日:国民の祝日(振替休日を含む)、年末年始、8月・3月の土日、大学入試センター試験日. 臨時に休館日や開館時間の変更を行う場合は、掲示やホームページでお知らせします",
+        "ILL-Staff:Ayako HORIE,Akane SHINOHARA, Yuriko FUKASAWA",
+        "ILL-Dept:Library",
+        "ILL-Org:Nagaoka Universtiy of Technology Library",
+        "ILL-Address:1603-1 Kamitomioka, Nagaoka, Niigata, JAPAN",
+        "ILL-Zip:940-2188",
+        "ILL-Contact1:E-mail:lib-service@jcom.nagaokaut.ac.jp",
+        "ILL-Contact2:Online catalogue:https://libopac3u.nagaokaut.ac.jp/opac/opac_search/?kscode=000",
+        "ILL-Contact3: Website:http:/lib.nagaokaut.ac.jp/",
+        "ILL-Calender:Closed:Dec 28-Jan 4,Aug 12-Aug 16",
+        "ILL-Accept:International:LOAN:Yes",
+        "ILL-Accept:International:COPY:Yes",
+        "ILL-Accept-method:OCLC:WSILL:YL@",
+        "ILL-Accept-method:Korea:KERIS=NII ILL Linkage(COPY only)",
+        "ILL-Accept-method:International:E-mail",
+        "ILL-Payment-method:International:IFLA Voucher:Yes",
+        "ILL-Payment-method:International:KERIS=NII Fee Management service:Yes",
+        "ILL-Loan-Period:6 weeks",
+        "ILL-Loan-Item-Max:5",
+        "ILL-Loan-Renewal:N/A",
+        "ILL-Loan-Charge:Postage only",
+        "ILL-Loan-Delivery-method:Airmail(registered mail)",
+        "ILL-Non-Circulation-items:Special collection,Thesis,Reference collection,Journal issues,newspaper,DVDs",
+        "ILL-Copy-Charge:50JPY per sheet(monochrome),80JPY per sheet(colour) and Postage",
+        "ILL-Copy-Delivery-method:Airmail(registered mail)",
+        "ILL-Note:Thesis:COPY:Need the author's permission."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005405.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005405#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005405.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "昭和女子大学 図書館"
+        },
+        {
+          "@value": "ショウワジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "昭女大"
+        },
+        {
+          "@value": "ショウジョダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "近文"
+      ],
+      "cinii:memberid": "FA005405",
+      "cinii:organizationid": "KI002114",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "昭和女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "154-8533",
+        "v:label": "東京都世田谷区太子堂1-7-57"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3411-5430"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3411-5404"
+        }
+      ],
+      "dc:description": [
+        "Showa Women's University Library",
+        "1-7-57, Taishido, Setagaya-ku, Tokyo, Japan 154-8533",
+        "URL:https://library.swu.ac.jp",
+        "利用担当:管理課",
+        "電話番号:03-3411-5430 (直通) FAX番号:03-3411-5404",
+        "来館事前連絡:必ずFAXにて問い合わせ",
+        "来館持参書類:館長が発行する紹介状および身分証明証",
+        "来館受付時間:9:00〜16:30(平日開館日のみ。ただし大学試験期間を除く)",
+        "来館複写受付時間:9:00〜16:00",
+        "館外貸出:不可",
+        "休館日:日曜日、祝日、創立記念日(5月2日)、入学試験日、長期休暇中の一定期間、その他臨時",
+        "制限事項:近代文庫の資料の利用は院生以上の研究者に限る。なお、近代文庫資料の複写は当館のみ所蔵の",
+        "制限事項:マイクロ化した資料の原本利用は不可",
+        "制限事項:私立大学の紀要等のご利用は、可能な限り発行元にお願いいたします",
+        "制限事項:公立図書館からの個人[一般利用者]の利用依頼資料が本学出版物以外で、公共図書館や公共機関、国立国会図書館のいずれかに所蔵がある場合は、利用は不可。ただし、女性による女性文庫資料の利用依頼は、劣化資料を除いて他館に所蔵がある場合でも可能"
+      ]
+    }
+  ]
+}

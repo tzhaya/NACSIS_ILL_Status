@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019545.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019545#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019545.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "薫英学園 図書館"
+        },
+        {
+          "@value": "クンエイガクエン トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "薫英学園"
+        },
+        {
+          "@value": "クンエイガクエン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA019545",
+      "cinii:organizationid": "KI011716",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "薫英学園 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "566-8501",
+        "v:label": "大阪府摂津市正雀1-4-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6105-2244"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6105-2244"
+        }
+      ],
+      "dc:description": [
+        "Kun-ei Gakuen",
+        "1-4-1, Shojaku, Settsu-shi, Osaka 566-8501",
+        "◆文献複写",
+        "複写方法:電子複写(白黒・カラー50円/1枚)",
+        "支払方法:切手(少額)",
+        "文献複写の申込はFAXにて受付ています。",
+        "◆図書貸借",
+        "貸出期間:30日(発送日及び返却日を含む。延長更新については、予約資料でないことと、利用頻度が高いものでないことを確認の上、更新を受付ける。)",
+        "支払方法:切手"
+      ]
+    }
+  ]
+}

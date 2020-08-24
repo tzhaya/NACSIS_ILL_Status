@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005675.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005675#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005675.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "中央大学 中央図書館"
+        },
+        {
+          "@value": "チユウオウダイガク チユウオウトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中大"
+        },
+        {
+          "@value": "チユウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "教育",
+        "心理",
+        "社情",
+        "政策",
+        "院",
+        "文総",
+        "国際",
+        "日史",
+        "貴重",
+        "国文",
+        "中国言語",
+        "英文",
+        "独文",
+        "仏文",
+        "東史",
+        "西史",
+        "哲学",
+        "社会"
+      ],
+      "cinii:memberid": "FA005675",
+      "cinii:organizationid": "KI002293",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "中央大学 中央図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "192-0393",
+        "v:label": "東京都八王子市東中野742-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-674-2522"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-674-2514"
+        }
+      ],
+      "dc:description": [
+        "Chuo University Library",
+        "742-1 Higashinakano, Hachiojishi, Tokyo, 192-0393",
+        "URL:http://www.chuo-u.ac.jp/library/",
+        "来館利用担当:レファレンス",
+        "受付時間:月-金:9:30-11:30、13:00-16:30、土:9:30-11:30",
+        "注意事項:当館は一般公開しておりません。当館所蔵資料の利用をご希望の場合は、所属の大学図書館もしくは公共図書館を通してFAXにて事前確認してください。",
+        "注意事項:個人の方からのお問い合わせにはお答えできませんのでご了承ください。",
+        "注意事項:車での来館はご遠慮ください。",
+        "持参書類:紹介状(図書館長の公印のあるもの)および身分証明書",
+        "複写時間:月-金:9:30-11:30、13:00-16:30、土:9:30-11:30",
+        "館外貸出:不可",
+        "制限事項:学外倉庫に保管中の図書等は閲覧できません。",
+        "休館日:日曜日、国民の祝日、年末年始、入試期間、5-6、9-11月の最終木曜日、3月の第4木曜日"
+      ]
+    }
+  ]
+}

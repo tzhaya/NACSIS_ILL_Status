@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010278.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010278#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010278.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 水産研究・教育機構 廿日市庁舎図書室"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン スイサンケンキュウ・キョウイクキコウ ハツカイチチョウシャトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "水産機構廿日市"
+        },
+        {
+          "@value": "スイサンキコウハツカイチ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA010278",
+      "cinii:organizationid": "KI005553",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 水産研究・教育機構 廿日市庁舎図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "739-0452",
+        "v:label": "広島県廿日市市丸石2-17-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0829-55-0691"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0829-54-1216"
+        }
+      ]
+    }
+  ]
+}

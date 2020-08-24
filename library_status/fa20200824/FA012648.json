@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012648.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012648#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012648.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "流通科学大学 附属図書館"
+        },
+        {
+          "@value": "リユウツウカガクダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "流科大"
+        },
+        {
+          "@value": "リユウカダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "雑誌所蔵コード"
+      ],
+      "cinii:memberid": "FA012648",
+      "cinii:organizationid": "KI007220",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "流通科学大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "651-2188",
+        "v:label": "兵庫県神戸市西区学園西町3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-794-2130"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-797-2261"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org: library of University of Marketing and Distribution Sciences",
+        "ILL-Address: 3-1, Gakuen-Nishimachi, Nishiku, Kobe, Hyogo 651-2188",
+        "URL:http://www.umds.ac.jp/library/(website)",
+        "電話番号 :078-794-2130",
+        "開館時間 :月-金:8:30〜20:00 土・日:9:00〜18:00",
+        "注意事項 :春季・夏季・冬季休業中の開館時間:9:00〜17:00",
+        "注意事項 :所蔵照会は、OPACを利用してください。個人から直接のお問い合わせは受付できません。詳細については、所属の大学図書館か公共図書館を通じて事前照会願います。",
+        "OPACURL:http://www.umds.ac.jp/facility?id=<NCID>  (web-opac)",
+        "持参書類 :「紹介状」および「身分証明書」",
+        "複写時間 :月-金:9:00〜20:00 土・日:9:00〜18:00",
+        "館外貸出 :不可",
+        "休館日 :年末年始, 大学が定める休日, 入学試験当日及び準備日",
+        "受付については、休館日、担当者不在等、対応できない場合、一時的に受付を停止することがありますのでご了承下さい。"
+      ]
+    }
+  ]
+}

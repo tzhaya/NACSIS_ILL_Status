@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006022.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006022#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006022.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京女子医科大学 図書館"
+        },
+        {
+          "@value": "トウキョウジョシイカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東女医大"
+        },
+        {
+          "@value": "トウジョイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館",
+        "東セ",
+        "看河田",
+        "看大東",
+        "看専"
+      ],
+      "cinii:memberid": "FA006022",
+      "cinii:organizationid": "KI00241X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "東京女子医科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "162-8666",
+        "v:label": "東京都新宿区河田町8-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3353-8112(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5269-7402"
+        }
+      ],
+      "dc:description": [
+        "来館担当: 閲覧係",
+        "受付時間: 9:00〜19:00(土曜日〜16:30)",
+        "事前連絡: 必ずFAXか電話で問い合わせし、日時も内諾を得ておくこと。",
+        "持参書類: 所属機関または公共図書館発行の紹介状と身分証明書",
+        "休館日: 日曜日・国民の祝日・年末年始(12/30〜1/4)・本学創立記念日(12/5)・蔵書点検期間(8月) その他必要がある場合は臨時閉館することがあります",
+        "注意事項: 別置資料あり。要事前連絡。",
+        "注意事項: 利用申込は本館で受け付けます。",
+        "Tokyo Women's Medical University Library",
+        "8-1,Kawada-Cho, Shinjuku-ku, Tokyo 162-8666",
+        "URL:http://www.twmu.ac.jp/library"
+      ]
+    }
+  ]
+}

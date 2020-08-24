@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001583.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001583#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001583.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山形大学 農学部図書館"
+        },
+        {
+          "@value": "ヤマガタダイガク ノウガクブトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "山形大農"
+        },
+        {
+          "@value": "ヤマガタダイノウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA001583",
+      "cinii:organizationid": "KI000130",
+      "cinii:prefcode": "06",
+      "cinii:mextid": "001303",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "山形大学 農学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "997-8555",
+        "v:label": "鶴岡市若葉町1-23"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0235-28-2810"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0235-28-2815"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org: Yamagata University Agricultural Library",
+        "ILL-Address: 1-23,WAKABA-MACHI,TSURUOKA-SHI,YAMAGATA,JAPAN 997-8555",
+        "ILL-ZIP: 997-8555",
+        "ILL-Commun1: Tel:+81-*********** / FAX:+81-*********** / E-mail:notosyo@jm.kj.yamagata-u.ac.jp",
+        "URL:http://www.lib.yamagata-u.ac.jp/yatop/",
+        "来館利用担当:図書担当",
+        "電話番号:0235-28-2810",
+        "受付時間:(通常)平日:9:00〜21:00, 土・日・祝日:10:00〜17:00  (休業中)平日9:00〜17:00",
+        "注意事項:事前に電話(文書)連絡が望ましい。",
+        "持参書類:身分を証明できるもの",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可(山形県内在住・在勤の方は可)",
+        "制限事項:研究室備付資料は利用不可",
+        "休館日:休業中の土・日曜日,祝日及び年末年始・臨時の休館日"
+      ]
+    }
+  ]
+}

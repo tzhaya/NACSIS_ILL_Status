@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA02289X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA02289X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA02289X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "九州大学 理系図書館"
+        },
+        {
+          "@value": "キュウシュウダイガク リケイトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "九大理系"
+        },
+        {
+          "@value": "キュウダイリケイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02289X",
+      "cinii:organizationid": "KI000822",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "九州大学 理系図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "819-0395",
+        "v:label": "福岡市西区元岡744番地 (ウエストゾーン)"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-802-2454"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-802-2455"
+        }
+      ],
+      "dc:description": [
+        "Science and Technology Library, Kyushu University",
+        "744, motooka, Nishi-ku, Fukoka-city 819-0395",
+        "http://www.lib.kyushu-u.ac.jp/(website)",
+        "https://www.lib.kyushu-u.ac.jp/ja/libraries/scitech/locations",
+        "来館利用担当:理系資料サービス係",
+        "電話番号:092-802-2453",
+        "FAX:092-802-2455",
+        "貴重資料については事前に閲覧の申込をして下さい。",
+        "複写時間:平日9:00-20:45、土・日曜、祝日 10:00-17:45",
+        "持参書類:学生証、身分証明証",
+        "ILL-Org:Science and Technology Library, Kyushu University",
+        "ILL-Adress:744, Motooka, Nishi-ku, Fukuoka-city, Fukuoka, Japan",
+        "ILL-Zip:819-0395",
+        "ILL-Commun1:tel:+81-92-802-2454 / Fax:+81-92-802-2455 /E-mail:titosanko@jimu.kyushu-u.ac.jp"
+      ]
+    }
+  ]
+}

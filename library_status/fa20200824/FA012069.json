@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012069.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012069#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012069.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 先端科学技術研究センター 図書室"
+        },
+        {
+          "@value": "トウキョウダイガク センタンカガクギジュツケンキュウセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大先端"
+        },
+        {
+          "@value": "トウダイセンタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書室",
+        "研究部"
+      ],
+      "cinii:memberid": "FA012069",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002127",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京大学 先端科学技術研究センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "153-8904",
+        "v:label": "東京都目黒区駒場4-6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5452-5388"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5452-5401"
+        }
+      ],
+      "dc:description": [
+        "Research Center for Advanced Science and Technology, the University of Tokyo",
+        "4-6-1 Komaba, Meguro-ku, Tokyo 153-8904",
+        "URL:http://www.rcast.u-tokyo.ac.jp/about/library/index_ja.html(website)",
+        "URL:http://www.rcast.u-tokyo.ac.jp/ja/maps/index.html (map)",
+        "電話番号: 03-5452-5388",
+        "開館時間: 平日9:00-12:00, 13:00-17:00",
+        "注意事項: 貸出中等で資料が利用できない場合もありますので、事前に資料を特定し所蔵照会を行ってください。",
+        "注意事項: 図書室に設置されているのは、公費用複写機のみです。複写を希望する場合は、ご所属機関の図書館・室を通してお申し込みください。",
+        "持参書類: 特になし。カウンターへお立ち寄りください。",
+        "閉室日: 土、日、祝日、年末年始、夏季休業日、その他(蔵書点検日等)"
+      ]
+    }
+  ]
+}

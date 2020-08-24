@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004275.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004275#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004275.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道医療大学 総合図書館"
+        },
+        {
+          "@value": "ホツカイドウイリヨウダイガク ソウゴウトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北医療大"
+        },
+        {
+          "@value": "ホクイリヨウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "分館",
+        "総図"
+      ],
+      "cinii:memberid": "FA004275",
+      "cinii:organizationid": "KI001359",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道医療大学 総合図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "061-0293",
+        "v:label": "北海道石狩郡当別町金沢1757"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0133-23-1134"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0133-25-2014(G4)"
+        }
+      ],
+      "dc:description": [
+        "Health Sciences University of Hokkaido Library",
+        "Ishikari-Tobetsu, Hokkaido 061-0293 Japan",
+        "来館利用担当 :閲覧・参考係",
+        "電話番号 :0133-23-1134(内線2003)",
+        "受付時間 :9:00-21:30(平日) 10:00-18:00(土曜・特定の日曜日(6-7,9-2月))",
+        "注意事項 :初回利用の際は平日9:00-17:00に来館のこと",
+        "持参書類 :紹介状又は身分証明証(学生証等)",
+        "複写時間 :9:00-21:30(平日) 10:00〜18:00(土曜・特定の日曜日(6-7,9-2月))",
+        "館外貸出 :可"
+      ]
+    }
+  ]
+}

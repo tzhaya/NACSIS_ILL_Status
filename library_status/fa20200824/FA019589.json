@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019589.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019589#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019589.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岐阜県立看護大学 図書館"
+        },
+        {
+          "@value": "ギフケンリツカンゴダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岐阜県看護大"
+        },
+        {
+          "@value": "ギフケンカンゴダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019589",
+      "cinii:organizationid": "KI011749",
+      "cinii:prefcode": "21",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "岐阜県立看護大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "501-6295",
+        "v:label": "岐阜県羽島市江吉良町3047-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "058-397-2304(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "058-397-2304"
+        }
+      ],
+      "dc:description": [
+        "GIFU COLLEGE OF NURSING",
+        "3047-1,Egira-cho,Hashima-shi,Gifu 501-6295",
+        "通常開館時間 : 月-土 8:45-21:00",
+        "長期休暇中開館時間 : 月-土 10:00-20:00",
+        "休館日 : 日曜日、祝日、年末年始、蔵書点検(2月末～3月頃)",
+        "持参書類 : 身分証明証(免許証、保険証、学生証等)",
+        "注意事項 : 入試等による臨時休館などもありますので、開館日を確認してください",
+        "E-mailアドレス:library@gifu-cn.ac.jp",
+        "URL:http://www.gifu-cn.ac.jp/library/index.html   (website)",
+        "URL:http://www.gifu-cn.ac.jp/access/index.html (map)"
+      ]
+    }
+  ]
+}

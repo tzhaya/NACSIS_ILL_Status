@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023553.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023553#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023553.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東邦大学 医学メディアセンター 看護学部図書室"
+        },
+        {
+          "@value": "トウホウダイガク イガクメディアセンター カンゴガクブトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東邦大看"
+        },
+        {
+          "@value": "トウホウダイカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA023553",
+      "cinii:organizationid": "KI002497",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東邦大学 医学メディアセンター 看護学部図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "143-0015",
+        "v:label": "東京都大田区大森西4-16-20"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3762-9215"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3762-9861"
+        }
+      ],
+      "dc:description": [
+        "複写受付:NACSIS-ILL,FAX,郵便。*土曜日の受付分は月曜日の発送となります",
+        "複写方法:電子複写(白黒1枚50円、カラー1枚100円) 電子資料については医学メディアセンター(FA006135)にお申込みください。",
+        "複写料金の支払い方法:NACSIS-ILL料金相殺サービス。非参加館は郵便振替 振込先00110-9-168916 東邦大学医学メディアセンター",
+        "現物貸借受付:不可 閲覧利用受付:条件付可(事前に電話、FAXでご連絡の上、所属機関の図書館からの紹介状と身分証明書をご持参ください。)",
+        "URL:https://www.mnc.toho-u.ac.jp/mc/",
+        "2020年8月15日(土)～23日(日)の期間、ILL担当者が不在のため複写受付を休止いたします。"
+      ]
+    }
+  ]
+}

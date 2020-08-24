@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005245.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005245#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005245.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "工学院大学 八王子図書館"
+        },
+        {
+          "@value": "コウガクインダイガク ハチオウジトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "工学院八"
+        },
+        {
+          "@value": "コウガクインハチ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005245",
+      "cinii:organizationid": "KI002012",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "工学院大学 八王子図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "192-0015",
+        "v:label": "東京都八王子市中野町2665-1(2号館4階)"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-628-4890"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-620-7083"
+        }
+      ]
+    }
+  ]
+}

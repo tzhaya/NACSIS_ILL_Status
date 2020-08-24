@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008221.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008221#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008221.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関西学院大学 図書館"
+        },
+        {
+          "@value": "カンセイガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関西院大"
+        },
+        {
+          "@value": "カンセイインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "雑",
+        "文",
+        "哲",
+        "美",
+        "総心F",
+        "総心本",
+        "史",
+        "日",
+        "英",
+        "仏",
+        "独",
+        "社",
+        "法",
+        "経",
+        "商",
+        "神",
+        "教課",
+        "三雑",
+        "日史",
+        "東史",
+        "西史",
+        "地理",
+        "健康",
+        "雑B1",
+        "雑BM",
+        "産研",
+        "上ケ原",
+        "三田",
+        "司法",
+        "人福",
+        "教育",
+        "総心4",
+        "国際",
+        "聖和",
+        "聖雑",
+        "災害"
+      ],
+      "cinii:memberid": "FA008221",
+      "cinii:organizationid": "KI003853",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "関西学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "662-8501",
+        "v:label": "兵庫県西宮市上ケ原一番町1-155"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0798-54-6123"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0798-51-0911"
+        }
+      ],
+      "dc:description": [
+        "Kwansei Gakuin University Library",
+        "1-155 Uegahara-1bancho, Nishinomiya, Hyogo 662-8501",
+        "URL:https://library.kwansei.ac.jp/",
+        "来館利用担当:利用サービス課 相互利用係",
+        "電話番号:0798-54-6123",
+        "注意事項:原則として、来館利用できるのは学部学生、大学院生、教職員に限る。事前に所属大学図書館を通して、FAXで所蔵確認および来館日時の連絡が必要。",
+        "閲覧注記 :所蔵調査は、閲覧希望日の1週間前から受付可。",
+        "閲覧注記 :閲覧希望日は、土日祝を除く連続3日間まで受付可。",
+        "持参書類 :閲覧依頼書および学生証等の身分が証明できるもの。",
+        "受付時間 :月〜金 9:30〜16:00(授業なし期間 9:30〜14:30)",
+        "利用時間 :月〜金 9:30〜18:30(授業なし期間 9:30〜16:00)",
+        "館外貸出:不可",
+        "制限事項:利用に制限のある資料がある。",
+        "休館日 :日曜日, 国民の祝日, 創立記念日(9/28), 降誕祭(12/25), 入試期間(2/1、2/2), 夏季・冬季休暇中の一定期間(詳細はホームページの「開館日時」をご覧ください。)",
+        "ILL-Dept: InterLibrary Service Section",
+        "ILL-Org: Kwansei Gakuin University Library",
+        "ILL-Address: 1-155 Uegahara-1bancho, Nishinomiya, Hyogo, Japan",
+        "ILL-ZIP:662-8501",
+        "ILL-Commun1: Tel:+81-798-54-6123/ FAX:+81-798-51-0911 / E-mail:ill@kwansei.ac.jp",
+        "ILL-Commun2: OPAC:https://opac.kwansei.ac.jp Home-Page:https://library.kwansei.ac.jp",
+        "ILL-Accept: E-mail:ill@kwansei.ac.jp",
+        "ILL-Sched:Closed: Aug12-21, Dec24-Jan5, Sundays, National Holidays",
+        "ILL-Bill: Foreign: IFLA Voucher",
+        "ILL-Loan-Period: 6weeks per item/up to 3 items per library",
+        "ILL-Loan-Renew: NA",
+        "ILL-Loan-Charge: Postage required",
+        "ILL-Non-Circulation: Special collection, mcrfrm, mcrfch, ref, per, news, a-v.",
+        "ILL-Copy-Charge:Foreign: Photocopy: 50 YEN per sheet. Postage required. Delivery method: via airmail"
+      ]
+    }
+  ]
+}

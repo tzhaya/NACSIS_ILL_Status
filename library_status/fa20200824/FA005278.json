@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005278.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005278#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005278.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国士舘大学 図書館・情報メディアセンター"
+        },
+        {
+          "@value": "コクシカンダイガク トショカン・ジョウホウメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国士舘"
+        },
+        {
+          "@value": "コクシカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "本館",
+        "鶴川",
+        "多摩分室"
+      ],
+      "cinii:memberid": "FA005278",
+      "cinii:organizationid": "KI002045",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国士舘大学 図書館・情報メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "154-8515",
+        "v:label": "東京都世田谷区世田谷4-28-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5481-3216"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5481-3214"
+        }
+      ],
+      "dc:description": [
+        "KOKUSHIKAN UNIVERSITY LIBRARY AND INFORMATION COMMONS",
+        "4-28-1, SETAGAYA, SETAGAYA-KU, TOKYO 154-8515",
+        "来館利用担当 : 閲覧係",
+        "電話番号 : 03-5481-3216",
+        "受付時間:〔通常開館時〕9:30〜20:00〔短縮開館時〕9:30〜16:00",
+        "注意事項 : ご利用の際は、資料の所在、開館日、開館時間等を、Faxにより事前確認して下さい。 他大学在籍の学生教職員の方は、所属図書館の紹介状と身分証明書(学生証)をお持ち下さい。",
+        "持参書類 : 身分を証明するもの。他大学在籍の方は紹介状もお持ち下さい。",
+        "複写時間 :〔通常開館時〕9:30〜20:00〔短縮開館時〕9:30〜16:00",
+        "館外貸出 : 不可",
+        "制限事項 : 大学の試験期間等により、利用できないときがあります。",
+        "休館日 : 日曜日・国民の祝日・8月中旬及び年末年始・創立記念日11月4日・その他入学試験や学園祭等の学校行事日",
+        "その他 : 所蔵が鶴川・多摩図書館の資料については、直接当該館へお尋ね下さい。 (1)鶴川図書館・情報メディアセンター 〒195-8550 東京都町田市広袴1-1-1 電話:042-736-2341 FAX:042-736-5480 (2)多摩図書館・情報メディアセンター 〒206-8515 東京都多摩市永山7-3-1 電話:042-339-7204 FAX:042-339-7244",
+        "ILL-Staff:Reference desk",
+        "ILL-Dept:Library Service section",
+        "ILL-Org:KOKUSHIKAN UNIVERSITY LIBRARY AND INFORMATION COMMONS",
+        "ILL-Address:4-28-1 Setagaya,Setagaya-ku,Tokyo,JAPAN",
+        "ILL-Zip:154-8515",
+        "ILL-Contact1:Tel:+81-3-5481-3216/Fax:+81-3-5481-3214/E-mail:libadm@kokushikan.ac.jp",
+        "ILL-Contact2:Website:https://www.kokushikan.ac.jp/education/library/",
+        "ILL-Contact2:Online catalogue:https://opac.kokushikan.ac.jp/Main/Search.aspx",
+        "ILL-Calender:Closed:Sunday,National holiday,university holiday",
+        "ILL-Accept:International:LOAN N/A",
+        "ILL-Accept:International:COPY YES",
+        "ILL-Accept-method:International:E-mail",
+        "ILL-Payment-method:International:International bank transfer only (SUMITOMO MITSUI BANKING CORPORATION)",
+        "ILL-Loan-Period:International:LOAN N/A",
+        "ILL-Loan-Item-Max:International:LOAN N/A",
+        "ILL-Loan-Renewal:International:LOAN N/A",
+        "ILL-Loan-Charge:International:LOAN N/A",
+        "ILL-Loan-Delivery-method:International:LOAN N/A",
+        "ILL-Non-Circulation-items:International:Special collection",
+        "ILL-Copy-Charge:Photocopy:30JPY per sheet (monochrome), 200JPY per sheet (color)/Postage and Bank transfer fee required",
+        "ILL-Copy-Delivery-method:via airmail only",
+        "ILL-Note:Only the items held at the Main Library are available."
+      ]
+    }
+  ]
+}

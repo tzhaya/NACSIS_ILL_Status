@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010347.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010347#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010347.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 水産研究・教育機構 南勢庁舎図書室"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン スイサンケンキュウ・キョウイクキコウ ナンセイチョウシャトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "水産機構南勢"
+        },
+        {
+          "@value": "スイサンキコウナンセイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA010347",
+      "cinii:organizationid": "KI005597",
+      "cinii:prefcode": "24",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 水産研究・教育機構 南勢庁舎図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "516-0193",
+        "v:label": "三重県度会郡南伊勢町中津浜浦422-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0599-66-1830"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0599-66-1962"
+        }
+      ],
+      "dc:description": [
+        "National Research Institute of Aquaculture",
+        "Minami-ise, Mie 516-0193",
+        "来館利用担当:情報係",
+        "電話番号:0599-66-1830",
+        "受付時間:9:00-12:00, 13:00-17:00",
+        "注意事項:資料の所在等、事前確認して下さい",
+        "持参書類:身分証明書",
+        "複写時間:不可",
+        "館外貸出:不可",
+        "制限事項:貴重図書には閲覧を許可しないものがある",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始"
+      ]
+    }
+  ]
+}

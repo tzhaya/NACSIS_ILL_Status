@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006554.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006554#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006554.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "文化学園大学 図書館"
+        },
+        {
+          "@value": "ブンカガクエンダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "文化学園大"
+        },
+        {
+          "@value": "ブンカガクエンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006554",
+      "cinii:organizationid": "KI002635",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "文化学園大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "151-8523",
+        "v:label": "東京都渋谷区代々木3-22-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3299-2395"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3299-2424"
+        }
+      ],
+      "dc:description": [
+        "Bunka Gakuen University Library",
+        "3-22-1, Yoyogi, Shibuya-ku, Tokyo, JAPAN 151-8523",
+        "http://lib.bunka.ac.jp/(WEBSITE)",
+        "閲覧担当係 :レファレンス係",
+        "閲覧対象者 :大学・短大などの学生・教職員及び館長が許可した者",
+        "閲覧事前連絡 :所属する図書館を通じて必ず電話かFAXにて事前連絡のこと",
+        "閲覧持参書類 :資料利用依頼書(紹介状)(身分を証明する物を携行のこと)",
+        "閲覧受付時間 :平日9:30～17:00,短縮開館9:30～16:30 ※土曜日は受付ない",
+        "館外貸出可否 :否",
+        "来館利用時の取置期間 :最大10日間",
+        "閲覧注記 :試験期間中の利用はお断りする場合があります",
+        "開館時間 :平日9:30～19:30,短縮開館日9:30～17:00",
+        "休館日 :日曜日・国民の祝日・創立記念日(6/23)・館内整備日(月末)",
+        "注記 :春・夏・冬期休暇中の開館日は図書館カレンダーに定めます。 事前にお問い合わせください。図書館HPでもカレンダーを公開しています。",
+        "ILL-Staff:Toyofumi Yamaki,Rieko Mizuno,Ayaka Hada,Yuji Nakajima",
+        "ILL-Dept:Inter-Library Service Section",
+        "ILL-Org:Bunka Gakuen University Library",
+        "ILL-Adress:3-22-1, Yoyogi, Shibuya-ku, Tokyo, JAPAN 151-8523",
+        "ILL-Commun1:TEL 03-3299-2395 / FAX 03-3299-2424 / E-mail library@bunka.ac.jp",
+        "ILL-Commun2:Home-Page:http://lib.bunka.ac.jp/",
+        "ILL-Accept:Foreign:KERIS / NACSIS-ILL",
+        "ILL-Sched:Closed:Saturday / Sunday / Holiday",
+        "ILL-Bill:Foreign:KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period:NA",
+        "ILL-Loan-Renew:Loan:NA",
+        "ILL-Loan-Charge:Loan:NA",
+        "ILL-Nom-Circulation:Loan:NA",
+        "ILL-Copy-Charge:Photocopy:40YEN per sheet",
+        "ILL-Note:"
+      ]
+    }
+  ]
+}

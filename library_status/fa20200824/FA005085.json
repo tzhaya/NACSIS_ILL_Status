@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005085.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005085#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005085.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北里大学 医学図書館"
+        },
+        {
+          "@value": "キタサトダイガク イガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北里医"
+        },
+        {
+          "@value": "キタサトイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005085",
+      "cinii:organizationid": "KI00195X",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "北里大学 医学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "252-0374",
+        "v:label": "神奈川県相模原市南区北里1-15-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-778-8782"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-778-9236"
+        }
+      ],
+      "dc:description": [
+        "Kitasato University Medical Library",
+        "1-15-1, Kitasato, Minami-ku, Sagamihara-shi, Kanagawa 252-0374",
+        "URL:https://lib.kitasato-u.ac.jp/med/",
+        "来館利用担当:閲覧係",
+        "電話番号:042-778-8777",
+        "注意事項:必ず電話にて事前連絡のこと",
+        "注意事項:1979年以前の雑誌、臨床教育研究棟図書館の来館利用はできません",
+        "持参書類:紹介状(身分を証明するものを携行)",
+        "入館受付時間:9:00〜16:00(土曜日9:00〜11:00)",
+        "館内利用時間:9:00～17:00(土曜日9:00〜12:00)",
+        "複写受付時間:9:00〜16:30(土曜日9:00〜11:30)",
+        "館外貸出:不可",
+        "制限事項:利用は閲覧と複写のみ",
+        "休館日:日曜日・祝祭日・本学指定記念日・蔵書点検・夏期休暇・年末年始"
+      ]
+    }
+  ]
+}

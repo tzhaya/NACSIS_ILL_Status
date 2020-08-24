@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004796.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004796#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004796.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "獨協大学 図書館"
+        },
+        {
+          "@value": "ドッキョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "独協大"
+        },
+        {
+          "@value": "ドッキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004796",
+      "cinii:organizationid": "KI001789",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "獨協大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "340-0042",
+        "v:label": "埼玉県草加市学園町1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-946-1693"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-946-2890(受付・依頼)"
+        }
+      ],
+      "dc:description": [
+        "Dokkyo University Library",
+        "1-1,Gakuen-cho,Soka-shi,Saitama 340-0042",
+        "URL:http://www.dokkyo.ac.jp/library/ (website)",
+        "URL:http://www.dokkyo.ac.jp/daigaku/a02_02_j.html (map)",
+        "ILL-Org: Dokkyo University Library",
+        "ILL-Address: 1-1 Gakuen-cho、Soka、 Saitama JAPAN",
+        "ILL-ZIP: 340-0042",
+        "ILL-Commun1:Tel:+81-48-946-1695 /FAX:+81-48-946-2891",
+        "来館利用担当:参考係",
+        "電話番号:048-946-1693",
+        "受付時間:(通常期)平日9:00〜16:45 (休業中)平日9:00-14:45",
+        "注意事項:ご来館の際は必ず所属機関の図書館を通して資料の所在等の確認をしてください。",
+        "持参書類:所属機関の紹介状(利用資料名を明記)と身分を証明するもの",
+        "館外貸出:否",
+        "制限事項:資料によっては閲覧・複写を許可しないものがあります。",
+        "休館日:獨協大学図書館ホームページ上の図書館カレンダーで確認してください。"
+      ]
+    }
+  ]
+}

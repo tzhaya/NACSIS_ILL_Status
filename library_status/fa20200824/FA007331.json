@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007331.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007331#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007331.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "至学館大学 附属図書館"
+        },
+        {
+          "@value": "シガッカンダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "至学館大"
+        },
+        {
+          "@value": "シガッカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA007331",
+      "cinii:organizationid": "KI003219",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "至学館大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "474-8651",
+        "v:label": "愛知県大府市横根町名高山55"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0562-46-1239"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0562-46-3860"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org: Shigakkan University Library",
+        "ILL-Adress: 55, Nakoyama, Yokone-machi, Obu-shi, Aichi-ken, Japan",
+        "ILL-ZIP: 474-8651"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA02009X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA02009X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA02009X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "こども教育宝仙大学 図書館"
+        },
+        {
+          "@value": "コドモキョウイクホウセンダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宝仙大"
+        },
+        {
+          "@value": "ホウセンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA02009X",
+      "cinii:organizationid": "KI012071",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "こども教育宝仙大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "164-8631",
+        "v:label": "東京都中野区中央2-33-26"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3365-0267"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3365-0269"
+        }
+      ],
+      "dc:description": [
+        "Hosen College of Childhood Education",
+        "2-33-26 ,Chuuou,Nakano-ku,Tokyo164-8631",
+        "URL:http://hosen.ac.jp/library/",
+        "電話番号 03-3365-8631",
+        "受付時間 9:00～17:00",
+        "注意事項:資料の所在等、事前確認をお願いします",
+        "持参書類:身分証明書",
+        "館外貸出:不可",
+        "休館日:土曜日・日曜日"
+      ]
+    }
+  ]
+}

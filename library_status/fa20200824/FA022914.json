@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA022914.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA022914#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA022914.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京医療保健大学 附属世田谷図書館"
+        },
+        {
+          "@value": "トウキョウイリョウホケンダイガク フゾクセタガヤトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東医保大"
+        },
+        {
+          "@value": "トウイホダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "世田谷"
+      ],
+      "cinii:memberid": "FA022914",
+      "cinii:organizationid": "KI013675",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東京医療保健大学 附属世田谷図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "154-8568",
+        "v:label": "東京都世田谷区世田谷3-11-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5799-3712"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5799-3713(大学代表)"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.thcu.ac.jp/facilities/library/"
+      ]
+    }
+  ]
+}

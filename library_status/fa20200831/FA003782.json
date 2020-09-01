@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003782.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003782#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003782.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "横浜市立大学 医学情報センター"
+        },
+        {
+          "@value": "ヨコハマシリツダイガク イガクジヨウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "横市大医"
+        },
+        {
+          "@value": "ヨコシダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003782",
+      "cinii:organizationid": "KI00101X",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "横浜市立大学 医学情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "236-0004",
+        "v:label": "横浜市金沢区福浦3-9"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-787-2556(依頼)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "045-787-2518(受付)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-787-2560"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "045-787-2518"
+        }
+      ],
+      "dc:description": [
+        "MEDICAL LIBRARY YOKOHAMA CITY UNIVERSITY SCHOOL OF MEDICINE",
+        "URL:https://opac.yokohama-cu.ac.jp/drupal/",
+        "アクセスマップ :https://www.yokohama-cu.ac.jp/access/index.html#title3",
+        "ILL利用案内:https://opac.yokohama-cu.ac.jp/drupal/?q=ill_out",
+        "3-9 FUKUURA KANAZAWA-KU YOKOHAMA 236-0004 JAPAN",
+        "電話番号 : 045-787-2556",
+        "FAX : 045-787-2560",
+        "開館時間  :【通常】9:00〜21:00(土、日曜日〜17:00,日曜日は試験期間のみ開館) 【休業中】9:00〜17:00",
+        "注意事項 : お車での来館はご遠慮下さい。",
+        "持参書類 : 紹介状、身分証明書(住所の確認ができるもの)",
+        "館外貸出 : 卒業生、市民利用制度登録者のみ可",
+        "休館日 : 祝日、夏季・春季休業期間の土、日曜日、年末年始、その他(蔵書点検等)"
+      ]
+    }
+  ]
+}

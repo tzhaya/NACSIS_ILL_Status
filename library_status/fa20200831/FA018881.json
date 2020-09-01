@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018881.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018881#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018881.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "石川県立看護大学 附属図書館"
+        },
+        {
+          "@value": "イシカワケンリツカンゴダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "石川県看大"
+        },
+        {
+          "@value": "イシカワケンカンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018881",
+      "cinii:organizationid": "KI011137",
+      "cinii:prefcode": "17",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "石川県立看護大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "929-1210",
+        "v:label": "石川県かほく市学園台1丁目1番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "076-281-8321"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "076-281-8323"
+        }
+      ],
+      "dc:description": [
+        "ISHIKAWA PREFECTURAL NURSING UNIVERSITY",
+        "1-1, Gakuendai, Kahoku-shi, Ishikawa 929-1210"
+      ]
+    }
+  ]
+}

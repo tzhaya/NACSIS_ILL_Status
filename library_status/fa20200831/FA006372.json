@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006372.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006372#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006372.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日本大学 図書館 国際関係学部分館"
+        },
+        {
+          "@value": "ニホンダイガク トショカン コクサイカンケイガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日大国"
+        },
+        {
+          "@value": "ニチダイコク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "国際",
+        "図"
+      ],
+      "cinii:memberid": "FA006372",
+      "cinii:organizationid": "KI002533",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日本大学 図書館 国際関係学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "411-8555",
+        "v:label": "静岡県三島市文教町2-31-145"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "055-980-0860"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "055-988-7875"
+        }
+      ],
+      "dc:description": [
+        "Library, Nihon University College of International Relations",
+        "2-31-145, Bunkyo-cho, Mishima-shi, Shizuoka 411-8555",
+        "URL:http://www.ir.nihon-u.ac.jp/lib/ (website)",
+        "URL:http://www.ir.nihon-u.ac.jp/lib/guide/access.html (map)",
+        "来館利用担当:相互利用係",
+        "電話番号:055-980-0860",
+        "受付時間:平日 9:00〜17:00, 土曜日 9:00〜13:00",
+        "注意事項:事前に電話にてお問い合わせ下さい。",
+        "持参書類:資料利用依頼書,身分証明書(自動車運転免許証等)",
+        "複写時間:平日 9:00〜17:00, 土曜日 9:00〜13:00",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:日曜日,祝祭日,本学創立記念日(10月4日),春季・夏季・冬季休業中の一定期間",
+        "ILL-Org:Nihon University College of International Relations Library",
+        "ILL-Address:2-31-145, Bunkyo-cho, Mishima-shi, Shizuoka, JAPAN",
+        "ILL-ZIP:411-8555",
+        "ILL-Commun1:Tel:+81-55-980-0860 /FAX:+81-55-988-7875 / E-mail:ir.library@nihon-u.ac.jp"
+      ]
+    }
+  ]
+}

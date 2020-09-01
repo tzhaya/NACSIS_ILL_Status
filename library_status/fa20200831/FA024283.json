@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024283.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024283#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024283.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "総合病院 聖隷浜松病院"
+        },
+        {
+          "@value": "ソウゴウビョウイン セイレイハママツビョウイン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "聖隷浜"
+        },
+        {
+          "@value": "セイレイハマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024283",
+      "cinii:organizationid": "KI014703",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "総合病院 聖隷浜松病院",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "430-8558",
+        "v:label": "静岡県浜松市中区住吉2-12-12"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "053-474-2222"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "053-474-3094"
+        }
+      ],
+      "dc:description": [
+        "Seirei Hamamatsu General Hospital Library",
+        "2-12-12,Sumiyoshi, Naka-ku, Hamamatsu, Shizuoka 430-8558",
+        "URL:http://www.seirei.or.jp/hamamatsu/",
+        "電話番号:053-474-2222 FAX番号:053-474-3094(直通)",
+        "受付時間:9:00～15:00",
+        "注意事項:一般の方、個人での利用、複写は受付できません。医療関係者、学生の方は所属図書館を通して事前連絡をして下さい。支払方法 : 文献複写等料金相殺サービスに参加機関は相殺。その他は郵便振込 振込先:00810-6-20253 聖隷浜松病院",
+        "館外貸出:不可",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始"
+      ]
+    }
+  ]
+}

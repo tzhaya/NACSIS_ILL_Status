@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002054.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002054#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002054.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "一橋大学 経済研究所 附属社会科学統計情報研究センター"
+        },
+        {
+          "@value": "ヒトツバシダイガク ケイザイケンキュウジョ フゾクシャカイカガクトウケイジョウホウケンキュウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "一橋統"
+        },
+        {
+          "@value": "ヒトツバシトウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "小平"
+      ],
+      "cinii:memberid": "FA002054",
+      "cinii:organizationid": "KI000334",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "003301",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "一橋大学 経済研究所 附属社会科学統計情報研究センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "186-8603",
+        "v:label": "国立市中2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-580-8391"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-580-8400"
+        }
+      ],
+      "dc:description": [
+        "URL:http://rcisss.ier.hit-u.ac.jp/ (website)",
+        "URL:http://rcisss.ier.hit-u.ac.jp/Japanese/access/index.html (map)",
+        "電話番号: 042-580-8391 / FAX: 042-580-8400",
+        "注意事項: 一橋大学国立キャンパスにおいて入構規制が実施されているため、大学関係者以外の方の訪問利用を休止させていただきます。",
+        "ILL-Org:Research Centre for Information and Statistics of Social Science, Institute of Economic Research, Hitotsubashi University",
+        "ILL-Address:2-1, Naka, Kunitachi City, Tokyo, JAPAN",
+        "ILL-ZIP:186-8603",
+        "ILL-Commun1:Tel:+81-42-580-8391 / FAX:+81-42-580-8400 / E-mail:center@ier.hit-u.ac.jp"
+      ]
+    }
+  ]
+}

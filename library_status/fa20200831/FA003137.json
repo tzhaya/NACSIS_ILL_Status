@@ -1,0 +1,100 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003137.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003137#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003137.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "鳥取大学 附属図書館 医学図書館"
+        },
+        {
+          "@value": "トットリダイガク フゾクトショカン イガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "取大医"
+        },
+        {
+          "@value": "トリダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA003137",
+      "cinii:organizationid": "KI000684",
+      "cinii:prefcode": "31",
+      "cinii:mextid": "005901",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "鳥取大学 附属図書館 医学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "683-8503",
+        "v:label": "鳥取県米子市西町86"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0859-38-6462"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0859-38-6469"
+        }
+      ],
+      "dc:description": [
+        "Tottori University Medical Library",
+        "86 Nishi-cho, Yonago, Tottori 683-8503",
+        "http://www.lib.tottori-u.ac.jp/medical.html (Website)",
+        "来館利用担当;医学図書館",
+        "電話番号:0859-38-6462",
+        "FAX番号:0859-38-6469",
+        "受付時間:9:00-17:00",
+        "注意事項:学外者の方の利用は、館内備え付け資料の閲覧とその複写です。館外貸出・コンピュータ利用は利用者登録(高校生を除く18歳以上の方のみ可能。要身分証明書)後に可能。",
+        "注意事項:予め図書館内に備え付けられているか確認をしてください。",
+        "文献複写申込(相殺未参加機関および個人):原則として館内備え付け資料のみ可。",
+        "文献複写申込(相殺未参加機関および個人):申込方法:FAX。形式は自由。",
+        "文献複写申込(相殺未参加機関および個人):支払方法:前納(複写料:現金 送料:切手)現金書留でお送り下さい。",
+        "休館日:休業期間の土曜、日曜、祝日。年末年始。毎月最後の週日の午前。夏季一斉休業日。*詳細はHP開館予定を参照のこと。",
+        "ILL-Staff:MAETA Akinori",
+        "ILL-Dept:Reference Unit",
+        "ILL-Org:Tottori University Medical Library",
+        "ILL-Adress:89 Nishi-cho, Yonago-shi",
+        "ILL-ZIP:683-8503",
+        "ILL-OCLC-Symbol : TOTRI",
+        "ILL-ZIP:683-8503",
+        "ILL-Communi1:fax:+81-859-38-6462",
+        "ILL-Accept:OCLC(NACSIS-ILL)",
+        "ILL-Sched Close:Dec.28-Jan.4",
+        "ILLBill:OCLC-IMF only",
+        "ILL-Loan-Period:Loan N/A",
+        "ILL-Copy-Charge:No charge during the term of the trial"
+      ]
+    }
+  ]
+}

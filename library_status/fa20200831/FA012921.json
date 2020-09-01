@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012921.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012921#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012921.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "慶應義塾大学 湘南藤沢メディアセンター"
+        },
+        {
+          "@value": "ケイオウギジユクダイガク シヨウナンフジサワメデイアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "慶大藤"
+        },
+        {
+          "@value": "ケイダイフジ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "看護医療"
+      ],
+      "cinii:memberid": "FA012921",
+      "cinii:organizationid": "KI002001",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "慶應義塾大学 湘南藤沢メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "252-0882",
+        "v:label": "神奈川県藤沢市遠藤5322"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0466-49-3428"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0466-49-1135"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.sfc.lib.keio.ac.jp/(Website)",
+        "",
+        "Keio University Shonan Fujisawa Media Center",
+        "5322 Endoh Fujisawa Kanagawa 252-0882 JAPAN",
+        "ILL-Dept:InterLibraryLoan Service Section:",
+        "ILL-Org:Keio University Shonan Fujisawa Media Center",
+        "ILL-Address:5322 Endoh Fujisawa Kanagawa JAPAN",
+        "ILL-ZIP:252-0882",
+        "ILL-Commun1:Tel:+81-466-49-3428 / Fax:+81-466-49-1135 / E-mail:mc-ill@sfc.keio.ac.jp",
+        "URL:http://www.sfc.lib.keio.ac.jp/ (Website)",
+        "URL: http://kosmos.lib.keio.ac.jp/ (OPAC (KOSMOS))",
+        "ILL-Accept:Foreign:KERIS",
+        "ILL-Bill:Foreign:KERIS=NII Fee Management Service only",
+        "ILL-Copy-Charge:Foreign:Photocopy:55 YEN per sheet.Postage required./ Delivery method: via airmail"
+      ]
+    }
+  ]
+}

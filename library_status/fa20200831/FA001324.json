@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001324.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001324#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001324.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "旭川医科大学 図書館"
+        },
+        {
+          "@value": "アサヒカワイカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "旭医大"
+        },
+        {
+          "@value": "キョクイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA001324",
+      "cinii:organizationid": "KI000061",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000600",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "旭川医科大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "078-8510",
+        "v:label": "旭川市緑が丘東2条1丁目1番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0166-68-2226(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0166-68-2229:(G3)"
+        }
+      ],
+      "dc:description": [
+        "URL:http://lib.asahikawa-med.ac.jp",
+        "URL:http://www.asahikawa-med.ac.jp/index.php?f=access+index",
+        "Asahikawa Medical University Library",
+        "Midorigaoka-higashi 2-1-1-1,Asahikawa,Japan 078-8510",
+        "--------------------------------------------------------------------",
+        "来館利用・ILL担当:情報サービス係",
+        "電話番号:0166-68-2226",
+        "+++++++++来館利用+++++++++",
+        "開館時間:開講期:平日9:00-21:00、休業期:平日9:00-17:00",
+        "注意事項:休業期間は、ホームページ内開館カレンダーでご確認下さい。★特定の資料を閲覧される際は、事前にご連絡下さい。閲覧可能かどうかをお知らせします。",
+        "複写時間:開館から閉館の5分前まで",
+        "館外貸出:学外の方で、図書の貸出サービスを希望される方は、図書館利用証の発行が必要です。必ず、身分証明書を持参ください。なお、図書館利用証の新規・更新申請は閉館の1時間前までです。",
+        "制限事項:自習のためのご利用はお断りしております。",
+        "休館日:土曜日・日曜日・国民の祝日に関する法律に規定する休日・本学記念日(11月5日)・年末年始(12月27日から翌年1月5日)・その他館長が必要と認めた日",
+        "+++++++++図書館間貸出・文献複写(ILL)+++++++++",
+        "貸出:申込方法:NACSIS-ILLまたはFAX。送付方法:ゆうパック、宅急便の着払いのみ。研究室図書は貸出不可。",
+        "複写受付対象:原則、相殺サービス参加機関のみ。ただし、以前に債主登録した機関は受付可能。新規の債主登録は行わないが、道北道東の病院図書室の方はご相談ください。",
+        "複写申込方法:NACSIS-ILLまたはFAX。送付方法:ゆうメール(速達可能)。支払方法:相殺サービス参加機関は相殺。債主登録機関は4半期ごとに請求。",
+        "ILL-Staff:Chief, Information Service Subsection",
+        "ILL-Dept:Information Service Subsection",
+        "ILL-Org:Asahikawa Medical University Library",
+        "ILL-Address:Midorigaoka-higashi 2-1-1-1, Asahikawa, Hokkaido, Japan",
+        "ILL-ZIP:078-8510",
+        "ILL-Commun1:Tel:+81-166-68-2226/FAX:+81-166-68-2229/E-mail:libserv@asahikawa-med.ac.jp",
+        "ILL-Commun2:OPAC:https://lib.asahikawa-med.ac.jp/opac/opac_details/?lang=1 Home-Page:http://lib.asahikawa-med.ac.jp/",
+        "ILL-Accept:Foreign(1)OCLC(NII-OCLC ISO ILL Link only):YA$",
+        "ILL-Accept:Foreign(2):KERIS",
+        "ILL-OCLC-Symbol:YA$",
+        "ILL-Sched:Closed:Saturday and Sunday, Japanese National Holidays, Colledge Memorial Day(Nov. 5), New Year Holidays(Dec. 28-Jan. 4)",
+        "ILL-Bill:Foreign(1): OCLC=OCLC-IFM only / Foreign(2): KERIS=NII Fee Management Service only",
+        "ILL-Loan-Period:Foreign(1): 6 weeks per volume / up to 3 items / Foreign(2):NA",
+        "ILL-Loan-Renew:Foreign(1): 6 weeks / Foreign(2): NA",
+        "ILL-Loan-Charge:Foreign(1): Postage required. No rush service available / Foreign(2):NA",
+        "ILL-Non-Circulation:mcrfrm, mcrfch, ref, per, news, a-v, special collections",
+        "ILL-Copy-Charge: PHOTOCOPY: 35Yen per sheet. Postage required. / Delivery method: via airmail, Ariel(e-mail attached)",
+        "ILL-Note:Not Included: Hospital, CHARGES FOR EST: N/A, MCRFLM: N/A, DIS and THESIS:Photocopy:need the author's permission, Dis and THESIS: Lend N/A"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014519.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014519#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014519.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "長崎純心大学 早坂記念図書館"
+        },
+        {
+          "@value": "ナガサキジュンシンダイガク ハヤサカキネントショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "純心図"
+        },
+        {
+          "@value": "ジユンシント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図本館"
+      ],
+      "cinii:memberid": "FA014519",
+      "cinii:organizationid": "KI007719",
+      "cinii:prefcode": "42",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "長崎純心大学 早坂記念図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "852-8558",
+        "v:label": "長崎県長崎市三ツ山町235番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "095-846-0084"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "095-845-4279"
+        }
+      ],
+      "dc:description": [
+        "NAGASAKI JUNSHIN CATHOLIC UNIVERSITY HAYASAKA MEMORIAL LIBRARY",
+        "235 MITSUYAMA-CHO, NAGASAKI, JAPAN 852-8558",
+        "来館利用担当:参考係",
+        "電話番号:095-846-0084",
+        "受付時間:平日9:00-17:00、土曜9:00-12:30",
+        "注意事項:学外者の貸し出しは、2週間内に来館で返却できる場合のみです。利用の登録が必要です。",
+        "持参書類:学生証または身分を証明するもの",
+        "館外貸出:可 (5冊まで、2週間以内)",
+        "制限事項:貴重書・参考図書・研究所・研究室の資料は貸出できません。カトリック文庫、キリシタン文庫等、貴重書のなかには閲覧を許可しないものもあります。詳しくはお問い合わせください。",
+        "休館日:日曜、祝日、創立記念日、12月25日、年末年始、年度末、その他館長が定める日"
+      ]
+    }
+  ]
+}

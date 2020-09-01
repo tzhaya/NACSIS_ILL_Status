@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024986.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024986#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024986.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪行岡医療大学 附属図書館"
+        },
+        {
+          "@value": "オオサカユキオカイリョウダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "行岡医療大"
+        },
+        {
+          "@value": "ユキオカイリョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024986",
+      "cinii:organizationid": "KI014973",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪行岡医療大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "567-0801",
+        "v:label": "大阪府茨木市総持寺1-1-41"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-621-0881"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-621-1233"
+        }
+      ]
+    }
+  ]
+}

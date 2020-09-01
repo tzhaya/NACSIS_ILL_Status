@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016004.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016004#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016004.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "済生会下関総合病院 図書室"
+        },
+        {
+          "@value": "サイセイカイシモノセキソウゴウビヨウイン トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "下関済"
+        },
+        {
+          "@value": "シモノセキサイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA016004",
+      "cinii:organizationid": "KI008799",
+      "cinii:prefcode": "35",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "済生会下関総合病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "759-6603",
+        "v:label": "山口県下関市安岡町8-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "083-262-2300"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "083-262-2301"
+        }
+      ],
+      "dc:description": [
+        "Saiseikai Shimonoseki General Hospital",
+        "8-5-1, Yasuoka, Shimonoseki, Yamaguchi, 759-6603"
+      ]
+    }
+  ]
+}

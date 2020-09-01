@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002495.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002495#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002495.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 工学 図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク コウガク トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大工"
+        },
+        {
+          "@value": "メイダイコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "工中央書庫",
+        "工土木工学",
+        "工建築",
+        "工材料",
+        "工機械",
+        "工電気",
+        "工応物",
+        "工量子エネ",
+        "工情報",
+        "工化工",
+        "工航空",
+        "高エネ",
+        "工応化",
+        "工生物機",
+        "工量子",
+        "先端",
+        "工エネ理工",
+        "工マイクロ",
+        "工物質制御",
+        "工計算理工",
+        "工結晶",
+        "VBL",
+        "理工総研",
+        "核燃料施設",
+        "工子機",
+        "工電気情報",
+        "工化学生物",
+        "工機械航空",
+        "工共同施設",
+        "エコトピア",
+        "工中央開架",
+        "工中央雑誌",
+        "工中央建築",
+        "工土木",
+        "工減災セ",
+        "工未来社会",
+        "工有高",
+        "工生命",
+        "工物質",
+        "工材デザ",
+        "工物プロ",
+        "工化シス",
+        "工電子",
+        "工情通",
+        "工総エネ"
+      ],
+      "cinii:memberid": "FA002495",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004307",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋大学 工学 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8603",
+        "v:label": "名古屋市千種区不老町 C2-4(600)"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-789-5033"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-789-5160"
+        }
+      ],
+      "dc:description": [
+        "Library, Graduate School and School of Engineering, Nagoya University",
+        "Furo-cho, Chikusa-ku, Nagoya 464-8603",
+        "URL:http://lib.engg.nagoya-u.ac.jp/ (website)",
+        "URL:http://lib.engg.nagoya-u.ac.jp/riyou/gaiyou.html (map)",
+        "URL:http://www.nagoya-u.ac.jp/global-info/access-map/#higashiyama (交通案内)",
+        "来館利用担当:図書係",
+        "電話番号:052-789-5033",
+        "受付時間:9:00〜12:00、13:00〜16:00 (17:00 閉室)",
+        "注意事項:資料の所在等を確認の上、原則として電話で事前連絡のこと。",
+        "持参書類:所属機関等の発行する紹介状、身分証明書(学生証など)",
+        "複写時間:9:00〜16:00 (学外者は一時貸出の上、館外で複写)",
+        "館外貸出:不可",
+        "制限事項:研究室等別置図書は利用できない場合があります。",
+        "休館日:土・日曜日、国民の祝日に関する法律に規定する休日(振替休日を含む)、年末年始(12/28〜1/4)",
+        "ILL-Dept:Interlibrary Loan Services",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp",
+        "ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"
+      ]
+    }
+  ]
+}

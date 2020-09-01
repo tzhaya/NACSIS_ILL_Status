@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001040.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001040#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001040.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 大学院教育学研究科・教育学部図書室"
+        },
+        {
+          "@value": "ホッカイドウダイガク ダイガクインキョウイクガクケンキュウカ・キョウイクガクブトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大教"
+        },
+        {
+          "@value": "ホクダイキョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "発達",
+        "教方",
+        "教計",
+        "教史",
+        "教行",
+        "特殊",
+        "社教",
+        "産教",
+        "教社",
+        "保健",
+        "研究室"
+      ],
+      "cinii:memberid": "FA001040",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "北海道大学 大学院教育学研究科・教育学部図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-0811",
+        "v:label": "札幌市北区北11条西7丁目 北海道大学 大学院教育学院・教育学研究院・教育学部図書室"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-706-4095(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-746-4595"
+        }
+      ],
+      "dc:description": [
+        "Library, Faculty of Education, Graduate School of Education, Hokkaido University",
+        "Kita 11, Nishi 7, Kita-ku, Sapporo, 060-0811",
+        "URL:https://www.lib.hokudai.ac.jp/edu/",
+        "来館利用担当:図書担当",
+        "電話番号:011-706-3086",
+        "受付時間:9:00〜16:00",
+        "注意事項:資料の所在等事前確認をしてください。",
+        "持参書類:閲覧依頼書又は身分証明書",
+        "複写時間:",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始"
+      ]
+    }
+  ]
+}

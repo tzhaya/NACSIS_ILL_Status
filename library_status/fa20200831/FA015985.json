@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015985.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015985#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015985.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "群馬工業高等専門学校 図書館"
+        },
+        {
+          "@value": "グンマコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "群馬高専"
+        },
+        {
+          "@value": "グンマコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "人文",
+        "電気",
+        "物質",
+        "自然",
+        "機械",
+        "都市",
+        "情報"
+      ],
+      "cinii:memberid": "FA015985",
+      "cinii:organizationid": "KI008777",
+      "cinii:prefcode": "10",
+      "cinii:mextid": "601400",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "群馬工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "371-8530",
+        "v:label": "前橋市鳥羽町580"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "027-254-9014"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "027-254-9049"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:National Institute of Technology, Gunma College Library",
+        "ILL-Address:580 Toriba-machi, Maebashi-shi, Gunma, JAPAN",
+        "ILL-ZIP:371-8530",
+        "ILL-Commun1:Tel:+81-27-254-9014 / E-mail:tosho@gunma-ct.ac.jp",
+        "ILL-Commun2: Home-Page: http://www.lib.gunma-ct.ac.jp/",
+        "来館利用担当:図書係",
+        "電話番号:027-254-9014",
+        "受付時間:9:00〜17:00",
+        "注意事項:事前に資料の所在等の確認をお願いします。",
+        "注意事項:土曜日に来館希望の場合は必ず前日までにご連絡ください。",
+        "持参書類:身分証明書・学生証等",
+        "複写時間:9:00〜17:00",
+        "館外貸出:可(利用証を発行しますので平日の受付時間内に、運転免許証等写真付きの身分証明書をご持参の上お申し込みください。)",
+        "制限事項:研究室備付資料の閲覧・貸出はできません。",
+        "休館日:日曜日・国民の祝日・年末年始・一斉休業日・休業期間中の土曜日・学校行事による臨時休館日あり"
+      ]
+    }
+  ]
+}

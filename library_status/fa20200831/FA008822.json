@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008822.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008822#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008822.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "久留米大学 附属図書館 医学部分館"
+        },
+        {
+          "@value": "クルメダイガク フゾクトショカン イガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "久大医"
+        },
+        {
+          "@value": "キュウダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "医療センター",
+        "病院",
+        "研究室",
+        "講座",
+        "図書館"
+      ],
+      "cinii:memberid": "FA008822",
+      "cinii:organizationid": "KI004324",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "久留米大学 附属図書館 医学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "830-0011",
+        "v:label": "福岡県久留米市旭町67"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0942-31-7529"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0942-32-0900"
+        }
+      ],
+      "dc:description": [
+        "Medical Library Kurume University",
+        "67, Asahimachi, Kurume-shi, Fukuoka-ken 830-0011",
+        "URL:https://medlib.kurume-u.ac.jp/(website)",
+        "来館利用担当:運用係",
+        "電話番号:0942-31-7529 (内線3081)",
+        "閲覧受付時間:8:30～22:00 , 土・日10:00～20:00",
+        "複写受付時間:8:30～22:00 , 土・日10:00～20:00",
+        "注意事項:学外者の利用については登録制(本学医学部卒業生・医療従事者)。詳しくは図書館HPをご確認ください。",
+        "URL:https://medlib.kurume-u.ac.jp/userguide/userguide_3.html",
+        "※図書館利用許可証申請受付時間は、8:30～16:30(月～金)です。",
+        "休館日:国民の祝日,特別休日(8月15日),年末年始(12月29日～1月3日)"
+      ]
+    }
+  ]
+}

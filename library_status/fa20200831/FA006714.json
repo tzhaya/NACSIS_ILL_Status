@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006714.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006714#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006714.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "明治学院大学 図書館"
+        },
+        {
+          "@value": "メイジガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "明学大"
+        },
+        {
+          "@value": "メイガクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "分室",
+        "マイクロ",
+        "AV",
+        "別分1",
+        "別分2",
+        "史料",
+        "倉庫",
+        "英文",
+        "仏文",
+        "経済",
+        "社会",
+        "法学",
+        "芸術",
+        "心理",
+        "政治",
+        "福祉",
+        "商学",
+        "院生",
+        "言語文化",
+        "言語分",
+        "LL",
+        "英文研",
+        "仏文研",
+        "産研",
+        "社研",
+        "法科研",
+        "キリ研",
+        "平和研",
+        "一般共",
+        "国際共",
+        "横図",
+        "横研究",
+        "横国際",
+        "横体育",
+        "横共同",
+        "横別分",
+        "横他",
+        "貴重",
+        "横貴重"
+      ],
+      "cinii:memberid": "FA006714",
+      "cinii:organizationid": "KI002726",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "明治学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "108-8636",
+        "v:label": "東京都港区白金台1-2-37"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5421-5177"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5421-5178"
+        }
+      ],
+      "dc:description": [
+        "閲覧注記 :学外倉庫預け資料は、原則不可。本学以外に所蔵が無い場合のみ考慮。但し通常より日数を要す。",
+        "通常開館時間 :8:45〜22:00(土曜日〜20:00)",
+        "休館日 :日曜日・祝日・創立記念日(11/1)・キリスト降誕祭(12/25) ※休講期間中の開館時間・開館日についてはホームページに掲載します。",
+        "URL :https://www.meijigakuin.ac.jp/library/ (website)",
+        "URL :https://www.meijigakuin.ac.jp/access/(map)",
+        "URL :http://mgopac.meijigakuin.ac.jp/opac/opac_search.cgi(OPAC)",
+        "Meiji Gakuin University Library",
+        "1-2-37, Shirokanedai, Minato-ku, Tokyo 108-8636",
+        "来館利用担当 :利用サービス・電子情報課",
+        "注意事項 :当館は一般公開しておりません。当館の所蔵資料を利用したい場合には、図書館間相互協力制度(ILL)により、閲覧、複写物の送付、現物貸借のサービスを行っておりますので、所属する大学・機関の図書館にご相談ください。個人から直接のお問い合せには応じられませんのでご了承ください。",
+        "持参書類 :紹介状(身分を証明するものを携行のこと)",
+        "注記 :配置コードが「横図・横研究・横国際」等の場合は横浜校舎図書館所蔵資料です。【横浜校舎図書館 〒244-8539 神奈川県横浜市戸塚区上倉田町1518 TEL:045-863-2037 FAX:045-863-2189】",
+        "ILL-Org: Meiji Gakuin University Library",
+        "ILL-Dept: InterLibrary Service Section",
+        "ILL-Staff:",
+        "ILL-Address: 1-2-37 Shirokanedai, Minato-ku, Tokyo, JAPAN",
+        "ILL-Commun1: Tel:+81-3-5421-5177 / Fax:+81-3-5421-5178 / E-mail:unyou@mguad.meijigakuin.ac.jp",
+        "ILL-Commun2: OPAC: http://mgopac.meijigakuin.ac.jp/opac/opac_search.cgi?lang=1&cmode=0&smode=0",
+        "ILL-Commun3: Home-Page: https://www.meijigakuin.ac.jp/library/en/",
+        "ILL-ZIP: 108-8636",
+        "ILL-Accept: OCLC(NII-OCLC)",
+        "ILL-Sched: Closed:",
+        "ILL-Bill: Foreign: OCLC-IFM Only",
+        "ILL-Loan-Period: 60 days",
+        "ILL-Loan-Renew: N/A",
+        "ILL-Loan-Charge: Postage required. Delivery method: via EMS.",
+        "ILL-Non-Circulation: Special collection, mcrfrm, Mcrfch, ref, per, news, a-v.",
+        "ILL-Copy-Charge: Photocopy:40 YEN per sheet. Postage required. Delivery method: via airmail.",
+        "ILL-Note: Airmail only. Ariel not supported.",
+        "ILL-OCLC-Symbol:MGD"
+      ]
+    }
+  ]
+}

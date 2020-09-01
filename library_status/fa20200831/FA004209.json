@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004209.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004209#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004209.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "熊本県立大学学術情報メディアセンター 図書館"
+        },
+        {
+          "@value": "クマモトケンリツダイガクガクジュツジョウホウメディアセンター トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "熊本県大"
+        },
+        {
+          "@value": "クマモトケンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004209",
+      "cinii:organizationid": "KI001290",
+      "cinii:prefcode": "43",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "熊本県立大学学術情報メディアセンター 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "862-8502",
+        "v:label": "熊本市東区月出3丁目1-100"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "096-321-6613"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "096-383-2999"
+        }
+      ],
+      "dc:description": [
+        "PREFECTURAL UNIVERSITY OF KUMAMOTO LIBRARY",
+        "3-1-100 TSUKIDE, KUMAMOTO CITY 862-8502",
+        "URL:http://www.pu-kumamoto.ac.jp",
+        "URL:http://www.pu-kumamoto.ac.jp/~tosho/index-j.html"
+      ]
+    }
+  ]
+}

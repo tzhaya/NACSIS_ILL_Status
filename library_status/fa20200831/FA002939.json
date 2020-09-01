@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002939.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002939#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002939.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪教育大学 附属図書館"
+        },
+        {
+          "@value": "オオサカキョウイクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "阪教大"
+        },
+        {
+          "@value": "ハンキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "天分",
+        "オンライン",
+        "研"
+      ],
+      "cinii:memberid": "FA002939",
+      "cinii:organizationid": "KI000618",
+      "cinii:prefcode": "27",
+      "cinii:mextid": "005300",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪教育大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "582-8582",
+        "v:label": "大阪府柏原市旭ケ丘4-698-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "072-978-3782"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "072-978-1190"
+        }
+      ],
+      "dc:description": [
+        "Osaka Kyoiku University Library",
+        "ILL-Adress:4-698-1, Asahigaoka, Kashiwara, Osaka, JAPAN",
+        "URL:https://www.lib.osaka-kyoiku.ac.jp/ (Website)",
+        "来館利用担当 :サービス係",
+        "電話番号 : 072-978-3782",
+        "FAX番号 : 072-978-1190",
+        "受付時間 : 平日8:45〜17:00",
+        "注意事項 : 事前連絡し、資料の所在等を確認してください。",
+        "注意事項 : 平日17時以降及び土曜は、平日8時45分〜17時にお問い合せください。",
+        "複写時間 : 平日8:45〜16:45",
+        "館外貸出 :教職員・大学院生・学部生・一般市民等(登録が必要です。住所確認のできる公的証明書(免許証等)をご持参ください)",
+        "制限事項 : 研究室備付資料,貴重書,劣化資料等は閲覧・複写ができない場合があります。",
+        "休館日 : 日曜・祝日・館内整理日(原則月末)・年末年始・休業期間中の土曜日(ホームページカレンダーでご確認ください)",
+        "ILLStaff: Ms. Okada(DD,ILL order),Ms.Oshima(DD accept), Ms.Yamauchi(ILL order),Ms.Ichijo(ILL accept)",
+        "ILL-Dept:Public Service Section",
+        "ILL-Org:Osaka Kyoiku University Library",
+        "ILL-Address:4-698-1, Asahigaoka, Kashiwara, Osaka, JAPAN",
+        "ILL-Zip: 582-8582",
+        "ILL-Commun1: Fax:+81-72-978-1190",
+        "EMAIL:lib-service@bur.osaka-kyoiku.ac.jp",
+        "ILL-Commun2:Home-page:https://www.lib.osaka-kyoiku.ac.jp",
+        "ILL-Accept:Foreign(1): OCLC(NII-OCLC link) : [OSAKA] / Foreign(2): KERIS",
+        "ILL-Bill:Foreign: Foreign(1): OCLC = OCLC-IMF only / Foreign(2): KERIS = NII Fee Management Service only",
+        "Closed: Dec. 27 - Jan. 4",
+        "ILL-Loan=Foreign(1): Period: 6weeks / Foreign(2): NA",
+        "ILL-Loan-Renew: Foreign(1): 2weeks / Foreign(2): NA",
+        "ILL-Loan-Charge:Foreign(1): Postage required. Delivery method: via airmail / Foreign(2): NA",
+        "ILL-Non-Circulation:Special collection, mcrfrm, mcrfch, ref, per, news, a-v.",
+        "ILL-Copy-Charge:Photocopy:Foreign(1): 40 YEN per sheet. Postage and a 500 YEN charge required. Delivery method: via airmail",
+        "ILL-Copy-Charge:Photocopy:Foreign(2): 40 YEN per sheet. Postage required. Delivery method: via airmail",
+        "ILL-Note:Only the items held at the Main Library are available. THESIS: Photocopy: need the author's permission.",
+        "ILL-OCLC-Symbol:OSAKA"
+      ]
+    }
+  ]
+}

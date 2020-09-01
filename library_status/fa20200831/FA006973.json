@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006973.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006973#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006973.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京工芸大学 図書館"
+        },
+        {
+          "@value": "トウキョウコウゲイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東工芸大"
+        },
+        {
+          "@value": "トウコウゲイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "中央",
+        "中野"
+      ],
+      "cinii:memberid": "FA006973",
+      "cinii:organizationid": "KI00292X",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京工芸大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "243-0297",
+        "v:label": "神奈川県厚木市飯山1583"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "046-242-9501"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "046-242-3546"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Polytechnic University (TPU)",
+        "Atsugi Campus:1583, Iiyama, Atsugi, Kanagawa, 243-0297, Japan",
+        "Nakano Campus:2-9-5, Honcho, Nakano-ku, Tokyo, 164-8678, Japan",
+        "URL:http://www.t-kougei.ac.jp/library/(URL)",
+        "URL:http://www.t-kougei.ac.jp/access/",
+        "来館利用担当:閲覧係",
+        "電話番号:046-242-9501",
+        "FAX番号:046-242-3546",
+        "EMAIL:toshokan.all@office.t-kougei.ac.jp",
+        "受付時間:開館～閉館10分前",
+        "複写時間:開館～閉館10分前",
+        "注意事項:資料の所在等、事前確認をして下さい。(利用可能者についてはHP参照)",
+        "持参資料:紹介状、身分証明証(私工大懇話会加盟大学は学生証)",
+        "館外貸出:不可(私工大懇話会加盟大学所属者は除く)",
+        "休館日:日曜・祝日・年末年始・その他休館日(図書館カレンダー参照)",
+        "配置コードの「中央」は厚木キャンパス中央図書館、「中野」は中野キャンパス中野図書館。",
+        "制限事項:別置区分が「教員研究室」である図書は閲覧、複写不可"
+      ]
+    }
+  ]
+}

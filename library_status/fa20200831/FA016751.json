@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016751.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016751#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016751.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "舞鶴工業高等専門学校 図書館"
+        },
+        {
+          "@value": "マイヅルコウギヨウコウトウセンモンガツコウ トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "舞高専"
+        },
+        {
+          "@value": "マイコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016751",
+      "cinii:organizationid": "KI009394",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "602800",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "舞鶴工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "625-8511",
+        "v:label": "舞鶴市字白屋234番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0773-62-8863"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0773-62-8876"
+        }
+      ],
+      "dc:description": [
+        "Maizuru National College of Technology",
+        "234,Shiroya,Maizuru,Kyoto 652-8511 Japan",
+        "URL:http://www.maizuru-ct.ac.jp",
+        "URL:http://web.maizuru-ct.ac.jp/tosyo/ (library)",
+        "来館利用担当:学術情報係",
+        "電話番号:0773-62-8863",
+        "開館時間:月曜日〜金曜日 8:30〜21:00 (ただし、春季・夏季・冬季及び学年末の長期休業期間中は、17:00まで)",
+        "夏期・冬期の蔵書点検作業中は臨時に閉館することがある。",
+        "開館時間:土曜日 13:00〜18:00(ただし、春季・夏季・冬季及び学年末の長期休業期間中は閉館)",
+        "持参書類:身分を証明できるもの(運転免許証,保険証,学生証,生徒手帳等)",
+        "館外貸出:本校学生1人5冊・2週間以内 一般市民1人3冊・2週間以内",
+        "貸出しできない資料:事典・辞典・ハンドブツク等の参考図書及び雑誌の最新号・AV資料、研究室付けの図書及び雑誌",
+        "休館日:日曜日,国民の祝日,年末年始(12月28日〜1月4日)・臨時休館日"
+      ]
+    }
+  ]
+}

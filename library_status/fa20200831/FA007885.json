@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007885.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007885#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007885.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪樟蔭女子大学 図書館"
+        },
+        {
+          "@value": "オオサカショウインジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "樟蔭女"
+        },
+        {
+          "@value": "ショウインジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "小阪",
+        "関屋"
+      ],
+      "cinii:memberid": "FA007885",
+      "cinii:organizationid": "KI003638",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪樟蔭女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "577-8550",
+        "v:label": "大阪府東大阪市菱屋西4-2-26"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6723-8182"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6723-8387"
+        }
+      ],
+      "dc:description": [
+        "Osaka Shoin Women's University Library",
+        "4-2-26 Hishiyanishi, Higashiosaka-shi, Osaka JAPAN",
+        "URL: http://lib.osaka-shoin.ac.jp/",
+        "来館利用担当:相互利用係",
+        "TEL:06-6723-8182",
+        "FAX:06-6723-8387",
+        "来館利用について:事前に所属機関の図書館または公共図書館を通じてFAXにてお問い合わせ下さい",
+        "持参書類:所蔵調査の回答、身分証明書",
+        "入館受付時間:平日10:00-16:30 / 土曜日・休業期間中開館日-15:00まで",
+        "利用時間:  平日10:00-19:00 / 土曜日・休業期間中開館日-16:30まで",
+        "休館日: 図書館ホームページ「開館カレンダー」をご覧ください"
+      ]
+    }
+  ]
+}

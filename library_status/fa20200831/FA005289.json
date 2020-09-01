@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005289.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005289#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005289.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "駒澤大学 図書館"
+        },
+        {
+          "@value": "コマザワダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "駒大"
+        },
+        {
+          "@value": "コマダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005289",
+      "cinii:organizationid": "KI002056",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "駒澤大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "154-8525",
+        "v:label": "東京都世田谷区駒沢1-23-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3418-9165"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3418-9162"
+        }
+      ],
+      "dc:description": [
+        "Komazawa University",
+        "1-23-1, Komazawa, Setagaya-ku Tokyo, 154-8525",
+        "URL:https://www.komazawa-u.ac.jp/facilities/library",
+        "来館利用担当:情報サービス係 レファレンス",
+        "電話番号:03-3418-9165",
+        "受付時間:9:00〜12:30/13:30〜16:50(土曜日 9:00〜11:50)",
+        "注意事項:開館日、時間等は当館HPにて事前にご確認下さい。車での来館は、ご遠慮下さい。",
+        "注意事項:資料の所在(配架場所)は必ず当館OPACにて事前確認をして下さい。",
+        "持参書類:紹介状(1日に付き1通)と身分を証明するものを携行のこと",
+        "複写時間:9:00〜21:50",
+        "館外貸出:不可",
+        "制限事項:一部資料については、禁複製等利用制限があります。",
+        "休館日 : 日曜日・祝祭日、入学試験(2月3日〜8日、3月6〜7日)、4/1、夏季の土曜日及び8月中旬の一定期間、年末年始の一定期間",
+        "注記: 業務の都合上、休館又は、開館時間を変更する場合がある。",
+        "ILL-Staff:Michiko Kashima",
+        "ILL-Dept:Reference Section",
+        "ILL-Org:Komazawa University Library",
+        "ILL-Address:1-23-1 Komazawa, Setagaya-ku, Tokyo, JAPAN",
+        "ILL-Zip:154-8525",
+        "ILL-Contact1:Fax:+81-3-3418-9162 / E-mail:reference@komazawa-u.ac.jp",
+        "ILL-Contact2:OPAC:http://wwwopac.komazawa-u.ac.jp/  Website:https://www.komazawa-u.ac.jp/facilities/library",
+        "ILL-Calender:Closed: Aug11-Aug19 , Dec23-Jan6",
+        "ILL-Accept:International: LOAN:Yes(Traceable courier with insurance Only)",
+        "ILL-Accept:International: COPY:Yes(Traceable courier with insurance Only)",
+        "ILL-Accept-method:OCLC:WSILL: SYMBOL  JA4YG",
+        "ILL-Payment-method:International:Invoice: N/A",
+        "ILL-Payment-method:International:IFLA Voucher: N/A",
+        "ILL-Payment-method:International:Credit Card : N/A",
+        "ILL-Payment-method:International:OCLC-IFM: Yes",
+        "ILL-Payment-method:International: KERIS=NII Fee Management service :N/A",
+        "ILL-Loan-Period: 6 weeks",
+        "ILL-Loan-Item-Max: 5",
+        "ILL-Renewal: N/A",
+        "ILL-Copy-Charge: 40 JPY (black and white)/100 JPY (color) per sheet, Postage required",
+        "ILL-Copy-Delivery-method:Airmail"
+      ]
+    }
+  ]
+}

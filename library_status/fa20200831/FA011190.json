@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011190.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011190#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011190.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "紙の博物館 図書室"
+        },
+        {
+          "@value": "カミノハクブツカン トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "紙博"
+        },
+        {
+          "@value": "カミハク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "書庫"
+      ],
+      "cinii:memberid": "FA011190",
+      "cinii:organizationid": "KI006363",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "紙の博物館 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "114-0002",
+        "v:label": "東京都北区王子1丁目1番3号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3916-2320"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5907-7511"
+        }
+      ],
+      "dc:description": [
+        "Papermuseum",
+        "1-1-3, Oji, Kita-Ku, Tokyo 114-0002 Japan",
+        "URL:http://www.papermuseum.jp",
+        "URL:http://www.papermuseum.jp/guide.htm",
+        "来館利用担当:図書係",
+        "電話番号:03-3916-2320",
+        "受付時間:10:00〜17:00",
+        "注意事項:12:00〜13:00は閉室、開室日を確認してください。博物館入館料が必要。",
+        "複写時間:10:00〜12:00/13:00〜16:30",
+        "館外貸出:不可",
+        "制限事項:貴重図書、劣化本には閲覧を許可しないものがある。",
+        "休館日:博物館の休館日、火曜日、水曜日、臨時休室日。",
+        "速達不可",
+        "ILL加盟機関の発行物の複写は原則発行機関にてお願いします。"
+      ]
+    }
+  ]
+}

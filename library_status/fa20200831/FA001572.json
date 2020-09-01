@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001572.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001572#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001572.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山形大学 工学部図書館"
+        },
+        {
+          "@value": "ヤマガタダイガク コウガクブトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "山形大工"
+        },
+        {
+          "@value": "ヤマガタダイコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA001572",
+      "cinii:organizationid": "KI000130",
+      "cinii:prefcode": "06",
+      "cinii:mextid": "001302",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "山形大学 工学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "992-8510",
+        "v:label": "米沢市城南4-3-16"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0238-26-3019(DI)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0238-26-3408"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org: Engineering Library of Yamagata University",
+        "ILL-Address: 4-3-16,Jonan,Yonezawa-Shi,Yamagata,Japan",
+        "ILL-ZIP: 992-8510",
+        "ILL-Commun1:Tel:+81-0238-26-3019 /FAX:+81-0238-26-3408 / E-mail:koutosyo@jm.kj.yamagata-u.ac.jp",
+        "URL:http://www.lib.yamagata-u.ac.jp/yztop/",
+        "電話番号:0238-26-3019",
+        "受付時間:開館時間における終了時刻の15分前まで",
+        "来館利用担当:図書情報担当",
+        "持参書類:身分を証明できるもの",
+        "館外貸出::県内在住者または県内に通勤通学している方のみ貸出可(但し利用証発行後で3冊,3週間以内)",
+        "制限事項:研究室備付け資料は閲覧不可,研究室備付け図書,雑誌,参考図書,学位論文は貸出不可",
+        "休館日:学生休業中の土・日曜日,祝日及び夏期休業時・年末年始・臨時の休館日"
+      ]
+    }
+  ]
+}

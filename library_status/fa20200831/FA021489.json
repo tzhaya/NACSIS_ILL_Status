@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021489.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021489#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021489.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "別府溝部学園短期大学 図書館"
+        },
+        {
+          "@value": "ベツプミゾベガクエンタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "溝短"
+        },
+        {
+          "@value": "ミゾタン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA021489",
+      "cinii:organizationid": "KI012865",
+      "cinii:prefcode": "44",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "別府溝部学園短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "874-8567",
+        "v:label": "大分県別府市亀川中央町"
+      }
+    }
+  ]
+}

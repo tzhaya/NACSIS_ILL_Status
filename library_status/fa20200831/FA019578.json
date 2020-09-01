@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019578.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019578#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019578.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "一橋大学 千代田キャンパス図書室"
+        },
+        {
+          "@value": "ヒトツバシダイガク チヨダキャンパストショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "一橋千代田"
+        },
+        {
+          "@value": "ヒトツバシチヨダ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019578",
+      "cinii:organizationid": "KI000334",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "003303",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "一橋大学 千代田キャンパス図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "101-8439",
+        "v:label": "東京都千代田区一ツ橋 2-1-2 学術総合センター"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-4212-3014"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-4212-3006"
+        }
+      ],
+      "dc:description": [
+        "来館利用担当:情報資料係",
+        "電話番号:03-4212-3014",
+        "注意事項:来館前に電話で時間をご確認ください。",
+        "ILL-Org: Chiyoda Campus Library, Hitotsubashi University",
+        "ILL-Address: 2-1-2, Hitotsubashi, Chiyoda-ku, Tokyo, JAPAN",
+        "ILL-ZIP: 101-8439",
+        "ILL-Commun1: Tel:+81-03-4212-3014 /FAX:+81-03-4212-3006 / E-mail:cyd-lib-ml@ad.hit-u.ac.jp"
+      ]
+    }
+  ]
+}

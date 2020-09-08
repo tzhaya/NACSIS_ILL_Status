@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021467.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021467#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021467.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立看護大学校 図書館"
+        },
+        {
+          "@value": "コクリツカンゴダイガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国立看護大"
+        },
+        {
+          "@value": "コクリツカンゴダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA021467",
+      "cinii:organizationid": "KI012854",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立看護大学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "204-8575",
+        "v:label": "東京都清瀬市梅園1-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-495-2751(直通)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-495-2769(直通)"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Library of National College of Nursing",
+        "ILL-Address:1-2-1 Umezono, Kiyose-shi, Tokyo, Japan",
+        "ILL-ZIP:204-8575",
+        "URL:http://www.ncn.ac.jp/library/index.html (website)",
+        "URL:library@ncn.ac.jp(mail)",
+        "複写担当係 : 相互貸借担当",
+        "複写方法・料金 : 電子複写(白黒1枚50円、カラー不可)",
+        "複写注記 : 相殺参加館のみ受付(相殺未参加は支払いの都合上、謝絶します)",
+        "速達は受付ますが、基本午前中のみ当日発送。午後当日発送ご希望の場合は電話で確認のこと。",
+        "貸借担当係 : 相互貸借担当",
+        "貸借期間 : 20日間(郵送日数を含む)",
+        "貸借冊数 : 2冊",
+        "貸借注記 : 貸借期間延長不可(必要なときは電話にてご確認ください)",
+        "閲覧担当者 : 閲覧担当(図書館カウンター)",
+        "閲覧についての詳細は図書館HPをご覧ください。",
+        "http://www.ncn.ac.jp/library/index.html",
+        "休館日 : 土曜日・日曜日・国民の休日・年末年始・本学開校記念日・入試期間・蔵書点検期間等"
+      ]
+    }
+  ]
+}

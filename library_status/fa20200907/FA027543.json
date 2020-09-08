@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027543.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027543#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027543.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公益財団法人 石橋財団 アートリサーチセンター"
+        },
+        {
+          "@value": "コウエキザイダンホウジン イシバシザイダン アートリサーチセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "石橋財団"
+        },
+        {
+          "@value": "イシバシザイダン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "ARC",
+        "ATZ"
+      ],
+      "cinii:memberid": "FA027543",
+      "cinii:organizationid": "KI025197",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "公益財団法人 石橋財団 アートリサーチセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "194-0215",
+        "v:label": "東京都町田市小山ヶ丘2-1-14"
+      },
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3561-2130"
+        }
+      ],
+      "dc:description": [
+        "開室日時:木曜日 13:00-16:00 (入室は15:30まで)※年末年始、祝日、整理機関は休室となります。",
+        "利用制限:学芸員、大学・研究機関等の研究員、大学生・大学院生等の研究目的に限ります。",
+        "利用方法:事前予約制。",
+        "その他詳細や予約方法については、石橋財団アーティゾン美術館ホームページ内、アートリサーチセンターライブラリー ウェブページをご確認ください。",
+        "www.artizon.museum/arc/library/",
+        "注意事項:閲覧場所は石橋財団アートリサーチセンター(東京都町田市)となります。",
+        "貸出はできません。郵送複写は行っておりません。",
+        "図書館間現物貸借サービス、複写サービス、FAXサービスは行っておりません。",
+        "NACSIS-Web catで表示される資料でも閲覧できない場合があります。詳しくは、お電話でお問い合わせください。",
+        "蔵書検索:http://opac.artizon.museum/"
+      ]
+    }
+  ]
+}

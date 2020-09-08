@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008593.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008593#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008593.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "広島経済大学 図書館"
+        },
+        {
+          "@value": "ヒロシマケイザイダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "広経大"
+        },
+        {
+          "@value": "ヒロケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008593",
+      "cinii:organizationid": "KI004142",
+      "cinii:prefcode": "34",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "広島経済大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "731-0192",
+        "v:label": "広島県広島市安佐南区祇園5-37-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "082-871-1662"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "082-871-1499"
+        }
+      ],
+      "dc:description": [
+        "参加組織名称:Library,Hiroshima University of Economics (HUE)",
+        "住所:Gion 5-37-1, Asaminami-ku, Hiroshima 731-0192",
+        "URL:http://www.hue.ac.jp/library/ (website)",
+        "URL:http://www.hue.ac.jp/access.html (map)",
+        "来館利用担当:閲覧係",
+        "電話番号:082-871-1662",
+        "受付時間: 平日 9:00-20:30 土曜日 9:00-16:30 (休業中は変更あり)",
+        "注意事項:ホームページで開館日・開館時間を確認のうえご来館ください",
+        "注意事項:車での来館はご遠慮ください (ホームページ上のMAP参照)",
+        "持参書類:身分証明のできるもの (学外者利用登録のため)",
+        "利用受付時間:9:00-20:30 (土曜日は9:00-16:30)",
+        "館外貸出:可(学外者利用登録をすること)",
+        "制限事項:個人研究用図書、知の系譜文庫(貴重書)の利用はできません",
+        "休館日:日曜日、国民の祝日、入学式(4/1)、盆休業(8/14-16)、年末年始休業(12/29-1月3日頃)、創立記念日(1/23)、大学入試日、 学位記授与式(3月17日)、その他 図書整理日 ほか"
+      ]
+    }
+  ]
+}

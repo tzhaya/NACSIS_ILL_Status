@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA027714.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA027714#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA027714.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公立小松大学 附属図書館"
+        },
+        {
+          "@value": "コウリツコマツダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "小松大"
+        },
+        {
+          "@value": "コマツダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "中央",
+        "末広",
+        "粟津"
+      ],
+      "cinii:memberid": "FA027714",
+      "cinii:organizationid": "KI025346",
+      "cinii:prefcode": "17",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "公立小松大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "923-0921",
+        "v:label": "石川県小松市土居原町10-10"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0761-48-3260"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0761-48-3248"
+        }
+      ],
+      "dc:description": [
+        "Komatsu University Library",
+        "Central Library: 10-10 Doihara-machi, Komatsu, Ishikawa 923-0921",
+        "URL:https://www.komatsu-u.ac.jp/about/facilities/library/ (WEBSITE)",
+        "URL:https://opac-web.komatsu-u.ac.jp/opac4/opac/Top (OPAC)",
+        "開館時間:平日9:00～20:00・土曜9:00～17:00(長期休業中は平日9:00～17:00・土曜閉館)",
+        "休館日:日曜日・祝日・夏季一斉休業日・年末年始・その他",
+        "閲覧対象者:どなたでもご利用いただけます。",
+        "一般貸出対象者:小松市・加賀市・能美市・川北町在住・通勤・通学者(身分証確認で利用証発行、要発行手数料)",
+        "一般貸出:3冊2週間",
+        "E-MAIL:library@komatsu-u.ac.jp"
+      ]
+    }
+  ]
+}

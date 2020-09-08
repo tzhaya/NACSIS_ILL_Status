@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003330.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003330#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003330.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "徳島大学 附属図書館 蔵本分館"
+        },
+        {
+          "@value": "トクシマダイガク フゾクトシヨカン クラモトブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "徳大蔵"
+        },
+        {
+          "@value": "トクダイクラ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003330",
+      "cinii:organizationid": "KI000742",
+      "cinii:prefcode": "36",
+      "cinii:mextid": "006401",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "徳島大学 附属図書館 蔵本分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "770-8508",
+        "v:label": "徳島市蔵本町3-18-15"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "088-633-7415"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "088-633-7412"
+        }
+      ],
+      "dc:description": [
+        "Life Sciences Library, University of Tokushima",
+        "3-8-15, Kuramoto-cho, Tokushima-shi, Tokushima-ken 770-8508",
+        "URL:http://www.lib.tokushima-u.ac.jp/"
+      ]
+    }
+  ]
+}

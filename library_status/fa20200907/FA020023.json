@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020023.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020023#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020023.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京医科大学 図書館 八王子医療センター分館"
+        },
+        {
+          "@value": "トウキョウイカダイガク トショカン ハチオウジイリョウセンターブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東医大八王子"
+        },
+        {
+          "@value": "トウイダイハチオウジ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA020023",
+      "cinii:organizationid": "KI00233X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京医科大学 図書館 八王子医療センター分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "193-0998",
+        "v:label": "八王子市館町1163 東京医科大学八王子医療センター内"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-665-5611"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-666-0551"
+        }
+      ],
+      "dc:description": [
+        "http://library.tokyo-med.ac.jp/(Website)",
+        "開館時間:月曜日-金曜日 9:00-17:10  第1,3,5週土曜日 9:00-12:10",
+        "休館日:日曜、祝日、第2,4週土曜日、年末年始、創立記念日(4月13日)",
+        "利用対象:本学関係者のみ。",
+        "図書館間相互利用による受付可否:複写のみ可。八王子所蔵分は本館(西新宿)へご依頼ください。",
+        "1回の申込は5件まで。",
+        "支払方法:相殺参加館は相殺、非参加館は郵便振替",
+        "注意事項:東京医科大学図書館は4キャンパスに分かれており、所蔵図書により、所在地が異なりますのでご注意ください。",
+        "図書館間相互利用(複写申込)は受付可能です。所属する機関の図書館や資料室等にご相談ください。"
+      ]
+    }
+  ]
+}

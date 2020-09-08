@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021784.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021784#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021784.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "富山短期大学 付属図書館"
+        },
+        {
+          "@value": "トヤマタンキダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "富短大"
+        },
+        {
+          "@value": "トミタンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021784",
+      "cinii:organizationid": "KI013074",
+      "cinii:prefcode": "16",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "富山短期大学 付属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "930-0193",
+        "v:label": "富山市願海寺水口444"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "(076)436-5163"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "(076)436-2947"
+        }
+      ],
+      "dc:description": [
+        "複写料金:40円(白黒のみ)/枚",
+        "複写支払方法:ILL文献複写等料金相殺サービスによる。非相殺参加館=郵便為替(定額小為替)・現金書留・送料は切手にて",
+        "貸借支払方法:ILL文献複写等料金相殺サービスによる。非相殺参加館=郵便為替(定額小為替)・現金書留・送料は切手にて",
+        "制限事項:雑誌、参考図書、研究室所在の図書の貸出不可",
+        "URL:http://www.toyama-c.ac.jp/library/index.html",
+        "受付時間:9:00～17:00",
+        "休館日:土曜日、日曜日、祝日、年末年始"
+      ]
+    }
+  ]
+}

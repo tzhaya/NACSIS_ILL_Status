@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002702.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002702#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002702.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 工学部"
+        },
+        {
+          "@value": "キョウトダイガク コウガクブ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大工"
+        },
+        {
+          "@value": "キョウダイコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "建築系",
+        "電気系",
+        "共通図",
+        "物理系",
+        "吉田化学系",
+        "地球系"
+      ],
+      "cinii:memberid": "FA002702",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004808",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "京都大学 工学部",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "615-8530",
+        "v:label": "京都府京都市西京区京都大学桂"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-383-3571"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-383-3576"
+        }
+      ],
+      "dc:description": [
+        "Fuculty of Engineering Library, Kyoto University",
+        "Yoshida-Honmachi, Sakyo-ku, Kyoto 606-8501",
+        "URL:http://www.t.kyoto-u.ac.jp/lib/ja (website)",
+        "URL:http://www.kulib.kyoto-u.ac.jp/modules/map/index.php?content_id=8 (map)",
+        "ILL複写受付可否:可(他の窓口で受け付ける)",
+        "ILL複写受付窓口:京都大学 桂図書館 利用支援掛(FA022120)",
+        "ILL複写貸借可否:可(他の窓口で受け付ける)",
+        "ILL複写貸借窓口:京都大学 桂図書館 利用支援掛(FA022120)",
+        "受付時間:9:00-17:00",
+        "注意事項:資料は、各図書室と研究室及び附属図書館で分散所蔵しています。",
+        "注意事項:閲覧に際しては、資料の所在等を事前に確認してください。",
+        "注意事項:資料についてのお問い合わせは、担当図書室にお願いします。",
+        "電話番号:075-383-3571(共通図)",
+        "EMAIL: 090stosho@mail2.adm.kyoto-u.ac.jp(共通図)",
+        "電話番号:075-753-5118(地球系)",
+        "EMAIL: 090tlib@mail2.adm.kyoto-u.ac.jp(地球系)",
+        "電話番号:075-753-5761(建築系)",
+        "EMAIL:090archilib@mail2.adm.kyoto-u.ac.jp(建築系)",
+        "電話番号:075-753-5187(物理系)",
+        "EMAIL: 090physlib@mail2.adm.kyoto-u.ac.jp(物理系)",
+        "電話番号:075-753-5360(電気系)",
+        "EMAIL: library@kuee.kyoto-u.ac.jp(電気系)",
+        "電話番号:075-753-5556(吉田化学系)",
+        ":EMAIL: ktosyo@sbchem.kyoto-u.ac.jp(吉田化学系)",
+        "注意事項:臨時に閉室することがありますので、事前にお問い合わせください。",
+        "館外貸出:学外者の方への館外貸出はできません。一時帯出が可能な資料がありますので、各図書室にご確認ください。",
+        "制限事項:次に該当する資料には、閲覧できないものがあります。:「情報公開法」に定める公開対象外情報が記載された資料/非公開を条件に寄贈または寄託されている資料/破損や汚損のおそれがある資料/現在利用中の資料",
+        "制限事項:図書室資料の複写及び書庫内資料、貴重資料の閲覧には、所定の手続きが必要です。",
+        "休室日:土曜日・日曜日・国民の祝日・年末年始・本学創立記念日(6月18日)・8月第3週の月曜日から水曜日・その他"
+      ]
+    }
+  ]
+}

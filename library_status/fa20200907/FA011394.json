@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011394.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011394#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011394.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "公益財団法人 後藤・安田記念東京都市研究所 市政専門図書館"
+        },
+        {
+          "@value": "コウエキザイダンホウジン ゴトウ・ヤスダキネントウキョウトシケンキュウショ シセイセンモントショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "市政図"
+        },
+        {
+          "@value": "シセイト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011394",
+      "cinii:organizationid": "KI006545",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "公益財団法人 後藤・安田記念東京都市研究所 市政専門図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "100-0012",
+        "v:label": "東京都千代田区日比谷公園1-3 市政会館内"
+      }
+    }
+  ]
+}

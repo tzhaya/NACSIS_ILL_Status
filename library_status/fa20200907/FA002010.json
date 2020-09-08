@@ -1,0 +1,170 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002010.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002010#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002010.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "一橋大学 附属図書館"
+        },
+        {
+          "@value": "ヒトツバシダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "一橋"
+        },
+        {
+          "@value": "ヒトツバシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "古典",
+        "図・X",
+        "図・Miura",
+        "図・Muramatsu",
+        "図・Nishikawa",
+        "図・TOKEI",
+        "図・Uyeda",
+        "図・Yamauchi",
+        "図・Tsuchiya",
+        "図・本館分類",
+        "図・分館分類",
+        "図・コード分類",
+        "図・Aoyama",
+        "図・Carnegie",
+        "図・Europe",
+        "図・Fujii",
+        "図・J.S.",
+        "図・Kosaka",
+        "図・Lexis",
+        "図・Moeller",
+        "図・Murase",
+        "図・Nakayama",
+        "図・NARUMI",
+        "図・OECD",
+        "図・Otsuka",
+        "図・Sano",
+        "図・Toike",
+        "図・Yamanaka",
+        "図・Ris",
+        "図・Fukazawa",
+        "図・Rachi",
+        "図・Spain",
+        "図・EDC",
+        "図・Brecy",
+        "図・E.Eur",
+        "図・ISH",
+        "図・Fos.",
+        "図・Kishino",
+        "図・Obase",
+        "図・Aoki",
+        "図・Suga",
+        "図・高本",
+        "図・Nakauchi",
+        "図・Takeshita",
+        "図・Welfare",
+        "図・IIR分類",
+        "電子",
+        "小平",
+        "図・傘寿",
+        "図・Akimoto",
+        "小平IIR"
+      ],
+      "cinii:memberid": "FA002010",
+      "cinii:organizationid": "KI000334",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "003300",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "一橋大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "186-8602",
+        "v:label": "国立市中2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-580-8230(ILL受付)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "042-580-8241(ILL依頼)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-580-8251"
+        }
+      ],
+      "dc:description": [
+        "来館担当係:利用者サービス係",
+        "電話番号:042-580-8237 (平日:9:00〜17:00)",
+        "授業期開館時間: (月〜金):開架 8:40〜22:00, 雑誌棟 8:40〜21:30, 閉架 9:00〜16:45",
+        "授業期開館時間: (土,日,祝):開架 9:30〜20:00, 雑誌棟 9:30〜19:30",
+        "休業期開館時間: (月〜金):開架 8:40〜19:00, 雑誌棟 8:40〜18:30, 閉架 9:00〜16:45",
+        "休業期開館時間: (土,日,祝):開架 9:30〜19:00, 雑誌棟 9:30〜18:30",
+        "注意事項:小平研究保存図書館収蔵資料については、遠隔地保管のため、事前にお問合せください。",
+        "注意事項:車での来館はご遠慮下さい。",
+        "複写・参考調査担当係:レファレンス係",
+        "電話番号:042-580-8241 (平日:9:00〜17:00 ※土日祝日および休館日は、お申込み・お問合せに対応できません。)",
+        "複写受付時間:9:00〜12:00,13:00〜16:30",
+        "館外貸出:不可",
+        "休館日:学部入学試験日,大学入試センター試験日,年末年始(12/27〜1/4),館内整理日(不定期),一橋祭期間中",
+        "URL:https://www.lib.hit-u.ac.jp/  (website)",
+        "URL:https://www.hit-u.ac.jp/guide/campus/access.html  (map)",
+        "ILL-Staff:Ayako NAGAI, Kumiko TERASHIMA, Tomomi OJIRO",
+        "ILL-Dept:Interlibrary Loan Unit",
+        "ILL-Org:Hitotsubashi University Library",
+        "ILL-Address:2-1 Naka, Kunitachi-shi, Tokyo, JAPAN",
+        "ILL-ZIP:186-8602",
+        "ILL-Contact1:Tel:+81-42-580-8241 / Fax:+81-42-580-8251 / E-mail:lib-ill@ad.hit-u.ac.jp",
+        "ILL-Contact2: OPAC:https://opac.lib.hit-u.ac.jp/opac/",
+        "ILL-Sched:Closed:Dec 27-Jan 4",
+        "ILL-Accept: International: LOAN: No (If there is no other holders, contact us. Traceable courier with insurance Only.)",
+        "ILL-Accept: International: COPY: No (If there is no other holders, contact us.)",
+        "ILL-Accept-method: Korea: KERIS=NII ILL Linkage(COPY only)",
+        "ILL-Accept-method: International: E-mail: lib-ill@ad.hit-u.ac.jp",
+        "ILL-Payment-method: International: Invoice: Yes",
+        "ILL-Payment-method: International: Bank Transaction: N/A",
+        "ILL-Payment-method: International: IFLA Voucher: N/A",
+        "ILL-Payment-method: International: Credit Card: N/A",
+        "ILL-Payment-method: International: KERIS=NII Fee Management service: Yes",
+        "ILL-Loan-Period:6 weeks",
+        "ILL-Loan-Item-Max: 2",
+        "ILL-Loan-Renewal: N/A",
+        "ILL-Loan-Charge: Postage only",
+        "ILL-Loan-Delivery-method: Tracked system",
+        "ILL-Non-Circulation-items: Special collection, mcrfrm, mcrfch, ref, per, news, a-v, DIS, pre-1950 publications",
+        "ILL-Copy-Charge: 40 JPY per sheet and Postage",
+        "ILL-Copy-Delivery-method: Airmail",
+        "ILL-Note: Only the items held at the Main Library are available. DIS:Photocopy: need the author's permission"
+      ]
+    }
+  ]
+}

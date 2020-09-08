@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA009042.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA009042#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA009042.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "熊本学園大学 図書館"
+        },
+        {
+          "@value": "クマモトガクエンダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "熊学大"
+        },
+        {
+          "@value": "クマガクダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009042",
+      "cinii:organizationid": "KI004506",
+      "cinii:prefcode": "43",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "熊本学園大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "862-8680",
+        "v:label": "熊本県熊本市中央区大江2-5-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "096-371-8047"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "096-362-5967"
+        }
+      ],
+      "dc:description": [
+        "Kumamoto Gakuen University Library",
+        "2-5-1, Oe, Chuo-ku, Kumamoto 862-8680",
+        "URL:http://www.lib.kumagaku.ac.jp/",
+        "来館利用担当:閲覧係",
+        "電話番号:096-364-5161 (内線1701)",
+        "受付時間:(月～土) 9:00 ～21:00 (日)10:00～16:00",
+        "注意事項:必ず事前に電話で連絡してください。車での来館はご遠慮下さい。",
+        "持参書類:資料利用依頼書(身分を証明するものを携行してください。)",
+        "複写時間:(月～土) 9:00～21:00 (日)10:00～16:00",
+        "館外貸出:可",
+        "制限事項:貴重図書、参考図書および雑誌・コレクションの貸出は不可",
+        "休館日:国民の祝休日・夏期一斉休業(8月中旬)・年末年始休業・創立記念日(5/30)・入学試験日・年度末処理日(3/31)"
+      ]
+    }
+  ]
+}

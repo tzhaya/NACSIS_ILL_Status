@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA007808.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA007808#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA007808.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大阪経済大学 図書館"
+        },
+        {
+          "@value": "オオサカケイザイダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大経大"
+        },
+        {
+          "@value": "ダイケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "企",
+        "経"
+      ],
+      "cinii:memberid": "FA007808",
+      "cinii:organizationid": "KI00357X",
+      "cinii:prefcode": "27",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "大阪経済大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "533-8533",
+        "v:label": "大阪府大阪市東淀川区大隅2-2-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "06-6328-2431"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "06-6328-9350"
+        }
+      ],
+      "dc:description": [
+        "The Library,Osaka University of Economics",
+        "2-2-8,Osumi,Higashiyodogawa-ku,Osaka 533-8533",
+        "URL: http://www.osaka-ue.ac.jp/research/library/ (Website)",
+        "OPAC: https://opac.osaka-ue.ac.jp/drupal/",
+        "来館利用担当: 相互利用係",
+        "電話番号: 06-6328-2431 内線4406",
+        "FAX番号: 06-6328-9350",
+        "閲覧受付時間: 通常8:45～21:30開館時は9:00～21:00、その他短縮開館時は個別に設定",
+        "複写受付時間: 同上",
+        "学外者の利用について",
+        "注意事項: 一般利用の方は、年に二回(春・秋)一般利用登録の受付を行っています。詳細は図書館HPの「お知らせ」をご確認下さい。",
+        "注意事項: 他大学・研究機関所属の方は、所属機関の図書館を通じてお申込み下さい。",
+        "持参書類: 所蔵調査の回答、身分証明書、紹介状(阪神地区協議会加盟館は不要)",
+        "注意事項: 車での来館はご遠慮下さい。",
+        "閲覧受付時間: 通常8:45～21:30開館時は9:00～21:00、その他短縮開館時は個別に設定",
+        "複写受付時間: 同上",
+        "休館日: 第2、第4日曜日以外の日曜日、祝日、夏季・冬季休暇中、入学試験日等、図書館ホームページ「図書館カレンダー」をご確認下さい。",
+        "当館は、2006年4月1日よりILL料金相殺サービスに加入しました。",
+        "ILL-Staff:Motoki,Ueda,Nishimura,Okumura",
+        "ILL-Dept:Interlibrary Loan Sec.",
+        "ILL-Org:The Library,Osaka University of Economics",
+        "ILL-Address:2-2-8,Osumi,Higashiyodogawa-ku,Osaka,Japan",
+        "ILL-ZIP:533-8533",
+        "ILL-Commun1: Tel.+81-6-6328-2431/FAX.+81-6-6328-9350 E-mail:library@osaka-ue.ac.jp",
+        "ILL-Commun2:Home-Page: http://www.osaka-ue.ac.jp/research/library/",
+        "ILL-Commun3:OPAC: https://opac.osaka-ue.ac.jp/drupal/",
+        "ILL-Accept:",
+        "ILL-Sched:Closed: Sunday,Holidays,summer holidays,winter holidays",
+        "ILL-Bill:",
+        "ILL-Loan-Period:None",
+        "ILL-Loan-Renew:N/A",
+        "ILL-Loan-Charge:",
+        "ILL-Non-Circulation:",
+        "ILL-Copy-Charge:",
+        "ILL-OCLC-Symbol:"
+      ]
+    }
+  ]
+}

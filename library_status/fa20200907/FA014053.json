@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014053.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014053#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014053.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都立大学 図書館 日野館"
+        },
+        {
+          "@value": "トウキョウトリツダイガク トショカン ヒノカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "都立大日野"
+        },
+        {
+          "@value": "トリツダイヒノ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA014053",
+      "cinii:organizationid": "KI001009",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京都立大学 図書館 日野館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "191-0065",
+        "v:label": "東京都日野市旭が丘6-6"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-585-8614"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-583-5026"
+        }
+      ],
+      "dc:description": [
+        "System Design Library, Tokyo Metropolitan University",
+        "6-6 Asahigaoka, Hino-city, TOKYO 191-0065",
+        "URL:https://www.lib.tmu.ac.jp/",
+        "閲覧対象者 :教職員,大学院生,学部生,都内在住・在勤",
+        "閲覧持参書類 :身分証明書,紹介状",
+        "開館時間 :平日9:00〜20:30(休業期間・全学休講日9:00〜17:00)",
+        "開館時間 :土曜日9:30〜17:00",
+        "休館日 :日曜日,祝祭日,年末年始,蔵書点検期間等",
+        "注意事項 :一般利用・他大学所属の方は事前にお問い合わせください。"
+      ]
+    }
+  ]
+}

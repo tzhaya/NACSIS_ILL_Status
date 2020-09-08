@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024975.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024975#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024975.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "沖縄科学技術大学院大学 図書館"
+        },
+        {
+          "@value": "オキナワカガクギジュツダイガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "OIST"
+        },
+        {
+          "@value": "オイスト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024975",
+      "cinii:organizationid": "KI014962",
+      "cinii:prefcode": "47",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "沖縄科学技術大学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "904-0495",
+        "v:label": "沖縄県国頭郡恩納村谷茶1919-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "098-982-3769"
+        }
+      ]
+    }
+  ]
+}

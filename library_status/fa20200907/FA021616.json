@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021616.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021616#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021616.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "南九州大学・南九州短期大学 図書館"
+        },
+        {
+          "@value": "ミナミキユウシユウダイガク・ミナミキユウシユウタンキダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "南九大霧"
+        },
+        {
+          "@value": "ナンキユウダイキリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研",
+        "短図",
+        "短研"
+      ],
+      "cinii:memberid": "FA021616",
+      "cinii:organizationid": "KI00454X",
+      "cinii:prefcode": "45",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "南九州大学・南九州短期大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "880-0032",
+        "v:label": "宮崎県宮崎市霧島5丁目1-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0985-83-3430"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0985-83-3431"
+        }
+      ]
+    }
+  ]
+}

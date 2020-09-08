@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017528.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017528#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017528.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "多摩大学 アクティブ・ラーニングセンター 多摩キャンパス図書館"
+        },
+        {
+          "@value": "タマダイガク アクティブラーニングセンター タマキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "多摩大多摩"
+        },
+        {
+          "@value": "タマダイタマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA017528",
+      "cinii:organizationid": "KI010145",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "多摩大学 アクティブ・ラーニングセンター 多摩キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "206-0022",
+        "v:label": "東京都多摩市聖ヶ丘4-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "042-337-7145"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "042-337-7102"
+        }
+      ],
+      "dc:description": [
+        "Tama University Active Learning Center Library",
+        "4-1-1 Hijirigaoka,Tama-shi,Tokyo 206-0022",
+        "URL:https://smis-lib.tama.ac.jp/",
+        "ILL-Org:Tama University Active Learning Center Library",
+        "ILL-Address:4-1-1 Hijirigaoka, Tama-shi, Tokyo JAPAN",
+        "ILL-Zip:206-0022",
+        "ILL-Commun1:Tel:+81-42-337-7145 / Fax:+81-42-337-7102 / E-mail:tama-lib@gr.tama.ac.jp"
+      ]
+    }
+  ]
+}

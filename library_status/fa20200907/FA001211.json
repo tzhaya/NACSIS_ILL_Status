@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001211.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001211#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001211.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 大学院地球環境科学研究院 図書室"
+        },
+        {
+          "@value": "ホツカイドウダイガク ダイガクインチキユウカンキヨウカガクケンキユウイン トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大地"
+        },
+        {
+          "@value": "ホクダイチ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "研究室"
+      ],
+      "cinii:memberid": "FA001211",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000116",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北海道大学 大学院地球環境科学研究院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-0810",
+        "v:label": "札幌市北区北10条西5丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-706-2208"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-706-4867"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.lib.hokudai.ac.jp/env/ (website)",
+        "休館日:土曜日、日曜日、祝日、年末年始(12/28〜1/4)、夏季",
+        "注意事項:学外の方は当図書室で資料を複写することができません。貸出についても条件があります。必ず事前に当図書室ホームページのご利用案内をご確認下さい。"
+      ]
+    }
+  ]
+}

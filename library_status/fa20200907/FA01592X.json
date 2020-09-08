@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA01592X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA01592X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA01592X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "共栄大学 図書館"
+        },
+        {
+          "@value": "キョウエイダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "共栄大"
+        },
+        {
+          "@value": "キョウエイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA01592X",
+      "cinii:organizationid": "KI008722",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "共栄大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "344-0051",
+        "v:label": "埼玉県春日部市内牧4158"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-755-2956"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-755-2959"
+        }
+      ],
+      "dc:description": [
+        "Kyoei University ・Kyoei Gakuen Junior College LibraryOPACURL:https://library.kyoei.ac.jp/gate?module=search&path=search.do&method=search&searchForm.library=true&searchForm.orderNumber=<NCID>",
+        "4158, Utimaki, Kasukabeshi, Saitamaken 344-0051",
+        "URL:http://library.kyoei.ac.jp",
+        "来館利用担当 : 閲覧係",
+        "電話番号 : 048-755-2956",
+        "受付時間 : 09:10-17:00",
+        "注意事項 : 開館日、資料の所在等、ホームページで事前確認して下さい。",
+        "持参書類 : 身分証明書",
+        "複写時間 : 9:10-17:00(月〜金)",
+        "館外貸出 : 不可",
+        "休館日:土・日曜日、国民の祝祭日、開学記念日(11/8)、春期・夏期・冬期の一定期間"
+      ]
+    }
+  ]
+}

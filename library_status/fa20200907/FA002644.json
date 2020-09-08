@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002644.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002644#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002644.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都大学 教育学部 図書室"
+        },
+        {
+          "@value": "キョウトダイガク キョウイクガクブ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京大教育"
+        },
+        {
+          "@value": "キョウダイキョウイク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA002644",
+      "cinii:organizationid": "KI000560",
+      "cinii:prefcode": "26",
+      "cinii:mextid": "004802",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "京都大学 教育学部 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "606-8501",
+        "v:label": "京都府京都市左京区吉田本町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-753-3016"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-753-3017"
+        }
+      ],
+      "dc:description": [
+        "URL:http://www.educ.kyoto-u.ac.jp/towards_students/library_",
+        "ILL-Org:The Library of the Faculty of Education, Kyoto University",
+        "ILL-Address:Yoshida-Honmachi, Sakyo-ku, Kyoto, JAPAN",
+        "ILL-ZIP:606-8501",
+        "開館時間 :平日(月〜金)9:00〜17:00",
+        "夏季・冬季休業期間(8月〜9月,2月〜3月)開館時間:9:00〜12:00,13:00〜17:00",
+        "休館日 :土曜日・日曜日・国民の祝日・年末年始(12/27〜1/3)・創立記念日(6/18)・夏季一斉休業日・毎月1日(但し、1日が土日・祝日にあたるときは次の平日)詳しくは当室HPをご確認ください。",
+        "閲覧受付時間 :9:00〜12:00,13:00〜16:00",
+        "閲覧注記 :大学教育研究機関に在籍されている方は、ご所属の図書館へお申し込みください。その他の方は利用案内HPの「所蔵調査および閲覧依頼書」をFAXまたはE-mailでお送りください。",
+        "サービスの範囲:閲覧(複写のための一時持ち出し可)"
+      ]
+    }
+  ]
+}

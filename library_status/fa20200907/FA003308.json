@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003308.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003308#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003308.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "山口大学 図書館 工学部図書館"
+        },
+        {
+          "@value": "ヤマグチダイガク トシヨカン コウガクブトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "山口大工"
+        },
+        {
+          "@value": "ヤマグチダイコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "工分館"
+      ],
+      "cinii:memberid": "FA003308",
+      "cinii:organizationid": "KI000731",
+      "cinii:prefcode": "35",
+      "cinii:mextid": "006302",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "山口大学 図書館 工学部図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "755-8611",
+        "v:label": "山口県宇部市常盤台2丁目16番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0836-85-9051"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0836-85-9022"
+        }
+      ],
+      "dc:description": [
+        "Engineering Library Yamaguchi University",
+        "2-16-1,Tokiwadai,Ube,755-8611,Japan",
+        "URL:http://www.lib.yamaguchi-u.ac.jp(website)",
+        "URL:http://www.lib.yamaguchi-u.ac.jp/access/(map)",
+        "来館利用担当:工学図書係",
+        "電話番号:0836-85-9051",
+        "注意事項:開館日、開館時間、資料の所在等、事前に確認をしてください。",
+        "持参書類:図書の貸出をご希望の場合は身分証明書(運転免許証・健康保険証など)をお持ちください。",
+        "館外貸出:一般利用者 図書2冊以内14日以内/雑誌、研究室所蔵図書貸出不可",
+        "休館日:ホームページをご覧ください。"
+      ]
+    }
+  ]
+}

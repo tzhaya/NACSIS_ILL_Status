@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010799.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010799#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010799.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "埼玉県農林総合研究センター 茶業特産研究所 図書室"
+        },
+        {
+          "@value": "サイタマケンノウリンソウゴウケンキュウセンター チャギョウトクサンケンキュウショ トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "埼玉茶特研"
+        },
+        {
+          "@value": "サイタマチャトクケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA010799",
+      "cinii:organizationid": "KI005994",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "埼玉県農林総合研究センター 茶業特産研究所 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "358-0042",
+        "v:label": "埼玉県入間市上谷ケ貫244-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "04-2936-1351"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "04-2936-2891"
+        }
+      ]
+    }
+  ]
+}

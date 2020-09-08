@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016208.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016208#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016208.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高松赤十字病院 図書室"
+        },
+        {
+          "@value": "タカマツセキジユウジビヨウイン トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高松日赤"
+        },
+        {
+          "@value": "タカマツニツセキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016208",
+      "cinii:organizationid": "KI009000",
+      "cinii:prefcode": "37",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "高松赤十字病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "760-0017",
+        "v:label": "香川県高松市番町四丁目1-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "087-831-7101"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "087-834-7809"
+        }
+      ],
+      "dc:description": [
+        "TAKAMATSU RED CROSS HOSPITAL",
+        "1-3 BABCHO 4-CHOME TAKAMATSU 760-0017 MZ",
+        "来館利用担当:図書係",
+        "電話番号:(087)831-7101",
+        "受付時間:9:00〜17:00",
+        "注意事項:資料の所在等、事前確認をして下さい。",
+        "複写時間:9:00〜17:00",
+        "館外貸出:不可",
+        "土・日・祝日・年末年始"
+      ]
+    }
+  ]
+}

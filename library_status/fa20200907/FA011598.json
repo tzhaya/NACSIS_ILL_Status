@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011598.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011598#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011598.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宮城道雄記念館 資料室"
+        },
+        {
+          "@value": "ミヤギミチオキネンカン シリヨウシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宮道記念"
+        },
+        {
+          "@value": "ミヤミチキネン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011598",
+      "cinii:organizationid": "KI006727",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "宮城道雄記念館 資料室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "162-0835",
+        "v:label": "東京都新宿区中町35"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3269-0208"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3260-0720"
+        }
+      ],
+      "dc:description": [
+        "Library of Miyagi Michio Memorial Hall",
+        "35, Nakamachi, Shinjuku-ku, Tokyo 162-0835",
+        "電話番号:03-3269-0208",
+        "受付時間:10:30〜16:30(昼休み12:00〜13:00)",
+        "注意事項:車での来館は御遠慮ください。",
+        "持参書類:身分証明書、印鑑",
+        "複写時間:10:30〜16:00",
+        "館外貸出:不可",
+        "制限事項:貴重書は閲覧・複写を許可しないこともあります。",
+        "休館日:日、月、火、木、金、土、祝日",
+        "休館日:3月25日〜3月27日、8月1日〜8月10日、12月25日〜1月6日"
+      ]
+    }
+  ]
+}

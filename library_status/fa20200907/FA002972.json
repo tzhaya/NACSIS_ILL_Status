@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002972.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002972#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002972.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "兵庫教育大学 附属図書館"
+        },
+        {
+          "@value": "ヒョウゴキョウイクダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "兵教大"
+        },
+        {
+          "@value": "ヒョウキョウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA002972",
+      "cinii:organizationid": "KI000629",
+      "cinii:prefcode": "28",
+      "cinii:mextid": "009200",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "兵庫教育大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "673-1494",
+        "v:label": "兵庫県加東市下久米942-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0795-44-2062"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0795-44-2059"
+        }
+      ],
+      "dc:description": [
+        "Hyogo University of Teacher Education Library",
+        "942-1 Shimokume Kato-city Hyogo Pref. 673-1494",
+        "URL:https://opac.hyogo-u.ac.jp/drupal/ (website)",
+        "EMAIL:BOOK:lib-ill@hyogo-u.ac.jp",
+        "EMAIL:SERIAL:lib-ill@hyogo-u.ac.jp",
+        "EMAIL:ILL:lib-ill@hyogo-u.ac.jp",
+        "来館利用担当:図書館チーム(情報サービス担当)",
+        "電話番号:0795-44-2062",
+        "受付時間:平日8:30-22:00、土曜日・日曜日・祝日10:00-17:00",
+        "注意事項:学外者の継続利用・貸出については、「図書館利用証」を発行するために、住所・氏名が確認できるもの(運転免許証・職員証・学生証など)が必要となります。利用証発行料金 510円",
+        "持参書類:継続利用・貸出を希望される場合は、住所・氏名が確認できるもの(上記)が必要です。",
+        "複写受付時間:開館時間中(必ず「文献複写申込書」に記入してください。)",
+        "館外貸出:可",
+        "制限事項:教科書・指導書、禁帯資料及び講座等資料室・研究室貸出中の資料は貸出できません。",
+        "休館日:夏期一斉休業日、年末年始、その他臨時に休館する場合もあります。詳しくは、HP及び開館カレンダーをご覧ください。",
+        "ILL-Dept : Infomation Service Section",
+        "ILL-Org : Hyogo University of Teacher Education",
+        "ILL-Address : 942-1 Shimokume Kato-city Hyogo Pref. Japan",
+        "ILL-ZIP : 673-1494",
+        "ILL-Commun1 : Tel: +81-795-44-2062 / FAX : +81-795-44-2059 / E-mail : lib-ill@office.hyogo-u.ac.jp",
+        "ILL-Commun2 : OPAC : https://opac.hyogo-u.ac.jp/ / Homepage : http://opac.hyogo-u.ac.jp/",
+        "ILL-Accept : OCLC : JAHYO",
+        "ILL-Sched : losed : Dec27-Jan4",
+        "ILL-Bill : oreign : OCLC-IFM only",
+        "ILL-Loan-Period : Loan : N/A",
+        "ILL-Loan-Renew : Loan : N/A",
+        "ILL-Loan-Charge : Loan : N/A",
+        "ILL-Loan-Circulation : Loan : N/A",
+        "ILL-Copy-Charge : Photocopy : 103 YEN per order and 41 YEN per sheet / MCRFRM/PHTOCPY : N /A  Postage required  / Delivery method : via airmail",
+        "ILL-Note : THESIS : Photocopy : need the author's permission.:",
+        "ILL-OCLC-Symbol:JAHY"
+      ]
+    }
+  ]
+}

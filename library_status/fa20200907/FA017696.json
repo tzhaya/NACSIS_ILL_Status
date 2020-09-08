@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017696.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017696#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017696.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "仙台白百合女子大学 図書館"
+        },
+        {
+          "@value": "センダイシラユリジヨシダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "仙台白百合"
+        },
+        {
+          "@value": "センダイシラユリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA017696",
+      "cinii:organizationid": "KI010291",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "仙台白百合女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "981-3107",
+        "v:label": "宮城県仙台市泉区本田町6-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-374-5090"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-374-4577"
+        }
+      ],
+      "dc:description": [
+        "Sendai Shirayuri Women's College Library",
+        "6-1, Honda-cho, Izumi-ku, Sendai-shi Miyagi 981-3107",
+        "来館利用担当:閲覧係",
+        "電話番号:022-374-5090",
+        "受付時間:9:00-16:30",
+        "注意事項:土曜日は受け付けません 資料の所在等、事前確認をしてください",
+        "持参書類:他大学利用願または紹介状、及び身分証明書(学生証・運転免許証・健康保険証等)",
+        "複写時間:9:00-16:30",
+        "館外貸出:不可",
+        "休館日:日曜日 国民の休日 蔵書点検期間中 年末・年始・年度末・夏休みの間の一時期 入学式 大学祭 入試 クリスマス 卒業式"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA01541X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA01541X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA01541X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "倉敷芸術科学大学 図書館"
+        },
+        {
+          "@value": "クラシキゲイジュツカガクダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "倉芸科大"
+        },
+        {
+          "@value": "クラゲイカダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA01541X",
+      "cinii:organizationid": "KI008518",
+      "cinii:prefcode": "33",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "倉敷芸術科学大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "712-8505",
+        "v:label": "岡山県倉敷市連島町西之浦2640"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "086-440-1181"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "086-440-1182"
+        }
+      ],
+      "dc:description": [
+        "電話番号:086-440-1181",
+        "受付時間:9:00-19:00(休業中:9:00-17:00)",
+        "注意事項:初回来館は16:30までにカウンターへ申請してください。",
+        "持参書類:身分証明書",
+        "複写時間:9:00-19:00(休業中:9:00-17:00)",
+        "館外貸出:可",
+        "制限事項:雑誌・視聴覚は貸出不可",
+        "休館日:土曜日,日曜日,国民の祝日,8月中旬,年末年始",
+        "2640 NISHINOURA, TSURAJIMA-CHO, KURASHIKI-SHI, OKAYAMA 712-8505",
+        "THE LIBRARY OF THE KURASHIKI UNIVERSITY OF SCIENCE AND THE ARTS",
+        "URL:http://www.kusa.ac.jp/lib/ (Website)",
+        "URL:http://www.kusa.ac.jp/access/ (Map)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001029.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001029#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001029.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北海道大学 文学研究科・文学部図書室"
+        },
+        {
+          "@value": "ホッカイドウダイガク ブンガクケンキュウカ・ブンガクブトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北大文"
+        },
+        {
+          "@value": "ホクダイブン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "研究室"
+      ],
+      "cinii:memberid": "FA001029",
+      "cinii:organizationid": "KI000017",
+      "cinii:prefcode": "01",
+      "cinii:mextid": "000101",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "北海道大学 文学研究科・文学部図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "060-0810",
+        "v:label": "札幌市北区北10条西7丁目"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "011-706-3009"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "011-706-3010"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org: Library, Graduate School of Letters, Hokkaido University",
+        "ILL-Address: Kita 10, Nishi 7, Kita-ku, Sapporo",
+        "ILL-ZIP: 060-0810",
+        "ILL-Commun1: Tel:+81-11-706-3061 /FAX:+81-11-706-3010 / E-mail: let@lib.hokudai.ac.jp",
+        "URL:https://www.lib.hokudai.ac.jp/let/",
+        "来館利用担当係 :文学部図書担当",
+        "電話番号:011-706-3061",
+        "受付時間:9:00〜17:00",
+        "注意事項:図書室以外は研究室備え付けにつき、閲覧に応じられないことがあります。学外者の方は館外貸出はできません。",
+        "持参書類:閲覧許可願書、身分証明書又は学生証",
+        "休館日:土曜日、日曜日、国民の祝日、年末年始(12/28〜1/4)"
+      ]
+    }
+  ]
+}

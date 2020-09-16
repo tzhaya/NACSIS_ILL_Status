@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006838.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006838#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006838.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神奈川工科大学 附属図書館"
+        },
+        {
+          "@value": "カナガワコウカダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神奈川工科大"
+        },
+        {
+          "@value": "カナガワコウカダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006838",
+      "cinii:organizationid": "KI002806",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神奈川工科大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "243-0292",
+        "v:label": "神奈川県厚木市下荻野1030"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "046-241-6221(代表)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "046-291-3029(ILL)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "046-242-6111"
+        }
+      ],
+      "dc:description": [
+        "Kanagawa Institute of Technology",
+        "1030, Atsugishi, Shimoogino, Kanagawa 243-0292",
+        "URL:http://www.kait.jp/",
+        "URL:https://www-std01.ufinity.jp/kaitlibrary/",
+        "来館利用担当:閲覧係B",
+        "受付時間:9:00〜21:00(土曜日 〜17:00)",
+        "注意事項:電話での問い合わせが望ましい。",
+        "持参書類:資料利用依頼書(身分を証明する物を携行のこと)",
+        "複写時間:9::00〜20:30(土曜日 〜16:30)",
+        "館外貸出:不可",
+        "休館日:日曜日、祝日、夏・冬・春季の一定期間、体育祭、年末年始",
+        "ILL-Org:Kanagawa Institute of Technology",
+        "ILL-Address: 1030, Atsugishi, Shimoogino, Kanagawa, JAPAN",
+        "ILL-ZIP: 243-0292",
+        "ILL-Commun1:TEL: +81-46-291-3029 / FAX: +81-46-242-6111 / E-mail: tosho@kait.jp"
+      ]
+    }
+  ]
+}

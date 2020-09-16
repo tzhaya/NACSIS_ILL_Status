@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018779.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018779#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018779.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東北文化学園大学 総合情報センター 図書館"
+        },
+        {
+          "@value": "トウホクブンカガクエンダイガク ソウゴウジョウホウセンター トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東北文化大"
+        },
+        {
+          "@value": "トウホクブンカダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018779",
+      "cinii:organizationid": "KI011024",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東北文化学園大学 総合情報センター 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "981-8551",
+        "v:label": "宮城県仙台市青葉区国見6丁目45-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-233-3878"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-233-9453"
+        }
+      ],
+      "dc:description": [
+        "Tohoku Bunka Gakuen University Library center for Media and Information.",
+        "6-45-1, Kunimi, Aoba-ku, Sendai-shi, Miyagi JAPAN 981-8551",
+        "相互利用受付時間 : 月～金曜日9:30〜14:30(受付時間外の申込みは翌受付日の処理となります。また、受付件数が多い場合は、締切が早まることもあります。)",
+        "閲覧事前連絡 : 事前に電話かFAXでご連絡下さい。",
+        "閲覧持参物 : 来館時には身分証明書(学生証・運転免許証・保険証等)をご持参下さい。カウンターにご提示後、学外者利用申込書にご記入いただきます。",
+        "休館日 : 日曜祝日・大学指定休日",
+        "病院図書室等相互貸借担当者様へ : 公費・私費ともに見積書、納品書、請求書、領収書等の発行は行っておりません。又、ILL相殺制度未加入館の複写料金支払は銀行振込のみです。",
+        "(貸借の場合は、返送時に送料分の切手を同封して下さい。着払での取り扱いはしておりません。)",
+        "URL:https://www.tbgu.ac.jp/library"
+      ]
+    }
+  ]
+}

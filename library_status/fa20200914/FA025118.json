@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA025118.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA025118#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA025118.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宇部フロンティア大学 附属図書館"
+        },
+        {
+          "@value": "ウベフロンティアダイガク フゾクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宇部フ大"
+        },
+        {
+          "@value": "ウベフダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA025118",
+      "cinii:organizationid": "KI01507X",
+      "cinii:prefcode": "35",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "宇部フロンティア大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "755-0805",
+        "v:label": "山口県宇部市文京台二丁目1番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0836-38-0524"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0836-38-0602"
+        }
+      ],
+      "dc:description": [
+        "【複写】",
+        "複写担当係:相互利用担当",
+        "複写受付可否:可",
+        "FAX受付可否:可",
+        "複写方法/料金:電子複写/白黒 50円 カラー80円",
+        "支払方法:ILL文献複写等料金相殺サービスによる。 非参加館は郵便振込。",
+        "【貸借】",
+        "貸借担当係:相互利用担当",
+        "貸借受付可否:可",
+        "貸借期間:2週間",
+        "館外貸出:不可"
+      ]
+    }
+  ]
+}

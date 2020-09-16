@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014610.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014610#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014610.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "三重県立図書館"
+        },
+        {
+          "@value": "ミエケンリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "三重県図"
+        },
+        {
+          "@value": "ミエケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014610",
+      "cinii:organizationid": "KI007796",
+      "cinii:prefcode": "24",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "三重県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "514-0061",
+        "v:label": "三重県津市一身田上津部田1234"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "059-233-1180"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "059-233-1190"
+        }
+      ],
+      "dc:description": [
+        "Mie Prefectural Library",
+        "1234, Ishindenkouzubeta, Tsu, Mie 514-0061",
+        "URL:http://www.library.pref.mie.lg.jp/",
+        "来館利用担当:情報相談課",
+        "電話番号:059-233-1180",
+        "持参書類:資料貸出券交付時、貴重資料閲覧時には本人確認のできる証明書類が必要",
+        "複写料金:1枚あたりモノクロ10円,カラー50円(A3のみ80円)",
+        "複写条件:料金前納制 料金は定額小為替+切手、もしくは現金書留にて受付",
+        "館外貸出:原則的には可 (参考資料、地域資料等一部不可)",
+        "休館日:月曜日、祝祭日の翌日、月末、年末年始"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005620.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005620#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005620.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "高千穂大学 図書館"
+        },
+        {
+          "@value": "タカチホダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "高千穂"
+        },
+        {
+          "@value": "タカチホ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA005620",
+      "cinii:organizationid": "KI00225X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "高千穂大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "168-8508",
+        "v:label": "東京都杉並区大宮2-19-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3313-0147"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3313-3913"
+        }
+      ],
+      "dc:description": [
+        "2-19-1, Omiya,Suginami-Ku,Tokyo 168-8508",
+        "URL :http://www.takachiho.jp/outline/campus_map/lib.html (website)",
+        "来館利用担当:参考係",
+        "電話番号:03-3313-0147",
+        "FAX:03-3313-3913",
+        "注意事項:資料の所在等、FAXにて事前確認をしてください",
+        "来館問合時間:9:00-17:00(土曜日9:00-12:00)",
+        "通常開館時間:9:00-21:30(土曜日9:00-18:00、日曜日10:00-18:00)",
+        "利用受付時間:9:30-17:00(土曜日9:30-12:00、日曜日は受け付けない)",
+        "持参書類:紹介状(身分を証明する物を携行のこと)",
+        "館外貸出可否:不可",
+        "制限事項:貴重図書、雑誌最新号など閲覧・貸出・複写を許可しないものがある",
+        "休館日:春季・夏季・冬季休業中、入学式、創立記念日(5/27)、卒業式",
+        "OPACURL:http://lib.takachiho.ac.jp/opac4/opac/ncid_search?ncid=<NCID>",
+        ""
+      ]
+    }
+  ]
+}

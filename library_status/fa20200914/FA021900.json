@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021900.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021900#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021900.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "一般社団法人 中国研究所 図書館"
+        },
+        {
+          "@value": "イッパンシャダンホウジン チュウゴクケンキュウジョ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中研"
+        },
+        {
+          "@value": "チュウケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021900",
+      "cinii:organizationid": "KI013165",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "N",
+      "v:fn": "一般社団法人 中国研究所 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "112-0012",
+        "v:label": "東京都文京区大塚6-22-18"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3947-8029"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3947-8039"
+        }
+      ],
+      "dc:description": [
+        "http://www.chuken1946.or.jp/",
+        "レファレンス:電話・FAX・e-mail(c-lib@tcn-catv.ne.jp)可",
+        "開館時間:金曜日(予約制)10:00～17:00(12:00～13:00昼休み)",
+        "休館日:月～木・土・日曜日、祝日、年末年始、夏季休暇",
+        "閲覧料:会員無料、院生・学生300円(学生証持参のこと、留学生無料)、一般個人700円、一般団体1000円",
+        "複写料金(1枚):会員、院生・学生20円、一般個人30円、一般団体100円",
+        "資料複写郵送サービス:可。基本料金(院生・学生500円、一般個人・団体1000円)+複写料(上記に同じ)+郵送料"
+      ]
+    }
+  ]
+}

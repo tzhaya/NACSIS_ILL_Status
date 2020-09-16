@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005460.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005460#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005460.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "杉野服飾大学 附属図書館"
+        },
+        {
+          "@value": "スギノフクショクダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "杉野服"
+        },
+        {
+          "@value": "スギノフク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA005460",
+      "cinii:organizationid": "KI002158",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "杉野服飾大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "141-0021",
+        "v:label": "東京都品川区上大崎4-6-9"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3779-1198"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3779-1198"
+        }
+      ],
+      "dc:description": [
+        "Sugino Fashion College",
+        "4-6-9, Kamiosaki, Shinagawa-ku, Tokyo 141-0021",
+        "URL:www.sugino.ac.jp./lib",
+        "来館利用担当:閲覧係",
+        "電話番号,FAX:03-3779-1198",
+        "受付時間:9:30〜16:30 (土曜日不可)",
+        "注意事項:必ず電話にて、事前連絡し、利用日時の申し込みが必要。車での来館はご遠慮ください。",
+        "持参書類:資料利用依頼書 (身分を証明するものを携行のこと)",
+        "複写時間:11:00〜16:00 (土曜日不可)",
+        "館外貸出:不可",
+        "制限事項:貴重書の複写は原則として不可",
+        "休館日:日曜日、国民の祝日、創立記念日(11/2)、春季・夏季・冬季休業日"
+      ]
+    }
+  ]
+}

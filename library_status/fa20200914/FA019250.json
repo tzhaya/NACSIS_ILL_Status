@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019250.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019250#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019250.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神奈川県立図書館"
+        },
+        {
+          "@value": "カナガワケンリツトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神県図"
+        },
+        {
+          "@value": "カケント",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "横浜"
+      ],
+      "cinii:memberid": "FA019250",
+      "cinii:organizationid": "KI011476",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神奈川県立図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "220-8585",
+        "v:label": "神奈川県横浜市西区紅葉ヶ丘9-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-263-5900"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-241-0985"
+        }
+      ],
+      "dc:description": [
+        "Kanagawa Prefectural Library",
+        "9-2,Momijigaoka, Nishi-ku Yokohama City",
+        "URL:http://www.klnet.pref.kanagawa.jp",
+        "URL:http://www.klnet.pref.kanagawa.jp/riyou/knrt_access.htm (map)",
+        "URL:http://www.klnet.pref.kanagawa.jp/opac/index.jsp (opac)",
+        "郵送複写は当館ホームページからお申込み下さい。(郵便為替又は現金書留 料金前納制)",
+        "郵送貸出についてはお問合せください",
+        "受付時間:平日 9:00〜19:00, 土 日 祝日 9:00〜17:00",
+        "注意事項:資料の所在等、事前確認をして下さい。",
+        "複写時間:平日 9:00〜18:30、 土 日 祝日 9:00〜16:30",
+        "来館利用担当(図書)調査閲覧課  (地域資料・新聞雑誌)地域情報課",
+        "休館日:毎週月曜日、毎月第2木曜日、年末年始、資料総点検期間。"
+      ]
+    }
+  ]
+}

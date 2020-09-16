@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021649.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021649#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021649.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福岡大学 研究推進部"
+        },
+        {
+          "@value": "フクオカダイガク ケンキユウスイシンブ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福岡大研"
+        },
+        {
+          "@value": "フクオカダイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研"
+      ],
+      "cinii:memberid": "FA021649",
+      "cinii:organizationid": "KI004415",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "福岡大学 研究推進部",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "814-0180",
+        "v:label": "福岡県福岡市城南区七隈8-19-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-871-6631"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-866-2308"
+        }
+      ],
+      "dc:description": [
+        "電話番号       : 092-871-6631(内2814)",
+        "閲覧受付時間 : 8:50-16:50 (土曜日 8:50-12:35)",
+        "持参書類       : 資料利用依頼書または身分を証明する物をご持参ください。",
+        "貸出可否       : 否",
+        "閉室日          : 夏季休業中の土曜日、年末年始",
+        "閲覧注記       : 閲覧、複写を制限する資料もあります。利用の場合は事前にご連絡ください。複写料金は1枚10円です。",
+        "複写受付時間 : 8:50-16:50 (土曜日 8:50-12:35)",
+        "学外者窓口    : 資料整理担当 (内2814)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001903.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001903#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001903.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京農工大学 府中図書館"
+        },
+        {
+          "@value": "トウキョウノウコウダイガク フチュウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "農工大府中"
+        },
+        {
+          "@value": "ノウコウダイフチュウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研"
+      ],
+      "cinii:memberid": "FA001903",
+      "cinii:organizationid": "KI000265",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002501",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京農工大学 府中図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "183-8509",
+        "v:label": "東京都府中市幸町3-5-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "(複写・貸借)042(367)5577"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "(複写・貸借)042(367)5817"
+        }
+      ],
+      "dc:description": [
+        "Tokyo University of Agriculture and Technology Library",
+        "3-5-8, Saiwai-cho, Fuchu-shi, Tokyo 183-8509",
+        "URL:https://www.library.tuat.ac.jp/ (website)",
+        "URL:http://libwebservice.biblio.tuat.ac.jp/opac/opac_search/ (opac)",
+        "URL:https://www.library.tuat.ac.jp/visitor/access_v(map)",
+        "来館利用担当:府中図書館情報サービス係",
+        "電話番号:042(367)5577   FAX:042(367)5817",
+        "E-mail:fservice@cc.tuat.ac.jp",
+        "閲覧受付時間:8:45-16:30 (土曜日 10:00-16:30 / 日曜日 13:00-16:30)",
+        "持参書類:特に必要ありません",
+        "注意事項:資料の所在、利用の可否、来館日を事前にFAX等でご確認下さい。(所在調査受付時間 8:45-17:00 平日のみ)",
+        "複写受付時間:8:45-12:00,13:00-16:30 (土曜日・日曜日・祝日不可)",
+        "休館日:国民の祝日、本学創立記念日(5月31日)、8月・9月・12月・2月・3月の末日(その日が土曜・日曜・休日の時はその前日)、年末年始(12月28日から翌年の1月4日まで)、その他に臨時休館する場合もありますので、開館スケジュール(http://web.tuat.ac.jp/~biblio/libcalendar/libcalendar.html)等でご確認下さい。",
+        "ILL-Staff:Maruo Yoko, Miyajima Mitsue",
+        "ILL-Dept:Information Service Section, Fuchu Library",
+        "ILL-Org:Tokyo University of Agriculture and Technology Library, Fuchu Library",
+        "ILL-Address:3-5-8 Saiwai-cho, Fuchu-shi, Tokyo Japan",
+        "ILL-ZIP:183-8509",
+        "ILL-Commun1:E-mail:fservice@cc.tuat.ac.jp",
+        "ILL-Commun2:OPAC:http://libwebservice.biblio.tuat.ac.jp/opac/opac_search/",
+        "ILL-Shed:Closed:DEC28-JAN4"
+      ]
+    }
+  ]
+}

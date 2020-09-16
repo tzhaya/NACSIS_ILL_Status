@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021423.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021423#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021423.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "愛知文教大学 附属図書館"
+        },
+        {
+          "@value": "アイチブンキヨウダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "愛文大"
+        },
+        {
+          "@value": "アイブンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA021423",
+      "cinii:organizationid": "KI012810",
+      "cinii:prefcode": "23",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "愛知文教大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "485-8565",
+        "v:label": "愛知県小牧市大字大草字年上坂 5969番地の3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0568-78-2211(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0568-78-2240"
+        }
+      ]
+    }
+  ]
+}

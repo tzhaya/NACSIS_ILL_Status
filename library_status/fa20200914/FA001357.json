@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001357.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001357#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001357.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "弘前大学 附属図書館 医学部分館"
+        },
+        {
+          "@value": "ヒロサキダイガク フゾクトショカン イガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "弘大医"
+        },
+        {
+          "@value": "ヒロダイイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA001357",
+      "cinii:organizationid": "KI000083",
+      "cinii:prefcode": "02",
+      "cinii:mextid": "000801",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "弘前大学 附属図書館 医学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "036-8562",
+        "v:label": "弘前市在府町5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0172-39-5232(依頼)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "0172-39-5232(受付)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0172-39-5233"
+        }
+      ],
+      "dc:description": [
+        "Hirosaki University Medical Library",
+        "5 Zaifu-cho, Hirosaki-shi, Aomori 036-8562",
+        "URL:http://www.ul.hirosaki-u.ac.jp/ (website)",
+        "閲覧担当係:附属図書館医学情報グループ",
+        "閲覧受付時間: 平日9:00-22:00(ただし長期休業期間は9:00-17:00), 土・日曜10:00-17:00, 祝日休館",
+        "持参書類:学生証または身分を証明できるもの",
+        "複写時間:9:00-16:30(土・日・祝日は不可)",
+        "館外貸出:可(利用登録後)",
+        "制限事項:講座備付資料については利用に応じられない場合があります。",
+        "休館日:国民の祝日・年末年始(12/28-1/4)・夏季一斉休業期(8/10-14)",
+        "ILL-Org:Hirosaki University Medical Library",
+        "ILL-Address:5 Zaifu-cho, Hirosaki, Aomori, JAPAN",
+        "ILL-Zip:036-8562",
+        "ILL-Commun1:Tel:+81-*********** / Fax:+81-*********** / E-mail:mlibill@hirosaki-u.ac.jp (not for copy request)",
+        "ILL-Commun2:OPAC:http://www.ul.hirosaki-u.ac.jp/opc/ Home-Page:http://www.ul.hirosaki-u.ac.jp",
+        "ILL-Sched:Closed:Dec. 28-Jan. 4",
+        "ILL-Copy-Charge:Photocopy:35 YEN per sheet. Postage required.",
+        "ILL-Note:We will supply only photocopies."
+      ]
+    }
+  ]
+}

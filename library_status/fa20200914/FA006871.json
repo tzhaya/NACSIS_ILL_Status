@@ -1,0 +1,96 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006871.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006871#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006871.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関東学院大学 図書館"
+        },
+        {
+          "@value": "カントウガクインダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関東院大"
+        },
+        {
+          "@value": "カントウインダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006871",
+      "cinii:organizationid": "KI002839",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "関東学院大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "236-8501",
+        "v:label": "神奈川県横浜市金沢区六浦東1-50-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-786-7025"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-785-9572"
+        }
+      ],
+      "dc:description": [
+        "Kanto Gakuin University Library",
+        "1-50-1 Mutsuura-higashi, Kanazawa-ku, Yokohama-shi, Kanagawa-ken, JAPAN 236-8501",
+        "URL:https://kgulibrary.kanto-gakuin.ac.jp/ (website)",
+        "閲覧担当係 :運用担当",
+        "閲覧対象者 :紹介状持参者",
+        "閲覧事前連絡 : 事前にメール、またはFAXにて所蔵調査要",
+        "閲覧持参書類 :紹介状、身分証明書",
+        "受付時間:閉館の1時間前",
+        "複写時間:閉館の1時間前",
+        "館外貸出可否 :否",
+        "閲覧注記 : 定期試験期間(7月～8月上旬、1月～2月上旬)はご遠慮ください。",
+        "通常開館時間 :月〜金9:00〜21:00(出納〜20:30),土曜日9:00〜19:00(出納〜18:30)",
+        "休業中開館時間 :夏季 :月〜金9:00〜18:00,春期 :月〜金9:00〜18:00(土9:00〜17:00)",
+        "休館日:祝祭日・日曜日※詳しくは開館カレンダーをご確認下さい。",
+        "ILL-Org:Kanto Gakuin University Library",
+        "ILL-Address:1-50-1 Mutsuura-higashi, Kanazawa-ku, Yokohama-shi, Kanagawa-ken, JAPAN",
+        "ILL-ZIP:236-8501",
+        "ILL-Commun1:Tel:+81-45-786-7023 / Fax:+81-45-785-9572 / e-mail:kgulibmc@kanto-gakuin.ac.jp",
+        "ILL-Accept:Only NII-OCLC Link:SYMBOL:KGL",
+        "ILL-Bill:OCLC-IFM only",
+        "ILL-Loan-Period:Loan:6weeks per volume",
+        "ILL-Loan-Renew:Loan:None",
+        "ILL-Loan-Charge:Loan:1000YEN per item. Postage required.",
+        "ILL-Non-Circulation:Loan:mcrfrm, mcrfch, ref, per, news, a-v, special collections, rare, serials.",
+        "ILL-Copy-Charge:Photocopy:100 YEN per sheet / Postage required / Delivery method:via airmail",
+        "ILL-OCLC-Symbol:KGL"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA025049.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA025049#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA025049.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神奈川県立こども医療センター 図書室"
+        },
+        {
+          "@value": "カナガワケンリツコドモイリョウセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神奈こ"
+        },
+        {
+          "@value": "カナコ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA025049",
+      "cinii:organizationid": "KI015025",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神奈川県立こども医療センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "232-8555",
+        "v:label": "神奈川県横浜市南区六ッ川2-138-4"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-711-2351"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-742-7821"
+        }
+      ],
+      "dc:description": [
+        "外部からの利用は医療従事者のみ(教職員・学生を含む)。ご利用の際は事前連絡をお願いします。",
+        "閲覧時間:9:00-17:00",
+        "休室日:土・日曜日、祝祭日、年末年始(12/29-1/3)"
+      ]
+    }
+  ]
+}

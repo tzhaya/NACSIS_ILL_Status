@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA015431.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA015431#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA015431.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "宇部工業高等専門学校 図書館"
+        },
+        {
+          "@value": "ウベコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "宇部高専"
+        },
+        {
+          "@value": "ウベコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA015431",
+      "cinii:organizationid": "KI00853X",
+      "cinii:prefcode": "35",
+      "cinii:mextid": "603700",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "宇部工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "755-8555",
+        "v:label": "山口県宇部市常盤台2-14-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0836-35-4965"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0836-35-5469"
+        }
+      ],
+      "dc:description": [
+        "Ube National Colledge of Technology(UNCT)",
+        "2-14-1 Tokiwadai,Ube City,Yamaguchi,755-8555 Japan",
+        "URL:http://www.ube-k.ac.jp/library/ (website)",
+        "電話番号:0836-35-4965",
+        "閲覧受付時間:8:30〜20:00(月〜金)",
+        "持参書類:貸出を希望する場合は身分を証明するもの。",
+        "複写受付時間:8:30〜17:00(月〜金)(但し相殺以外の複写は受付けない)",
+        "館外貸出:一般利用者は2冊まで可",
+        "休館日:祝日、8月15日前後の土曜・日曜、冬季休業日及び学年末休業日の土曜・日曜、年末年始その他館長が認めた日"
+      ]
+    }
+  ]
+}

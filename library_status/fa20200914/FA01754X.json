@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA01754X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA01754X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA01754X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京成徳大学・東京成徳短期大学 図書館 分館"
+        },
+        {
+          "@value": "トウキョウセイトクダイガク トウキョウセイトクタンキダイガク トショカン ブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東成大"
+        },
+        {
+          "@value": "トウセイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA01754X",
+      "cinii:organizationid": "KI012311",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京成徳大学・東京成徳短期大学 図書館 分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "276-0013",
+        "v:label": "千葉県八千代市保品字中台谷2014"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "047-488-7105"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "047-488-7106"
+        }
+      ],
+      "dc:description": [
+        "Tokyo Seitoku University, Yachiyo Library",
+        "2014,Nakadaiyatsu,Hoshina,Yachiyo-shi, Chiba 276-0013",
+        "URL:http://sv2.opac.jp/paop/cgi-bin/index.cgi?LibId=047et2a"
+      ]
+    }
+  ]
+}

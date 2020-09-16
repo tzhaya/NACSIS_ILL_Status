@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA009665.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA009665#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA009665.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "厚生労働省 国立医薬品食品衛生研究所 安全情報部図書係"
+        },
+        {
+          "@value": "コウセイロウドウショウ コクリツイヤクヒンショクヒンエイセイケンキュウジョ アンゼンジョウホウブトショガカリ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国立衛研"
+        },
+        {
+          "@value": "コクリツエイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA009665",
+      "cinii:organizationid": "KI005032",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "厚生労働省 国立医薬品食品衛生研究所 安全情報部図書係",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "210-9501",
+        "v:label": "神奈川県川崎市川崎区殿町3-25-26"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "044-270-6596"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "044-270-6595"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Health Sciences",
+        "3-25-26 Tonomachi, Kawasaki-ku, Kawasaki City, Kanagawa 210-9501, JAPAN",
+        "来館利用担当:図書係",
+        "開館時間:9:00～17:00",
+        "注意事項:事前連絡の上、来館願います。(最終受付時間は16:45です。)",
+        "持参書類:身分証明書",
+        "館外貸出:不可",
+        "制限事項:一部別置図書について閲覧できないものがあります。",
+        "休館日:土曜日、日曜日、祝祭日、年末年始",
+        "相互利用:ILL文献複写等相殺サービスには未加入です。",
+        "複写料金:当分の間無料とします。"
+      ]
+    }
+  ]
+}

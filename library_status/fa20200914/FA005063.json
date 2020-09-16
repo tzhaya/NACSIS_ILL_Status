@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005063.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005063#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005063.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北里大学 白金図書館"
+        },
+        {
+          "@value": "キタサトダイガク シロカネトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北里白"
+        },
+        {
+          "@value": "キタサトシロ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "東医研"
+      ],
+      "cinii:memberid": "FA005063",
+      "cinii:organizationid": "KI00195X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北里大学 白金図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "108-8641",
+        "v:label": "東京都港区白金5-9-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5791-6225"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3446-6371"
+        }
+      ],
+      "dc:description": [
+        "*    《 夏期休暇に伴う相互貸借の複写・貸出業務の停止について 》",
+        "*2020年8月8日～16日の期間は夏季休暇に伴い閉館のため一切のILL業務を停止いたします。",
+        "複写担当係:相互貸借係",
+        "複写受付可否:可",
+        "文献送付方法:郵送のみ(FAX不可)",
+        "複写方法・料金:電子複写(モノクロ1枚 50円, カラーコピー1枚 100円)",
+        "複写注記:依頼申込みはFAXでも可。",
+        "貸借担当係:相互貸借係",
+        "貸借受付可否:可",
+        "貸借注記:原則として単行書のみ貸出可 期間,冊数については事前に相談のこと 別置資料は貸出不可。",
+        "貸出期間:郵送期間を含めて2週間",
+        "送付方法:ゆうメール+簡易書留、またはゆうパック",
+        "決済方法:後納(但し私費のみ受付)",
+        "支払方法:ILL文献複写等料金相殺サービス、郵便振替",
+        "振込先:00150-4-164029北里大学白金図書館相互貸借係",
+        "閲覧担当係:閲覧係",
+        "閲覧対象者:原則として大学、医療機関、公共機関に所属する方に限る(閲覧・複写のみ) 分室配架資料あり",
+        "閲覧問合せ:事前問合せ必須(資料の所在、開館日時等) 電話またはFAX等文書による",
+        "問合せ受付:9:00-17:00(土曜日 -12:00)",
+        "電話番号:03-5791-6225",
+        "閲覧持参書類:所属機関図書館発行の「紹介状(利用願い)」および身分証明書",
+        "閲覧受付時間:9:00-18:30(土曜日 -16:30)",
+        "複写受付時間:9:00-18:00(土曜日 -16:00)",
+        "閲覧注記:複写件数が多い場合(10件以上)複写物の引き渡しは後日になることもあり",
+        "閲覧注記:分室配架資料は当日閲覧できないものあり",
+        "館外貸出:単行本のみ可(図書館発行の貸借申込書持参のこと) 東洋医学関連の分室配架資料は貸出不可",
+        "通常開館時間:9:00-21:00(土曜日 -17:00)",
+        "**************************************************************",
+        "Kitasato University Sirokane Library",
+        "5-9-1, Shirokane, Minato-ku, Tokyo 108-8641",
+        "URL:https://lib.kitasato-u.ac.jp/shirokane/",
+        "OPAC:https://saosrv.kitasato-u.ac.jp/opac/opac_search/?lang=0",
+        "休館日:日曜日・祝日・第2・第4土曜日・本学の記念日(4/20、11/5)振替・年末年始・入試(2/1)"
+      ]
+    }
+  ]
+}

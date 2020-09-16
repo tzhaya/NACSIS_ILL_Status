@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008913.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008913#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008913.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福岡大学 図書館"
+        },
+        {
+          "@value": "フクオカダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福岡大"
+        },
+        {
+          "@value": "フクオカダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008913",
+      "cinii:organizationid": "KI004415",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "福岡大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "814-0180",
+        "v:label": "福岡県福岡市城南区七隈8-19-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "092-871-6631"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "092-865-3794"
+        }
+      ],
+      "dc:description": [
+        "福岡大学図書館:092-871-6631 利用・閲覧の問い合わせ 内線2732",
+        "閲覧担当係    :利用者サービス係(内線2732)",
+        "閲覧対象者    :当該年度4月1日時点で満18歳以上の方 高校生は福岡大学附属大濠高校生・福岡大学附属若葉高校生のみ入館可能",
+        "閲覧事前連絡  :不要",
+        "閲覧持参書類  :氏名と現住所が記載されている本人確認書類(運転免許証・健康保険証などの公的書類)",
+        "閲覧受付時間  :平日閉館1時間前まで 土曜12:00まで",
+        "館外貸出可否  :否",
+        "閲覧注記      :貴重書の閲覧は他大学や他研究機関に属する研究者のみ可能(要事前申請、詳しくはウェブサイト参照のこと)",
+        "通常開館時間(中央図書館) :平日・土曜 8:50-22:00、日曜・祝日 8:50-17:00 (詳しくはウェブサイト参照のこと)",
+        "通常開館時間(分室) :平日 8:50-21:00 土曜 8:50-18:00、日曜・祝日 閉室 (詳しくはウェブサイト参照のこと)",
+        "休業中開館時間(中央図書館) :平日 8:50-20:00、土、日曜・祝日 8:50-17:00、その他、事情により変更の場合がある。(ウェブサイトを参照のこと)",
+        "休業中開館時間(分室) :平日 8:50-16:50、土、日曜・祝日 閉室、その他、事情により変更の場合がある。(ウェブサイトを参照のこと)",
+        "休館日        :休暇中の一定期間、その他、事情により休館とする場合がある。(ウェブサイトを参照のこと)",
+        "注記 :開館時間の変更、臨時休館日については、掲示や図書館ウェブサイト等でお知らせします。",
+        "制限事項:前期定期試験期および後期定期試験期、入学試験期は利用できません。",
+        "Fukuoka University Library",
+        "8-19-1,Nanakuma,Jonan-ku,Fukuoka 814-0180",
+        "URL:http://www.lib.fukuoka-u.ac.jp/ (Website)",
+        "URL:http://www.lib.fukuoka-u.ac.jp/access/ (Access)",
+        "URL: https://fuopac.lib.fukuoka-u.ac.jp/opac/opac_search/?lang=0(OPAC)"
+      ]
+    }
+  ]
+}

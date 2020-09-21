@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA014563.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA014563#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA014563.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "筑波技術大学 附属図書館 視覚障害系図書館"
+        },
+        {
+          "@value": "ツクバギジュツダイガク フゾクトショカン シカクショウガイケイトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "筑技大視"
+        },
+        {
+          "@value": "ツクギダイシ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA014563",
+      "cinii:organizationid": "KI007763",
+      "cinii:prefcode": "08",
+      "cinii:mextid": "304302",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "筑波技術大学 附属図書館 視覚障害系図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "305-8521",
+        "v:label": "つくば市春日4-12-7"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-858-9510, 9511"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-858-9520(G3)"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Tsukuba University of Technology Library for the Visually Impaired",
+        "ILL-Adress:4-12-7, Kasuga, Tsukuba-Shi, Ibaraki",
+        "ILL-ZIP:305-8521",
+        "ILL-Commun1:Tel:+81-29-858-9510/FAX:+81-29-858-9520/E-mail:toshok@ad.tsukuba-tech.ac.jp",
+        "URL:http://library.k.tsukuba-tech.ac.jp/k/ (website)",
+        "URL:http://www.tsukuba-tech.ac.jp/access.html (MAP)",
+        "来館利用担当:図書係",
+        "電話番号:029-858-9510,9511",
+        "注意事項:学外者の方は、閲覧及び複写のみできます。",
+        "開館時間:8:50-20:30(月-金)、9:00-16:30(土)、[休業期間中:9:00-17:00(月-金)、 土・日・祝日休館]",
+        "休館日:日曜日、国民の祝日、年末年始(12月27日-1月5日)、その他全学一斉休業日"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005471.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005471#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005471.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "成蹊大学 図書館"
+        },
+        {
+          "@value": "セイケイダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "成蹊大"
+        },
+        {
+          "@value": "セイケイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "アジ太"
+      ],
+      "cinii:memberid": "FA005471",
+      "cinii:organizationid": "KI002169",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "成蹊大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "180-8633",
+        "v:label": "東京都武蔵野市吉祥寺北町3-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "経・法 0422-37-3545"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "理工 0422-37-3859"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "文 0422-37-3858"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "【受付】 0422-37-3545"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "経・法 0422-37-3870"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "理工 0422-37-3859"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "文 0422-37-3858"
+        },
+        {
+          "@type": "v:Fax",
+          "@value": "【受付】 0422-37-3870"
+        }
+      ],
+      "dc:description": [
+        "Seikei University Library",
+        "3-3-1 Kichijoji-kitamachi, Musashino-shi, Tokyo, JAPAN",
+        "URL:https://www.seikei.ac.jp/university/library/ (HP)",
+        "URL:http://library.seikei.ac.jp/opac/ (OPAC)",
+        "来館利用受付:1Fカウンター",
+        "TEL:0422-37-3545",
+        "FAX:0422-37-3870",
+        "受付時間:平日9:00-16:30",
+        "注意事項:閲覧受付の対象者は、他大学の教職員・学生の方です。ご利用の際は、所属機関の図書館を通してお申込みください。",
+        "持参書類:紹介状(1日につき1通),身分証明書(学生証、教職員証等)",
+        "館外貸出:否",
+        "試験期間(7月、1月)やその他学内行事等で館内の混雑が予想される場合には、利用を制限させていただく場合があります。また、土日祝日はご利用いただけません。",
+        "ILL-Staff:",
+        "ILL-Dept:ILL Section",
+        "ILL-Org:Seikei University Library",
+        "ILL-Address:3-3-1 Kichijoji-kitamachi Musashino-shi Tokyo JAPAN",
+        "ILL-Zip:180-8633",
+        "ILL-Commun1: Tel: +81-***********, FAX: +81-*********** , E-mail: lib-ref@jim.seikei.ac.jp",
+        "ILL-Commun2: Homepage : https://www.seikei.ac.jp/university/library/"
+      ]
+    }
+  ]
+}

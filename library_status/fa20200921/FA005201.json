@@ -1,0 +1,98 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA005201.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA005201#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA005201.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "慶應義塾大学 日吉メディアセンター"
+        },
+        {
+          "@value": "ケイオウギジユクダイガク ヒヨシメデイアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "慶大日"
+        },
+        {
+          "@value": "ケイダイニチ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研",
+        "美",
+        "音",
+        "心",
+        "数",
+        "物",
+        "化A",
+        "化B",
+        "生",
+        "英合",
+        "仏合",
+        "独合",
+        "協"
+      ],
+      "cinii:memberid": "FA005201",
+      "cinii:organizationid": "KI002001",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "慶應義塾大学 日吉メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "223-8521",
+        "v:label": "神奈川県横浜市港北区日吉4-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "045-566-1038"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "045-560-1059"
+        }
+      ],
+      "dc:description": [
+        "図書の現物貸借は現在停止しています。再開は未定です。",
+        "Hiyoshi Media Center,Keio University",
+        "4-1-1, Hiyoshi, Kohoku-ku, Yokohama, JAPAN, 223-8521",
+        "URL https://www.lib.keio.ac.jp/hiyoshi/index.html",
+        "来館利用担当:レファレンス担当",
+        "電話番号: 045-566-1040",
+        "受付時間: 月曜〜金曜 8:45〜17:00",
+        "注意事項: 一部資料がキャンパス内に点在するため、必ず事前連絡をしてください(電話・文書・ファックスいずれも可)",
+        "持参書類: 資料利用依頼書(身分を証明する物を携行のこと)",
+        "複写時間: 月曜〜金曜 8:45〜18:00",
+        "館外貸出: 不可",
+        "休館日: 日曜日・国民の祝日・本学の祝日(4/23・1/10)・夏季休業・冬季休業中の一定期間・入試・蔵書点検期間"
+      ]
+    }
+  ]
+}

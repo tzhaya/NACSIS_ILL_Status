@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004832.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004832#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004832.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "文教大学 湘南図書館"
+        },
+        {
+          "@value": "ブンキョウダイガク ショウナントショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "文教大湘南"
+        },
+        {
+          "@value": "ブンキョウダイショウナン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004832",
+      "cinii:organizationid": "KI001803",
+      "cinii:prefcode": "14",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "文教大学 湘南図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "253-8550",
+        "v:label": "神奈川県茅ケ崎市行谷1100"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0467-53-2111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0467-54-3719"
+        }
+      ],
+      "dc:description": [
+        "Bunkyo University Shonan Library",
+        "1100, Namegaya, Chigasaki-Shi, Kanagawa 253-8550",
+        "URL:http://www.bunkyo.ac.jp/faculty/lib/slib/index.htm (website)",
+        "来館利用担当:利用支援係 閲覧ILL担当",
+        "電話番号:0467-53-2111",
+        "受付時間:9:10-16:00",
+        "注意事項:開館日を確認してください。",
+        "持参書類:資料利用依頼書、身分証明書",
+        "複写時間:9:10-16:00",
+        "館外貸出:原則不可 (要相談)",
+        "制限事項:",
+        "休館日:日曜日、国民の祝日、夏季一斉休暇期間、8月中土曜日、12月下旬-1月上旬、3月下旬",
+        "10月17日は創立記念日のため閉館です。",
+        "ILL-Staff : Yuji Kuramoto , Wakako Machida",
+        "ILL-Dept : ILL Section",
+        "ILL-Org : Bunkyo University Shonan Library",
+        "ILL-Address : 1100 Namegaya, Chigasaki-shi, Kanagawa, Japan",
+        "ILL-Zip : 253-8550",
+        "ILL-Commun1 : Tel : +81-*********** / Fax : +81-*********** / E-mail : setsuran@stf.bunkyo.ac.jp",
+        "ILL-Commun2 : OPAC : http://opac.bunkyo.ac.jp/mylimedio/search/search-input.do?mode=comp  /  Home-Page : http://www.bunkyo.ac.jp/faculty/lib/slib/index.htm",
+        "ILL-Accept : OCLC : JA4DS",
+        "ILL-Sched : Closed : Sunday, national holidays, Saturdays during August, the yearend and New Year's holidays, late in March",
+        "ILL-Bill : Foreign : OCLC-IFM only",
+        "ILL-Loan-Period : 8 weeks per item / up to 5 items per library",
+        "ILL-Loan-Renew : 4 weeks",
+        "ILL-Loan-Charge : Postage required. / Delivery method: via airmail.",
+        "ILL-Non-Circulation : Special collection, mcrfrm, mcrfch, ref, per, news, a-v",
+        "ILL-Copy-Charge : Photocopy : 35 YEN per sheet. / Also available for photocopy of color pages as requested, 100 YEN per sheet. / Postage required. / Delivery method : via airmail",
+        "複写方法・料金:電子複写(35円均一)・カラーコピー(100円均一)・リーダプリンタ(50円均一)",
+        "ILL-Note :  Copying method is  photocopy only.  /  Only the items held at the Library are available.  /  Materials need to be used inside the library.",
+        "ILL-OCLC-Symbol:JA4DS"
+      ]
+    }
+  ]
+}

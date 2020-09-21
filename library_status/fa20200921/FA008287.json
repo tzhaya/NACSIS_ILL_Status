@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA008287.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA008287#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA008287.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸学院大学 人文学部資料室"
+        },
+        {
+          "@value": "コウベガクインダイガク ジンブンガクブシリヨウシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神院大人"
+        },
+        {
+          "@value": "シンインダイジン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA008287",
+      "cinii:organizationid": "KI003900",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神戸学院大学 人文学部資料室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "651-2180",
+        "v:label": "兵庫県神戸市西区伊川谷町有瀬518番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-974-1551"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-976-7296"
+        }
+      ],
+      "dc:description": [
+        "Faculty of Humanities and Sciences, Kobegakuin University",
+        "518, Arise, Ikawadani, Nishi-ku, Kobe 651-2180",
+        "URL:http://www.kobegakuin.ac.jp/ (website)",
+        "URL:http://www.kobegakuin.ac.jp/koutuu1.html (map)",
+        "電話番号:078-974-1551",
+        "受付時間:9:30〜11:30/12:30〜16:30",
+        "注意事項:文献複写受付窓口は神戸学院大学附属図書館",
+        "注意事項:閲覧希望の場合は、資料の所在・閉室日確認の為、事前に連絡して下さい",
+        "持参書類:身分証明書",
+        "館外貸出:不可"
+      ]
+    }
+  ]
+}

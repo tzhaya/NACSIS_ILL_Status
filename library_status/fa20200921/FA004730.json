@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004730.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004730#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004730.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "埼玉工業大学 図書館"
+        },
+        {
+          "@value": "サイタマコウギヨウダイガク トシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "埼工大図"
+        },
+        {
+          "@value": "サイコウダイト",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004730",
+      "cinii:organizationid": "KI001734",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "埼玉工業大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "369-0293",
+        "v:label": "埼玉県深谷市普済寺1690"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-585-6816"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-585-6887"
+        }
+      ],
+      "dc:description": [
+        "ILL-Org:Saitama Institute of Technology Library",
+        "ILL-Address:1690 Fusaiji, Fukaya-shi, Saitama, JAPAN",
+        "ILL-ZIP:369-0293",
+        "ILL-Commun1:Tel:+81-48-585-6816/FAX:+81-48-585-6887/E-mail:tosho@sit.ac.jp",
+        "URL: http://www.sit.ac.jp/toshokan/",
+        "来館利用担当: 閲覧係",
+        "電話番号: 048-585-6816   FAX番号: 048-585-6887",
+        "利用申込受付時間: 9:00〜17:00 (平日)",
+        "注意事項: 開館日・資料の所在を確認のうえ、所属機関を通して事前に利用申込をしてください。",
+        "持参書類: 身分証明書および利用紹介状",
+        "利用受付時間: 9:00〜17:00 (平日)",
+        "複写受付時間: 9:00〜16:45 (平日)",
+        "館外貸出: 不可",
+        "制限事項:",
+        "休館日: 土曜日、日曜日、国民の祝日及びその振替日、長期休業中の一定期間 (その他臨時に休館する場合もあります。)"
+      ]
+    }
+  ]
+}

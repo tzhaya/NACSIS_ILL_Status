@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018360.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018360#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018360.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "北京日本学研究センター 図書資料館"
+        },
+        {
+          "@value": "ペキンニホンガクケンキュウセンター トショシリョウカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "北京日研"
+        },
+        {
+          "@value": "ペキンニッケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA018360",
+      "cinii:organizationid": "KI010724",
+      "cinii:prefcode": "52",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "北京日本学研究センター 図書資料館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "160-0004",
+        "v:label": "東京都新宿区四谷4-4-1 5階 国際交流基金 日本研究・知的交流部 アジア・大洋州チーム 気付"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5369-6070"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5369-6041"
+        }
+      ],
+      "dc:description": [
+        "注記事項:上記住所は日本での事務手続のための住所であり、本図書館の所在は北京市西三環北路2号北京外国語大学内日本学研究センターです。電話番号は(+86)10-8881-6580",
+        "BEIJING CENTER FOR JAPANESE STUDIES",
+        "#2XISANHUANBEILU, BEIJING FOREIGN STUDIES UNIVERSITY, BEIJING"
+      ]
+    }
+  ]
+}

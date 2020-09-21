@@ -1,0 +1,82 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA012692.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA012692#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA012692.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸芸術工科大学 情報図書館"
+        },
+        {
+          "@value": "コウベゲイジュツコウカダイガク ジョウホウトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神芸工大"
+        },
+        {
+          "@value": "シンゲイコウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA012692",
+      "cinii:organizationid": "KI007275",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "神戸芸術工科大学 情報図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "651-2196",
+        "v:label": "兵庫県神戸市西区学園西町8-1-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-794-5045"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-794-5047"
+        }
+      ],
+      "dc:description": [
+        "Kobe Design University Library",
+        "8-1-1 Gakuennishi-machi, Nishi-ku, Kobe 651-2196",
+        "URL:http://www.lib.kobe-du.ac.jp (website)",
+        "URL:http://www.lib.kobe-du.ac.jp/fø3.html (map)",
+        "来館利用担当:相互利用係",
+        "電話番号:078-794-5045",
+        "受付時間:9:00〜19:00 (土曜 9:00〜16:30)",
+        "注意事項:事前に資料の所在を確認してください。車での来館はご遠慮ください。その他詳細に付いては本学ホームページでご確認ください。",
+        "持参書類:資料利用依頼書 (身分を証明する物を携行のこと)",
+        "複写時間:9:00〜19:00 (土曜 9:00〜16:30)",
+        "館外貸出:不可",
+        "制限事項:貴重図書には閲覧を許可しないものがある。"
+      ]
+    }
+  ]
+}

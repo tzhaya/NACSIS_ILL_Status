@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA01681X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA01681X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA01681X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "津山工業高等専門学校 図書館"
+        },
+        {
+          "@value": "ツヤマコウギョウコウトウセンモンガッコウ トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "津山高専"
+        },
+        {
+          "@value": "ツヤマコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA01681X",
+      "cinii:organizationid": "KI009430",
+      "cinii:prefcode": "33",
+      "cinii:mextid": "603400",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "津山工業高等専門学校 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "708-8509",
+        "v:label": "岡山県津山市沼624-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "(0868)24-8213"
+        }
+      ],
+      "dc:description": [
+        "National Institute of Technology, Tsuyama College Library",
+        "624-1, Numa, Tsuyama-shi, Okayama 708-8509",
+        "URL:https://www.tsuyama-ct.ac.jp/honkou/shisetsu/tosho.htm",
+        "学術情報係",
+        "0868-24-8213",
+        "岡山県内在住者は身分証を提示の上、利用登録をすれば貸出可(5冊 2週間)。",
+        "開館日時はホームページの開館カレンダーを参照のこと。"
+      ]
+    }
+  ]
+}

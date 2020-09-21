@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016092.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016092#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016092.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "浜松赤十字病院 図書室"
+        },
+        {
+          "@value": "ハママツセキジユウジビヨウイン トシヨシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "浜松赤"
+        },
+        {
+          "@value": "ハママツセキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016092",
+      "cinii:organizationid": "KI008959",
+      "cinii:prefcode": "22",
+      "cinii:catflag": "A",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "浜松赤十字病院 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "434-8533",
+        "v:label": "静岡県浜松市浜北区小林1088-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "053-401-1111"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "053-401-1186"
+        }
+      ],
+      "dc:description": [
+        "Hamamatsu Red Cross Hospital",
+        "1088-1, Kobayashi,Hamakitaku, Hamamatsu 434-8533",
+        "来館利用担当:図書室主事(阿部)",
+        "電話番号:053-401-1111",
+        "受付時間:9:00〜15:00",
+        "注意事項:必ず事前にご連絡下さい。",
+        "持参書類:身分証明書",
+        "複写時間:9:00〜15:00",
+        "館外貸出:不可",
+        "休館日:土・日曜日、祝日、年末年始、創立記念日 (5月1日)"
+      ]
+    }
+  ]
+}

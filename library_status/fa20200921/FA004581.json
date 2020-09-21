@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004581.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004581#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004581.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "茨城キリスト教大学 図書館"
+        },
+        {
+          "@value": "イバラキキリストキョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "茨キ大"
+        },
+        {
+          "@value": "イバキダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA004581",
+      "cinii:organizationid": "KI001621",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "茨城キリスト教大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "319-1295",
+        "v:label": "茨城県日立市大みか町6-11-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0294-52-3215"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0294-52-2434"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.icc.ac.jp/about/facility/library/index.html",
+        "閲覧担当係:閲覧係",
+        "閲覧事前連絡:原則として事前に電話問い合わせし、日時の内諾も得ること。",
+        "閲覧持参書類:資料利用依頼書・身分を証明するもの",
+        "閲覧受付時間:9:00～16:00(土曜日～11:30)",
+        "複写受付時間:9:00～16:00(土曜日～11:30)",
+        "館外貸出可否:可",
+        "通常開館時間:8:30～20:30(土曜日9:00～17:00)",
+        "休業中開館時間:8:30～17:00(土曜日9:00～12:00)",
+        "休館日:日曜日、国民の祝日、年末年始、学園・図書館の定めた日、蔵書点検期間(8月下旬)",
+        "新型コロナウィルス感染拡大防止のため、相互貸借利用の受付は当面の間、停止させていただきます。ご迷惑をおかけして申し訳ございませんが、どうぞよろしくお願いいたします。"
+      ]
+    }
+  ]
+}

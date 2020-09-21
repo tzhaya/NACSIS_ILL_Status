@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA022211.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA022211#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA022211.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "沖縄工業高等専門学校"
+        },
+        {
+          "@value": "オキナワコウギョウコウトウセンモンガッコウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "沖縄高専"
+        },
+        {
+          "@value": "オキナワコウセン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "研究室"
+      ],
+      "cinii:memberid": "FA022211",
+      "cinii:organizationid": "KI013325",
+      "cinii:prefcode": "47",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "沖縄工業高等専門学校",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "905-2192",
+        "v:label": "沖縄県名護市字辺野古905番地"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0980-55-4037"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0980-55-4067"
+        }
+      ],
+      "dc:description": [
+        "Okinawa National College of Technology",
+        "905 Aza Henoko, Nago, Okinawa 905-2192",
+        "URL:http://www.okinawa-ct.ac.jp/toshokan/",
+        "開館時間:平日8:40-20:00(長期休業中、臨時休業日8:40-17:00), 土9:00-17:00(通常期のみ)",
+        "休館日:日・祝日・年末年始・一斉休業日・長期休業期の土"
+      ]
+    }
+  ]
+}

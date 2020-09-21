@@ -1,0 +1,81 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004978.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004978#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004978.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "大妻女子大学 図書館"
+        },
+        {
+          "@value": "オオツマジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "大妻女"
+        },
+        {
+          "@value": "オオツマジョ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004978",
+      "cinii:organizationid": "KI001927",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "大妻女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "102-8357",
+        "v:label": "東京都千代田区三番町12"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5275-6013"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5275-6135"
+        }
+      ],
+      "dc:description": [
+        "Otsuma Women's University Library",
+        "12, Sanbancho, Chiyoda-ku, Tokyo 102-8357",
+        "来館利用担当:閲覧係",
+        "電話番号:03-5275-6013",
+        "受付時間:9:00〜16:30",
+        "注意事項:FAXか電話にて事前連絡のこと、土曜日は受けつけません、車での来館はご遠慮ください",
+        "持参書類:資料利用依頼書 (身分を証明するものを携行のこと)",
+        "複写時間:9:00〜16:30",
+        "館外貸出:否",
+        "制限事項:利用対象者:教職員・大学院生・学生",
+        "休館日:日曜日・国民の祝日、春・夏・冬の長期休業はお問い合わせください"
+      ]
+    }
+  ]
+}

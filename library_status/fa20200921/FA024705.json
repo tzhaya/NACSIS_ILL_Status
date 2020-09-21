@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA024705.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA024705#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA024705.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "島根県立大学 短期大学部 松江キャンパス おはなしレストランライブラリー"
+        },
+        {
+          "@value": "シマネケンリツダイガク タンキダイガクブ マツエキャンパス オハナシレストランライブラリー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "島根県大短おはれす"
+        },
+        {
+          "@value": "シマネケンダイタンオハレス",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA024705",
+      "cinii:organizationid": "KI025200",
+      "cinii:prefcode": "32",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "島根県立大学 短期大学部 松江キャンパス おはなしレストランライブラリー",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "690-0044",
+        "v:label": "松江市浜乃木7丁目24-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0852-26-5563"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0852-26-5569"
+        }
+      ],
+      "dc:description": [
+        "Public University Corporation, The University of Shimane",
+        "7-24-2 Hamanogi, Matsue, Shimane 690-0044",
+        "URL: http://matsuec.u-shimane.ac.jp/campus/ohares/",
+        "電話番号:0852-26-5563 FAX:0852-26-5569",
+        "受付時間:9:30〜17:00",
+        "制限事項:貴重図書、地域資料、及び研究室本には閲覧等を許可しないものがあります。",
+        "休館日:国民の祝日、年末年始、月曜日、火曜日(休館日)",
+        "E-Mail m-ohares@u-shimane.ac.jp"
+      ]
+    }
+  ]
+}

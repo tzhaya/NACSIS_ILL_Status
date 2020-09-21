@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA010256.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA010256#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA010256.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 水産研究・教育機構 塩釜庁舎図書室"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン スイサンケンキュウ・キョウイクキコウ シオガマチョウシャトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "水産機構塩釜"
+        },
+        {
+          "@value": "スイサンキコウシオガマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書"
+      ],
+      "cinii:memberid": "FA010256",
+      "cinii:organizationid": "KI005531",
+      "cinii:prefcode": "04",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国立研究開発法人 水産研究・教育機構 塩釜庁舎図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "985-0001",
+        "v:label": "宮城県塩釜市新浜町3-27-5"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "022-365-1191"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "022-367-1250"
+        }
+      ],
+      "dc:description": [
+        "Tohoku National Fisheries Research Institute(TNFRI)",
+        "3-27-5, Shinhama-cho, Shiogama-shi Miyagi 985-0001",
+        "URL:",
+        "URL:",
+        "来館利用担当:業務推進チーム",
+        "電話番号:022-365-7494",
+        "受付時間:9:00-17:00",
+        "注意事項:事前確認は必ず行ってください",
+        "持参書類:特に強制はないが、身分の証明できるものがあればよい",
+        "文献複写及び相互貸借は文献複写等料金相殺サービス加入機関のみに限らせていただきます",
+        "制限事項:館外利用者の貸出は二週間を目安に返却",
+        "休館日:土日、祝祭日、年末年始"
+      ]
+    }
+  ]
+}

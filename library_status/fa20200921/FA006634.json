@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006634.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006634#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006634.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京都市大学 世田谷キャンパス 図書館"
+        },
+        {
+          "@value": "トウキョウトシダイガク セタガヤキャンパス トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "都市大世田谷"
+        },
+        {
+          "@value": "トシダイセタガヤ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "工図",
+        "環情"
+      ],
+      "cinii:memberid": "FA006634",
+      "cinii:organizationid": "KI002679",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京都市大学 世田谷キャンパス 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "158-8557",
+        "v:label": "東京都世田谷区玉堤1-28-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5707-0104"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5707-2210"
+        }
+      ],
+      "dc:description": [
+        "Tokyo City University Library",
+        "1-28-1, Tamazutsumi, Setagaya-ku, Tokyo, JAPAN",
+        "URL:https://www.lib.tcu.ac.jp/",
+        ":※台風19号被災のため、当面の間、ILLの受付を停止します。※",
+        ":※新型コロナウィルス感染拡大防止のため、来館利用を停止します。※",
+        "来館利用担当:閲覧係",
+        "閲覧時間::開館時間内",
+        "複写利用時間:閉館時間の30分前に要終了",
+        "TEL:03-5707-0104"
+      ]
+    }
+  ]
+}

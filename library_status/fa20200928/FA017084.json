@@ -1,0 +1,99 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017084.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017084#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017084.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "十文字学園女子大学 図書館"
+        },
+        {
+          "@value": "ジュウモンジガクエンジョシダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "十文字"
+        },
+        {
+          "@value": "ジュウモンジ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "情資セ"
+      ],
+      "cinii:memberid": "FA017084",
+      "cinii:organizationid": "KI009678",
+      "cinii:prefcode": "11",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "十文字学園女子大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "352-8510",
+        "v:label": "埼玉県新座市菅沢2-1-28"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "048-477-0563(図書館直通)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "048-477-0555(代)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "048-479-6147"
+        }
+      ],
+      "dc:description": [
+        "Jumonji University",
+        "2-1-28, Sugasawa, Niizashi, Saitama 352-8510",
+        "URL:http://www.jumonji-u.ac.jp (学園ホームページ)",
+        "URL:http://www.jumonji-u.ac.jp/library/index.html",
+        "閲覧利用・複写・現物貸借担当:閲覧係",
+        "電話番号:048-477-0555(代)、048-477-0563(図書館直通)",
+        "受付時間:9:00〜16:30 (通常期平日)",
+        "【閲覧】",
+        "持参書類:身分証明書及び資料利用依頼書(紹介状)",
+        "館外貸出:不可",
+        "制限事項:貴重書など一部閲覧できない資料があります。",
+        "休館日:日曜日、国民の祝日、その他臨時休館を必要とする日、夏季・冬季・春季休暇中の一定期間は時間が変更となります。ご確認ください。",
+        "注意事項:利用は本学「一般開放についての内規」に定められた範囲による。資料の所在等事前に電話で確認していただくのがのぞましい。車での来館は御遠慮ください。",
+        "【文献複写】",
+        "申込・決済 NACSIS-ILL・ILL文献複写等料金相殺サービス",
+        "複写方法・料金 電子複写 モノクロ1枚40円/カラー1枚50円(A3のみ80円)",
+        "【現物貸借】",
+        "申込・決済 NACSIS-ILL・ILL文献複写等料金相殺サービス",
+        "期間・冊数 3冊1ケ月(郵送期間含む)",
+        "文献複写、現物貸借:ILL文献複写等料金相殺サービスを利用しない館は別途お問い合わせください。",
+        "e-mail:tosho@jumonji-u.ac.jp"
+      ]
+    }
+  ]
+}

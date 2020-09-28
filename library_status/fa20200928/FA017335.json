@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA017335.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA017335#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA017335.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "神戸女子大学・神戸女子短期大学 ポートアイランドキャンパス図書館"
+        },
+        {
+          "@value": "コウベジョシダイガク・コウベジョシタンキダイガク ポートアイランドキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "神女大ポーアイ"
+        },
+        {
+          "@value": "シンジョダイポーアイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA017335",
+      "cinii:organizationid": "KI003922",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "神戸女子大学・神戸女子短期大学 ポートアイランドキャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "650-0046",
+        "v:label": "神戸市中央区港島中町4-7-2"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-303-4721"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-303-4724"
+        }
+      ],
+      "dc:description": [
+        "★お知らせ★新型コロナウイルス感染拡大防止のため、現在学外の方の来館受付を停止しております。",
+        "Kobe Women's University and Kobe Women's Junior College PortIsland Campus Library",
+        "4-7-2 Minatojima Naka-machi, Chuo-ku, Kobe 650-0046",
+        "URL:http://lib.yg.kobe-wu.ac.jp/lib/index.html",
+        "電話番号:078-303-4721",
+        "FAX番号:078-303-4724",
+        "受付時間:10:00～18:00(土10:30～16:30、短縮開館期間中10:00～17:00)",
+        "注意事項:FAX又は電話にて事前にご連絡ください。ご自身の所属する図書館・資料室等、又は公共図書館を通してお申込みください。個人からの直接のお申込みは受付けておりません。",
+        "持参書類:紹介状(資料利用依頼書)、身分証",
+        "複写時間:10:00～18:00(土10:30～16:30、短縮開館期間中10:00～17:00)",
+        "館外貸出:不可",
+        "制限事項:本学の事情により利用できない資料もあります。",
+        "休館日:日曜日、国民の休日、創立記念日(11月11日)・学内行事日、春季・夏季・冬季休業中の一定期間、その他図書館の都合による臨時休館日"
+      ]
+    }
+  ]
+}

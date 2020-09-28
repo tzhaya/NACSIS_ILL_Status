@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA026198.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA026198#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA026198.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "中京学院大学 瑞浪図書メディアセンター"
+        },
+        {
+          "@value": "チュウキョウガクインダイガク ミズナミトショメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中京学院瑞"
+        },
+        {
+          "@value": "チュウキョウガクインミズ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA026198",
+      "cinii:organizationid": "KI013573",
+      "cinii:prefcode": "21",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "中京学院大学 瑞浪図書メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "509-6192",
+        "v:label": "岐阜県瑞浪市土岐町2216"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0572-68-4584"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0572-68-4568"
+        }
+      ]
+    }
+  ]
+}

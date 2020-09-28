@@ -1,0 +1,105 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA001368.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA001368#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA001368.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "岩手大学 図書館"
+        },
+        {
+          "@value": "イワテダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "岩大"
+        },
+        {
+          "@value": "ガンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA001368",
+      "cinii:organizationid": "KI000094",
+      "cinii:prefcode": "03",
+      "cinii:mextid": "000900",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "岩手大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "020-8550",
+        "v:label": "岩手県盛岡市上田3-18-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "019-621-6086"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "019-621-6088"
+        }
+      ],
+      "dc:description": [
+        "Iwate University Library",
+        "3-18-8,Ueda,Morioka-shi,Iwate 020-8550",
+        "URL: http://www.lib.iwate-u.ac.jp/(website)",
+        "来館利用担当:図書館利用サービスグループ",
+        "電話番号:019-621-6085",
+        "受付時間:9:00 - 12:00, 13:00 - 17:00",
+        "注意事項:来館の上での特定資料の閲覧については事前連絡をしてください",
+        "持参書類:身分証明書(学生証,職員証,運転免許証 等)",
+        "貸借注記 :貴重図書,参考図書,逐次刊行物,和装本については貸出不可",
+        "貸借注記 :貸出期間は原則4週間です。 研究室配架図書,電動書庫配架図書については貸出不可の場合もあります。",
+        "複写時間:9:00 - 17:00",
+        "館外貸出:利用者登録をすれば可能",
+        "制限事項:雑誌、貴重書は館外貸出不可。教科書の「教師用指導書」は複写・貸借不可。",
+        "休館日:国民の祝日,年末年始,夏季一斉休業(8/9-16)",
+        "複写方法・料金:電子複写(モノクロ35円/枚 カラー70円/枚(税込み),  平成16年4月1日から実施",
+        "決済方法 :NII文献複写等料金相殺サービス, NII相殺サービス非参加館・その他:後納可能",
+        "支払方法 :NII文献複写等料金相殺サービス規定による, NII相殺サービス非参加館・その他:口座振込(郵便振替)",
+        "ILL-Staff:  E-mail: libill@iwate-u.ac.jp",
+        "ILL-Dept.:Reference Section",
+        "ILL-Org:Iwate University Library",
+        "ILL-Address:3-18-8, Ueda, Morioka-shi, Iwate, 020-8550 Japan",
+        "ILL-ZIP:020-8550",
+        "ILL-Commun1:TEL: +81-19-621-6086, FAX: +81-19-621-6088, E-mail: libill@iwate-u.ac.jp",
+        "アドレス:(メール添付)libill@iwate-u.ac.jp",
+        "ILL-Commun2:OPAC: opac.lib.iwate-u.ac.jp, Library: www.lib.iwate-u.ac.jp, EPICWIN (compatible with Ariel ftp): epicwin7000.lib.iwate-u.ac.jp / 160.29.7.40",
+        "ILL-Accept:OCLC(NII-OCLC link):JAIUL",
+        "ILL-Sched:Closed:Dec. 28-Jan. 6",
+        "ILL-Bill:Foreign:OCLC-IFM only",
+        "ILL-Copy-Charge:Photocopy:35 YEN per sheet",
+        "ILL-Note:MCRFLM:N / FCHE/FCHE:N / DIS:lend N / DIS:Photocopy:need the authors permission / THESIS:Lend:N / THESIS:Photocopy:need the authors permission",
+        "ILL-OCLC-Symbol:JAIUL"
+      ]
+    }
+  ]
+}

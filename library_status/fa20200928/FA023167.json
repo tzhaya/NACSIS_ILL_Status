@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA023167.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA023167#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA023167.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国際医療福祉大学 東京赤坂キャンパス図書館"
+        },
+        {
+          "@value": "コクサイイリョウフクシダイガク トウキョウアカサカキャンパストショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "国医福大東京"
+        },
+        {
+          "@value": "コクイフクダイトウキョウ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "東京"
+      ],
+      "cinii:memberid": "FA023167",
+      "cinii:organizationid": "KI008289",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "国際医療福祉大学 東京赤坂キャンパス図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "107-8402",
+        "v:label": "東京都港区赤坂4-1-26"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5574-3829"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5574-3830"
+        }
+      ]
+    }
+  ]
+}

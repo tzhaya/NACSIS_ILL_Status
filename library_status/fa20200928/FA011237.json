@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011237.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011237#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011237.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "計量計画研究所 総務部 総務課"
+        },
+        {
+          "@value": "ケイリョウケイカクケンキュウジョ ソウムブ ソウムカ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "計量計研"
+        },
+        {
+          "@value": "ケイリヨウケイケン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "資料"
+      ],
+      "cinii:memberid": "FA011237",
+      "cinii:organizationid": "KI00640X",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "N",
+      "cinii:illflag": "N",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "計量計画研究所 総務部 総務課",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "162-0845",
+        "v:label": "東京都新宿区市ケ谷本村町2-9"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-3268-9989"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-3268-9919"
+        }
+      ],
+      "dc:description": [
+        "The Institute of Behavioral Sciences",
+        "2-9 Honmura-cho, Ichigaya, Shinjuku-ku, Tokyo, 162-0845 Japan"
+      ]
+    }
+  ]
+}

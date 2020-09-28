@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA013968.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA013968#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA013968.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 宇宙地球環境研究所 第二図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク ウチュウチキュウカンキョウケンキュウジョ ダイニトショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大宇地研2"
+        },
+        {
+          "@value": "メイダイウチケン2",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "宇宙地球研2",
+        "災害対策室",
+        "環境総合館"
+      ],
+      "cinii:memberid": "FA013968",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004311",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋大学 宇宙地球環境研究所 第二図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8601",
+        "v:label": "名古屋市千種区不老町 名古屋大学 環境共用館内"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-789-3458"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-789-3458"
+        }
+      ],
+      "dc:description": [
+        "Library, Hydrospheric Atmospheric Research Center, Nagoya University",
+        "Furo-cho,Chikusa-ku,Nagoya 464-8601",
+        "電話番号:052-789-3458",
+        "受付時間:9:00〜16:00",
+        "注意事項:資料の所在等は事前に確認すること",
+        "持参書類:所属機関の紹介状または身分証明書",
+        "来館複写:原則不可、図書館間の相互利用による",
+        "館外貸出:図書館間の相互貸借による",
+        "制限事項:資料の中には複写不可のものがある",
+        "休館日:土・日曜日, 国民の祝日, 年末年始",
+        "ILL-Dept:Interlibrary Loan Services",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp",
+        "ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#"
+      ]
+    }
+  ]
+}

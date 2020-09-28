@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011973.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011973#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011973.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 大学院情報学環・学際情報学府"
+        },
+        {
+          "@value": "トウキョウダイガク ダイガクインジョウホウガッカン ガクサイジョウホウガクフ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大学環"
+        },
+        {
+          "@value": "トウダイガッカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "センター",
+        "センター・マイクロ"
+      ],
+      "cinii:memberid": "FA011973",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002117",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "東京大学 大学院情報学環・学際情報学府",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-5915(図書・雑誌)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-5906(新聞)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-5916"
+        }
+      ],
+      "dc:description": [
+        "The University of Tokyo",
+        "Interfaculty Initiative in Information Studies / Graduate School of Interdisciplinary Information Studies Library",
+        "7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033",
+        "HP : http://www.lib.iii.u-tokyo.ac.jp/ (図書・雑誌),  http://www.center.iii.u-tokyo.ac.jp/ (新聞)",
+        "地図URL : http://www.lib.iii.u-tokyo.ac.jp/access.html",
+        "電話番号 : 03-5841-5915 (図書・雑誌),  03-5841-5906 (新聞)",
+        "FAX番号 : 03-5841-5916",
+        "E-MAIL : tosyo@iii.u-tokyo.ac.jp",
+        "開室日時 : 平日9:30～17:00(臨時閉室・短縮開室時はHPでお知らせします)",
+        "閉室日 : 土・日・祝日、年末年始(概ね12/28～1/4の間)、その他臨時に閉室が決定した日。",
+        "注意事項 : 必ず身分証をご持参ください。複写はコイン式コピー機になりますので小銭をご用意ください。",
+        "注意事項 : 資料が利用できない場合もありますので事前にメール・FAXなど文書で照会を行ってください。",
+        "注意事項 : 学外者への館外貸出はできません。ご所属の大学図書館を通じて相互貸借をご利用ください。",
+        "注意事項 : 貴重資料の閲覧は事前申込が必要です。所定の書式でお申し込みください。"
+      ]
+    }
+  ]
+}

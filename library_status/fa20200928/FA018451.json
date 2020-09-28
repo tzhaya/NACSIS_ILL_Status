@@ -1,0 +1,88 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA018451.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA018451#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA018451.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "青森中央学院大学・青森中央短期大学 図書館情報センター"
+        },
+        {
+          "@value": "アオモリチュウオウガクインダイガク・アオモリチュウオウタンキダイガク トショカンジョウホウセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "青中大"
+        },
+        {
+          "@value": "アオチュウダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "研"
+      ],
+      "cinii:memberid": "FA018451",
+      "cinii:organizationid": "KI010757",
+      "cinii:prefcode": "02",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "青森中央学院大学・青森中央短期大学 図書館情報センター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "030-0132",
+        "v:label": "青森市横内字神田12"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "017-728-0131(代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "017-738-8333"
+        }
+      ],
+      "dc:description": [
+        "Aomori Chuo Gakuin University・Aomori Chuo Junior College",
+        "12,kanda,yokouti,aomori 030-0132",
+        "URL:http://www.aomoricgu.ac.jp (ACGU)",
+        "URL:http://www.chutan.ac.jp (ACJC)",
+        "URL:http://www.aomoricgu.ac.jp/library/",
+        "電話番号017-728-0131(代表),FAX番号017-738-8333(代表)",
+        "館外貸出可否 :可",
+        "館外貸出冊数 :5冊以内",
+        "初回、利用証を作成いたします。身分証明書(運転免許証等)を必ず持参して下さい。",
+        "試験期間中の館外貸出については応じられない場合もあります。",
+        "開館日・開館時間は、図書館HPをご確認ください。",
+        "開館時間 :平日 8:30-21:00,土曜日・長期休業期間中 8:50-17:00",
+        "休館日 :日曜日・祝日・長期休業中の土曜日・年末年始",
+        "注意事項 :事前に資料の所在等ご確認下さい。"
+      ]
+    }
+  ]
+}

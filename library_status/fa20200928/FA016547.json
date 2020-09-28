@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA016547.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA016547#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA016547.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都文教大学 図書館"
+        },
+        {
+          "@value": "キョウトブンキョウダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京文大"
+        },
+        {
+          "@value": "キョウブンダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA016547",
+      "cinii:organizationid": "KI009215",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "京都文教大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "611-0041",
+        "v:label": "京都府宇治市槙島町千足80"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0774-25-2489"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0774-25-2490"
+        }
+      ],
+      "dc:description": [
+        "Kyoto Bunkyo University Library",
+        "80 Senzoku, Makishima-cho, Uji City, Kyoto 611-0041",
+        "URL:http://www.kbu.ac.jp/kbu/library/ (website)",
+        "URL:http://www.kbu.ac.jp/kbu/library/ (map)",
+        "URL:http://opac.library.kbu.ac.jp/ (OPAC)"
+      ]
+    }
+  ]
+}

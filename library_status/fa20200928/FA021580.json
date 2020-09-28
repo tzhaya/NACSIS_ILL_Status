@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA021580.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA021580#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA021580.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "福岡県立大学 附属図書館 看護学部分館"
+        },
+        {
+          "@value": "フクオカケンリツダイガク フゾクトシヨカン カンゴガクブブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "福県大分館"
+        },
+        {
+          "@value": "フツケンダイブンカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA021580",
+      "cinii:organizationid": "KI007504",
+      "cinii:prefcode": "40",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "福岡県立大学 附属図書館 看護学部分館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "825-8585",
+        "v:label": "福岡県田川市伊田4395"
+      }
+    }
+  ]
+}

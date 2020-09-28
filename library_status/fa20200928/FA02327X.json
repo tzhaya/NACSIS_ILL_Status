@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA02327X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA02327X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA02327X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "中央大学 図書館 市ヶ谷キャンパス図書室"
+        },
+        {
+          "@value": "チュウオウダイガクトショカン イチガヤキャンパストショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "中大市ヶ谷"
+        },
+        {
+          "@value": "チュウダイイチガヤ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "市ヶ谷法務"
+      ],
+      "cinii:memberid": "FA02327X",
+      "cinii:organizationid": "KI002293",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "中央大学 図書館 市ヶ谷キャンパス図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "162-8473",
+        "v:label": "東京都新宿区市谷本村町42-8"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5368-3611"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5368-3615"
+        }
+      ],
+      "dc:description": [
+        "Chuo University Library. Ichigaya Blanch",
+        "42-8 Ichigayahonmuracho, Shinjuku-ku, Tokyo, 162-8473",
+        "URL:https://www.chuo-u.ac.jp/library/",
+        "来館利用担当:相互協力係",
+        "受付時間:月-金:10:00-17:00、土:10:00-16:30 (夏・春の休業期間中の土曜日は時間を短縮します。事前に確認してください。)",
+        "注意事項:当館は一般公開しておりません。当館所蔵資料の利用をご希望の場合は、所属の大学図書館もしくは公共図書館を通してFAXにて事前確認してください。",
+        "注意事項:個人の方からのお問い合わせにはお答えできませんのでご了承ください。",
+        "注意事項:車での来館はご遠慮ください。",
+        "持参書類:紹介状(図書館長の公印のあるもの)および身分証明書。",
+        "複写時間:月-金:10:00-17:30、土:10:00-17:00 (夏・春の休業期間中の土曜日は時間を短縮します。事前に確認してください。)",
+        "館外貸出:不可",
+        "制限事項:",
+        "休館日:日曜日、国民の祝日、年末年始"
+      ]
+    }
+  ]
+}

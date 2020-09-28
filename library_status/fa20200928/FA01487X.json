@@ -1,0 +1,68 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA01487X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA01487X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA01487X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "熊本学園大学 付属産業経営研究所"
+        },
+        {
+          "@value": "クマモトガクエンダイガク フゾクサンギヨウケイエイケンキユシヨ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "熊学大産"
+        },
+        {
+          "@value": "クマガクダイサン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA01487X",
+      "cinii:organizationid": "KI004506",
+      "cinii:prefcode": "43",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "C",
+      "cinii:loanservice": "C",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "熊本学園大学 付属産業経営研究所",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "862-8680",
+        "v:label": "熊本県熊本市大江2丁目5番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "096-364-5161"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "096-366-3158"
+        }
+      ]
+    }
+  ]
+}

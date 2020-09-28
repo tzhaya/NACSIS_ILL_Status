@@ -1,0 +1,106 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA006157.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA006157#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA006157.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東邦大学 習志野メディアセンター"
+        },
+        {
+          "@value": "トウホウダイガク ナラシノメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東邦大習"
+        },
+        {
+          "@value": "トウホウダイナラ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA006157",
+      "cinii:organizationid": "KI002497",
+      "cinii:prefcode": "12",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "東邦大学 習志野メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "274-8510",
+        "v:label": "千葉県船橋市三山2-2-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "047-472-9412"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "047-472-3090"
+        }
+      ],
+      "dc:description": [
+        "URL:https://www.mnc.toho-u.ac.jp/mc/",
+        "【来館利用担当】:情報サービス部門",
+        "入館受付:月-金 9:00-20:30 ; 土日祝日 9:00-16:30",
+        "複写時間:月-金 9:00-20:30 ; 土日祝日 9:00-16:30",
+        "持参書類:身分を証明するもの",
+        "注意事項:18歳未満の入館はお断りしています。また定期期間試験期間中(7月および1月)の学外者の入館もお断りしています",
+        "館外貸出:不可",
+        "休館日:8月の土日祝日、年末年始、夏期一斉休暇期間(8月中)、蔵書点検期間(8月中)",
+        "相互利用に関する複写受付可否:可 相互利用用フォーマットによる申込のこと",
+        "【相互利用担当】:情報サービス部門",
+        "相互利用受付時間  :月-金 9:00-16:30",
+        "相互利用注記 :研究室・教室所蔵の資料は複写・貸借に応じられません",
+        "相互利用注記:休館日, 土日祝日, 6月10日(創立記念日)は対応不可",
+        "複写:モノクロ1枚50円、カラー1枚100円(カラー複写を希望される場合は、申込時にその旨お伝えください)、FAX1枚50円(モノクロのみ)",
+        "複写注記 :カラー複写を希望の場合は、申込時にコメント欄に「カラー複写希望」とご記入ください",
+        "複写注記:DDSでの送付は不可",
+        "決済方法:後納",
+        "支払方法:郵便振替",
+        "振込先:00100-3-165488 学校法人 東邦大学",
+        "貸借期間:3週間(発送・返送期間含む)",
+        "貸借冊数:3冊以内",
+        "館外貸出:不可",
+        "貸借注記:雑誌は不可",
+        "貸借注記:貸出資料の送付方法はゆうパックです",
+        "ILL-Dept:InterLibary Service Section",
+        "ILL-Org:Toho University Narashino Media Center for Research and Education",
+        "ILL-Address:2-2-1 Miyama, Funabashi-shi, Chiba JAPAN",
+        "ILL-ZIP:274-8510",
+        "ILL-Commun1:Tel:+81-47-472-9412 / FAX:+81-47-472-3090 / e-mail:chosa.nmc@ml.toho-u.ac.jp",
+        "ILL-Commun2:OPAC:https://opac.toho-u.ac.jp/   /   Home-Page:https://www.mnc.toho-u.ac.jp/mc/",
+        "ILL-Accept:OCLC(NII-OCLC ISO ILL Link only):JATUN",
+        "ILL-Sched:Closed: Dec 27-Jan 5",
+        "ILL-Bill:Foreign: OCLC-IFM only",
+        "ILL-Loan-Period: Foreign: None",
+        "ILL-Copy-Charge:Foreign: Photocopy: 50 YEN per sheet / Postage required / Delivery method: via airmail",
+        "ILL-OCLC-Symbol:JATUN"
+      ]
+    }
+  ]
+}

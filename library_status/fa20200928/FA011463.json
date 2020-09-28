@@ -1,0 +1,85 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011463.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011463#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011463.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "日仏会館 図書室"
+        },
+        {
+          "@value": "ニチフツカイカン トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "日仏"
+        },
+        {
+          "@value": "ニチフツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA011463",
+      "cinii:organizationid": "KI006603",
+      "cinii:prefcode": "13",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "日仏会館 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "150-0013",
+        "v:label": "東京都渋谷区恵比寿3-9-25"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5421-7643"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5421-7653"
+        }
+      ],
+      "dc:description": [
+        "Bibliothèque de la Maison franco-Japonaise",
+        "3-9-25, Ebisu, Shibuya-ku, Tokyo 150-0013",
+        "URL:http://www.mfj.gr.jp/bibliotheque/presentation/index_ja.php",
+        "URL:http://catalogue.institutfrancais.jp/opac/ (opac)",
+        "URL:http://www.mfj.gr.jp/acces/index_ja.php (map)",
+        "電話番号:03-5421-7643",
+        "開室時間:火～土の13:00〜18:00",
+        "図書館相互利用 複写:可",
+        "図書館相互利用 貸出:可",
+        "閲覧:自由 館外貸出: 可 (会員および図書室登録者)",
+        "休館日:日曜日、月曜日、祝日、7月14日、夏季休館日、12月25日、年末年始。",
+        "ILL-Org:Bibliothèque de la Maison franco-japonaise",
+        "ILL-Address:3-9-25 Ebisu Shibuya-ku, Tokyo, JAPAN",
+        "ILL-ZIP:150-0013",
+        "ILL-Commun1:Tel:+81-3-5421-7643 / Fax:+81-3-5421-7653 / E-mail:biblio@mfj.gr.jp"
+      ]
+    }
+  ]
+}

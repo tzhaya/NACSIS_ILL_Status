@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA020872.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA020872#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA020872.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "国立研究開発法人 理化学研究所 生命機能科学研究センター 図書室"
+        },
+        {
+          "@value": "コクリツケンキュウカイハツホウジン リカガクケンキュウショ セイメイキノウカガクケンキュウセンター トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "理研BDR"
+        },
+        {
+          "@value": "リケンBDR",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図"
+      ],
+      "cinii:memberid": "FA020872",
+      "cinii:organizationid": "KI006341",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "国立研究開発法人 理化学研究所 生命機能科学研究センター 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "650-0047",
+        "v:label": "兵庫県神戸市中央区港島南町2-2-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-306-3250"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-306-3248"
+        }
+      ],
+      "dc:description": [
+        "RIKEN BDR (Center for Biosystems Dynamics Research)",
+        "2-2-3, Minatojima-minamimachi, Chuo-ku, Kobe, Japan, 650-0047",
+        "※新型コロナウィルス感染拡大防止のため4/10より休館しております。当面の間、来館利用を停止させていただきます。",
+        "来館利用担当:図書室受付",
+        "電話番号:078-306-3250",
+        "受付時間:10:00〜16:30",
+        "複写時間:10:00〜16:30",
+        "持参書類:所属組織の図書館の紹介状, 身分証明書",
+        "所属機関の図書館等を通じて、事前に訪問希望日をご連絡ください。",
+        "制限事項:利用は図書館所蔵の図書、雑誌のみ、研究室所蔵分は利用不可",
+        "休館日:土日祝祭日,10月第4月曜日,12/28-1/4"
+      ]
+    }
+  ]
+}

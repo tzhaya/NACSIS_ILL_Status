@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA02793X.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA02793X#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA02793X.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "京都美術工芸大学 付属図書館 分館(東山)"
+        },
+        {
+          "@value": "キョウトビジュツコウゲイダイガク フゾクトショカン ブンカン(ヒガシヤマ)",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "京美大東山"
+        },
+        {
+          "@value": "キョウビダイヒガシヤマ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "東山"
+      ],
+      "cinii:memberid": "FA02793X",
+      "cinii:organizationid": "KI015080",
+      "cinii:prefcode": "26",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "N",
+      "cinii:loanservice": "N",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "京都美術工芸大学 付属図書館 分館(東山)",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "605-0991",
+        "v:label": "京都市東山区川端通七条上ル"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "075-533-6031"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "075-533-6036"
+        }
+      ]
+    }
+  ]
+}

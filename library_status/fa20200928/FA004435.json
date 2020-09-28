@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004435.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004435#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004435.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "富士大学 図書館"
+        },
+        {
+          "@value": "フジダイガク トショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "富士大"
+        },
+        {
+          "@value": "フジダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA004435",
+      "cinii:organizationid": "KI001508",
+      "cinii:prefcode": "03",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "富士大学 図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "025-8501",
+        "v:label": "岩手県花巻市下根子450-3"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "0198-22-4986 (直通)"
+        },
+        {
+          "@type": "v:Tel",
+          "@value": "0198-23-6221 (代表)"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "0198-23-6381"
+        }
+      ],
+      "dc:description": [
+        "Fuji University Library",
+        "450-3, Shimoneko, Hanamaki, Iwate 025-8501",
+        "電話番号:0198-22-4986",
+        "受付時間:8:45〜18:00",
+        "注意事項:資料の所在等、事前確認をしてください",
+        "持参書類:身分証明書",
+        "複写時間:8:45〜18:00",
+        "館外貸出:3冊以内15日以内",
+        "制限事項:貴重書・禁帯出図書・研究室貸出図書は貸出致しません",
+        "休館日:土曜日・日曜日・国民の祝日・12/23〜1/8・夏季講習休講日"
+      ]
+    }
+  ]
+}

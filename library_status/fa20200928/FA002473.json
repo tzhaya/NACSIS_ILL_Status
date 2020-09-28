@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA002473.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA002473#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA002473.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "名古屋大学 経済学 図書室"
+        },
+        {
+          "@value": "ナゴヤダイガク ケイザイガク トショシツ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "名大経"
+        },
+        {
+          "@value": "メイダイケイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "経済",
+        "経研セ"
+      ],
+      "cinii:memberid": "FA002473",
+      "cinii:organizationid": "KI000491",
+      "cinii:prefcode": "23",
+      "cinii:mextid": "004305",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "A",
+      "cinii:illstatus": "A",
+      "v:fn": "名古屋大学 経済学 図書室",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "464-8601",
+        "v:label": "愛知県名古屋市千種区不老町"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "052-789-2364"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "052-789-2359"
+        }
+      ],
+      "dc:description": [
+        "Economics Library, Nagoya University",
+        "Furo-cho, Chikusa-ku, Nagoya 464-8601",
+        "URL:https://www.nul.nagoya-u.ac.jp/eco/index-e.html",
+        "ILL-Dept:InterLibrary Loan Services",
+        "ILL-Org:Nagoya University Library",
+        "ILL-Commun1:Tel:+81-52-789-3682/FAX:+81-52-789-3694/E-mail:sogo@nul.nagoya-u.ac.jp",
+        "ILL-Accept:OCLC(NII-OCLC link):SYMBOL:YM#",
+        "来館利用担当:経済学図書室",
+        "電話番号:052-789-4922,2364",
+        "受付時間:9:00～17:00(月～金曜日)",
+        "注意事項:資料の閲覧をご希望の際は、事前に所在等をお問い合わせください。",
+        "注意事項:請求記号が「Rare」から始まる資料は貴重書のため、貸し出し、複写ともに不可。経済学図書室内で閲覧のみ可能。閲覧をご希望の場合は事前にお問い合わせください。",
+        "注意事項:車でのご来室はご遠慮ください。",
+        "持参書類:所属機関の図書(館)室の紹介状、または学生証等の身分証明書",
+        "館外貸し出し不可",
+        "休室日:土曜日、日曜日、国民の休日、年末年始(12/28～1/4)、夏季一斉休暇日、大学入試など",
+        "臨時休室は図書室のウェブサイトでご確認ください。"
+      ]
+    }
+  ]
+}

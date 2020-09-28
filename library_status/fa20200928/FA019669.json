@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA019669.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA019669#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA019669.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "関西国際大学 神戸山手キャンパス メディアライブラリー"
+        },
+        {
+          "@value": "カンサイコクサイダイガク コウベヤマテキャンパス メディアライブラリー",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "関西国際大"
+        },
+        {
+          "@value": "カンサイコクサイダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA019669",
+      "cinii:organizationid": "KI009849",
+      "cinii:prefcode": "28",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "N",
+      "v:fn": "関西国際大学 神戸山手キャンパス メディアライブラリー",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "650-0006",
+        "v:label": "神戸市中央区諏訪山町3番1号"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "078-362-6633"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "078-351-7191"
+        }
+      ],
+      "dc:description": [
+        "Kobe Yamate University Library",
+        "3-1 Suwayamacho, Chuo-ku, Kobe Japan, 650-0006",
+        "*** 文献複写*******************************",
+        "複写担当係 : 相互利用係",
+        "複写受付可否 : 可",
+        "研究室等で保管している資料へのご依頼には、原則対応できませんのでご了承ください。",
+        "***本学刊行・紀要について*******************************",
+        "本学刊行紀要(2006年以降発行)は、HPでご覧になれます。",
+        "本学刊行誌・論文リストURL:http://www.kobe-yamate.ac.jp/library/journal/",
+        "*** 文献貸借 *******************************",
+        "貸借担当係 : 相互利用係",
+        "貸借受付可否 : 可(一部不可)",
+        "研究室等で保管している資料へのご依頼には、原則対応できませんのでご了承ください。",
+        "*** 閲覧 *******************************",
+        "閲覧担当係 : 相互利用係",
+        "閲覧受付時間 : 10:00〜16:30/休業期間:10:00～16:00",
+        "事前連絡要。(来館予定日の3日前までにお願いいたします。)",
+        "公共交通機関をご利用ください。",
+        "持参書類 : 学生証、閲覧依頼書の写し",
+        "",
+        "閲覧注記 : 館外貸出不可",
+        "通常開館時間 : 9:00〜18:00",
+        "休業中開館時間: 9:00〜17:00",
+        "休館日 : 土・日・祝日・創立記念日、長期休業中の一定期間。その他 HPで確認してください。"
+      ]
+    }
+  ]
+}

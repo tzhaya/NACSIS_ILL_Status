@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA011929.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA011929#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA011929.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "東京大学 薬学図書館"
+        },
+        {
+          "@value": "トウキョウダイガク ヤクガクトショカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "東大薬"
+        },
+        {
+          "@value": "トウダイヤク",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図書",
+        "講座",
+        "施設"
+      ],
+      "cinii:memberid": "FA011929",
+      "cinii:organizationid": "KI000221",
+      "cinii:prefcode": "13",
+      "cinii:mextid": "002111",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "東京大学 薬学図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "113-0033",
+        "v:label": "東京都文京区本郷7-3-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "03-5841-4745"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "03-5841-4884"
+        }
+      ],
+      "dc:description": [
+        "Graduate School of Pharmaceutical Sciences, Pharmaceutical Sciences Library, the University of Tokyo",
+        "7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033",
+        "URL:http://www.lib.f.u-tokyo.ac.jp/",
+        "開館時間:平日 9:00-17:00",
+        "閲覧持参書類:不要",
+        "休館日:土・日・国民の祝日・年末年始",
+        "館外貸出:不可",
+        "ILL-Dept:InterLibrary Service Section",
+        "ILL-Org:Graduate School of Pharmaceutical Sciences, Pharmaceutical Sciences Library, University of Tokyo",
+        "ILL-Adress:7-3-1 Hongo, Bunkyo-ku, Tokyo, Japan",
+        "ILL-ZIP:113-0033",
+        "ILL-Contact1:Fax:+81-03-5841-4884 / E-mail:tosho@mol.f.u-tokyo.ac.jp",
+        "ILL-Contact2:OPAC:https://opac.dl.itc.u-tokyo.ac.jp/?lang=1 ; Website:https://www.lib.u-tokyo.ac.jp/en/library/contents/guide/pharmaceutical_sciences",
+        "ILL-Calender:Closed:Dec28-Jan4",
+        "ILL-Accept:International:LOAN:N/A",
+        "ILL-Accept:International:COPY:Yes(KERIS only)",
+        "ILL-Accept-method:Korea:KERIS=NII ILL Linkage(COPY only)",
+        "ILL-Payment-method:International:KERIS=NII Fee Manegement Service:Yes",
+        "ILL-Copy-Charge:40 JPY per sheet (Black & White) / 80 JPY per sheet (Color) and Postage",
+        "ILL-Copy-Delivery-method:Airmail",
+        "ILL-Note:Thesis:COPY:need the author's permission."
+      ]
+    }
+  ]
+}

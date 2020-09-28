@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004107.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004107#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004107.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "和歌山県立医科大学 図書館 紀三井寺館"
+        },
+        {
+          "@value": "ワカヤマケンリツイカダイガク トショカン キミイデラカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "和医大紀"
+        },
+        {
+          "@value": "ワイダイキ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "図",
+        "紀",
+        "薬図"
+      ],
+      "cinii:memberid": "FA004107",
+      "cinii:organizationid": "KI001202",
+      "cinii:prefcode": "30",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "和歌山県立医科大学 図書館 紀三井寺館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "641-8509",
+        "v:label": "和歌山市紀三井寺811-1"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "073-441-0787"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "073-441-0783"
+        }
+      ],
+      "dc:description": [
+        "Wakayama Medical University Library",
+        "811-1, Kimiidera, Wakayama-shi, Wakayama 641-8509",
+        "URL:http://www.wakayama-med.ac.jp (大学)",
+        "URL:https://opac.wakayama-med.ac.jp/drupal/ (図書館)",
+        "来館利用担当:カウンター",
+        "電話番号:073-441-0787",
+        "受付時間:平日9:00〜17:00",
+        "注意事項:資料の所在等,事前確認をしてください。",
+        "注意事項:学外者の方は館外貸出は出来ません。",
+        "持参書類:所属機関の紹介状・身分証明書・学生については学生証",
+        "複写時間:平日9:00〜17:00",
+        "館外貸出:不可",
+        "制限事項:医学研究目的の利用に限ります。",
+        "休館日:日曜日・祝日・年末年始(12/28〜1/4)"
+      ]
+    }
+  ]
+}

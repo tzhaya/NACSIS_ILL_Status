@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA003104.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA003104#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA003104.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "和歌山大学 附属図書館"
+        },
+        {
+          "@value": "ワカヤマダイガク フゾクトシヨカン",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "和大"
+        },
+        {
+          "@value": "ワダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "cinii:memberid": "FA003104",
+      "cinii:organizationid": "KI000673",
+      "cinii:prefcode": "30",
+      "cinii:mextid": "005800",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "N",
+      "cinii:illstatus": "A",
+      "v:fn": "和歌山大学 附属図書館",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "640-8510",
+        "v:label": "和歌山市栄谷930"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "073-457-7915"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "073-457-7900"
+        }
+      ],
+      "dc:description": [
+        "Wakayama University Library",
+        "930, Sakaedani, Wakayama City, Wakayama 640-8510",
+        "URL:https://www.wakayama-u.ac.jp/lib/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "v": "http://www.w3.org/2006/vcard/ns#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "cinii": "http://ci.nii.ac.jp/ns/1.0/"
+  },
+  "@id": "https://ci.nii.ac.jp/library/FA004592.json",
+  "@graph": [
+    {
+      "@id": "https://ci.nii.ac.jp/library/FA004592#entity",
+      "@type": [
+        "foaf:Organization",
+        "v:VCard"
+      ],
+      "foaf:isPrimaryTopicOf": {
+        "@id": "https://ci.nii.ac.jp/library/FA004592.json"
+      },
+      "foaf:name": [
+        {
+          "@value": "常磐大学 情報メディアセンター"
+        },
+        {
+          "@value": "トキワダイガク ジョウホウメディアセンター",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:alternative": [
+        {
+          "@value": "常磐大"
+        },
+        {
+          "@value": "トキワダイ",
+          "@language": "ja-hrkt"
+        }
+      ],
+      "dcterms:hasPart": [
+        "情図"
+      ],
+      "cinii:memberid": "FA004592",
+      "cinii:organizationid": "KI001632",
+      "cinii:prefcode": "08",
+      "cinii:catflag": "A",
+      "cinii:illflag": "A",
+      "cinii:copyservice": "A",
+      "cinii:loanservice": "A",
+      "cinii:faxservice": "C",
+      "cinii:illstatus": "A",
+      "v:fn": "常磐大学 情報メディアセンター",
+      "v:adr": {
+        "@type": "v:Address",
+        "v:postal-code": "310-8585",
+        "v:label": "茨城県水戸市見和1-430-1(Q棟3F)"
+      },
+      "v:tel": [
+        {
+          "@type": "v:Tel",
+          "@value": "029-232-2571"
+        }
+      ],
+      "v:fax": [
+        {
+          "@type": "v:Fax",
+          "@value": "029-232-2728"
+        }
+      ],
+      "dc:description": [
+        "Tokiwa University Media and Information Technology Center",
+        "1-430-1 Miwa, Mito-shi, Ibaraki-ken, 310-8585",
+        "URL:http://www.tokiwa.ac.jp/~tucmi/",
+        "URL:http://opac.library-tokiwa.jp (OPAC)",
+        "URL:http://www.tokiwa.ac.jp/access/index.html (map)",
+        "電話番号:029-232-2571",
+        "通常開館時間 :8:45〜19:30(土曜日:10:00〜17:00)",
+        "開館延長期間:",
+        "開館延長期間開館時間 :8:45〜21:00(土・日曜日:10:00〜18:00)",
+        "休業中開館時間:夏季・冬季・春季:9:00〜17:00(平日のみ)",
+        "注記:夏季・冬季・春季休業中は平日にも閉館日あり。",
+        "注記 :開館日程の詳細につきましては、当館ホームページよりご確認いただくか電話等で問い合わせをしてください。",
+        "問合せ受付時間 :9:00〜19:30 (土曜日:10:00〜17:00, 休業中(平日のみ): 9:00〜17:00)",
+        "注意事項 :必ず事前に問い合わせをしてください。車での来館はご遠慮ください。",
+        "持参書類 :資料利用依頼書(所属機関長発行のもの)および身分を証明するもの。",
+        "館外貸出 :不可",
+        "ILL-Org: Tokiwa University Media and Information Technology Center",
+        "ILL-Address: 1-430-1 Miwa, Mito-shi, Ibaraki-ken",
+        "ILL-ZIP: 310-8585"
+      ]
+    }
+  ]
+}
